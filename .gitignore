@@ -1,0 +1,5 @@
+%SystemDrive%/
+.claude/
+.playwright-mcp/
+tmp/
+node_modules/

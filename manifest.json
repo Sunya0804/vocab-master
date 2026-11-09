@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Vocab Master · 매일 쌓는 단어",
+  "short_name": "Vocab Master",
+  "description": "하루 20단어, 카드와 퀴즈로 익히는 한영 보카",
+  "lang": "ko",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f4",
+  "theme_color": "#157964",
+  "icons": [
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

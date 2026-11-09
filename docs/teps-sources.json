@@ -1,0 +1,124 @@
+{
+  "packageId": "teps",
+  "packageFile": "packages/teps.json",
+  "wordCount": 2000,
+  "reviewDate": "2026-11-09",
+  "authorship": {
+    "headwords": "공개 TEPS 자료의 일부 표제어·난이도 단서와 일반 영어 어휘 지식을 바탕으로 독자 선정. 출처 목록 전체의 선정·배열을 전사하지 않음.",
+    "definitions": "모든 한국어 뜻은 예문의 대표 의미에 맞추어 자체 작성. 외부 뜻풀이 문장 복제 없음.",
+    "examples": "영어 예문 2000개와 한국어 해석을 모두 자체 작성. 외부 예문·번역 및 기존 패키지 항목을 복사하지 않음."
+  },
+  "selectionPolicy": {
+    "coverage": [
+      "일상 대화·교통·예약·구매·학교·직장",
+      "정보 전달·연구·행정·사회생활",
+      "과학·환경·경제·정책",
+      "논증·평가·태도·문맥상 의미 구분"
+    ],
+    "frequency": "공개 TEPS 어휘 목록과 출판사 필수보카의 수록 여부를 정성적 중요도 단서로만 사용. 실제 기출 빈도 집계나 공식 빈도 순위라는 주장을 하지 않음.",
+    "difficulty": "친숙도, 의미의 추상성, 문어성 및 쓰임을 편집 판단하여 기초→기본→중급→고급→심화 순으로 배열. 공식 CEFR 판정이나 TEPS 점수/등급 환산 아님. 유사 난이도 내에는 관련 품사·주제 묶음이 있음.",
+    "levels": [
+      {
+        "name": "Lv1 기초",
+        "days": 20,
+        "dayStart": 1,
+        "dayEnd": 20,
+        "wordStart": 1,
+        "wordEnd": 400
+      },
+      {
+        "name": "Lv2 기본",
+        "days": 20,
+        "dayStart": 21,
+        "dayEnd": 40,
+        "wordStart": 401,
+        "wordEnd": 800
+      },
+      {
+        "name": "Lv3 중급",
+        "days": 20,
+        "dayStart": 41,
+        "dayEnd": 60,
+        "wordStart": 801,
+        "wordEnd": 1200
+      },
+      {
+        "name": "Lv4 고급",
+        "days": 20,
+        "dayStart": 61,
+        "dayEnd": 80,
+        "wordStart": 1201,
+        "wordEnd": 1600
+      },
+      {
+        "name": "Lv5 심화",
+        "days": 20,
+        "dayStart": 81,
+        "dayEnd": 100,
+        "wordStart": 1601,
+        "wordEnd": 2000
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "해커스 최신텝스 필수보카 300",
+      "publisher": "해커스어학연구소",
+      "url": "https://gscdn.hackers.co.kr/hackers/files/upload/new_teps_essential_300_voca_230727.pdf",
+      "type": "public_pdf",
+      "access": "공개 CDN에서 인증·결제 없이 다운로드 성공",
+      "localFile": "tmp/teps-research/hackers-teps-300.pdf",
+      "sha256": "8b2f7f54b99fe66cd2c0406eb0030fbc50fa13a30be0cf796ca4b7328d73c5db",
+      "use": "일부 표제어·동의어와 중고급 TEPS 어휘 범위를 확인. fertile, qualm, fortuitous, amenable, affable, apparatus, bolster, hackneyed, lucrative, reticent, taciturn 등 후보의 학습 필요성 및 상대 난이도 참고. 원문 예문·뜻풀이·번역·순서 미복제."
+    },
+    {
+      "title": "TEPS 3급 필수 어휘 (1) — 텝스 단어 349개 무료 PDF/공개 목록",
+      "publisher": "황소보카",
+      "url": "https://twibble.co/lessons/teps-beginner-01",
+      "type": "public_html_word_list",
+      "access": "웹 리더로 공개 목록 열람 성공. PDF는 다운로드하지 않음.",
+      "use": "address, advice, apply, attend, available 등 기초 후보와 입문 범위 확인. 해당 자료의 난이도 설명은 참고만 하며 자체 패키지의 등급으로 간주하지 않음. 한국어 뜻과 예문·번역은 별도 집필."
+    },
+    {
+      "title": "TEPS 시험안내 — New TEPS 시험구성 및 유형설명",
+      "publisher": "TEPS관리위원회",
+      "url": "https://www.teps.or.kr/Info/Teps",
+      "type": "official_exam_description",
+      "access": "공개 페이지 열람 성공",
+      "use": "구어체·문어체, 학술·전문 소재와 연어 관계를 평가한다는 시험 성격을 확인하여 일상 및 학술 문맥을 함께 선정. 시험 문항은 사용하지 않음."
+    }
+  ],
+  "skippedSources": [
+    {
+      "title": "TEPS 필수 영단어 전자책 소개",
+      "url": "https://twibble.co/ebooks/teps",
+      "reason": "검색 결과는 확인했으나 직접 열람에서 웹 리더 Internal Error. 추가 접근을 시도하지 않고 본문 미사용. 결제·인증 차단으로 확인된 것은 아님."
+    },
+    {
+      "title": "텝스 기출 영단어 PDF 1장",
+      "url": "https://twibble.co/lessons/teps-gichul-1200-ch01",
+      "reason": "직접 열람에서 웹 리더 Internal Error. 본문 미사용. 기출 빈도 순위의 검증 근거로 사용하지 않음."
+    },
+    {
+      "title": "고급 레슨 후보 URL",
+      "url": "https://twibble.co/lessons/teps-advanced",
+      "reason": "웹 리더로 접근 실패한 후보 URL. 자료 존재·유료 여부를 확인하지 못하여 미사용."
+    }
+  ],
+  "accessSummary": "유료 자료·로그인 전용 자료 사용 없음. 접근 제한 우회 없음. 다운로드 파일은 tmp/teps-research/에만 보관. 공개 접근을 재배포 허락으로 해석하지 않고 표제어 참고에 한정.",
+  "validation": {
+    "requiredCommandOutput": "2000 2000 true true 100 100",
+    "daySize": 20,
+    "totalDays": 100,
+    "levelDayTotal": 100,
+    "caseInsensitiveUniqueHeadwords": 2000,
+    "fiveNonemptyStringFields": true,
+    "allowedPartsOfSpeech": true,
+    "maxExampleWords": 8,
+    "over15WordExamples": 0,
+    "duplicateEnglishExamples": 0,
+    "targetForms": "표제어 및 규칙 활용형 검사. arose 및 overcame 등 불규칙 활용을 별도로 확인.",
+    "limitations": "난이도는 학습용 편집 판단이며 개별 단어의 체감 난이도에는 차이가 있을 수 있음."
+  },
+  "delivery": "packages/index.json 등록은 총괄 검수 후 수행. 이 작업에서 다른 패키지·코드·test/는 수정하지 않음."
+}

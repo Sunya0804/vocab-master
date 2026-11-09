@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "packageId": "suneung",
+  "reviewedOn": "2026-11-09",
+  "base": {
+    "entryCount": 2000,
+    "description": "기존 packages/suneung.json의 2,000개 표제어. 철자와 학습 기록 호환성을 위해 전부 유지했다."
+  },
+  "result": {
+    "entryCount": 3000,
+    "addedEntryCount": 1000,
+    "meaningCorrections": 30,
+    "headwordTyposCorrected": 0,
+    "days": 150,
+    "levelSizes": [560, 680, 740, 800, 220],
+    "levelDays": [28, 34, 37, 40, 11]
+  },
+  "method": {
+    "wordSelection": "공개 기출 지문의 영어 토큰 빈도와 기존 2,000개 대비 누락 여부를 함께 보아 신규 표제어 1,000개를 선정했다.",
+    "frequencyProxy": "16개 기출 PDF에서 문서 빈도(document frequency)와 총 출현 횟수를 계산했다. 특정 시험의 반복 출제로 과대평가되는 것을 줄이기 위해 문서 빈도를 우선 참고했다.",
+    "difficulty": "기존 패키지의 Lv1~Lv5 구간을 난이도 기준으로 유지하고, 신규 단어는 자체 판단한 난이도 밴드에 배치했다. 각 밴드 안에서는 기출 코퍼스 빈도(높을수록 쉬움)와 표제어 길이를 보조 지표로 정렬했다.",
+    "levelCut": "최종 레벨 크기는 560 / 680 / 740 / 800 / 220으로, 모두 20의 배수이며 Day 수 합(28+34+37+40+11=150)이 전체 Day 수와 같다.",
+    "meanings": "뜻풀이는 기존 항목을 검토해 다의어 뜻을 보강하거나 어색한 풀이를 고쳤고, 신규 항목은 직접 작성했다. 출판사 단어장의 뜻을 전재하지 않았다.",
+    "examples": "예문과 해석은 모두 직접 작성했다. 예문은 15단어 이내이며 표제어 또는 정상 활용형을 포함한다.",
+    "deduplication": "표제어를 소문자로 정규화해 중복을 검사했다. 기존 2,000개와 신규 1,000개 사이의 중복은 0건이다."
+  },
+  "primarySources": [
+    {
+      "name": "한국교육과정평가원 대학수학능력시험 기출문제 게시판",
+      "publisher": "한국교육과정평가원(KICE)",
+      "listUrl": "https://www.suneung.re.kr/boardCnts/list.do?boardID=1500234&m=0403&s=suneung",
+      "fileUrlPattern": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq={fileSeq}",
+      "access": "public",
+      "usage": "영어 영역 문제지 3회를 내려받아 영어 토큰 빈도 분석에만 사용했다. 지문 문장은 패키지에 전재하지 않았다.",
+      "materials": [
+        "2024학년도 대학수학능력시험 영어 영역 문제지 (boardSeq 5086091)",
+        "2025학년도 대학수학능력시험 영어 영역 문제지 (boardSeq 5089362)",
+        "2026학년도 대학수학능력시험 영어 영역 문제지 (boardSeq 5093799)"
+      ]
+    },
+    {
+      "name": "한국교육과정평가원 수능 모의평가 기출문제 게시판",
+      "publisher": "한국교육과정평가원(KICE)",
+      "listUrl": "https://www.suneung.re.kr/boardCnts/list.do?boardID=1500236&m=0403&s=suneung",
+      "fileUrlPattern": "https://www.suneung.re.kr/boardCnts/fileDown.do?fileSeq={fileSeq}",
+      "access": "public",
+      "usage": "2021~2027학년도 모의평가 영어 영역 문제지 13회를 내려받아 영어 토큰 빈도 분석에만 사용했다.",
+      "materials": [
+        "2021학년도 수능 모의평가 영어 영역 문제지 (boardSeq 5050886)",
+        "2022학년도 수능 모의평가 영어 영역 문제지 2회 (boardSeq 5063572, 5064693)",
+        "2023학년도 수능 모의평가 영어 영역 문제지 2회 (boardSeq 5076592, 5077481)",
+        "2024학년도 수능 모의평가 영어 영역 문제지 2회 (boardSeq 5084521, 5085155)",
+        "2025학년도 수능 모의평가 영어 영역 문제지 2회 (boardSeq 5086961, 5087695)",
+        "2026학년도 수능 모의평가 영어 영역 문제지 2회 (boardSeq 5090182, 5091403)",
+        "2027학년도 수능 모의평가 영어 영역 문제지 2회 (boardSeq 5095396, 5096541)"
+      ]
+    }
+  ],
+  "corpus": {
+    "documentCount": 16,
+    "englishTokenCount": 82595,
+    "uniqueSurfaceFormCount": 9002,
+    "newWordCoverage": "신규 1,000개 중 920개가 코퍼스에 1회 이상 출현했고, 786개가 2회 이상, 265개가 5회 이상 출현했다. 나머지 80개는 Lv4~Lv5 학술·고난도 어휘로 별도 판단해 추가했다.",
+    "extraction": "PyMuPDF로 PDF 텍스트를 추출한 뒤 [A-Za-z][A-Za-z'-]* 패턴으로 영어 토큰만 집계했다. 한국어 지시문과 숫자는 빈도 집계에서 제외했다.",
+    "localFiles": "tmp/suneung-research/kice/ (PDF 16개), tmp/suneung-research/extracted/ (추출 텍스트), tmp/suneung-research/freq.json (빈도 집계)",
+    "limitation": "기출 문제지는 표제어 목록이 아니라 지문 모음이므로, 이 코퍼스는 '수능 지문에서 실제로 쓰인 단어'의 빈도·난이도 참고 자료로만 사용했다. 어휘 목록 자체를 제공하는 자료는 아니었다."
+  },
+  "skippedSources": [
+    {
+      "name": "EBSi 부가자료실",
+      "url": "https://www.ebsi.co.kr/ebs/pot/potg/txbkAdtlDatList.ebs",
+      "reason": "자바스크립트와 세션 기반으로 목록이 구성되어 공개 URL만으로 어휘 파일을 직접 받을 수 없었다. 접근이 막힌 자료로 분류해 사용하지 않았다."
+    },
+    {
+      "name": "EBS 수능특강·수능완성 교재 PDF",
+      "reason": "유료·저작권 보호 교재이므로 내려받거나 전재하지 않았다."
+    },
+    {
+      "name": "Scribd·네이버 블로그 등 비공식 어휘 정리본",
+      "reason": "출처와 정확성을 보증할 수 없고 저작권 상태가 불분명해 단어 선정 근거로 쓰지 않았다."
+    },
+    {
+      "name": "교육청·학교 배포 수능 어휘 목록",
+      "reason": "공개 검색으로는 수능 어휘 목록을 담은 신뢰할 만한 공식 PDF를 찾지 못했다. 검색 결과의 일반 안내 자료는 어휘 목록이 아니어서 제외했다."
+    }
+  ],
+  "authorship": {
+    "koreanGlosses": "직접 작성. 기존 항목 30개의 뜻을 보강·수정하고, 신규 1,000개는 새로 작성했다.",
+    "exampleSentences": "직접 작성. 공개 기출 지문의 문장을 복사하지 않았다.",
+    "translations": "직접 작성.",
+    "publicMaterialUse": "단어 선정, 빈출도 추정, 난이도 밴드 결정에만 사용했다."
+  }
+}
