@@ -125,7 +125,7 @@
     ],
     [
       "avoid",
-      "방지하다",
+      "피하다, 모면하다",
       "동",
       "We would like to avoid unnecessary travel expenses.",
       "우리는 불필요한 출장비를 피하고 싶다."
@@ -139,7 +139,7 @@
     ],
     [
       "badly",
-      "심하게, 불친절하게, 몹시",
+      "몹시, 심하게, 서투르게",
       "부",
       "The old building badly needs new windows.",
       "그 오래된 건물은 새 창문이 몹시 필요하다."
@@ -867,10 +867,10 @@
     ],
     [
       "full-time work",
-      "정규직",
+      "전일제 근무, 상근",
       "명",
       "The report describes the full-time work in detail.",
-      "그 보고서는 정규직을 자세히 설명한다."
+      "그 보고서는 전일제 근무를 자세히 설명한다."
     ],
     [
       "furniture",
@@ -1392,7 +1392,7 @@
     ],
     [
       "menu",
-      "메뉴, 음식, 요리",
+      "메뉴, 차림표",
       "명",
       "The report describes the menu in detail.",
       "그 보고서는 메뉴를 자세히 설명한다."
@@ -4367,7 +4367,7 @@
     ],
     [
       "attack",
-      "공격하다",
+      "공격하다; (문제에) 착수하다",
       "동",
       "We intend to attack the problem from a new angle.",
       "우리는 새로운 관점에서 문제에 접근하고자 한다."
@@ -4836,7 +4836,7 @@
     ],
     [
       "brew",
-      "끓이다, 양조하다",
+      "양조하다, (커피를) 내리다",
       "동",
       "We decided to brew fresh coffee for the guests.",
       "우리는 손님들을 위해 신선한 커피를 내리기로 했다."
@@ -5116,7 +5116,7 @@
     ],
     [
       "category",
-      "범주, 부분",
+      "범주, 부류",
       "명",
       "The report describes the category in detail.",
       "그 보고서는 범주를 자세히 설명한다."
@@ -6034,9 +6034,9 @@
     [
       "dressed in a suit",
       "정장을 입은",
-      "명",
-      "The report describes the dressed in a suit in detail.",
-      "그 보고서는 정장을 입은을 자세히 설명한다."
+      "형",
+      "The manager was dressed in a suit for the interview.",
+      "그 관리자는 면접을 위해 정장을 입고 있었다."
     ],
     [
       "drive up",
@@ -6146,7 +6146,7 @@
     [
       "effective",
       "효과적인; 시행 중인",
-      "명/형",
+      "형",
       "The manager described the proposal as effective.",
       "관리자는 그 제안이 효과적인 것이라고 설명했다."
     ],
@@ -6264,7 +6264,7 @@
     ],
     [
       "estimated",
-      "견적의, 추측의",
+      "추정된, 예상된",
       "형",
       "We reviewed the estimated report at the meeting.",
       "우리는 회의에서 견적의 보고서를 검토했다."
@@ -6384,9 +6384,9 @@
     [
       "face to face",
       "서로 얼굴을 맞대고",
-      "명",
-      "The report describes the face to face in detail.",
-      "그 보고서는 서로 얼굴을 맞대고를 자세히 설명한다."
+      "부",
+      "We discussed the schedule face to face.",
+      "우리는 일정을 얼굴을 맞대고 논의했다."
     ],
     [
       "facility",
@@ -7006,7 +7006,7 @@
     ],
     [
       "give directions",
-      "일을 지시하다, 방향을 알려주다",
+      "방향을 알려주다, 길을 안내하다",
       "동",
       "We agreed to give directions to visitors at the information desk.",
       "우리는 안내 데스크에서 방문객들에게 길을 알려 주기로 합의했다."
@@ -8742,7 +8742,7 @@
     ],
     [
       "parking garage",
-      "차고",
+      "주차장",
       "명",
       "The report describes the parking garage in detail.",
       "그 보고서는 차고를 자세히 설명한다."
@@ -9365,10 +9365,10 @@
     ],
     [
       "release date",
-      "발표 일시",
+      "출시일, 발표일",
       "명",
       "The report describes the release date in detail.",
-      "그 보고서는 발표 일시를 자세히 설명한다."
+      "그 보고서는 출시일을 자세히 설명한다."
     ],
     [
       "rely on",
@@ -9386,10 +9386,10 @@
     ],
     [
       "reminder",
-      "생각나게 하는 사람, 기념품",
+      "알림, 상기시키는 것",
       "명",
       "The report describes the reminder in detail.",
-      "그 보고서는 생각나게 하는 사람을 자세히 설명한다."
+      "그 보고서는 알림을 자세히 설명한다."
     ],
     [
       "rental car",
@@ -9827,7 +9827,7 @@
     ],
     [
       "show up",
-      "나타나다, 돋보이게 하다",
+      "나타나다, 도착하다",
       "동",
       "We agreed to show up early for the orientation.",
       "우리는 안내 교육에 일찍 참석하기로 합의했다."
@@ -10646,10 +10646,10 @@
     ],
     [
       "time-off",
-      "결석, 휴가",
+      "휴가, 쉬는 시간",
       "명",
       "The report describes the time-off in detail.",
-      "그 보고서는 결석을 자세히 설명한다."
+      "그 보고서는 휴가를 자세히 설명한다."
     ],
     [
       "timetable",
@@ -11101,7 +11101,7 @@
     ],
     [
       "wipe off",
-      "~을 없애다",
+      "닦아 내다",
       "동",
       "We intend to wipe off the dust before applying the label.",
       "우리는 라벨을 붙이기 전에 먼지를 닦아 내고자 한다."
@@ -14832,7 +14832,7 @@
     ],
     [
       "abundantly",
-      "풍부하게, 아주 분명하게",
+      "풍부하게, 매우",
       "부",
       "The manager made the safety requirements abundantly clear.",
       "관리자는 안전 요건을 아주 분명하게 밝혔다."
@@ -14895,7 +14895,7 @@
     ],
     [
       "account payable",
-      "지급 계정",
+      "미지급금, 외상 매입금",
       "명",
       "The report describes the account payable in detail.",
       "그 보고서는 지급 계정을 자세히 설명한다."
@@ -15966,7 +15966,7 @@
     ],
     [
       "body of water",
-      "물줄기",
+      "수역",
       "명",
       "The report describes the body of water in detail.",
       "그 보고서는 물줄기를 자세히 설명한다."
@@ -16274,7 +16274,7 @@
     ],
     [
       "caterer",
-      "요리 조달자",
+      "출장 요리업자, 케이터링 업체",
       "명",
       "The report describes the caterer in detail.",
       "그 보고서는 요리 조달자를 자세히 설명한다."
@@ -16400,7 +16400,7 @@
     ],
     [
       "cite",
-      "언급하다",
+      "인용하다",
       "동",
       "We intend to cite the latest survey in our report.",
       "우리는 보고서에서 최신 설문 조사를 인용하고자 한다."
@@ -16771,7 +16771,7 @@
     ],
     [
       "conjunction",
-      "연합, 공동",
+      "결합, 접속사",
       "명",
       "The report describes the conjunction in detail.",
       "그 보고서는 연합을 자세히 설명한다."
@@ -17037,7 +17037,7 @@
     ],
     [
       "countertop",
-      "계산대, 조리대",
+      "조리대, 작업대",
       "명",
       "The report describes the countertop in detail.",
       "그 보고서는 계산대를 자세히 설명한다."
@@ -17555,7 +17555,7 @@
     ],
     [
       "distinction",
-      "뛰어남, 우수성",
+      "구별, 차이; 우수성",
       "명",
       "The report describes the distinction in detail.",
       "그 보고서는 뛰어남을 자세히 설명한다."
@@ -17569,7 +17569,7 @@
     ],
     [
       "distraction",
-      "집중을 방해하는 것, 머리를 식히게 하는 것",
+      "집중을 방해하는 것, 주의 산만",
       "명",
       "The report describes the distraction in detail.",
       "그 보고서는 집중을 방해하는 것을 자세히 설명한다."
@@ -18283,7 +18283,7 @@
     ],
     [
       "financial history",
-      "신용 거래 실적",
+      "재무 이력, 금융 거래 내역",
       "명",
       "The report describes the financial history in detail.",
       "그 보고서는 신용 거래 실적을 자세히 설명한다."
@@ -18423,7 +18423,7 @@
     ],
     [
       "fluid",
-      "액체, 마실 것",
+      "액체, 유체",
       "명",
       "The report describes the fluid in detail.",
       "그 보고서는 액체를 자세히 설명한다."
@@ -18591,7 +18591,7 @@
     ],
     [
       "fringe benefits",
-      "부가 급부",
+      "부가 복리후생, 부수 혜택",
       "명",
       "The report describes the fringe benefits in detail.",
       "그 보고서는 부가 급부를 자세히 설명한다."
@@ -19718,14 +19718,14 @@
     ],
     [
       "indefinitely",
-      "불명확하게, 무기한으로",
+      "무기한으로, 막연히",
       "부",
       "The renovation has been postponed indefinitely.",
       "보수 공사는 무기한 연기되었다."
     ],
     [
       "indicated",
-      "계기에 표시된",
+      "표시된, 지적된",
       "형",
       "The team discussed the indicated documents at the meeting.",
       "팀은 회의에서 계기에 표시된 문서에 관해 논의했다."
@@ -20838,7 +20838,7 @@
     ],
     [
       "makeup",
-      "조립, 구성",
+      "구성, 화장",
       "명",
       "The report describes the makeup in detail.",
       "그 보고서는 조립을 자세히 설명한다."
@@ -21475,7 +21475,7 @@
     ],
     [
       "off the shore",
-      "해안에",
+      "해안에서 떨어진",
       "부",
       "The survey boat is anchored just off the shore.",
       "조사선은 해안에서 조금 떨어진 곳에 정박해 있다."
@@ -21839,7 +21839,7 @@
     ],
     [
       "overnight express",
-      "심야 고속",
+      "야간 특송, 심야 특급",
       "명",
       "The report describes the overnight express in detail.",
       "그 보고서는 심야 고속을 자세히 설명한다."
@@ -21853,7 +21853,7 @@
     ],
     [
       "overtime rate",
-      "초과 근무 수당",
+      "초과 근무 수당률, 시간외 근무 요율",
       "명",
       "The report describes the overtime rate in detail.",
       "그 보고서는 초과 근무 수당을 자세히 설명한다."
@@ -22511,7 +22511,7 @@
     ],
     [
       "profit margin",
-      "이윤 차액",
+      "이윤 폭, 마진",
       "명",
       "We reviewed the profit margin before finalizing the budget.",
       "우리는 예산을 확정하기 전에 이윤 차액을 검토했다."
@@ -22581,7 +22581,7 @@
     ],
     [
       "proportion",
-      "부분, 몫",
+      "비율, 비례",
       "명",
       "The report describes the proportion in detail.",
       "그 보고서는 부분을 자세히 설명한다."
@@ -23127,7 +23127,7 @@
     ],
     [
       "remark",
-      "주의하다, 말하다",
+      "말하다, 언급하다",
       "동",
       "The supervisor remarked that the new layout was more efficient.",
       "감독자는 새 배치가 더 효율적이라고 말했다."
@@ -23484,7 +23484,7 @@
     ],
     [
       "sales target",
-      "판매 대상, 판매 목표",
+      "판매 목표",
       "명",
       "The report describes the sales target in detail.",
       "그 보고서는 판매 대상을 자세히 설명한다."
@@ -23925,7 +23925,7 @@
     ],
     [
       "slowdown",
-      "경기 후퇴",
+      "둔화, 감속",
       "명",
       "The report describes the slowdown in detail.",
       "그 보고서는 경기 후퇴를 자세히 설명한다."
@@ -24079,7 +24079,7 @@
     ],
     [
       "stacks of books",
-      "서고, 서가",
+      "책 더미",
       "명",
       "The report describes the stacks of books in detail.",
       "그 보고서는 서고를 자세히 설명한다."
@@ -25234,7 +25234,7 @@
     ],
     [
       "vary from A to B",
-      "상황에 따라 다르다",
+      "A에서 B까지 다양하다",
       "동",
       "Delivery times vary from region to region.",
       "배송 시간은 지역마다 다르다."
@@ -25304,10 +25304,10 @@
     ],
     [
       "wagon",
-      "화물 기차",
+      "짐수레, 마차",
       "명",
-      "The chef prepared the wagon for the guests.",
-      "요리사는 손님들을 위해 화물 기차를 준비했다."
+      "They loaded the wagon with fresh produce.",
+      "그들은 짐수레에 신선한 농산물을 실었다."
     ],
     [
       "wait on",
@@ -25465,7 +25465,7 @@
     ],
     [
       "windshield",
-      "바람막이 창",
+      "자동차 앞유리",
       "명",
       "The report describes the windshield in detail.",
       "그 보고서는 바람막이 창을 자세히 설명한다."
@@ -25577,7 +25577,7 @@
     ],
     [
       "written authorization",
-      "서면 결재",
+      "서면 승인, 서면 위임",
       "명",
       "Please review the written authorization before submitting it.",
       "제출하기 전에 서면 결재를 검토해 주세요."
@@ -26754,9 +26754,9 @@
     [
       "dusty",
       "먼지가 쌓인",
-      "명",
-      "The report describes the dusty in detail.",
-      "그 보고서는 먼지가 쌓인을 자세히 설명한다."
+      "형",
+      "The shelves were dusty after the renovation.",
+      "그 선반들은 보수 공사 후 먼지가 쌓여 있었다."
     ],
     [
       "earnings",
@@ -27159,7 +27159,7 @@
     ],
     [
       "fraud",
-      "사기, 사기꾼",
+      "사기, 사기 행위",
       "명",
       "The report describes the fraud in detail.",
       "그 보고서는 사기를 자세히 설명한다."
@@ -30288,7 +30288,7 @@
     ],
     [
       "constituency",
-      "단골, 고객층, 선거구, 유권자",
+      "선거구, 지지자층",
       "명",
       "The report describes the constituency in detail.",
       "그 보고서는 단골을 자세히 설명한다."
@@ -30428,10 +30428,10 @@
     ],
     [
       "cultivation",
-      "우호 증진, 양성",
+      "경작, 재배; 함양",
       "명",
       "The report describes the cultivation in detail.",
-      "그 보고서는 우호 증진을 자세히 설명한다."
+      "그 보고서는 경작을 자세히 설명한다."
     ],
     [
       "curb",
@@ -30694,7 +30694,7 @@
     ],
     [
       "directive",
-      "지시하는, 지배적인",
+      "지시적인; 지시, 명령",
       "형/명",
       "The supervisor adopted a more directive approach to training.",
       "감독자는 교육에 더욱 지시적인 접근 방식을 택했다."
@@ -31192,9 +31192,9 @@
     [
       "flammable",
       "타기 쉬운",
-      "명",
-      "The report describes the flammable in detail.",
-      "그 보고서는 타기 쉬운을 자세히 설명한다."
+      "형",
+      "Keep flammable materials away from the heater.",
+      "인화성 물질을 히터에서 멀리 두세요."
     ],
     [
       "flawless",
@@ -31674,7 +31674,7 @@
     ],
     [
       "jingle",
-      "시엠송 (광고 선전용 노래)",
+      "광고 노래(CM송)",
       "명",
       "The report describes the jingle in detail.",
       "그 보고서는 시엠송을 자세히 설명한다."
@@ -31969,13 +31969,13 @@
     [
       "modest",
       "겸손한; 크지 않은",
-      "명/형",
+      "형",
       "The team discussed the modest employees at the meeting.",
       "팀은 회의에서 겸손한 직원에 관해 논의했다."
     ],
     [
       "momentum",
-      "추진력, 탄성",
+      "추진력, 운동량",
       "명",
       "The report describes the momentum in detail.",
       "그 보고서는 추진력을 자세히 설명한다."
@@ -32619,7 +32619,7 @@
     ],
     [
       "progressively",
-      "계속해서",
+      "점진적으로, 차츰",
       "부",
       "The instructions become progressively more detailed in later chapters.",
       "뒤쪽 장으로 갈수록 지침은 점점 더 자세해진다."

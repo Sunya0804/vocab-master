@@ -1,0 +1,643 @@
+{
+  "entries": [
+    {
+      "index": 17,
+      "en": "avoid",
+      "field": "ko",
+      "before": "방지하다",
+      "after": "피하다, 모면하다",
+      "reason": "예문·해석은 출장비를 피한다는 뜻"
+    },
+    {
+      "index": 19,
+      "en": "badly",
+      "field": "ko",
+      "before": "심하게, 불친절하게, 몹시",
+      "after": "몹시, 심하게, 서투르게",
+      "reason": "badly에 불친절하다는 뜻 없음"
+    },
+    {
+      "index": 123,
+      "en": "full-time work",
+      "field": "ko",
+      "before": "정규직",
+      "after": "전일제 근무, 상근",
+      "reason": "full-time work는 근무 형태, 정규직은 고용 신분"
+    },
+    {
+      "index": 123,
+      "en": "full-time work",
+      "field": "exKo",
+      "before": "그 보고서는 정규직을 자세히 설명한다.",
+      "after": "그 보고서는 전일제 근무를 자세히 설명한다.",
+      "reason": "ko 수정에 맞춘 해석"
+    },
+    {
+      "index": 198,
+      "en": "menu",
+      "field": "ko",
+      "before": "메뉴, 음식, 요리",
+      "after": "메뉴, 차림표",
+      "reason": "menu에 음식·요리라는 뜻 없음"
+    },
+    {
+      "index": 623,
+      "en": "attack",
+      "field": "ko",
+      "before": "공격하다",
+      "after": "공격하다; (문제에) 착수하다",
+      "reason": "예문 attack the problem은 착수·접근 의미"
+    },
+    {
+      "index": 690,
+      "en": "brew",
+      "field": "ko",
+      "before": "끓이다, 양조하다",
+      "after": "양조하다, (커피를) 내리다",
+      "reason": "brew coffee는 내리다이고 끓이다(boil)와 다름"
+    },
+    {
+      "index": 730,
+      "en": "category",
+      "field": "ko",
+      "before": "범주, 부분",
+      "after": "범주, 부류",
+      "reason": "category에 부분이라는 뜻 없음"
+    },
+    {
+      "index": 861,
+      "en": "dressed in a suit",
+      "field": "pos",
+      "before": "명",
+      "after": "형",
+      "reason": "dressed in a suit는 형용사구"
+    },
+    {
+      "index": 861,
+      "en": "dressed in a suit",
+      "field": "ex",
+      "before": "The report describes the dressed in a suit in detail.",
+      "after": "The manager was dressed in a suit for the interview.",
+      "reason": "관사 뒤 형용사구가 온 비문 수정"
+    },
+    {
+      "index": 861,
+      "en": "dressed in a suit",
+      "field": "exKo",
+      "before": "그 보고서는 정장을 입은을 자세히 설명한다.",
+      "after": "그 관리자는 면접을 위해 정장을 입고 있었다.",
+      "reason": "새 예문에 맞춘 해석"
+    },
+    {
+      "index": 877,
+      "en": "effective",
+      "field": "pos",
+      "before": "명/형",
+      "after": "형",
+      "reason": "effective는 형용사이며 명사 용법 없음"
+    },
+    {
+      "index": 894,
+      "en": "estimated",
+      "field": "ko",
+      "before": "견적의, 추측의",
+      "after": "추정된, 예상된",
+      "reason": "estimated는 형용사로 견적(estimate)과 구별"
+    },
+    {
+      "index": 911,
+      "en": "face to face",
+      "field": "pos",
+      "before": "명",
+      "after": "부",
+      "reason": "face to face는 부사구"
+    },
+    {
+      "index": 911,
+      "en": "face to face",
+      "field": "ex",
+      "before": "The report describes the face to face in detail.",
+      "after": "We discussed the schedule face to face.",
+      "reason": "명사 자리에 부사구가 온 비문 수정"
+    },
+    {
+      "index": 911,
+      "en": "face to face",
+      "field": "exKo",
+      "before": "그 보고서는 서로 얼굴을 맞대고를 자세히 설명한다.",
+      "after": "우리는 일정을 얼굴을 맞대고 논의했다.",
+      "reason": "새 예문에 맞춘 해석"
+    },
+    {
+      "index": 1000,
+      "en": "give directions",
+      "field": "ko",
+      "before": "일을 지시하다, 방향을 알려주다",
+      "after": "방향을 알려주다, 길을 안내하다",
+      "reason": "예문은 방문객에게 길을 안내하는 뜻"
+    },
+    {
+      "index": 1248,
+      "en": "parking garage",
+      "field": "ko",
+      "before": "차고",
+      "after": "주차장",
+      "reason": "parking garage는 주차용 건물"
+    },
+    {
+      "index": 1337,
+      "en": "release date",
+      "field": "ko",
+      "before": "발표 일시",
+      "after": "출시일, 발표일",
+      "reason": "release date는 날짜이고 일시는 시각까지 포함"
+    },
+    {
+      "index": 1337,
+      "en": "release date",
+      "field": "exKo",
+      "before": "그 보고서는 발표 일시를 자세히 설명한다.",
+      "after": "그 보고서는 출시일을 자세히 설명한다.",
+      "reason": "ko 수정에 맞춘 해석"
+    },
+    {
+      "index": 1340,
+      "en": "reminder",
+      "field": "ko",
+      "before": "생각나게 하는 사람, 기념품",
+      "after": "알림, 상기시키는 것",
+      "reason": "reminder에 기념품(souvenir) 뜻 없음"
+    },
+    {
+      "index": 1340,
+      "en": "reminder",
+      "field": "exKo",
+      "before": "그 보고서는 생각나게 하는 사람을 자세히 설명한다.",
+      "after": "그 보고서는 알림을 자세히 설명한다.",
+      "reason": "ko 수정에 맞춘 해석"
+    },
+    {
+      "index": 1403,
+      "en": "show up",
+      "field": "ko",
+      "before": "나타나다, 돋보이게 하다",
+      "after": "나타나다, 도착하다",
+      "reason": "돋보이게 하다는 show off의 뜻"
+    },
+    {
+      "index": 1520,
+      "en": "time-off",
+      "field": "ko",
+      "before": "결석, 휴가",
+      "after": "휴가, 쉬는 시간",
+      "reason": "time-off는 근무를 쉬는 휴가이고 결석(absence)과 다름"
+    },
+    {
+      "index": 1520,
+      "en": "time-off",
+      "field": "exKo",
+      "before": "그 보고서는 결석을 자세히 설명한다.",
+      "after": "그 보고서는 휴가를 자세히 설명한다.",
+      "reason": "ko 수정에 맞춘 해석"
+    },
+    {
+      "index": 1585,
+      "en": "wipe off",
+      "field": "ko",
+      "before": "~을 없애다",
+      "after": "닦아 내다",
+      "reason": "예문은 먼지를 닦아 내는 뜻"
+    },
+    {
+      "index": 2118,
+      "en": "abundantly",
+      "field": "ko",
+      "before": "풍부하게, 아주 분명하게",
+      "after": "풍부하게, 매우",
+      "reason": "abundantly에 아주 분명하다는 뜻 없음"
+    },
+    {
+      "index": 2127,
+      "en": "account payable",
+      "field": "ko",
+      "before": "지급 계정",
+      "after": "미지급금, 외상 매입금",
+      "reason": "account payable은 기업의 매입 채무"
+    },
+    {
+      "index": 2280,
+      "en": "body of water",
+      "field": "ko",
+      "before": "물줄기",
+      "after": "수역",
+      "reason": "body of water는 호수·바다 같은 수역"
+    },
+    {
+      "index": 2324,
+      "en": "caterer",
+      "field": "ko",
+      "before": "요리 조달자",
+      "after": "출장 요리업자, 케이터링 업체",
+      "reason": "caterer는 행사 음식을 제공하는 업체·사람"
+    },
+    {
+      "index": 2342,
+      "en": "cite",
+      "field": "ko",
+      "before": "언급하다",
+      "after": "인용하다",
+      "reason": "예문은 설문 조사를 인용한다는 뜻"
+    },
+    {
+      "index": 2395,
+      "en": "conjunction",
+      "field": "ko",
+      "before": "연합, 공동",
+      "after": "결합, 접속사",
+      "reason": "conjunction에 연합이라는 뜻은 부적절"
+    },
+    {
+      "index": 2433,
+      "en": "countertop",
+      "field": "ko",
+      "before": "계산대, 조리대",
+      "after": "조리대, 작업대",
+      "reason": "countertop은 조리대이고 계산대는 counter"
+    },
+    {
+      "index": 2507,
+      "en": "distinction",
+      "field": "ko",
+      "before": "뛰어남, 우수성",
+      "after": "구별, 차이; 우수성",
+      "reason": "distinction의 핵심 뜻인 구별·차이가 빠짐"
+    },
+    {
+      "index": 2509,
+      "en": "distraction",
+      "field": "ko",
+      "before": "집중을 방해하는 것, 머리를 식히게 하는 것",
+      "after": "집중을 방해하는 것, 주의 산만",
+      "reason": "distraction에 머리를 식히게 한다는 뜻 없음"
+    },
+    {
+      "index": 2611,
+      "en": "financial history",
+      "field": "ko",
+      "before": "신용 거래 실적",
+      "after": "재무 이력, 금융 거래 내역",
+      "reason": "financial history는 재무 이력이고 신용 실적(credit history)과 구별"
+    },
+    {
+      "index": 2631,
+      "en": "fluid",
+      "field": "ko",
+      "before": "액체, 마실 것",
+      "after": "액체, 유체",
+      "reason": "fluid에 마실 것이라는 뜻 없음"
+    },
+    {
+      "index": 2655,
+      "en": "fringe benefits",
+      "field": "ko",
+      "before": "부가 급부",
+      "after": "부가 복리후생, 부수 혜택",
+      "reason": "fringe benefits는 급여 외 복리후생"
+    },
+    {
+      "index": 2816,
+      "en": "indefinitely",
+      "field": "ko",
+      "before": "불명확하게, 무기한으로",
+      "after": "무기한으로, 막연히",
+      "reason": "indefinitely의 핵심은 기한 없음"
+    },
+    {
+      "index": 2817,
+      "en": "indicated",
+      "field": "ko",
+      "before": "계기에 표시된",
+      "after": "표시된, 지적된",
+      "reason": "indicated에 계기라는 한정된 뜻 없음"
+    },
+    {
+      "index": 2976,
+      "en": "makeup",
+      "field": "ko",
+      "before": "조립, 구성",
+      "after": "구성, 화장",
+      "reason": "makeup에 조립이라는 뜻 없음"
+    },
+    {
+      "index": 3067,
+      "en": "off the shore",
+      "field": "ko",
+      "before": "해안에",
+      "after": "해안에서 떨어진",
+      "reason": "예문은 해안에서 조금 떨어진 곳에 정박"
+    },
+    {
+      "index": 3119,
+      "en": "overnight express",
+      "field": "ko",
+      "before": "심야 고속",
+      "after": "야간 특송, 심야 특급",
+      "reason": "overnight express는 야간 특송 서비스"
+    },
+    {
+      "index": 3121,
+      "en": "overtime rate",
+      "field": "ko",
+      "before": "초과 근무 수당",
+      "after": "초과 근무 수당률, 시간외 근무 요율",
+      "reason": "rate는 요율이고 수당(allowance)과 다름"
+    },
+    {
+      "index": 3215,
+      "en": "profit margin",
+      "field": "ko",
+      "before": "이윤 차액",
+      "after": "이윤 폭, 마진",
+      "reason": "profit margin은 이윤율·마진"
+    },
+    {
+      "index": 3225,
+      "en": "proportion",
+      "field": "ko",
+      "before": "부분, 몫",
+      "after": "비율, 비례",
+      "reason": "proportion은 비율·비례이고 portion(부분)과 다름"
+    },
+    {
+      "index": 3303,
+      "en": "remark",
+      "field": "ko",
+      "before": "주의하다, 말하다",
+      "after": "말하다, 언급하다",
+      "reason": "remark에 주의하다는 뜻 없음"
+    },
+    {
+      "index": 3354,
+      "en": "sales target",
+      "field": "ko",
+      "before": "판매 대상, 판매 목표",
+      "after": "판매 목표",
+      "reason": "sales target은 목표이고 판매 대상과 다름"
+    },
+    {
+      "index": 3417,
+      "en": "slowdown",
+      "field": "ko",
+      "before": "경기 후퇴",
+      "after": "둔화, 감속",
+      "reason": "slowdown은 둔화이고 경기 후퇴(recession)와 구별"
+    },
+    {
+      "index": 3439,
+      "en": "stacks of books",
+      "field": "ko",
+      "before": "서고, 서가",
+      "after": "책 더미",
+      "reason": "stacks of books는 책더미이고 서고(archive)와 다름"
+    },
+    {
+      "index": 3604,
+      "en": "vary from A to B",
+      "field": "ko",
+      "before": "상황에 따라 다르다",
+      "after": "A에서 B까지 다양하다",
+      "reason": "예문은 지역마다 배송 시간이 다르다는 뜻"
+    },
+    {
+      "index": 3614,
+      "en": "wagon",
+      "field": "ko",
+      "before": "화물 기차",
+      "after": "짐수레, 마차",
+      "reason": "wagon은 짐수레·마차이고 화물 기차(freight train)와 다름"
+    },
+    {
+      "index": 3614,
+      "en": "wagon",
+      "field": "ex",
+      "before": "The chef prepared the wagon for the guests.",
+      "after": "They loaded the wagon with fresh produce.",
+      "reason": "요리사가 화물차를 준비한다는 뜻이 맞지 않는 예문"
+    },
+    {
+      "index": 3614,
+      "en": "wagon",
+      "field": "exKo",
+      "before": "요리사는 손님들을 위해 화물 기차를 준비했다.",
+      "after": "그들은 짐수레에 신선한 농산물을 실었다.",
+      "reason": "새 예문에 맞춘 해석"
+    },
+    {
+      "index": 3637,
+      "en": "windshield",
+      "field": "ko",
+      "before": "바람막이 창",
+      "after": "자동차 앞유리",
+      "reason": "windshield는 차량 앞유리"
+    },
+    {
+      "index": 3653,
+      "en": "written authorization",
+      "field": "ko",
+      "before": "서면 결재",
+      "after": "서면 승인, 서면 위임",
+      "reason": "authorization은 승인·위임이고 결재와 다름"
+    },
+    {
+      "index": 3821,
+      "en": "dusty",
+      "field": "pos",
+      "before": "명",
+      "after": "형",
+      "reason": "dusty는 형용사"
+    },
+    {
+      "index": 3821,
+      "en": "dusty",
+      "field": "ex",
+      "before": "The report describes the dusty in detail.",
+      "after": "The shelves were dusty after the renovation.",
+      "reason": "형용사를 명사 자리에 쓴 비문 수정"
+    },
+    {
+      "index": 3821,
+      "en": "dusty",
+      "field": "exKo",
+      "before": "그 보고서는 먼지가 쌓인을 자세히 설명한다.",
+      "after": "그 선반들은 보수 공사 후 먼지가 쌓여 있었다.",
+      "reason": "새 예문에 맞춘 해석"
+    },
+    {
+      "index": 3879,
+      "en": "fraud",
+      "field": "ko",
+      "before": "사기, 사기꾼",
+      "after": "사기, 사기 행위",
+      "reason": "fraud는 행위이고 사기꾼(fraudster)과 다름"
+    },
+    {
+      "index": 4326,
+      "en": "constituency",
+      "field": "ko",
+      "before": "단골, 고객층, 선거구, 유권자",
+      "after": "선거구, 지지자층",
+      "reason": "constituency에 단골·고객층이라는 뜻 없음"
+    },
+    {
+      "index": 4346,
+      "en": "cultivation",
+      "field": "ko",
+      "before": "우호 증진, 양성",
+      "after": "경작, 재배; 함양",
+      "reason": "cultivation은 경작·함양이고 우호 증진과 다름"
+    },
+    {
+      "index": 4346,
+      "en": "cultivation",
+      "field": "exKo",
+      "before": "그 보고서는 우호 증진을 자세히 설명한다.",
+      "after": "그 보고서는 경작을 자세히 설명한다.",
+      "reason": "ko 수정에 맞춘 해석"
+    },
+    {
+      "index": 4384,
+      "en": "directive",
+      "field": "ko",
+      "before": "지시하는, 지배적인",
+      "after": "지시적인; 지시, 명령",
+      "reason": "directive의 핵심 명사 뜻인 지시·명령이 빠짐"
+    },
+    {
+      "index": 4455,
+      "en": "flammable",
+      "field": "pos",
+      "before": "명",
+      "after": "형",
+      "reason": "flammable은 형용사"
+    },
+    {
+      "index": 4455,
+      "en": "flammable",
+      "field": "ex",
+      "before": "The report describes the flammable in detail.",
+      "after": "Keep flammable materials away from the heater.",
+      "reason": "형용사를 명사 자리에 쓴 비문 수정"
+    },
+    {
+      "index": 4455,
+      "en": "flammable",
+      "field": "exKo",
+      "before": "그 보고서는 타기 쉬운을 자세히 설명한다.",
+      "after": "인화성 물질을 히터에서 멀리 두세요.",
+      "reason": "새 예문에 맞춘 해석"
+    },
+    {
+      "index": 4524,
+      "en": "jingle",
+      "field": "ko",
+      "before": "시엠송 (광고 선전용 노래)",
+      "after": "광고 노래(CM송)",
+      "reason": "시엠송은 CM송의 잘못된 표기"
+    },
+    {
+      "index": 4566,
+      "en": "modest",
+      "field": "pos",
+      "before": "명/형",
+      "after": "형",
+      "reason": "modest는 형용사이며 명사 용법 없음"
+    },
+    {
+      "index": 4567,
+      "en": "momentum",
+      "field": "ko",
+      "before": "추진력, 탄성",
+      "after": "추진력, 운동량",
+      "reason": "momentum에 탄성(elasticity)이라는 뜻 없음"
+    },
+    {
+      "index": 4659,
+      "en": "progressively",
+      "field": "ko",
+      "before": "계속해서",
+      "after": "점진적으로, 차츰",
+      "reason": "예문은 점점 더 자세해진다는 뜻이고 progressively는 점진성을 나타냄"
+    }
+  ],
+  "headwordIssues": [
+    {
+      "index": 5584,
+      "en": "whereabout",
+      "issue": "표제어가 whereabouts의 비표준 단수형으로 보이며, 별도 표제어 whereabouts(5802)와 중복 가능",
+      "suggestion": "whereabouts로 통합 검토 (표제어는 수정하지 않음)"
+    }
+  ],
+  "checkedRanges": [
+    [
+      0,
+      499
+    ],
+    [
+      500,
+      999
+    ],
+    [
+      1000,
+      1499
+    ],
+    [
+      1500,
+      1999
+    ],
+    [
+      2000,
+      2499
+    ],
+    [
+      2500,
+      2999
+    ],
+    [
+      3000,
+      3499
+    ],
+    [
+      3500,
+      3999
+    ],
+    [
+      4000,
+      4499
+    ],
+    [
+      4500,
+      4999
+    ],
+    [
+      5000,
+      5499
+    ],
+    [
+      5500,
+      5803
+    ]
+  ],
+  "hashUpdate": {
+    "file": "docs/toeic-sources.json",
+    "wordsSha256": {
+      "before": "24af43219f703f477d9256649880e00e8c423762fbaa665a862692664060a7cb",
+      "after": "b11a8d914fc186976e8c2daef7086669bcd8e53f4716a8f1c353a50958472d44"
+    },
+    "basePairsSha256": {
+      "before": "529aaf587d74f97f2524db6fd247489fabd97ae8659b9981b99a1d836b35e667",
+      "after": "529aaf587d74f97f2524db6fd247489fabd97ae8659b9981b99a1d836b35e667",
+      "changed": false
+    },
+    "note": "내용 수정 반영을 위해 postSortValidation 해시만 갱신"
+  }
+}
