@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v10-listen-a11y';
+const CACHE_VERSION = 'vocab-master-shell-v12-muted-meter';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const SCOPE = self.registration.scope;
 const APP_SHELL = ['./', './index.html', './style.css', './app.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];

@@ -1,0 +1,4172 @@
+[
+ {
+  "index": 1577,
+  "en": "whipped cream",
+  "pos": "명",
+  "ko": "휘핑크림"
+ },
+ {
+  "index": 1578,
+  "en": "wildlife",
+  "pos": "명",
+  "ko": "야생 동물"
+ },
+ {
+  "index": 1579,
+  "en": "willing",
+  "pos": "형",
+  "ko": "기꺼이 하는, 자발적인"
+ },
+ {
+  "index": 1581,
+  "en": "windowsill",
+  "pos": "명",
+  "ko": "창턱"
+ },
+ {
+  "index": 1583,
+  "en": "wing",
+  "pos": "명",
+  "ko": "별관, 부속 건물"
+ },
+ {
+  "index": 1589,
+  "en": "work environment",
+  "pos": "명",
+  "ko": "작업 환경, 근무 환경"
+ },
+ {
+  "index": 1590,
+  "en": "work history",
+  "pos": "명",
+  "ko": "이력, 경력"
+ },
+ {
+  "index": 1593,
+  "en": "working condition",
+  "pos": "명",
+  "ko": "근무 조건"
+ },
+ {
+  "index": 1594,
+  "en": "workout",
+  "pos": "명",
+  "ko": "운동"
+ },
+ {
+  "index": 1595,
+  "en": "workplace",
+  "pos": "명",
+  "ko": "작업장"
+ },
+ {
+  "index": 1598,
+  "en": "absence",
+  "pos": "명",
+  "ko": "부재, 결석"
+ },
+ {
+  "index": 1599,
+  "en": "acceptable",
+  "pos": "형",
+  "ko": "받아들일 수 있는"
+ },
+ {
+  "index": 1600,
+  "en": "access",
+  "pos": "명/동",
+  "ko": "접근, 이용 권한; 접속하다"
+ },
+ {
+  "index": 1601,
+  "en": "achievement",
+  "pos": "명",
+  "ko": "성취, 업적"
+ },
+ {
+  "index": 1603,
+  "en": "actual",
+  "pos": "형",
+  "ko": "실제의"
+ },
+ {
+  "index": 1606,
+  "en": "advance",
+  "pos": "명/동",
+  "ko": "전진, 선금; 진전시키다"
+ },
+ {
+  "index": 1607,
+  "en": "advantage",
+  "pos": "명",
+  "ko": "이점, 유리한 조건"
+ },
+ {
+  "index": 1608,
+  "en": "advertisement",
+  "pos": "명",
+  "ko": "광고"
+ },
+ {
+  "index": 1611,
+  "en": "agency",
+  "pos": "명",
+  "ko": "기관, 대행사"
+ },
+ {
+  "index": 1612,
+  "en": "agreement",
+  "pos": "명",
+  "ko": "합의, 계약"
+ },
+ {
+  "index": 1613,
+  "en": "agriculture",
+  "pos": "명",
+  "ko": "농업"
+ },
+ {
+  "index": 1614,
+  "en": "aid",
+  "pos": "명/동",
+  "ko": "도움, 지원; 돕다"
+ },
+ {
+  "index": 1615,
+  "en": "aim",
+  "pos": "명/동",
+  "ko": "목표; 겨냥하다"
+ },
+ {
+  "index": 1618,
+  "en": "amazing",
+  "pos": "형",
+  "ko": "놀라운"
+ },
+ {
+  "index": 1620,
+  "en": "amount",
+  "pos": "명/동",
+  "ko": "양, 금액; 합계가 되다"
+ },
+ {
+  "index": 1621,
+  "en": "amusement",
+  "pos": "명",
+  "ko": "즐거움, 오락"
+ },
+ {
+  "index": 1624,
+  "en": "announcement",
+  "pos": "명",
+  "ko": "발표, 공지"
+ },
+ {
+  "index": 1625,
+  "en": "annual",
+  "pos": "형",
+  "ko": "해마다의, 연간의"
+ },
+ {
+  "index": 1626,
+  "en": "appearance",
+  "pos": "명",
+  "ko": "외모, 출현"
+ },
+ {
+  "index": 1628,
+  "en": "appropriate",
+  "pos": "형",
+  "ko": "적절한"
+ },
+ {
+  "index": 1629,
+  "en": "approval",
+  "pos": "명",
+  "ko": "승인, 찬성"
+ },
+ {
+  "index": 1632,
+  "en": "arrival",
+  "pos": "명",
+  "ko": "도착"
+ },
+ {
+  "index": 1633,
+  "en": "aspect",
+  "pos": "명",
+  "ko": "측면, 양상"
+ },
+ {
+  "index": 1634,
+  "en": "association",
+  "pos": "명",
+  "ko": "협회, 연관성"
+ },
+ {
+  "index": 1637,
+  "en": "attention",
+  "pos": "명",
+  "ko": "주의, 관심"
+ },
+ {
+  "index": 1638,
+  "en": "attitude",
+  "pos": "명",
+  "ko": "태도"
+ },
+ {
+  "index": 1640,
+  "en": "attraction",
+  "pos": "명",
+  "ko": "매력, 관광 명소"
+ },
+ {
+  "index": 1641,
+  "en": "attractive",
+  "pos": "형",
+  "ko": "매력적인"
+ },
+ {
+  "index": 1642,
+  "en": "average",
+  "pos": "명/형",
+  "ko": "평균; 평균적인"
+ },
+ {
+  "index": 1644,
+  "en": "aware",
+  "pos": "형",
+  "ko": "알고 있는"
+ },
+ {
+  "index": 1645,
+  "en": "awful",
+  "pos": "형",
+  "ko": "아주 나쁜, 끔찍한"
+ },
+ {
+  "index": 1647,
+  "en": "barbershop",
+  "pos": "명",
+  "ko": "이발소"
+ },
+ {
+  "index": 1651,
+  "en": "belt loop",
+  "pos": "명",
+  "ko": "허리띠 고리"
+ },
+ {
+  "index": 1654,
+  "en": "billion",
+  "pos": "명",
+  "ko": "10억"
+ },
+ {
+  "index": 1655,
+  "en": "bin",
+  "pos": "명",
+  "ko": "통, 보관함"
+ },
+ {
+  "index": 1656,
+  "en": "block",
+  "pos": "명/동",
+  "ko": "구획, 블록; 막다"
+ },
+ {
+  "index": 1657,
+  "en": "board",
+  "pos": "명/동",
+  "ko": "이사회, 판자; 탑승하다"
+ },
+ {
+  "index": 1661,
+  "en": "broad",
+  "pos": "형",
+  "ko": "넓은, 광범위한"
+ },
+ {
+  "index": 1663,
+  "en": "canceled",
+  "pos": "형",
+  "ko": "취소된"
+ },
+ {
+  "index": 1664,
+  "en": "car dealership",
+  "pos": "명",
+  "ko": "자동차 판매 대리점"
+ },
+ {
+  "index": 1665,
+  "en": "carefully",
+  "pos": "부",
+  "ko": "주의 깊게"
+ },
+ {
+  "index": 1666,
+  "en": "carpenter",
+  "pos": "명",
+  "ko": "목수"
+ },
+ {
+  "index": 1667,
+  "en": "certain",
+  "pos": "형",
+  "ko": "확실한, 특정한"
+ },
+ {
+  "index": 1668,
+  "en": "changeable",
+  "pos": "형",
+  "ko": "변하기 쉬운"
+ },
+ {
+  "index": 1669,
+  "en": "chapter",
+  "pos": "명",
+  "ko": "장, 지부"
+ },
+ {
+  "index": 1670,
+  "en": "cheer",
+  "pos": "명/동",
+  "ko": "환호; 응원하다"
+ },
+ {
+  "index": 1672,
+  "en": "cleaning solution",
+  "pos": "명",
+  "ko": "세척액"
+ },
+ {
+  "index": 1674,
+  "en": "closet",
+  "pos": "명",
+  "ko": "벽장, 옷장"
+ },
+ {
+  "index": 1675,
+  "en": "cloud",
+  "pos": "명/동",
+  "ko": "구름; 흐리게 하다"
+ },
+ {
+  "index": 1676,
+  "en": "collection",
+  "pos": "명",
+  "ko": "수집품, 모음; 수거"
+ },
+ {
+  "index": 1678,
+  "en": "committee",
+  "pos": "명",
+  "ko": "위원회"
+ },
+ {
+  "index": 1680,
+  "en": "communication",
+  "pos": "명",
+  "ko": "의사소통, 통신"
+ },
+ {
+  "index": 1681,
+  "en": "community",
+  "pos": "명",
+  "ko": "지역 사회, 공동체"
+ },
+ {
+  "index": 1684,
+  "en": "competition",
+  "pos": "명",
+  "ko": "경쟁, 대회"
+ },
+ {
+  "index": 1685,
+  "en": "complaint",
+  "pos": "명",
+  "ko": "불만, 항의"
+ },
+ {
+  "index": 1686,
+  "en": "concern",
+  "pos": "명/동",
+  "ko": "걱정, 관심사; 관련되다"
+ },
+ {
+  "index": 1687,
+  "en": "conclusion",
+  "pos": "명",
+  "ko": "결론, 종료"
+ },
+ {
+  "index": 1688,
+  "en": "confidence",
+  "pos": "명",
+  "ko": "자신감, 신뢰"
+ },
+ {
+  "index": 1689,
+  "en": "confirmation",
+  "pos": "명",
+  "ko": "확인, 확정"
+ },
+ {
+  "index": 1691,
+  "en": "constantly",
+  "pos": "부",
+  "ko": "끊임없이"
+ },
+ {
+  "index": 1693,
+  "en": "container",
+  "pos": "명",
+  "ko": "용기, 컨테이너"
+ },
+ {
+  "index": 1695,
+  "en": "contribution",
+  "pos": "명",
+  "ko": "기여, 기부금"
+ },
+ {
+  "index": 1698,
+  "en": "cooperation",
+  "pos": "명",
+  "ko": "협력"
+ },
+ {
+  "index": 1699,
+  "en": "corporate",
+  "pos": "형",
+  "ko": "회사의, 법인의"
+ },
+ {
+  "index": 1700,
+  "en": "corporation",
+  "pos": "명",
+  "ko": "기업, 법인"
+ },
+ {
+  "index": 1701,
+  "en": "court",
+  "pos": "명",
+  "ko": "법원, 경기장"
+ },
+ {
+  "index": 1702,
+  "en": "critical",
+  "pos": "형",
+  "ko": "중대한, 비판적인"
+ },
+ {
+  "index": 1704,
+  "en": "cultural",
+  "pos": "형",
+  "ko": "문화의"
+ },
+ {
+  "index": 1705,
+  "en": "current",
+  "pos": "명/형",
+  "ko": "현재의; 흐름, 전류"
+ },
+ {
+  "index": 1706,
+  "en": "damage",
+  "pos": "명/동",
+  "ko": "손상, 피해; 손상시키다"
+ },
+ {
+  "index": 1708,
+  "en": "deal",
+  "pos": "명/동",
+  "ko": "거래; 다루다"
+ },
+ {
+  "index": 1712,
+  "en": "definitely",
+  "pos": "부",
+  "ko": "확실히"
+ },
+ {
+  "index": 1713,
+  "en": "degree",
+  "pos": "명",
+  "ko": "정도, 학위; 온도의 도"
+ },
+ {
+  "index": 1715,
+  "en": "demand",
+  "pos": "명/동",
+  "ko": "수요, 요구; 요구하다"
+ },
+ {
+  "index": 1717,
+  "en": "department",
+  "pos": "명",
+  "ko": "부서, 학과"
+ },
+ {
+  "index": 1718,
+  "en": "description",
+  "pos": "명",
+  "ko": "설명, 묘사"
+ },
+ {
+  "index": 1719,
+  "en": "destination",
+  "pos": "명",
+  "ko": "목적지"
+ },
+ {
+  "index": 1723,
+  "en": "difficulty",
+  "pos": "명",
+  "ko": "어려움"
+ },
+ {
+  "index": 1725,
+  "en": "directions",
+  "pos": "명",
+  "ko": "길 안내, 사용 설명"
+ },
+ {
+  "index": 1727,
+  "en": "disaster",
+  "pos": "명",
+  "ko": "재난, 큰 실패"
+ },
+ {
+  "index": 1728,
+  "en": "discussion",
+  "pos": "명",
+  "ko": "논의, 토론"
+ },
+ {
+  "index": 1729,
+  "en": "district",
+  "pos": "명",
+  "ko": "지역, 구역"
+ },
+ {
+  "index": 1731,
+  "en": "division",
+  "pos": "명",
+  "ko": "부서, 분할"
+ },
+ {
+  "index": 1732,
+  "en": "doubt",
+  "pos": "명/동",
+  "ko": "의심; 의심하다"
+ },
+ {
+  "index": 1733,
+  "en": "downtown",
+  "pos": "형/부",
+  "ko": "도심의; 도심에"
+ },
+ {
+  "index": 1735,
+  "en": "duty",
+  "pos": "명",
+  "ko": "직무, 의무; 세금"
+ },
+ {
+  "index": 1737,
+  "en": "electricity",
+  "pos": "명",
+  "ko": "전기"
+ },
+ {
+  "index": 1738,
+  "en": "emergency",
+  "pos": "명",
+  "ko": "비상사태, 응급 상황"
+ },
+ {
+  "index": 1739,
+  "en": "employer",
+  "pos": "명",
+  "ko": "고용주"
+ },
+ {
+  "index": 1740,
+  "en": "employment",
+  "pos": "명",
+  "ko": "고용, 취업"
+ },
+ {
+  "index": 1743,
+  "en": "entertainment",
+  "pos": "명",
+  "ko": "오락, 공연"
+ },
+ {
+  "index": 1745,
+  "en": "entry",
+  "pos": "명",
+  "ko": "입장, 항목, 출품작"
+ },
+ {
+  "index": 1746,
+  "en": "environment",
+  "pos": "명",
+  "ko": "환경"
+ },
+ {
+  "index": 1747,
+  "en": "equal",
+  "pos": "형/동",
+  "ko": "동등한; ~와 같다"
+ },
+ {
+  "index": 1748,
+  "en": "essential",
+  "pos": "형/명",
+  "ko": "필수적인; 필수품"
+ },
+ {
+  "index": 1750,
+  "en": "evidence",
+  "pos": "명",
+  "ko": "증거, 근거"
+ },
+ {
+  "index": 1751,
+  "en": "exam",
+  "pos": "명",
+  "ko": "시험"
+ },
+ {
+  "index": 1753,
+  "en": "exception",
+  "pos": "명",
+  "ko": "예외"
+ },
+ {
+  "index": 1754,
+  "en": "exhibition",
+  "pos": "명",
+  "ko": "전시회"
+ },
+ {
+  "index": 1758,
+  "en": "face-to-face",
+  "pos": "형/부",
+  "ko": "대면하는; 얼굴을 맞대고"
+ },
+ {
+  "index": 1760,
+  "en": "familiar",
+  "pos": "형",
+  "ko": "익숙한"
+ },
+ {
+  "index": 1762,
+  "en": "fiction",
+  "pos": "명",
+  "ko": "소설, 허구"
+ },
+ {
+  "index": 1764,
+  "en": "financial",
+  "pos": "형",
+  "ko": "재정의, 금융의"
+ },
+ {
+  "index": 1765,
+  "en": "flame",
+  "pos": "명",
+  "ko": "불꽃"
+ },
+ {
+  "index": 1766,
+  "en": "flashlight",
+  "pos": "명",
+  "ko": "손전등"
+ },
+ {
+  "index": 1768,
+  "en": "force",
+  "pos": "명/동",
+  "ko": "힘; 강요하다"
+ },
+ {
+  "index": 1769,
+  "en": "freeway",
+  "pos": "명",
+  "ko": "고속도로"
+ },
+ {
+  "index": 1770,
+  "en": "freshman",
+  "pos": "명",
+  "ko": "신입생"
+ },
+ {
+  "index": 1772,
+  "en": "fuel",
+  "pos": "명/동",
+  "ko": "연료; 부채질하다"
+ },
+ {
+  "index": 1773,
+  "en": "function",
+  "pos": "명",
+  "ko": "기능; 작동하다"
+ },
+ {
+  "index": 1778,
+  "en": "greeter",
+  "pos": "명",
+  "ko": "방문객을 맞이하는 안내 직원"
+ },
+ {
+  "index": 1779,
+  "en": "grinding noise",
+  "pos": "명",
+  "ko": "갈리는 소음"
+ },
+ {
+  "index": 1780,
+  "en": "growth",
+  "pos": "명",
+  "ko": "성장, 증가"
+ },
+ {
+  "index": 1782,
+  "en": "hairnet",
+  "pos": "명",
+  "ko": "머리카락을 덮는 위생망"
+ },
+ {
+  "index": 1783,
+  "en": "hardware store",
+  "pos": "명",
+  "ko": "철물점"
+ },
+ {
+  "index": 1785,
+  "en": "highest priority",
+  "pos": "명",
+  "ko": "최우선 사항"
+ },
+ {
+  "index": 1787,
+  "en": "honor",
+  "pos": "명/동",
+  "ko": "명예; 존중하다, 약속을 지키다"
+ },
+ {
+  "index": 1789,
+  "en": "housing",
+  "pos": "명",
+  "ko": "주택, 주거 시설"
+ },
+ {
+  "index": 1794,
+  "en": "impression",
+  "pos": "명",
+  "ko": "인상"
+ },
+ {
+  "index": 1795,
+  "en": "improvement",
+  "pos": "명",
+  "ko": "개선, 향상"
+ },
+ {
+  "index": 1797,
+  "en": "independent",
+  "pos": "형",
+  "ko": "독립적인"
+ },
+ {
+  "index": 1799,
+  "en": "industry",
+  "pos": "명",
+  "ko": "산업, 업계"
+ },
+ {
+  "index": 1800,
+  "en": "infant",
+  "pos": "명",
+  "ko": "유아"
+ },
+ {
+  "index": 1801,
+  "en": "influence",
+  "pos": "명/동",
+  "ko": "영향; 영향을 주다"
+ },
+ {
+  "index": 1804,
+  "en": "insect",
+  "pos": "명",
+  "ko": "곤충"
+ },
+ {
+  "index": 1807,
+  "en": "interview",
+  "pos": "명/동",
+  "ko": "면접, 인터뷰; 면접하다"
+ },
+ {
+  "index": 1812,
+  "en": "job placement",
+  "pos": "명",
+  "ko": "취업 알선, 직장 배치"
+ },
+ {
+  "index": 1814,
+  "en": "labor",
+  "pos": "명/동",
+  "ko": "노동, 노동력; 일하다"
+ },
+ {
+  "index": 1815,
+  "en": "lack",
+  "pos": "명",
+  "ko": "부족; 부족하다"
+ },
+ {
+  "index": 1817,
+  "en": "laundry",
+  "pos": "명",
+  "ko": "세탁물, 세탁"
+ },
+ {
+  "index": 1818,
+  "en": "leadership",
+  "pos": "명",
+  "ko": "지도력, 지도부"
+ },
+ {
+  "index": 1819,
+  "en": "lecture",
+  "pos": "명/동",
+  "ko": "강의; 강의하다"
+ },
+ {
+  "index": 1820,
+  "en": "license",
+  "pos": "명/동",
+  "ko": "면허, 허가; 허가하다"
+ },
+ {
+  "index": 1821,
+  "en": "lifetime",
+  "pos": "명",
+  "ko": "일생, 수명"
+ },
+ {
+  "index": 1822,
+  "en": "limited",
+  "pos": "형",
+  "ko": "제한된, 한정된"
+ },
+ {
+  "index": 1823,
+  "en": "loan",
+  "pos": "명/동",
+  "ko": "대출; 빌려주다"
+ },
+ {
+  "index": 1826,
+  "en": "loyal",
+  "pos": "형",
+  "ko": "충성스러운, 충실한"
+ },
+ {
+  "index": 1827,
+  "en": "luggage",
+  "pos": "명",
+  "ko": "여행 짐"
+ },
+ {
+  "index": 1830,
+  "en": "material",
+  "pos": "명/형",
+  "ko": "재료, 자료; 중요한"
+ },
+ {
+  "index": 1835,
+  "en": "method",
+  "pos": "명",
+  "ko": "방법"
+ },
+ {
+  "index": 1837,
+  "en": "mosquito",
+  "pos": "명",
+  "ko": "모기"
+ },
+ {
+  "index": 1838,
+  "en": "mud",
+  "pos": "명",
+  "ko": "진흙"
+ },
+ {
+  "index": 1840,
+  "en": "naughty",
+  "pos": "형",
+  "ko": "장난이 심한"
+ },
+ {
+  "index": 1843,
+  "en": "notification",
+  "pos": "명",
+  "ko": "통지, 알림"
+ },
+ {
+  "index": 1845,
+  "en": "object",
+  "pos": "명/동",
+  "ko": "물건, 목적; 반대하다"
+ },
+ {
+  "index": 1848,
+  "en": "official",
+  "pos": "명/형",
+  "ko": "공식적인; 공무원, 임원"
+ },
+ {
+  "index": 1849,
+  "en": "opening",
+  "pos": "명",
+  "ko": "빈자리, 개장; 시작"
+ },
+ {
+  "index": 1850,
+  "en": "operation",
+  "pos": "명",
+  "ko": "운영, 작동; 수술"
+ },
+ {
+  "index": 1851,
+  "en": "organization",
+  "pos": "명",
+  "ko": "조직, 단체, 정리"
+ },
+ {
+  "index": 1854,
+  "en": "overtime",
+  "pos": "명",
+  "ko": "초과 근무; 초과 근무의"
+ },
+ {
+  "index": 1855,
+  "en": "oxygen",
+  "pos": "명",
+  "ko": "산소"
+ },
+ {
+  "index": 1857,
+  "en": "painful",
+  "pos": "형",
+  "ko": "고통스러운"
+ },
+ {
+  "index": 1858,
+  "en": "pale",
+  "pos": "형",
+  "ko": "창백한, 색이 옅은"
+ },
+ {
+  "index": 1859,
+  "en": "particular",
+  "pos": "형",
+  "ko": "특정한, 까다로운"
+ },
+ {
+  "index": 1862,
+  "en": "patient",
+  "pos": "명/형",
+  "ko": "환자; 참을성 있는"
+ },
+ {
+  "index": 1863,
+  "en": "payment",
+  "pos": "명",
+  "ko": "지급, 지불금"
+ },
+ {
+  "index": 1864,
+  "en": "penny",
+  "pos": "명",
+  "ko": "미국의 1센트 동전, 영국의 페니"
+ },
+ {
+  "index": 1865,
+  "en": "percentage",
+  "pos": "명",
+  "ko": "백분율, 비율"
+ },
+ {
+  "index": 1868,
+  "en": "period",
+  "pos": "명",
+  "ko": "기간, 시대; 마침표"
+ },
+ {
+  "index": 1869,
+  "en": "personality",
+  "pos": "명",
+  "ko": "성격, 개성"
+ },
+ {
+  "index": 1871,
+  "en": "photography",
+  "pos": "명",
+  "ko": "사진 촬영, 사진술"
+ },
+ {
+  "index": 1874,
+  "en": "policy",
+  "pos": "명",
+  "ko": "정책, 방침; 보험 증권"
+ },
+ {
+  "index": 1875,
+  "en": "popular",
+  "pos": "형",
+  "ko": "인기 있는, 대중적인"
+ },
+ {
+  "index": 1876,
+  "en": "population",
+  "pos": "명",
+  "ko": "인구, 개체 수"
+ },
+ {
+  "index": 1877,
+  "en": "potential",
+  "pos": "명/형",
+  "ko": "잠재력; 잠재적인"
+ },
+ {
+  "index": 1879,
+  "en": "preparation",
+  "pos": "명",
+  "ko": "준비"
+ },
+ {
+  "index": 1881,
+  "en": "primary",
+  "pos": "형",
+  "ko": "주된, 최초의"
+ },
+ {
+  "index": 1882,
+  "en": "priority",
+  "pos": "명",
+  "ko": "우선순위"
+ },
+ {
+  "index": 1883,
+  "en": "process",
+  "pos": "명/동",
+  "ko": "과정, 절차; 처리하다"
+ },
+ {
+  "index": 1884,
+  "en": "production",
+  "pos": "명",
+  "ko": "생산, 제작"
+ },
+ {
+  "index": 1886,
+  "en": "progress",
+  "pos": "명/동",
+  "ko": "진전; 진행되다"
+ },
+ {
+  "index": 1887,
+  "en": "project",
+  "pos": "명/동",
+  "ko": "프로젝트; 예상하다, 투사하다"
+ },
+ {
+  "index": 1888,
+  "en": "properly",
+  "pos": "부",
+  "ko": "제대로, 적절하게"
+ },
+ {
+  "index": 1893,
+  "en": "rate",
+  "pos": "명/동",
+  "ko": "비율, 요금; 평가하다"
+ },
+ {
+  "index": 1896,
+  "en": "reception",
+  "pos": "명",
+  "ko": "접수처, 환영 행사; 반응"
+ },
+ {
+  "index": 1899,
+  "en": "recovery",
+  "pos": "명",
+  "ko": "회복, 복구"
+ },
+ {
+  "index": 1902,
+  "en": "regular",
+  "pos": "형",
+  "ko": "규칙적인, 정규의"
+ },
+ {
+  "index": 1907,
+  "en": "relaxed",
+  "pos": "형",
+  "ko": "편안한, 느긋한"
+ },
+ {
+  "index": 1909,
+  "en": "reliable",
+  "pos": "형",
+  "ko": "믿을 수 있는"
+ },
+ {
+  "index": 1913,
+  "en": "replacement",
+  "pos": "명",
+  "ko": "교체, 대체품"
+ },
+ {
+  "index": 1915,
+  "en": "request",
+  "pos": "명/동",
+  "ko": "요청; 요청하다"
+ },
+ {
+  "index": 1917,
+  "en": "responsibility",
+  "pos": "명",
+  "ko": "책임, 담당 업무"
+ },
+ {
+  "index": 1918,
+  "en": "result",
+  "pos": "명/동",
+  "ko": "결과; ~의 결과로 생기다"
+ },
+ {
+  "index": 1921,
+  "en": "reward",
+  "pos": "명/동",
+  "ko": "보상; 보상하다"
+ },
+ {
+  "index": 1922,
+  "en": "root",
+  "pos": "명",
+  "ko": "뿌리, 근원"
+ },
+ {
+  "index": 1923,
+  "en": "row",
+  "pos": "명/동",
+  "ko": "줄, 열; 노를 젓다"
+ },
+ {
+  "index": 1924,
+  "en": "sales associate",
+  "pos": "명",
+  "ko": "판매 직원"
+ },
+ {
+  "index": 1925,
+  "en": "satisfaction",
+  "pos": "명",
+  "ko": "만족"
+ },
+ {
+  "index": 1927,
+  "en": "scary",
+  "pos": "형",
+  "ko": "무서운"
+ },
+ {
+  "index": 1931,
+  "en": "selection",
+  "pos": "명",
+  "ko": "선택, 선발; 구비 품목"
+ },
+ {
+  "index": 1933,
+  "en": "serious",
+  "pos": "형",
+  "ko": "심각한, 진지한"
+ },
+ {
+  "index": 1934,
+  "en": "seriously",
+  "pos": "부",
+  "ko": "진지하게, 심각하게"
+ },
+ {
+  "index": 1936,
+  "en": "shift",
+  "pos": "명",
+  "ko": "교대 근무, 변화; 옮기다"
+ },
+ {
+  "index": 1938,
+  "en": "signal",
+  "pos": "명/동",
+  "ko": "신호; 신호를 보내다"
+ },
+ {
+  "index": 1941,
+  "en": "square",
+  "pos": "명/형",
+  "ko": "정사각형, 광장; 정사각형의"
+ },
+ {
+  "index": 1942,
+  "en": "stage",
+  "pos": "명/동",
+  "ko": "단계, 무대; 개최하다"
+ },
+ {
+  "index": 1943,
+  "en": "stair",
+  "pos": "명",
+  "ko": "계단 한 단"
+ },
+ {
+  "index": 1945,
+  "en": "steel",
+  "pos": "명",
+  "ko": "강철"
+ },
+ {
+  "index": 1946,
+  "en": "storage",
+  "pos": "명",
+  "ko": "보관, 저장 공간"
+ },
+ {
+  "index": 1947,
+  "en": "stranger",
+  "pos": "명",
+  "ko": "낯선 사람"
+ },
+ {
+  "index": 1948,
+  "en": "strategy",
+  "pos": "명",
+  "ko": "전략"
+ },
+ {
+  "index": 1949,
+  "en": "suggestion",
+  "pos": "명",
+  "ko": "제안, 암시"
+ },
+ {
+  "index": 1950,
+  "en": "sum",
+  "pos": "명",
+  "ko": "합계, 금액"
+ },
+ {
+  "index": 1953,
+  "en": "target",
+  "pos": "명/동",
+  "ko": "목표, 대상; 겨냥하다"
+ },
+ {
+  "index": 1955,
+  "en": "thumb",
+  "pos": "명",
+  "ko": "엄지손가락"
+ },
+ {
+  "index": 1956,
+  "en": "time off",
+  "pos": "명",
+  "ko": "휴가, 쉬는 시간"
+ },
+ {
+  "index": 1959,
+  "en": "tradition",
+  "pos": "명",
+  "ko": "전통"
+ },
+ {
+  "index": 1961,
+  "en": "transportation",
+  "pos": "명",
+  "ko": "교통, 운송"
+ },
+ {
+  "index": 1962,
+  "en": "tray",
+  "pos": "명",
+  "ko": "쟁반"
+ },
+ {
+  "index": 1964,
+  "en": "trend",
+  "pos": "명",
+  "ko": "추세, 유행"
+ },
+ {
+  "index": 1966,
+  "en": "understanding",
+  "pos": "명/형",
+  "ko": "이해; 이해심 있는"
+ },
+ {
+  "index": 1967,
+  "en": "unexpected",
+  "pos": "형",
+  "ko": "예상하지 못한"
+ },
+ {
+  "index": 1968,
+  "en": "union",
+  "pos": "명",
+  "ko": "노동조합, 연합"
+ },
+ {
+  "index": 1969,
+  "en": "unlimited",
+  "pos": "형",
+  "ko": "제한 없는"
+ },
+ {
+  "index": 1971,
+  "en": "valley",
+  "pos": "명",
+  "ko": "계곡"
+ },
+ {
+  "index": 1972,
+  "en": "variety",
+  "pos": "명",
+  "ko": "다양성, 종류"
+ },
+ {
+  "index": 1974,
+  "en": "warning",
+  "pos": "명",
+  "ko": "경고"
+ },
+ {
+  "index": 1976,
+  "en": "wastepaper",
+  "pos": "명",
+  "ko": "폐지, 휴지"
+ },
+ {
+  "index": 1981,
+  "en": "youth",
+  "pos": "명",
+  "ko": "청년, 젊음"
+ },
+ {
+  "index": 2033,
+  "en": "obligation",
+  "pos": "명",
+  "ko": "의무"
+ },
+ {
+  "index": 2037,
+  "en": "portfolio",
+  "pos": "명",
+  "ko": "작품집, 투자 목록"
+ },
+ {
+  "index": 2040,
+  "en": "proceeds",
+  "pos": "명",
+  "ko": "수익금"
+ },
+ {
+  "index": 2042,
+  "en": "projection",
+  "pos": "명",
+  "ko": "예상, 추정"
+ },
+ {
+  "index": 2046,
+  "en": "quota",
+  "pos": "명",
+  "ko": "할당량"
+ },
+ {
+  "index": 2047,
+  "en": "recipient",
+  "pos": "명",
+  "ko": "수령인"
+ },
+ {
+  "index": 2057,
+  "en": "sufficient",
+  "pos": "형",
+  "ko": "충분한"
+ },
+ {
+  "index": 2058,
+  "en": "specification",
+  "pos": "명",
+  "ko": "사양, 명세"
+ },
+ {
+  "index": 2059,
+  "en": "stationery",
+  "pos": "명",
+  "ko": "문구류"
+ },
+ {
+  "index": 2060,
+  "en": "substantial",
+  "pos": "형",
+  "ko": "상당한"
+ },
+ {
+  "index": 2061,
+  "en": "supplement",
+  "pos": "명",
+  "ko": "보충(하다)"
+ },
+ {
+  "index": 2066,
+  "en": "vacancy",
+  "pos": "명",
+  "ko": "공석, 빈방"
+ },
+ {
+  "index": 2068,
+  "en": "venue",
+  "pos": "명",
+  "ko": "개최지, 장소"
+ },
+ {
+  "index": 2073,
+  "en": "apparel",
+  "pos": "명",
+  "ko": "의류"
+ },
+ {
+  "index": 2076,
+  "en": "attire",
+  "pos": "명",
+  "ko": "복장"
+ },
+ {
+  "index": 2077,
+  "en": "bid",
+  "pos": "명",
+  "ko": "입찰(하다)"
+ },
+ {
+  "index": 2078,
+  "en": "bulk",
+  "pos": "명",
+  "ko": "대량"
+ },
+ {
+  "index": 2079,
+  "en": "comprehensive",
+  "pos": "형",
+  "ko": "포괄적인"
+ },
+ {
+  "index": 2080,
+  "en": "concise",
+  "pos": "형",
+  "ko": "간결한"
+ },
+ {
+  "index": 2085,
+  "en": "dividend",
+  "pos": "명",
+  "ko": "배당금"
+ },
+ {
+  "index": 2089,
+  "en": "innovative",
+  "pos": "형",
+  "ko": "혁신적인"
+ },
+ {
+  "index": 2090,
+  "en": "insight",
+  "pos": "명",
+  "ko": "통찰력"
+ },
+ {
+  "index": 2093,
+  "en": "outlet",
+  "pos": "명",
+  "ko": "매장, 할인점"
+ },
+ {
+  "index": 2094,
+  "en": "patent",
+  "pos": "명",
+  "ko": "특허"
+ },
+ {
+  "index": 2095,
+  "en": "precaution",
+  "pos": "명",
+  "ko": "예방 조치"
+ },
+ {
+  "index": 2096,
+  "en": "prerequisite",
+  "pos": "명",
+  "ko": "전제 조건"
+ },
+ {
+  "index": 2098,
+  "en": "prototype",
+  "pos": "명",
+  "ko": "시제품"
+ },
+ {
+  "index": 2099,
+  "en": "tenant",
+  "pos": "명",
+  "ko": "세입자"
+ },
+ {
+  "index": 2104,
+  "en": "obsolete",
+  "pos": "형",
+  "ko": "구식의"
+ },
+ {
+  "index": 2107,
+  "en": "turnover",
+  "pos": "명",
+  "ko": "이직률, 매출액"
+ },
+ {
+  "index": 2117,
+  "en": "abruptly",
+  "pos": "부",
+  "ko": "갑자기"
+ },
+ {
+  "index": 2119,
+  "en": "abuse",
+  "pos": "명/동",
+  "ko": "남용; 남용하다"
+ },
+ {
+  "index": 2121,
+  "en": "access road",
+  "pos": "명",
+  "ko": "진입로"
+ },
+ {
+  "index": 2122,
+  "en": "accessibility",
+  "pos": "명",
+  "ko": "접근 가능성"
+ },
+ {
+  "index": 2123,
+  "en": "accommodation",
+  "pos": "명",
+  "ko": "거처, 숙소, 시설"
+ },
+ {
+  "index": 2124,
+  "en": "accomplishment",
+  "pos": "명",
+  "ko": "성취, 업적"
+ },
+ {
+  "index": 2125,
+  "en": "accordance",
+  "pos": "명",
+  "ko": "일치, 조화"
+ },
+ {
+  "index": 2127,
+  "en": "account payable",
+  "pos": "명",
+  "ko": "미지급금, 외상 매입금"
+ },
+ {
+  "index": 2129,
+  "en": "accumulation",
+  "pos": "명",
+  "ko": "축적, 누적"
+ },
+ {
+  "index": 2132,
+  "en": "achievable",
+  "pos": "형",
+  "ko": "성취할 수 있는, 달성할 수 있는"
+ },
+ {
+  "index": 2133,
+  "en": "achiever",
+  "pos": "명",
+  "ko": "크게 성공한 사람"
+ },
+ {
+  "index": 2135,
+  "en": "acquaintance",
+  "pos": "명",
+  "ko": "아는 사람, 아는 사이"
+ },
+ {
+  "index": 2140,
+  "en": "adaptable",
+  "pos": "형",
+  "ko": "적응할 수 있는"
+ },
+ {
+  "index": 2143,
+  "en": "added benefits",
+  "pos": "명",
+  "ko": "부가적인 이점"
+ },
+ {
+  "index": 2147,
+  "en": "admired",
+  "pos": "형",
+  "ko": "존경받는"
+ },
+ {
+  "index": 2148,
+  "en": "admiringly",
+  "pos": "부",
+  "ko": "감탄하여"
+ },
+ {
+  "index": 2150,
+  "en": "advance reservation",
+  "pos": "명",
+  "ko": "사전 예약"
+ },
+ {
+  "index": 2151,
+  "en": "advancement",
+  "pos": "명",
+  "ko": "진보, 전진, 승진"
+ },
+ {
+  "index": 2152,
+  "en": "adverse",
+  "pos": "형",
+  "ko": "불리한"
+ },
+ {
+  "index": 2155,
+  "en": "aggression",
+  "pos": "명",
+  "ko": "공격성"
+ },
+ {
+  "index": 2156,
+  "en": "aging",
+  "pos": "형",
+  "ko": "나이 들어가는"
+ },
+ {
+  "index": 2157,
+  "en": "agreeable",
+  "pos": "형",
+  "ko": "기꺼이 동의하는, 기분 좋은"
+ },
+ {
+  "index": 2158,
+  "en": "agricultural",
+  "pos": "형",
+  "ko": "농업의"
+ },
+ {
+  "index": 2160,
+  "en": "airsickness",
+  "pos": "명",
+  "ko": "비행기 멀미"
+ },
+ {
+  "index": 2161,
+  "en": "aisle",
+  "pos": "명",
+  "ko": "(좌석 열·진열대 사이의) 통로"
+ },
+ {
+  "index": 2162,
+  "en": "aisle seat",
+  "pos": "명",
+  "ko": "통로 쪽 좌석"
+ },
+ {
+  "index": 2163,
+  "en": "alarming",
+  "pos": "형",
+  "ko": "걱정스러운, 두려운"
+ },
+ {
+  "index": 2165,
+  "en": "allergic",
+  "pos": "형",
+  "ko": "알레르기가 있는, 알레르기의"
+ },
+ {
+  "index": 2167,
+  "en": "alteration",
+  "pos": "명",
+  "ko": "변화, 개조"
+ },
+ {
+  "index": 2169,
+  "en": "alumni association",
+  "pos": "명",
+  "ko": "동창회"
+ },
+ {
+  "index": 2170,
+  "en": "ambitious",
+  "pos": "형",
+  "ko": "야심 있는"
+ },
+ {
+  "index": 2171,
+  "en": "amenities",
+  "pos": "명",
+  "ko": "편의시설"
+ },
+ {
+  "index": 2176,
+  "en": "anticipation",
+  "pos": "명",
+  "ko": "예상, 기대"
+ },
+ {
+  "index": 2178,
+  "en": "appealing",
+  "pos": "형",
+  "ko": "호소하는, 매력적인"
+ },
+ {
+  "index": 2179,
+  "en": "arbitration",
+  "pos": "명",
+  "ko": "중재"
+ },
+ {
+  "index": 2180,
+  "en": "architecture",
+  "pos": "명",
+  "ko": "건축물, 건축학"
+ },
+ {
+  "index": 2181,
+  "en": "archive",
+  "pos": "명",
+  "ko": "기록 보관소"
+ },
+ {
+  "index": 2182,
+  "en": "archway",
+  "pos": "명",
+  "ko": "아치 길"
+ },
+ {
+  "index": 2185,
+  "en": "artifact",
+  "pos": "명",
+  "ko": "공예품"
+ },
+ {
+  "index": 2186,
+  "en": "artificial",
+  "pos": "형",
+  "ko": "인공적인"
+ },
+ {
+  "index": 2193,
+  "en": "assembly",
+  "pos": "명",
+  "ko": "조립, 집회"
+ },
+ {
+  "index": 2194,
+  "en": "assessment",
+  "pos": "명",
+  "ko": "평가"
+ },
+ {
+  "index": 2195,
+  "en": "assorted",
+  "pos": "형",
+  "ko": "여러 가지 종류의, 다채로운"
+ },
+ {
+  "index": 2197,
+  "en": "asthma",
+  "pos": "명",
+  "ko": "천식"
+ },
+ {
+  "index": 2209,
+  "en": "attorney",
+  "pos": "명",
+  "ko": "변호사"
+ },
+ {
+  "index": 2211,
+  "en": "auditorium",
+  "pos": "명",
+  "ko": "강당"
+ },
+ {
+  "index": 2212,
+  "en": "authorization",
+  "pos": "명",
+  "ko": "권한 부여, 위임"
+ },
+ {
+  "index": 2213,
+  "en": "automotive repair shop",
+  "pos": "명",
+  "ko": "자동차 수리점"
+ },
+ {
+  "index": 2214,
+  "en": "aviation",
+  "pos": "명",
+  "ko": "비행"
+ },
+ {
+  "index": 2216,
+  "en": "awareness",
+  "pos": "명",
+  "ko": "인식, 자각"
+ },
+ {
+  "index": 2218,
+  "en": "back order",
+  "pos": "명",
+  "ko": "이월 주문"
+ },
+ {
+  "index": 2220,
+  "en": "bankruptcy",
+  "pos": "명",
+  "ko": "파산"
+ },
+ {
+  "index": 2221,
+  "en": "banquet",
+  "pos": "명",
+  "ko": "연회"
+ },
+ {
+  "index": 2224,
+  "en": "barrier",
+  "pos": "명",
+  "ko": "장애, 장벽"
+ },
+ {
+  "index": 2225,
+  "en": "basis",
+  "pos": "명",
+  "ko": "기초, 근거, 원칙"
+ },
+ {
+  "index": 2226,
+  "en": "batch",
+  "pos": "명",
+  "ko": "무리, 집단"
+ },
+ {
+  "index": 2227,
+  "en": "batter",
+  "pos": "명",
+  "ko": "반죽"
+ },
+ {
+  "index": 2228,
+  "en": "bay",
+  "pos": "명",
+  "ko": "(바다·호수의) 만"
+ },
+ {
+  "index": 2265,
+  "en": "best-selling",
+  "pos": "형",
+  "ko": "베스트셀러의"
+ },
+ {
+  "index": 2266,
+  "en": "best-selling author",
+  "pos": "명",
+  "ko": "베스트셀러 작가"
+ },
+ {
+  "index": 2268,
+  "en": "biannual",
+  "pos": "형",
+  "ko": "연 2회의"
+ },
+ {
+  "index": 2269,
+  "en": "bilingual",
+  "pos": "형",
+  "ko": "2개 국어를 구사하는"
+ },
+ {
+  "index": 2270,
+  "en": "biweekly",
+  "pos": "형/부",
+  "ko": "격주의; 격주로"
+ },
+ {
+  "index": 2273,
+  "en": "blueprint",
+  "pos": "명",
+  "ko": "청사진, 계획"
+ },
+ {
+  "index": 2276,
+  "en": "board of directors",
+  "pos": "명",
+  "ko": "이사회"
+ },
+ {
+  "index": 2277,
+  "en": "boarding gate",
+  "pos": "명",
+  "ko": "탑승구"
+ },
+ {
+  "index": 2278,
+  "en": "boarding time",
+  "pos": "명",
+  "ko": "탑승 시간"
+ },
+ {
+  "index": 2279,
+  "en": "boardroom",
+  "pos": "명",
+  "ko": "회의실"
+ },
+ {
+  "index": 2280,
+  "en": "body of water",
+  "pos": "명",
+  "ko": "수역"
+ },
+ {
+  "index": 2281,
+  "en": "bold",
+  "pos": "형",
+  "ko": "대담한, 용감한"
+ },
+ {
+  "index": 2282,
+  "en": "boldly",
+  "pos": "부",
+  "ko": "대담하게"
+ },
+ {
+  "index": 2283,
+  "en": "bookkeeper",
+  "pos": "명",
+  "ko": "경리"
+ },
+ {
+  "index": 2284,
+  "en": "bookkeeping",
+  "pos": "명",
+  "ko": "부기"
+ },
+ {
+  "index": 2285,
+  "en": "booklet",
+  "pos": "명",
+  "ko": "소책자"
+ },
+ {
+  "index": 2288,
+  "en": "botanical garden",
+  "pos": "명",
+  "ko": "식물원"
+ },
+ {
+  "index": 2292,
+  "en": "box office",
+  "pos": "명",
+  "ko": "매표소"
+ },
+ {
+  "index": 2295,
+  "en": "breakthrough",
+  "pos": "명",
+  "ko": "(과학 등의) 비약적 발전"
+ },
+ {
+  "index": 2304,
+  "en": "bulletin board",
+  "pos": "명",
+  "ko": "게시판"
+ },
+ {
+  "index": 2306,
+  "en": "business attire",
+  "pos": "명",
+  "ko": "비즈니스 정장"
+ },
+ {
+  "index": 2307,
+  "en": "business practice",
+  "pos": "명",
+  "ko": "사업 관행"
+ },
+ {
+  "index": 2310,
+  "en": "bypass",
+  "pos": "명",
+  "ko": "우회로"
+ },
+ {
+  "index": 2317,
+  "en": "carelessly",
+  "pos": "부",
+  "ko": "부주의하게"
+ },
+ {
+  "index": 2318,
+  "en": "cargo",
+  "pos": "명",
+  "ko": "화물, 짐"
+ },
+ {
+  "index": 2319,
+  "en": "carriage",
+  "pos": "명",
+  "ko": "차량, 객차"
+ },
+ {
+  "index": 2321,
+  "en": "carry-on baggage",
+  "pos": "명",
+  "ko": "기내 휴대 수하물"
+ },
+ {
+  "index": 2324,
+  "en": "caterer",
+  "pos": "명",
+  "ko": "출장 요리업자, 케이터링 업체"
+ },
+ {
+  "index": 2325,
+  "en": "catering service",
+  "pos": "명",
+  "ko": "출장 요리 서비스"
+ },
+ {
+  "index": 2326,
+  "en": "cautiously",
+  "pos": "부",
+  "ko": "조심스럽게"
+ },
+ {
+  "index": 2328,
+  "en": "Celsius",
+  "pos": "명",
+  "ko": "섭씨"
+ },
+ {
+  "index": 2330,
+  "en": "certified",
+  "pos": "형",
+  "ko": "공인된, 면허를 받은"
+ },
+ {
+  "index": 2332,
+  "en": "characteristic",
+  "pos": "명",
+  "ko": "특징, 특성"
+ },
+ {
+  "index": 2334,
+  "en": "charter plane",
+  "pos": "명",
+  "ko": "전세 비행기"
+ },
+ {
+  "index": 2335,
+  "en": "checklist",
+  "pos": "명",
+  "ko": "점검표"
+ },
+ {
+  "index": 2336,
+  "en": "chemist",
+  "pos": "명",
+  "ko": "화학자"
+ },
+ {
+  "index": 2338,
+  "en": "choir",
+  "pos": "명",
+  "ko": "합창단"
+ },
+ {
+  "index": 2341,
+  "en": "circumstances",
+  "pos": "명",
+  "ko": "상황, 환경"
+ },
+ {
+  "index": 2344,
+  "en": "claims department",
+  "pos": "명",
+  "ko": "보험 보상 부서"
+ },
+ {
+  "index": 2345,
+  "en": "clash",
+  "pos": "명",
+  "ko": "(의견의) 충돌, 불일치"
+ },
+ {
+  "index": 2346,
+  "en": "classification",
+  "pos": "명",
+  "ko": "분류, 등급"
+ },
+ {
+  "index": 2348,
+  "en": "classified ad",
+  "pos": "명",
+  "ko": "짧은 신문 광고"
+ },
+ {
+  "index": 2349,
+  "en": "cleanup",
+  "pos": "명",
+  "ko": "대청소"
+ },
+ {
+  "index": 2351,
+  "en": "cluster",
+  "pos": "명",
+  "ko": "무리, 집단, 송이"
+ },
+ {
+  "index": 2352,
+  "en": "coherent",
+  "pos": "형",
+  "ko": "(이야기가) 조리 있는, 일관성 있는"
+ },
+ {
+  "index": 2353,
+  "en": "collaboration",
+  "pos": "명",
+  "ko": "공동 작업(연구)"
+ },
+ {
+  "index": 2354,
+  "en": "collapse",
+  "pos": "명",
+  "ko": "붕괴"
+ },
+ {
+  "index": 2362,
+  "en": "comforting",
+  "pos": "형",
+  "ko": "위로가 되는"
+ },
+ {
+  "index": 2363,
+  "en": "command",
+  "pos": "명",
+  "ko": "(언어) 구사력, 명령, 지배력"
+ },
+ {
+  "index": 2365,
+  "en": "commerce",
+  "pos": "명",
+  "ko": "통상, 교역"
+ },
+ {
+  "index": 2366,
+  "en": "commercial relations",
+  "pos": "명",
+  "ko": "통상 관계"
+ },
+ {
+  "index": 2367,
+  "en": "commercial space",
+  "pos": "명",
+  "ko": "상업 공간"
+ },
+ {
+  "index": 2368,
+  "en": "commercial use",
+  "pos": "명",
+  "ko": "상업적 이용"
+ },
+ {
+  "index": 2369,
+  "en": "commercial value",
+  "pos": "명",
+  "ko": "상업적 가치"
+ },
+ {
+  "index": 2370,
+  "en": "commitment",
+  "pos": "명",
+  "ko": "약속, 헌신"
+ },
+ {
+  "index": 2371,
+  "en": "common interest",
+  "pos": "명",
+  "ko": "공동의 이익, 공동 관심사"
+ },
+ {
+  "index": 2372,
+  "en": "commonplace",
+  "pos": "명/형",
+  "ko": "평범한 일, 흔한 일; 평범한, 흔한"
+ },
+ {
+  "index": 2375,
+  "en": "compartment",
+  "pos": "명",
+  "ko": "구획, 칸막이"
+ },
+ {
+  "index": 2377,
+  "en": "competitiveness",
+  "pos": "명",
+  "ko": "경쟁력"
+ },
+ {
+  "index": 2378,
+  "en": "complementary",
+  "pos": "형",
+  "ko": "보완적인"
+ },
+ {
+  "index": 2379,
+  "en": "complex",
+  "pos": "명/형",
+  "ko": "(건물 등의) 집합체, 단지; 복잡한"
+ },
+ {
+  "index": 2380,
+  "en": "compliant",
+  "pos": "형",
+  "ko": "준수하는"
+ },
+ {
+  "index": 2382,
+  "en": "compliment",
+  "pos": "명",
+  "ko": "찬사, 칭찬"
+ },
+ {
+  "index": 2384,
+  "en": "composition",
+  "pos": "명",
+  "ko": "구성"
+ },
+ {
+  "index": 2388,
+  "en": "concrete",
+  "pos": "형",
+  "ko": "구체적인"
+ },
+ {
+  "index": 2390,
+  "en": "conflict of interest",
+  "pos": "명",
+  "ko": "이해 관계의 충돌"
+ },
+ {
+  "index": 2393,
+  "en": "confusion",
+  "pos": "명",
+  "ko": "혼란"
+ },
+ {
+  "index": 2395,
+  "en": "conjunction",
+  "pos": "명",
+  "ko": "결합, 접속사"
+ },
+ {
+  "index": 2397,
+  "en": "conservation",
+  "pos": "명",
+  "ko": "보존"
+ },
+ {
+  "index": 2399,
+  "en": "consistent",
+  "pos": "형",
+  "ko": "일관된"
+ },
+ {
+  "index": 2401,
+  "en": "constructively",
+  "pos": "부",
+  "ko": "건설적으로"
+ },
+ {
+  "index": 2402,
+  "en": "consulate",
+  "pos": "명",
+  "ko": "영사관"
+ },
+ {
+  "index": 2403,
+  "en": "consultation",
+  "pos": "명",
+  "ko": "상담, 협의"
+ },
+ {
+  "index": 2404,
+  "en": "consulting firm",
+  "pos": "명",
+  "ko": "자문 회사"
+ },
+ {
+  "index": 2405,
+  "en": "contestant",
+  "pos": "명",
+  "ko": "경기자, 경쟁자"
+ },
+ {
+  "index": 2406,
+  "en": "context",
+  "pos": "명",
+  "ko": "문맥, (어떤 일의) 정황, 배경"
+ },
+ {
+  "index": 2407,
+  "en": "controversial",
+  "pos": "형",
+  "ko": "논쟁의 여지가 있는"
+ },
+ {
+  "index": 2408,
+  "en": "controversy",
+  "pos": "명",
+  "ko": "논란"
+ },
+ {
+  "index": 2409,
+  "en": "convention",
+  "pos": "명",
+  "ko": "회의"
+ },
+ {
+  "index": 2410,
+  "en": "conventional",
+  "pos": "형",
+  "ko": "흔히 있는, 전통적인"
+ },
+ {
+  "index": 2412,
+  "en": "conversion",
+  "pos": "명",
+  "ko": "전환"
+ },
+ {
+  "index": 2415,
+  "en": "convincing",
+  "pos": "형",
+  "ko": "설득력 있는"
+ },
+ {
+  "index": 2417,
+  "en": "cooperative",
+  "pos": "형",
+  "ko": "협력적인, 협동의"
+ },
+ {
+  "index": 2420,
+  "en": "copyright",
+  "pos": "명",
+  "ko": "저작권"
+ },
+ {
+  "index": 2423,
+  "en": "correspondent",
+  "pos": "명",
+  "ko": "특파원, 통신원"
+ },
+ {
+  "index": 2424,
+  "en": "corridor",
+  "pos": "명",
+  "ko": "복도"
+ },
+ {
+  "index": 2425,
+  "en": "corruption",
+  "pos": "명",
+  "ko": "부정, 부패"
+ },
+ {
+  "index": 2428,
+  "en": "cost-effective",
+  "pos": "형",
+  "ko": "비용 효율적인"
+ },
+ {
+  "index": 2429,
+  "en": "council",
+  "pos": "명",
+  "ko": "이사회, 의회"
+ },
+ {
+  "index": 2430,
+  "en": "counselor",
+  "pos": "명",
+  "ko": "상담원"
+ },
+ {
+  "index": 2432,
+  "en": "counterpart",
+  "pos": "명",
+  "ko": "상대방, 대응물"
+ },
+ {
+  "index": 2433,
+  "en": "countertop",
+  "pos": "명",
+  "ko": "조리대, 작업대"
+ },
+ {
+  "index": 2434,
+  "en": "courier service",
+  "pos": "명",
+  "ko": "택배 회사"
+ },
+ {
+  "index": 2435,
+  "en": "course of study",
+  "pos": "명",
+  "ko": "교육 과정"
+ },
+ {
+  "index": 2436,
+  "en": "courtyard",
+  "pos": "명",
+  "ko": "안뜰"
+ },
+ {
+  "index": 2439,
+  "en": "credible",
+  "pos": "형",
+  "ko": "신용할 수 있는, 확실한"
+ },
+ {
+  "index": 2440,
+  "en": "credit limit",
+  "pos": "명",
+  "ko": "신용대출 한도액"
+ },
+ {
+  "index": 2441,
+  "en": "creditor",
+  "pos": "명",
+  "ko": "채권자"
+ },
+ {
+  "index": 2442,
+  "en": "crew",
+  "pos": "명",
+  "ko": "승무원"
+ },
+ {
+  "index": 2443,
+  "en": "criteria",
+  "pos": "명",
+  "ko": "기준 (criterion의 복수형)"
+ },
+ {
+  "index": 2444,
+  "en": "critic",
+  "pos": "명",
+  "ko": "비평가"
+ },
+ {
+  "index": 2445,
+  "en": "crop",
+  "pos": "명",
+  "ko": "농작물, 산출량"
+ },
+ {
+  "index": 2447,
+  "en": "crucial",
+  "pos": "형",
+  "ko": "중요한"
+ },
+ {
+  "index": 2449,
+  "en": "crude oil",
+  "pos": "명",
+  "ko": "원유"
+ },
+ {
+  "index": 2451,
+  "en": "cure",
+  "pos": "명/동",
+  "ko": "치료; 치료하다"
+ },
+ {
+  "index": 2452,
+  "en": "curriculum",
+  "pos": "명",
+  "ko": "교과 과정"
+ },
+ {
+  "index": 2458,
+  "en": "cutback",
+  "pos": "명",
+  "ko": "삭감"
+ },
+ {
+  "index": 2460,
+  "en": "day-to-day operation",
+  "pos": "명",
+  "ko": "일상 업무"
+ },
+ {
+  "index": 2462,
+  "en": "decisive",
+  "pos": "형",
+  "ko": "결정적인, 확고한"
+ },
+ {
+  "index": 2463,
+  "en": "declaration",
+  "pos": "명",
+  "ko": "선언, 발표"
+ },
+ {
+  "index": 2464,
+  "en": "decorative item",
+  "pos": "명",
+  "ko": "장식품"
+ },
+ {
+  "index": 2465,
+  "en": "dedication ceremony",
+  "pos": "명",
+  "ko": "준공식, 헌당식"
+ },
+ {
+  "index": 2466,
+  "en": "default",
+  "pos": "명",
+  "ko": "태만, 불이행"
+ },
+ {
+  "index": 2468,
+  "en": "defect",
+  "pos": "명",
+  "ko": "결함"
+ },
+ {
+  "index": 2469,
+  "en": "definite",
+  "pos": "형",
+  "ko": "분명한, 명확한"
+ },
+ {
+  "index": 2470,
+  "en": "delicate",
+  "pos": "형",
+  "ko": "민감한, 세심한 주의가 필요한"
+ },
+ {
+  "index": 2471,
+  "en": "delight",
+  "pos": "명",
+  "ko": "기쁨"
+ },
+ {
+  "index": 2472,
+  "en": "delighted",
+  "pos": "형",
+  "ko": "기뻐하는, 즐거워하는"
+ },
+ {
+  "index": 2474,
+  "en": "deposit slip",
+  "pos": "명",
+  "ko": "예금 전표"
+ },
+ {
+  "index": 2476,
+  "en": "depressing",
+  "pos": "형",
+  "ko": "우울한"
+ },
+ {
+  "index": 2477,
+  "en": "desirable",
+  "pos": "형",
+  "ko": "바람직한, 이상적인"
+ },
+ {
+  "index": 2478,
+  "en": "desperate",
+  "pos": "형",
+  "ko": "필사적인, 절망적인"
+ },
+ {
+  "index": 2479,
+  "en": "destruction",
+  "pos": "명",
+  "ko": "파괴"
+ },
+ {
+  "index": 2480,
+  "en": "detector",
+  "pos": "명",
+  "ko": "탐지기, 측정기"
+ },
+ {
+  "index": 2484,
+  "en": "diabetes",
+  "pos": "명",
+  "ko": "당뇨병"
+ },
+ {
+  "index": 2485,
+  "en": "digit",
+  "pos": "명",
+  "ko": "숫자"
+ },
+ {
+  "index": 2486,
+  "en": "dimension",
+  "pos": "명",
+  "ko": "규모, 크기"
+ },
+ {
+  "index": 2488,
+  "en": "diner",
+  "pos": "명",
+  "ko": "식사하는 사람"
+ },
+ {
+  "index": 2489,
+  "en": "diploma",
+  "pos": "명",
+  "ko": "졸업 증서"
+ },
+ {
+  "index": 2490,
+  "en": "diplomat",
+  "pos": "명",
+  "ko": "외교관"
+ },
+ {
+  "index": 2491,
+  "en": "direct deposit",
+  "pos": "명",
+  "ko": "은행 자동 이체"
+ },
+ {
+  "index": 2493,
+  "en": "disappointing",
+  "pos": "형",
+  "ko": "실망스러운, 실망시키는"
+ },
+ {
+  "index": 2496,
+  "en": "discipline",
+  "pos": "명",
+  "ko": "훈련"
+ },
+ {
+  "index": 2501,
+  "en": "display case",
+  "pos": "명",
+  "ko": "진열 상자, 진열함"
+ },
+ {
+  "index": 2502,
+  "en": "disposal",
+  "pos": "명",
+  "ko": "처분, 폐기"
+ },
+ {
+  "index": 2504,
+  "en": "disruption",
+  "pos": "명",
+  "ko": "중단, 혼란"
+ },
+ {
+  "index": 2505,
+  "en": "dissatisfied",
+  "pos": "형",
+  "ko": "불만인"
+ },
+ {
+  "index": 2507,
+  "en": "distinction",
+  "pos": "명",
+  "ko": "구별, 차이; 우수성"
+ },
+ {
+  "index": 2509,
+  "en": "distraction",
+  "pos": "명",
+  "ko": "집중을 방해하는 것, 주의 산만"
+ },
+ {
+  "index": 2510,
+  "en": "distributor",
+  "pos": "명",
+  "ko": "분배자, 판매자"
+ },
+ {
+  "index": 2511,
+  "en": "dock",
+  "pos": "명",
+  "ko": "선창, 부두"
+ },
+ {
+  "index": 2513,
+  "en": "donor",
+  "pos": "명",
+  "ko": "기증자"
+ },
+ {
+  "index": 2514,
+  "en": "door-to-door delivery",
+  "pos": "명",
+  "ko": "택배"
+ },
+ {
+  "index": 2515,
+  "en": "doorway",
+  "pos": "명",
+  "ko": "문간"
+ },
+ {
+  "index": 2516,
+  "en": "dose",
+  "pos": "명",
+  "ko": "(약의) 1회 복용량"
+ },
+ {
+  "index": 2517,
+  "en": "double occupancy",
+  "pos": "명",
+  "ko": "2인실 사용"
+ },
+ {
+  "index": 2519,
+  "en": "doubtful",
+  "pos": "형",
+  "ko": "확신이 없는, 의심스러운"
+ },
+ {
+  "index": 2521,
+  "en": "downpour",
+  "pos": "명",
+  "ko": "호우"
+ },
+ {
+  "index": 2523,
+  "en": "downturn",
+  "pos": "명",
+  "ko": "(경기) 침체"
+ },
+ {
+  "index": 2530,
+  "en": "drawback",
+  "pos": "명",
+  "ko": "약점, 문제점"
+ },
+ {
+  "index": 2531,
+  "en": "dresser",
+  "pos": "명",
+  "ko": "화장대, 서랍장"
+ },
+ {
+  "index": 2534,
+  "en": "driven",
+  "pos": "형",
+  "ko": "의욕이 넘치는"
+ },
+ {
+  "index": 2537,
+  "en": "duty-free shop",
+  "pos": "명",
+  "ko": "면세점"
+ },
+ {
+  "index": 2538,
+  "en": "dynamic",
+  "pos": "형",
+  "ko": "활동적인"
+ },
+ {
+  "index": 2540,
+  "en": "eagerness",
+  "pos": "명",
+  "ko": "열의"
+ },
+ {
+  "index": 2542,
+  "en": "editorial",
+  "pos": "형",
+  "ko": "편집자의, 사설의"
+ },
+ {
+  "index": 2543,
+  "en": "effectively",
+  "pos": "부",
+  "ko": "효과적으로"
+ },
+ {
+  "index": 2545,
+  "en": "elderly",
+  "pos": "형",
+  "ko": "나이 든"
+ },
+ {
+  "index": 2550,
+  "en": "endorsement",
+  "pos": "명",
+  "ko": "(공개적인) 지지"
+ },
+ {
+  "index": 2551,
+  "en": "energetic",
+  "pos": "형",
+  "ko": "활동적인"
+ },
+ {
+  "index": 2552,
+  "en": "energy efficiency",
+  "pos": "명",
+  "ko": "에너지 효율"
+ },
+ {
+  "index": 2553,
+  "en": "energy source",
+  "pos": "명",
+  "ko": "에너지원"
+ },
+ {
+  "index": 2555,
+  "en": "enhancement",
+  "pos": "명",
+  "ko": "상승, 향상"
+ },
+ {
+  "index": 2558,
+  "en": "enterprise",
+  "pos": "명",
+  "ko": "기업, 사업"
+ },
+ {
+  "index": 2559,
+  "en": "enthusiastically",
+  "pos": "부",
+  "ko": "열광적으로, 매우 열심히"
+ },
+ {
+  "index": 2560,
+  "en": "environmental regulations",
+  "pos": "명",
+  "ko": "환경 규제"
+ },
+ {
+  "index": 2561,
+  "en": "epidemic",
+  "pos": "명/형",
+  "ko": "전염성의; (전염병의) 유행"
+ },
+ {
+  "index": 2562,
+  "en": "equality",
+  "pos": "명",
+  "ko": "같음, 평등, 대등"
+ },
+ {
+  "index": 2565,
+  "en": "era",
+  "pos": "명",
+  "ko": "시대"
+ },
+ {
+  "index": 2566,
+  "en": "errand",
+  "pos": "명",
+  "ko": "심부름"
+ },
+ {
+  "index": 2567,
+  "en": "established",
+  "pos": "형",
+  "ko": "확립된, 정평이 있는"
+ },
+ {
+  "index": 2569,
+  "en": "evacuation",
+  "pos": "명",
+  "ko": "대피"
+ },
+ {
+  "index": 2572,
+  "en": "evidently",
+  "pos": "부",
+  "ko": "분명히, 명백히"
+ },
+ {
+  "index": 2575,
+  "en": "excellence",
+  "pos": "명",
+  "ko": "우수, 탁월성"
+ },
+ {
+  "index": 2578,
+  "en": "excursion",
+  "pos": "명",
+  "ko": "소풍"
+ },
+ {
+  "index": 2579,
+  "en": "exhibitor",
+  "pos": "명",
+  "ko": "(전시회의) 출품자"
+ },
+ {
+  "index": 2581,
+  "en": "expiration date",
+  "pos": "명",
+  "ko": "만기일"
+ },
+ {
+  "index": 2582,
+  "en": "exploration",
+  "pos": "명",
+  "ko": "탐사, 탐구"
+ },
+ {
+  "index": 2585,
+  "en": "extensive",
+  "pos": "형",
+  "ko": "범위가 넓은"
+ },
+ {
+  "index": 2586,
+  "en": "exterior",
+  "pos": "명/형",
+  "ko": "외부의; 외관"
+ },
+ {
+  "index": 2587,
+  "en": "external",
+  "pos": "형",
+  "ko": "외부의"
+ },
+ {
+  "index": 2588,
+  "en": "extraordinary",
+  "pos": "형",
+  "ko": "이례적인, 훌륭한"
+ },
+ {
+  "index": 2589,
+  "en": "fabulous",
+  "pos": "형",
+  "ko": "굉장히 좋은"
+ },
+ {
+  "index": 2591,
+  "en": "fake",
+  "pos": "명/형",
+  "ko": "위조의; 모조품"
+ },
+ {
+  "index": 2595,
+  "en": "fashion photographer",
+  "pos": "명",
+  "ko": "패션 사진작가"
+ },
+ {
+  "index": 2601,
+  "en": "favorable",
+  "pos": "형",
+  "ko": "호의적인"
+ },
+ {
+  "index": 2602,
+  "en": "favored",
+  "pos": "형",
+  "ko": "호의를 사고 있는"
+ },
+ {
+  "index": 2603,
+  "en": "featured speaker",
+  "pos": "명",
+  "ko": "특별 연사"
+ },
+ {
+  "index": 2604,
+  "en": "federal",
+  "pos": "형",
+  "ko": "연방의"
+ },
+ {
+  "index": 2605,
+  "en": "festive",
+  "pos": "형",
+  "ko": "축제의"
+ },
+ {
+  "index": 2606,
+  "en": "figures",
+  "pos": "명",
+  "ko": "액수, 값"
+ },
+ {
+  "index": 2609,
+  "en": "film footage",
+  "pos": "명",
+  "ko": "자료 화면"
+ },
+ {
+  "index": 2610,
+  "en": "film studio",
+  "pos": "명",
+  "ko": "영화 제작사"
+ },
+ {
+  "index": 2611,
+  "en": "financial history",
+  "pos": "명",
+  "ko": "재무 이력, 금융 거래 내역"
+ },
+ {
+  "index": 2612,
+  "en": "financial statement",
+  "pos": "명",
+  "ko": "재무제표"
+ },
+ {
+  "index": 2613,
+  "en": "findings",
+  "pos": "명",
+  "ko": "조사 결과"
+ },
+ {
+  "index": 2616,
+  "en": "firewood",
+  "pos": "명",
+  "ko": "장작"
+ },
+ {
+  "index": 2617,
+  "en": "first priority",
+  "pos": "명",
+  "ko": "최우선 사항"
+ },
+ {
+  "index": 2619,
+  "en": "fixed price",
+  "pos": "명",
+  "ko": "정가"
+ },
+ {
+  "index": 2620,
+  "en": "flawed",
+  "pos": "형",
+  "ko": "결함이 있는"
+ },
+ {
+  "index": 2622,
+  "en": "floor plan",
+  "pos": "명",
+  "ko": "(건물 등의) 평면도"
+ },
+ {
+  "index": 2623,
+  "en": "flooring",
+  "pos": "명",
+  "ko": "바닥재"
+ },
+ {
+  "index": 2625,
+  "en": "flow chart",
+  "pos": "명",
+  "ko": "작업 공정도"
+ },
+ {
+  "index": 2626,
+  "en": "flower arrangement",
+  "pos": "명",
+  "ko": "꽃꽂이"
+ },
+ {
+  "index": 2627,
+  "en": "fluctuation",
+  "pos": "명",
+  "ko": "변동, 오르내림"
+ },
+ {
+  "index": 2628,
+  "en": "fluency",
+  "pos": "명",
+  "ko": "유창함"
+ },
+ {
+  "index": 2630,
+  "en": "fluently",
+  "pos": "부",
+  "ko": "유창하게"
+ },
+ {
+  "index": 2631,
+  "en": "fluid",
+  "pos": "명",
+  "ko": "액체, 유체"
+ },
+ {
+  "index": 2632,
+  "en": "focus group",
+  "pos": "명",
+  "ko": "표적 집단"
+ },
+ {
+  "index": 2634,
+  "en": "follow-up",
+  "pos": "형",
+  "ko": "후속의, 추가의"
+ },
+ {
+  "index": 2636,
+  "en": "food supplier",
+  "pos": "명",
+  "ko": "음식 공급업체"
+ },
+ {
+  "index": 2637,
+  "en": "footpath",
+  "pos": "명",
+  "ko": "보도, 오솔길"
+ },
+ {
+  "index": 2638,
+  "en": "footrest",
+  "pos": "명",
+  "ko": "발받침"
+ },
+ {
+  "index": 2646,
+  "en": "forecast",
+  "pos": "명/동",
+  "ko": "예측; 예측하다"
+ },
+ {
+  "index": 2647,
+  "en": "foreign currency",
+  "pos": "명",
+  "ko": "외화"
+ },
+ {
+  "index": 2648,
+  "en": "formally",
+  "pos": "부",
+  "ko": "정식으로, 공식적으로"
+ },
+ {
+  "index": 2649,
+  "en": "forwarding address",
+  "pos": "명",
+  "ko": "(우편물의) 전송 주소"
+ },
+ {
+  "index": 2650,
+  "en": "founder",
+  "pos": "명",
+  "ko": "창립자, 설립자"
+ },
+ {
+  "index": 2651,
+  "en": "frankly",
+  "pos": "부",
+  "ko": "솔직히"
+ },
+ {
+  "index": 2653,
+  "en": "freight",
+  "pos": "명",
+  "ko": "운송 화물, 화물 운송"
+ },
+ {
+  "index": 2654,
+  "en": "frequency",
+  "pos": "명",
+  "ko": "빈도"
+ },
+ {
+  "index": 2655,
+  "en": "fringe benefits",
+  "pos": "명",
+  "ko": "부가 복리후생, 부수 혜택"
+ },
+ {
+  "index": 2657,
+  "en": "front-page story",
+  "pos": "명",
+  "ko": "1면 기사"
+ },
+ {
+  "index": 2658,
+  "en": "front-runner",
+  "pos": "명",
+  "ko": "가장 유력한 우승 후보"
+ },
+ {
+  "index": 2660,
+  "en": "fuel consumption",
+  "pos": "명",
+  "ko": "연료 소비"
+ },
+ {
+  "index": 2662,
+  "en": "fundamental",
+  "pos": "형",
+  "ko": "기본적인, 필수적인"
+ },
+ {
+  "index": 2665,
+  "en": "garment",
+  "pos": "명",
+  "ko": "의류"
+ },
+ {
+  "index": 2667,
+  "en": "gathering space",
+  "pos": "명",
+  "ko": "모임 장소"
+ },
+ {
+  "index": 2668,
+  "en": "gem",
+  "pos": "명",
+  "ko": "보석"
+ },
+ {
+  "index": 2669,
+  "en": "general population",
+  "pos": "명",
+  "ko": "일반 대중"
+ },
+ {
+  "index": 2670,
+  "en": "generation gap",
+  "pos": "명",
+  "ko": "세대 차이"
+ },
+ {
+  "index": 2672,
+  "en": "generic",
+  "pos": "형",
+  "ko": "회사 이름이 붙지 않은, 일반적인"
+ },
+ {
+  "index": 2673,
+  "en": "generous",
+  "pos": "형",
+  "ko": "관대한"
+ },
+ {
+  "index": 2675,
+  "en": "genetic research",
+  "pos": "명",
+  "ko": "유전학 연구"
+ },
+ {
+  "index": 2678,
+  "en": "germ",
+  "pos": "명",
+  "ko": "세균"
+ },
+ {
+  "index": 2679,
+  "en": "gesture",
+  "pos": "명",
+  "ko": "몸짓"
+ },
+ {
+  "index": 2694,
+  "en": "glass cabinet",
+  "pos": "명",
+  "ko": "유리 장식장"
+ },
+ {
+  "index": 2695,
+  "en": "glassware",
+  "pos": "명",
+  "ko": "유리 제품"
+ },
+ {
+  "index": 2699,
+  "en": "going away party",
+  "pos": "명",
+  "ko": "송별회"
+ },
+ {
+  "index": 2701,
+  "en": "government grant",
+  "pos": "명",
+  "ko": "정부 보조금"
+ },
+ {
+  "index": 2704,
+  "en": "grain",
+  "pos": "명",
+  "ko": "곡물"
+ },
+ {
+  "index": 2706,
+  "en": "greenhouse",
+  "pos": "명",
+  "ko": "온실"
+ },
+ {
+  "index": 2710,
+  "en": "growth potential",
+  "pos": "명",
+  "ko": "성장 잠재력"
+ },
+ {
+  "index": 2711,
+  "en": "guest pass",
+  "pos": "명",
+  "ko": "손님용 입장권"
+ },
+ {
+  "index": 2712,
+  "en": "guest speaker",
+  "pos": "명",
+  "ko": "초청 연사"
+ },
+ {
+  "index": 2713,
+  "en": "hail",
+  "pos": "명",
+  "ko": "우박"
+ },
+ {
+  "index": 2714,
+  "en": "halt",
+  "pos": "명",
+  "ko": "중단, 정지"
+ },
+ {
+  "index": 2717,
+  "en": "handling",
+  "pos": "명/형",
+  "ko": "처리, 조작; 취급의"
+ },
+ {
+  "index": 2718,
+  "en": "handmade",
+  "pos": "형",
+  "ko": "수공의"
+ },
+ {
+  "index": 2722,
+  "en": "harbor",
+  "pos": "명/동",
+  "ko": "항구; (배를) 항구에 정박시키다"
+ },
+ {
+  "index": 2736,
+  "en": "headlight",
+  "pos": "명",
+  "ko": "전조등"
+ },
+ {
+  "index": 2740,
+  "en": "helping",
+  "pos": "명/형",
+  "ko": "도움의; (음식물) 한 그릇"
+ },
+ {
+  "index": 2741,
+  "en": "heritage",
+  "pos": "명",
+  "ko": "전통, 유산"
+ },
+ {
+  "index": 2743,
+  "en": "hiccup",
+  "pos": "명",
+  "ko": "딸꾹질"
+ },
+ {
+  "index": 2745,
+  "en": "highlight",
+  "pos": "명/동",
+  "ko": "가장 중요한 부분; 강조하다"
+ },
+ {
+  "index": 2746,
+  "en": "hiring committee",
+  "pos": "명",
+  "ko": "고용 위원회"
+ },
+ {
+  "index": 2754,
+  "en": "housekeeping",
+  "pos": "명",
+  "ko": "가사"
+ },
+ {
+  "index": 2755,
+  "en": "housewares",
+  "pos": "명",
+  "ko": "가정용품"
+ },
+ {
+  "index": 2756,
+  "en": "housing development",
+  "pos": "명",
+  "ko": "주택 개발"
+ },
+ {
+  "index": 2758,
+  "en": "hygiene",
+  "pos": "명",
+  "ko": "위생"
+ },
+ {
+  "index": 2764,
+  "en": "immigrant",
+  "pos": "명",
+  "ko": "이주자"
+ },
+ {
+  "index": 2765,
+  "en": "immigration",
+  "pos": "명",
+  "ko": "입국 심사, 이민"
+ },
+ {
+  "index": 2767,
+  "en": "impractical",
+  "pos": "형",
+  "ko": "비현실적인, 비실용적인"
+ },
+ {
+  "index": 2768,
+  "en": "impressively",
+  "pos": "부",
+  "ko": "인상적으로, 인상 깊게"
+ },
+ {
+  "index": 2769,
+  "en": "improper",
+  "pos": "형",
+  "ko": "부당한, 부도덕한"
+ },
+ {
+  "index": 2770,
+  "en": "improperly",
+  "pos": "부",
+  "ko": "부적절하게"
+ },
+ {
+  "index": 2809,
+  "en": "inadequate",
+  "pos": "형",
+  "ko": "부적절한, 불충분한"
+ },
+ {
+  "index": 2810,
+  "en": "incompetent",
+  "pos": "형",
+  "ko": "무능한"
+ },
+ {
+  "index": 2811,
+  "en": "inconsistency",
+  "pos": "명",
+  "ko": "불일치"
+ },
+ {
+  "index": 2812,
+  "en": "inconvenient",
+  "pos": "형",
+  "ko": "불편한"
+ },
+ {
+  "index": 2815,
+  "en": "indecisive",
+  "pos": "형",
+  "ko": "결말이 안 난, 우유부단한"
+ },
+ {
+  "index": 2818,
+  "en": "indifferent",
+  "pos": "형",
+  "ko": "무관심한, 중요하지 않은"
+ },
+ {
+  "index": 2819,
+  "en": "inexperience",
+  "pos": "명",
+  "ko": "무경험, 미숙"
+ },
+ {
+  "index": 2820,
+  "en": "informed",
+  "pos": "형",
+  "ko": "잘 알고 있는"
+ },
+ {
+  "index": 2821,
+  "en": "infrastructure",
+  "pos": "명",
+  "ko": "사회 기반 시설, 경제 기반 시설"
+ },
+ {
+  "index": 2822,
+  "en": "initiative",
+  "pos": "명",
+  "ko": "계획, 진취성"
+ },
+ {
+  "index": 2823,
+  "en": "injection",
+  "pos": "명",
+  "ko": "주사"
+ },
+ {
+  "index": 2825,
+  "en": "innovation",
+  "pos": "명",
+  "ko": "혁신, 쇄신"
+ },
+ {
+  "index": 2827,
+  "en": "insecurely",
+  "pos": "부",
+  "ko": "불안하여"
+ },
+ {
+  "index": 2830,
+  "en": "institution",
+  "pos": "명",
+  "ko": "기관, (학교·병원 등의) 시설"
+ },
+ {
+  "index": 2831,
+  "en": "insufficient",
+  "pos": "형",
+  "ko": "불충분한"
+ },
+ {
+  "index": 2832,
+  "en": "insulation",
+  "pos": "명",
+  "ko": "단열재"
+ },
+ {
+  "index": 2835,
+  "en": "integration",
+  "pos": "명",
+  "ko": "통합"
+ },
+ {
+  "index": 2836,
+  "en": "intended recipient",
+  "pos": "명",
+  "ko": "해당 수취인"
+ },
+ {
+  "index": 2837,
+  "en": "intense",
+  "pos": "형",
+  "ko": "극심한, 강렬한"
+ },
+ {
+  "index": 2838,
+  "en": "intentionally",
+  "pos": "부",
+  "ko": "고의로, 의도적으로"
+ },
+ {
+  "index": 2840,
+  "en": "internship",
+  "pos": "명",
+  "ko": "인턴 신분, 인턴 기간"
+ },
+ {
+  "index": 2841,
+  "en": "interpersonal skills",
+  "pos": "명",
+  "ko": "대인 관계 능력"
+ },
+ {
+  "index": 2842,
+  "en": "interpretation",
+  "pos": "명",
+  "ko": "해석, 설명"
+ },
+ {
+  "index": 2843,
+  "en": "interruption",
+  "pos": "명",
+  "ko": "중단, 방해"
+ },
+ {
+  "index": 2844,
+  "en": "intuitively",
+  "pos": "부",
+  "ko": "직관적으로"
+ },
+ {
+  "index": 2845,
+  "en": "invalid",
+  "pos": "형",
+  "ko": "실효성이 없는, 무효인"
+ },
+ {
+  "index": 2846,
+  "en": "invaluable",
+  "pos": "형",
+  "ko": "매우 유용한, 귀중한"
+ },
+ {
+  "index": 2847,
+  "en": "invention",
+  "pos": "명",
+  "ko": "발명, 발명품"
+ },
+ {
+  "index": 2848,
+  "en": "inviting",
+  "pos": "형",
+  "ko": "매력적인, 솔깃한"
+ },
+ {
+  "index": 2849,
+  "en": "involuntarily",
+  "pos": "부",
+  "ko": "본의 아니게"
+ },
+ {
+  "index": 2850,
+  "en": "ironing",
+  "pos": "명",
+  "ko": "다림질"
+ },
+ {
+  "index": 2852,
+  "en": "irreversible",
+  "pos": "형",
+  "ko": "되돌릴 수 없는"
+ },
+ {
+  "index": 2856,
+  "en": "janitor",
+  "pos": "명",
+  "ko": "(건물) 관리인"
+ },
+ {
+  "index": 2859,
+  "en": "job cutback",
+  "pos": "명",
+  "ko": "인력 감축"
+ },
+ {
+  "index": 2860,
+  "en": "job satisfaction",
+  "pos": "명",
+  "ko": "업무 만족도"
+ },
+ {
+  "index": 2861,
+  "en": "job seeker",
+  "pos": "명",
+  "ko": "구직자"
+ },
+ {
+  "index": 2862,
+  "en": "joint",
+  "pos": "형",
+  "ko": "공동의"
+ },
+ {
+  "index": 2864,
+  "en": "justly",
+  "pos": "부",
+  "ko": "공정하게"
+ },
+ {
+  "index": 2868,
+  "en": "keynote address",
+  "pos": "명",
+  "ko": "기조연설"
+ },
+ {
+  "index": 2869,
+  "en": "keynote speaker",
+  "pos": "명",
+  "ko": "기조연설자"
+ },
+ {
+  "index": 2873,
+  "en": "knowledgeable",
+  "pos": "형",
+  "ko": "아는 것이 많은"
+ },
+ {
+  "index": 2874,
+  "en": "lab technician",
+  "pos": "명",
+  "ko": "연구실 기술자"
+ },
+ {
+  "index": 2875,
+  "en": "labor costs",
+  "pos": "명",
+  "ko": "인건비"
+ },
+ {
+  "index": 2879,
+  "en": "landing",
+  "pos": "명",
+  "ko": "착륙"
+ },
+ {
+  "index": 2880,
+  "en": "landlord",
+  "pos": "명",
+  "ko": "집주인"
+ },
+ {
+  "index": 2881,
+  "en": "landmark",
+  "pos": "명",
+  "ko": "유명한 건물, 유명한 장소"
+ },
+ {
+  "index": 2882,
+  "en": "landscape",
+  "pos": "명",
+  "ko": "풍경"
+ },
+ {
+  "index": 2883,
+  "en": "landscaping",
+  "pos": "명",
+  "ko": "조경"
+ },
+ {
+  "index": 2885,
+  "en": "lawsuit",
+  "pos": "명",
+  "ko": "소송, 고소"
+ },
+ {
+  "index": 2894,
+  "en": "leftover",
+  "pos": "명",
+  "ko": "남은; (-s) 남은 음식"
+ },
+ {
+  "index": 2895,
+  "en": "leg room",
+  "pos": "명",
+  "ko": "(자동차 등에) 다리를 뻗을 수 있는 공간"
+ },
+ {
+  "index": 2896,
+  "en": "legacy",
+  "pos": "명",
+  "ko": "유산, 유물"
+ },
+ {
+  "index": 2897,
+  "en": "legal counsel",
+  "pos": "명",
+  "ko": "법률 상담"
+ },
+ {
+  "index": 2898,
+  "en": "legal department",
+  "pos": "명",
+  "ko": "법률 부서"
+ },
+ {
+  "index": 2900,
+  "en": "legitimate",
+  "pos": "형",
+  "ko": "합법적인, 적법한"
+ },
+ {
+  "index": 2901,
+  "en": "leisure",
+  "pos": "명",
+  "ko": "여가"
+ },
+ {
+  "index": 2906,
+  "en": "license plate number",
+  "pos": "명",
+  "ko": "차량 번호"
+ },
+ {
+  "index": 2907,
+  "en": "licensed",
+  "pos": "형",
+  "ko": "인가된, 자격증을 소지한"
+ },
+ {
+  "index": 2908,
+  "en": "life expectancy",
+  "pos": "명",
+  "ko": "평균 수명"
+ },
+ {
+  "index": 2909,
+  "en": "life span",
+  "pos": "명",
+  "ko": "수명"
+ },
+ {
+  "index": 2910,
+  "en": "lifetime employment",
+  "pos": "명",
+  "ko": "종신 고용"
+ },
+ {
+  "index": 2912,
+  "en": "lighthouse",
+  "pos": "명",
+  "ko": "등대"
+ },
+ {
+  "index": 2913,
+  "en": "lightly",
+  "pos": "부",
+  "ko": "가볍게, 부드럽게"
+ },
+ {
+  "index": 2914,
+  "en": "limitation",
+  "pos": "명",
+  "ko": "제한, 한계"
+ },
+ {
+  "index": 2915,
+  "en": "limited edition",
+  "pos": "명",
+  "ko": "한정판"
+ },
+ {
+  "index": 2916,
+  "en": "line worker",
+  "pos": "명",
+  "ko": "작업 라인 노동자"
+ },
+ {
+  "index": 2918,
+  "en": "listing",
+  "pos": "명",
+  "ko": "목록"
+ },
+ {
+  "index": 2919,
+  "en": "literacy",
+  "pos": "명",
+  "ko": "읽고 쓰는 능력"
+ },
+ {
+  "index": 2921,
+  "en": "litter",
+  "pos": "명/동",
+  "ko": "쓰레기; 어지르다, 흐트러뜨리다"
+ },
+ {
+  "index": 2924,
+  "en": "load size",
+  "pos": "명",
+  "ko": "적재 수하물 크기"
+ },
+ {
+  "index": 2926,
+  "en": "loading dock",
+  "pos": "명",
+  "ko": "하역장"
+ },
+ {
+  "index": 2929,
+  "en": "logistics",
+  "pos": "명",
+  "ko": "물류, 실행 계획"
+ },
+ {
+  "index": 2930,
+  "en": "long-lasting",
+  "pos": "형",
+  "ko": "오래 지속되는"
+ },
+ {
+  "index": 2931,
+  "en": "long-term stability",
+  "pos": "명",
+  "ko": "장기 안정(성)"
+ },
+ {
+  "index": 2936,
+  "en": "loosely",
+  "pos": "부",
+  "ko": "대략"
+ },
+ {
+  "index": 2939,
+  "en": "loudspeaker",
+  "pos": "명",
+  "ko": "확성기"
+ },
+ {
+  "index": 2940,
+  "en": "lounge",
+  "pos": "명",
+  "ko": "대합실"
+ },
+ {
+  "index": 2941,
+  "en": "low-income resident",
+  "pos": "명",
+  "ko": "저소득 주민"
+ },
+ {
+  "index": 2942,
+  "en": "loyal customer",
+  "pos": "명",
+  "ko": "단골 고객"
+ },
+ {
+  "index": 2943,
+  "en": "loyalty",
+  "pos": "명",
+  "ko": "충실, 충성, 충성심"
+ },
+ {
+  "index": 2944,
+  "en": "luggage tag",
+  "pos": "명",
+  "ko": "수하물 표"
+ },
+ {
+  "index": 2946,
+  "en": "mainland",
+  "pos": "명",
+  "ko": "본토"
+ },
+ {
+  "index": 2976,
+  "en": "makeup",
+  "pos": "명",
+  "ko": "구성, 화장"
+ },
+ {
+  "index": 2977,
+  "en": "management seminar",
+  "pos": "명",
+  "ko": "경영 세미나"
+ },
+ {
+  "index": 2978,
+  "en": "manipulation",
+  "pos": "명",
+  "ko": "조작, 시장 조작"
+ },
+ {
+  "index": 2979,
+  "en": "manpower",
+  "pos": "명",
+  "ko": "인력"
+ },
+ {
+  "index": 2980,
+  "en": "marginal",
+  "pos": "형",
+  "ko": "미미한, 주변의"
+ },
+ {
+  "index": 2981,
+  "en": "market share",
+  "pos": "명",
+  "ko": "시장 점유율"
+ },
+ {
+  "index": 2982,
+  "en": "market stall",
+  "pos": "명",
+  "ko": "시장 가판대"
+ },
+ {
+  "index": 2985,
+  "en": "marketplace",
+  "pos": "명",
+  "ko": "시장"
+ },
+ {
+  "index": 2986,
+  "en": "massive",
+  "pos": "형",
+  "ko": "대량의, 대규모의"
+ },
+ {
+  "index": 2987,
+  "en": "master's degree",
+  "pos": "명",
+  "ko": "석사 학위"
+ },
+ {
+  "index": 2988,
+  "en": "maternity leave",
+  "pos": "명",
+  "ko": "출산 휴가"
+ },
+ {
+  "index": 2990,
+  "en": "meal pass",
+  "pos": "명",
+  "ko": "식권"
+ },
+ {
+  "index": 2991,
+  "en": "meaningful",
+  "pos": "형",
+  "ko": "의미 있는, 중요한"
+ },
+ {
+  "index": 2993,
+  "en": "mechanical",
+  "pos": "형",
+  "ko": "기계상의, 기계로 움직이는"
+ },
+ {
+  "index": 2995,
+  "en": "mediation",
+  "pos": "명",
+  "ko": "조정, 중재"
+ },
+ {
+  "index": 2996,
+  "en": "medical facility",
+  "pos": "명",
+  "ko": "의료시설"
+ },
+ {
+  "index": 3000,
+  "en": "memorable",
+  "pos": "형",
+  "ko": "기억할 만한, 잊혀지지 않는"
+ },
+ {
+  "index": 3001,
+  "en": "memorial",
+  "pos": "명/형",
+  "ko": "기념물; 기념의"
+ },
+ {
+  "index": 3002,
+  "en": "mentor",
+  "pos": "명",
+  "ko": "조언자"
+ },
+ {
+  "index": 3003,
+  "en": "merchant",
+  "pos": "명/형",
+  "ko": "상인; 상업(용)의, 무역의"
+ },
+ {
+  "index": 3005,
+  "en": "merit",
+  "pos": "명",
+  "ko": "장점"
+ },
+ {
+  "index": 3007,
+  "en": "metropolitan area",
+  "pos": "명",
+  "ko": "대도시 지역"
+ },
+ {
+  "index": 3008,
+  "en": "midday",
+  "pos": "명",
+  "ko": "정오"
+ },
+ {
+  "index": 3009,
+  "en": "midtown",
+  "pos": "명",
+  "ko": "(도심지와 시 외곽 사이의) 중간 지대"
+ },
+ {
+  "index": 3010,
+  "en": "mileage",
+  "pos": "명",
+  "ko": "주행 거리"
+ },
+ {
+  "index": 3011,
+  "en": "milestone",
+  "pos": "명",
+  "ko": "획기적인 사건, 중요한 단계"
+ },
+ {
+  "index": 3012,
+  "en": "mindful",
+  "pos": "형",
+  "ko": "유념하는"
+ },
+ {
+  "index": 3015,
+  "en": "ministry",
+  "pos": "명",
+  "ko": "(정부의) 부서"
+ },
+ {
+  "index": 3016,
+  "en": "minor",
+  "pos": "형",
+  "ko": "사소한"
+ },
+ {
+  "index": 3018,
+  "en": "miserable",
+  "pos": "형",
+  "ko": "비참한, 슬픈"
+ }
+]
