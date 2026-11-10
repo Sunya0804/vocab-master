@@ -603,5 +603,87 @@ test('TOEIC source headwords remain available and quizzes accept the current pac
   }
 });
 
+test('exam sets preserve 25/45/30 proportions, unique IDs and input order', () => {
+  const bank = [1, 2, 3].flatMap(difficulty => Array.from({length:100}, (_, i) => ({id:`p5-${difficulty * 1000 + i}`, difficulty})));
+  const before = JSON.stringify(bank);
+  for (const [count, expected] of [[30, [8, 13, 9]], [25, [6, 11, 8]]]) {
+    const selected = Core.selectExamQuestions(bank, count, 0, seededRandom(7));
+    assert.equal(selected.length, count);
+    assert.equal(new Set(selected.map(q => q.id)).size, count);
+    assert.deepEqual([1, 2, 3].map(level => selected.filter(q => q.difficulty === level).length), expected);
+  }
+  assert.equal(JSON.stringify(bank), before);
+  assert.deepEqual(Core.selectExamQuestions(bank, 30, 0, seededRandom(3)), Core.selectExamQuestions(bank, 30, 0, seededRandom(3)));
+});
+
+test('exam selection respects difficulty, scarce levels, tiny banks and invalid requests', () => {
+  const bank = Array.from({length:40}, (_, i) => ({id:`p2-${i}`, difficulty:i < 2 ? 1 : 2}));
+  assert.equal(Core.selectExamQuestions(bank, 25).length, 25);
+  assert.equal(Core.selectExamQuestions(bank, 30, 1).length, 2);
+  assert.ok(Core.selectExamQuestions(bank, 25, 2).every(q => q.difficulty === 2));
+  assert.deepEqual(Core.selectExamQuestions([], 30), []);
+  assert.deepEqual(Core.selectExamQuestions(bank, 0), []);
+  assert.equal(Core.selectExamQuestions([bank[0], bank[0]], 30).length, 1);
+  assert.throws(() => Core.selectExamQuestions(bank, -1), RangeError);
+  assert.throws(() => Core.selectExamQuestions(bank, 25, 4), RangeError);
+});
+
+test('exam answers retain tries and timestamp without mutating prior records', () => {
+  const original = {answers:{}};
+  const wrong = Core.recordExamAnswer(original, 'p5-001', false, 100);
+  const correct = Core.recordExamAnswer(wrong, 'p5-001', true, 200);
+  assert.deepEqual(original, {answers:{}});
+  assert.deepEqual(wrong.answers['p5-001'], {correct:false, first:false, at:100, tries:1});
+  assert.deepEqual(correct.answers['p5-001'], {correct:true, first:false, at:200, tries:2});
+  assert.deepEqual(Core.examStats([{id:'p5-001'}], correct.answers).wrong, []);
+  assert.throws(() => Core.recordExamAnswer(original, '__proto__', true, 1), TypeError);
+});
+
+test('exam stats use latest answers, ignore other parts and count each ID once', () => {
+  const questions = [{id:'p5-001'}, {id:'p5-002'}, {id:'p5-003'}, {id:'p5-001'}];
+  const answers = {'p5-001':{correct:true}, 'p5-002':{correct:false}, 'p2-001':{correct:true}};
+  const stats = Core.examStats(questions, answers);
+  assert.deepEqual(stats, {total:3, solved:2, correct:1, accuracy:50, firstCorrect:1, firstAccuracy:50, wrong:[questions[1]]});
+  assert.equal(Core.examStats(questions, {}).accuracy, 0);
+});
+
+test('exam first-attempt results survive retries and legacy record migration', () => {
+  const questions = [{id:'p5-001'}, {id:'p5-002'}, {id:'p5-003'}, {id:'p5-004'}];
+  let exam = {answers:{'p5-003':{correct:false, at:10, tries:2}, 'p5-004':{correct:true, at:10, tries:2}}};
+  const original = JSON.stringify(exam);
+  const legacyStats = Core.examStats(questions, exam.answers);
+  assert.equal(legacyStats.firstAccuracy, 50);
+  assert.equal(JSON.stringify(exam), original);
+  exam = Core.recordExamAnswer(exam, 'p5-001', false, 20);
+  exam = Core.recordExamAnswer(exam, 'p5-001', true, 30);
+  exam = Core.recordExamAnswer(exam, 'p5-002', true, 20);
+  exam = Core.recordExamAnswer(exam, 'p5-002', false, 30);
+  exam = Core.recordExamAnswer(exam, 'p5-003', true, 30);
+  exam = Core.recordExamAnswer(exam, 'p5-004', false, 30);
+  assert.deepEqual(questions.map(q => exam.answers[q.id].first), [false, true, false, true]);
+  assert.deepEqual(Core.examStats(questions, exam.answers), {total:4, solved:4, correct:2, accuracy:50,
+    firstCorrect:2, firstAccuracy:50, wrong:[questions[1], questions[3]]});
+  for (const q of questions) exam = Core.recordExamAnswer(exam, q.id, true, 40);
+  const stats = Core.examStats(questions, exam.answers);
+  assert.equal(stats.accuracy, 100);
+  assert.equal(stats.firstAccuracy, 50);
+  assert.deepEqual(stats.wrong, []);
+  assert.equal(Core.examStats([], {}).firstAccuracy, 0);
+  assert.ok(Core.validExamState(JSON.parse(JSON.stringify(exam))));
+});
+
+test('exam backup validation rejects malformed records', () => {
+  assert.ok(Core.validExamState({answers:{}}));
+  assert.ok(Core.validExamState({answers:{'p2-001':{correct:false, at:0, tries:1}}}));
+  for (const first of [true, false]) assert.ok(Core.validExamState({answers:{'p2-001':{correct:true, first, at:0, tries:2}}}));
+  for (const first of [null, 0, 1, 'false', [], {}]) {
+    assert.equal(Core.validExamState({answers:{'p2-001':{correct:true, first, at:0, tries:1}}}), false);
+  }
+  for (const answer of [{correct:1, at:0, tries:1}, {correct:true, at:-1, tries:1}, {correct:true, at:0, tries:0}, {correct:true, at:Infinity, tries:1}, {correct:true, at:0, tries:1.5}]) {
+    assert.equal(Core.validExamState({answers:{'p2-001':answer}}), false);
+  }
+  for (const value of [null, [], {}, {answers:[]}, {answers:{bad:{correct:true, at:0, tries:1}}}]) assert.equal(Core.validExamState(value), false);
+});
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 if (failed) process.exitCode = 1;

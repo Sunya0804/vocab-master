@@ -314,7 +314,84 @@
     }
   }
 
+  function selectExamQuestions(questions, count, difficulty = 0, rand = Math.random) {
+    if (!Array.isArray(questions)) throw new TypeError('Questions must be an array');
+    if (!Number.isInteger(count) || count < 0 || ![0, 1, 2, 3].includes(difficulty)) {
+      throw new RangeError('Invalid exam selection');
+    }
+    var seen = new Set();
+    var pool = questions.filter(function (question) {
+      if (!question || typeof question.id !== 'string' || ![1, 2, 3].includes(question.difficulty)
+        || seen.has(question.id) || (difficulty && question.difficulty !== difficulty)) return false;
+      seen.add(question.id);
+      return true;
+    });
+    var size = Math.min(count, pool.length);
+    if (difficulty || !size) return shuffle(pool, rand).slice(0, size);
+    // Largest remainders preserve the 25/45/30 mix at both 30 and 25 questions.
+    var raw = [.25, .45, .30].map(function (weight) { return size * weight; });
+    var quotas = raw.map(Math.floor);
+    var order = [0, 1, 2].sort(function (a, b) {
+      return (raw[b] - quotas[b]) - (raw[a] - quotas[a]) || a - b;
+    });
+    var extra = size - quotas.reduce(function (sum, value) { return sum + value; }, 0);
+    order.slice(0, extra).forEach(function (index) { quotas[index] += 1; });
+    var selected = [];
+    [1, 2, 3].forEach(function (level, index) {
+      selected.push.apply(selected, shuffle(pool.filter(function (question) {
+        return question.difficulty === level;
+      }), rand).slice(0, quotas[index]));
+    });
+    // Sample files and filtered banks may lack a level; fill from unused questions.
+    var ids = new Set(selected.map(function (question) { return question.id; }));
+    selected.push.apply(selected, shuffle(pool.filter(function (question) {
+      return !ids.has(question.id);
+    }), rand).slice(0, size - selected.length));
+    return shuffle(selected, rand);
+  }
+
+  function validExamState(value) {
+    return isRecord(value) && isRecord(value.answers)
+      && Object.entries(value.answers).every(function (pair) {
+        var id = pair[0], answer = pair[1];
+        return /^p[25]-\d+$/.test(id) && isRecord(answer)
+          && typeof answer.correct === 'boolean'
+          && (answer.first === undefined || typeof answer.first === 'boolean')
+          && Number.isFinite(answer.at) && answer.at >= 0
+          && Number.isSafeInteger(answer.tries) && answer.tries > 0;
+      });
+  }
+
+  function recordExamAnswer(exam, id, correct, at = Date.now()) {
+    if (!validExamState(exam) || !/^p[25]-\d+$/.test(id) || typeof correct !== 'boolean'
+      || !Number.isFinite(at) || at < 0) throw new TypeError('Invalid exam answer');
+    var previous = exam.answers[id];
+    var answers = Object.assign({}, exam.answers);
+    answers[id] = { correct: correct, first: previous ? previous.first ?? previous.correct : correct, at: at, tries: Math.min(Number.MAX_SAFE_INTEGER, (previous ? previous.tries : 0) + 1) };
+    return { answers: answers };
+  }
+
+  function examStats(questions, answers) {
+    var seen = new Set(), solved = 0, correct = 0, firstCorrect = 0, wrong = [];
+    questions.forEach(function (question) {
+      if (seen.has(question.id)) return;
+      seen.add(question.id);
+      var answer = answers[question.id];
+      if (!answer || typeof answer.correct !== 'boolean') return;
+      solved += 1;
+      if (answer.first ?? answer.correct) firstCorrect += 1;
+      if (answer.correct) correct += 1;
+      else wrong.push(question);
+    });
+    return { total: seen.size, solved: solved, correct: correct, accuracy: solved ? Math.round(correct / solved * 100) : 0,
+      firstCorrect: firstCorrect, firstAccuracy: solved ? Math.round(firstCorrect / solved * 100) : 0, wrong: wrong };
+  }
+
   return {
+    selectExamQuestions: selectExamQuestions,
+    validExamState: validExamState,
+    recordExamAnswer: recordExamAnswer,
+    examStats: examStats,
     chunkDays: chunkDays,
     dayLevels: dayLevels,
     wordId: wordId,

@@ -17,6 +17,14 @@
   let listenSettings = {rate:.85, examples:false, repeats:1};
   let listening = null, listenGeneration = 0, listenTimer, listenVoiceCleanup;
   let koreanVoiceWarningShown = false;
+  const EXAM_KEY = 'vocab-master-exam';
+  const EXAM_PARTS = {5:{name:'단문 빈칸', total:300, size:30}, 2:{name:'질의응답 듣기', total:200, size:25}};
+  const EXAM_TYPES = {pos:'품사', verb:'동사', 'prep-conj':'전치사·접속사', pronoun:'대명사', relative:'관계사·명사절', comparison:'비교·기타 문법', vocab:'어휘', wh:'의문사 질문', yesno:'일반 의문문', 'negative-tag':'부정·부가 의문문', choice:'선택 의문문', request:'요청·제안', statement:'평서문'};
+  const EXAM_TRAPS = {'repeat-word':'질문 단어 반복', 'similar-sound':'유사 발음', 'wh-mismatch':'다른 의문사 응답', 'yes-no-to-wh':'의문사 질문에 예·아니요 응답', 'related-word':'연상 단어', 'wrong-subject':'주체·시제 불일치'};
+  const EXAM_LEVELS = ['전체', '쉬움', '보통', '어려움'];
+  const examBanks = {5:{status:'idle', questions:[]}, 2:{status:'idle', questions:[]}};
+  let examState = {answers:{}}, examDifficulty = 0, examSession = null;
+  let examAudioGeneration = 0, examAudioTimer, examVoiceCleanup;
 
   function toast(message) {
     clearTimeout(toastTimer);
@@ -170,9 +178,11 @@
         listening.utterance = null;
       }
     }
-    if (supportsSpeech) {
-      try { window.speechSynthesis.cancel(); } catch (_) { /* Already stopped. */ }
-    }
+    cancelSpeech();
+  }
+
+  function cancelSpeech() {
+    if (supportsSpeech) try { window.speechSynthesis.cancel(); } catch (_) { /* Already stopped. */ }
   }
 
   const activeListening = token => token === listenGeneration && listening?.playing
@@ -189,13 +199,15 @@
     try { return window.speechSynthesis.getVoices(); } catch (_) { return []; }
   }
 
+  const speechVoice = (voices, language) => voices.find(voice => voice.lang.toLowerCase().replace('_', '-') === language.toLowerCase())
+    || voices.find(voice => voice.lang.toLowerCase().startsWith(language.slice(0, 2)));
+
   function readListenWord(token, voices) {
     if (!activeListening(token)) return;
     const currentVoices = listenVoices();
     if (currentVoices.length) voices = currentVoices;
     const word = listening.words[listening.index];
-    const voiceFor = language => voices.find(voice => voice.lang.toLowerCase().replace('_', '-') === language.toLowerCase())
-      || voices.find(voice => voice.lang.toLowerCase().startsWith(language.slice(0, 2)));
+    const voiceFor = language => speechVoice(voices, language);
     const korean = voiceFor('ko-KR');
     listening.notice = korean ? '' : '한국어 음성이 없어 뜻과 예문 해석은 건너뛰어요. 기기의 한국어 음성을 설치해 주세요.';
     if (!korean && !koreanVoiceWarningShown) {
@@ -444,12 +456,262 @@
     return `<strong>${draft.words.length}개 단어를 찾았어요</strong>${duplicates}<ul>${draft.words.slice(0, 3).map(word => `<li>${escape(word[0])} · ${escape(word[1])}${word[2] ? ` · ${escape(word[2])}` : ''}</li>`).join('')}</ul>${draft.words.length > 3 ? '<small>외 나머지 단어도 함께 가져와요.</small>' : ''}`;
   }
 
+  function loadExamState() {
+    let raw;
+    try {
+      raw = storage.getItem(EXAM_KEY);
+      if (!raw) return {answers:{}};
+      const value = JSON.parse(raw);
+      if (!Core.validExamState(value)) throw new Error('Invalid exam state');
+      return value;
+    } catch (_) {
+      if (raw) try { storage.setItem(EXAM_KEY + '-corrupt', raw); } catch (_) { /* Preserve current storage. */ }
+      return {answers:{}};
+    }
+  }
+
+  function validExamQuestion(q, part) {
+    const count = part === 5 ? 4 : 3;
+    return isObject(q) && new RegExp(`^p${part}-\\d+$`).test(q.id)
+      && typeof q.q === 'string' && !!q.q.trim() && typeof q.explain === 'string' && !!q.explain.trim()
+      && [1, 2, 3].includes(q.difficulty) && Object.hasOwn(EXAM_TYPES, q.type)
+      && Array.isArray(q.choices) && q.choices.length === count
+      && q.choices.every(choice => typeof choice === 'string' && !!choice.trim())
+      && new Set(q.choices).size === count && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < count
+      && (part === 5 ? typeof q.ko === 'string' && !!q.ko.trim() && q.q.split('-------').length === 2
+        : isObject(q.ko) && typeof q.ko.q === 'string' && !!q.ko.q.trim()
+          && Array.isArray(q.ko.choices) && q.ko.choices.length === count
+          && q.ko.choices.every(text => typeof text === 'string' && !!text.trim())
+          && Array.isArray(q.trap) && q.trap.every(tag => Object.hasOwn(EXAM_TRAPS, tag)));
+  }
+
+  async function loadExamBank(part) {
+    const bank = examBanks[part];
+    if (!bank || bank.status === 'loading') return;
+    bank.status = 'loading';
+    try {
+      const response = await fetch(`./questions/toeic-part${part}.json`);
+      if (!response.ok) throw new Error('Unavailable');
+      const data = await response.json();
+      if (data.version !== 1 || data.part !== part || !Array.isArray(data.questions)
+        || !data.questions.every(q => validExamQuestion(q, part))
+        || new Set(data.questions.map(q => q.id)).size !== data.questions.length) throw new Error('Invalid questions');
+      bank.questions = data.questions;
+      bank.status = 'ready';
+    } catch (_) { bank.status = 'error'; }
+    if (location.hash.startsWith('#/exam')) render();
+  }
+
+  function ensureExamBanks() {
+    for (const part of [5, 2]) if (examBanks[part].status === 'idle') void loadExamBank(part);
+  }
+
+  function examPool(part, wrong = false) {
+    const pool = examBanks[part].questions.filter(q => !examDifficulty || q.difficulty === examDifficulty);
+    return wrong ? Core.examStats(pool, examState.answers).wrong : pool;
+  }
+
+  function makeExamSession(part, mode) {
+    stopExamAudio();
+    const pool = examPool(part, mode === 'wrong');
+    const questions = Core.selectExamQuestions(pool, mode === 'wrong' ? pool.length : EXAM_PARTS[part].size, examDifficulty);
+    examSession = {route:`#/exam/${part}/${mode}`, part, mode, questions, index:0, selected:null, answered:false, finished:false, results:[], audioPlaying:false, audioStatus:'문제 듣기를 누르면 질문과 세 응답을 차례로 읽어요', heard:false, audioFallback:false};
+  }
+
+  function startExam(part, mode) {
+    if (!EXAM_PARTS[part] || !['set', 'wrong'].includes(mode) || examBanks[part].status !== 'ready') return;
+    makeExamSession(part, mode);
+    if (location.hash === examSession.route) render(); else location.hash = examSession.route;
+  }
+
+  function renderExamHome() {
+    return `${intro('', '토익 문제', 'Part 5 단문 빈칸 · Part 2 질의응답')}<div class="level-filter exam-filter" role="group" aria-label="문제 난이도">${EXAM_LEVELS.map((label, level) => `<button class="level-chip" data-action="exam-level" data-level="${level}" aria-pressed="${examDifficulty === level}">${label}</button>`).join('')}</div>
+      <p class="exam-note">${examDifficulty ? '선택한 난이도의 문제로 세트를 구성해요' : '실전 세트 난이도 · 쉬움 25% · 보통 45% · 어려움 30%'}</p>
+      <div class="exam-parts">${[5, 2].map(part => {
+        const bank = examBanks[part], info = EXAM_PARTS[part];
+        const stats = Core.examStats(bank.questions, examState.answers), pool = examPool(part), wrong = examPool(part, true);
+        return `<section class="exam-card" data-exam-part="${part}"><div class="exam-card-heading"><div><span class="eyebrow">Part ${part}</span><h2>${info.name}</h2></div>${icon(part === 2 ? 'headphones' : 'book-open')}</div>
+          ${bank.status === 'error' ? `<p class="exam-note">문제를 불러오지 못했어요. 연결을 확인한 뒤 다시 시도해 주세요.</p><button class="full" data-action="exam-reload" data-part="${part}">다시 불러오기</button>`
+            : bank.status !== 'ready' ? '<p class="exam-note">문제를 불러오는 중</p>'
+            : `<div class="exam-mini-stats"><span>푼 문제 <strong>${stats.solved} / ${Math.max(info.total, bank.questions.length)}</strong></span><span>첫 시도 정답률 <strong>${stats.firstAccuracy}%</strong></span></div>
+              <div class="button-row"><button class="primary" data-action="exam-start" data-part="${part}" data-mode="set" aria-label="Part ${part} ${EXAM_LEVELS[examDifficulty]} 실전 세트 시작" ${!pool.length ? 'disabled' : ''}>실전 세트 <span class="exam-button-count">${Math.min(info.size, pool.length)}문항</span></button><button data-action="exam-start" data-part="${part}" data-mode="wrong" ${!wrong.length ? 'disabled' : ''}>틀린 문제 ${wrong.length}</button></div>
+              <p class="exam-note">${bank.questions.length < info.total ? `현재 ${bank.questions.length}문항 제공 · 세트는 제공된 문항으로 구성해요` : `${pool.length}문항 중 무작위 추출 · 실전 ${info.size}문항`}</p>`}</section>`;
+      }).join('')}</div>`;
+  }
+
+  function renderExamScript(q, revealAnswer) {
+    return `<section class="exam-script" aria-label="질문과 응답 스크립트"><h2>스크립트</h2><p lang="en">${escape(q.q)}</p><p class="muted" lang="ko">${escape(q.ko.q)}</p><ol>${q.choices.map((text, index) => `<li class="${revealAnswer && index === q.answer ? 'script-correct' : ''}"><span>(${String.fromCharCode(65 + index)})</span><div><p lang="en">${escape(text)}</p><p class="muted" lang="ko">${escape(q.ko.choices[index])}</p></div></li>`).join('')}</ol></section>`;
+  }
+
+  function renderExamResult() {
+    const s = examSession, right = s.results.filter(r => r.correct).length;
+    const types = [...new Set(s.questions.map(q => q.type))];
+    return `${back('#/exam', '문제 홈')}${intro('', `Part ${s.part} 결과`, s.mode === 'wrong' ? '틀린 문제 다시 풀기' : '실전 세트')}
+      <section class="result-hero"><div class="result-score">${Math.round(right / s.questions.length * 100)}<small>%</small></div><p>${s.questions.length}문항 중 ${right}문항 정답</p></section>
+      <section class="exam-card"><h2>유형별 정답</h2><dl class="exam-type-results">${types.map(type => `<div><dt>${escape(EXAM_TYPES[type])}</dt><dd>${s.results.filter(r => r.type === type && r.correct).length} / ${s.questions.filter(q => q.type === type).length}</dd></div>`).join('')}</dl></section>
+      <div class="stack exam-result-actions"><button class="secondary full" data-action="exam-start" data-part="${s.part}" data-mode="wrong" ${!examPool(s.part, true).length ? 'disabled' : ''}>틀린 문제 다시 풀기</button><a class="button-link full" href="#/exam">문제 홈으로</a></div>`;
+  }
+
+  function renderExamPage(part, mode) {
+    if (!EXAM_PARTS[part] || !['set', 'wrong'].includes(mode)) return empty('문제 세트를 찾을 수 없어요', '문제 홈에서 Part를 다시 선택해 주세요.', '#/exam', '문제 홈');
+    if (examBanks[part].status !== 'ready') return renderExamHome();
+    if (!examSession || examSession.route !== location.hash) makeExamSession(part, mode);
+    const s = examSession;
+    if (!s.questions.length) return empty(mode === 'wrong' ? '다시 풀 틀린 문제가 없어요' : '선택한 난이도의 문제가 없어요', '문제 홈에서 다른 난이도를 선택해 주세요.', '#/exam', '문제 홈');
+    if (s.finished) return renderExamResult();
+    const q = s.questions[s.index], fallback = !supportsSpeech || s.audioFallback;
+    const correct = s.selected === q.answer;
+    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${mode === 'wrong' ? '틀린 문제' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length}</p></div>${meter(s.index, s.questions.length, '문제 풀이 진행')}
+      <section class="exam-question" data-question-id="${escape(q.id)}">${part === 5 ? `<p class="exam-instruction">빈칸에 들어갈 말을 고르세요</p><h1 class="exam-stem" lang="en">${q.q.split('-------').map(escape).join('<span class="exam-blank"><span aria-hidden="true">-------</span><span class="sr-only">빈칸</span></span>')}</h1>`
+        : `<div class="exam-listening-heading">${icon('headphones')}<h1>질문과 응답 듣기</h1></div><p class="exam-instruction">질문과 세 응답을 듣고 알맞은 답을 고르세요</p><div class="button-row exam-audio-controls"><button id="exam-replay" class="secondary" data-action="exam-audio" aria-label="Part 2 질문과 응답 ${s.heard ? '다시 듣기' : '듣기'}" ${!supportsSpeech ? 'disabled' : ''}>${icon('volume-2')} ${s.heard ? '다시 듣기' : '문제 듣기'}</button>${s.audioPlaying ? '<button data-action="exam-audio-stop" aria-label="문제 음성 정지">정지</button>' : ''}</div><p class="exam-note exam-audio-status">${fallback ? '음성을 재생할 수 없어 스크립트를 표시해요' : escape(s.audioStatus)}</p>${fallback && !s.answered ? renderExamScript(q, false) : ''}`}
+      <div class="choices ${part === 2 ? 'exam-letter-choices' : ''}">${q.choices.map((text, index) => {
+        const letter = String.fromCharCode(65 + index), isRight = s.answered && index === q.answer, isWrong = s.answered && index === s.selected && !correct;
+        return `<button id="exam-choice-${index}" class="choice exam-choice ${isRight ? 'correct' : ''} ${isWrong ? 'incorrect' : ''}" data-action="exam-answer" data-index="${index}" aria-label="${letter} ${part === 5 ? escape(text) : '응답'} 선택${isRight ? ', 정답' : isWrong ? ', 오답' : ''}" aria-disabled="${s.answered}"><span class="choice-number">${letter}</span>${part === 5 ? `<span class="choice-text" lang="en">${escape(text)}</span>` : ''}<span class="choice-result">${isRight ? `${icon('check')} 정답` : isWrong ? `${icon('x')} 오답` : ''}</span></button>`;
+      }).join('')}</div></section>
+      ${s.answered ? `<section id="exam-feedback" class="exam-feedback ${correct ? 'is-correct' : 'is-incorrect'}" tabindex="-1"><h2>${icon(correct ? 'check' : 'x')} ${correct ? '정답입니다' : '오답입니다'} <span>정답 (${String.fromCharCode(65 + q.answer)})</span></h2>${part === 5 ? `<p class="exam-translation" lang="ko">${escape(q.ko)}</p>` : renderExamScript(q, true)}<h3>해설 · ${escape(EXAM_TYPES[q.type])}</h3><p>${escape(q.explain)}</p>${part === 2 ? `<h3>오답 함정</h3><ul class="exam-traps">${[...new Set(q.trap)].map(tag => `<li>${escape(EXAM_TRAPS[tag])}</li>`).join('')}</ul>` : ''}</section><button id="exam-next" class="secondary full" data-action="exam-next">${s.index === s.questions.length - 1 ? '결과 보기' : '다음 문제'} ${icon('arrow-right')}</button>`
+        : `<p class="exam-note">숫자 ${part === 5 ? '1~4 또는 A~D' : '1~3 또는 A~C'}로 답 선택 · 답한 뒤 Enter로 다음</p>`}`;
+  }
+
+  function answerExam(index) {
+    const s = examSession;
+    if (!s || s.route !== location.hash || s.finished || s.answered || !Number.isInteger(index)) return;
+    const q = s.questions[s.index];
+    if (!q || index < 0 || index >= q.choices.length) return;
+    stopExamAudio('답변 완료 · 다시 듣기로 음성을 확인할 수 있어요');
+    s.selected = index;
+    s.answered = true;
+    const correct = index === q.answer;
+    s.results.push({id:q.id, type:q.type, correct});
+    examState = Core.recordExamAnswer(loadExamState(), q.id, correct);
+    try { storage.setItem(EXAM_KEY, JSON.stringify(examState)); }
+    catch (_) { toast('문제 기록을 저장하지 못했어요. 저장 공간을 확인해 주세요.'); }
+    render();
+    quizAnnouncement.textContent = `${correct ? '정답' : '오답'}. 정답 ${String.fromCharCode(65 + q.answer)}`;
+    document.querySelector('#exam-next')?.focus({preventScroll:true});
+  }
+
+  function nextExam() {
+    const s = examSession;
+    if (!s || s.route !== location.hash || !s.answered || s.finished) return;
+    stopExamAudio();
+    if (s.index === s.questions.length - 1) s.finished = true;
+    else { s.index++; s.selected = null; s.answered = false; s.heard = false; s.audioFallback = false; s.audioStatus = '문제 듣기를 누르면 질문과 세 응답을 차례로 읽어요'; }
+    render();
+    quizAnnouncement.textContent = s.finished ? '문제 세트 완료' : `${s.index + 1}/${s.questions.length} 문제`;
+    main.focus({preventScroll:true});
+    window.scrollTo(0, 0);
+  }
+
+  function stopExamAudio(status) {
+    examAudioGeneration++;
+    clearTimeout(examAudioTimer);
+    examVoiceCleanup?.();
+    examVoiceCleanup = null;
+    const active = examSession?.audioPlaying;
+    if (examSession) {
+      examSession.audioPlaying = false;
+      if (status) examSession.audioStatus = status;
+      if (examSession.audioUtterance) {
+        examSession.audioUtterance.onend = null;
+        examSession.audioUtterance.onerror = null;
+        examSession.audioUtterance = null;
+      }
+    }
+    if (active) cancelSpeech();
+  }
+
+  function refreshExam() {
+    if (!examSession || examSession.route !== location.hash) return;
+    const focused = document.activeElement?.id;
+    render();
+    if (focused?.startsWith('exam-')) document.getElementById(focused)?.focus({preventScroll:true});
+  }
+
+  const activeExamAudio = token => token === examAudioGeneration && examSession?.audioPlaying
+    && examSession.route === location.hash && !examSession.finished && !document.hidden;
+
+  function playExamAudio() {
+    const s = examSession;
+    if (!s || s.part !== 2 || s.route !== location.hash || s.finished || !supportsSpeech || document.hidden) return;
+    stopExamAudio();
+    haltListening();
+    s.audioPlaying = true;
+    s.heard = true;
+    s.audioFallback = false;
+    s.audioStatus = '음성을 준비하고 있어요';
+    const token = examAudioGeneration;
+    refreshExam();
+    function begin(voices) {
+      if (!activeExamAudio(token)) return;
+      const english = voices.filter(voice => voice.lang.toLowerCase().startsWith('en'));
+      const questionVoice = speechVoice(english, 'en-US');
+      const responseVoice = english.find(voice => voice !== questionVoice) || questionVoice;
+      const q = s.questions[s.index];
+      const queue = [{text:q.q, voice:questionVoice, label:'질문'}].concat(q.choices.map((text, index) => ({text:`(${String.fromCharCode(65 + index)}) ${text}`, voice:responseVoice, label:`응답 (${String.fromCharCode(65 + index)})`})));
+      function step(index) {
+        if (!activeExamAudio(token)) return;
+        if (index >= queue.length) {
+          s.audioPlaying = false;
+          s.audioStatus = '재생 완료 · 알맞은 응답을 고르세요';
+          refreshExam();
+          return;
+        }
+        const item = queue[index], utterance = new SpeechSynthesisUtterance(item.text);
+        utterance.lang = item.voice?.lang || 'en-US';
+        utterance.rate = 1;
+        if (item.voice) utterance.voice = item.voice;
+        s.audioUtterance = utterance;
+        s.audioStatus = `${item.label} 재생 중`;
+        refreshExam();
+        let settled = false;
+        const timeout = setTimeout(() => advance(true), Math.min(60000, Math.max(4000, item.text.length * 180 + 1500)));
+        examAudioTimer = timeout;
+        function advance(error) {
+          if (settled) return;
+          settled = true;
+          clearTimeout(timeout);
+          utterance.onend = null;
+          utterance.onerror = null;
+          if (!activeExamAudio(token)) return;
+          s.audioUtterance = null;
+          if (error) {
+            stopExamAudio('음성을 재생하지 못했어요');
+            s.audioFallback = true;
+            refreshExam();
+          } else examAudioTimer = setTimeout(() => step(index + 1), 250);
+        }
+        utterance.onend = () => advance(false);
+        utterance.onerror = () => advance(true);
+        try { window.speechSynthesis.speak(utterance); } catch (_) { advance(true); }
+      }
+      step(0);
+    }
+    const voices = listenVoices();
+    if (voices.length) { begin(voices); return; }
+    const speech = window.speechSynthesis;
+    let settled = false;
+    const finish = () => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeout);
+      speech.removeEventListener?.('voiceschanged', changed);
+      if (examVoiceCleanup === cleanup) examVoiceCleanup = null;
+      begin(listenVoices());
+    };
+    const changed = () => { if (listenVoices().length) finish(); };
+    const timeout = setTimeout(finish, 800);
+    const cleanup = () => { settled = true; clearTimeout(timeout); speech.removeEventListener?.('voiceschanged', changed); };
+    examVoiceCleanup = cleanup;
+    examAudioTimer = timeout;
+    speech.addEventListener?.('voiceschanged', changed);
+  }
+
   function renderSettings() {
     return `${intro('', '설정', '단어장 가져오기 · 학습 환경 · 백업')}<section class="settings-section"><h2>단어장 가져오기</h2><p>영어와 뜻을 탭, 쉼표 또는 공백으로 나눠 주세요. PDF에서 복사한 텍스트도 붙여넣을 수 있어요.</p><p class="import-guide"><code>영단어&lt;TAB&gt;뜻&lt;TAB&gt;품사&lt;TAB&gt;예문&lt;TAB&gt;해석</code><br>뒤 3칸(품사·예문·해석)은 선택이에요. 실제 칸 사이는 탭 키로 구분해 주세요.<br><span class="muted">예: confirm → 확인하다 → 동 → Please confirm the schedule. → 일정을 확인해 주세요.</span></p><form id="import-form"><label class="field">단어장 이름<input id="import-name" maxlength="80" required placeholder="예: 출근길에 외우는 단어" value="${escape(draft.name)}"></label><label class="field">단어 붙여넣기<textarea id="import-text" placeholder="accommodate, 수용하다&#10;confirm, 확인하다&#10;available 이용 가능한" spellcheck="false">${escape(draft.text)}</textarea></label><label class="field">또는 텍스트 파일 선택<input type="file" id="import-file" accept=".txt,.csv,text/plain,text/csv"></label><div id="import-preview" class="preview" role="status" aria-live="polite">${previewHTML()}</div><button id="import-submit" class="secondary full" type="submit" ${!draft.words.length ? 'disabled' : ''}>${draft.words.length ? `${draft.words.length}개 단어 가져오기` : '단어 가져오기'}</button></form></section>
       <section class="settings-section"><h2>가져온 단어장</h2><p>삭제하면 이 단어장의 학습·오답 기록도 함께 지워져요.</p>${state.custom.length ? `<ul>${state.custom.map(pkg => `<li class="custom-row"><div><strong>${escape(pkg.name)}</strong><small>${pkg.words.length}개 단어 · ${Core.chunkDays(pkg.words).length} Days</small></div><button class="danger" data-action="delete-package" data-pkg="${escape(pkg.id)}" aria-label="${escape(pkg.name)} 삭제">삭제</button></li>`).join('')}</ul>` : '<small>아직 가져온 단어장이 없어요.</small>'}</section>
       <section class="settings-section"><h2>학습 환경</h2><label class="toggle-row"><span><strong>카드 자동 발음</strong><span class="toggle-description">${supportsSpeech ? '다음 카드를 열면 영어 발음을 들려줘요.' : '이 브라우저에서는 발음을 지원하지 않아요.'}</span></span><input type="checkbox" id="auto-speak" aria-label="카드 자동 발음" ${state.settings?.autoSpeak ? 'checked' : ''} ${!supportsSpeech ? 'disabled' : ''}></label></section>
-      <section class="settings-section"><h2>백업과 복원</h2><p>학습 기록과 가져온 단어장을 JSON 파일로 보관하세요. 복원하면 현재 데이터가 교체돼요.</p><button class="secondary full" data-action="export">백업 내보내기 ${icon('download')}</button><label class="field" style="margin-top:16px">백업 JSON 복원<input id="restore-file" type="file" accept=".json,application/json"></label></section>
-      <section class="settings-section"><h2>학습 기록 초기화</h2><p>아는 단어, 오답노트와 Day별 기록을 지워요. 가져온 단어장과 자동 발음 설정은 유지해요.</p><button class="danger full" data-action="reset">학습 기록 초기화</button></section><p class="app-footer">Vocab Master<br>기록은 이 브라우저에 저장됩니다.</p>`;
+      <section class="settings-section"><h2>백업과 복원</h2><p>단어·문제 학습 기록과 가져온 단어장을 JSON 파일로 보관하세요. 복원하면 백업에 포함된 기록이 교체돼요.</p><button class="secondary full" data-action="export">백업 내보내기 ${icon('download')}</button><label class="field" style="margin-top:16px">백업 JSON 복원<input id="restore-file" type="file" accept=".json,application/json"></label></section>
+      <section class="settings-section"><h2>학습 기록 초기화</h2><p>아는 단어, 오답노트와 Day별 기록을 지워요. 가져온 단어장, 자동 발음 설정과 문제 기록은 유지해요.</p><button class="danger full" data-action="reset">학습 기록 초기화</button></section><section class="settings-section"><h2>문제 기록 초기화</h2><p>문제 풀이 횟수, 첫 시도 정답률과 틀린 문제 기록을 지워요. 단어 학습 기록은 유지해요.</p><button class="danger full" data-action="reset-exam">문제 기록 초기화</button></section><p class="app-footer">Vocab Master<br>기록은 이 브라우저에 저장됩니다.</p>`;
   }
 
   function render() {
@@ -461,6 +723,7 @@
       if (page === 'home' || !page) html = renderHome();
       else if (page === 'wrong') html = renderWrong();
       else if (page === 'settings') html = renderSettings();
+      else if (page === 'exam') html = parts[1] ? renderExamPage(Number(parts[1]), parts[2] || 'set') : renderExamHome();
       else if (['day','cards','quiz','listen'].includes(page)) {
         const pkg = findPackage(parts[1]);
         const day = Number(parts[2]);
@@ -494,9 +757,13 @@
         const announcement = listening ? `${listening.index + 1}/${listening.words.length} ${listening.words[listening.index][0]}` : '';
         if (quizAnnouncement.textContent !== announcement) quizAnnouncement.textContent = announcement;
       }
+      if (page === 'exam' && examSession?.route === location.hash && !examSession.answered && examSession.questions.length) {
+        const announcement = `Part ${examSession.part} ${examSession.index + 1}/${examSession.questions.length} 문제`;
+        if (quizAnnouncement.textContent !== announcement) quizAnnouncement.textContent = announcement;
+      }
       main.setAttribute('aria-busy', 'false');
-      updateNavigation(page === 'settings' ? 'settings' : page === 'wrong' || (page === 'practice' && session?.returnHash === '#/wrong') ? 'wrong' : 'home');
-      document.title = `${page === 'settings' ? '설정' : page === 'wrong' ? '오답노트' : page === 'listen' ? '듣기' : page === 'cards' || (page === 'practice' && session?.type === 'cards') ? '카드 학습' : page === 'quiz' || page === 'practice' ? '퀴즈' : page === 'day' ? 'Day 학습' : '단어장'} · Vocab Master`;
+      updateNavigation(page === 'exam' ? 'exam' : page === 'settings' ? 'settings' : page === 'wrong' || (page === 'practice' && session?.returnHash === '#/wrong') ? 'wrong' : 'home');
+      document.title = `${page === 'exam' ? '문제' : page === 'settings' ? '설정' : page === 'wrong' ? '오답노트' : page === 'listen' ? '듣기' : page === 'cards' || (page === 'practice' && session?.type === 'cards') ? '카드 학습' : page === 'quiz' || page === 'practice' ? '퀴즈' : page === 'day' ? 'Day 학습' : '단어장'} · Vocab Master`;
     } catch (_) {
       main.innerHTML = empty('화면을 불러오지 못했어요', '단어장으로 돌아가 다시 시도해 주세요.');
       main.setAttribute('aria-busy', 'false');
@@ -548,6 +815,13 @@
     if (!button || button.disabled || !ready) return;
     const {action, pkg:pkgId, day} = button.dataset;
     if (action === 'speak') speak(button.dataset.text);
+    else if (action === 'exam-level') { const level = Number(button.dataset.level); if ([0, 1, 2, 3].includes(level)) { examDifficulty = level; render(); } }
+    else if (action === 'exam-start') startExam(Number(button.dataset.part), button.dataset.mode);
+    else if (action === 'exam-reload') { void loadExamBank(Number(button.dataset.part)); render(); }
+    else if (action === 'exam-answer') answerExam(Number(button.dataset.index));
+    else if (action === 'exam-next') nextExam();
+    else if (action === 'exam-audio') playExamAudio();
+    else if (action === 'exam-audio-stop') { stopExamAudio('재생 정지 · 다시 듣기를 누르면 처음부터 읽어요'); refreshExam(); }
     else if (action === 'start-listen') location.hash = `#/listen/${path(pkgId)}/${day}`;
     else if (action === 'listen-toggle') toggleListening();
     else if (action === 'listen-prev') moveListening(listening.index - 1);
@@ -589,6 +863,11 @@
       state = {...Core.defaultState(), custom:state.custom, settings:state.settings || {autoSpeak:false}};
       session = null;
       persist(); render(); toast('학습 기록을 초기화했어요.');
+    } else if (action === 'reset-exam' && confirm('문제 풀이 횟수, 첫 시도 정답률과 틀린 문제 기록을 모두 초기화할까요? 단어 학습 기록은 유지됩니다.')) {
+      try { storage.removeItem(EXAM_KEY); }
+      catch (_) { toast('문제 기록을 지우지 못했어요. 저장 공간과 브라우저 설정을 확인해 주세요.'); return; }
+      stopExamAudio(); examSession = null; examState = {answers:{}};
+      render(); toast('문제 기록을 초기화했어요.');
     } else if (action === 'export') exportBackup();
   });
 
@@ -679,7 +958,7 @@
   }
 
   async function exportBackup() {
-    const blob = new Blob([JSON.stringify({version:1, exportedAt:new Date().toISOString(), state}, null, 2)], {type:'application/json'});
+    const blob = new Blob([JSON.stringify({version:1, exportedAt:new Date().toISOString(), state, exam:examState}, null, 2)], {type:'application/json'});
     const fileName = `vocab-master-${new Date().toISOString().slice(0, 10)}.json`;
     try {
       const mobile = navigator.userAgentData?.mobile === true || window.matchMedia?.('(pointer: coarse)').matches;
@@ -726,13 +1005,27 @@
       }
       if (!Object.values(value.progress).every(item => isObject(item) && (item.studied === undefined || typeof item.studied === 'boolean') && (item.best === undefined || Number.isFinite(item.best) && item.best >= 0 && item.best <= 100))) throw new BackupError('학습 진행 기록의 형식이 올바르지 않아요.');
       if (value.settings !== undefined && (!isObject(value.settings) || typeof value.settings.autoSpeak !== 'boolean')) throw new BackupError('자동 발음 설정이 올바르지 않아요.');
+      const restoredExam = json.exam === undefined ? examState : json.exam;
+      if (!Core.validExamState(restoredExam)) throw new BackupError('문제 학습 기록의 형식이 올바르지 않아요.');
       if (!confirm('백업으로 복원할까요? 현재 학습 기록과 가져온 단어장이 백업 내용으로 교체됩니다.')) return;
       // Feed the validated payload through Core's storage boundary as well.
       const restored = Core.loadState({getItem:key => key === 'vocab-master-v1' ? JSON.stringify(value) : null, setItem:() => {}});
-      const previous = state;
+      const previous = state, previousExam = examState;
+      const before = ['vocab-master-v1', 'vocab-master-preferences-v1', EXAM_KEY].map(key => [key, storage.getItem(key)]);
       state = restored;
       state.settings = value.settings || {autoSpeak:false};
-      if (!persist()) { state = previous; return; }
+      try {
+        storage.setItem(EXAM_KEY, JSON.stringify(restoredExam));
+        if (!persist()) throw new Error('Restore unavailable');
+      } catch (_) {
+        state = previous;
+        examState = previousExam;
+        for (const [key, raw] of before) try { if (raw === null) storage.removeItem(key); else storage.setItem(key, raw); } catch (_) { /* Keep the save error visible. */ }
+        toast('백업을 저장하지 못했어요. 저장 공간과 브라우저 설정을 확인해 주세요.');
+        return;
+      }
+      examState = restoredExam;
+      stopExamAudio(); examSession = null;
       session = null; render(); toast('백업을 복원했어요.');
     } catch (error) {
       const reason = error instanceof SyntaxError ? 'JSON 형식이 아니에요. 백업 JSON 파일을 선택해 주세요.'
@@ -744,6 +1037,8 @@
   window.addEventListener('hashchange', event => {
     const destination = new URL(event.newURL).hash;
     clearTimeout(quizTimer);
+    stopExamAudio();
+    if (examSession && examSession.route !== destination) examSession = null;
     if (listening) {
       haltListening();
       if (listening.route !== destination) listening = null;
@@ -754,6 +1049,7 @@
     if (destination !== location.hash) return;
     if (session?.answered) session = null;
     quizAnnouncement.textContent = '';
+    if (destination.startsWith('#/exam')) ensureExamBanks();
     render();
     autoSpeak();
     main.focus({preventScroll:true});
@@ -768,18 +1064,26 @@
     } else window.scrollTo(0, 0);
   });
   document.addEventListener('visibilitychange', () => {
+    if (document.hidden && examSession?.audioPlaying) { stopExamAudio('화면을 벗어나 재생을 멈췄어요'); refreshExam(); }
     if (document.hidden && listening?.playing) {
       haltListening('화면을 벗어나 일시정지했어요. 재생하면 현재 단어부터 다시 들어요.');
       refreshListening();
     }
   });
   window.addEventListener('pagehide', () => {
+    if (examSession?.audioPlaying) { stopExamAudio('화면을 벗어나 재생을 멈췄어요'); refreshExam(); }
     if (listening) {
       haltListening('화면을 벗어나 일시정지했어요. 재생하면 현재 단어부터 다시 들어요.');
       refreshListening();
     }
   });
   document.addEventListener('keydown', event => {
+    if (examSession?.route === location.hash && examSession.questions.length && !examSession.finished && !event.repeat && !event.altKey && !event.ctrlKey && !event.metaKey
+      && !event.target.closest('input, select, textarea, [contenteditable]')) {
+      const index = /^[1-4]$/.test(event.key) ? Number(event.key) - 1 : /^[a-d]$/i.test(event.key) ? event.key.toUpperCase().charCodeAt(0) - 65 : -1;
+      if (index >= 0 && !examSession.answered && index < examSession.questions[examSession.index].choices.length) { event.preventDefault(); answerExam(index); return; }
+      if (event.key === 'Enter' && examSession.answered && !event.target.closest('button, a, summary, [role="button"]')) { event.preventDefault(); nextExam(); return; }
+    }
     if (event.code !== 'Space' || event.repeat || event.altKey || event.ctrlKey || event.metaKey
       || !listening || listening.route !== location.hash || !supportsSpeech) return;
     if (event.target.closest('button, a, summary, [role="button"], input, select, textarea, [contenteditable]')) return;
@@ -794,6 +1098,10 @@
     if (location.hash === '#/home' && event.target.closest('a[href^="#/"]')) homePositions.set(selectedPackage, window.scrollY);
   }, true);
   window.addEventListener('storage', event => {
+    if (ready && event.storageArea === storage && (event.key === EXAM_KEY || event.key === null)) {
+      examState = loadExamState();
+      if (event.key === EXAM_KEY) { if (location.hash.startsWith('#/exam')) render(); return; }
+    }
     if (!ready || event.storageArea !== storage || ![null, 'vocab-master-v1', 'vocab-master-preferences-v1'].includes(event.key)) return;
     clearTimeout(storageRefreshTimer);
     storageRefreshTimer = setTimeout(() => {
@@ -808,7 +1116,7 @@
       const focused = activeId ? document.getElementById(activeId) : choiceIndex !== undefined ? main.querySelector(`.choice[data-index="${choiceIndex}"]`) : null;
       focused?.focus({preventScroll:true});
       window.scrollTo(0, position);
-      if (!state.settings.autoSpeak && supportsSpeech && !listening?.playing) window.speechSynthesis.cancel();
+      if (!state.settings.autoSpeak && supportsSpeech && !listening?.playing && !examSession?.audioPlaying) window.speechSynthesis.cancel();
       toast('다른 탭의 변경 내용을 반영했어요.');
     }, 0);
   });
@@ -817,7 +1125,7 @@
 
   async function init() {
     Core = window.Core;
-    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState'];
+    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats'];
     if (!Core || required.some(name => typeof Core[name] !== 'function')) {
       main.innerHTML = empty('학습 기능을 준비하고 있어요', 'Core 모듈이 준비되면 새로고침해 주세요.');
       main.setAttribute('aria-busy', 'false');
@@ -831,6 +1139,7 @@
       };
       state = loadSavedState({restoreSelection:true});
       listenSettings = loadListenSettings();
+      examState = loadExamState();
     } catch (_) {
       main.innerHTML = empty('저장 공간에 접근할 수 없어요', '브라우저에서 이 사이트의 저장 공간을 허용한 뒤 새로고침해 주세요.');
       main.setAttribute('aria-busy', 'false');
@@ -854,6 +1163,7 @@
     } catch (_) { toast('기본 단어장을 불러오지 못했어요. 연결 후 새로고침해 주세요.'); }
     ready = true;
     if (!location.hash || location.hash === '#main') history.replaceState(null, '', '#/home');
+    if (location.hash.startsWith('#/exam')) ensureExamBanks();
     render();
     autoSpeak();
     if ('serviceWorker' in navigator && ['http:', 'https:'].includes(location.protocol)) {

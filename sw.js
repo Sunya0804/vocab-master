@@ -1,6 +1,8 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v12-muted-meter';
+const CACHE_VERSION = 'vocab-master-shell-v14-exam-first';
 const PACKAGE_CACHE = 'vocab-master-packages';
+const QUESTION_CACHE = 'vocab-master-questions';
+const QUESTION_FILES = ['questions/toeic-part5.json', 'questions/toeic-part2.json'];
 const SCOPE = self.registration.scope;
 const APP_SHELL = ['./', './index.html', './style.css', './app.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
@@ -25,11 +27,22 @@ async function precachePackages() {
   } catch (_) { /* Online requests can fill the package cache after installation. */ }
 }
 
+async function precacheQuestions() {
+  try {
+    const cache = await caches.open(QUESTION_CACHE);
+    await Promise.allSettled(QUESTION_FILES.map(async file => {
+      const request = reloadRequest(`./${file}`);
+      const response = await fetch(request);
+      if (response.ok) await cache.put(request, response);
+    }));
+  } catch (_) { /* Online requests can fill the question cache later. */ }
+}
+
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_VERSION);
     await cache.addAll(APP_SHELL.map(reloadRequest));
-    await precachePackages();
+    await Promise.all([precachePackages(), precacheQuestions()]);
     await self.skipWaiting();
   })());
 });
@@ -37,7 +50,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const names = await caches.keys();
-    await Promise.all(names.filter(name => name.startsWith('vocab-master-') && name !== CACHE_VERSION && name !== PACKAGE_CACHE).map(name => caches.delete(name)));
+    await Promise.all(names.filter(name => name.startsWith('vocab-master-') && ![CACHE_VERSION, PACKAGE_CACHE, QUESTION_CACHE].includes(name)).map(name => caches.delete(name)));
     await self.clients.claim();
   })());
 });
@@ -48,18 +61,19 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const relative = url.pathname.slice(new URL(SCOPE).pathname.length);
   const isPackage = relative.startsWith('packages/');
+  const isQuestion = QUESTION_FILES.includes(relative);
   const isShell = APP_SHELL.some(asset => asset.slice(2) === relative);
-  if (!isPackage && !isShell && request.mode !== 'navigate') return;
+  if (!isPackage && !isQuestion && !isShell && request.mode !== 'navigate') return;
   event.respondWith((async () => {
-    if (isPackage) {
-      const cache = await caches.open(PACKAGE_CACHE);
+    if (isPackage || isQuestion) {
+      const cache = await caches.open(isQuestion ? QUESTION_CACHE : PACKAGE_CACHE);
       const key = new Request(url.origin + url.pathname);
       const network = (async () => {
         const response = await fetch(new Request(request, {cache:'no-cache'}));
         if (response.ok) await cache.put(key, response.clone()).catch(() => {});
         return response;
       })();
-      // Serve cached packages (including index.json) immediately; refresh for next time.
+      // Serve cached learning data immediately; refresh for next time.
       event.waitUntil(network.catch(() => {}));
       return await cache.match(key) || await network;
     }
