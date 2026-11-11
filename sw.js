@@ -1,10 +1,10 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v14-exam-first';
+const CACHE_VERSION = 'vocab-master-shell-v21-cloze-fix';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
-const QUESTION_FILES = ['questions/toeic-part5.json', 'questions/toeic-part2.json'];
+const QUESTION_FILES = ['questions/toeic-part2.json', 'questions/toeic-part3.json', 'questions/toeic-part4.json', 'questions/toeic-part5.json'];
 const SCOPE = self.registration.scope;
-const APP_SHELL = ['./', './index.html', './style.css', './app.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
+const APP_SHELL = ['./', './index.html', './style.css', './app.js', './js/shared.js', './js/study.js', './js/listen.js', './js/exam.js', './js/settings.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 const reloadRequest = url => new Request(new URL(url, SCOPE).href, {cache:'reload'});
 

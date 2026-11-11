@@ -350,11 +350,14 @@
     return shuffle(selected, rand);
   }
 
+  // Part 2·5 question ids are p5-001; Part 3·4 set questions are set id + number (p3-001-1).
+  var EXAM_ID = /^p(?:[25]-\d+|[34]-\d+-[1-3])$/;
+
   function validExamState(value) {
     return isRecord(value) && isRecord(value.answers)
       && Object.entries(value.answers).every(function (pair) {
         var id = pair[0], answer = pair[1];
-        return /^p[25]-\d+$/.test(id) && isRecord(answer)
+        return EXAM_ID.test(id) && isRecord(answer)
           && typeof answer.correct === 'boolean'
           && (answer.first === undefined || typeof answer.first === 'boolean')
           && Number.isFinite(answer.at) && answer.at >= 0
@@ -363,7 +366,7 @@
   }
 
   function recordExamAnswer(exam, id, correct, at = Date.now()) {
-    if (!validExamState(exam) || !/^p[25]-\d+$/.test(id) || typeof correct !== 'boolean'
+    if (!validExamState(exam) || !EXAM_ID.test(id) || typeof correct !== 'boolean'
       || !Number.isFinite(at) || at < 0) throw new TypeError('Invalid exam answer');
     var previous = exam.answers[id];
     var answers = Object.assign({}, exam.answers);
@@ -387,7 +390,88 @@
       firstCorrect: firstCorrect, firstAccuracy: solved ? Math.round(firstCorrect / solved * 100) : 0, wrong: wrong };
   }
 
+  // Part 3·4: stats over each set's questions; a set is wrong while any question is still wrong.
+  function examSetStats(sets, answers) {
+    var items = [];
+    sets.forEach(function (set) {
+      set.questions.forEach(function (question, index) {
+        items.push(Object.assign({}, question, { id: set.id + '-' + (index + 1), setId: set.id }));
+      });
+    });
+    var stats = examStats(items, answers);
+    var wrongSets = new Set(stats.wrong.map(function (question) { return question.setId; }));
+    return Object.assign(stats, { items: items, wrong: sets.filter(function (set) { return wrongSets.has(set.id); }) });
+  }
+
+  // Example highlighting rule: headword letter runs, German article/sich skipped, long parts lose a final e/y.
+  var EXAMPLE_TOKEN = /\p{L}+(?:['’-]\p{L}+)*/gu;
+  function exampleStems(headword, german) {
+    return (String(headword).toLowerCase().match(/\p{L}+/gu) || [])
+      .filter(function (part) { return !german || ['der', 'die', 'das', 'sich'].indexOf(part) < 0; })
+      .map(function (part) { return part.length > 4 ? part.replace(/[ey]$/, '') : part; });
+  }
+
+  // Long stems match by prefix; stems of 3 letters or fewer ("in", "as", "for") only as the whole word,
+  // in English also with s/es/d/ed/ing, so "in" never grabs "interview".
+  function stemMatches(token, stem, german) {
+    token = token.toLowerCase();
+    if (stem.length > 3) return token.indexOf(stem) === 0;
+    if (token === stem) return true;
+    if (stem.length < 2 || token.indexOf(stem) !== 0) return false;
+    // German: adjective/noun endings (gut → gutes). English: s/es/d/ed/ing, a doubled final consonant counts (running, hugged).
+    return german ? /^(e|es|er|en|em)$/.test(token.slice(stem.length))
+      : new RegExp('^' + stem.slice(-1) + '?(s|es|d|ed|ing)$').test(token.slice(stem.length));
+  }
+
+  // Splits word[3] into text and blanks: each stem takes its first matching token after the previous blank.
+  // Prefix entries ("Feier-") are skipped: the blank would be a whole compound, not the headword.
+  function clozeExample(word, german) {
+    var text = String(word[3] || '');
+    var stems = exampleStems(word[0], german);
+    if (!text || !stems.length || /-$/.test(String(word[0]).trim())) return null;
+    var tokens = [];
+    var match;
+    EXAMPLE_TOKEN.lastIndex = 0;
+    while ((match = EXAMPLE_TOKEN.exec(text))) tokens.push({ text: match[0], index: match.index });
+    var picked = [];
+    var from = 0;
+    for (var i = 0; i < stems.length; i++) {
+      while (from < tokens.length && !stemMatches(tokens[from].text, stems[i], german)) from++;
+      if (from >= tokens.length) return null;
+      picked.push(tokens[from++]);
+    }
+    var segments = [];
+    var cursor = 0;
+    picked.forEach(function (token) {
+      if (token.index > cursor) segments.push(text.slice(cursor, token.index));
+      segments.push({ blank: token.text });
+      cursor = token.index + token.text.length;
+    });
+    if (cursor < text.length) segments.push(text.slice(cursor));
+    return { segments: segments, answer: picked.map(function (token) { return token.text; }).join(' ') };
+  }
+
+  function normalizeCloze(value, german) {
+    var text = String(value || '').trim().toLowerCase().replace(/\s+/g, ' ').replace(/[’‘`´]/g, "'");
+    return german ? text.replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss') : text;
+  }
+
+  function clozeCorrect(input, answer, german) {
+    return normalizeCloze(input, german) === normalizeCloze(answer, german);
+  }
+
+  // "ihr / Ihr" is spoken once: only the part before " / ". Ellipses ("entweder ... oder") stay as they are.
+  function spokenText(text) {
+    return String(text).split(' / ')[0];
+  }
+
   return {
+    spokenText: spokenText,
+    stemMatches: stemMatches,
+    exampleStems: exampleStems,
+    clozeExample: clozeExample,
+    clozeCorrect: clozeCorrect,
+    examSetStats: examSetStats,
     selectExamQuestions: selectExamQuestions,
     validExamState: validExamState,
     recordExamAnswer: recordExamAnswer,

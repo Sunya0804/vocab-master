@@ -685,5 +685,77 @@ test('exam backup validation rejects malformed records', () => {
   for (const value of [null, [], {}, {answers:[]}, {answers:{bad:{correct:true, at:0, tries:1}}}]) assert.equal(Core.validExamState(value), false);
 });
 
+test('exam ids accept Part 3/4 set questions and set stats mark sets with an unresolved wrong question', () => {
+  let exam = {answers:{}};
+  for (const id of ['p2-001', 'p3-001-1', 'p4-012-3']) exam = Core.recordExamAnswer(exam, id, true, 1);
+  for (const id of ['p3-001', 'p3-001-4', 'p6-001', 'p4-1-001']) assert.throws(() => Core.recordExamAnswer(exam, id, true, 1), TypeError);
+  assert.equal(Core.validExamState({answers:{'p3-001-0':{correct:true, at:0, tries:1}}}), false);
+  const q = {type:'detail'};
+  const sets = [{id:'p3-001', difficulty:1, questions:[q, q, q]}, {id:'p3-002', difficulty:2, questions:[q, q, q]}];
+  exam = Core.recordExamAnswer(exam, 'p3-002-2', false, 2);
+  let stats = Core.examSetStats(sets, exam.answers);
+  assert.deepEqual([stats.total, stats.solved, stats.correct], [6, 2, 1]);
+  assert.deepEqual(stats.wrong.map(s => s.id), ['p3-002']);
+  assert.deepEqual(stats.items.map(i => i.id), ['p3-001-1', 'p3-001-2', 'p3-001-3', 'p3-002-1', 'p3-002-2', 'p3-002-3']);
+  exam = Core.recordExamAnswer(exam, 'p3-002-2', true, 3);
+  stats = Core.examSetStats(sets, exam.answers);
+  assert.deepEqual(stats.wrong, []);
+  assert.equal(stats.firstCorrect, 1);
+  assert.equal(sets[0].questions[0].id, undefined);
+});
+
+test('clozeExample blanks inflected, phrasal and German forms; clozeCorrect normalizes', () => {
+  const blanks = c => c && c.segments.filter(s => typeof s !== 'string').map(s => s.blank);
+  let c = Core.clozeExample(['arrange', '준비하다', 'v', 'We arranged a meeting.', '회의를 잡았다.'], false);
+  assert.deepEqual(blanks(c), ['arranged']);
+  assert.equal(c.answer, 'arranged');
+  assert.equal(c.segments.map(s => typeof s === 'string' ? s : '_').join(''), 'We _ a meeting.');
+  c = Core.clozeExample(['set up', '설치하다', 'v', 'They set the booth up before noon.', ''], false);
+  assert.deepEqual(blanks(c), ['set', 'up']);
+  assert.equal(c.answer, 'set up');
+  c = Core.clozeExample(['fahren', '타고 가다', 'v', 'Er fährt morgen nach Berlin.', ''], true);
+  assert.equal(c, null, 'umlaut stem change is a match failure under the highlight rule');
+  c = Core.clozeExample(['der Bahnhof', '역', 'n', 'Der Bahnhof ist weit.', ''], true);
+  assert.deepEqual(blanks(c), ['Bahnhof']);
+  c = Core.clozeExample(['sich freuen', '기뻐하다', 'v', 'Wir freuen uns sehr.', ''], true);
+  assert.deepEqual(blanks(c), ['freuen']);
+  assert.equal(Core.clozeExample(['apple', '사과', 'n', '', ''], false), null);
+  assert.equal(Core.clozeExample(['apple', '사과', 'n', 'I like pears.', ''], false), null);
+  assert.equal(Core.clozeExample(['up', '위', '', 'Up we go.', ''], false).answer, 'Up');
+  assert.ok(Core.clozeCorrect('  SET   up ', 'set up', false));
+  assert.ok(Core.clozeCorrect('don’t', "don't", false));
+  assert.ok(!Core.clozeCorrect('arange', 'arranged', false));
+  assert.ok(Core.clozeCorrect('faehrt', 'fährt', true));
+  assert.ok(Core.clozeCorrect('Strasse', 'Straße', true));
+  assert.ok(!Core.clozeCorrect('Strasse', 'Straße', false));
+  assert.ok(!Core.clozeCorrect('fahrt', 'fährt', true));
+});
+
+test('short stems match whole words only; prefix headwords are not cloze questions', () => {
+  const answer = (head, ex, german) => Core.clozeExample([head, '', '', ex], german).answer;
+  assert.equal(answer('in person', 'She will attend the interview in person.'), 'in person');
+  assert.equal(answer('as if', 'The new assistant works as if she has been here for years.'), 'as if');
+  assert.equal(answer('in a row', 'Sales have increased for three months in a row.'), 'in a row');
+  assert.equal(answer('for the sake of', 'We simplified the form for the sake of clarity.'), 'for the sake of');
+  assert.equal(answer('run', 'She runs every morning.'), 'runs');
+  assert.equal(answer('run late', 'The bus is running late.'), 'running late');
+  assert.ok(!Core.stemMatches('inn', 'in', false));
+  assert.equal(answer('acquire', 'The firm acquired a rival.'), 'acquired');
+  assert.ok(Core.stemMatches('Uses', 'use', false));
+  assert.ok(!Core.stemMatches('as', 'a', false));
+  assert.ok(!Core.stemMatches('ins', 'in', true));
+  assert.equal(Core.clozeExample(['Feier-', '', '', 'Morgen ist ein Feiertag.'], true), null);
+  assert.equal(Core.clozeExample(['irgend-', '', '', 'Irgendwann komme ich.'], true), null);
+});
+
+test('spokenText reads only the part before " / " and keeps ellipses', () => {
+  assert.equal(Core.spokenText('ihr / Ihr'), 'ihr');
+  assert.equal(Core.spokenText('Deutsch / deutsch'), 'Deutsch');
+  assert.equal(Core.spokenText('entweder ... oder'), 'entweder ... oder');
+  assert.equal(Core.spokenText('je … desto …'), 'je … desto …');
+  assert.equal(Core.spokenText('lead (up/down) to'), 'lead (up/down) to');
+  assert.equal(Core.spokenText('der Tisch'), 'der Tisch');
+});
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 if (failed) process.exitCode = 1;

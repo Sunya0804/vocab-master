@@ -1,0 +1,9840 @@
+{
+  "id": "german-a1",
+  "name": "독일어 A1 누적 보카",
+  "desc": "Goethe 공식 어휘 목록 기반 · 820개 · 뜻·품사·예문·해석 · 명사 성·복수형",
+  "lang": "de-DE",
+  "languageName": "독일어",
+  "cefr": "A1",
+  "words": [
+    [
+      "ab",
+      "~부터",
+      "전",
+      "Ab nächster Woche beginnt der Kurs eine Stunde früher.",
+      "다음 주부터 강좌가 한 시간 일찍 시작한다."
+    ],
+    [
+      "aber",
+      "그러나, 하지만",
+      "접",
+      "Ich komme gern, aber ich kann nicht lange bleiben.",
+      "기꺼이 가겠지만 오래 머물 수는 없다."
+    ],
+    [
+      "abfahren",
+      "출발하다",
+      "동",
+      "Der Bus fährt in zehn Minuten ab.",
+      "버스는 10분 뒤에 출발한다."
+    ],
+    [
+      "die Abfahrt",
+      "출발",
+      "명",
+      "Bitte notieren Sie die Abfahrt im Kalender.",
+      "달력에 출발을 적어 주세요."
+    ],
+    [
+      "abgeben",
+      "제출하다, 반납하다",
+      "동",
+      "Bitte geben Sie den Schlüssel an der Rezeption ab.",
+      "열쇠를 접수대에 반납해 주세요."
+    ],
+    [
+      "abholen",
+      "마중 나가다, 찾아오다",
+      "동",
+      "Ich hole meine Schwester vom Bahnhof ab.",
+      "나는 기차역으로 누이를 마중 나간다."
+    ],
+    [
+      "der Absender",
+      "발신인",
+      "명",
+      "Der Absender wartet vor dem Eingang.",
+      "발신인은 입구 앞에서 기다린다."
+    ],
+    [
+      "Achtung!",
+      "주의하세요!",
+      "감",
+      "Achtung! Der Boden ist noch nass.",
+      "주의하세요! 바닥이 아직 젖어 있습니다."
+    ],
+    [
+      "die Adresse",
+      "주소",
+      "명",
+      "Bitte lesen Sie die Adresse noch einmal.",
+      "주소를 한 번 더 읽어 주세요."
+    ],
+    [
+      "all-",
+      "모든, 전부의, 어미가 변하는 어간",
+      "관/대",
+      "Alle Gäste warten im Garten.",
+      "모든 손님이 정원에서 기다린다."
+    ],
+    [
+      "allein",
+      "혼자, 홀로",
+      "부/형",
+      "Sie wohnt allein in einer kleinen Wohnung.",
+      "그녀는 작은 집에서 혼자 산다."
+    ],
+    [
+      "also",
+      "그러므로, 그럼",
+      "부",
+      "Es regnet, also bleiben wir zu Hause.",
+      "비가 오므로 우리는 집에 머문다."
+    ],
+    [
+      "alt",
+      "나이 든, 오래된",
+      "형",
+      "Das Gebäude ist über hundert Jahre alt.",
+      "그 건물은 백 년이 넘었다."
+    ],
+    [
+      "das Alter",
+      "나이",
+      "명",
+      "Wir sprechen heute über das Alter.",
+      "우리는 오늘 나이에 관해 이야기한다."
+    ],
+    [
+      "an",
+      "~에, ~의 곁에",
+      "전",
+      "Das Bild hängt an der Wand.",
+      "그림이 벽에 걸려 있다."
+    ],
+    [
+      "anbieten",
+      "제공하다, 제안하다",
+      "동",
+      "Die Bibliothek bietet kostenlose Sprachkurse an.",
+      "도서관은 무료 언어 강좌를 제공한다."
+    ],
+    [
+      "das Angebot",
+      "제안, 할인 상품",
+      "명",
+      "Wir prüfen das Angebot vor der Besprechung.",
+      "우리는 회의 전에 제안을 검토한다."
+    ],
+    [
+      "ander-",
+      "다른, 어미가 변하는 어간",
+      "관/대",
+      "Wir nehmen den anderen Bus.",
+      "우리는 다른 버스를 탄다."
+    ],
+    [
+      "anfangen",
+      "시작하다",
+      "동",
+      "Nach der Pause fangen wir mit dem Vortrag an.",
+      "쉬는 시간이 끝나면 강연을 시작한다."
+    ],
+    [
+      "der Anfang",
+      "시작",
+      "명",
+      "Wir sprechen heute über den Anfang.",
+      "우리는 오늘 시작에 관해 이야기한다."
+    ],
+    [
+      "anklicken",
+      "클릭하다",
+      "동",
+      "Klicken Sie bitte oben rechts das blaue Symbol an.",
+      "오른쪽 위에 있는 파란 기호를 클릭해 주세요."
+    ],
+    [
+      "ankommen",
+      "도착하다",
+      "동",
+      "Wir kommen erst am späten Abend an.",
+      "우리는 늦은 저녁이 되어서야 도착한다."
+    ],
+    [
+      "die Ankunft",
+      "도착",
+      "명",
+      "Bitte notieren Sie die Ankunft im Kalender.",
+      "달력에 도착을 적어 주세요."
+    ],
+    [
+      "ankreuzen",
+      "체크 표시하다",
+      "동",
+      "Kreuzen Sie die passende Antwort auf dem Formular an.",
+      "서식에서 알맞은 답에 체크 표시를 하세요."
+    ],
+    [
+      "anmachen",
+      "켜다",
+      "동",
+      "Mach bitte die kleine Lampe neben dem Sofa an.",
+      "소파 옆의 작은 등을 켜 주세요."
+    ],
+    [
+      "anmelden",
+      "등록하다, 신청하다",
+      "동",
+      "Ich möchte mich für den Abendkurs anmelden.",
+      "나는 저녁 강좌에 등록하고 싶다."
+    ],
+    [
+      "die Anmeldung",
+      "등록, 신청",
+      "명",
+      "Bitte lesen Sie die Anmeldung noch einmal.",
+      "등록을 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Anrede",
+      "호칭, 편지의 인사말",
+      "명",
+      "Bitte lesen Sie die Anrede noch einmal.",
+      "호칭을 한 번 더 읽어 주세요."
+    ],
+    [
+      "anrufen",
+      "전화하다",
+      "동",
+      "Ruf mich bitte nach deiner Prüfung an.",
+      "시험이 끝난 뒤 나에게 전화해 줘."
+    ],
+    [
+      "der Anruf",
+      "전화 통화",
+      "명",
+      "Wir sprechen heute über den Anruf.",
+      "우리는 오늘 전화 통화에 관해 이야기한다."
+    ],
+    [
+      "der Anrufbeantworter",
+      "자동 응답기",
+      "명",
+      "Der Anrufbeantworter funktioniert jetzt wieder.",
+      "자동 응답기가 이제 다시 작동한다."
+    ],
+    [
+      "die Ansage",
+      "안내 방송",
+      "명",
+      "Wir sprechen heute über die Ansage.",
+      "우리는 오늘 안내 방송에 관해 이야기한다."
+    ],
+    [
+      "der Anschluss",
+      "연결, 환승",
+      "명",
+      "Wir sprechen heute über den Anschluss.",
+      "우리는 오늘 연결에 관해 이야기한다."
+    ],
+    [
+      "an sein",
+      "켜져 있다",
+      "동",
+      "Im Flur ist das Licht noch an.",
+      "복도에 아직 불이 켜져 있다."
+    ],
+    [
+      "antworten",
+      "답하다",
+      "동",
+      "Sie antwortet sofort auf meine Nachricht.",
+      "그녀는 내 메시지에 바로 답한다."
+    ],
+    [
+      "die Antwort",
+      "답변",
+      "명",
+      "Bitte lesen Sie die Antwort noch einmal.",
+      "답변을 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Anzeige",
+      "광고, 공고",
+      "명",
+      "Bitte lesen Sie die Anzeige noch einmal.",
+      "광고를 한 번 더 읽어 주세요."
+    ],
+    [
+      "anziehen",
+      "입다; 끌어당기다",
+      "동",
+      "Vor dem Spaziergang zieht er eine warme Jacke an.",
+      "산책 전에 그는 따뜻한 재킷을 입는다."
+    ],
+    [
+      "das Apartment",
+      "아파트형 숙소",
+      "명",
+      "Das Apartment ist leicht zu finden.",
+      "아파트형 숙소가 찾기 쉽다."
+    ],
+    [
+      "der Apfel",
+      "사과",
+      "명",
+      "Wir kaufen heute den Apfel auf dem Markt.",
+      "우리는 오늘 시장에서 사과를 산다."
+    ],
+    [
+      "der Appetit",
+      "식욕",
+      "명",
+      "Sie spricht offen über ihren Appetit.",
+      "그녀는 자신의 식욕에 관해 솔직하게 이야기한다."
+    ],
+    [
+      "arbeiten",
+      "일하다",
+      "동",
+      "Meine Nachbarin arbeitet in einem kleinen Hotel.",
+      "우리 이웃 여자는 작은 호텔에서 일한다."
+    ],
+    [
+      "die Arbeit",
+      "일, 직업",
+      "명",
+      "Wir sprechen heute über die Arbeit.",
+      "우리는 오늘 일에 관해 이야기한다."
+    ],
+    [
+      "arbeitslos",
+      "실업 상태인",
+      "형",
+      "Nach der Schließung war er drei Monate arbeitslos.",
+      "폐업 후 그는 세 달 동안 실업 상태였다."
+    ],
+    [
+      "der Arbeitsplatz",
+      "일자리, 근무 장소",
+      "명",
+      "Der Arbeitsplatz ist leicht zu finden.",
+      "일자리가 찾기 쉽다."
+    ],
+    [
+      "der Arm",
+      "팔",
+      "명",
+      "Sie zeigt auf ihren Arm.",
+      "그녀는 자신의 팔을 가리킨다."
+    ],
+    [
+      "der Arzt",
+      "남자 의사",
+      "명",
+      "Der Arzt wartet vor dem Eingang.",
+      "남자 의사는 입구 앞에서 기다린다."
+    ],
+    [
+      "auch",
+      "~도, 또한",
+      "부",
+      "Meine Eltern lernen jetzt auch Deutsch.",
+      "우리 부모님도 이제 독일어를 배운다."
+    ],
+    [
+      "auf",
+      "~위에, ~로",
+      "전",
+      "Der Brief liegt auf dem Küchentisch.",
+      "편지가 식탁 위에 놓여 있다."
+    ],
+    [
+      "die Aufgabe",
+      "과제, 문제",
+      "명",
+      "Bitte lesen Sie die Aufgabe noch einmal.",
+      "과제를 한 번 더 읽어 주세요."
+    ],
+    [
+      "aufhören",
+      "그만두다, 끝내다",
+      "동",
+      "Wir hören um sechs mit der Arbeit auf.",
+      "우리는 여섯 시에 일을 마친다."
+    ],
+    [
+      "auf sein",
+      "열려 있다, 구어 표현",
+      "동",
+      "Die Bäckerei ist sonntags nur vormittags auf.",
+      "그 빵집은 일요일에 오전에만 열려 있다."
+    ],
+    [
+      "aufstehen",
+      "일어나다, 기상하다",
+      "동",
+      "Ich stehe jeden Tag vor sieben Uhr auf.",
+      "나는 매일 일곱 시 전에 일어난다."
+    ],
+    [
+      "der Aufzug",
+      "승강기",
+      "명",
+      "Der Aufzug funktioniert jetzt wieder.",
+      "승강기가 이제 다시 작동한다."
+    ],
+    [
+      "das Auge",
+      "눈",
+      "명",
+      "Sie zeigt auf ihr Auge.",
+      "그녀는 자신의 눈을 가리킨다."
+    ],
+    [
+      "aus",
+      "~에서, ~로 만들어진",
+      "전",
+      "Die Postkarte kommt aus der Schweiz.",
+      "그 엽서는 스위스에서 왔다."
+    ],
+    [
+      "der Ausflug",
+      "짧은 여행, 소풍",
+      "명",
+      "Wir sprechen heute über den Ausflug.",
+      "우리는 오늘 짧은 여행에 관해 이야기한다."
+    ],
+    [
+      "ausfüllen",
+      "기입하다, 채우다",
+      "동",
+      "Füllen Sie das Formular mit einem schwarzen Stift aus.",
+      "검은 펜으로 서식을 작성해 주세요."
+    ],
+    [
+      "der Ausgang",
+      "출구",
+      "명",
+      "Der Ausgang ist leicht zu finden.",
+      "출구가 찾기 쉽다."
+    ],
+    [
+      "die Auskunft",
+      "안내, 정보",
+      "명",
+      "Wir sprechen heute über die Auskunft.",
+      "우리는 오늘 안내에 관해 이야기한다."
+    ],
+    [
+      "das Ausland",
+      "외국, 해외",
+      "명",
+      "Wir sprechen heute über das Ausland.",
+      "우리는 오늘 외국에 관해 이야기한다."
+    ],
+    [
+      "der Ausländer",
+      "외국인 남자",
+      "명",
+      "Der Ausländer wartet vor dem Eingang.",
+      "외국인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "ausländisch",
+      "외국의",
+      "형",
+      "Das Museum zeigt Werke ausländischer Künstler.",
+      "박물관은 외국 예술가들의 작품을 전시한다."
+    ],
+    [
+      "ausmachen",
+      "끄다; 약속을 정하다",
+      "동",
+      "Kannst du bitte den Fernseher im Wohnzimmer ausmachen?",
+      "거실의 텔레비전을 꺼 줄 수 있니?"
+    ],
+    [
+      "die Aussage",
+      "진술, 발언",
+      "명",
+      "Bitte lesen Sie die Aussage noch einmal.",
+      "진술을 한 번 더 읽어 주세요."
+    ],
+    [
+      "aussehen",
+      "~처럼 보이다, 생김새가 ~하다",
+      "동",
+      "Der Eingang sieht nach der Renovierung ganz anders aus.",
+      "보수 후 입구의 모습이 완전히 달라 보인다."
+    ],
+    [
+      "aus sein",
+      "꺼져 있다",
+      "동",
+      "Nach Mitternacht ist die Straßenbeleuchtung hier aus.",
+      "자정이 지나면 이곳의 가로등은 꺼져 있다."
+    ],
+    [
+      "aussteigen",
+      "내리다",
+      "동",
+      "An der nächsten Haltestelle müssen wir aussteigen.",
+      "우리는 다음 정류장에서 내려야 한다."
+    ],
+    [
+      "der Ausweis",
+      "신분증",
+      "명",
+      "Bitte lesen Sie den Ausweis noch einmal.",
+      "신분증을 한 번 더 읽어 주세요."
+    ],
+    [
+      "ausziehen",
+      "벗다; 이사 나가다",
+      "동",
+      "Bitte zieh die nassen Schuhe im Flur aus.",
+      "복도에서 젖은 신발을 벗어 주세요."
+    ],
+    [
+      "das Auto",
+      "자동차",
+      "명",
+      "Auf dem Foto sieht man das Auto.",
+      "사진에서 자동차를 볼 수 있다."
+    ],
+    [
+      "die Autobahn",
+      "고속도로",
+      "명",
+      "Die Autobahn ist leicht zu finden.",
+      "고속도로가 찾기 쉽다."
+    ],
+    [
+      "der Automat",
+      "자동판매기, 자동 장치",
+      "명",
+      "Der Automat funktioniert jetzt wieder.",
+      "자동판매기가 이제 다시 작동한다."
+    ],
+    [
+      "automatisch",
+      "자동적인, 자동으로",
+      "형/부",
+      "Die Tür öffnet sich automatisch, wenn jemand davorsteht.",
+      "누군가 앞에 서면 문이 자동으로 열린다."
+    ],
+    [
+      "das Baby",
+      "아기",
+      "명",
+      "Das Baby wartet vor dem Eingang.",
+      "아기는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Bäckerei",
+      "빵집",
+      "명",
+      "Die Bäckerei ist leicht zu finden.",
+      "빵집이 찾기 쉽다."
+    ],
+    [
+      "das Bad",
+      "욕실, 목욕",
+      "명",
+      "Das Bad ist leicht zu finden.",
+      "욕실이 찾기 쉽다."
+    ],
+    [
+      "baden",
+      "목욕하다, 물놀이하다",
+      "동",
+      "Die Kinder baden nachmittags im See.",
+      "아이들은 오후에 호수에서 물놀이한다."
+    ],
+    [
+      "die Bahn",
+      "철도, 기차",
+      "명",
+      "Auf dem Foto sieht man die Bahn.",
+      "사진에서 철도를 볼 수 있다."
+    ],
+    [
+      "der Bahnhof",
+      "기차역",
+      "명",
+      "Der Bahnhof ist leicht zu finden.",
+      "기차역이 찾기 쉽다."
+    ],
+    [
+      "der Bahnsteig",
+      "승강장",
+      "명",
+      "Der Bahnsteig ist leicht zu finden.",
+      "승강장이 찾기 쉽다."
+    ],
+    [
+      "bald",
+      "곧, 머지않아",
+      "부",
+      "Bald beginnt der neue Sprachkurs.",
+      "곧 새 언어 강좌가 시작된다."
+    ],
+    [
+      "der Balkon",
+      "발코니",
+      "명",
+      "Der Balkon ist leicht zu finden.",
+      "발코니가 찾기 쉽다."
+    ],
+    [
+      "die Banane",
+      "바나나",
+      "명",
+      "Wir kaufen heute die Banane auf dem Markt.",
+      "우리는 오늘 시장에서 바나나를 산다."
+    ],
+    [
+      "die Bank",
+      "은행; 벤치",
+      "명",
+      "Ich sitze auf einer Bank vor der Bank.",
+      "나는 은행 앞 벤치에 앉아 있다."
+    ],
+    [
+      "bar",
+      "현금의, 현금으로",
+      "형/부",
+      "Sie bezahlt die Fahrkarte bar.",
+      "그녀는 승차권 값을 현금으로 낸다."
+    ],
+    [
+      "der Bauch",
+      "배, 복부",
+      "명",
+      "Sie zeigt auf ihren Bauch.",
+      "그녀는 자신의 배를 가리킨다."
+    ],
+    [
+      "der Baum",
+      "나무",
+      "명",
+      "Auf dem Foto sieht man den Baum.",
+      "사진에서 나무를 볼 수 있다."
+    ],
+    [
+      "der Beamte",
+      "남자 공무원",
+      "명",
+      "Der Beamte wartet vor dem Eingang.",
+      "남자 공무원은 입구 앞에서 기다린다."
+    ],
+    [
+      "bedeuten",
+      "의미하다",
+      "동",
+      "Das rote Schild bedeutet, dass man hier nicht parken darf.",
+      "빨간 표지판은 이곳에 주차하면 안 된다는 뜻이다."
+    ],
+    [
+      "beginnen",
+      "시작하다",
+      "동",
+      "Der Vortrag beginnt pünktlich um neun Uhr.",
+      "강연은 정확히 아홉 시에 시작한다."
+    ],
+    [
+      "bei",
+      "~의 곁에, ~에서, ~의 회사에서",
+      "전",
+      "Sie arbeitet bei einer kleinen Firma.",
+      "그녀는 작은 회사에서 일한다."
+    ],
+    [
+      "beide",
+      "둘 다, 양쪽",
+      "대",
+      "Beide Fenster sind nach Süden gerichtet.",
+      "두 창문 모두 남쪽을 향해 있다."
+    ],
+    [
+      "das Bein",
+      "다리",
+      "명",
+      "Sie zeigt auf ihr Bein.",
+      "그녀는 자신의 다리를 가리킨다."
+    ],
+    [
+      "das Beispiel",
+      "예시",
+      "명",
+      "Bitte lesen Sie das Beispiel noch einmal.",
+      "예시를 한 번 더 읽어 주세요."
+    ],
+    [
+      "zum Beispiel",
+      "예를 들어",
+      "부",
+      "Wir brauchen frisches Obst, zum Beispiel Äpfel und Birnen.",
+      "우리는 사과와 배 같은 신선한 과일이 필요하다."
+    ],
+    [
+      "z. B.",
+      "예를 들어의 약자",
+      "부",
+      "Im Hof stehen viele Fahrzeuge, z. B. zwei Lieferwagen.",
+      "마당에는 배달차 두 대 등 여러 차량이 서 있다."
+    ],
+    [
+      "bekannt",
+      "알려진, 유명한",
+      "형",
+      "Das Restaurant ist für seine Fischgerichte bekannt.",
+      "그 식당은 생선 요리로 유명하다."
+    ],
+    [
+      "der Bekannte",
+      "아는 남자, 지인",
+      "명",
+      "Der Bekannte wartet vor dem Eingang.",
+      "아는 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Bekannte",
+      "아는 여자, 지인",
+      "명",
+      "Die Bekannte wartet vor dem Eingang.",
+      "아는 여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "bekommen",
+      "받다, 얻다",
+      "동",
+      "Morgen bekomme ich meine neue Versichertenkarte.",
+      "나는 내일 새 건강보험 카드를 받는다."
+    ],
+    [
+      "benutzen",
+      "사용하다",
+      "동",
+      "Bitte benutzen Sie während der Reparatur den anderen Eingang.",
+      "수리 중에는 다른 입구를 이용해 주세요."
+    ],
+    [
+      "der Beruf",
+      "직업",
+      "명",
+      "Wir sprechen heute über den Beruf.",
+      "우리는 오늘 직업에 관해 이야기한다."
+    ],
+    [
+      "besetzt",
+      "사용 중인, 자리가 찬",
+      "형",
+      "Der einzige freie Stuhl ist jetzt auch besetzt.",
+      "유일하게 비어 있던 의자도 이제 사용 중이다."
+    ],
+    [
+      "besichtigen",
+      "견학하다, 둘러보다",
+      "동",
+      "Am Samstag besichtigen wir das alte Rathaus.",
+      "우리는 토요일에 옛 시청을 둘러본다."
+    ],
+    [
+      "besser",
+      "더 좋은, 더 잘",
+      "형/부",
+      "Seit dem Kurs verstehe ich deutsche Nachrichten besser.",
+      "강좌를 들은 후 독일어 뉴스를 더 잘 이해한다."
+    ],
+    [
+      "best-",
+      "가장 좋은, 최상의, 어미가 변하는 어간",
+      "형",
+      "Das ist der beste Zeitpunkt für einen Spaziergang.",
+      "지금이 산책하기에 가장 좋은 시점이다."
+    ],
+    [
+      "bestellen",
+      "주문하다",
+      "동",
+      "Wir bestellen zwei Suppen und einen Salat.",
+      "우리는 수프 두 개와 샐러드 하나를 주문한다."
+    ],
+    [
+      "besuchen",
+      "방문하다, 다니다",
+      "동",
+      "Im Sommer besuchen wir Freunde in der Schweiz.",
+      "우리는 여름에 스위스에 있는 친구들을 방문한다."
+    ],
+    [
+      "das Bett",
+      "침대",
+      "명",
+      "Ich suche das Bett seit heute Morgen.",
+      "나는 오늘 아침부터 침대를 찾고 있다."
+    ],
+    [
+      "bezahlen",
+      "지불하다",
+      "동",
+      "Sie bezahlt die Rechnung mit ihrer Kreditkarte.",
+      "그녀는 신용카드로 계산한다."
+    ],
+    [
+      "das Bier",
+      "맥주",
+      "명",
+      "Ich bestelle das Bier im Café.",
+      "나는 카페에서 맥주를 주문한다."
+    ],
+    [
+      "das Bild",
+      "그림, 사진",
+      "명",
+      "Ich suche das Bild seit heute Morgen.",
+      "나는 오늘 아침부터 그림을 찾고 있다."
+    ],
+    [
+      "billig",
+      "값싼",
+      "형",
+      "Diese Fahrkarte ist online deutlich billiger.",
+      "이 승차권은 온라인에서 훨씬 더 싸다."
+    ],
+    [
+      "die Birne",
+      "배, 서양배",
+      "명",
+      "Wir kaufen heute die Birne auf dem Markt.",
+      "우리는 오늘 시장에서 배를 산다."
+    ],
+    [
+      "bis",
+      "~까지",
+      "전/접",
+      "Ich bleibe bis Freitag in der Stadt.",
+      "나는 금요일까지 그 도시에 머문다."
+    ],
+    [
+      "bisschen",
+      "조금",
+      "부/대",
+      "Nach dem Mittagessen gehen wir ein bisschen spazieren.",
+      "점심을 먹은 뒤 우리는 조금 산책한다."
+    ],
+    [
+      "bitte",
+      "부탁합니다, 부디",
+      "감/부",
+      "Bitte warten Sie kurz vor der Tür.",
+      "문 앞에서 잠시 기다려 주세요."
+    ],
+    [
+      "die Bitte",
+      "부탁, 요청",
+      "명",
+      "Wir sprechen heute über die Bitte.",
+      "우리는 오늘 부탁에 관해 이야기한다."
+    ],
+    [
+      "bitten",
+      "부탁하다, 요청하다",
+      "동",
+      "Ich bitte Sie um eine kurze schriftliche Bestätigung.",
+      "짧은 서면 확인을 부탁드립니다."
+    ],
+    [
+      "bitter",
+      "맛이 쓴",
+      "형",
+      "Der Tee schmeckt ohne Zucker zu bitter.",
+      "그 차는 설탕이 없으면 너무 쓰다."
+    ],
+    [
+      "bleiben",
+      "머물다, 계속 ~인 상태이다",
+      "동",
+      "Wegen des Schnees bleiben die Kinder heute zu Hause.",
+      "눈 때문에 아이들은 오늘 집에 머문다."
+    ],
+    [
+      "der Bleistift",
+      "연필",
+      "명",
+      "Ich suche den Bleistift seit heute Morgen.",
+      "나는 오늘 아침부터 연필을 찾고 있다."
+    ],
+    [
+      "der Blick",
+      "시선, 바라봄",
+      "명",
+      "Wir sprechen heute über den Blick.",
+      "우리는 오늘 시선에 관해 이야기한다."
+    ],
+    [
+      "die Blume",
+      "꽃",
+      "명",
+      "Auf dem Foto sieht man die Blume.",
+      "사진에서 꽃을 볼 수 있다."
+    ],
+    [
+      "der Bogen",
+      "종이 한 장, 곡선",
+      "명",
+      "Ich suche den Bogen seit heute Morgen.",
+      "나는 오늘 아침부터 종이 한 장을 찾고 있다."
+    ],
+    [
+      "böse",
+      "화가 난, 나쁜",
+      "형",
+      "Sie ist böse, weil niemand sie informiert hat.",
+      "아무도 알려 주지 않아서 그녀는 화가 났다."
+    ],
+    [
+      "brauchen",
+      "필요하다",
+      "동",
+      "Für die Anmeldung brauche ich meinen Pass.",
+      "등록하려면 내 여권이 필요하다."
+    ],
+    [
+      "breit",
+      "폭이 넓은",
+      "형",
+      "Die neue Brücke ist sechs Meter breit.",
+      "새 다리의 폭은 6미터이다."
+    ],
+    [
+      "der Brief",
+      "편지",
+      "명",
+      "Bitte lesen Sie den Brief noch einmal.",
+      "편지를 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Briefmarke",
+      "우표",
+      "명",
+      "Ich suche die Briefmarke seit heute Morgen.",
+      "나는 오늘 아침부터 우표를 찾고 있다."
+    ],
+    [
+      "bringen",
+      "가져오다, 데려오다",
+      "동",
+      "Der Bote bringt das Paket direkt ins Büro.",
+      "배달원이 소포를 사무실로 직접 가져온다."
+    ],
+    [
+      "das Brot",
+      "빵",
+      "명",
+      "Wir schneiden das Brot in dünne Scheiben.",
+      "우리는 빵을 얇게 썬다."
+    ],
+    [
+      "das Brötchen",
+      "작은 빵",
+      "명",
+      "Wir kaufen heute das Brötchen auf dem Markt.",
+      "우리는 오늘 시장에서 작은 빵을 산다."
+    ],
+    [
+      "der Bruder",
+      "형제, 남자 형제",
+      "명",
+      "Der Bruder wartet vor dem Eingang.",
+      "형제는 입구 앞에서 기다린다."
+    ],
+    [
+      "das Buch",
+      "책",
+      "명",
+      "Bitte lesen Sie das Buch noch einmal.",
+      "책을 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Buchstabe",
+      "글자, 알파벳 문자",
+      "명",
+      "Bitte lesen Sie den Buchstaben noch einmal.",
+      "글자를 한 번 더 읽어 주세요."
+    ],
+    [
+      "buchstabieren",
+      "철자를 하나씩 말하다",
+      "동",
+      "Können Sie den Straßennamen bitte langsam buchstabieren?",
+      "거리 이름의 철자를 천천히 말해 주시겠어요?"
+    ],
+    [
+      "der Bus",
+      "버스",
+      "명",
+      "Auf dem Foto sieht man den Bus.",
+      "사진에서 버스를 볼 수 있다."
+    ],
+    [
+      "die Butter",
+      "버터",
+      "명",
+      "Wir kaufen heute die Butter auf dem Markt.",
+      "우리는 오늘 시장에서 버터를 산다."
+    ],
+    [
+      "das Café",
+      "카페",
+      "명",
+      "Das Café ist leicht zu finden.",
+      "카페가 찾기 쉽다."
+    ],
+    [
+      "die CD",
+      "콤팩트디스크",
+      "명",
+      "Ich suche die CD seit heute Morgen.",
+      "나는 오늘 아침부터 콤팩트디스크를 찾고 있다."
+    ],
+    [
+      "der Chef",
+      "남자 상사",
+      "명",
+      "Der Chef wartet vor dem Eingang.",
+      "남자 상사는 입구 앞에서 기다린다."
+    ],
+    [
+      "circa",
+      "약, 대략",
+      "부",
+      "Der Weg zum Bahnhof dauert circa zwanzig Minuten.",
+      "기차역까지 가는 데 약 20분이 걸린다."
+    ],
+    [
+      "ca.",
+      "약, 대략의 약자",
+      "부",
+      "Die Lieferung kommt in ca. drei Tagen.",
+      "배송품은 약 사흘 뒤에 도착한다."
+    ],
+    [
+      "der Computer",
+      "컴퓨터",
+      "명",
+      "Der Computer funktioniert jetzt wieder.",
+      "컴퓨터가 이제 다시 작동한다."
+    ],
+    [
+      "da",
+      "거기에; ~이므로",
+      "부/접",
+      "Da der Bus ausfällt, gehen wir zu Fuß.",
+      "버스가 운행하지 않으므로 우리는 걸어간다."
+    ],
+    [
+      "die Dame",
+      "숙녀, 여자분",
+      "명",
+      "Die Dame wartet vor dem Eingang.",
+      "숙녀는 입구 앞에서 기다린다."
+    ],
+    [
+      "daneben",
+      "그 옆에",
+      "부",
+      "Die Apotheke ist dort, und daneben liegt die Bäckerei.",
+      "약국이 저기에 있고 그 옆에는 빵집이 있다."
+    ],
+    [
+      "danken",
+      "감사하다",
+      "동",
+      "Ich danke Ihnen für die schnelle Hilfe.",
+      "신속하게 도와주셔서 감사합니다."
+    ],
+    [
+      "der Dank",
+      "감사",
+      "명",
+      "Sie spricht offen über ihren Dank.",
+      "그녀는 자신의 감사에 관해 솔직하게 이야기한다."
+    ],
+    [
+      "danke",
+      "감사합니다",
+      "감",
+      "Danke, das war eine große Hilfe für mich.",
+      "감사합니다. 제게 큰 도움이 되었어요."
+    ],
+    [
+      "dann",
+      "그다음에, 그러면",
+      "부",
+      "Zuerst lesen wir den Text, dann beantworten wir die Fragen.",
+      "먼저 글을 읽고 그다음에 질문에 답한다."
+    ],
+    [
+      "das Datum",
+      "날짜",
+      "명",
+      "Bitte notieren Sie das Datum im Kalender.",
+      "달력에 날짜를 적어 주세요."
+    ],
+    [
+      "dauern",
+      "시간이 걸리다, 지속되다",
+      "동",
+      "Die Reparatur dauert noch zwei Wochen.",
+      "수리에는 앞으로 2주가 더 걸린다."
+    ],
+    [
+      "dein-",
+      "너의, 어미가 변하는 어간",
+      "관/대",
+      "Ist das deine Jacke auf dem Stuhl?",
+      "의자 위에 있는 것이 네 재킷이니?"
+    ],
+    [
+      "denn",
+      "왜냐하면; 도대체",
+      "접/부",
+      "Ich nehme den Bus, denn es regnet stark.",
+      "비가 많이 오기 때문에 나는 버스를 탄다."
+    ],
+    [
+      "der",
+      "남성 단수 정관사; 지시·관계대명사",
+      "관/대",
+      "Der neue Lehrer kommt aus Österreich.",
+      "새 선생님은 오스트리아 출신이다."
+    ],
+    [
+      "die",
+      "여성 단수·복수 정관사; 지시·관계대명사",
+      "관/대",
+      "Die Tasche neben der Tür gehört mir.",
+      "문 옆의 가방은 내 것이다."
+    ],
+    [
+      "das",
+      "중성 단수 정관사; 지시·관계대명사",
+      "관/대",
+      "Das Fenster im Schlafzimmer ist noch offen.",
+      "침실의 창문이 아직 열려 있다."
+    ],
+    [
+      "dich",
+      "너를, 재귀적으로 너 자신을",
+      "대",
+      "Ich sehe dich jeden Morgen an der Haltestelle.",
+      "나는 매일 아침 정류장에서 너를 본다."
+    ],
+    [
+      "dies-",
+      "이, 이것, 어미가 변하는 어간",
+      "관/대",
+      "Dieses Buch hilft mir beim Deutschlernen.",
+      "이 책은 내가 독일어를 공부하는 데 도움이 된다."
+    ],
+    [
+      "dir",
+      "너에게",
+      "대",
+      "Ich schicke dir heute die Unterlagen.",
+      "내가 오늘 너에게 서류를 보낼게."
+    ],
+    [
+      "die Disco",
+      "디스코장",
+      "명",
+      "Die Disco ist leicht zu finden.",
+      "디스코장이 찾기 쉽다."
+    ],
+    [
+      "der Doktor",
+      "박사, 남자 의사",
+      "명",
+      "Der Doktor wartet vor dem Eingang.",
+      "박사는 입구 앞에서 기다린다."
+    ],
+    [
+      "das Doppelzimmer",
+      "2인실",
+      "명",
+      "Das Doppelzimmer ist leicht zu finden.",
+      "2인실이 찾기 쉽다."
+    ],
+    [
+      "das Dorf",
+      "마을",
+      "명",
+      "Das Dorf ist leicht zu finden.",
+      "마을이 찾기 쉽다."
+    ],
+    [
+      "dort",
+      "거기에, 저기에",
+      "부",
+      "Dort hinten ist der Ausgang zum Parkplatz.",
+      "저 뒤에 주차장으로 가는 출구가 있다."
+    ],
+    [
+      "draußen",
+      "밖에, 실외에",
+      "부",
+      "Die Kinder warten draußen vor dem Museum.",
+      "아이들은 박물관 앞의 바깥 공간에서 기다린다."
+    ],
+    [
+      "drucken",
+      "인쇄하다",
+      "동",
+      "Wir drucken die Einladung auf farbigem Papier.",
+      "우리는 색지에 초대장을 인쇄한다."
+    ],
+    [
+      "der Drucker",
+      "프린터",
+      "명",
+      "Der Drucker funktioniert jetzt wieder.",
+      "프린터가 이제 다시 작동한다."
+    ],
+    [
+      "drücken",
+      "누르다, 밀다",
+      "동",
+      "Drücken Sie zum Öffnen kurz auf den grünen Knopf.",
+      "문을 열려면 초록색 버튼을 잠깐 누르세요."
+    ],
+    [
+      "durch",
+      "~을 통과하여, ~을 통해",
+      "전",
+      "Der Wanderweg führt durch einen dichten Wald.",
+      "그 등산로는 울창한 숲을 통과한다."
+    ],
+    [
+      "die Durchsage",
+      "안내 방송",
+      "명",
+      "Wir sprechen heute über die Durchsage.",
+      "우리는 오늘 안내 방송에 관해 이야기한다."
+    ],
+    [
+      "dürfen",
+      "~해도 되다",
+      "동",
+      "Darf ich hier mein Fahrrad abstellen?",
+      "여기에 제 자전거를 세워도 되나요?"
+    ],
+    [
+      "der Durst",
+      "갈증",
+      "명",
+      "Bei dieser Hitze habe ich ständig Durst.",
+      "이 더위에 나는 계속 목이 마르다."
+    ],
+    [
+      "duschen",
+      "샤워하다",
+      "동",
+      "Nach dem Schwimmen duschen wir im Sportzentrum.",
+      "수영 후 우리는 체육시설에서 샤워한다."
+    ],
+    [
+      "die Dusche",
+      "샤워기, 샤워 시설",
+      "명",
+      "Die Dusche funktioniert jetzt wieder.",
+      "샤워기가 이제 다시 작동한다."
+    ],
+    [
+      "die Ecke",
+      "모퉁이, 구석",
+      "명",
+      "Die Ecke ist leicht zu finden.",
+      "모퉁이가 찾기 쉽다."
+    ],
+    [
+      "die Ehefrau",
+      "아내",
+      "명",
+      "Die Ehefrau wartet vor dem Eingang.",
+      "아내는 입구 앞에서 기다린다."
+    ],
+    [
+      "der Ehemann",
+      "남편",
+      "명",
+      "Der Ehemann wartet vor dem Eingang.",
+      "남편은 입구 앞에서 기다린다."
+    ],
+    [
+      "das Ei",
+      "달걀",
+      "명",
+      "Wir kaufen heute das Ei auf dem Markt.",
+      "우리는 오늘 시장에서 달걀을 산다."
+    ],
+    [
+      "eilig",
+      "급한, 서두르는",
+      "형",
+      "Ich habe es eilig und nehme deshalb ein Taxi.",
+      "나는 급해서 택시를 탄다."
+    ],
+    [
+      "ein-",
+      "하나의, 어떤, 어미가 변하는 어간",
+      "관/수",
+      "Ein Kollege wartet vor dem Haupteingang.",
+      "동료 한 명이 정문 앞에서 기다린다."
+    ],
+    [
+      "einfach",
+      "간단한, 쉬운; 그냥",
+      "형/부",
+      "Die Anleitung ist mit Bildern viel einfacher.",
+      "그림이 있으면 설명서가 훨씬 더 쉽다."
+    ],
+    [
+      "der Eingang",
+      "입구",
+      "명",
+      "Der Eingang ist leicht zu finden.",
+      "입구가 찾기 쉽다."
+    ],
+    [
+      "einkaufen",
+      "장보다, 쇼핑하다",
+      "동",
+      "Wir kaufen morgen früh auf dem Wochenmarkt ein.",
+      "우리는 내일 아침 정기 시장에서 장을 본다."
+    ],
+    [
+      "einladen",
+      "초대하다",
+      "동",
+      "Meine Nachbarn laden uns am Sonntag zum Essen ein.",
+      "이웃들은 일요일에 우리를 식사에 초대한다."
+    ],
+    [
+      "die Einladung",
+      "초대, 초대장",
+      "명",
+      "Bitte lesen Sie die Einladung noch einmal.",
+      "초대를 한 번 더 읽어 주세요."
+    ],
+    [
+      "einmal",
+      "한 번, 언젠가",
+      "부",
+      "Ich habe diesen Film erst einmal gesehen.",
+      "나는 이 영화를 한 번밖에 보지 않았다."
+    ],
+    [
+      "einsteigen",
+      "타다, 승차하다",
+      "동",
+      "Bitte steigen Sie vorn in den Bus ein.",
+      "버스 앞문으로 승차해 주세요."
+    ],
+    [
+      "der Eintritt",
+      "입장, 입장료",
+      "명",
+      "Wir prüfen den Eintritt vor der Besprechung.",
+      "우리는 회의 전에 입장을 검토한다."
+    ],
+    [
+      "das Einzelzimmer",
+      "1인실",
+      "명",
+      "Das Einzelzimmer ist leicht zu finden.",
+      "1인실이 찾기 쉽다."
+    ],
+    [
+      "die Eltern",
+      "부모",
+      "명",
+      "Die Eltern warten vor dem Eingang.",
+      "부모는 입구 앞에서 기다린다."
+    ],
+    [
+      "die E-Mail",
+      "이메일",
+      "명",
+      "Bitte lesen Sie die E-Mail noch einmal.",
+      "이메일을 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Empfänger",
+      "수신인 남자",
+      "명",
+      "Der Empfänger wartet vor dem Eingang.",
+      "수신인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "empfehlen",
+      "추천하다",
+      "동",
+      "Die Verkäuferin empfiehlt mir einen wärmeren Mantel.",
+      "판매원은 내게 더 따뜻한 외투를 추천한다."
+    ],
+    [
+      "enden",
+      "끝나다",
+      "동",
+      "Unser Mietvertrag endet am letzten Tag des Monats.",
+      "우리 임대 계약은 그달의 마지막 날에 끝난다."
+    ],
+    [
+      "das Ende",
+      "끝",
+      "명",
+      "Wir sprechen heute über das Ende.",
+      "우리는 오늘 끝에 관해 이야기한다."
+    ],
+    [
+      "entschuldigen",
+      "용서하다, 사과하다",
+      "동",
+      "Ich möchte mich für meine Verspätung entschuldigen.",
+      "늦은 것에 대해 사과하고 싶습니다."
+    ],
+    [
+      "die Entschuldigung",
+      "사과, 용서 요청",
+      "명",
+      "Wir sprechen heute über die Entschuldigung.",
+      "우리는 오늘 사과에 관해 이야기한다."
+    ],
+    [
+      "er",
+      "그, 그가",
+      "대",
+      "Er wartet seit einer Stunde am Bahnhof.",
+      "그는 기차역에서 한 시간째 기다리고 있다."
+    ],
+    [
+      "das Ergebnis",
+      "결과",
+      "명",
+      "Wir sprechen heute über das Ergebnis.",
+      "우리는 오늘 결과에 관해 이야기한다."
+    ],
+    [
+      "erklären",
+      "설명하다",
+      "동",
+      "Die Lehrerin erklärt die Aufgabe an einem Beispiel.",
+      "선생님은 예를 들어 과제를 설명한다."
+    ],
+    [
+      "erlauben",
+      "허락하다",
+      "동",
+      "Der Vermieter erlaubt uns, die Wand zu streichen.",
+      "임대인은 우리가 벽을 칠하는 것을 허락한다."
+    ],
+    [
+      "der Erwachsene",
+      "성인 남자",
+      "명",
+      "Der Erwachsene wartet vor dem Eingang.",
+      "성인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "erzählen",
+      "이야기하다",
+      "동",
+      "Sie erzählt ihren Kindern jeden Abend eine Geschichte.",
+      "그녀는 매일 저녁 아이들에게 이야기를 들려준다."
+    ],
+    [
+      "es",
+      "그것; 비인칭 주어",
+      "대",
+      "Es liegt noch ein Brief auf deinem Schreibtisch.",
+      "네 책상 위에 아직 편지 한 통이 놓여 있다."
+    ],
+    [
+      "essen",
+      "먹다",
+      "동",
+      "Wir essen heute Abend gemeinsam bei meinen Eltern.",
+      "우리는 오늘 저녁 부모님 댁에서 함께 식사한다."
+    ],
+    [
+      "das Essen",
+      "음식, 식사",
+      "명",
+      "Wir kaufen heute das Essen auf dem Markt.",
+      "우리는 오늘 시장에서 음식을 산다."
+    ],
+    [
+      "euer",
+      "너희의",
+      "관/대",
+      "Ist das euer Gepäck neben der Treppe?",
+      "계단 옆의 짐이 너희 것이니?"
+    ],
+    [
+      "fahren",
+      "차량으로 가다, 운전하다",
+      "동",
+      "Am Wochenende fahren wir mit dem Zug nach Hamburg.",
+      "우리는 주말에 기차로 함부르크에 간다."
+    ],
+    [
+      "der Fahrer",
+      "남자 운전기사",
+      "명",
+      "Der Fahrer wartet vor dem Eingang.",
+      "남자 운전기사는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Fahrkarte",
+      "승차권",
+      "명",
+      "Ich suche die Fahrkarte seit heute Morgen.",
+      "나는 오늘 아침부터 승차권을 찾고 있다."
+    ],
+    [
+      "das Fahrrad",
+      "자전거",
+      "명",
+      "Auf dem Foto sieht man das Fahrrad.",
+      "사진에서 자전거를 볼 수 있다."
+    ],
+    [
+      "falsch",
+      "틀린, 잘못된",
+      "형/부",
+      "Auf dem Formular steht eine falsche Telefonnummer.",
+      "서식에 잘못된 전화번호가 적혀 있다."
+    ],
+    [
+      "die Familie",
+      "가족",
+      "명",
+      "Die Familie wartet vor dem Eingang.",
+      "가족은 입구 앞에서 기다린다."
+    ],
+    [
+      "der Familienname",
+      "성, 가족 이름",
+      "명",
+      "Bitte lesen Sie den Familiennamen noch einmal.",
+      "성을 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Familienstand",
+      "혼인 상태",
+      "명",
+      "Wir sprechen heute über den Familienstand.",
+      "우리는 오늘 혼인 상태에 관해 이야기한다."
+    ],
+    [
+      "die Farbe",
+      "색깔, 물감",
+      "명",
+      "Wir sprechen heute über die Farbe.",
+      "우리는 오늘 색깔에 관해 이야기한다."
+    ],
+    [
+      "das Fax",
+      "팩스",
+      "명",
+      "Das Fax funktioniert jetzt wieder.",
+      "팩스가 이제 다시 작동한다."
+    ],
+    [
+      "Feier-",
+      "축하·휴무를 나타내는 복합어 어간",
+      "형",
+      "Am Montag bleibt unser Geschäft wegen eines Feiertags geschlossen.",
+      "월요일에는 공휴일 때문에 우리 가게가 문을 닫는다."
+    ],
+    [
+      "feiern",
+      "축하하다, 기념하다",
+      "동",
+      "Wir feiern den Abschluss unseres Sprachkurses im Garten.",
+      "우리는 정원에서 언어 강좌 수료를 축하한다."
+    ],
+    [
+      "fehlen",
+      "없다, 빠지다, 부족하다",
+      "동",
+      "In diesem Formular fehlt noch Ihre Unterschrift.",
+      "이 서식에는 아직 귀하의 서명이 빠져 있다."
+    ],
+    [
+      "der Fehler",
+      "실수, 오류",
+      "명",
+      "Wir sprechen heute über den Fehler.",
+      "우리는 오늘 실수에 관해 이야기한다."
+    ],
+    [
+      "fernsehen",
+      "텔레비전을 보다",
+      "동",
+      "Nach den Hausaufgaben möchte er eine Stunde fernsehen.",
+      "숙제를 마친 뒤 그는 한 시간 동안 텔레비전을 보고 싶어 한다."
+    ],
+    [
+      "fertig",
+      "완성된, 준비된",
+      "형",
+      "Der Bericht ist fertig und liegt auf Ihrem Tisch.",
+      "보고서는 완성되어 귀하의 책상 위에 놓여 있다."
+    ],
+    [
+      "das Feuer",
+      "불, 화재",
+      "명",
+      "Auf dem Foto sieht man das Feuer.",
+      "사진에서 불을 볼 수 있다."
+    ],
+    [
+      "das Fieber",
+      "열, 발열",
+      "명",
+      "Wir informieren uns über das Fieber.",
+      "우리는 열에 관해 알아보고 있다."
+    ],
+    [
+      "der Film",
+      "영화",
+      "명",
+      "Wir sprechen heute über den Film.",
+      "우리는 오늘 영화에 관해 이야기한다."
+    ],
+    [
+      "finden",
+      "찾다, 발견하다; ~라고 생각하다",
+      "동",
+      "Im Fundbüro finden wir endlich den verlorenen Koffer.",
+      "우리는 분실물 보관소에서 마침내 잃어버린 여행 가방을 찾는다."
+    ],
+    [
+      "die Firma",
+      "회사",
+      "명",
+      "Die Firma ist leicht zu finden.",
+      "회사가 찾기 쉽다."
+    ],
+    [
+      "der Fisch",
+      "물고기, 생선",
+      "명",
+      "Das Kind beobachtet den Fisch aus der Nähe.",
+      "아이는 가까이에서 물고기를 관찰한다."
+    ],
+    [
+      "die Flasche",
+      "병",
+      "명",
+      "Ich suche die Flasche seit heute Morgen.",
+      "나는 오늘 아침부터 병을 찾고 있다."
+    ],
+    [
+      "das Fleisch",
+      "고기",
+      "명",
+      "Wir kaufen heute das Fleisch auf dem Markt.",
+      "우리는 오늘 시장에서 고기를 산다."
+    ],
+    [
+      "fliegen",
+      "날다, 비행기로 가다",
+      "동",
+      "Nächste Woche fliegen meine Eltern zum ersten Mal nach Wien.",
+      "다음 주에 우리 부모님은 처음으로 비행기를 타고 빈에 간다."
+    ],
+    [
+      "abfliegen",
+      "이륙하다, 항공편이 출발하다",
+      "동",
+      "Unser Flugzeug fliegt heute von Gate zwölf ab.",
+      "우리 비행기는 오늘 12번 탑승구에서 출발한다."
+    ],
+    [
+      "der Abflug",
+      "항공기 출발, 이륙",
+      "명",
+      "Bitte notieren Sie den Abflug im Kalender.",
+      "달력에 항공기 출발을 적어 주세요."
+    ],
+    [
+      "der Flughafen",
+      "공항",
+      "명",
+      "Der Flughafen ist leicht zu finden.",
+      "공항이 찾기 쉽다."
+    ],
+    [
+      "das Flugzeug",
+      "비행기",
+      "명",
+      "Auf dem Foto sieht man das Flugzeug.",
+      "사진에서 비행기를 볼 수 있다."
+    ],
+    [
+      "das Formular",
+      "서식, 신청 양식",
+      "명",
+      "Bitte lesen Sie das Formular noch einmal.",
+      "서식을 한 번 더 읽어 주세요."
+    ],
+    [
+      "das Foto",
+      "사진",
+      "명",
+      "Ich suche das Foto seit heute Morgen.",
+      "나는 오늘 아침부터 사진을 찾고 있다."
+    ],
+    [
+      "fragen",
+      "묻다",
+      "동",
+      "Frag bitte die Kollegin nach der richtigen Adresse.",
+      "동료에게 정확한 주소를 물어봐 줘."
+    ],
+    [
+      "die Frage",
+      "질문",
+      "명",
+      "Bitte lesen Sie die Frage noch einmal.",
+      "질문을 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Frau",
+      "여자, 아내",
+      "명",
+      "Die Frau wartet vor dem Eingang.",
+      "여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "frei",
+      "비어 있는, 자유로운, 무료의",
+      "형",
+      "Ist in der ersten Reihe noch ein Platz frei?",
+      "첫 번째 줄에 아직 빈자리가 있나요?"
+    ],
+    [
+      "die Freizeit",
+      "여가 시간",
+      "명",
+      "Wir sprechen heute über die Freizeit.",
+      "우리는 오늘 여가 시간에 관해 이야기한다."
+    ],
+    [
+      "fremd",
+      "낯선, 다른 사람의",
+      "형",
+      "In einer fremden Stadt nutze ich einen Stadtplan.",
+      "낯선 도시에서는 시내 지도를 이용한다."
+    ],
+    [
+      "freuen",
+      "기쁘게 하다, 기뻐하다",
+      "동",
+      "Ich freue mich über die Einladung zum Konzert.",
+      "나는 음악회 초대를 받아 기쁘다."
+    ],
+    [
+      "der Freund",
+      "남자 친구",
+      "명",
+      "Der Freund wartet vor dem Eingang.",
+      "남자 친구는 입구 앞에서 기다린다."
+    ],
+    [
+      "früher",
+      "예전에; 더 이른",
+      "부/형",
+      "Früher war in diesem Gebäude eine Schule.",
+      "예전에는 이 건물에 학교가 있었다."
+    ],
+    [
+      "frühstücken",
+      "아침 식사하다",
+      "동",
+      "Am Sonntag frühstücken wir gemütlich auf dem Balkon.",
+      "일요일에는 발코니에서 여유롭게 아침을 먹는다."
+    ],
+    [
+      "das Frühstück",
+      "아침 식사",
+      "명",
+      "Wir kaufen heute das Frühstück auf dem Markt.",
+      "우리는 오늘 시장에서 아침 식사를 산다."
+    ],
+    [
+      "die Führung",
+      "안내 견학, 인솔",
+      "명",
+      "Die Führung beginnt morgen um neun.",
+      "안내 견학은 내일 아홉 시에 시작한다."
+    ],
+    [
+      "für",
+      "~을 위해, ~에 대해",
+      "전",
+      "Dieses Geschenk ist für meine neue Nachbarin.",
+      "이 선물은 새 이웃을 위한 것이다."
+    ],
+    [
+      "der Fuß",
+      "발",
+      "명",
+      "Sie zeigt auf ihren Fuß.",
+      "그녀는 자신의 발을 가리킨다."
+    ],
+    [
+      "der Fußball",
+      "축구공; 축구",
+      "명",
+      "Ich suche den Fußball seit heute Morgen.",
+      "나는 오늘 아침부터 축구공을 찾고 있다."
+    ],
+    [
+      "der Garten",
+      "정원",
+      "명",
+      "Der Garten ist leicht zu finden.",
+      "정원이 찾기 쉽다."
+    ],
+    [
+      "der Gast",
+      "손님",
+      "명",
+      "Der Gast wartet vor dem Eingang.",
+      "손님은 입구 앞에서 기다린다."
+    ],
+    [
+      "geben",
+      "주다, 건네다",
+      "동",
+      "Geben Sie mir bitte noch eine leere Tasse.",
+      "빈 찻잔 하나를 더 주세요."
+    ],
+    [
+      "geboren",
+      "태어난",
+      "형",
+      "Mein Großvater ist in einem kleinen Dorf geboren.",
+      "우리 할아버지는 작은 마을에서 태어나셨다."
+    ],
+    [
+      "das Geburtsjahr",
+      "출생 연도",
+      "명",
+      "Bitte notieren Sie das Geburtsjahr im Kalender.",
+      "달력에 출생 연도를 적어 주세요."
+    ],
+    [
+      "der Geburtsort",
+      "출생지",
+      "명",
+      "Der Geburtsort ist leicht zu finden.",
+      "출생지가 찾기 쉽다."
+    ],
+    [
+      "der Geburtstag",
+      "생일",
+      "명",
+      "Bitte notieren Sie den Geburtstag im Kalender.",
+      "달력에 생일을 적어 주세요."
+    ],
+    [
+      "gefallen",
+      "마음에 들다",
+      "동",
+      "Die hellen Räume gefallen allen Besuchern.",
+      "밝은 방들은 모든 방문객의 마음에 든다."
+    ],
+    [
+      "gegen",
+      "~에 반대하여, ~에 맞서",
+      "전",
+      "Ich bin gegen den Bau eines neuen Parkplatzes.",
+      "나는 새 주차장 건설에 반대한다."
+    ],
+    [
+      "gehen",
+      "가다, 걷다",
+      "동",
+      "Nach der Sitzung gehen wir zusammen zur Haltestelle.",
+      "회의 후 우리는 함께 정류장으로 간다."
+    ],
+    [
+      "gehören",
+      "~의 것이다, ~에 속하다",
+      "동",
+      "Die blauen Handschuhe gehören meiner Kollegin.",
+      "파란 장갑은 내 동료의 것이다."
+    ],
+    [
+      "das Geld",
+      "돈",
+      "명",
+      "Ich spare Geld für eine Reise.",
+      "나는 여행을 위해 돈을 모은다."
+    ],
+    [
+      "das Gemüse",
+      "채소",
+      "명",
+      "Wir kaufen heute das Gemüse auf dem Markt.",
+      "우리는 오늘 시장에서 채소를 산다."
+    ],
+    [
+      "das Gepäck",
+      "짐, 수하물",
+      "명",
+      "Ich suche das Gepäck seit heute Morgen.",
+      "나는 오늘 아침부터 짐을 찾고 있다."
+    ],
+    [
+      "gerade",
+      "지금, 방금; 곧은",
+      "부/형",
+      "Ich kann nicht sprechen, ich koche gerade.",
+      "지금 요리하고 있어서 이야기할 수 없다."
+    ],
+    [
+      "geradeaus",
+      "똑바로, 곧장",
+      "부",
+      "Gehen Sie geradeaus bis zur nächsten Kreuzung.",
+      "다음 교차로까지 곧장 가세요."
+    ],
+    [
+      "gern",
+      "기꺼이, 즐겨",
+      "부",
+      "Ich lese gern Zeitungen aus anderen Ländern.",
+      "나는 다른 나라의 신문을 즐겨 읽는다."
+    ],
+    [
+      "gerne",
+      "기꺼이, 즐겨",
+      "부",
+      "Wir helfen Ihnen gerne bei der Anmeldung.",
+      "등록하시는 것을 기꺼이 도와드리겠습니다."
+    ],
+    [
+      "das Geschäft",
+      "가게, 거래",
+      "명",
+      "Das Geschäft ist leicht zu finden.",
+      "가게가 찾기 쉽다."
+    ],
+    [
+      "das Geschenk",
+      "선물",
+      "명",
+      "Ich suche das Geschenk seit heute Morgen.",
+      "나는 오늘 아침부터 선물을 찾고 있다."
+    ],
+    [
+      "die Geschwister",
+      "형제자매",
+      "명",
+      "Die Geschwister warten vor dem Eingang.",
+      "형제자매는 입구 앞에서 기다린다."
+    ],
+    [
+      "das Gespräch",
+      "대화",
+      "명",
+      "Das Gespräch beginnt morgen um neun.",
+      "대화는 내일 아홉 시에 시작한다."
+    ],
+    [
+      "gestern",
+      "어제",
+      "부",
+      "Gestern haben wir die letzte Prüfung geschrieben.",
+      "어제 우리는 마지막 시험을 치렀다."
+    ],
+    [
+      "gestorben",
+      "사망한, 사망하다의 과거분사",
+      "형",
+      "Der Autor ist bereits vor vielen Jahren gestorben.",
+      "그 작가는 이미 여러 해 전에 사망했다."
+    ],
+    [
+      "das Getränk",
+      "음료",
+      "명",
+      "Ich bestelle das Getränk im Café.",
+      "나는 카페에서 음료를 주문한다."
+    ],
+    [
+      "das Gewicht",
+      "무게, 체중",
+      "명",
+      "Wir sprechen heute über das Gewicht.",
+      "우리는 오늘 무게에 관해 이야기한다."
+    ],
+    [
+      "gewinnen",
+      "이기다, 얻다, 당첨되다",
+      "동",
+      "Unser Team gewinnt das Spiel in der letzten Minute.",
+      "우리 팀은 마지막 순간에 경기에서 이긴다."
+    ],
+    [
+      "das Glas",
+      "유리잔, 유리",
+      "명",
+      "Ich suche das Glas seit heute Morgen.",
+      "나는 오늘 아침부터 유리잔을 찾고 있다."
+    ],
+    [
+      "glauben",
+      "믿다, 생각하다",
+      "동",
+      "Ich glaube, dass der nächste Zug früher ankommt.",
+      "나는 다음 기차가 더 일찍 도착한다고 생각한다."
+    ],
+    [
+      "gleich",
+      "같은; 곧, 바로",
+      "형/부",
+      "Die beiden Zimmer haben die gleiche Größe.",
+      "두 방은 크기가 같다."
+    ],
+    [
+      "das Gleis",
+      "철로, 승강장 선로",
+      "명",
+      "Das Gleis ist leicht zu finden.",
+      "철로가 찾기 쉽다."
+    ],
+    [
+      "das Glück",
+      "행운, 행복",
+      "명",
+      "Sie spricht offen über ihr Glück.",
+      "그녀는 자신의 행운에 관해 솔직하게 이야기한다."
+    ],
+    [
+      "glücklich",
+      "행복한, 운이 좋은",
+      "형",
+      "Nach der bestandenen Prüfung war sie sehr glücklich.",
+      "시험에 합격한 뒤 그녀는 매우 행복했다."
+    ],
+    [
+      "der Glückwunsch",
+      "축하 인사",
+      "명",
+      "Wir sprechen heute über den Glückwunsch.",
+      "우리는 오늘 축하 인사에 관해 이야기한다."
+    ],
+    [
+      "der Grad",
+      "도; 온도 단위",
+      "명",
+      "Heute sind es zwanzig Grad.",
+      "오늘은 기온이 20도다."
+    ],
+    [
+      "gratulieren",
+      "축하하다",
+      "동",
+      "Wir gratulieren unserer Kollegin zur bestandenen Prüfung.",
+      "우리는 동료의 시험 합격을 축하한다."
+    ],
+    [
+      "grillen",
+      "석쇠에 굽다, 바비큐하다",
+      "동",
+      "Am Freitag grillen wir Gemüse auf der Terrasse.",
+      "우리는 금요일에 테라스에서 채소를 구워 먹는다."
+    ],
+    [
+      "groß",
+      "큰, 키가 큰",
+      "형",
+      "Der neue Parkplatz ist größer als der alte.",
+      "새 주차장은 옛 주차장보다 더 크다."
+    ],
+    [
+      "die Größe",
+      "크기, 치수",
+      "명",
+      "Wir sprechen heute über die Größe.",
+      "우리는 오늘 크기에 관해 이야기한다."
+    ],
+    [
+      "die Großeltern",
+      "조부모",
+      "명",
+      "Die Großeltern warten vor dem Eingang.",
+      "조부모는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Großmutter",
+      "할머니",
+      "명",
+      "Die Großmutter wartet vor dem Eingang.",
+      "할머니는 입구 앞에서 기다린다."
+    ],
+    [
+      "der Großvater",
+      "할아버지",
+      "명",
+      "Der Großvater wartet vor dem Eingang.",
+      "할아버지는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Gruppe",
+      "집단, 모임",
+      "명",
+      "Die Gruppe wartet vor dem Eingang.",
+      "집단은 입구 앞에서 기다린다."
+    ],
+    [
+      "der Gruß",
+      "인사",
+      "명",
+      "Wir sprechen heute über den Gruß.",
+      "우리는 오늘 인사에 관해 이야기한다."
+    ],
+    [
+      "gültig",
+      "유효한",
+      "형",
+      "Die Fahrkarte ist nur zusammen mit einem Ausweis gültig.",
+      "이 승차권은 신분증이 있어야만 유효하다."
+    ],
+    [
+      "günstig",
+      "저렴한, 유리한",
+      "형",
+      "Im Herbst sind die Hotelzimmer hier besonders günstig.",
+      "가을에는 이곳 호텔 객실 요금이 특히 저렴하다."
+    ],
+    [
+      "gut",
+      "좋은, 잘",
+      "형/부",
+      "Die neue Lampe gibt gutes Licht zum Lesen.",
+      "새 램프는 책을 읽기에 좋은 빛을 낸다."
+    ],
+    [
+      "das Haar",
+      "머리카락",
+      "명",
+      "Sie zeigt auf ihr Haar.",
+      "그녀는 자신의 머리카락을 가리킨다."
+    ],
+    [
+      "haben",
+      "가지다, ~이 있다",
+      "동",
+      "Wir haben heute Nachmittag einen wichtigen Termin.",
+      "우리에게는 오늘 오후 중요한 약속이 있다."
+    ],
+    [
+      "das Hähnchen",
+      "닭고기, 어린 닭",
+      "명",
+      "Wir kaufen heute das Hähnchen auf dem Markt.",
+      "우리는 오늘 시장에서 닭고기를 산다."
+    ],
+    [
+      "die Halbpension",
+      "하루 두 끼가 포함된 숙박",
+      "명",
+      "Wir sprechen heute über die Halbpension.",
+      "우리는 오늘 하루 두 끼가 포함된 숙박에 관해 이야기한다."
+    ],
+    [
+      "die Halle",
+      "홀, 대형 실내 공간",
+      "명",
+      "Die Halle ist leicht zu finden.",
+      "홀이 찾기 쉽다."
+    ],
+    [
+      "hallo",
+      "안녕, 여보세요",
+      "감",
+      "Hallo, ich bin der neue Nachbar von nebenan.",
+      "안녕하세요. 저는 옆집에 새로 이사 온 이웃입니다."
+    ],
+    [
+      "halten",
+      "멈추다; 잡다, 유지하다",
+      "동",
+      "Der Bus hält direkt vor dem neuen Einkaufszentrum.",
+      "버스는 새 쇼핑센터 바로 앞에 정차한다."
+    ],
+    [
+      "die Haltestelle",
+      "버스·전차 정류장",
+      "명",
+      "Die Haltestelle ist leicht zu finden.",
+      "버스·전차 정류장이 찾기 쉽다."
+    ],
+    [
+      "die Hand",
+      "손",
+      "명",
+      "Sie zeigt auf ihre Hand.",
+      "그녀는 자신의 손을 가리킨다."
+    ],
+    [
+      "das Handy",
+      "휴대전화",
+      "명",
+      "Das Handy funktioniert jetzt wieder.",
+      "휴대전화가 이제 다시 작동한다."
+    ],
+    [
+      "das Haus",
+      "집",
+      "명",
+      "Das Haus ist leicht zu finden.",
+      "집이 찾기 쉽다."
+    ],
+    [
+      "die Hausaufgabe",
+      "숙제",
+      "명",
+      "Bitte lesen Sie die Hausaufgabe noch einmal.",
+      "숙제를 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Hausfrau",
+      "주부 여성",
+      "명",
+      "Die Hausfrau wartet vor dem Eingang.",
+      "주부 여성은 입구 앞에서 기다린다."
+    ],
+    [
+      "der Hausmann",
+      "가사를 맡는 남성",
+      "명",
+      "Der Hausmann wartet vor dem Eingang.",
+      "가사를 맡는 남성은 입구 앞에서 기다린다."
+    ],
+    [
+      "die Heimat",
+      "고향",
+      "명",
+      "Wir sprechen heute über die Heimat.",
+      "우리는 오늘 고향에 관해 이야기한다."
+    ],
+    [
+      "heiraten",
+      "결혼하다",
+      "동",
+      "Die beiden möchten im kleinen Kreis heiraten.",
+      "두 사람은 가까운 사람들만 모시고 결혼하고 싶어 한다."
+    ],
+    [
+      "heißen",
+      "이름이 ~이다, 의미하다",
+      "동",
+      "Wie heißt die Straße hinter dem Rathaus?",
+      "시청 뒤에 있는 거리의 이름은 무엇인가요?"
+    ],
+    [
+      "helfen",
+      "돕다",
+      "동",
+      "Kannst du mir beim Tragen des Koffers helfen?",
+      "여행 가방을 나르는 것을 도와줄 수 있니?"
+    ],
+    [
+      "hell",
+      "밝은, 색이 옅은",
+      "형",
+      "Das Zimmer bleibt auch am Nachmittag angenehm hell.",
+      "그 방은 오후에도 기분 좋게 밝다."
+    ],
+    [
+      "der Herd",
+      "조리용 레인지",
+      "명",
+      "Der Herd funktioniert jetzt wieder.",
+      "조리용 레인지가 이제 다시 작동한다."
+    ],
+    [
+      "der Herr",
+      "신사, 남자분",
+      "명",
+      "Der Herr wartet vor dem Eingang.",
+      "신사는 입구 앞에서 기다린다."
+    ],
+    [
+      "herzlich",
+      "진심 어린, 따뜻하게",
+      "형/부",
+      "Die Gastgeber begrüßen alle Besucher herzlich.",
+      "주최자들은 모든 방문객을 따뜻하게 맞이한다."
+    ],
+    [
+      "heute",
+      "오늘",
+      "부",
+      "Heute endet die Ausstellung schon um vier Uhr.",
+      "오늘 전시회는 네 시에 일찍 끝난다."
+    ],
+    [
+      "hier",
+      "여기에, 이곳에서",
+      "부",
+      "Hier können Sie Ihre Jacke aufhängen.",
+      "여기에 외투를 걸어 두셔도 됩니다."
+    ],
+    [
+      "die Hilfe",
+      "도움",
+      "명",
+      "Vielen Dank für Ihre schnelle Hilfe.",
+      "신속한 도움에 감사드립니다."
+    ],
+    [
+      "hinten",
+      "뒤에, 뒤쪽에",
+      "부",
+      "Die Toiletten sind hinten links neben der Treppe.",
+      "화장실은 뒤쪽 왼편 계단 옆에 있다."
+    ],
+    [
+      "das Hobby",
+      "취미",
+      "명",
+      "Wir sprechen heute über das Hobby.",
+      "우리는 오늘 취미에 관해 이야기한다."
+    ],
+    [
+      "hoch",
+      "높은",
+      "형",
+      "Die Miete ist für eine so kleine Wohnung ziemlich hoch.",
+      "이렇게 작은 집치고는 임대료가 꽤 높다."
+    ],
+    [
+      "die Hochzeit",
+      "결혼식",
+      "명",
+      "Die Hochzeit beginnt morgen um neun.",
+      "결혼식은 내일 아홉 시에 시작한다."
+    ],
+    [
+      "holen",
+      "가서 가져오다, 데려오다",
+      "동",
+      "Ich hole schnell einen Stuhl aus dem Nachbarzimmer.",
+      "나는 옆방에서 의자를 얼른 가져온다."
+    ],
+    [
+      "hören",
+      "듣다",
+      "동",
+      "Wir hören morgens die Nachrichten im Radio.",
+      "우리는 아침에 라디오로 뉴스를 듣는다."
+    ],
+    [
+      "das Hotel",
+      "호텔",
+      "명",
+      "Das Hotel ist leicht zu finden.",
+      "호텔이 찾기 쉽다."
+    ],
+    [
+      "der Hund",
+      "개",
+      "명",
+      "Das Kind beobachtet den Hund aus der Nähe.",
+      "아이는 가까이에서 개를 관찰한다."
+    ],
+    [
+      "der Hunger",
+      "배고픔; 허기",
+      "명",
+      "Nach der Wanderung habe ich großen Hunger.",
+      "도보 여행 후에 나는 몹시 배가 고프다."
+    ],
+    [
+      "ich",
+      "나, 내가",
+      "대",
+      "Ich beginne nächste Woche mit meiner Ausbildung.",
+      "나는 다음 주에 직업 교육을 시작한다."
+    ],
+    [
+      "ihr / Ihr",
+      "너희; 그녀에게; 그녀의·그들의, 대문자는 존칭의 소유형",
+      "대/관",
+      "Habt ihr morgen Zeit für einen kurzen Spaziergang?",
+      "너희는 내일 잠깐 산책할 시간이 있니?"
+    ],
+    [
+      "ihm",
+      "그에게, 그것에게",
+      "대",
+      "Bitte geben Sie ihm die Unterlagen nach dem Gespräch.",
+      "대화가 끝난 뒤 그에게 서류를 주세요."
+    ],
+    [
+      "ihn",
+      "그를, 그것을",
+      "대",
+      "Ich treffe ihn jeden Freitag im Sprachkurs.",
+      "나는 매주 금요일 언어 강좌에서 그를 만난다."
+    ],
+    [
+      "immer",
+      "항상, 언제나",
+      "부",
+      "Der letzte Zug ist immer sehr voll.",
+      "마지막 기차는 항상 매우 붐빈다."
+    ],
+    [
+      "in",
+      "~안에, ~으로",
+      "전",
+      "Die Schlüssel liegen in der oberen Schublade.",
+      "열쇠는 위쪽 서랍 안에 있다."
+    ],
+    [
+      "die Information",
+      "정보",
+      "명",
+      "Bitte lesen Sie die Information noch einmal.",
+      "정보를 한 번 더 읽어 주세요."
+    ],
+    [
+      "international",
+      "국제적인",
+      "형",
+      "An der Universität gibt es ein internationales Filmfestival.",
+      "그 대학에서는 국제 영화제가 열린다."
+    ],
+    [
+      "das Internet",
+      "인터넷",
+      "명",
+      "Wir sprechen heute über das Internet.",
+      "우리는 오늘 인터넷에 관해 이야기한다."
+    ],
+    [
+      "ja",
+      "네, 그렇다; 이미 알듯이",
+      "감/부",
+      "Ja, ich kann den Termin am Donnerstag wahrnehmen.",
+      "네, 목요일 약속에 참석할 수 있습니다."
+    ],
+    [
+      "die Jacke",
+      "재킷",
+      "명",
+      "Die Jacke passt mir gut.",
+      "재킷이 나에게 잘 맞는다."
+    ],
+    [
+      "jed-",
+      "각각의, 모든, 어미가 변하는 어간",
+      "관/대",
+      "Jeder Teilnehmer bekommt am Ende eine Bescheinigung.",
+      "각 참가자는 마지막에 확인서를 받는다."
+    ],
+    [
+      "jetzt",
+      "지금, 이제",
+      "부",
+      "Jetzt können wir mit der Besprechung anfangen.",
+      "이제 회의를 시작할 수 있다."
+    ],
+    [
+      "der Job",
+      "일자리",
+      "명",
+      "Wir sprechen heute über den Job.",
+      "우리는 오늘 일자리에 관해 이야기한다."
+    ],
+    [
+      "der Jugendliche",
+      "청소년 남자",
+      "명",
+      "Der Jugendliche wartet vor dem Eingang.",
+      "청소년 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "jung",
+      "젊은, 어린",
+      "형",
+      "Der junge Arzt arbeitet seit Mai in unserer Klinik.",
+      "그 젊은 의사는 5월부터 우리 병원에서 일한다."
+    ],
+    [
+      "der Junge",
+      "소년",
+      "명",
+      "Der Junge wartet vor dem Eingang.",
+      "소년은 입구 앞에서 기다린다."
+    ],
+    [
+      "der Kaffee",
+      "커피",
+      "명",
+      "Ich bestelle den Kaffee im Café.",
+      "나는 카페에서 커피를 주문한다."
+    ],
+    [
+      "kaputt",
+      "고장 난, 망가진",
+      "형",
+      "Die Kaffeemaschine ist schon wieder kaputt.",
+      "커피 머신이 또 고장 났다."
+    ],
+    [
+      "die Karte",
+      "카드, 지도",
+      "명",
+      "Bitte lesen Sie die Karte noch einmal.",
+      "카드를 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Kreditkarte",
+      "신용카드",
+      "명",
+      "Ich suche die Kreditkarte seit heute Morgen.",
+      "나는 오늘 아침부터 신용카드를 찾고 있다."
+    ],
+    [
+      "die Kartoffel",
+      "감자",
+      "명",
+      "Wir kaufen heute die Kartoffel auf dem Markt.",
+      "우리는 오늘 시장에서 감자를 산다."
+    ],
+    [
+      "die Kasse",
+      "계산대, 금전함",
+      "명",
+      "Ich suche die Kasse seit heute Morgen.",
+      "나는 오늘 아침부터 계산대를 찾고 있다."
+    ],
+    [
+      "kaufen",
+      "사다, 구매하다",
+      "동",
+      "Wir kaufen die Tickets direkt am Schalter.",
+      "우리는 창구에서 표를 직접 산다."
+    ],
+    [
+      "kein",
+      "~이 아닌, 하나도 없는",
+      "관/대",
+      "Heute fährt kein Bus mehr zum Bahnhof.",
+      "오늘은 기차역으로 가는 버스가 더 이상 없다."
+    ],
+    [
+      "kennen",
+      "알다, 알고 지내다",
+      "동",
+      "Ich kenne die neue Lehrerin schon aus einem anderen Kurs.",
+      "나는 다른 강좌에서 새 선생님을 이미 알고 있다."
+    ],
+    [
+      "kennenlernen",
+      "알게 되다, 처음 만나다",
+      "동",
+      "Im Praktikum habe ich viele interessante Menschen kennengelernt.",
+      "나는 실습 중에 흥미로운 사람들을 많이 알게 되었다."
+    ],
+    [
+      "das Kind",
+      "아이",
+      "명",
+      "Das Kind wartet vor dem Eingang.",
+      "아이는 입구 앞에서 기다린다."
+    ],
+    [
+      "der Kindergarten",
+      "유치원",
+      "명",
+      "Der Kindergarten ist leicht zu finden.",
+      "유치원이 찾기 쉽다."
+    ],
+    [
+      "das Kino",
+      "영화관",
+      "명",
+      "Das Kino ist leicht zu finden.",
+      "영화관이 찾기 쉽다."
+    ],
+    [
+      "der Kiosk",
+      "신문·간식 가판점",
+      "명",
+      "Der Kiosk ist leicht zu finden.",
+      "신문·간식 가판점이 찾기 쉽다."
+    ],
+    [
+      "klar",
+      "분명한, 맑은",
+      "형",
+      "Nach der Erklärung ist mir die Aufgabe klar.",
+      "설명을 들은 뒤 과제가 분명히 이해된다."
+    ],
+    [
+      "die Klasse",
+      "학급, 등급",
+      "명",
+      "Wir sprechen heute über die Klasse.",
+      "우리는 오늘 학급에 관해 이야기한다."
+    ],
+    [
+      "die Kleidung",
+      "의복",
+      "명",
+      "Die Kleidung passt mir gut.",
+      "의복이 나에게 잘 맞는다."
+    ],
+    [
+      "klein",
+      "작은",
+      "형",
+      "Für die kurze Reise reicht ein kleiner Koffer.",
+      "짧은 여행에는 작은 여행 가방이면 충분하다."
+    ],
+    [
+      "kochen",
+      "요리하다, 끓이다",
+      "동",
+      "Heute kochen wir eine Suppe mit frischem Gemüse.",
+      "오늘 우리는 신선한 채소로 수프를 끓인다."
+    ],
+    [
+      "der Koffer",
+      "여행 가방",
+      "명",
+      "Ich suche den Koffer seit heute Morgen.",
+      "나는 오늘 아침부터 여행 가방을 찾고 있다."
+    ],
+    [
+      "der Kollege",
+      "남자 동료",
+      "명",
+      "Der Kollege wartet vor dem Eingang.",
+      "남자 동료는 입구 앞에서 기다린다."
+    ],
+    [
+      "kommen",
+      "오다",
+      "동",
+      "Meine Freunde kommen morgen mit dem frühen Zug.",
+      "내 친구들은 내일 이른 기차를 타고 온다."
+    ],
+    [
+      "können",
+      "~할 수 있다",
+      "동",
+      "Können Sie mir bitte den Weg zur Post zeigen?",
+      "우체국으로 가는 길을 알려 주실 수 있나요?"
+    ],
+    [
+      "das Konto",
+      "은행 계좌",
+      "명",
+      "Wir prüfen das Konto vor der Besprechung.",
+      "우리는 회의 전에 은행 계좌를 검토한다."
+    ],
+    [
+      "der Kopf",
+      "머리",
+      "명",
+      "Sie zeigt auf ihren Kopf.",
+      "그녀는 자신의 머리를 가리킨다."
+    ],
+    [
+      "kosten",
+      "비용이 들다; 맛보다의 오스트리아 용법",
+      "동",
+      "Der Eintritt kostet für Kinder fünf Euro.",
+      "어린이 입장료는 5유로이다."
+    ],
+    [
+      "krank",
+      "아픈, 병든",
+      "형",
+      "Weil er krank ist, bleibt er heute zu Hause.",
+      "그는 아파서 오늘 집에 머문다."
+    ],
+    [
+      "kriegen",
+      "받다, 얻다, 구어 표현",
+      "동",
+      "Zum Geburtstag kriegt sie ein neues Fahrrad.",
+      "그녀는 생일에 새 자전거를 받는다."
+    ],
+    [
+      "die Küche",
+      "부엌",
+      "명",
+      "Die Küche ist leicht zu finden.",
+      "부엌이 찾기 쉽다."
+    ],
+    [
+      "der Kuchen",
+      "케이크",
+      "명",
+      "Wir kaufen heute den Kuchen auf dem Markt.",
+      "우리는 오늘 시장에서 케이크를 산다."
+    ],
+    [
+      "der Kugelschreiber",
+      "볼펜",
+      "명",
+      "Ich suche den Kugelschreiber seit heute Morgen.",
+      "나는 오늘 아침부터 볼펜을 찾고 있다."
+    ],
+    [
+      "der Kühlschrank",
+      "냉장고",
+      "명",
+      "Der Kühlschrank funktioniert jetzt wieder.",
+      "냉장고가 이제 다시 작동한다."
+    ],
+    [
+      "kulturell",
+      "문화의, 문화적인",
+      "형",
+      "Die Stadt bietet ein vielfältiges kulturelles Programm.",
+      "그 도시는 다양한 문화 프로그램을 제공한다."
+    ],
+    [
+      "kümmern",
+      "돌보다, 신경 쓰다",
+      "동",
+      "Ich kümmere mich am Wochenende um die Pflanzen meiner Nachbarin.",
+      "나는 주말에 이웃의 식물들을 돌본다."
+    ],
+    [
+      "der Kunde",
+      "남자 고객",
+      "명",
+      "Der Kunde wartet vor dem Eingang.",
+      "남자 고객은 입구 앞에서 기다린다."
+    ],
+    [
+      "der Kurs",
+      "강좌, 과정",
+      "명",
+      "Der Kurs beginnt morgen um neun.",
+      "강좌는 내일 아홉 시에 시작한다."
+    ],
+    [
+      "kurz",
+      "짧은, 잠깐",
+      "형/부",
+      "Vor der Abfahrt haben wir noch kurz Zeit.",
+      "출발 전에 우리에게는 아직 잠깐 시간이 있다."
+    ],
+    [
+      "lachen",
+      "웃다",
+      "동",
+      "Über diese lustige Geschichte müssen alle lachen.",
+      "이 재미있는 이야기에 모두가 웃음을 터뜨린다."
+    ],
+    [
+      "der Laden",
+      "가게",
+      "명",
+      "Der Laden ist leicht zu finden.",
+      "가게가 찾기 쉽다."
+    ],
+    [
+      "das Land",
+      "나라, 농촌",
+      "명",
+      "Wir sprechen heute über das Land.",
+      "우리는 오늘 나라에 관해 이야기한다."
+    ],
+    [
+      "lang",
+      "길이가 긴",
+      "형",
+      "Die Schlange vor der Kasse ist heute besonders lang.",
+      "오늘은 계산대 앞의 줄이 특히 길다."
+    ],
+    [
+      "lange",
+      "오랫동안",
+      "부",
+      "Wir haben lange auf die Antwort der Firma gewartet.",
+      "우리는 회사의 답변을 오랫동안 기다렸다."
+    ],
+    [
+      "langsam",
+      "느린, 천천히",
+      "형/부",
+      "Fahren Sie bei diesem Nebel bitte langsam.",
+      "이렇게 안개가 끼었을 때는 천천히 운전해 주세요."
+    ],
+    [
+      "laufen",
+      "달리다, 걷다; 작동하다",
+      "동",
+      "Die Maschine läuft seit dem Morgen ohne Pause.",
+      "그 기계는 아침부터 쉬지 않고 작동하고 있다."
+    ],
+    [
+      "laut",
+      "시끄러운, 큰 소리로",
+      "형/부",
+      "Bitte lesen Sie den ersten Satz laut vor.",
+      "첫 번째 문장을 소리 내어 읽어 주세요."
+    ],
+    [
+      "leben",
+      "살다, 생존하다",
+      "동",
+      "Meine Großeltern leben seit vielen Jahren am Meer.",
+      "우리 조부모님은 오래전부터 바닷가에 사신다."
+    ],
+    [
+      "das Leben",
+      "삶, 생명",
+      "명",
+      "Wir sprechen heute über das Leben.",
+      "우리는 오늘 삶에 관해 이야기한다."
+    ],
+    [
+      "die Lebensmittel",
+      "식료품",
+      "명",
+      "Wir kaufen heute die Lebensmittel auf dem Markt.",
+      "우리는 오늘 시장에서 식료품을 산다."
+    ],
+    [
+      "ledig",
+      "미혼인",
+      "형",
+      "Im Formular steht, dass sie ledig ist.",
+      "서식에는 그녀가 미혼이라고 적혀 있다."
+    ],
+    [
+      "legen",
+      "눕히다, 놓다",
+      "동",
+      "Legen Sie die ausgefüllten Formulare bitte auf meinen Schreibtisch.",
+      "작성한 서식을 제 책상 위에 놓아 주세요."
+    ],
+    [
+      "der Lehrer",
+      "남자 교사",
+      "명",
+      "Der Lehrer wartet vor dem Eingang.",
+      "남자 교사는 입구 앞에서 기다린다."
+    ],
+    [
+      "leicht",
+      "가벼운, 쉬운",
+      "형",
+      "Der neue Koffer ist leicht und hat stabile Rollen.",
+      "새 여행 가방은 가볍고 튼튼한 바퀴가 달려 있다."
+    ],
+    [
+      "leider",
+      "유감스럽게도, 아쉽게도",
+      "부",
+      "Leider können wir den Termin nicht mehr ändern.",
+      "아쉽게도 그 약속 일시는 더 이상 바꿀 수 없다."
+    ],
+    [
+      "leise",
+      "조용한, 작은 소리로",
+      "형/부",
+      "Im Lesesaal sprechen alle sehr leise.",
+      "열람실에서는 모두가 아주 작은 소리로 말한다."
+    ],
+    [
+      "lernen",
+      "배우다, 공부하다",
+      "동",
+      "Jeden Abend lernen wir zehn neue Wörter.",
+      "우리는 매일 저녁 새 단어 열 개를 공부한다."
+    ],
+    [
+      "lesen",
+      "읽다",
+      "동",
+      "Ich lese die Anleitung, bevor ich das Gerät benutze.",
+      "나는 기기를 사용하기 전에 설명서를 읽는다."
+    ],
+    [
+      "letzt-",
+      "마지막의, 지난, 어미가 변하는 어간",
+      "형",
+      "Der letzte Zug fährt heute um halb elf.",
+      "오늘 마지막 기차는 열 시 반에 출발한다."
+    ],
+    [
+      "die Leute",
+      "사람들",
+      "명",
+      "Die Leute warten vor dem Eingang.",
+      "사람들은 입구 앞에서 기다린다."
+    ],
+    [
+      "das Licht",
+      "빛, 조명",
+      "명",
+      "Wir sprechen heute über das Licht.",
+      "우리는 오늘 빛에 관해 이야기한다."
+    ],
+    [
+      "lieb-",
+      "소중한, 친애하는, 어미가 변하는 어간",
+      "형",
+      "Liebe Kolleginnen, morgen beginnt unser gemeinsames Projekt.",
+      "동료 여러분, 내일 우리의 공동 프로젝트가 시작됩니다."
+    ],
+    [
+      "lieben",
+      "사랑하다, 매우 좋아하다",
+      "동",
+      "Sie liebt lange Spaziergänge im herbstlichen Wald.",
+      "그녀는 가을 숲을 길게 산책하는 것을 매우 좋아한다."
+    ],
+    [
+      "lieber",
+      "더 즐겨, 차라리",
+      "부",
+      "Bei Regen fahre ich lieber mit der Straßenbahn.",
+      "비가 오면 나는 차라리 전차를 타고 간다."
+    ],
+    [
+      "Lieblings-",
+      "가장 좋아하는 것을 나타내는 복합어 어간",
+      "형",
+      "Mein Lieblingsbuch liegt immer neben dem Bett.",
+      "내가 가장 좋아하는 책은 항상 침대 옆에 있다."
+    ],
+    [
+      "das Lied",
+      "노래",
+      "명",
+      "Wir sprechen heute über das Lied.",
+      "우리는 오늘 노래에 관해 이야기한다."
+    ],
+    [
+      "liegen",
+      "누워 있다, 놓여 있다",
+      "동",
+      "Die neuen Handtücher liegen im oberen Fach.",
+      "새 수건들은 위쪽 칸에 놓여 있다."
+    ],
+    [
+      "links",
+      "왼쪽에, 왼쪽으로",
+      "부",
+      "Nach der Brücke biegen Sie links ab.",
+      "다리를 지난 뒤 왼쪽으로 도세요."
+    ],
+    [
+      "der Lkw",
+      "화물 트럭",
+      "명",
+      "Auf dem Foto sieht man den Lkw.",
+      "사진에서 화물 트럭을 볼 수 있다."
+    ],
+    [
+      "das Lokal",
+      "음식점, 술집",
+      "명",
+      "Das Lokal ist leicht zu finden.",
+      "음식점이 찾기 쉽다."
+    ],
+    [
+      "die Lösung",
+      "해답, 해결책",
+      "명",
+      "Bitte lesen Sie die Lösung noch einmal.",
+      "해답을 한 번 더 읽어 주세요."
+    ],
+    [
+      "lustig",
+      "재미있는, 명랑한",
+      "형",
+      "Der neue Kollege erzählt oft lustige Geschichten.",
+      "새 동료는 재미있는 이야기를 자주 들려준다."
+    ],
+    [
+      "machen",
+      "하다, 만들다",
+      "동",
+      "Was machen wir nach dem Ende des Kurses?",
+      "강좌가 끝난 뒤 우리는 무엇을 할까?"
+    ],
+    [
+      "das Mädchen",
+      "소녀",
+      "명",
+      "Das Mädchen wartet vor dem Eingang.",
+      "소녀는 입구 앞에서 기다린다."
+    ],
+    [
+      "man",
+      "사람들은, 일반적인 사람을 나타내는 대명사",
+      "대",
+      "Hier kann man auch am Sonntag einkaufen.",
+      "여기에서는 일요일에도 장을 볼 수 있다."
+    ],
+    [
+      "der Mann",
+      "남자, 남편",
+      "명",
+      "Der Mann wartet vor dem Eingang.",
+      "남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "männlich",
+      "남성의, 수컷의",
+      "형",
+      "Im Formular können Sie männlich, weiblich oder divers angeben.",
+      "서식에는 남성, 여성 또는 기타 성별을 기재할 수 있다."
+    ],
+    [
+      "die Maschine",
+      "기계",
+      "명",
+      "Die Maschine funktioniert jetzt wieder.",
+      "기계가 이제 다시 작동한다."
+    ],
+    [
+      "das Meer",
+      "바다",
+      "명",
+      "Auf dem Foto sieht man das Meer.",
+      "사진에서 바다를 볼 수 있다."
+    ],
+    [
+      "mehr",
+      "더 많이, 더 많은",
+      "부/대",
+      "Für diese Aufgabe brauchen wir mehr Zeit.",
+      "이 과제에는 시간이 더 필요하다."
+    ],
+    [
+      "mein",
+      "나의",
+      "관/대",
+      "Mein Bruder arbeitet jetzt in einem anderen Bundesland.",
+      "내 형제는 이제 다른 주에서 일한다."
+    ],
+    [
+      "meist-",
+      "대부분의, 가장 많은, 어미가 변하는 어간",
+      "관/대",
+      "Die meisten Gäste reisen am Sonntag wieder ab.",
+      "대부분의 손님은 일요일에 다시 떠난다."
+    ],
+    [
+      "der Mensch",
+      "사람, 인간",
+      "명",
+      "Der Mensch wartet vor dem Eingang.",
+      "사람은 입구 앞에서 기다린다."
+    ],
+    [
+      "mieten",
+      "빌리다, 임차하다",
+      "동",
+      "Wir möchten für den Umzug einen größeren Wagen mieten.",
+      "우리는 이사를 위해 더 큰 차량을 빌리고 싶다."
+    ],
+    [
+      "die Miete",
+      "임대료",
+      "명",
+      "Wir prüfen die Miete vor der Besprechung.",
+      "우리는 회의 전에 임대료를 검토한다."
+    ],
+    [
+      "die Milch",
+      "우유",
+      "명",
+      "Ich trinke meinen Kaffee mit Milch.",
+      "나는 커피에 우유를 넣어 마신다."
+    ],
+    [
+      "mit",
+      "~와 함께, ~을 가지고",
+      "전",
+      "Sie kommt mit dem Fahrrad zur Arbeit.",
+      "그녀는 자전거를 타고 출근한다."
+    ],
+    [
+      "mitbringen",
+      "가지고 오다, 데리고 오다",
+      "동",
+      "Bringen Sie bitte Ihren Ausweis zum Termin mit.",
+      "약속 장소에 신분증을 가져오세요."
+    ],
+    [
+      "mitkommen",
+      "함께 오다, 따라오다",
+      "동",
+      "Kommst du morgen zur Ausstellung mit?",
+      "내일 전시회에 같이 갈래?"
+    ],
+    [
+      "mitmachen",
+      "참여하다",
+      "동",
+      "Auch Anfänger können beim gemeinsamen Training mitmachen.",
+      "초보자도 단체 훈련에 참여할 수 있다."
+    ],
+    [
+      "mitnehmen",
+      "가지고 가다, 데리고 가다",
+      "동",
+      "Vergiss nicht, eine warme Jacke mitzunehmen.",
+      "따뜻한 재킷을 가져가는 것을 잊지 마세요."
+    ],
+    [
+      "die Mitte",
+      "중앙, 중간",
+      "명",
+      "Wir sprechen heute über die Mitte.",
+      "우리는 오늘 중앙에 관해 이야기한다."
+    ],
+    [
+      "die Möbel",
+      "가구",
+      "명",
+      "Ich suche die Möbel seit heute Morgen.",
+      "나는 오늘 아침부터 가구를 찾고 있다."
+    ],
+    [
+      "möchten",
+      "정중하게 ~하고 싶다",
+      "동",
+      "Ich möchte einen Termin für nächste Woche vereinbaren.",
+      "다음 주로 약속을 잡고 싶습니다."
+    ],
+    [
+      "mögen",
+      "좋아하다",
+      "동",
+      "Meine Tochter mag besonders Geschichten über Tiere.",
+      "내 딸은 동물에 관한 이야기를 특히 좋아한다."
+    ],
+    [
+      "möglich",
+      "가능한",
+      "형",
+      "Eine Besichtigung ist auch am Wochenende möglich.",
+      "주말에도 견학이 가능하다."
+    ],
+    [
+      "der Moment",
+      "순간",
+      "명",
+      "Warten Sie bitte einen Moment.",
+      "잠시 기다려 주세요."
+    ],
+    [
+      "morgen",
+      "내일",
+      "부",
+      "Morgen besprechen wir die Ergebnisse der Umfrage.",
+      "내일 우리는 설문조사 결과를 논의한다."
+    ],
+    [
+      "müde",
+      "피곤한, 졸린",
+      "형",
+      "Nach der langen Zugfahrt waren alle ziemlich müde.",
+      "긴 기차 여행 후 모두가 꽤 피곤했다."
+    ],
+    [
+      "der Mund",
+      "입",
+      "명",
+      "Sie zeigt auf ihren Mund.",
+      "그녀는 자신의 입을 가리킨다."
+    ],
+    [
+      "müssen",
+      "~해야 한다",
+      "동",
+      "Vor dem Beginn müssen wir die Geräte noch einmal prüfen.",
+      "시작하기 전에 우리는 기기를 한 번 더 점검해야 한다."
+    ],
+    [
+      "die Mutter",
+      "어머니",
+      "명",
+      "Die Mutter wartet vor dem Eingang.",
+      "어머니는 입구 앞에서 기다린다."
+    ],
+    [
+      "nach",
+      "~후에, ~로",
+      "전",
+      "Nach dem Unterricht gehen wir zusammen ins Café.",
+      "수업 후 우리는 함께 카페에 간다."
+    ],
+    [
+      "nächst-",
+      "다음의, 가장 가까운, 어미가 변하는 어간",
+      "형",
+      "Die nächste Haltestelle ist direkt vor dem Bahnhof.",
+      "다음 정류장은 기차역 바로 앞에 있다."
+    ],
+    [
+      "der Name",
+      "이름",
+      "명",
+      "Bitte lesen Sie den Namen noch einmal.",
+      "이름을 한 번 더 읽어 주세요."
+    ],
+    [
+      "nehmen",
+      "취하다, 집다, 타다",
+      "동",
+      "Ich nehme heute die frühere Verbindung nach Hause.",
+      "나는 오늘 더 이른 교통편을 타고 집에 간다."
+    ],
+    [
+      "nein",
+      "아니요",
+      "감",
+      "Nein, dieser Platz ist leider schon reserviert.",
+      "아니요. 아쉽게도 이 자리는 이미 예약되었습니다."
+    ],
+    [
+      "neu",
+      "새로운",
+      "형",
+      "Die neue Wohnung ist näher an meiner Arbeitsstelle.",
+      "새 집은 내 직장에 더 가깝다."
+    ],
+    [
+      "nicht",
+      "~하지 않다, 부정하는 말",
+      "부",
+      "Die Bibliothek ist heute nicht geöffnet.",
+      "도서관은 오늘 문을 열지 않는다."
+    ],
+    [
+      "nichts",
+      "아무것도 ~않다",
+      "대",
+      "In der Schublade liegt nichts außer einem alten Schlüssel.",
+      "서랍에는 오래된 열쇠 하나 외에는 아무것도 없다."
+    ],
+    [
+      "nie",
+      "결코 ~않다, 한 번도 ~않다",
+      "부",
+      "Er kommt nie ohne Vorbereitung zur Besprechung.",
+      "그는 준비 없이 회의에 오는 일이 없다."
+    ],
+    [
+      "noch",
+      "아직, 더",
+      "부",
+      "Haben wir noch genug Zeit für einen Kaffee?",
+      "우리에게 아직 커피 한 잔 할 시간이 충분히 있나요?"
+    ],
+    [
+      "normal",
+      "보통의, 정상적인",
+      "형",
+      "Nach der Reparatur läuft der Betrieb wieder normal.",
+      "수리 후 사업장은 다시 정상적으로 운영된다."
+    ],
+    [
+      "die Nummer",
+      "번호",
+      "명",
+      "Bitte lesen Sie die Nummer noch einmal.",
+      "번호를 한 번 더 읽어 주세요."
+    ],
+    [
+      "nur",
+      "단지, 오직",
+      "부",
+      "Dieser Eingang ist nur für die Mitarbeiter geöffnet.",
+      "이 입구는 직원들에게만 개방되어 있다."
+    ],
+    [
+      "oben",
+      "위에, 위쪽에",
+      "부",
+      "Oben auf dem Schrank steht ein alter Koffer.",
+      "장 위에는 오래된 여행 가방이 놓여 있다."
+    ],
+    [
+      "das Obst",
+      "과일",
+      "명",
+      "Wir kaufen heute das Obst auf dem Markt.",
+      "우리는 오늘 시장에서 과일을 산다."
+    ],
+    [
+      "oder",
+      "또는, 아니면",
+      "접",
+      "Möchten Sie am Fenster oder lieber am Gang sitzen?",
+      "창가에 앉으시겠어요, 아니면 통로 쪽이 좋으세요?"
+    ],
+    [
+      "öffnen",
+      "열다",
+      "동",
+      "Die Mitarbeiterin öffnet den Laden jeden Morgen um acht.",
+      "그 직원은 매일 아침 여덟 시에 가게 문을 연다."
+    ],
+    [
+      "geöffnet",
+      "열려 있는, 영업 중인",
+      "형",
+      "Das Museum bleibt im Sommer bis abends geöffnet.",
+      "박물관은 여름에 저녁까지 문을 연다."
+    ],
+    [
+      "oft",
+      "자주",
+      "부",
+      "Im Winter fahren wir oft mit dem Bus.",
+      "겨울에 우리는 버스를 자주 탄다."
+    ],
+    [
+      "ohne",
+      "~없이",
+      "전",
+      "Ohne deine Hilfe wäre die Arbeit viel schwieriger.",
+      "네 도움이 없다면 일이 훨씬 더 어려울 것이다."
+    ],
+    [
+      "das Öl",
+      "기름",
+      "명",
+      "Wir kaufen heute das Öl auf dem Markt.",
+      "우리는 오늘 시장에서 기름을 산다."
+    ],
+    [
+      "die Oma",
+      "할머니",
+      "명",
+      "Die Oma wartet vor dem Eingang.",
+      "할머니는 입구 앞에서 기다린다."
+    ],
+    [
+      "der Opa",
+      "할아버지",
+      "명",
+      "Der Opa wartet vor dem Eingang.",
+      "할아버지는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Ordnung",
+      "질서, 정돈 상태",
+      "명",
+      "Wir sprechen heute über die Ordnung.",
+      "우리는 오늘 질서에 관해 이야기한다."
+    ],
+    [
+      "der Ort",
+      "장소",
+      "명",
+      "Der Ort ist leicht zu finden.",
+      "장소가 찾기 쉽다."
+    ],
+    [
+      "das Papier",
+      "종이",
+      "명",
+      "Ich suche das Papier seit heute Morgen.",
+      "나는 오늘 아침부터 종이를 찾고 있다."
+    ],
+    [
+      "die Papiere",
+      "서류",
+      "명",
+      "Bitte lesen Sie die Papiere noch einmal.",
+      "서류를 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Partner",
+      "남자 동반자, 협력자",
+      "명",
+      "Der Partner wartet vor dem Eingang.",
+      "남자 동반자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Partnerin",
+      "여자 동반자, 협력자",
+      "명",
+      "Die Partnerin wartet vor dem Eingang.",
+      "여자 동반자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Party",
+      "파티",
+      "명",
+      "Die Party beginnt morgen um neun.",
+      "파티는 내일 아홉 시에 시작한다."
+    ],
+    [
+      "der Pass",
+      "여권",
+      "명",
+      "Ich suche den Pass seit heute Morgen.",
+      "나는 오늘 아침부터 여권을 찾고 있다."
+    ],
+    [
+      "die Pause",
+      "휴식 시간",
+      "명",
+      "Die Pause beginnt morgen um neun.",
+      "휴식 시간은 내일 아홉 시에 시작한다."
+    ],
+    [
+      "der Plan",
+      "계획, 도면",
+      "명",
+      "Bitte lesen Sie den Plan noch einmal.",
+      "계획을 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Platz",
+      "광장, 자리",
+      "명",
+      "Der Platz ist leicht zu finden.",
+      "광장이 찾기 쉽다."
+    ],
+    [
+      "die Polizei",
+      "경찰 조직",
+      "명",
+      "Wir sprechen heute über die Polizei.",
+      "우리는 오늘 경찰 조직에 관해 이야기한다."
+    ],
+    [
+      "die Pommes frites",
+      "감자튀김",
+      "명",
+      "Wir kaufen heute die Pommes frites auf dem Markt.",
+      "우리는 오늘 시장에서 감자튀김을 산다."
+    ],
+    [
+      "die Post",
+      "우편, 우체국",
+      "명",
+      "Wir sprechen heute über die Post.",
+      "우리는 오늘 우편에 관해 이야기한다."
+    ],
+    [
+      "die Postleitzahl",
+      "우편번호",
+      "명",
+      "Bitte lesen Sie die Postleitzahl noch einmal.",
+      "우편번호를 한 번 더 읽어 주세요."
+    ],
+    [
+      "das Praktikum",
+      "실습; 인턴 근무",
+      "명",
+      "Im Sommer mache ich ein Praktikum im Museum.",
+      "나는 여름에 박물관에서 실습한다."
+    ],
+    [
+      "die Praxis",
+      "진료소; 실무",
+      "명",
+      "Die Praxis ist leicht zu finden.",
+      "진료소가 찾기 쉽다."
+    ],
+    [
+      "der Preis",
+      "가격; 상",
+      "명",
+      "Wir prüfen den Preis vor der Besprechung.",
+      "우리는 회의 전에 가격을 검토한다."
+    ],
+    [
+      "das Problem",
+      "문제",
+      "명",
+      "Wir sprechen heute über das Problem.",
+      "우리는 오늘 문제에 관해 이야기한다."
+    ],
+    [
+      "der Prospekt",
+      "안내 책자",
+      "명",
+      "Bitte lesen Sie den Prospekt noch einmal.",
+      "안내 책자를 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Prüfung",
+      "시험",
+      "명",
+      "Die Prüfung beginnt morgen um neun.",
+      "시험은 내일 아홉 시에 시작한다."
+    ],
+    [
+      "pünktlich",
+      "시간을 잘 지키는, 정각에",
+      "형/부",
+      "Bitte seien Sie fünf Minuten vor Beginn pünktlich da.",
+      "시작 5분 전까지 시간을 맞추어 와 주세요."
+    ],
+    [
+      "Rad fahren",
+      "자전거를 타다",
+      "동",
+      "Am Wochenende fahren wir gern am Fluss Rad.",
+      "주말에 우리는 강변에서 자전거를 즐겨 탄다."
+    ],
+    [
+      "rauchen",
+      "담배를 피우다",
+      "동",
+      "Auf diesem Bahnsteig darf man nicht rauchen.",
+      "이 승강장에서는 담배를 피우면 안 된다."
+    ],
+    [
+      "der Raum",
+      "방, 공간",
+      "명",
+      "Der Raum ist leicht zu finden.",
+      "방이 찾기 쉽다."
+    ],
+    [
+      "die Rechnung",
+      "청구서, 계산서",
+      "명",
+      "Wir prüfen die Rechnung vor der Besprechung.",
+      "우리는 회의 전에 청구서를 검토한다."
+    ],
+    [
+      "rechts",
+      "오른쪽에, 오른쪽으로",
+      "부",
+      "Der Eingang befindet sich rechts neben der Apotheke.",
+      "입구는 약국 오른쪽 옆에 있다."
+    ],
+    [
+      "regnen",
+      "비가 오다",
+      "동",
+      "Seit gestern Abend regnet es ohne Pause.",
+      "어제 저녁부터 쉬지 않고 비가 온다."
+    ],
+    [
+      "der Regen",
+      "비",
+      "명",
+      "Auf dem Foto sieht man den Regen.",
+      "사진에서 비를 볼 수 있다."
+    ],
+    [
+      "der Reis",
+      "쌀, 밥",
+      "명",
+      "Wir kaufen heute den Reis auf dem Markt.",
+      "우리는 오늘 시장에서 쌀을 산다."
+    ],
+    [
+      "reisen",
+      "여행하다",
+      "동",
+      "Sie reist beruflich oft in andere europäische Länder.",
+      "그녀는 업무로 다른 유럽 나라들을 자주 방문한다."
+    ],
+    [
+      "die Reise",
+      "여행",
+      "명",
+      "Wir sprechen heute über die Reise.",
+      "우리는 오늘 여행에 관해 이야기한다."
+    ],
+    [
+      "das Reisebüro",
+      "여행사",
+      "명",
+      "Das Reisebüro ist leicht zu finden.",
+      "여행사가 찾기 쉽다."
+    ],
+    [
+      "der Reiseführer",
+      "여행 안내서; 남자 관광 안내원",
+      "명",
+      "Bitte lesen Sie den Reiseführer noch einmal.",
+      "여행 안내서를 한 번 더 읽어 주세요."
+    ],
+    [
+      "reparieren",
+      "수리하다",
+      "동",
+      "Die Werkstatt repariert mein Fahrrad bis Freitag.",
+      "수리점은 금요일까지 내 자전거를 고쳐 준다."
+    ],
+    [
+      "die Reparatur",
+      "수리",
+      "명",
+      "Wir sprechen heute über die Reparatur.",
+      "우리는 오늘 수리에 관해 이야기한다."
+    ],
+    [
+      "das Restaurant",
+      "식당",
+      "명",
+      "Das Restaurant ist leicht zu finden.",
+      "식당이 찾기 쉽다."
+    ],
+    [
+      "die Rezeption",
+      "접수대, 프런트",
+      "명",
+      "Die Rezeption ist leicht zu finden.",
+      "접수대가 찾기 쉽다."
+    ],
+    [
+      "richtig",
+      "맞는, 올바른",
+      "형/부",
+      "Prüfen Sie bitte, ob die Adresse richtig ist.",
+      "주소가 정확한지 확인해 주세요."
+    ],
+    [
+      "riechen",
+      "냄새가 나다, 냄새를 맡다",
+      "동",
+      "In der Küche riecht es nach frisch gebackenem Brot.",
+      "부엌에서 갓 구운 빵 냄새가 난다."
+    ],
+    [
+      "ruhig",
+      "조용한, 평온한",
+      "형",
+      "Das Zimmer zum Innenhof ist besonders ruhig.",
+      "안뜰을 향한 객실은 특히 조용하다."
+    ],
+    [
+      "der Saft",
+      "주스, 즙",
+      "명",
+      "Ich bestelle den Saft im Café.",
+      "나는 카페에서 주스를 주문한다."
+    ],
+    [
+      "sagen",
+      "말하다",
+      "동",
+      "Sagen Sie mir bitte, wann Sie wieder erreichbar sind.",
+      "다시 연락할 수 있는 시간을 알려 주세요."
+    ],
+    [
+      "der Salat",
+      "샐러드",
+      "명",
+      "Wir kaufen heute den Salat auf dem Markt.",
+      "우리는 오늘 시장에서 샐러드를 산다."
+    ],
+    [
+      "das Salz",
+      "소금",
+      "명",
+      "Wir kaufen heute das Salz auf dem Markt.",
+      "우리는 오늘 시장에서 소금을 산다."
+    ],
+    [
+      "der Satz",
+      "문장; 한 벌",
+      "명",
+      "Bitte lesen Sie den Satz noch einmal.",
+      "문장을 한 번 더 읽어 주세요."
+    ],
+    [
+      "die S-Bahn",
+      "도시 근교 전철",
+      "명",
+      "Auf dem Foto sieht man die S-Bahn.",
+      "사진에서 도시 근교 전철을 볼 수 있다."
+    ],
+    [
+      "der Schalter",
+      "창구; 스위치",
+      "명",
+      "Wir sprechen heute über den Schalter.",
+      "우리는 오늘 창구에 관해 이야기한다."
+    ],
+    [
+      "scheinen",
+      "빛나다; ~인 것 같다",
+      "동",
+      "Heute scheint endlich wieder die Sonne.",
+      "오늘은 마침내 다시 햇빛이 난다."
+    ],
+    [
+      "schicken",
+      "보내다",
+      "동",
+      "Schicken Sie die Unterlagen bitte bis Mittwoch per E-Mail.",
+      "수요일까지 서류를 이메일로 보내 주세요."
+    ],
+    [
+      "das Schild",
+      "표지판",
+      "명",
+      "Bitte lesen Sie das Schild noch einmal.",
+      "표지판을 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Schinken",
+      "햄",
+      "명",
+      "Wir kaufen heute den Schinken auf dem Markt.",
+      "우리는 오늘 시장에서 햄을 산다."
+    ],
+    [
+      "schlafen",
+      "자다",
+      "동",
+      "Nach der langen Reise hat sie zwölf Stunden geschlafen.",
+      "긴 여행 후 그녀는 열두 시간 동안 잤다."
+    ],
+    [
+      "schlecht",
+      "나쁜, 좋지 않게",
+      "형/부",
+      "Bei schlechtem Wetter findet das Training in der Halle statt.",
+      "날씨가 나쁘면 훈련은 실내에서 열린다."
+    ],
+    [
+      "schließen",
+      "닫다, 잠그다",
+      "동",
+      "Bitte schließen Sie alle Fenster, bevor Sie das Büro verlassen.",
+      "사무실을 나가기 전에 모든 창문을 닫아 주세요."
+    ],
+    [
+      "geschlossen",
+      "닫힌, 영업하지 않는",
+      "형",
+      "Die Werkstatt bleibt wegen eines Umzugs zwei Tage geschlossen.",
+      "수리점은 이사 때문에 이틀 동안 문을 닫는다."
+    ],
+    [
+      "der Schluss",
+      "끝, 결말",
+      "명",
+      "Wir sprechen heute über den Schluss.",
+      "우리는 오늘 끝에 관해 이야기한다."
+    ],
+    [
+      "der Schlüssel",
+      "열쇠",
+      "명",
+      "Hast du den Schlüssel für die Haustür?",
+      "너는 현관문 열쇠를 가지고 있니?"
+    ],
+    [
+      "schmecken",
+      "맛이 ~하다, 맛이 좋다",
+      "동",
+      "Die Suppe schmeckt heute etwas salziger als sonst.",
+      "오늘 수프는 평소보다 조금 더 짜다."
+    ],
+    [
+      "schnell",
+      "빠른, 빨리",
+      "형/부",
+      "Mit der U-Bahn sind wir schneller am Flughafen.",
+      "지하철을 타면 공항에 더 빨리 도착한다."
+    ],
+    [
+      "schon",
+      "이미, 벌써",
+      "부",
+      "Die letzten Gäste sind schon vor einer Stunde abgereist.",
+      "마지막 손님들은 벌써 한 시간 전에 떠났다."
+    ],
+    [
+      "schön",
+      "아름다운, 좋은",
+      "형",
+      "Vom Balkon hat man einen schönen Blick auf den See.",
+      "발코니에서는 호수의 아름다운 경치를 볼 수 있다."
+    ],
+    [
+      "der Schrank",
+      "장, 수납장",
+      "명",
+      "Ich suche den Schrank seit heute Morgen.",
+      "나는 오늘 아침부터 장을 찾고 있다."
+    ],
+    [
+      "schreiben",
+      "쓰다",
+      "동",
+      "Bitte schreiben Sie Ihren Namen in Druckbuchstaben.",
+      "이름을 정자체로 써 주세요."
+    ],
+    [
+      "der Schuh",
+      "신발",
+      "명",
+      "Der Schuh passt mir gut.",
+      "신발이 나에게 잘 맞는다."
+    ],
+    [
+      "die Schule",
+      "학교",
+      "명",
+      "Die Schule ist leicht zu finden.",
+      "학교가 찾기 쉽다."
+    ],
+    [
+      "der Schüler",
+      "남학생",
+      "명",
+      "Der Schüler wartet vor dem Eingang.",
+      "남학생은 입구 앞에서 기다린다."
+    ],
+    [
+      "schwer",
+      "무거운, 어려운",
+      "형",
+      "Der Koffer ist zu schwer für das kleine Regal.",
+      "그 여행 가방은 작은 선반에 놓기에는 너무 무겁다."
+    ],
+    [
+      "die Schwester",
+      "자매, 여자 형제",
+      "명",
+      "Die Schwester wartet vor dem Eingang.",
+      "자매는 입구 앞에서 기다린다."
+    ],
+    [
+      "schwimmen",
+      "수영하다",
+      "동",
+      "Im Sommer schwimmen wir oft vor dem Frühstück.",
+      "여름에는 아침을 먹기 전에 수영을 자주 한다."
+    ],
+    [
+      "das Schwimmbad",
+      "수영장",
+      "명",
+      "Das Schwimmbad ist leicht zu finden.",
+      "수영장이 찾기 쉽다."
+    ],
+    [
+      "der See",
+      "호수",
+      "명",
+      "Auf dem Foto sieht man den See.",
+      "사진에서 호수를 볼 수 있다."
+    ],
+    [
+      "sehen",
+      "보다",
+      "동",
+      "Vom Fenster aus sehen wir den ganzen Marktplatz.",
+      "창문에서는 시장 광장 전체가 보인다."
+    ],
+    [
+      "die Sehenswürdigkeit",
+      "관광 명소",
+      "명",
+      "Die Sehenswürdigkeit ist leicht zu finden.",
+      "관광 명소가 찾기 쉽다."
+    ],
+    [
+      "sehr",
+      "매우, 아주",
+      "부",
+      "Die neue Lehrerin erklärt die Grammatik sehr verständlich.",
+      "새 선생님은 문법을 아주 알기 쉽게 설명한다."
+    ],
+    [
+      "sein",
+      "~이다, ~에 있다",
+      "동",
+      "Die Besprechung ist morgen im großen Saal.",
+      "회의는 내일 큰 홀에서 열린다."
+    ],
+    [
+      "weg sein",
+      "가고 없다, 없어지다",
+      "동",
+      "Mein Schlüssel ist weg, obwohl ich ihn eben noch hatte.",
+      "방금까지 가지고 있던 열쇠가 없어졌다."
+    ],
+    [
+      "zu sein",
+      "닫혀 있다, 구어 표현",
+      "동",
+      "Die Post ist samstags ab zwölf Uhr zu.",
+      "우체국은 토요일 열두 시부터 문을 닫는다."
+    ],
+    [
+      "seit",
+      "~이래로, ~동안 계속",
+      "전/접",
+      "Seit dem Umzug fahre ich mit dem Fahrrad zur Arbeit.",
+      "이사한 뒤로 나는 자전거로 출근한다."
+    ],
+    [
+      "selbstständig",
+      "독립적인, 자영업을 하는",
+      "형/부",
+      "Nach einigen Berufsjahren möchte sie sich selbstständig machen.",
+      "몇 년간 직장 경험을 쌓은 뒤 그녀는 독립해 사업을 하고 싶어 한다."
+    ],
+    [
+      "sich",
+      "자기 자신을, 자기 자신에게",
+      "대",
+      "Bitte setzen Sie sich auf den freien Stuhl.",
+      "빈 의자에 앉아 주세요."
+    ],
+    [
+      "sie / Sie",
+      "그녀, 그들; 대문자는 당신의 존칭",
+      "대",
+      "Können Sie mir bitte Ihren Namen nennen?",
+      "성함을 알려 주시겠어요?"
+    ],
+    [
+      "sitzen",
+      "앉아 있다",
+      "동",
+      "Am Fenster sitzen zwei Gäste und lesen die Zeitung.",
+      "창가에 손님 두 명이 앉아 신문을 읽는다."
+    ],
+    [
+      "so",
+      "그렇게, 이처럼",
+      "부",
+      "So einfach ist die Aufgabe leider nicht.",
+      "아쉽게도 그 과제는 그렇게 간단하지 않다."
+    ],
+    [
+      "das Sofa",
+      "소파",
+      "명",
+      "Ich suche das Sofa seit heute Morgen.",
+      "나는 오늘 아침부터 소파를 찾고 있다."
+    ],
+    [
+      "sofort",
+      "즉시, 바로",
+      "부",
+      "Bitte melden Sie sich sofort an der Rezeption.",
+      "즉시 접수대로 와서 알려 주세요."
+    ],
+    [
+      "der Sohn",
+      "아들",
+      "명",
+      "Der Sohn wartet vor dem Eingang.",
+      "아들은 입구 앞에서 기다린다."
+    ],
+    [
+      "sollen",
+      "~해야 한다, ~하라고 하다",
+      "동",
+      "Der Arzt sagt, ich soll mich ein paar Tage ausruhen.",
+      "의사는 내가 며칠 쉬어야 한다고 말한다."
+    ],
+    [
+      "die Sonne",
+      "태양, 햇빛",
+      "명",
+      "Auf dem Foto sieht man die Sonne.",
+      "사진에서 태양을 볼 수 있다."
+    ],
+    [
+      "spät",
+      "늦은, 늦게",
+      "형/부",
+      "Wegen des Staus kommen wir heute etwas spät an.",
+      "교통 체증 때문에 우리는 오늘 조금 늦게 도착한다."
+    ],
+    [
+      "später",
+      "나중에, 더 늦게",
+      "부",
+      "Ich rufe dich später nach meiner Besprechung zurück.",
+      "회의가 끝난 뒤 나중에 다시 전화할게."
+    ],
+    [
+      "die Speisekarte",
+      "메뉴판",
+      "명",
+      "Bitte lesen Sie die Speisekarte noch einmal.",
+      "메뉴판을 한 번 더 읽어 주세요."
+    ],
+    [
+      "spielen",
+      "놀다, 경기하다, 연주하다",
+      "동",
+      "Die Kinder spielen im Hof mit einem neuen Ball.",
+      "아이들은 마당에서 새 공을 가지고 논다."
+    ],
+    [
+      "der Sport",
+      "스포츠, 운동",
+      "명",
+      "Wir sprechen heute über den Sport.",
+      "우리는 오늘 스포츠에 관해 이야기한다."
+    ],
+    [
+      "die Sprache",
+      "언어",
+      "명",
+      "Wir sprechen heute über die Sprache.",
+      "우리는 오늘 언어에 관해 이야기한다."
+    ],
+    [
+      "sprechen",
+      "말하다, 대화하다",
+      "동",
+      "Nach dem Vortrag können Sie mit der Referentin sprechen.",
+      "강연 후에 연사와 이야기하실 수 있습니다."
+    ],
+    [
+      "die Stadt",
+      "도시",
+      "명",
+      "Die Stadt ist leicht zu finden.",
+      "도시가 찾기 쉽다."
+    ],
+    [
+      "stehen",
+      "서 있다, 놓여 있다",
+      "동",
+      "Vor dem Eingang steht ein Schild mit den Öffnungszeiten.",
+      "입구 앞에 영업시간이 적힌 표지판이 서 있다."
+    ],
+    [
+      "die Stelle",
+      "장소, 일자리",
+      "명",
+      "Wir sprechen heute über die Stelle.",
+      "우리는 오늘 장소에 관해 이야기한다."
+    ],
+    [
+      "stellen",
+      "세우다, 놓다",
+      "동",
+      "Stellen Sie die leeren Gläser bitte auf das Tablett.",
+      "빈 유리잔들을 쟁반 위에 놓아 주세요."
+    ],
+    [
+      "der Stock",
+      "층; 막대기",
+      "명",
+      "Wir sprechen heute über den Stock.",
+      "우리는 오늘 층에 관해 이야기한다."
+    ],
+    [
+      "die Straße",
+      "거리, 도로",
+      "명",
+      "Die Straße ist leicht zu finden.",
+      "거리가 찾기 쉽다."
+    ],
+    [
+      "die Straßenbahn",
+      "노면전차",
+      "명",
+      "Auf dem Foto sieht man die Straßenbahn.",
+      "사진에서 노면전차를 볼 수 있다."
+    ],
+    [
+      "studieren",
+      "대학에서 공부하다, 전공하다",
+      "동",
+      "Meine Cousine studiert seit Oktober Maschinenbau.",
+      "내 사촌은 10월부터 대학에서 기계공학을 공부한다."
+    ],
+    [
+      "das Studium",
+      "대학 공부, 전공 과정",
+      "명",
+      "Wir sprechen heute über das Studium.",
+      "우리는 오늘 대학 공부에 관해 이야기한다."
+    ],
+    [
+      "der Student",
+      "남자 대학생",
+      "명",
+      "Der Student wartet vor dem Eingang.",
+      "남자 대학생은 입구 앞에서 기다린다."
+    ],
+    [
+      "die Stunde",
+      "한 시간, 수업 시간",
+      "명",
+      "Wir sprechen heute über die Stunde.",
+      "우리는 오늘 한 시간에 관해 이야기한다."
+    ],
+    [
+      "suchen",
+      "찾다",
+      "동",
+      "Wir suchen ein ruhiges Zimmer für zwei Nächte.",
+      "우리는 이틀 밤을 보낼 조용한 객실을 찾고 있다."
+    ],
+    [
+      "tanzen",
+      "춤추다",
+      "동",
+      "Nach dem Essen tanzen die Gäste zu leiser Musik.",
+      "식사 후 손님들은 잔잔한 음악에 맞추어 춤춘다."
+    ],
+    [
+      "die Tasche",
+      "가방, 주머니",
+      "명",
+      "Ich suche die Tasche seit heute Morgen.",
+      "나는 오늘 아침부터 가방을 찾고 있다."
+    ],
+    [
+      "das Taxi",
+      "택시",
+      "명",
+      "Auf dem Foto sieht man das Taxi.",
+      "사진에서 택시를 볼 수 있다."
+    ],
+    [
+      "der Tee",
+      "차",
+      "명",
+      "Ich bestelle den Tee im Café.",
+      "나는 카페에서 차를 주문한다."
+    ],
+    [
+      "der Teil",
+      "부분",
+      "명",
+      "Wir sprechen heute über den Teil.",
+      "우리는 오늘 부분에 관해 이야기한다."
+    ],
+    [
+      "telefonieren",
+      "전화 통화하다",
+      "동",
+      "Im Ruhebereich des Zuges sollte man nicht telefonieren.",
+      "기차의 조용한 객실에서는 전화 통화를 하지 않는 것이 좋다."
+    ],
+    [
+      "das Telefon",
+      "전화기",
+      "명",
+      "Das Telefon funktioniert jetzt wieder.",
+      "전화기가 이제 다시 작동한다."
+    ],
+    [
+      "der Termin",
+      "약속 일시, 일정",
+      "명",
+      "Bitte notieren Sie den Termin im Kalender.",
+      "달력에 약속 일시를 적어 주세요."
+    ],
+    [
+      "der Test",
+      "시험, 검사",
+      "명",
+      "Bitte lesen Sie den Test noch einmal.",
+      "시험을 한 번 더 읽어 주세요."
+    ],
+    [
+      "teuer",
+      "비싼",
+      "형",
+      "Die Reparatur ist teurer als ein neues Gerät.",
+      "수리비가 새 기기보다 더 비싸다."
+    ],
+    [
+      "der Text",
+      "글, 텍스트",
+      "명",
+      "Bitte lesen Sie den Text noch einmal.",
+      "글을 한 번 더 읽어 주세요."
+    ],
+    [
+      "das Thema",
+      "주제",
+      "명",
+      "Wir sprechen heute über das Thema.",
+      "우리는 오늘 주제에 관해 이야기한다."
+    ],
+    [
+      "das Ticket",
+      "표, 티켓",
+      "명",
+      "Ich suche das Ticket seit heute Morgen.",
+      "나는 오늘 아침부터 표를 찾고 있다."
+    ],
+    [
+      "der Tisch",
+      "탁자",
+      "명",
+      "Ich suche den Tisch seit heute Morgen.",
+      "나는 오늘 아침부터 탁자를 찾고 있다."
+    ],
+    [
+      "die Tochter",
+      "딸",
+      "명",
+      "Die Tochter wartet vor dem Eingang.",
+      "딸은 입구 앞에서 기다린다."
+    ],
+    [
+      "die Toilette",
+      "화장실, 변기",
+      "명",
+      "Die Toilette ist leicht zu finden.",
+      "화장실이 찾기 쉽다."
+    ],
+    [
+      "die Tomate",
+      "토마토",
+      "명",
+      "Wir kaufen heute die Tomate auf dem Markt.",
+      "우리는 오늘 시장에서 토마토를 산다."
+    ],
+    [
+      "tot",
+      "죽은",
+      "형",
+      "Der alte Baum vor dem Haus ist leider tot.",
+      "집 앞의 오래된 나무는 안타깝게도 죽었다."
+    ],
+    [
+      "treffen",
+      "만나다; 맞히다",
+      "동",
+      "Wir treffen uns eine halbe Stunde vor Beginn am Eingang.",
+      "시작 30분 전에 입구에서 만나자."
+    ],
+    [
+      "die Treppe",
+      "계단",
+      "명",
+      "Die Treppe ist leicht zu finden.",
+      "계단이 찾기 쉽다."
+    ],
+    [
+      "trinken",
+      "마시다",
+      "동",
+      "Während der Wanderung trinken wir regelmäßig Wasser.",
+      "하이킹 중에 우리는 규칙적으로 물을 마신다."
+    ],
+    [
+      "tschüss",
+      "안녕, 헤어질 때 인사",
+      "감",
+      "Tschüss, wir sehen uns nächste Woche im Kurs.",
+      "안녕. 다음 주 강좌에서 보자."
+    ],
+    [
+      "tun",
+      "하다, 행하다",
+      "동",
+      "Was kann ich tun, um die Datei wiederzufinden?",
+      "파일을 다시 찾으려면 무엇을 할 수 있나요?"
+    ],
+    [
+      "über",
+      "~위에, ~에 대해",
+      "전",
+      "Über dem Schreibtisch hängt eine kleine Lampe.",
+      "책상 위쪽에 작은 등이 달려 있다."
+    ],
+    [
+      "übernachten",
+      "숙박하다, 하룻밤 묵다",
+      "동",
+      "Wir übernachten während der Reise in einer Jugendherberge.",
+      "우리는 여행 중에 유스호스텔에서 묵는다."
+    ],
+    [
+      "überweisen",
+      "송금하다; 다른 진료기관으로 보내다",
+      "동",
+      "Ich überweise die Miete immer am ersten Werktag.",
+      "나는 항상 첫 영업일에 임대료를 송금한다."
+    ],
+    [
+      "die Uhr",
+      "시계",
+      "명",
+      "Ich suche die Uhr seit heute Morgen.",
+      "나는 오늘 아침부터 시계를 찾고 있다."
+    ],
+    [
+      "um",
+      "~둘레에, ~시에, ~만큼",
+      "전",
+      "Wir treffen uns um acht vor dem Haupteingang.",
+      "우리는 여덟 시에 정문 앞에서 만난다."
+    ],
+    [
+      "umziehen",
+      "이사하다; 옷을 갈아입다",
+      "동",
+      "Nächsten Monat ziehen wir in eine größere Wohnung um.",
+      "우리는 다음 달에 더 큰 집으로 이사한다."
+    ],
+    [
+      "und",
+      "그리고, ~와",
+      "접",
+      "Bitte bringen Sie Ihren Pass und ein aktuelles Foto mit.",
+      "여권과 최근 사진을 가져오세요."
+    ],
+    [
+      "unser-",
+      "우리의, 어미가 변하는 어간",
+      "관/대",
+      "Unsere Wohnung liegt direkt neben einer Straßenbahnhaltestelle.",
+      "우리 집은 전차 정류장 바로 옆에 있다."
+    ],
+    [
+      "unten",
+      "아래에, 아래층에",
+      "부",
+      "Unten im Keller stehen noch zwei alte Fahrräder.",
+      "아래층 지하실에 오래된 자전거 두 대가 더 있다."
+    ],
+    [
+      "unter",
+      "~아래에, ~사이에",
+      "전",
+      "Der Hund schläft unter dem großen Tisch.",
+      "개가 큰 탁자 아래에서 자고 있다."
+    ],
+    [
+      "der Unterricht",
+      "수업",
+      "명",
+      "Der Unterricht beginnt morgen um neun.",
+      "수업은 내일 아홉 시에 시작한다."
+    ],
+    [
+      "unterschreiben",
+      "서명하다",
+      "동",
+      "Bitte lesen Sie den Vertrag, bevor Sie ihn unterschreiben.",
+      "계약서에 서명하기 전에 읽어 주세요."
+    ],
+    [
+      "die Unterschrift",
+      "서명",
+      "명",
+      "Bitte lesen Sie die Unterschrift noch einmal.",
+      "서명을 한 번 더 읽어 주세요."
+    ],
+    [
+      "der Urlaub",
+      "휴가",
+      "명",
+      "Wir sprechen heute über den Urlaub.",
+      "우리는 오늘 휴가에 관해 이야기한다."
+    ],
+    [
+      "der Vater",
+      "아버지",
+      "명",
+      "Der Vater wartet vor dem Eingang.",
+      "아버지는 입구 앞에서 기다린다."
+    ],
+    [
+      "verboten",
+      "금지된",
+      "형",
+      "Das Abstellen von Fahrrädern ist vor diesem Ausgang verboten.",
+      "이 출구 앞에는 자전거를 세워 두는 것이 금지되어 있다."
+    ],
+    [
+      "verdienen",
+      "돈을 벌다; 받을 만하다",
+      "동",
+      "Mit ihrer neuen Stelle verdient sie etwas mehr als früher.",
+      "그녀는 새 일자리에서 예전보다 돈을 조금 더 번다."
+    ],
+    [
+      "der Verein",
+      "협회, 동호회",
+      "명",
+      "Wir sprechen heute über den Verein.",
+      "우리는 오늘 협회에 관해 이야기한다."
+    ],
+    [
+      "verheiratet",
+      "결혼한, 기혼인",
+      "형",
+      "Meine Großeltern sind seit fünfzig Jahren verheiratet.",
+      "우리 조부모님은 결혼한 지 50년이 되셨다."
+    ],
+    [
+      "verkaufen",
+      "팔다",
+      "동",
+      "Die Bäckerei verkauft abends die übrigen Brote günstiger.",
+      "빵집은 저녁에 남은 빵들을 더 싸게 판다."
+    ],
+    [
+      "der Verkäufer",
+      "남자 판매원",
+      "명",
+      "Der Verkäufer wartet vor dem Eingang.",
+      "남자 판매원은 입구 앞에서 기다린다."
+    ],
+    [
+      "vermieten",
+      "빌려주다, 임대하다",
+      "동",
+      "Der Besitzer vermietet das kleine Zimmer nur an Studierende.",
+      "주인은 그 작은 방을 대학생에게만 임대한다."
+    ],
+    [
+      "der Vermieter",
+      "남자 임대인",
+      "명",
+      "Der Vermieter wartet vor dem Eingang.",
+      "남자 임대인은 입구 앞에서 기다린다."
+    ],
+    [
+      "verstehen",
+      "이해하다, 서로 뜻이 통하다",
+      "동",
+      "Mit dem Beispiel kann ich die Regel besser verstehen.",
+      "그 예시를 보니 규칙을 더 잘 이해할 수 있다."
+    ],
+    [
+      "der Verwandte",
+      "남자 친척",
+      "명",
+      "Der Verwandte wartet vor dem Eingang.",
+      "남자 친척은 입구 앞에서 기다린다."
+    ],
+    [
+      "viel",
+      "많은, 많이",
+      "대/부",
+      "Auf dem Parkplatz ist heute viel Platz frei.",
+      "오늘 주차장에는 빈 공간이 많이 있다."
+    ],
+    [
+      "vielleicht",
+      "아마도, 어쩌면",
+      "부",
+      "Vielleicht können wir den Termin auf Montag verschieben.",
+      "어쩌면 약속을 월요일로 미룰 수 있다."
+    ],
+    [
+      "von",
+      "~로부터, ~의",
+      "전",
+      "Das Paket ist von meiner Tante aus Berlin.",
+      "그 소포는 베를린에 사는 이모가 보낸 것이다."
+    ],
+    [
+      "vor",
+      "~앞에, ~전에",
+      "전",
+      "Vor dem Essen decken wir zusammen den Tisch.",
+      "식사 전에 우리는 함께 식탁을 차린다."
+    ],
+    [
+      "der Vorname",
+      "이름, 성을 제외한 이름",
+      "명",
+      "Bitte lesen Sie den Vornamen noch einmal.",
+      "이름을 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Vorsicht",
+      "조심, 주의",
+      "명",
+      "Wir sprechen heute über die Vorsicht.",
+      "우리는 오늘 조심에 관해 이야기한다."
+    ],
+    [
+      "vorstellen",
+      "소개하다, 상상하다",
+      "동",
+      "Darf ich Ihnen unsere neue Mitarbeiterin vorstellen?",
+      "새 직원을 소개해 드려도 될까요?"
+    ],
+    [
+      "die Vorwahl",
+      "전화 지역번호",
+      "명",
+      "Bitte lesen Sie die Vorwahl noch einmal.",
+      "전화 지역번호를 한 번 더 읽어 주세요."
+    ],
+    [
+      "wandern",
+      "하이킹하다, 도보 여행하다",
+      "동",
+      "Wir wandern am liebsten auf schmalen Wegen im Wald.",
+      "우리는 숲속의 좁은 길로 하이킹하는 것을 가장 좋아한다."
+    ],
+    [
+      "wann",
+      "언제",
+      "부",
+      "Wann beginnt der nächste Kurs für Anfänger?",
+      "다음 초보자 강좌는 언제 시작하나요?"
+    ],
+    [
+      "warten",
+      "기다리다",
+      "동",
+      "Bitte warten Sie mit dem Auspacken bis morgen.",
+      "포장을 푸는 것은 내일까지 기다려 주세요."
+    ],
+    [
+      "warum",
+      "왜",
+      "부",
+      "Warum fährt der Bus heute einen anderen Weg?",
+      "오늘 버스는 왜 다른 길로 가나요?"
+    ],
+    [
+      "was",
+      "무엇, 무슨",
+      "대",
+      "Was benötigen Sie noch für Ihre Anmeldung?",
+      "등록을 위해 무엇이 더 필요하신가요?"
+    ],
+    [
+      "was für ein",
+      "어떤 종류의",
+      "대",
+      "Was für ein Buch suchst du für deinen Kurs?",
+      "너는 강좌를 위해 어떤 종류의 책을 찾고 있니?"
+    ],
+    [
+      "waschen",
+      "씻다, 세탁하다",
+      "동",
+      "Waschen Sie das Tuch bitte nur mit kaltem Wasser.",
+      "그 천은 찬물로만 세탁해 주세요."
+    ],
+    [
+      "das Wasser",
+      "물",
+      "명",
+      "Ich bestelle das Wasser im Café.",
+      "나는 카페에서 물을 주문한다."
+    ],
+    [
+      "weh tun",
+      "아프다, 통증을 주다",
+      "동",
+      "Nach der Wanderung tun mir die Füße weh.",
+      "하이킹 후 발이 아프다."
+    ],
+    [
+      "weiblich",
+      "여성의, 암컷의",
+      "형",
+      "Das Tier ist weiblich und hat zwei Junge.",
+      "그 동물은 암컷이며 새끼 두 마리가 있다."
+    ],
+    [
+      "der Wein",
+      "포도주",
+      "명",
+      "Ich bestelle den Wein im Café.",
+      "나는 카페에서 포도주를 주문한다."
+    ],
+    [
+      "weit",
+      "먼, 멀리",
+      "형/부",
+      "Vom Hotel ist es nicht weit bis zum Museum.",
+      "호텔에서 박물관까지는 멀지 않다."
+    ],
+    [
+      "weiter",
+      "계속, 더 멀리",
+      "부",
+      "Nach der Pause arbeiten wir gemeinsam weiter.",
+      "쉬는 시간이 끝나면 우리는 계속 함께 일한다."
+    ],
+    [
+      "welch-",
+      "어느, 어떤, 어미가 변하는 어간",
+      "관/대",
+      "Welche Verbindung ist am Wochenende am günstigsten?",
+      "주말에는 어느 교통편이 가장 저렴한가요?"
+    ],
+    [
+      "die Welt",
+      "세계",
+      "명",
+      "Wir sprechen heute über die Welt.",
+      "우리는 오늘 세계에 관해 이야기한다."
+    ],
+    [
+      "wenig",
+      "적은, 조금",
+      "대/부",
+      "Für die Fahrt brauchen wir nur wenig Gepäck.",
+      "그 여정에는 짐이 조금만 필요하다."
+    ],
+    [
+      "wer",
+      "누구, 누가",
+      "대",
+      "Wer übernimmt morgen die Führung durch das Museum?",
+      "내일 누가 박물관 안내를 맡나요?"
+    ],
+    [
+      "werden",
+      "~이 되다; 미래·수동태 조동사",
+      "동",
+      "Im Herbst wird meine Tochter sechs Jahre alt.",
+      "가을이면 내 딸이 여섯 살이 된다."
+    ],
+    [
+      "das Wetter",
+      "날씨",
+      "명",
+      "Bei schönem Wetter sitzen wir draußen.",
+      "날씨가 좋을 때 우리는 밖에 앉는다."
+    ],
+    [
+      "wichtig",
+      "중요한",
+      "형",
+      "Für die Bewerbung ist ein vollständiger Lebenslauf wichtig.",
+      "지원할 때는 빠짐없이 작성한 이력서가 중요하다."
+    ],
+    [
+      "wie",
+      "어떻게, 얼마나; ~처럼",
+      "부/접",
+      "Wie komme ich von hier zur nächsten Apotheke?",
+      "여기서 가장 가까운 약국까지 어떻게 가나요?"
+    ],
+    [
+      "wiederholen",
+      "반복하다, 복습하다",
+      "동",
+      "Am Freitag wiederholen wir die wichtigsten Wörter der Woche.",
+      "금요일에 우리는 그 주의 가장 중요한 단어들을 복습한다."
+    ],
+    [
+      "das Wiederhören",
+      "전화로 다시 이야기함",
+      "명",
+      "Wir sprechen heute über das Wiederhören.",
+      "우리는 오늘 전화로 다시 이야기함에 관해 이야기한다."
+    ],
+    [
+      "das Wiedersehen",
+      "다시 만남, 재회",
+      "명",
+      "Wir sprechen heute über das Wiedersehen.",
+      "우리는 오늘 다시 만남에 관해 이야기한다."
+    ],
+    [
+      "wie viel",
+      "얼마나 많은, 얼마",
+      "대/부",
+      "Wie viel Zeit haben wir bis zur Abfahrt?",
+      "출발할 때까지 시간이 얼마나 있나요?"
+    ],
+    [
+      "willkommen",
+      "환영받는, 어서 오세요",
+      "형/감",
+      "Auch neue Teilnehmer sind in unserer Gruppe willkommen.",
+      "새 참가자들도 우리 모임에서 환영받는다."
+    ],
+    [
+      "der Wind",
+      "바람",
+      "명",
+      "Auf dem Foto sieht man den Wind.",
+      "사진에서 바람을 볼 수 있다."
+    ],
+    [
+      "wir",
+      "우리, 우리가",
+      "대",
+      "Wir bereiten zusammen das Abendessen für die Gäste vor.",
+      "우리는 함께 손님들을 위한 저녁 식사를 준비한다."
+    ],
+    [
+      "wissen",
+      "사실이나 정보를 알다",
+      "동",
+      "Wissen Sie, ob die Bibliothek morgen geöffnet ist?",
+      "내일 도서관이 문을 여는지 아시나요?"
+    ],
+    [
+      "wo",
+      "어디에, 어디에서",
+      "부",
+      "Wo kann ich meine Jacke während der Besichtigung lassen?",
+      "견학 중에 외투를 어디에 두면 되나요?"
+    ],
+    [
+      "woher",
+      "어디에서, 어디 출신",
+      "부",
+      "Woher haben Sie die Information über den neuen Kurs?",
+      "새 강좌에 관한 정보를 어디에서 얻으셨나요?"
+    ],
+    [
+      "wohin",
+      "어디로",
+      "부",
+      "Wohin fährt dieser Zug nach dem nächsten Bahnhof?",
+      "이 기차는 다음 역을 지나면 어디로 가나요?"
+    ],
+    [
+      "wohnen",
+      "살다, 거주하다",
+      "동",
+      "Wir wohnen seit dem Sommer in der Nähe des Parks.",
+      "우리는 여름부터 공원 근처에 살고 있다."
+    ],
+    [
+      "die Wohnung",
+      "아파트; 주거 공간",
+      "명",
+      "Wir suchen eine Wohnung mit Balkon.",
+      "우리는 발코니가 있는 아파트를 찾는다."
+    ],
+    [
+      "wollen",
+      "~하기를 원하다, ~할 생각이다",
+      "동",
+      "Wir wollen im nächsten Jahr einen Intensivkurs besuchen.",
+      "우리는 내년에 집중 강좌를 들을 생각이다."
+    ],
+    [
+      "das Wort",
+      "단어, 말",
+      "명",
+      "Bitte lesen Sie das Wort noch einmal.",
+      "단어를 한 번 더 읽어 주세요."
+    ],
+    [
+      "wunderbar",
+      "멋진, 훌륭한",
+      "형",
+      "Das war ein wunderbarer Abend mit unseren Nachbarn.",
+      "이웃들과 함께한 멋진 저녁이었다."
+    ],
+    [
+      "zahlen",
+      "지불하다",
+      "동",
+      "Den Rest des Betrags zahlen wir nach der Lieferung.",
+      "나머지 금액은 배송 후에 지불한다."
+    ],
+    [
+      "die Zeit",
+      "시간",
+      "명",
+      "Heute habe ich Zeit für einen Spaziergang.",
+      "오늘 나는 산책할 시간이 있다."
+    ],
+    [
+      "zurzeit",
+      "현재, 요즘",
+      "부",
+      "Zurzeit wird die Brücke vor unserem Haus repariert.",
+      "현재 우리 집 앞의 다리를 보수하고 있다."
+    ],
+    [
+      "die Zeitung",
+      "신문",
+      "명",
+      "Bitte lesen Sie die Zeitung noch einmal.",
+      "신문을 한 번 더 읽어 주세요."
+    ],
+    [
+      "die Zigarette",
+      "담배",
+      "명",
+      "Ich suche die Zigarette seit heute Morgen.",
+      "나는 오늘 아침부터 담배를 찾고 있다."
+    ],
+    [
+      "das Zimmer",
+      "방, 객실",
+      "명",
+      "Das Zimmer ist leicht zu finden.",
+      "방이 찾기 쉽다."
+    ],
+    [
+      "der Zoll",
+      "세관, 관세",
+      "명",
+      "Wir sprechen heute über den Zoll.",
+      "우리는 오늘 세관에 관해 이야기한다."
+    ],
+    [
+      "zu",
+      "~로, ~에게; 부정사 표지; 너무",
+      "전/부",
+      "Der Weg zum Bahnhof ist zu weit für einen Spaziergang.",
+      "기차역까지의 길은 산책하기에는 너무 멀다."
+    ],
+    [
+      "zufrieden",
+      "만족한",
+      "형",
+      "Die Gäste waren mit dem neuen Service sehr zufrieden.",
+      "손님들은 새 서비스에 매우 만족했다."
+    ],
+    [
+      "der Zug",
+      "기차",
+      "명",
+      "Auf dem Foto sieht man den Zug.",
+      "사진에서 기차를 볼 수 있다."
+    ],
+    [
+      "zurück",
+      "뒤로, 돌아가서",
+      "부",
+      "Nach dem Essen gehen wir zu Fuß zurück.",
+      "식사 후에 우리는 걸어서 돌아간다."
+    ],
+    [
+      "zusammen",
+      "함께, 같이",
+      "부",
+      "Wir lernen zweimal pro Woche zusammen in der Bibliothek.",
+      "우리는 일주일에 두 번 도서관에서 함께 공부한다."
+    ],
+    [
+      "zwischen",
+      "~사이에",
+      "전",
+      "Die Apotheke liegt zwischen der Post und dem Supermarkt.",
+      "약국은 우체국과 슈퍼마켓 사이에 있다."
+    ],
+    [
+      "halb",
+      "절반의; 반쯤",
+      "형/부",
+      "Ich brauche eine halbe Stunde.",
+      "나는 30분이 필요하다."
+    ],
+    [
+      "das Viertel",
+      "4분의 1; 시내 구역",
+      "명",
+      "Wir sprechen heute über das Viertel.",
+      "우리는 오늘 4분의 1에 관해 이야기한다."
+    ],
+    [
+      "eins",
+      "하나; 일",
+      "수",
+      "Die Antwort ist eins.",
+      "답은 1이다."
+    ],
+    [
+      "zwei",
+      "둘; 이",
+      "수",
+      "Ich nehme zwei Äpfel.",
+      "나는 사과 두 개를 집는다."
+    ],
+    [
+      "drei",
+      "셋; 삼",
+      "수",
+      "Wir bleiben drei Tage.",
+      "우리는 사흘 머문다."
+    ],
+    [
+      "vier",
+      "넷; 사",
+      "수",
+      "Hier stehen vier Stühle.",
+      "여기에 의자가 네 개 있다."
+    ],
+    [
+      "fünf",
+      "다섯; 오",
+      "수",
+      "Ich brauche fünf Minuten.",
+      "나는 5분이 필요하다."
+    ],
+    [
+      "sechs",
+      "여섯; 육",
+      "수",
+      "Der Zug fährt um sechs.",
+      "기차는 여섯 시에 출발한다."
+    ],
+    [
+      "sieben",
+      "일곱; 칠",
+      "수",
+      "Eine Woche hat sieben Tage.",
+      "일주일은 7일이다."
+    ],
+    [
+      "acht",
+      "여덟; 팔",
+      "수",
+      "Wir treffen uns um acht.",
+      "우리는 여덟 시에 만난다."
+    ],
+    [
+      "neun",
+      "아홉; 구",
+      "수",
+      "Der Laden öffnet um neun.",
+      "상점은 아홉 시에 문을 연다."
+    ],
+    [
+      "zehn",
+      "열; 십",
+      "수",
+      "Die Karte kostet zehn Euro.",
+      "표는 10유로다."
+    ],
+    [
+      "elf",
+      "열하나; 십일",
+      "수",
+      "Die Mannschaft hat elf Spieler.",
+      "팀에는 선수가 열한 명 있다."
+    ],
+    [
+      "zwölf",
+      "열둘; 십이",
+      "수",
+      "Das Jahr hat zwölf Monate.",
+      "1년은 열두 달이다."
+    ],
+    [
+      "dreizehn",
+      "열셋; 십삼",
+      "수",
+      "Meine Tochter ist dreizehn Jahre alt.",
+      "내 딸은 열세 살이다."
+    ],
+    [
+      "vierzehn",
+      "열넷; 십사",
+      "수",
+      "Der Kurs beginnt um vierzehn Uhr.",
+      "강좌는 14시에 시작한다."
+    ],
+    [
+      "fünfzehn",
+      "열다섯; 십오",
+      "수",
+      "Die Pause dauert fünfzehn Minuten.",
+      "쉬는 시간은 15분이다."
+    ],
+    [
+      "sechzehn",
+      "열여섯; 십육",
+      "수",
+      "Im Kurs sind sechzehn Personen.",
+      "강좌에는 열여섯 명이 있다."
+    ],
+    [
+      "siebzehn",
+      "열일곱; 십칠",
+      "수",
+      "Der Bus fährt um siebzehn Uhr.",
+      "버스는 17시에 출발한다."
+    ],
+    [
+      "achtzehn",
+      "열여덟; 십팔",
+      "수",
+      "Mit achtzehn wurde sie volljährig.",
+      "그녀는 열여덟 살에 성년이 되었다."
+    ],
+    [
+      "neunzehn",
+      "열아홉; 십구",
+      "수",
+      "Das Buch kostet neunzehn Euro.",
+      "책은 19유로다."
+    ],
+    [
+      "zwanzig",
+      "스물; 이십",
+      "수",
+      "Ich arbeite zwanzig Stunden pro Woche.",
+      "나는 일주일에 스무 시간 일한다."
+    ],
+    [
+      "einundzwanzig",
+      "스물하나; 이십일",
+      "수",
+      "Das Zimmer hat die Nummer einundzwanzig.",
+      "객실 번호는 21번이다."
+    ],
+    [
+      "dreißig",
+      "서른; 삼십",
+      "수",
+      "Die Fahrt dauert dreißig Minuten.",
+      "이동에는 30분이 걸린다."
+    ],
+    [
+      "vierzig",
+      "마흔; 사십",
+      "수",
+      "Das Hemd kostet vierzig Euro.",
+      "셔츠는 40유로다."
+    ],
+    [
+      "fünfzig",
+      "쉰; 오십",
+      "수",
+      "Im Saal stehen fünfzig Stühle.",
+      "홀에는 의자가 쉰 개 있다."
+    ],
+    [
+      "sechzig",
+      "예순; 육십",
+      "수",
+      "Eine Stunde hat sechzig Minuten.",
+      "한 시간은 60분이다."
+    ],
+    [
+      "siebzig",
+      "일흔; 칠십",
+      "수",
+      "Mein Großvater wird siebzig.",
+      "할아버지는 일흔 살이 되신다."
+    ],
+    [
+      "achtzig",
+      "여든; 팔십",
+      "수",
+      "Die Jacke kostet achtzig Euro.",
+      "외투는 80유로다."
+    ],
+    [
+      "neunzig",
+      "아흔; 구십",
+      "수",
+      "Der Film dauert neunzig Minuten.",
+      "영화 상영 시간은 90분이다."
+    ],
+    [
+      "hundert",
+      "백",
+      "수",
+      "Der Saal hat hundert Plätze.",
+      "홀에는 좌석이 100개 있다."
+    ],
+    [
+      "hunderteins",
+      "백일",
+      "수",
+      "Auf der Liste stehen hunderteins Namen.",
+      "목록에는 이름이 101개 있다."
+    ],
+    [
+      "zweihundert",
+      "이백",
+      "수",
+      "Die Reise kostet zweihundert Euro.",
+      "여행 비용은 200유로다."
+    ],
+    [
+      "tausend",
+      "천",
+      "수",
+      "Hier wohnen ungefähr tausend Menschen.",
+      "여기에는 약 천 명이 산다."
+    ],
+    [
+      "die Million",
+      "백만",
+      "명",
+      "Wir sprechen heute über die Million.",
+      "우리는 오늘 백만에 관해 이야기한다."
+    ],
+    [
+      "erste",
+      "첫 번째의",
+      "수/형",
+      "Die erste Aufgabe ist leicht.",
+      "첫 번째 과제는 쉽다."
+    ],
+    [
+      "zweite",
+      "두 번째의",
+      "수/형",
+      "Nehmen Sie die zweite Straße links.",
+      "두 번째 길에서 왼쪽으로 가세요."
+    ],
+    [
+      "dritte",
+      "세 번째의",
+      "수/형",
+      "Das dritte Fenster ist offen.",
+      "세 번째 창문이 열려 있다."
+    ],
+    [
+      "vierte",
+      "네 번째의",
+      "수/형",
+      "Heute ist der vierte Mai.",
+      "오늘은 5월 4일이다."
+    ],
+    [
+      "die Milliarde",
+      "십억",
+      "명",
+      "Wir sprechen heute über die Milliarde.",
+      "우리는 오늘 십억에 관해 이야기한다."
+    ],
+    [
+      "der Tag",
+      "날, 하루",
+      "명",
+      "Bitte notieren Sie den Tag im Kalender.",
+      "달력에 날을 적어 주세요."
+    ],
+    [
+      "der Morgen",
+      "아침",
+      "명",
+      "Bitte notieren Sie den Morgen im Kalender.",
+      "달력에 아침을 적어 주세요."
+    ],
+    [
+      "der Vormittag",
+      "오전",
+      "명",
+      "Bitte notieren Sie den Vormittag im Kalender.",
+      "달력에 오전을 적어 주세요."
+    ],
+    [
+      "der Mittag",
+      "정오, 점심때",
+      "명",
+      "Bitte notieren Sie den Mittag im Kalender.",
+      "달력에 정오를 적어 주세요."
+    ],
+    [
+      "der Nachmittag",
+      "오후",
+      "명",
+      "Bitte notieren Sie den Nachmittag im Kalender.",
+      "달력에 오후를 적어 주세요."
+    ],
+    [
+      "der Abend",
+      "저녁",
+      "명",
+      "Bitte notieren Sie den Abend im Kalender.",
+      "달력에 저녁을 적어 주세요."
+    ],
+    [
+      "die Nacht",
+      "밤",
+      "명",
+      "Bitte notieren Sie die Nacht im Kalender.",
+      "달력에 밤을 적어 주세요."
+    ],
+    [
+      "der Januar",
+      "1월",
+      "명",
+      "Bitte notieren Sie den Januar im Kalender.",
+      "달력에 1월을 적어 주세요."
+    ],
+    [
+      "der Februar",
+      "2월",
+      "명",
+      "Bitte notieren Sie den Februar im Kalender.",
+      "달력에 2월을 적어 주세요."
+    ],
+    [
+      "der März",
+      "3월",
+      "명",
+      "Bitte notieren Sie den März im Kalender.",
+      "달력에 3월을 적어 주세요."
+    ],
+    [
+      "der April",
+      "4월",
+      "명",
+      "Bitte notieren Sie den April im Kalender.",
+      "달력에 4월을 적어 주세요."
+    ],
+    [
+      "der Mai",
+      "5월",
+      "명",
+      "Bitte notieren Sie den Mai im Kalender.",
+      "달력에 5월을 적어 주세요."
+    ],
+    [
+      "der Juni",
+      "6월",
+      "명",
+      "Bitte notieren Sie den Juni im Kalender.",
+      "달력에 6월을 적어 주세요."
+    ],
+    [
+      "der Juli",
+      "7월",
+      "명",
+      "Bitte notieren Sie den Juli im Kalender.",
+      "달력에 7월을 적어 주세요."
+    ],
+    [
+      "der August",
+      "8월",
+      "명",
+      "Bitte notieren Sie den August im Kalender.",
+      "달력에 8월을 적어 주세요."
+    ],
+    [
+      "der September",
+      "9월",
+      "명",
+      "Bitte notieren Sie den September im Kalender.",
+      "달력에 9월을 적어 주세요."
+    ],
+    [
+      "der Oktober",
+      "10월",
+      "명",
+      "Bitte notieren Sie den Oktober im Kalender.",
+      "달력에 10월을 적어 주세요."
+    ],
+    [
+      "der November",
+      "11월",
+      "명",
+      "Bitte notieren Sie den November im Kalender.",
+      "달력에 11월을 적어 주세요."
+    ],
+    [
+      "der Dezember",
+      "12월",
+      "명",
+      "Bitte notieren Sie den Dezember im Kalender.",
+      "달력에 12월을 적어 주세요."
+    ],
+    [
+      "die Sekunde",
+      "초",
+      "명",
+      "Wir sprechen heute über die Sekunde.",
+      "우리는 오늘 초에 관해 이야기한다."
+    ],
+    [
+      "die Minute",
+      "분",
+      "명",
+      "Wir sprechen heute über die Minute.",
+      "우리는 오늘 분에 관해 이야기한다."
+    ],
+    [
+      "die Woche",
+      "주, 일주일",
+      "명",
+      "Bitte notieren Sie die Woche im Kalender.",
+      "달력에 주를 적어 주세요."
+    ],
+    [
+      "das Jahr",
+      "해, 연도",
+      "명",
+      "Bitte notieren Sie das Jahr im Kalender.",
+      "달력에 해를 적어 주세요."
+    ],
+    [
+      "der Wochentag",
+      "요일, 평일",
+      "명",
+      "Bitte notieren Sie den Wochentag im Kalender.",
+      "달력에 요일을 적어 주세요."
+    ],
+    [
+      "der Sonntag",
+      "일요일",
+      "명",
+      "Bitte notieren Sie den Sonntag im Kalender.",
+      "달력에 일요일을 적어 주세요."
+    ],
+    [
+      "der Montag",
+      "월요일",
+      "명",
+      "Bitte notieren Sie den Montag im Kalender.",
+      "달력에 월요일을 적어 주세요."
+    ],
+    [
+      "der Dienstag",
+      "화요일",
+      "명",
+      "Bitte notieren Sie den Dienstag im Kalender.",
+      "달력에 화요일을 적어 주세요."
+    ],
+    [
+      "der Mittwoch",
+      "수요일",
+      "명",
+      "Bitte notieren Sie den Mittwoch im Kalender.",
+      "달력에 수요일을 적어 주세요."
+    ],
+    [
+      "der Donnerstag",
+      "목요일",
+      "명",
+      "Bitte notieren Sie den Donnerstag im Kalender.",
+      "달력에 목요일을 적어 주세요."
+    ],
+    [
+      "der Freitag",
+      "금요일",
+      "명",
+      "Bitte notieren Sie den Freitag im Kalender.",
+      "달력에 금요일을 적어 주세요."
+    ],
+    [
+      "der Samstag",
+      "토요일",
+      "명",
+      "Bitte notieren Sie den Samstag im Kalender.",
+      "달력에 토요일을 적어 주세요."
+    ],
+    [
+      "das Wochenende",
+      "주말",
+      "명",
+      "Bitte notieren Sie das Wochenende im Kalender.",
+      "달력에 주말을 적어 주세요."
+    ],
+    [
+      "am Wochenende",
+      "주말에",
+      "부",
+      "Am Wochenende besuchen wir Freunde.",
+      "주말에 우리는 친구들을 방문한다."
+    ],
+    [
+      "der Sonnabend",
+      "토요일, 독일 북동부에서 흔한 표현",
+      "명",
+      "Bitte notieren Sie den Sonnabend im Kalender.",
+      "달력에 토요일을 적어 주세요."
+    ],
+    [
+      "der Frühling",
+      "봄",
+      "명",
+      "Bitte notieren Sie den Frühling im Kalender.",
+      "달력에 봄을 적어 주세요."
+    ],
+    [
+      "das Frühjahr",
+      "봄, 연초",
+      "명",
+      "Bitte notieren Sie das Frühjahr im Kalender.",
+      "달력에 봄을 적어 주세요."
+    ],
+    [
+      "der Sommer",
+      "여름",
+      "명",
+      "Bitte notieren Sie den Sommer im Kalender.",
+      "달력에 여름을 적어 주세요."
+    ],
+    [
+      "der Herbst",
+      "가을",
+      "명",
+      "Bitte notieren Sie den Herbst im Kalender.",
+      "달력에 가을을 적어 주세요."
+    ],
+    [
+      "der Winter",
+      "겨울",
+      "명",
+      "Bitte notieren Sie den Winter im Kalender.",
+      "달력에 겨울을 적어 주세요."
+    ],
+    [
+      "schwarz",
+      "검은",
+      "형",
+      "Meine Tasche ist schwarz.",
+      "내 가방은 검은색이다."
+    ],
+    [
+      "grau",
+      "회색의",
+      "형",
+      "Der Himmel ist heute grau.",
+      "오늘 하늘은 잿빛이다."
+    ],
+    [
+      "blau",
+      "파란",
+      "형",
+      "Das Meer ist blau.",
+      "바다는 파랗다."
+    ],
+    [
+      "grün",
+      "초록색의",
+      "형",
+      "Die Blätter sind grün.",
+      "잎들은 초록색이다."
+    ],
+    [
+      "weiß",
+      "흰",
+      "형",
+      "Die Wände sind weiß.",
+      "벽들은 흰색이다."
+    ],
+    [
+      "rot",
+      "빨간",
+      "형",
+      "Die Ampel ist rot.",
+      "신호등이 빨간색이다."
+    ],
+    [
+      "gelb",
+      "노란",
+      "형",
+      "Die Blumen sind gelb.",
+      "꽃들은 노란색이다."
+    ],
+    [
+      "braun",
+      "갈색의",
+      "형",
+      "Seine Schuhe sind braun.",
+      "그의 신발은 갈색이다."
+    ],
+    [
+      "der Norden",
+      "북쪽",
+      "명",
+      "Wir sprechen heute über den Norden.",
+      "우리는 오늘 북쪽에 관해 이야기한다."
+    ],
+    [
+      "der Süden",
+      "남쪽",
+      "명",
+      "Wir sprechen heute über den Süden.",
+      "우리는 오늘 남쪽에 관해 이야기한다."
+    ],
+    [
+      "der Westen",
+      "서쪽",
+      "명",
+      "Wir sprechen heute über den Westen.",
+      "우리는 오늘 서쪽에 관해 이야기한다."
+    ],
+    [
+      "der Osten",
+      "동쪽",
+      "명",
+      "Wir sprechen heute über den Osten.",
+      "우리는 오늘 동쪽에 관해 이야기한다."
+    ],
+    [
+      "der Euro",
+      "유로",
+      "명",
+      "Das Buch kostet zehn Euro.",
+      "책은 10유로다."
+    ],
+    [
+      "der Cent",
+      "센트",
+      "명",
+      "Ein Euro hat hundert Cent.",
+      "1유로는 100센트다."
+    ],
+    [
+      "der Meter",
+      "미터",
+      "명",
+      "Das Seil ist drei Meter lang.",
+      "줄은 길이가 3미터다."
+    ],
+    [
+      "der Zentimeter",
+      "센티미터",
+      "명",
+      "Das Brett ist zwei Zentimeter dick.",
+      "판자는 두께가 2센티미터다."
+    ],
+    [
+      "der Kilometer",
+      "킬로미터",
+      "명",
+      "Wir gehen heute fünf Kilometer zu Fuß.",
+      "우리는 오늘 5킬로미터를 걷는다."
+    ],
+    [
+      "das Prozent",
+      "퍼센트",
+      "명",
+      "Der Preis sinkt um zehn Prozent.",
+      "가격이 10퍼센트 내린다."
+    ],
+    [
+      "der Liter",
+      "리터",
+      "명",
+      "Ich kaufe einen Liter Milch.",
+      "나는 우유 1리터를 산다."
+    ],
+    [
+      "das Gramm",
+      "그램",
+      "명",
+      "Das Paket wiegt fünfhundert Gramm.",
+      "소포는 무게가 500그램이다."
+    ],
+    [
+      "das Kilogramm",
+      "킬로그램",
+      "명",
+      "Ich nehme ein Kilogramm Äpfel.",
+      "나는 사과 1킬로그램을 산다."
+    ],
+    [
+      "der Quadratmeter",
+      "제곱미터",
+      "명",
+      "Das Zimmer ist zwanzig Quadratmeter groß.",
+      "방의 면적은 20제곱미터다."
+    ],
+    [
+      "das Pfund",
+      "파운드; 독일의 일상 용법에서 흔히 500그램",
+      "명",
+      "Ich hätte gern ein Pfund Tomaten.",
+      "토마토 500그램을 주세요."
+    ],
+    [
+      "Deutschland",
+      "독일",
+      "명",
+      "Ich wohne seit einem Jahr in Deutschland.",
+      "나는 1년 전부터 독일에 산다."
+    ],
+    [
+      "der Deutsche",
+      "독일 남자, 독일인 남성형",
+      "명",
+      "Der Deutsche wartet vor dem Eingang.",
+      "독일 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Deutsche",
+      "독일 여자, 독일인 여성형",
+      "명",
+      "Die Deutsche wartet vor dem Eingang.",
+      "독일 여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "Deutsch / deutsch",
+      "독일어; 독일의; 독일어의",
+      "명/형",
+      "Ich lerne Deutsch und lese deutsche Bücher.",
+      "나는 독일어를 배우며 독일 책을 읽는다."
+    ],
+    [
+      "Europa",
+      "유럽",
+      "명",
+      "Wir reisen durch Europa.",
+      "우리는 유럽을 여행한다."
+    ],
+    [
+      "der Europäer",
+      "유럽인 남자",
+      "명",
+      "Der Europäer wartet vor dem Eingang.",
+      "유럽인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Europäerin",
+      "유럽인 여자",
+      "명",
+      "Die Europäerin wartet vor dem Eingang.",
+      "유럽인 여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "europäisch",
+      "유럽의",
+      "형",
+      "Wir besuchen mehrere europäische Länder.",
+      "우리는 유럽의 여러 나라를 방문한다."
+    ],
+    [
+      "die Türkei",
+      "튀르키예",
+      "명",
+      "Wir reisen nächste Woche in die Türkei.",
+      "우리는 다음 주에 튀르키예 여행을 간다."
+    ],
+    [
+      "der Türke",
+      "튀르키예인 남자",
+      "명",
+      "Der Türke wartet vor dem Eingang.",
+      "튀르키예인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Türkin",
+      "튀르키예인 여자",
+      "명",
+      "Die Türkin wartet vor dem Eingang.",
+      "튀르키예인 여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "Türkisch / türkisch",
+      "튀르키예어; 튀르키예의",
+      "명/형",
+      "Sie spricht Türkisch und kocht türkische Gerichte.",
+      "그녀는 튀르키예어를 하며 튀르키예 요리를 만든다."
+    ],
+    [
+      "Finnland",
+      "핀란드",
+      "명",
+      "Meine Freundin lebt in Finnland.",
+      "내 친구는 핀란드에 산다."
+    ],
+    [
+      "der Finne",
+      "핀란드인 남자",
+      "명",
+      "Der Finne wartet vor dem Eingang.",
+      "핀란드인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Finnin",
+      "핀란드인 여자",
+      "명",
+      "Die Finnin wartet vor dem Eingang.",
+      "핀란드인 여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "Finnisch / finnisch",
+      "핀란드어; 핀란드의",
+      "명/형",
+      "Er lernt Finnisch und hört finnische Musik.",
+      "그는 핀란드어를 배우며 핀란드 음악을 듣는다."
+    ],
+    [
+      "Mexiko",
+      "멕시코",
+      "명",
+      "Nächstes Jahr reisen wir nach Mexiko.",
+      "내년에 우리는 멕시코로 여행한다."
+    ],
+    [
+      "der Mexikaner",
+      "멕시코인 남자",
+      "명",
+      "Der Mexikaner wartet vor dem Eingang.",
+      "멕시코인 남자는 입구 앞에서 기다린다."
+    ],
+    [
+      "die Mexikanerin",
+      "멕시코인 여자",
+      "명",
+      "Die Mexikanerin wartet vor dem Eingang.",
+      "멕시코인 여자는 입구 앞에서 기다린다."
+    ],
+    [
+      "mexikanisch",
+      "멕시코의",
+      "형",
+      "Heute kochen wir ein mexikanisches Gericht.",
+      "오늘 우리는 멕시코 요리를 만든다."
+    ],
+    [
+      "du",
+      "너; 당신(친칭 주격)",
+      "대",
+      "Du kannst neben mir sitzen.",
+      "너는 내 옆에 앉아도 된다."
+    ],
+    [
+      "mich",
+      "나를(일인칭 단수 목적격)",
+      "대",
+      "Kannst du mich morgen anrufen?",
+      "내일 나에게 전화해 줄 수 있니?"
+    ],
+    [
+      "mir",
+      "나에게(일인칭 단수 여격)",
+      "대",
+      "Bitte hilf mir kurz.",
+      "잠깐 나를 도와줘."
+    ],
+    [
+      "uns",
+      "우리를; 우리에게",
+      "대",
+      "Sie gibt uns ein Buch.",
+      "그녀가 우리에게 책 한 권을 준다."
+    ],
+    [
+      "euch",
+      "너희를; 너희에게",
+      "대",
+      "Ich wünsche euch viel Erfolg.",
+      "나는 너희가 크게 성공하길 바란다."
+    ],
+    [
+      "ihnen / Ihnen",
+      "그들에게; 당신에게(대문자는 존칭 여격)",
+      "대",
+      "Ich helfe ihnen beim Umzug.",
+      "나는 그들이 이사하는 것을 돕는다."
+    ]
+  ],
+  "wordInfo": {
+    "ab": {
+      "cefr": "A1"
+    },
+    "aber": {
+      "cefr": "A1"
+    },
+    "abfahren": {
+      "cefr": "A1"
+    },
+    "die Abfahrt": {
+      "article": "die",
+      "plural": [
+        "Abfahrten"
+      ],
+      "cefr": "A1"
+    },
+    "abgeben": {
+      "cefr": "A1"
+    },
+    "abholen": {
+      "cefr": "A1"
+    },
+    "der Absender": {
+      "article": "der",
+      "plural": [
+        "Absender"
+      ],
+      "cefr": "A1"
+    },
+    "Achtung!": {
+      "cefr": "A1"
+    },
+    "die Adresse": {
+      "article": "die",
+      "plural": [
+        "Adressen"
+      ],
+      "cefr": "A1"
+    },
+    "all-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "allein": {
+      "cefr": "A1"
+    },
+    "also": {
+      "cefr": "A1"
+    },
+    "alt": {
+      "cefr": "A1"
+    },
+    "das Alter": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "an": {
+      "cefr": "A1"
+    },
+    "anbieten": {
+      "cefr": "A1"
+    },
+    "das Angebot": {
+      "article": "das",
+      "plural": [
+        "Angebote"
+      ],
+      "cefr": "A1"
+    },
+    "ander-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "anfangen": {
+      "cefr": "A1"
+    },
+    "der Anfang": {
+      "article": "der",
+      "plural": [
+        "Anfänge"
+      ],
+      "cefr": "A1"
+    },
+    "anklicken": {
+      "cefr": "A1"
+    },
+    "ankommen": {
+      "cefr": "A1"
+    },
+    "die Ankunft": {
+      "article": "die",
+      "plural": [
+        "Ankünfte"
+      ],
+      "cefr": "A1"
+    },
+    "ankreuzen": {
+      "cefr": "A1"
+    },
+    "anmachen": {
+      "cefr": "A1"
+    },
+    "anmelden": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Anmeldung": {
+      "article": "die",
+      "plural": [
+        "Anmeldungen"
+      ],
+      "cefr": "A1"
+    },
+    "die Anrede": {
+      "article": "die",
+      "plural": [
+        "Anreden"
+      ],
+      "cefr": "A1"
+    },
+    "anrufen": {
+      "cefr": "A1"
+    },
+    "der Anruf": {
+      "article": "der",
+      "plural": [
+        "Anrufe"
+      ],
+      "cefr": "A1"
+    },
+    "der Anrufbeantworter": {
+      "article": "der",
+      "plural": [
+        "Anrufbeantworter"
+      ],
+      "cefr": "A1"
+    },
+    "die Ansage": {
+      "article": "die",
+      "plural": [
+        "Ansagen"
+      ],
+      "cefr": "A1"
+    },
+    "der Anschluss": {
+      "article": "der",
+      "plural": [
+        "Anschlüsse"
+      ],
+      "cefr": "A1"
+    },
+    "an sein": {
+      "cefr": "A1"
+    },
+    "antworten": {
+      "cefr": "A1"
+    },
+    "die Antwort": {
+      "article": "die",
+      "plural": [
+        "Antworten"
+      ],
+      "cefr": "A1"
+    },
+    "die Anzeige": {
+      "article": "die",
+      "plural": [
+        "Anzeigen"
+      ],
+      "cefr": "A1"
+    },
+    "anziehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "das Apartment": {
+      "article": "das",
+      "plural": [
+        "Apartments"
+      ],
+      "cefr": "A1"
+    },
+    "der Apfel": {
+      "article": "der",
+      "plural": [
+        "Äpfel"
+      ],
+      "cefr": "A1"
+    },
+    "der Appetit": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "arbeiten": {
+      "cefr": "A1"
+    },
+    "die Arbeit": {
+      "article": "die",
+      "plural": [
+        "Arbeiten"
+      ],
+      "cefr": "A1"
+    },
+    "arbeitslos": {
+      "cefr": "A1"
+    },
+    "der Arbeitsplatz": {
+      "article": "der",
+      "plural": [
+        "Arbeitsplätze"
+      ],
+      "cefr": "A1"
+    },
+    "der Arm": {
+      "article": "der",
+      "plural": [
+        "Arme"
+      ],
+      "cefr": "A1"
+    },
+    "der Arzt": {
+      "article": "der",
+      "plural": [
+        "Ärzte"
+      ],
+      "cefr": "A1"
+    },
+    "auch": {
+      "cefr": "A1"
+    },
+    "auf": {
+      "cefr": "A1"
+    },
+    "die Aufgabe": {
+      "article": "die",
+      "plural": [
+        "Aufgaben"
+      ],
+      "cefr": "A1"
+    },
+    "aufhören": {
+      "cefr": "A1"
+    },
+    "auf sein": {
+      "cefr": "A1"
+    },
+    "aufstehen": {
+      "cefr": "A1"
+    },
+    "der Aufzug": {
+      "article": "der",
+      "plural": [
+        "Aufzüge"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "das Auge": {
+      "article": "das",
+      "plural": [
+        "Augen"
+      ],
+      "cefr": "A1"
+    },
+    "aus": {
+      "cefr": "A1"
+    },
+    "der Ausflug": {
+      "article": "der",
+      "plural": [
+        "Ausflüge"
+      ],
+      "cefr": "A1"
+    },
+    "ausfüllen": {
+      "cefr": "A1"
+    },
+    "der Ausgang": {
+      "article": "der",
+      "plural": [
+        "Ausgänge"
+      ],
+      "cefr": "A1"
+    },
+    "die Auskunft": {
+      "article": "die",
+      "plural": [
+        "Auskünfte"
+      ],
+      "cefr": "A1"
+    },
+    "das Ausland": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "der Ausländer": {
+      "article": "der",
+      "plural": [
+        "Ausländer"
+      ],
+      "cefr": "A1"
+    },
+    "ausländisch": {
+      "cefr": "A1"
+    },
+    "ausmachen": {
+      "cefr": "A1"
+    },
+    "die Aussage": {
+      "article": "die",
+      "plural": [
+        "Aussagen"
+      ],
+      "cefr": "A1"
+    },
+    "aussehen": {
+      "cefr": "A1"
+    },
+    "aus sein": {
+      "cefr": "A1"
+    },
+    "aussteigen": {
+      "cefr": "A1"
+    },
+    "der Ausweis": {
+      "article": "der",
+      "plural": [
+        "Ausweise"
+      ],
+      "cefr": "A1"
+    },
+    "ausziehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "das Auto": {
+      "article": "das",
+      "plural": [
+        "Autos"
+      ],
+      "cefr": "A1"
+    },
+    "die Autobahn": {
+      "article": "die",
+      "plural": [
+        "Autobahnen"
+      ],
+      "cefr": "A1"
+    },
+    "der Automat": {
+      "article": "der",
+      "plural": [
+        "Automaten"
+      ],
+      "cefr": "A1"
+    },
+    "automatisch": {
+      "cefr": "A1"
+    },
+    "das Baby": {
+      "article": "das",
+      "plural": [
+        "Babys"
+      ],
+      "cefr": "A1"
+    },
+    "die Bäckerei": {
+      "article": "die",
+      "plural": [
+        "Bäckereien"
+      ],
+      "cefr": "A1"
+    },
+    "das Bad": {
+      "article": "das",
+      "plural": [
+        "Bäder"
+      ],
+      "cefr": "A1"
+    },
+    "baden": {
+      "cefr": "A1"
+    },
+    "die Bahn": {
+      "article": "die",
+      "plural": [
+        "Bahnen"
+      ],
+      "cefr": "A1"
+    },
+    "der Bahnhof": {
+      "article": "der",
+      "plural": [
+        "Bahnhöfe"
+      ],
+      "cefr": "A1"
+    },
+    "der Bahnsteig": {
+      "article": "der",
+      "plural": [
+        "Bahnsteige"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "bald": {
+      "cefr": "A1"
+    },
+    "der Balkon": {
+      "article": "der",
+      "plural": [
+        "Balkone"
+      ],
+      "cefr": "A1"
+    },
+    "die Banane": {
+      "article": "die",
+      "plural": [
+        "Bananen"
+      ],
+      "cefr": "A1"
+    },
+    "die Bank": {
+      "article": "die",
+      "plural": [
+        "Banken",
+        "Bänke"
+      ],
+      "usage": "은행의 복수는 Banken, 벤치의 복수는 Bänke입니다.",
+      "cefr": "A1"
+    },
+    "bar": {
+      "cefr": "A1"
+    },
+    "der Bauch": {
+      "article": "der",
+      "plural": [
+        "Bäuche"
+      ],
+      "cefr": "A1"
+    },
+    "der Baum": {
+      "article": "der",
+      "plural": [
+        "Bäume"
+      ],
+      "cefr": "A1"
+    },
+    "der Beamte": {
+      "article": "der",
+      "plural": [
+        "Beamten"
+      ],
+      "cefr": "A1"
+    },
+    "bedeuten": {
+      "cefr": "A1"
+    },
+    "beginnen": {
+      "cefr": "A1"
+    },
+    "bei": {
+      "cefr": "A1"
+    },
+    "beide": {
+      "cefr": "A1"
+    },
+    "das Bein": {
+      "article": "das",
+      "plural": [
+        "Beine"
+      ],
+      "cefr": "A1"
+    },
+    "das Beispiel": {
+      "article": "das",
+      "plural": [
+        "Beispiele"
+      ],
+      "cefr": "A1"
+    },
+    "zum Beispiel": {
+      "cefr": "A1"
+    },
+    "z. B.": {
+      "cefr": "A1"
+    },
+    "bekannt": {
+      "cefr": "A1"
+    },
+    "der Bekannte": {
+      "article": "der",
+      "plural": [
+        "Bekannten"
+      ],
+      "cefr": "A1"
+    },
+    "die Bekannte": {
+      "article": "die",
+      "plural": [
+        "Bekannten"
+      ],
+      "cefr": "A1"
+    },
+    "bekommen": {
+      "cefr": "A1"
+    },
+    "benutzen": {
+      "cefr": "A1"
+    },
+    "der Beruf": {
+      "article": "der",
+      "plural": [
+        "Berufe"
+      ],
+      "cefr": "A1"
+    },
+    "besetzt": {
+      "cefr": "A1"
+    },
+    "besichtigen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "besser": {
+      "cefr": "A1"
+    },
+    "best-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "bestellen": {
+      "cefr": "A1"
+    },
+    "besuchen": {
+      "cefr": "A1"
+    },
+    "das Bett": {
+      "article": "das",
+      "plural": [
+        "Betten"
+      ],
+      "cefr": "A1"
+    },
+    "bezahlen": {
+      "cefr": "A1"
+    },
+    "das Bier": {
+      "article": "das",
+      "plural": [
+        "Biere"
+      ],
+      "cefr": "A1"
+    },
+    "das Bild": {
+      "article": "das",
+      "plural": [
+        "Bilder"
+      ],
+      "cefr": "A1"
+    },
+    "billig": {
+      "cefr": "A1"
+    },
+    "die Birne": {
+      "article": "die",
+      "plural": [
+        "Birnen"
+      ],
+      "cefr": "A1"
+    },
+    "bis": {
+      "cefr": "A1"
+    },
+    "bisschen": {
+      "cefr": "A1"
+    },
+    "bitte": {
+      "cefr": "A1"
+    },
+    "die Bitte": {
+      "article": "die",
+      "plural": [
+        "Bitten"
+      ],
+      "cefr": "A1"
+    },
+    "bitten": {
+      "cefr": "A1"
+    },
+    "bitter": {
+      "cefr": "A1"
+    },
+    "bleiben": {
+      "cefr": "A1"
+    },
+    "der Bleistift": {
+      "article": "der",
+      "plural": [
+        "Bleistifte"
+      ],
+      "cefr": "A1"
+    },
+    "der Blick": {
+      "article": "der",
+      "plural": [
+        "Blicke"
+      ],
+      "cefr": "A1"
+    },
+    "die Blume": {
+      "article": "die",
+      "plural": [
+        "Blumen"
+      ],
+      "cefr": "A1"
+    },
+    "der Bogen": {
+      "article": "der",
+      "plural": [
+        "Bögen"
+      ],
+      "cefr": "A1"
+    },
+    "böse": {
+      "cefr": "A1"
+    },
+    "brauchen": {
+      "cefr": "A1"
+    },
+    "breit": {
+      "cefr": "A1"
+    },
+    "der Brief": {
+      "article": "der",
+      "plural": [
+        "Briefe"
+      ],
+      "cefr": "A1"
+    },
+    "die Briefmarke": {
+      "article": "die",
+      "plural": [
+        "Briefmarken"
+      ],
+      "cefr": "A1"
+    },
+    "bringen": {
+      "cefr": "A1"
+    },
+    "das Brot": {
+      "article": "das",
+      "plural": [
+        "Brote"
+      ],
+      "cefr": "A1"
+    },
+    "das Brötchen": {
+      "article": "das",
+      "plural": [
+        "Brötchen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "D"
+      ]
+    },
+    "der Bruder": {
+      "article": "der",
+      "plural": [
+        "Brüder"
+      ],
+      "cefr": "A1"
+    },
+    "das Buch": {
+      "article": "das",
+      "plural": [
+        "Bücher"
+      ],
+      "cefr": "A1"
+    },
+    "der Buchstabe": {
+      "article": "der",
+      "plural": [
+        "Buchstaben"
+      ],
+      "cefr": "A1"
+    },
+    "buchstabieren": {
+      "cefr": "A1"
+    },
+    "der Bus": {
+      "article": "der",
+      "plural": [
+        "Busse"
+      ],
+      "cefr": "A1"
+    },
+    "die Butter": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "das Café": {
+      "article": "das",
+      "plural": [
+        "Cafés"
+      ],
+      "cefr": "A1"
+    },
+    "die CD": {
+      "article": "die",
+      "plural": [
+        "CDs"
+      ],
+      "cefr": "A1"
+    },
+    "der Chef": {
+      "article": "der",
+      "plural": [
+        "Chefs"
+      ],
+      "cefr": "A1"
+    },
+    "circa": {
+      "cefr": "A1"
+    },
+    "ca.": {
+      "cefr": "A1"
+    },
+    "der Computer": {
+      "article": "der",
+      "plural": [
+        "Computer"
+      ],
+      "cefr": "A1"
+    },
+    "da": {
+      "cefr": "A1"
+    },
+    "die Dame": {
+      "article": "die",
+      "plural": [
+        "Damen"
+      ],
+      "cefr": "A1"
+    },
+    "daneben": {
+      "cefr": "A1"
+    },
+    "danken": {
+      "cefr": "A1"
+    },
+    "der Dank": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "danke": {
+      "cefr": "A1"
+    },
+    "dann": {
+      "cefr": "A1"
+    },
+    "das Datum": {
+      "article": "das",
+      "plural": [
+        "Daten"
+      ],
+      "cefr": "A1"
+    },
+    "dauern": {
+      "cefr": "A1"
+    },
+    "dein-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "denn": {
+      "cefr": "A1"
+    },
+    "der": {
+      "cefr": "A1"
+    },
+    "die": {
+      "cefr": "A1"
+    },
+    "das": {
+      "cefr": "A1"
+    },
+    "dich": {
+      "cefr": "A1"
+    },
+    "dies-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "dir": {
+      "cefr": "A1"
+    },
+    "die Disco": {
+      "article": "die",
+      "plural": [
+        "Discos"
+      ],
+      "cefr": "A1"
+    },
+    "der Doktor": {
+      "article": "der",
+      "plural": [
+        "Doktoren"
+      ],
+      "cefr": "A1"
+    },
+    "das Doppelzimmer": {
+      "article": "das",
+      "plural": [
+        "Doppelzimmer"
+      ],
+      "cefr": "A1"
+    },
+    "das Dorf": {
+      "article": "das",
+      "plural": [
+        "Dörfer"
+      ],
+      "cefr": "A1"
+    },
+    "dort": {
+      "cefr": "A1"
+    },
+    "draußen": {
+      "cefr": "A1"
+    },
+    "drucken": {
+      "cefr": "A1"
+    },
+    "der Drucker": {
+      "article": "der",
+      "plural": [
+        "Drucker"
+      ],
+      "cefr": "A1"
+    },
+    "drücken": {
+      "cefr": "A1"
+    },
+    "durch": {
+      "cefr": "A1"
+    },
+    "die Durchsage": {
+      "article": "die",
+      "plural": [
+        "Durchsagen"
+      ],
+      "cefr": "A1"
+    },
+    "dürfen": {
+      "cefr": "A1"
+    },
+    "der Durst": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "duschen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Dusche": {
+      "article": "die",
+      "plural": [
+        "Duschen"
+      ],
+      "cefr": "A1"
+    },
+    "die Ecke": {
+      "article": "die",
+      "plural": [
+        "Ecken"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "CH",
+        "D"
+      ]
+    },
+    "die Ehefrau": {
+      "article": "die",
+      "plural": [
+        "Ehefrauen"
+      ],
+      "cefr": "A1"
+    },
+    "der Ehemann": {
+      "article": "der",
+      "plural": [
+        "Ehemänner"
+      ],
+      "cefr": "A1"
+    },
+    "das Ei": {
+      "article": "das",
+      "plural": [
+        "Eier"
+      ],
+      "cefr": "A1"
+    },
+    "eilig": {
+      "cefr": "A1"
+    },
+    "ein-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "einfach": {
+      "cefr": "A1"
+    },
+    "der Eingang": {
+      "article": "der",
+      "plural": [
+        "Eingänge"
+      ],
+      "cefr": "A1"
+    },
+    "einkaufen": {
+      "cefr": "A1"
+    },
+    "einladen": {
+      "cefr": "A1"
+    },
+    "die Einladung": {
+      "article": "die",
+      "plural": [
+        "Einladungen"
+      ],
+      "cefr": "A1"
+    },
+    "einmal": {
+      "cefr": "A1"
+    },
+    "einsteigen": {
+      "cefr": "A1"
+    },
+    "der Eintritt": {
+      "article": "der",
+      "plural": [
+        "Eintritte"
+      ],
+      "cefr": "A1"
+    },
+    "das Einzelzimmer": {
+      "article": "das",
+      "plural": [
+        "Einzelzimmer"
+      ],
+      "cefr": "A1"
+    },
+    "die Eltern": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "die E-Mail": {
+      "article": "die",
+      "plural": [
+        "E-Mails"
+      ],
+      "cefr": "A1"
+    },
+    "der Empfänger": {
+      "article": "der",
+      "plural": [
+        "Empfänger"
+      ],
+      "cefr": "A1"
+    },
+    "empfehlen": {
+      "cefr": "A1"
+    },
+    "enden": {
+      "cefr": "A1"
+    },
+    "das Ende": {
+      "article": "das",
+      "plural": [
+        "Enden"
+      ],
+      "cefr": "A1"
+    },
+    "entschuldigen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Entschuldigung": {
+      "article": "die",
+      "plural": [
+        "Entschuldigungen"
+      ],
+      "cefr": "A1"
+    },
+    "er": {
+      "cefr": "A1"
+    },
+    "das Ergebnis": {
+      "article": "das",
+      "plural": [
+        "Ergebnisse"
+      ],
+      "cefr": "A1"
+    },
+    "erklären": {
+      "cefr": "A1"
+    },
+    "erlauben": {
+      "cefr": "A1"
+    },
+    "der Erwachsene": {
+      "article": "der",
+      "plural": [
+        "Erwachsenen"
+      ],
+      "cefr": "A1"
+    },
+    "erzählen": {
+      "cefr": "A1"
+    },
+    "es": {
+      "cefr": "A1"
+    },
+    "essen": {
+      "cefr": "A1"
+    },
+    "das Essen": {
+      "article": "das",
+      "plural": [
+        "Essen"
+      ],
+      "cefr": "A1"
+    },
+    "euer": {
+      "cefr": "A1"
+    },
+    "fahren": {
+      "cefr": "A1"
+    },
+    "der Fahrer": {
+      "article": "der",
+      "plural": [
+        "Fahrer"
+      ],
+      "cefr": "A1"
+    },
+    "die Fahrkarte": {
+      "article": "die",
+      "plural": [
+        "Fahrkarten"
+      ],
+      "cefr": "A1"
+    },
+    "das Fahrrad": {
+      "article": "das",
+      "plural": [
+        "Fahrräder"
+      ],
+      "cefr": "A1"
+    },
+    "falsch": {
+      "cefr": "A1"
+    },
+    "die Familie": {
+      "article": "die",
+      "plural": [
+        "Familien"
+      ],
+      "cefr": "A1"
+    },
+    "der Familienname": {
+      "article": "der",
+      "plural": [
+        "Familiennamen"
+      ],
+      "cefr": "A1"
+    },
+    "der Familienstand": {
+      "article": "der",
+      "plural": [
+        "Familienstände"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "die Farbe": {
+      "article": "die",
+      "plural": [
+        "Farben"
+      ],
+      "cefr": "A1"
+    },
+    "das Fax": {
+      "article": "das",
+      "plural": [
+        "Faxe"
+      ],
+      "cefr": "A1"
+    },
+    "Feier-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "feiern": {
+      "cefr": "A1"
+    },
+    "fehlen": {
+      "cefr": "A1"
+    },
+    "der Fehler": {
+      "article": "der",
+      "plural": [
+        "Fehler"
+      ],
+      "cefr": "A1"
+    },
+    "fernsehen": {
+      "cefr": "A1"
+    },
+    "fertig": {
+      "cefr": "A1"
+    },
+    "das Feuer": {
+      "article": "das",
+      "plural": [
+        "Feuer"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Fieber": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "der Film": {
+      "article": "der",
+      "plural": [
+        "Filme"
+      ],
+      "cefr": "A1"
+    },
+    "finden": {
+      "cefr": "A1"
+    },
+    "die Firma": {
+      "article": "die",
+      "plural": [
+        "Firmen"
+      ],
+      "cefr": "A1"
+    },
+    "der Fisch": {
+      "article": "der",
+      "plural": [
+        "Fische"
+      ],
+      "cefr": "A1"
+    },
+    "die Flasche": {
+      "article": "die",
+      "plural": [
+        "Flaschen"
+      ],
+      "cefr": "A1"
+    },
+    "das Fleisch": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "fliegen": {
+      "cefr": "A1"
+    },
+    "abfliegen": {
+      "cefr": "A1"
+    },
+    "der Abflug": {
+      "article": "der",
+      "plural": [
+        "Abflüge"
+      ],
+      "cefr": "A1"
+    },
+    "der Flughafen": {
+      "article": "der",
+      "plural": [
+        "Flughäfen"
+      ],
+      "cefr": "A1"
+    },
+    "das Flugzeug": {
+      "article": "das",
+      "plural": [
+        "Flugzeuge"
+      ],
+      "cefr": "A1"
+    },
+    "das Formular": {
+      "article": "das",
+      "plural": [
+        "Formulare"
+      ],
+      "cefr": "A1"
+    },
+    "das Foto": {
+      "article": "das",
+      "plural": [
+        "Fotos"
+      ],
+      "cefr": "A1"
+    },
+    "fragen": {
+      "cefr": "A1"
+    },
+    "die Frage": {
+      "article": "die",
+      "plural": [
+        "Fragen"
+      ],
+      "cefr": "A1"
+    },
+    "die Frau": {
+      "article": "die",
+      "plural": [
+        "Frauen"
+      ],
+      "cefr": "A1"
+    },
+    "frei": {
+      "cefr": "A1"
+    },
+    "die Freizeit": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "fremd": {
+      "cefr": "A1"
+    },
+    "freuen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "der Freund": {
+      "article": "der",
+      "plural": [
+        "Freunde"
+      ],
+      "cefr": "A1"
+    },
+    "früher": {
+      "cefr": "A1"
+    },
+    "frühstücken": {
+      "cefr": "A1"
+    },
+    "das Frühstück": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Führung": {
+      "article": "die",
+      "plural": [
+        "Führungen"
+      ],
+      "cefr": "A1"
+    },
+    "für": {
+      "cefr": "A1"
+    },
+    "der Fuß": {
+      "article": "der",
+      "plural": [
+        "Füße"
+      ],
+      "cefr": "A1"
+    },
+    "der Fußball": {
+      "article": "der",
+      "plural": [
+        "Fußbälle"
+      ],
+      "cefr": "A1"
+    },
+    "der Garten": {
+      "article": "der",
+      "plural": [
+        "Gärten"
+      ],
+      "cefr": "A1"
+    },
+    "der Gast": {
+      "article": "der",
+      "plural": [
+        "Gäste"
+      ],
+      "cefr": "A1"
+    },
+    "geben": {
+      "cefr": "A1"
+    },
+    "geboren": {
+      "cefr": "A1"
+    },
+    "das Geburtsjahr": {
+      "article": "das",
+      "plural": [
+        "Geburtsjahre"
+      ],
+      "cefr": "A1"
+    },
+    "der Geburtsort": {
+      "article": "der",
+      "plural": [
+        "Geburtsorte"
+      ],
+      "cefr": "A1"
+    },
+    "der Geburtstag": {
+      "article": "der",
+      "plural": [
+        "Geburtstage"
+      ],
+      "cefr": "A1"
+    },
+    "gefallen": {
+      "cefr": "A1"
+    },
+    "gegen": {
+      "cefr": "A1"
+    },
+    "gehen": {
+      "cefr": "A1"
+    },
+    "gehören": {
+      "cefr": "A1"
+    },
+    "das Geld": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "das Gemüse": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "das Gepäck": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "gerade": {
+      "cefr": "A1"
+    },
+    "geradeaus": {
+      "cefr": "A1"
+    },
+    "gern": {
+      "cefr": "A1"
+    },
+    "gerne": {
+      "cefr": "A1"
+    },
+    "das Geschäft": {
+      "article": "das",
+      "plural": [
+        "Geschäfte"
+      ],
+      "cefr": "A1"
+    },
+    "das Geschenk": {
+      "article": "das",
+      "plural": [
+        "Geschenke"
+      ],
+      "cefr": "A1"
+    },
+    "die Geschwister": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "das Gespräch": {
+      "article": "das",
+      "plural": [
+        "Gespräche"
+      ],
+      "cefr": "A1"
+    },
+    "gestern": {
+      "cefr": "A1"
+    },
+    "gestorben": {
+      "cefr": "A1"
+    },
+    "das Getränk": {
+      "article": "das",
+      "plural": [
+        "Getränke"
+      ],
+      "cefr": "A1"
+    },
+    "das Gewicht": {
+      "article": "das",
+      "plural": [
+        "Gewichte"
+      ],
+      "cefr": "A1"
+    },
+    "gewinnen": {
+      "cefr": "A1"
+    },
+    "das Glas": {
+      "article": "das",
+      "plural": [
+        "Gläser"
+      ],
+      "cefr": "A1"
+    },
+    "glauben": {
+      "cefr": "A1"
+    },
+    "gleich": {
+      "cefr": "A1"
+    },
+    "das Gleis": {
+      "article": "das",
+      "plural": [
+        "Gleise"
+      ],
+      "cefr": "A1"
+    },
+    "das Glück": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "glücklich": {
+      "cefr": "A1"
+    },
+    "der Glückwunsch": {
+      "article": "der",
+      "plural": [
+        "Glückwünsche"
+      ],
+      "cefr": "A1"
+    },
+    "der Grad": {
+      "article": "der",
+      "plural": [
+        "Grad"
+      ],
+      "cefr": "A1"
+    },
+    "gratulieren": {
+      "cefr": "A1"
+    },
+    "grillen": {
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "groß": {
+      "cefr": "A1"
+    },
+    "die Größe": {
+      "article": "die",
+      "plural": [
+        "Größen"
+      ],
+      "cefr": "A1"
+    },
+    "die Großeltern": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "die Großmutter": {
+      "article": "die",
+      "plural": [
+        "Großmütter"
+      ],
+      "cefr": "A1"
+    },
+    "der Großvater": {
+      "article": "der",
+      "plural": [
+        "Großväter"
+      ],
+      "cefr": "A1"
+    },
+    "die Gruppe": {
+      "article": "die",
+      "plural": [
+        "Gruppen"
+      ],
+      "cefr": "A1"
+    },
+    "der Gruß": {
+      "article": "der",
+      "plural": [
+        "Grüße"
+      ],
+      "cefr": "A1"
+    },
+    "gültig": {
+      "cefr": "A1"
+    },
+    "günstig": {
+      "cefr": "A1"
+    },
+    "gut": {
+      "cefr": "A1"
+    },
+    "das Haar": {
+      "article": "das",
+      "plural": [
+        "Haare"
+      ],
+      "cefr": "A1"
+    },
+    "haben": {
+      "cefr": "A1"
+    },
+    "das Hähnchen": {
+      "article": "das",
+      "plural": [
+        "Hähnchen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "D"
+      ]
+    },
+    "die Halbpension": {
+      "article": "die",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "die Halle": {
+      "article": "die",
+      "plural": [
+        "Hallen"
+      ],
+      "cefr": "A1"
+    },
+    "hallo": {
+      "cefr": "A1"
+    },
+    "halten": {
+      "cefr": "A1"
+    },
+    "die Haltestelle": {
+      "article": "die",
+      "plural": [
+        "Haltestellen"
+      ],
+      "cefr": "A1"
+    },
+    "die Hand": {
+      "article": "die",
+      "plural": [
+        "Hände"
+      ],
+      "cefr": "A1"
+    },
+    "das Handy": {
+      "article": "das",
+      "plural": [
+        "Handys"
+      ],
+      "cefr": "A1"
+    },
+    "das Haus": {
+      "article": "das",
+      "plural": [
+        "Häuser"
+      ],
+      "cefr": "A1"
+    },
+    "die Hausaufgabe": {
+      "article": "die",
+      "plural": [
+        "Hausaufgaben"
+      ],
+      "cefr": "A1"
+    },
+    "die Hausfrau": {
+      "article": "die",
+      "plural": [
+        "Hausfrauen"
+      ],
+      "cefr": "A1"
+    },
+    "der Hausmann": {
+      "article": "der",
+      "plural": [
+        "Hausmänner"
+      ],
+      "cefr": "A1"
+    },
+    "die Heimat": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "heiraten": {
+      "cefr": "A1"
+    },
+    "heißen": {
+      "cefr": "A1"
+    },
+    "helfen": {
+      "cefr": "A1"
+    },
+    "hell": {
+      "cefr": "A1"
+    },
+    "der Herd": {
+      "article": "der",
+      "plural": [
+        "Herde"
+      ],
+      "cefr": "A1"
+    },
+    "der Herr": {
+      "article": "der",
+      "plural": [
+        "Herren"
+      ],
+      "cefr": "A1"
+    },
+    "herzlich": {
+      "cefr": "A1"
+    },
+    "heute": {
+      "cefr": "A1"
+    },
+    "hier": {
+      "cefr": "A1"
+    },
+    "die Hilfe": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "hinten": {
+      "cefr": "A1"
+    },
+    "das Hobby": {
+      "article": "das",
+      "plural": [
+        "Hobbys"
+      ],
+      "cefr": "A1"
+    },
+    "hoch": {
+      "cefr": "A1"
+    },
+    "die Hochzeit": {
+      "article": "die",
+      "plural": [
+        "Hochzeiten"
+      ],
+      "cefr": "A1"
+    },
+    "holen": {
+      "cefr": "A1"
+    },
+    "hören": {
+      "cefr": "A1"
+    },
+    "das Hotel": {
+      "article": "das",
+      "plural": [
+        "Hotels"
+      ],
+      "cefr": "A1"
+    },
+    "der Hund": {
+      "article": "der",
+      "plural": [
+        "Hunde"
+      ],
+      "cefr": "A1"
+    },
+    "der Hunger": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "ich": {
+      "cefr": "A1"
+    },
+    "ihr / Ihr": {
+      "cefr": "A1"
+    },
+    "ihm": {
+      "cefr": "A1"
+    },
+    "ihn": {
+      "cefr": "A1"
+    },
+    "immer": {
+      "cefr": "A1"
+    },
+    "in": {
+      "cefr": "A1"
+    },
+    "die Information": {
+      "article": "die",
+      "plural": [
+        "Informationen"
+      ],
+      "cefr": "A1"
+    },
+    "international": {
+      "cefr": "A1"
+    },
+    "das Internet": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "ja": {
+      "cefr": "A1"
+    },
+    "die Jacke": {
+      "article": "die",
+      "plural": [
+        "Jacken"
+      ],
+      "cefr": "A1"
+    },
+    "jed-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "jetzt": {
+      "cefr": "A1"
+    },
+    "der Job": {
+      "article": "der",
+      "plural": [
+        "Jobs"
+      ],
+      "cefr": "A1"
+    },
+    "der Jugendliche": {
+      "article": "der",
+      "plural": [
+        "Jugendlichen"
+      ],
+      "cefr": "A1"
+    },
+    "jung": {
+      "cefr": "A1"
+    },
+    "der Junge": {
+      "article": "der",
+      "plural": [
+        "Jungen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "D"
+      ]
+    },
+    "der Kaffee": {
+      "article": "der",
+      "plural": [
+        "Kaffees"
+      ],
+      "cefr": "A1"
+    },
+    "kaputt": {
+      "cefr": "A1"
+    },
+    "die Karte": {
+      "article": "die",
+      "plural": [
+        "Karten"
+      ],
+      "cefr": "A1"
+    },
+    "die Kreditkarte": {
+      "article": "die",
+      "plural": [
+        "Kreditkarten"
+      ],
+      "cefr": "A1"
+    },
+    "die Kartoffel": {
+      "article": "die",
+      "plural": [
+        "Kartoffeln"
+      ],
+      "cefr": "A1"
+    },
+    "die Kasse": {
+      "article": "die",
+      "plural": [
+        "Kassen"
+      ],
+      "cefr": "A1"
+    },
+    "kaufen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "kein": {
+      "cefr": "A1"
+    },
+    "kennen": {
+      "cefr": "A1"
+    },
+    "kennenlernen": {
+      "cefr": "A1"
+    },
+    "das Kind": {
+      "article": "das",
+      "plural": [
+        "Kinder"
+      ],
+      "cefr": "A1"
+    },
+    "der Kindergarten": {
+      "article": "der",
+      "plural": [
+        "Kindergärten"
+      ],
+      "cefr": "A1"
+    },
+    "das Kino": {
+      "article": "das",
+      "plural": [
+        "Kinos"
+      ],
+      "cefr": "A1"
+    },
+    "der Kiosk": {
+      "article": "der",
+      "plural": [
+        "Kioske"
+      ],
+      "cefr": "A1"
+    },
+    "klar": {
+      "cefr": "A1"
+    },
+    "die Klasse": {
+      "article": "die",
+      "plural": [
+        "Klassen"
+      ],
+      "cefr": "A1"
+    },
+    "die Kleidung": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "klein": {
+      "cefr": "A1"
+    },
+    "kochen": {
+      "cefr": "A1"
+    },
+    "der Koffer": {
+      "article": "der",
+      "plural": [
+        "Koffer"
+      ],
+      "cefr": "A1"
+    },
+    "der Kollege": {
+      "article": "der",
+      "plural": [
+        "Kollegen"
+      ],
+      "cefr": "A1"
+    },
+    "kommen": {
+      "cefr": "A1"
+    },
+    "können": {
+      "cefr": "A1"
+    },
+    "das Konto": {
+      "article": "das",
+      "plural": [
+        "Konten"
+      ],
+      "cefr": "A1"
+    },
+    "der Kopf": {
+      "article": "der",
+      "plural": [
+        "Köpfe"
+      ],
+      "cefr": "A1"
+    },
+    "kosten": {
+      "cefr": "A1",
+      "regions": [
+        "A"
+      ]
+    },
+    "krank": {
+      "cefr": "A1"
+    },
+    "kriegen": {
+      "cefr": "A1"
+    },
+    "die Küche": {
+      "article": "die",
+      "plural": [
+        "Küchen"
+      ],
+      "cefr": "A1"
+    },
+    "der Kuchen": {
+      "article": "der",
+      "plural": [
+        "Kuchen"
+      ],
+      "cefr": "A1"
+    },
+    "der Kugelschreiber": {
+      "article": "der",
+      "plural": [
+        "Kugelschreiber"
+      ],
+      "cefr": "A1"
+    },
+    "der Kühlschrank": {
+      "article": "der",
+      "plural": [
+        "Kühlschränke"
+      ],
+      "cefr": "A1"
+    },
+    "kulturell": {
+      "cefr": "A1"
+    },
+    "kümmern": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "der Kunde": {
+      "article": "der",
+      "plural": [
+        "Kunden"
+      ],
+      "cefr": "A1"
+    },
+    "der Kurs": {
+      "article": "der",
+      "plural": [
+        "Kurse"
+      ],
+      "cefr": "A1"
+    },
+    "kurz": {
+      "cefr": "A1"
+    },
+    "lachen": {
+      "cefr": "A1"
+    },
+    "der Laden": {
+      "article": "der",
+      "plural": [
+        "Läden"
+      ],
+      "cefr": "A1"
+    },
+    "das Land": {
+      "article": "das",
+      "plural": [
+        "Länder"
+      ],
+      "cefr": "A1"
+    },
+    "lang": {
+      "cefr": "A1"
+    },
+    "lange": {
+      "cefr": "A1"
+    },
+    "langsam": {
+      "cefr": "A1"
+    },
+    "laufen": {
+      "cefr": "A1"
+    },
+    "laut": {
+      "cefr": "A1"
+    },
+    "leben": {
+      "cefr": "A1"
+    },
+    "das Leben": {
+      "article": "das",
+      "plural": [
+        "Leben"
+      ],
+      "cefr": "A1"
+    },
+    "die Lebensmittel": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "ledig": {
+      "cefr": "A1"
+    },
+    "legen": {
+      "cefr": "A1"
+    },
+    "der Lehrer": {
+      "article": "der",
+      "plural": [
+        "Lehrer"
+      ],
+      "cefr": "A1"
+    },
+    "leicht": {
+      "cefr": "A1"
+    },
+    "leider": {
+      "cefr": "A1"
+    },
+    "leise": {
+      "cefr": "A1"
+    },
+    "lernen": {
+      "cefr": "A1"
+    },
+    "lesen": {
+      "cefr": "A1"
+    },
+    "letzt-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "die Leute": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "das Licht": {
+      "article": "das",
+      "plural": [
+        "Lichter"
+      ],
+      "cefr": "A1"
+    },
+    "lieb-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "lieben": {
+      "cefr": "A1"
+    },
+    "lieber": {
+      "cefr": "A1"
+    },
+    "Lieblings-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "das Lied": {
+      "article": "das",
+      "plural": [
+        "Lieder"
+      ],
+      "cefr": "A1"
+    },
+    "liegen": {
+      "cefr": "A1"
+    },
+    "links": {
+      "cefr": "A1"
+    },
+    "der Lkw": {
+      "article": "der",
+      "plural": [
+        "Lkws"
+      ],
+      "cefr": "A1"
+    },
+    "das Lokal": {
+      "article": "das",
+      "plural": [
+        "Lokale"
+      ],
+      "cefr": "A1"
+    },
+    "die Lösung": {
+      "article": "die",
+      "plural": [
+        "Lösungen"
+      ],
+      "cefr": "A1"
+    },
+    "lustig": {
+      "cefr": "A1"
+    },
+    "machen": {
+      "cefr": "A1"
+    },
+    "das Mädchen": {
+      "article": "das",
+      "plural": [
+        "Mädchen"
+      ],
+      "cefr": "A1"
+    },
+    "man": {
+      "cefr": "A1"
+    },
+    "der Mann": {
+      "article": "der",
+      "plural": [
+        "Männer"
+      ],
+      "cefr": "A1"
+    },
+    "männlich": {
+      "cefr": "A1"
+    },
+    "die Maschine": {
+      "article": "die",
+      "plural": [
+        "Maschinen"
+      ],
+      "cefr": "A1"
+    },
+    "das Meer": {
+      "article": "das",
+      "plural": [
+        "Meere"
+      ],
+      "cefr": "A1"
+    },
+    "mehr": {
+      "cefr": "A1"
+    },
+    "mein": {
+      "cefr": "A1"
+    },
+    "meist-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "der Mensch": {
+      "article": "der",
+      "plural": [
+        "Menschen"
+      ],
+      "cefr": "A1"
+    },
+    "mieten": {
+      "cefr": "A1"
+    },
+    "die Miete": {
+      "article": "die",
+      "plural": [
+        "Mieten"
+      ],
+      "cefr": "A1"
+    },
+    "die Milch": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "mit": {
+      "cefr": "A1"
+    },
+    "mitbringen": {
+      "cefr": "A1"
+    },
+    "mitkommen": {
+      "cefr": "A1"
+    },
+    "mitmachen": {
+      "cefr": "A1"
+    },
+    "mitnehmen": {
+      "cefr": "A1"
+    },
+    "die Mitte": {
+      "article": "die",
+      "plural": [
+        "Mitten"
+      ],
+      "cefr": "A1"
+    },
+    "die Möbel": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "möchten": {
+      "usage": "mögen의 접속법 2식으로 정중한 희망을 나타냅니다.",
+      "cefr": "A1"
+    },
+    "mögen": {
+      "cefr": "A1"
+    },
+    "möglich": {
+      "cefr": "A1"
+    },
+    "der Moment": {
+      "article": "der",
+      "plural": [
+        "Momente"
+      ],
+      "cefr": "A1"
+    },
+    "morgen": {
+      "cefr": "A1"
+    },
+    "müde": {
+      "cefr": "A1"
+    },
+    "der Mund": {
+      "article": "der",
+      "plural": [
+        "Münder"
+      ],
+      "cefr": "A1"
+    },
+    "müssen": {
+      "cefr": "A1"
+    },
+    "die Mutter": {
+      "article": "die",
+      "plural": [
+        "Mütter"
+      ],
+      "cefr": "A1"
+    },
+    "nach": {
+      "cefr": "A1"
+    },
+    "nächst-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "der Name": {
+      "article": "der",
+      "plural": [
+        "Namen"
+      ],
+      "cefr": "A1"
+    },
+    "nehmen": {
+      "cefr": "A1"
+    },
+    "nein": {
+      "cefr": "A1"
+    },
+    "neu": {
+      "cefr": "A1"
+    },
+    "nicht": {
+      "cefr": "A1"
+    },
+    "nichts": {
+      "cefr": "A1"
+    },
+    "nie": {
+      "cefr": "A1"
+    },
+    "noch": {
+      "cefr": "A1"
+    },
+    "normal": {
+      "cefr": "A1"
+    },
+    "die Nummer": {
+      "article": "die",
+      "plural": [
+        "Nummern"
+      ],
+      "cefr": "A1"
+    },
+    "nur": {
+      "cefr": "A1"
+    },
+    "oben": {
+      "cefr": "A1"
+    },
+    "das Obst": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "oder": {
+      "cefr": "A1"
+    },
+    "öffnen": {
+      "cefr": "A1"
+    },
+    "geöffnet": {
+      "cefr": "A1"
+    },
+    "oft": {
+      "cefr": "A1"
+    },
+    "ohne": {
+      "cefr": "A1"
+    },
+    "das Öl": {
+      "article": "das",
+      "plural": [
+        "Öle"
+      ],
+      "cefr": "A1"
+    },
+    "die Oma": {
+      "article": "die",
+      "plural": [
+        "Omas"
+      ],
+      "cefr": "A1"
+    },
+    "der Opa": {
+      "article": "der",
+      "plural": [
+        "Opas"
+      ],
+      "cefr": "A1"
+    },
+    "die Ordnung": {
+      "article": "die",
+      "plural": [
+        "Ordnungen"
+      ],
+      "cefr": "A1"
+    },
+    "der Ort": {
+      "article": "der",
+      "plural": [
+        "Orte"
+      ],
+      "cefr": "A1"
+    },
+    "das Papier": {
+      "article": "das",
+      "plural": [
+        "Papiere"
+      ],
+      "cefr": "A1"
+    },
+    "die Papiere": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "der Partner": {
+      "article": "der",
+      "plural": [
+        "Partner"
+      ],
+      "cefr": "A1"
+    },
+    "die Partnerin": {
+      "article": "die",
+      "plural": [
+        "Partnerinnen"
+      ],
+      "cefr": "A1"
+    },
+    "die Party": {
+      "article": "die",
+      "plural": [
+        "Partys"
+      ],
+      "cefr": "A1"
+    },
+    "der Pass": {
+      "article": "der",
+      "plural": [
+        "Pässe"
+      ],
+      "cefr": "A1"
+    },
+    "die Pause": {
+      "article": "die",
+      "plural": [
+        "Pausen"
+      ],
+      "cefr": "A1"
+    },
+    "der Plan": {
+      "article": "der",
+      "plural": [
+        "Pläne"
+      ],
+      "cefr": "A1"
+    },
+    "der Platz": {
+      "article": "der",
+      "plural": [
+        "Plätze"
+      ],
+      "cefr": "A1"
+    },
+    "die Polizei": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Pommes frites": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "die Post": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Postleitzahl": {
+      "article": "die",
+      "plural": [
+        "Postleitzahlen"
+      ],
+      "cefr": "A1"
+    },
+    "das Praktikum": {
+      "article": "das",
+      "plural": [
+        "Praktika"
+      ],
+      "cefr": "A1"
+    },
+    "die Praxis": {
+      "article": "die",
+      "plural": [
+        "Praxen"
+      ],
+      "cefr": "A1"
+    },
+    "der Preis": {
+      "article": "der",
+      "plural": [
+        "Preise"
+      ],
+      "cefr": "A1"
+    },
+    "das Problem": {
+      "article": "das",
+      "plural": [
+        "Probleme"
+      ],
+      "cefr": "A1"
+    },
+    "der Prospekt": {
+      "article": "der",
+      "plural": [
+        "Prospekte"
+      ],
+      "cefr": "A1"
+    },
+    "die Prüfung": {
+      "article": "die",
+      "plural": [
+        "Prüfungen"
+      ],
+      "cefr": "A1"
+    },
+    "pünktlich": {
+      "cefr": "A1"
+    },
+    "Rad fahren": {
+      "cefr": "A1"
+    },
+    "rauchen": {
+      "cefr": "A1"
+    },
+    "der Raum": {
+      "article": "der",
+      "plural": [
+        "Räume"
+      ],
+      "cefr": "A1"
+    },
+    "die Rechnung": {
+      "article": "die",
+      "plural": [
+        "Rechnungen"
+      ],
+      "cefr": "A1"
+    },
+    "rechts": {
+      "cefr": "A1"
+    },
+    "regnen": {
+      "cefr": "A1"
+    },
+    "der Regen": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "der Reis": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "reisen": {
+      "cefr": "A1"
+    },
+    "die Reise": {
+      "article": "die",
+      "plural": [
+        "Reisen"
+      ],
+      "cefr": "A1"
+    },
+    "das Reisebüro": {
+      "article": "das",
+      "plural": [
+        "Reisebüros"
+      ],
+      "cefr": "A1"
+    },
+    "der Reiseführer": {
+      "article": "der",
+      "plural": [
+        "Reiseführer"
+      ],
+      "cefr": "A1"
+    },
+    "reparieren": {
+      "cefr": "A1"
+    },
+    "die Reparatur": {
+      "article": "die",
+      "plural": [
+        "Reparaturen"
+      ],
+      "cefr": "A1"
+    },
+    "das Restaurant": {
+      "article": "das",
+      "plural": [
+        "Restaurants"
+      ],
+      "cefr": "A1"
+    },
+    "die Rezeption": {
+      "article": "die",
+      "plural": [
+        "Rezeptionen"
+      ],
+      "cefr": "A1"
+    },
+    "richtig": {
+      "cefr": "A1"
+    },
+    "riechen": {
+      "cefr": "A1"
+    },
+    "ruhig": {
+      "cefr": "A1"
+    },
+    "der Saft": {
+      "article": "der",
+      "plural": [
+        "Säfte"
+      ],
+      "cefr": "A1"
+    },
+    "sagen": {
+      "cefr": "A1"
+    },
+    "der Salat": {
+      "article": "der",
+      "plural": [
+        "Salate"
+      ],
+      "cefr": "A1"
+    },
+    "das Salz": {
+      "article": "das",
+      "plural": [
+        "Salze"
+      ],
+      "cefr": "A1"
+    },
+    "der Satz": {
+      "article": "der",
+      "plural": [
+        "Sätze"
+      ],
+      "cefr": "A1"
+    },
+    "die S-Bahn": {
+      "article": "die",
+      "plural": [
+        "S-Bahnen"
+      ],
+      "cefr": "A1"
+    },
+    "der Schalter": {
+      "article": "der",
+      "plural": [
+        "Schalter"
+      ],
+      "cefr": "A1"
+    },
+    "scheinen": {
+      "cefr": "A1"
+    },
+    "schicken": {
+      "cefr": "A1"
+    },
+    "das Schild": {
+      "article": "das",
+      "plural": [
+        "Schilder"
+      ],
+      "cefr": "A1"
+    },
+    "der Schinken": {
+      "article": "der",
+      "plural": [
+        "Schinken"
+      ],
+      "cefr": "A1"
+    },
+    "schlafen": {
+      "cefr": "A1"
+    },
+    "schlecht": {
+      "cefr": "A1"
+    },
+    "schließen": {
+      "cefr": "A1"
+    },
+    "geschlossen": {
+      "cefr": "A1"
+    },
+    "der Schluss": {
+      "article": "der",
+      "plural": [
+        "Schlüsse"
+      ],
+      "cefr": "A1"
+    },
+    "der Schlüssel": {
+      "article": "der",
+      "plural": [
+        "Schlüssel"
+      ],
+      "cefr": "A1"
+    },
+    "schmecken": {
+      "cefr": "A1"
+    },
+    "schnell": {
+      "cefr": "A1"
+    },
+    "schon": {
+      "cefr": "A1"
+    },
+    "schön": {
+      "cefr": "A1"
+    },
+    "der Schrank": {
+      "article": "der",
+      "plural": [
+        "Schränke"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "CH",
+        "D"
+      ]
+    },
+    "schreiben": {
+      "cefr": "A1"
+    },
+    "der Schuh": {
+      "article": "der",
+      "plural": [
+        "Schuhe"
+      ],
+      "cefr": "A1"
+    },
+    "die Schule": {
+      "article": "die",
+      "plural": [
+        "Schulen"
+      ],
+      "cefr": "A1"
+    },
+    "der Schüler": {
+      "article": "der",
+      "plural": [
+        "Schüler"
+      ],
+      "cefr": "A1"
+    },
+    "schwer": {
+      "cefr": "A1"
+    },
+    "die Schwester": {
+      "article": "die",
+      "plural": [
+        "Schwestern"
+      ],
+      "cefr": "A1"
+    },
+    "schwimmen": {
+      "cefr": "A1"
+    },
+    "das Schwimmbad": {
+      "article": "das",
+      "plural": [
+        "Schwimmbäder"
+      ],
+      "cefr": "A1"
+    },
+    "der See": {
+      "article": "der",
+      "plural": [
+        "Seen"
+      ],
+      "cefr": "A1"
+    },
+    "sehen": {
+      "cefr": "A1"
+    },
+    "die Sehenswürdigkeit": {
+      "article": "die",
+      "plural": [
+        "Sehenswürdigkeiten"
+      ],
+      "cefr": "A1"
+    },
+    "sehr": {
+      "cefr": "A1"
+    },
+    "sein": {
+      "cefr": "A1"
+    },
+    "weg sein": {
+      "cefr": "A1"
+    },
+    "zu sein": {
+      "cefr": "A1"
+    },
+    "seit": {
+      "cefr": "A1"
+    },
+    "selbstständig": {
+      "cefr": "A1"
+    },
+    "sich": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "sie / Sie": {
+      "cefr": "A1"
+    },
+    "sitzen": {
+      "cefr": "A1"
+    },
+    "so": {
+      "cefr": "A1"
+    },
+    "das Sofa": {
+      "article": "das",
+      "plural": [
+        "Sofas"
+      ],
+      "cefr": "A1"
+    },
+    "sofort": {
+      "cefr": "A1"
+    },
+    "der Sohn": {
+      "article": "der",
+      "plural": [
+        "Söhne"
+      ],
+      "cefr": "A1"
+    },
+    "sollen": {
+      "cefr": "A1"
+    },
+    "die Sonne": {
+      "article": "die",
+      "plural": [
+        "Sonnen"
+      ],
+      "cefr": "A1"
+    },
+    "spät": {
+      "cefr": "A1"
+    },
+    "später": {
+      "cefr": "A1"
+    },
+    "die Speisekarte": {
+      "article": "die",
+      "plural": [
+        "Speisekarten"
+      ],
+      "cefr": "A1"
+    },
+    "spielen": {
+      "cefr": "A1"
+    },
+    "der Sport": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Sprache": {
+      "article": "die",
+      "plural": [
+        "Sprachen"
+      ],
+      "cefr": "A1"
+    },
+    "sprechen": {
+      "cefr": "A1"
+    },
+    "die Stadt": {
+      "article": "die",
+      "plural": [
+        "Städte"
+      ],
+      "cefr": "A1"
+    },
+    "stehen": {
+      "cefr": "A1"
+    },
+    "die Stelle": {
+      "article": "die",
+      "plural": [
+        "Stellen"
+      ],
+      "cefr": "A1"
+    },
+    "stellen": {
+      "cefr": "A1"
+    },
+    "der Stock": {
+      "article": "der",
+      "plural": [
+        "Stockwerke",
+        "Stöcke"
+      ],
+      "cefr": "A1"
+    },
+    "die Straße": {
+      "article": "die",
+      "plural": [
+        "Straßen"
+      ],
+      "cefr": "A1"
+    },
+    "die Straßenbahn": {
+      "article": "die",
+      "plural": [
+        "Straßenbahnen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "studieren": {
+      "cefr": "A1"
+    },
+    "das Studium": {
+      "article": "das",
+      "plural": [
+        "Studien"
+      ],
+      "cefr": "A1"
+    },
+    "der Student": {
+      "article": "der",
+      "plural": [
+        "Studenten"
+      ],
+      "cefr": "A1"
+    },
+    "die Stunde": {
+      "article": "die",
+      "plural": [
+        "Stunden"
+      ],
+      "cefr": "A1"
+    },
+    "suchen": {
+      "cefr": "A1"
+    },
+    "tanzen": {
+      "cefr": "A1"
+    },
+    "die Tasche": {
+      "article": "die",
+      "plural": [
+        "Taschen"
+      ],
+      "cefr": "A1"
+    },
+    "das Taxi": {
+      "article": "das",
+      "plural": [
+        "Taxis"
+      ],
+      "cefr": "A1"
+    },
+    "der Tee": {
+      "article": "der",
+      "plural": [
+        "Tees"
+      ],
+      "cefr": "A1"
+    },
+    "der Teil": {
+      "article": "der",
+      "plural": [
+        "Teile"
+      ],
+      "cefr": "A1"
+    },
+    "telefonieren": {
+      "cefr": "A1"
+    },
+    "das Telefon": {
+      "article": "das",
+      "plural": [
+        "Telefone"
+      ],
+      "cefr": "A1"
+    },
+    "der Termin": {
+      "article": "der",
+      "plural": [
+        "Termine"
+      ],
+      "cefr": "A1"
+    },
+    "der Test": {
+      "article": "der",
+      "plural": [
+        "Tests"
+      ],
+      "cefr": "A1"
+    },
+    "teuer": {
+      "cefr": "A1"
+    },
+    "der Text": {
+      "article": "der",
+      "plural": [
+        "Texte"
+      ],
+      "cefr": "A1"
+    },
+    "das Thema": {
+      "article": "das",
+      "plural": [
+        "Themen"
+      ],
+      "cefr": "A1"
+    },
+    "das Ticket": {
+      "article": "das",
+      "plural": [
+        "Tickets"
+      ],
+      "cefr": "A1"
+    },
+    "der Tisch": {
+      "article": "der",
+      "plural": [
+        "Tische"
+      ],
+      "cefr": "A1"
+    },
+    "die Tochter": {
+      "article": "die",
+      "plural": [
+        "Töchter"
+      ],
+      "cefr": "A1"
+    },
+    "die Toilette": {
+      "article": "die",
+      "plural": [
+        "Toiletten"
+      ],
+      "cefr": "A1"
+    },
+    "die Tomate": {
+      "article": "die",
+      "plural": [
+        "Tomaten"
+      ],
+      "cefr": "A1"
+    },
+    "tot": {
+      "cefr": "A1"
+    },
+    "treffen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Treppe": {
+      "article": "die",
+      "plural": [
+        "Treppen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "CH",
+        "D"
+      ]
+    },
+    "trinken": {
+      "cefr": "A1"
+    },
+    "tschüss": {
+      "cefr": "A1"
+    },
+    "tun": {
+      "cefr": "A1"
+    },
+    "über": {
+      "cefr": "A1"
+    },
+    "übernachten": {
+      "cefr": "A1"
+    },
+    "überweisen": {
+      "cefr": "A1"
+    },
+    "die Uhr": {
+      "article": "die",
+      "plural": [
+        "Uhren"
+      ],
+      "cefr": "A1"
+    },
+    "um": {
+      "cefr": "A1"
+    },
+    "umziehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "und": {
+      "cefr": "A1"
+    },
+    "unser-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "unten": {
+      "cefr": "A1"
+    },
+    "unter": {
+      "cefr": "A1"
+    },
+    "der Unterricht": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "unterschreiben": {
+      "cefr": "A1"
+    },
+    "die Unterschrift": {
+      "article": "die",
+      "plural": [
+        "Unterschriften"
+      ],
+      "cefr": "A1"
+    },
+    "der Urlaub": {
+      "article": "der",
+      "plural": [
+        "Urlaube"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "der Vater": {
+      "article": "der",
+      "plural": [
+        "Väter"
+      ],
+      "cefr": "A1"
+    },
+    "verboten": {
+      "cefr": "A1"
+    },
+    "verdienen": {
+      "cefr": "A1"
+    },
+    "der Verein": {
+      "article": "der",
+      "plural": [
+        "Vereine"
+      ],
+      "cefr": "A1"
+    },
+    "verheiratet": {
+      "cefr": "A1"
+    },
+    "verkaufen": {
+      "cefr": "A1"
+    },
+    "der Verkäufer": {
+      "article": "der",
+      "plural": [
+        "Verkäufer"
+      ],
+      "cefr": "A1"
+    },
+    "vermieten": {
+      "cefr": "A1"
+    },
+    "der Vermieter": {
+      "article": "der",
+      "plural": [
+        "Vermieter"
+      ],
+      "cefr": "A1"
+    },
+    "verstehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "der Verwandte": {
+      "article": "der",
+      "plural": [
+        "Verwandten"
+      ],
+      "cefr": "A1"
+    },
+    "viel": {
+      "cefr": "A1"
+    },
+    "vielleicht": {
+      "cefr": "A1"
+    },
+    "von": {
+      "cefr": "A1"
+    },
+    "vor": {
+      "cefr": "A1"
+    },
+    "der Vorname": {
+      "article": "der",
+      "plural": [
+        "Vornamen"
+      ],
+      "cefr": "A1"
+    },
+    "die Vorsicht": {
+      "article": "die",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "vorstellen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Vorwahl": {
+      "article": "die",
+      "plural": [
+        "Vorwahlen"
+      ],
+      "cefr": "A1"
+    },
+    "wandern": {
+      "cefr": "A1"
+    },
+    "wann": {
+      "cefr": "A1"
+    },
+    "warten": {
+      "cefr": "A1"
+    },
+    "warum": {
+      "cefr": "A1"
+    },
+    "was": {
+      "cefr": "A1"
+    },
+    "was für ein": {
+      "cefr": "A1"
+    },
+    "waschen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "das Wasser": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "weh tun": {
+      "cefr": "A1"
+    },
+    "weiblich": {
+      "cefr": "A1"
+    },
+    "der Wein": {
+      "article": "der",
+      "plural": [
+        "Weine"
+      ],
+      "cefr": "A1"
+    },
+    "weit": {
+      "cefr": "A1"
+    },
+    "weiter": {
+      "cefr": "A1"
+    },
+    "welch-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "die Welt": {
+      "article": "die",
+      "plural": [
+        "Welten"
+      ],
+      "cefr": "A1"
+    },
+    "wenig": {
+      "cefr": "A1"
+    },
+    "wer": {
+      "cefr": "A1"
+    },
+    "werden": {
+      "cefr": "A1"
+    },
+    "das Wetter": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "wichtig": {
+      "cefr": "A1"
+    },
+    "wie": {
+      "cefr": "A1"
+    },
+    "wiederholen": {
+      "cefr": "A1"
+    },
+    "das Wiederhören": {
+      "article": "das",
+      "plural": [
+        "Wiederhören"
+      ],
+      "cefr": "A1"
+    },
+    "das Wiedersehen": {
+      "article": "das",
+      "plural": [
+        "Wiedersehen"
+      ],
+      "cefr": "A1"
+    },
+    "wie viel": {
+      "cefr": "A1"
+    },
+    "willkommen": {
+      "cefr": "A1"
+    },
+    "der Wind": {
+      "article": "der",
+      "plural": [
+        "Winde"
+      ],
+      "cefr": "A1"
+    },
+    "wir": {
+      "cefr": "A1"
+    },
+    "wissen": {
+      "cefr": "A1"
+    },
+    "wo": {
+      "cefr": "A1"
+    },
+    "woher": {
+      "cefr": "A1"
+    },
+    "wohin": {
+      "cefr": "A1"
+    },
+    "wohnen": {
+      "cefr": "A1"
+    },
+    "die Wohnung": {
+      "article": "die",
+      "plural": [
+        "Wohnungen"
+      ],
+      "cefr": "A1"
+    },
+    "wollen": {
+      "cefr": "A1"
+    },
+    "das Wort": {
+      "article": "das",
+      "plural": [
+        "Wörter",
+        "Worte"
+      ],
+      "cefr": "A1"
+    },
+    "wunderbar": {
+      "cefr": "A1"
+    },
+    "zahlen": {
+      "cefr": "A1"
+    },
+    "die Zeit": {
+      "article": "die",
+      "plural": [
+        "Zeiten"
+      ],
+      "cefr": "A1"
+    },
+    "zurzeit": {
+      "cefr": "A1"
+    },
+    "die Zeitung": {
+      "article": "die",
+      "plural": [
+        "Zeitungen"
+      ],
+      "cefr": "A1"
+    },
+    "die Zigarette": {
+      "article": "die",
+      "plural": [
+        "Zigaretten"
+      ],
+      "cefr": "A1"
+    },
+    "das Zimmer": {
+      "article": "das",
+      "plural": [
+        "Zimmer"
+      ],
+      "cefr": "A1"
+    },
+    "der Zoll": {
+      "article": "der",
+      "plural": [
+        "Zölle"
+      ],
+      "cefr": "A1"
+    },
+    "zu": {
+      "cefr": "A1"
+    },
+    "zufrieden": {
+      "cefr": "A1"
+    },
+    "der Zug": {
+      "article": "der",
+      "plural": [
+        "Züge"
+      ],
+      "cefr": "A1"
+    },
+    "zurück": {
+      "cefr": "A1"
+    },
+    "zusammen": {
+      "cefr": "A1"
+    },
+    "zwischen": {
+      "cefr": "A1"
+    },
+    "halb": {
+      "cefr": "A1"
+    },
+    "das Viertel": {
+      "article": "das",
+      "plural": [
+        "Viertel"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "eins": {
+      "cefr": "A1"
+    },
+    "zwei": {
+      "cefr": "A1"
+    },
+    "drei": {
+      "cefr": "A1"
+    },
+    "vier": {
+      "cefr": "A1"
+    },
+    "fünf": {
+      "cefr": "A1"
+    },
+    "sechs": {
+      "cefr": "A1"
+    },
+    "sieben": {
+      "cefr": "A1"
+    },
+    "acht": {
+      "cefr": "A1"
+    },
+    "neun": {
+      "cefr": "A1"
+    },
+    "zehn": {
+      "cefr": "A1"
+    },
+    "elf": {
+      "cefr": "A1"
+    },
+    "zwölf": {
+      "cefr": "A1"
+    },
+    "dreizehn": {
+      "cefr": "A1"
+    },
+    "vierzehn": {
+      "cefr": "A1"
+    },
+    "fünfzehn": {
+      "cefr": "A1"
+    },
+    "sechzehn": {
+      "cefr": "A1"
+    },
+    "siebzehn": {
+      "cefr": "A1"
+    },
+    "achtzehn": {
+      "cefr": "A1"
+    },
+    "neunzehn": {
+      "cefr": "A1"
+    },
+    "zwanzig": {
+      "cefr": "A1"
+    },
+    "einundzwanzig": {
+      "cefr": "A1"
+    },
+    "dreißig": {
+      "cefr": "A1"
+    },
+    "vierzig": {
+      "cefr": "A1"
+    },
+    "fünfzig": {
+      "cefr": "A1"
+    },
+    "sechzig": {
+      "cefr": "A1"
+    },
+    "siebzig": {
+      "cefr": "A1"
+    },
+    "achtzig": {
+      "cefr": "A1"
+    },
+    "neunzig": {
+      "cefr": "A1"
+    },
+    "hundert": {
+      "cefr": "A1"
+    },
+    "hunderteins": {
+      "cefr": "A1"
+    },
+    "zweihundert": {
+      "cefr": "A1"
+    },
+    "tausend": {
+      "cefr": "A1"
+    },
+    "die Million": {
+      "article": "die",
+      "plural": [
+        "Millionen"
+      ],
+      "cefr": "A1"
+    },
+    "erste": {
+      "cefr": "A1"
+    },
+    "zweite": {
+      "cefr": "A1"
+    },
+    "dritte": {
+      "cefr": "A1"
+    },
+    "vierte": {
+      "cefr": "A1"
+    },
+    "die Milliarde": {
+      "article": "die",
+      "plural": [
+        "Milliarden"
+      ],
+      "cefr": "A1"
+    },
+    "der Tag": {
+      "article": "der",
+      "plural": [
+        "Tage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Morgen": {
+      "article": "der",
+      "plural": [
+        "Morgen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Vormittag": {
+      "article": "der",
+      "plural": [
+        "Vormittage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Mittag": {
+      "article": "der",
+      "plural": [
+        "Mittage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Nachmittag": {
+      "article": "der",
+      "plural": [
+        "Nachmittage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Abend": {
+      "article": "der",
+      "plural": [
+        "Abende"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Nacht": {
+      "article": "die",
+      "plural": [
+        "Nächte"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Januar": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Februar": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der März": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der April": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Mai": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Juni": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Juli": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der August": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der September": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Oktober": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der November": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Dezember": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "die Sekunde": {
+      "article": "die",
+      "plural": [
+        "Sekunden"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Minute": {
+      "article": "die",
+      "plural": [
+        "Minuten"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Woche": {
+      "article": "die",
+      "plural": [
+        "Wochen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Jahr": {
+      "article": "das",
+      "plural": [
+        "Jahre"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Wochentag": {
+      "article": "der",
+      "plural": [
+        "Wochentage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Sonntag": {
+      "article": "der",
+      "plural": [
+        "Sonntage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Montag": {
+      "article": "der",
+      "plural": [
+        "Montage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Dienstag": {
+      "article": "der",
+      "plural": [
+        "Dienstage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Mittwoch": {
+      "article": "der",
+      "plural": [
+        "Mittwoche"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Donnerstag": {
+      "article": "der",
+      "plural": [
+        "Donnerstage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Freitag": {
+      "article": "der",
+      "plural": [
+        "Freitage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Samstag": {
+      "article": "der",
+      "plural": [
+        "Samstage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Wochenende": {
+      "article": "das",
+      "plural": [
+        "Wochenenden"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "am Wochenende": {
+      "cefr": "A1"
+    },
+    "der Sonnabend": {
+      "article": "der",
+      "plural": [
+        "Sonnabende"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Frühling": {
+      "article": "der",
+      "plural": [
+        "Frühlinge"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Frühjahr": {
+      "article": "das",
+      "plural": [
+        "Frühjahre"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Sommer": {
+      "article": "der",
+      "plural": [
+        "Sommer"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Herbst": {
+      "article": "der",
+      "plural": [
+        "Herbste"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Winter": {
+      "article": "der",
+      "plural": [
+        "Winter"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "schwarz": {
+      "cefr": "A1"
+    },
+    "grau": {
+      "cefr": "A1"
+    },
+    "blau": {
+      "cefr": "A1"
+    },
+    "grün": {
+      "cefr": "A1"
+    },
+    "weiß": {
+      "cefr": "A1"
+    },
+    "rot": {
+      "cefr": "A1"
+    },
+    "gelb": {
+      "cefr": "A1"
+    },
+    "braun": {
+      "cefr": "A1"
+    },
+    "der Norden": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Süden": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Westen": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Osten": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Euro": {
+      "article": "der",
+      "plural": [
+        "Euro",
+        "Euros"
+      ],
+      "cefr": "A1"
+    },
+    "der Cent": {
+      "article": "der",
+      "plural": [
+        "Cent",
+        "Cents"
+      ],
+      "usage": "숫자 뒤의 화폐 단위는 보통 Cent로 씁니다.",
+      "cefr": "A1"
+    },
+    "der Meter": {
+      "article": "der",
+      "plural": [
+        "Meter"
+      ],
+      "cefr": "A1"
+    },
+    "der Zentimeter": {
+      "article": "der",
+      "plural": [
+        "Zentimeter"
+      ],
+      "cefr": "A1"
+    },
+    "der Kilometer": {
+      "article": "der",
+      "plural": [
+        "Kilometer"
+      ],
+      "cefr": "A1"
+    },
+    "das Prozent": {
+      "article": "das",
+      "plural": [
+        "Prozente"
+      ],
+      "cefr": "A1"
+    },
+    "der Liter": {
+      "article": "der",
+      "plural": [
+        "Liter"
+      ],
+      "cefr": "A1"
+    },
+    "das Gramm": {
+      "article": "das",
+      "plural": [
+        "Gramm"
+      ],
+      "cefr": "A1"
+    },
+    "das Kilogramm": {
+      "article": "das",
+      "plural": [
+        "Kilogramm"
+      ],
+      "cefr": "A1"
+    },
+    "der Quadratmeter": {
+      "article": "der",
+      "plural": [
+        "Quadratmeter"
+      ],
+      "cefr": "A1"
+    },
+    "das Pfund": {
+      "article": "das",
+      "plural": [
+        "Pfund"
+      ],
+      "cefr": "A1"
+    },
+    "Deutschland": {
+      "cefr": "A1"
+    },
+    "der Deutsche": {
+      "article": "der",
+      "plural": [
+        "Deutschen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Deutsche": {
+      "article": "die",
+      "plural": [
+        "Deutschen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "Deutsch / deutsch": {
+      "cefr": "A1"
+    },
+    "Europa": {
+      "cefr": "A1"
+    },
+    "der Europäer": {
+      "article": "der",
+      "plural": [
+        "Europäer"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Europäerin": {
+      "article": "die",
+      "plural": [
+        "Europäerinnen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "europäisch": {
+      "cefr": "A1"
+    },
+    "die Türkei": {
+      "article": "die",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Türke": {
+      "article": "der",
+      "plural": [
+        "Türken"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Türkin": {
+      "article": "die",
+      "plural": [
+        "Türkinnen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "Türkisch / türkisch": {
+      "cefr": "A1"
+    },
+    "Finnland": {
+      "cefr": "A1"
+    },
+    "der Finne": {
+      "article": "der",
+      "plural": [
+        "Finnen"
+      ],
+      "cefr": "A1"
+    },
+    "die Finnin": {
+      "article": "die",
+      "plural": [
+        "Finninnen"
+      ],
+      "cefr": "A1"
+    },
+    "Finnisch / finnisch": {
+      "cefr": "A1"
+    },
+    "Mexiko": {
+      "cefr": "A1"
+    },
+    "der Mexikaner": {
+      "article": "der",
+      "plural": [
+        "Mexikaner"
+      ],
+      "cefr": "A1"
+    },
+    "die Mexikanerin": {
+      "article": "die",
+      "plural": [
+        "Mexikanerinnen"
+      ],
+      "cefr": "A1"
+    },
+    "mexikanisch": {
+      "cefr": "A1"
+    },
+    "du": {
+      "cefr": "A1"
+    },
+    "mich": {
+      "cefr": "A1"
+    },
+    "mir": {
+      "cefr": "A1"
+    },
+    "uns": {
+      "cefr": "A1"
+    },
+    "euch": {
+      "cefr": "A1"
+    },
+    "ihnen / Ihnen": {
+      "cefr": "A1"
+    }
+  }
+}
