@@ -23,8 +23,8 @@
           "Subject: April 18 planning session"
         ],
         "body": [
-          "I would like to reserve space for our neighborhood archive committee on April 18. Twelve volunteers have confirmed that they will attend, and we will need the afternoon session. We plan to review photographs on a large screen, so I was pleased to see that the necessary equipment is included. We have no special seating requirements beyond a chair for each participant.",
-          "Please send a payment link today so that I can complete the reservation immediately. Our treasurer has authorized the room expense, but we cannot spend anything extra on refreshments. I believe our booking date qualifies us for your advance reservation benefit. Each volunteer will bring a sandwich, and we will remove our food containers before leaving. Could you also tell me whether the screen accepts a connection from my laptop? I can bring an adapter if needed. Please reply by email, since I will be away from my telephone for most of tomorrow."
+          "I would like to reserve space for our regional sales planning team on April 18. Twelve account managers have confirmed that they will attend, and we will need the afternoon session. We plan to review product demonstrations on a large screen, so I was pleased to see that the necessary equipment is included. We have no special seating requirements beyond a chair for each participant.",
+          "Please send a payment link today so that I can complete the reservation immediately. Our finance manager has authorized the room expense, but we cannot spend anything extra on refreshments. Could you tell me whether any refreshments are included with our booking? Rina plans to bring a portable grill to warm her sandwiches; Teo will bring a cold salad, Vera will bring fruit, and I will bring ready-made sandwiches. We will remove all food containers before leaving. Could you also tell me whether the screen accepts a connection from my laptop? I can bring an adapter if needed. Please reply by email, since I will be away from my telephone for most of tomorrow."
         ]
       }
     ],
@@ -46,8 +46,8 @@
           "제목: 4월 18일 기획 회의"
         ],
         "body": [
-          "4월 18일 지역 기록 보관 위원회의 공간을 예약하고 싶습니다. 자원봉사자 12명이 참석을 확정했고 오후 시간이 필요합니다. 큰 화면으로 사진들을 검토할 예정이므로 필요한 장비가 포함된다는 점이 반갑습니다. 참가자마다 의자 하나가 있는 것 외에는 특별한 좌석 요건이 없습니다.",
-          "바로 예약을 완료할 수 있도록 오늘 결제 링크를 보내 주십시오. 회계 담당자는 대관료를 승인했지만 다과에 추가로 쓸 돈은 없습니다. 예약 날짜가 사전 예약 혜택 조건에 해당한다고 생각합니다. 각자 샌드위치를 가져오고 떠나기 전에 음식 용기를 치우겠습니다. 화면을 제 노트북에 연결할 수 있는지도 알려 주시겠습니까? 필요하면 어댑터를 가져오겠습니다. 내일 대부분의 시간에 전화를 받을 수 없으니 이메일로 답해 주십시오."
+          "4월 18일 지역 영업 기획팀의 공간을 예약하고 싶습니다. 거래처 담당자 12명이 참석을 확정했고 오후 시간이 필요합니다. 큰 화면으로 제품 시연을 검토할 예정이므로 필요한 장비가 포함된다는 점이 반갑습니다. 참가자마다 의자 하나가 있는 것 외에는 특별한 좌석 요건이 없습니다.",
+          "바로 예약을 완료할 수 있도록 오늘 결제 링크를 보내 주십시오. 재무 관리자가 대관료를 승인했지만 다과에 추가로 쓸 돈은 없습니다. 예약에 다과가 포함되는지 알려 주십시오. 리나는 샌드위치를 데울 휴대용 그릴을, 테오는 차가운 샐러드를, 베라는 과일을, 저는 미리 만든 샌드위치를 가져오려 합니다. 떠나기 전 음식 용기는 모두 치우겠습니다. 화면에 제 노트북을 연결할 수 있는지도 알려 주십시오. 필요하면 어댑터를 가져오겠습니다. 내일 대부분 전화를 받을 수 없어 이메일로 답해 주십시오."
         ]
       }
     ],
@@ -58,7 +58,7 @@
         "choices": [
           "A shared dining membership",
           "Short-term meeting space",
-          "A photography course",
+          "A monthly coworking membership",
           "A bookstore opening"
         ],
         "answer": 1,
@@ -67,7 +67,7 @@
           "choices": [
             "공동 식사 회원권",
             "단기 회의 공간",
-            "사진 강좌",
+            "월 단위 공동 사무공간 회원권",
             "서점 개점"
           ]
         },
@@ -98,7 +98,7 @@
         "type": "inference",
         "q": "Which room should Ms. Fenwick reserve?",
         "choices": [
-          "The archive office",
+          "The sales office",
           "Cedar",
           "The bookstore meeting area",
           "Willow"
@@ -107,7 +107,7 @@
         "ko": {
           "q": "펜윅 씨는 어느 방을 예약해야 하는가?",
           "choices": [
-            "기록 보관 사무실",
+            "영업 사무실",
             "시더룸",
             "서점 회의 공간",
             "윌로룸"
@@ -118,31 +118,31 @@
       },
       {
         "type": "inference",
-        "q": "What refreshment can the committee receive without an extra payment?",
+        "q": "Whose proposed lunch arrangement conflicts with Merevale’s rules?",
         "choices": [
-          "Coffee service",
-          "A cooked lunch",
-          "Prepared sandwiches",
-          "Bottled juice"
+          "Rina",
+          "Teo",
+          "Vera",
+          "Lila Fenwick"
         ],
         "answer": 0,
         "ko": {
-          "q": "위원회가 추가 지불 없이 받을 수 있는 다과는 무엇인가?",
+          "q": "메어베일 규정과 맞지 않는 점심 계획을 세운 사람은 누구인가?",
           "choices": [
-            "커피 제공",
-            "조리된 점심",
-            "준비된 샌드위치",
-            "병 주스"
+            "리나",
+            "테오",
+            "베라",
+            "라일라 펜윅"
           ]
         },
-        "explain": "4월 8일에 18일 회의를 예약하므로 광고의 최소 7일 전 예약 조건을 충족하여 커피가 무료다. 샌드위치는 각자 가져온다.",
+        "explain": "광고는 준비된 음식 반입은 허용하지만 조리 기구는 금지한다. 이메일에서 휴대용 그릴을 가져오려는 사람은 리나이므로 날짜가 아닌 반입 규칙과 개인 계획을 연결해야 한다.",
         "crossRef": true
       },
       {
         "type": "detail",
         "q": "What does Ms. Fenwick ask the office to clarify?",
         "choices": [
-          "Whether volunteers may attend",
+          "Whether employees may attend",
           "Whether the morning session is longer",
           "Whether a bookstore sells adapters",
           "Whether her laptop can connect to the screen"
@@ -151,7 +151,7 @@
         "ko": {
           "q": "펜윅 씨는 무엇을 확인해 달라고 요청하는가?",
           "choices": [
-            "자원봉사자의 참석 가능 여부",
+            "직원의 참석 가능 여부",
             "오전 시간대가 더 긴지 여부",
             "서점의 어댑터 판매 여부",
             "노트북과 화면의 연결 가능 여부"
@@ -168,48 +168,48 @@
     "passages": [
       {
         "type": "notice",
-        "title": "Elmreach Bicycle Workshop",
+        "title": "Elmreach Logistics: Scanner Training",
         "heading": [],
         "body": [
-          "The Elmreach Community Workshop will hold a bicycle maintenance morning on June 14. Participants will learn how to adjust brakes and replace an inner tube under the guidance of volunteer mechanics. The event is intended for adults who want to maintain their own bicycles, rather than for people seeking a professional repair service. Everyone should bring a bicycle in working condition and wear clothing that can get dirty.",
-          "The workshop offers two sessions: an introductory class at nine and an experienced riders class at eleven. People who have never removed a wheel should choose the earlier session. Each class is limited to ten participants. A registration is confirmed only when the workshop sends a reply containing a booking number. The fee is $15, payable in cash on arrival. Tools are supplied, but replacement parts are charged separately. Anyone requiring a new inner tube should state the tire size in the registration message so that volunteers can reserve the appropriate part."
+          "Elmreach Logistics is introducing handheld scanners at its distribution centers. Before using the new devices during a shift, warehouse employees must complete a practical training session on June 14. Trainers will demonstrate how to record an incoming carton, correct a mistaken scan, and synchronize stored records with the inventory system. The session concerns accurate stock recording, not the repair of damaged equipment. Employees should bring their assigned scanner with its battery fully charged.",
+          "Two sessions are available: an introductory class at nine and an advanced class at eleven. Employees who have never synchronized a scanner must attend the introductory class, even if they already scan cartons regularly. Each session has ten places. A reply that includes a reference number confirms a place; an automatic acknowledgment, which has no number, does not. Supervisors cover the training cost. Employees may request a spare battery charged to their department, but should specify their scanner model so trainers can reserve a compatible unit. Department managers must approve any accessory purchase."
         ]
       },
       {
         "type": "email",
         "title": "Registration reply",
         "heading": [
-          "To: Elmreach Community Workshop",
+          "To: Elmreach training desk",
           "From: Oren Bellis",
           "Date: June 4",
-          "Subject: Maintenance morning"
+          "Subject: Scanner training"
         ],
         "body": [
-          "Thank you for sending booking number E42. I am writing to provide the information you requested about my bicycle. Although I ride to the office most days, I have always taken it to a shop when something needs fixing. I have never taken a wheel off and would prefer to start with the simplest procedures. My current tire is marked 700 by 32, and I would like you to set aside a compatible inner tube.",
-          "I understand that the class fee does not cover this part. Please let me know its price before the event so that I can bring enough cash for everything. My colleague initially wanted to come with me, but she will be visiting a client that morning, so only my existing place is required. I will arrive fifteen minutes before the session begins. I am looking forward to learning skills that will make my daily commute more dependable."
+          "Thank you for your reply with reference number E42. I am writing to supply the requested information about my equipment. I scan incoming cartons every day, but a colleague has always uploaded the stored records for me. I have never synchronized the device myself, and I want to learn the correct procedure before our next stock count. My scanner is model R8. Please keep a compatible spare battery for me.",
+          "My department manager has approved the accessory purchase, but asked me to confirm its price before she creates the purchase order. Please send that amount directly to me. My colleague had hoped to attend too, but he has been assigned to a customer delivery that morning. I plan to arrive fifteen minutes before the session begins so I can check that the device connects to your training network. I will bring its charging cable in case the battery needs topping up."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "엘름리치 자전거 정비 교실",
+        "title": "엘름리치 물류 스캐너 교육",
         "heading": [],
         "body": [
-          "엘름리치 지역 작업장은 6월 14일 오전 자전거 정비 교실을 연다. 참가자는 자원봉사 정비사의 지도 아래 브레이크 조절과 내부 튜브 교체를 배운다. 전문 수리 서비스를 찾는 사람보다 자기 자전거를 관리하려는 성인이 대상이다. 작동하는 자전거를 가져오고 더러워져도 되는 옷을 입어야 한다.",
-          "오전 9시 입문반과 11시 경험자반이 있다. 바퀴를 분리한 적이 없다면 이른 반을 선택해야 한다. 각 반은 10명으로 제한한다. 예약 번호가 담긴 답장을 받아야 등록이 확정된다. 참가비 15달러는 도착 시 현금으로 낸다. 도구는 제공하지만 교체 부품은 별도다. 새 내부 튜브가 필요하면 등록 메시지에 타이어 크기를 적어 자원봉사자가 맞는 부품을 확보할 수 있게 해야 한다."
+          "엘름리치 물류는 물류센터에 휴대용 스캐너를 도입한다. 창고 직원은 근무 중 새 장비를 쓰기 전에 6월 14일 실습을 마쳐야 한다. 입고 상자 기록, 잘못된 스캔 수정, 저장 기록과 재고 시스템 동기화를 배운다. 고장 장비 수리가 아닌 정확한 재고 기록 교육이다. 배터리를 충전한 지급 스캐너를 가져와야 한다.",
+          "오전 9시 입문반과 11시 고급반이 있다. 평소 상자를 스캔하더라도 동기화한 적이 없다면 입문반을 들어야 한다. 반별 정원은 10명이다. 예약 참조 번호가 포함된 답장은 자리를 확정하지만 번호 없는 자동 접수 알림은 확정이 아니다. 교육비는 상사가 부담한다. 부서 비용으로 여분 배터리를 요청할 수 있지만 호환품 확보를 위해 모델을 밝혀야 한다. 부서장이 부속품 구매를 승인해야 한다."
         ]
       },
       {
-        "title": "등록 답신",
+        "title": "교육 신청 답신",
         "heading": [
-          "수신: 엘름리치 지역 작업장",
+          "수신: 엘름리치 교육실",
           "발신: 오런 벨리스",
           "날짜: 6월 4일",
-          "제목: 정비 교실"
+          "제목: 스캐너 교육"
         ],
         "body": [
-          "예약 번호 E42를 보내 주셔서 감사합니다. 요청하신 자전거 정보를 보내 드립니다. 거의 매일 자전거로 출근하지만 수리가 필요하면 항상 가게에 맡겼습니다. 바퀴를 분리한 적은 없으므로 가장 간단한 작업부터 시작하고 싶습니다. 현재 타이어에는 700 곱하기 32라고 적혀 있으며, 호환되는 내부 튜브를 확보해 주셨으면 합니다.",
-          "참가비에 이 부품은 포함되지 않는 것으로 이해합니다. 전체 비용을 충분히 현금으로 가져갈 수 있도록 행사 전에 부품 가격을 알려 주십시오. 동료도 처음에는 함께 오려고 했지만 그날 오전 고객을 방문하므로 제 기존 자리만 필요합니다. 수업 시작 15분 전에 도착하겠습니다. 일상 통근을 더 안정적으로 만들어 줄 기술을 배우기를 기대합니다."
+          "참조 번호 E42가 있는 답장 감사합니다. 요청하신 장비 정보를 보냅니다. 매일 입고 상자를 스캔하지만 저장 기록 업로드는 동료가 했습니다. 직접 동기화한 적이 없어 다음 재고 조사 전에 절차를 배우고 싶습니다. 모델은 R8이며 호환 예비 배터리를 확보해 주십시오.",
+          "부서장이 부속품 구매를 승인했지만 발주서를 만들기 전에 가격을 확인하라고 했습니다. 금액을 제게 직접 보내 주십시오. 동료도 참석하려 했지만 그날 오전 고객 배송을 맡았습니다. 장비가 교육 네트워크에 연결되는지 확인하려고 시작 15분 전에 도착할 계획입니다. 배터리 충전이 필요할 수 있어 충전선도 가져가겠습니다."
         ]
       }
     ],
@@ -218,22 +218,22 @@
         "type": "purpose",
         "q": "What is the main purpose of the notice?",
         "choices": [
-          "To hire professional mechanics",
-          "To announce a bicycle sale",
-          "To advertise practical instruction",
-          "To explain a commuting survey"
+          "To announce a new repair service",
+          "To revise warehouse staffing levels",
+          "To explain required equipment training",
+          "To report the results of a stock count"
         ],
         "answer": 2,
         "ko": {
           "q": "공지의 주된 목적은 무엇인가?",
           "choices": [
-            "전문 정비사를 채용하는 것",
-            "자전거 판매를 알리는 것",
-            "실습 교육을 홍보하는 것",
-            "통근 설문을 설명하는 것"
+            "새 수리 서비스를 알리는 것",
+            "창고 인력 수준을 변경하는 것",
+            "필수 장비 교육을 설명하는 것",
+            "재고 조사 결과를 보고하는 것"
           ]
         },
-        "explain": "공지 첫 문단은 직접 브레이크 조절과 튜브 교체를 배우는 행사다. 전문 수리 서비스가 목적은 아니라고 밝힌다."
+        "explain": "첫 문단은 새 스캐너 사용 전 필요한 실습을 안내한다. 재고 조사 결과나 수리 서비스 공지가 아니다."
       },
       {
         "type": "synonym",
@@ -254,7 +254,7 @@
             "따로 확보하다"
           ]
         },
-        "explain": "공지 2문단에서 적절한 부품을 참가자용으로 미리 확보한다는 뜻이다. 수리하는 작업 자체를 가리키지 않는다.",
+        "explain": "공지 2문단은 호환 배터리를 미리 확보한다는 의미로 reserve를 쓴다. 수리나 결제를 뜻하지 않는다.",
         "ref": {
           "passage": 0,
           "paragraph": 1
@@ -279,51 +279,51 @@
             "오전 8시 45분"
           ]
         },
-        "explain": "바퀴를 분리한 적이 없다는 이메일과 9시 입문반이라는 공지를 결합하면 15분 전인 8시 45분이다. 10시 45분은 경험자반 기준이다.",
+        "explain": "이메일에서 동기화를 해 본 적이 없다고 하므로 공지의 9시 입문반을 들어야 한다. 15분 전 도착 계획을 적용하면 8시 45분이다.",
         "crossRef": true
       },
       {
         "type": "inference",
-        "q": "What is established about Mr. Bellis’s registration?",
+        "q": "What does reference E42 indicate about Mr. Bellis?",
         "choices": [
-          "He still needs a booking number",
-          "His replacement part is free",
-          "His colleague has a reserved place",
-          "His place has been confirmed"
+          "He must submit another application",
+          "His battery has already been paid for",
+          "His colleague has been registered",
+          "His training place is confirmed"
         ],
         "answer": 3,
         "ko": {
-          "q": "벨리스 씨의 등록에 관해 확인되는 것은 무엇인가?",
+          "q": "참조 번호 E42는 벨리스 씨에 관해 무엇을 나타내는가?",
           "choices": [
-            "아직 예약 번호가 필요하다",
-            "교체 부품이 무료다",
-            "동료의 자리가 예약되었다",
-            "그의 자리가 확정되었다"
+            "신청서를 다시 내야 한다",
+            "배터리 대금이 이미 지급되었다",
+            "동료가 등록되었다",
+            "교육 자리가 확정되었다"
           ]
         },
-        "explain": "공지는 예약 번호를 받아야 확정이라고 하고 이메일은 E42를 받았다고 한다. 부품 가격은 별도로 물었다.",
+        "explain": "공지는 참조 번호가 있는 답장만 자리를 확정하며 자동 알림에는 번호가 없다고 한다. 이메일의 E42는 그 번호이므로 공지의 규칙과 연결해야 예약 확정임을 알 수 있다.",
         "crossRef": true
       },
       {
         "type": "detail",
         "q": "What information does Mr. Bellis request?",
         "choices": [
-          "The cost of the replacement tube",
-          "The location of a client’s office",
-          "The size of the class tools",
-          "The name of his colleague’s instructor"
+          "The price of an additional battery",
+          "The location of a customer delivery",
+          "The number of available scanners",
+          "The results of the next stock count"
         ],
         "answer": 0,
         "ko": {
           "q": "벨리스 씨가 요청하는 정보는 무엇인가?",
           "choices": [
-            "교체 튜브 가격",
-            "고객 사무실 위치",
-            "수업 도구 크기",
-            "동료의 강사 이름"
+            "추가 배터리 가격",
+            "고객 배송 위치",
+            "이용 가능한 스캐너 수",
+            "다음 재고 조사 결과"
           ]
         },
-        "explain": "이메일 2문단에서 충분한 현금을 가져가기 위해 부품 가격을 묻는다. 도구는 공지에 제공된다고 되어 있다."
+        "explain": "이메일에서 부서장이 발주하기 전에 확인할 배터리 가격을 요청한다. 장비 수량이나 재고 조사 결과가 아니다."
       }
     ]
   },
@@ -333,12 +333,16 @@
     "setType": "double",
     "passages": [
       {
-        "type": "article",
-        "title": "Old Mill Reading Room Finds New Purpose",
-        "heading": [],
+        "type": "memo",
+        "title": "Larton Engineering Opens a Technical Resource Room",
+        "heading": [
+          "To: Engineering staff and project contributors",
+          "From: Larton Facilities",
+          "Subject: Technical resource room"
+        ],
         "body": [
-          "The former grain office beside the Old Mill canal will reopen this autumn as a reading room devoted to local history. Unlike the central library, the new facility will not lend materials. Its collection includes fragile maps and handwritten journals that must remain inside the building. Visitors will be able to request digital copies of selected pages after staff check their condition and any restrictions placed on them by donors.",
-          "Restoration has been financed by the Larton Heritage Association, which owns the building. Public opening is planned for October 6, but a preview for contributors will take place on September 29. Association members who donated documents will receive invitations automatically. Other contributors should contact the project office with a description of their contribution. The organizers particularly want to hear from craftspeople whose work may not appear in the financial records. The room will initially open on afternoons only while volunteers complete training. A schedule of evening lectures will be announced after the first month of operation."
+          "Larton Engineering will open a technical resource room this autumn in its former records office. Unlike the company’s general lending collection, the new facility will not lend materials. Its collection includes original product drawings and handwritten test logs that must remain inside the building. Visitors will be able to request digital copies of selected pages after staff check their condition and any restrictions placed on them by project owners.",
+          "The company’s engineering division has funded the conversion to support product development teams. General staff access is planned for October 6, but a preview for contributors will take place on September 29. Current employees who contributed technical records will receive invitations automatically. External contractors who contributed to the project should contact the project office with a description of their contribution. The organizers particularly want to hear from specialist contractors whose work may not appear in the project register. The room will initially open on afternoons only while document controllers complete training. A schedule of technical briefings will be announced after the first month of operation."
         ]
       },
       {
@@ -347,21 +351,25 @@
         "heading": [
           "From: Mina Voss",
           "Date: September 12",
-          "Regarding: Reading room preview"
+          "Regarding: Resource room preview"
         ],
         "body": [
-          "I was delighted to read the recent article about the restored grain office. Last spring I repaired the wooden drawers that will hold your map collection. I provided the labor without charge, but I have never belonged to the heritage association and did not contribute any historical documents. Since my name would not appear on an invoice, I thought I should write to explain my involvement.",
-          "I would appreciate an opportunity to see the completed room before it opens to the public. My sister, who originally recommended me for the repair work, would like to accompany me if guests are allowed. Please tell me how many places you can offer and whether there is a starting time for the preview. I have also found an old canal photograph among my family papers. I am not ready to donate the original, but I would be happy to discuss lending it temporarily for an exhibition. Please contact me at the return address printed on this envelope."
+          "I was delighted to read the recent memo about the new resource room. Last spring I repaired the wooden drawers that will hold your drawing collection. My business invoiced the work under our annual maintenance contract. I am not an employee of your company and did not contribute any technical records. The repaired drawers were collected by your maintenance team before work began on the rest of the room.",
+          "I would appreciate an opportunity to see the completed room before general staff access begins. My sister, who originally recommended me for the repair work, would like to accompany me if guests are allowed. Please tell me how many places you can offer and whether there is a starting time for the preview. I have also found a photograph of an early assembly line in my business files. I am not ready to donate the original, but I would be happy to discuss lending it temporarily for an exhibition. Please contact me at the return address printed on this envelope."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "옛 제분소 독서실의 새 용도",
-        "heading": [],
+        "title": "라턴 엔지니어링 기술 자료실 개설",
+        "heading": [
+          "수신: 기술 직원과 사업 기여자",
+          "발신: 라턴 시설실",
+          "제목: 기술 자료실"
+        ],
         "body": [
-          "올드밀 운하 옆 옛 곡물 사무실은 올가을 지역사 독서실로 다시 문을 연다. 중앙 도서관과 달리 자료를 대출하지 않는다. 훼손되기 쉬운 지도와 손으로 쓴 일기는 건물 안에 보관해야 한다. 직원이 상태와 기증자의 제한 조건을 확인하면 방문자는 일부 페이지의 디지털 사본을 요청할 수 있다.",
-          "건물 소유주인 라턴 유산 협회가 복원 비용을 댔다. 일반 개관은 10월 6일 예정이며 기여자 사전 공개는 9월 29일이다. 자료를 기증한 협회 회원은 자동으로 초청받는다. 그 밖의 기여자는 기여 내용을 적어 사업 사무실에 연락해야 한다. 특히 재무 기록에 작업이 남지 않을 수 있는 장인들의 연락을 원한다. 자원봉사 교육이 끝날 때까지 처음에는 오후에만 운영한다. 저녁 강연 일정은 운영 첫 달 이후 발표한다."
+          "라턴 엔지니어링은 올가을 옛 기록 사무실에 기술 자료실을 연다. 회사의 일반 대출 자료와 달리 이곳 자료는 대출하지 않는다. 원본 제품 도면과 손으로 쓴 시험 기록은 건물 안에 보관해야 한다. 직원이 상태와 사업 담당자의 제한을 확인하면 일부 페이지의 디지털 사본을 요청할 수 있다.",
+          "기술 부서가 제품 개발팀 지원을 위한 전환 비용을 댔다. 일반 직원 이용은 10월 6일, 기여자 사전 공개는 9월 29일이다. 기술 기록을 제공한 현직 직원은 자동 초청한다. 외부 기여 계약업자는 기여 내용을 사업 사무실에 알려야 한다. 특히 사업 명부에 작업이 없을 수 있는 전문 계약업자의 연락을 원한다. 문서 관리 담당자의 교육이 끝날 때까지 오후에만 운영하며 첫 달 이후 기술 설명회 일정을 발표한다."
         ]
       },
       {
@@ -369,77 +377,77 @@
         "heading": [
           "발신: 미나 보스",
           "날짜: 9월 12일",
-          "관련: 독서실 사전 공개"
+          "관련: 자료실 사전 공개"
         ],
         "body": [
-          "복원된 곡물 사무실에 관한 기사를 반갑게 읽었습니다. 지난봄 지도 컬렉션을 보관할 나무 서랍들을 수리했습니다. 작업비를 받지 않았지만 유산 협회 회원인 적은 없고 역사 자료를 기증하지도 않았습니다. 청구서에 제 이름이 없을 것이므로 제가 한 일을 설명하고자 편지를 씁니다.",
-          "일반 개관 전에 완성된 방을 볼 기회를 얻고 싶습니다. 처음 저를 수리 작업에 추천한 자매도 동반이 허용된다면 함께 가고 싶어 합니다. 몇 자리를 주실 수 있는지와 사전 공개 시작 시간을 알려 주십시오. 가족 서류에서 옛 운하 사진도 발견했습니다. 원본을 기증할 준비는 안 되었지만 전시를 위한 임시 대여는 논의할 수 있습니다. 이 봉투의 반송 주소로 연락해 주십시오."
+          "새 자료실에 관한 최근 공지를 반갑게 읽었습니다. 지난봄 도면을 보관할 나무 서랍들을 수리했습니다. 저희 업체는 연간 유지보수 계약으로 청구했으며 저는 귀사 직원이 아니고 기술 기록도 제공하지 않았습니다. 방의 나머지 공사가 시작되기 전에 귀사 유지보수팀이 수리된 서랍을 가져갔습니다.",
+          "일반 직원 이용 전에 완성된 방을 보고 싶습니다. 저를 수리 작업에 추천한 자매도 동반 가능하면 함께 가고 싶어 합니다. 초청 인원과 시작 시간을 알려 주십시오. 업무 서류에서 초기 조립 라인 사진을 발견했습니다. 원본 기증은 아직 결정하지 않았지만 전시용 임시 대여는 논의할 수 있습니다. 봉투의 반송 주소로 연락해 주십시오."
         ]
       }
     ],
     "questions": [
       {
         "type": "purpose",
-        "q": "What does the article mainly report?",
+        "q": "What does the memo mainly report?",
         "choices": [
-          "The conversion of a historic building",
-          "The expansion of a lending library",
-          "A new training requirement for craftspeople",
-          "The sale of a canal photograph"
+          "A new use for an existing company space",
+          "The expansion of a staff lending collection",
+          "A new training requirement for specialist contractors",
+          "The sale of an assembly-line photograph"
         ],
         "answer": 0,
         "ko": {
-          "q": "기사는 주로 무엇을 보도하는가?",
+          "q": "메모는 주로 무엇을 알리는가?",
           "choices": [
-            "역사적 건물의 용도 변경",
-            "대출 도서관 확장",
-            "장인들의 새 교육 요건",
-            "운하 사진 판매"
+            "기존 회사 공간의 새로운 활용",
+            "직원 대출 자료의 확대",
+            "계약업자의 새 교육 요건",
+            "조립 라인 사진 판매"
           ]
         },
-        "explain": "기사 첫 문단은 곡물 사무실을 지역사 독서실로 바꾸는 소식이다. 새 시설은 자료를 대출하지 않는다."
+        "explain": "메모는 옛 기록 사무실을 기술 자료실로 바꾸는 소식이다. 자료 대출 범위를 확대하는 것이 아니다."
       },
       {
         "type": "not-true",
-        "q": "What is NOT mentioned as a feature of the reading room?",
+        "q": "What is NOT mentioned as a feature of the resource room?",
         "choices": [
-          "On-site historical materials",
+          "On-site technical records",
           "Requests for digital reproductions",
-          "Overnight borrowing of journals",
+          "Overnight borrowing of test logs",
           "Afternoon opening hours"
         ],
         "answer": 2,
         "ko": {
-          "q": "독서실의 특징으로 언급되지 않은 것은 무엇인가?",
+          "q": "자료실의 특징으로 언급되지 않은 것은 무엇인가?",
           "choices": [
-            "현장 역사 자료",
+            "현장 기술 자료",
             "디지털 복제본 요청",
-            "일기 자료의 하룻밤 대출",
+            "시험 기록의 하룻밤 대출",
             "오후 운영 시간"
           ]
         },
-        "explain": "기사에서 자료는 건물에 남아 있어야 한다고 명시하므로 외부 대출은 불가능하다. 나머지 세 항목은 모두 기사에 나온다."
+        "explain": "메모는 원본 도면과 시험 기록을 건물 안에 보관하며 대출하지 않는다고 한다. 나머지는 명시된 서비스다."
       },
       {
         "type": "inference",
         "q": "Why does Ms. Voss need to contact the project office?",
         "choices": [
-          "Her unpaid work would not trigger an automatic invitation",
-          "She misplaced a membership invoice",
-          "She wants to borrow the original maps",
-          "Her lecture was omitted from the schedule"
+          "Contributors outside the company must request invitations separately",
+          "No contributor is invited automatically",
+          "Her repair work makes her eligible only after general access begins",
+          "Only people donating original documents may attend the preview"
         ],
         "answer": 0,
         "ko": {
           "q": "보스 씨가 사업 사무실에 연락해야 하는 이유는 무엇인가?",
           "choices": [
-            "무상 작업만으로는 자동 초청 대상이 되지 않아서",
-            "회원 청구서를 잃어버려서",
-            "원본 지도를 빌리고 싶어서",
-            "강연이 일정에서 빠져서"
+            "회사 외부 기여자는 초청을 별도로 요청해야 하므로",
+            "어떤 기여자도 자동 초청되지 않으므로",
+            "수리 작업 기여자는 일반 이용 시작 후에만 자격이 생기므로",
+            "원본 문서 기증자만 사전 공개에 참석할 수 있으므로"
           ]
         },
-        "explain": "자동 초청은 자료를 기증한 회원에게만 주어지는데 보스는 비회원으로 무상 수리만 했다. 두 문서를 결합해야 별도 연락 이유가 확정된다.",
+        "explain": "편지는 보스 씨가 외부 계약업자임을 밝히며 메모는 외부 기여자의 별도 연락을 요구한다. 메모에서 기록을 제공한 현직 직원은 자동 초청되므로 모든 기여자가 신청해야 한다는 B는 틀리다.",
         "crossRef": true
       },
       {
@@ -461,7 +469,7 @@
             "11월 6일"
           ]
         },
-        "explain": "편지에서 일반 개관 전 기여자 공개를 희망하고 기사에서 그 날짜는 9월 29일이다. 10월 6일은 일반 개관일이다.",
+        "explain": "편지는 일반 직원 이용 전 기여자 공개를 희망하며 메모는 그 날짜를 9월 29일로 정한다. 10월 6일은 일반 이용 시작이다.",
         "crossRef": true
       },
       {
@@ -469,8 +477,8 @@
         "q": "What does Ms. Voss offer to discuss?",
         "choices": [
           "Selling the repaired drawers",
-          "Joining the lecture program",
-          "Giving away all her family papers",
+          "Joining the technical briefing program",
+          "Giving away all her business files",
           "Temporarily providing a photograph"
         ],
         "answer": 3,
@@ -479,11 +487,11 @@
           "choices": [
             "수리한 서랍 판매",
             "강연 프로그램 참여",
-            "가족 서류 전체 기증",
+            "업무 서류 전체 기증",
             "사진의 임시 제공"
           ]
         },
-        "explain": "편지 마지막 문단에서 사진 원본 기증 대신 전시용 임시 대여를 제안했다. 영구 기증과는 구별해야 한다."
+        "explain": "편지 마지막은 조립 라인 사진을 임시 대여할 수 있다고 한다. 영구 기증은 결정하지 않았다."
       }
     ]
   },
@@ -502,7 +510,7 @@
           "Subject: Visitor guide order"
         ],
         "body": [
-          "Our garden will introduce a new visitor trail next month, and we need a folded guide to distribute at the entrance. I am attaching the final artwork for six hundred copies. The guide must fit into the small holders already installed beside our ticket machines. Those holders accept the compact format only; please do not substitute the standard format even if it is cheaper.",
+          "Our garden will introduce a new visitor trail later this month, and we need a folded guide to distribute at the entrance. I am attaching the final artwork for six hundred copies. The guide must fit into the small holders already installed beside our ticket machines. Those holders accept the compact format only; please do not substitute the standard format even if it is cheaper.",
           "We expect many visitors to carry the guide outdoors in damp weather, so I have selected the water-resistant finish. We do not need the glossy finish offered for indoor displays. Our opening event begins on August 20, but volunteers need the guides by August 17 to prepare welcome packs. Delivery to the garden office is essential because our vehicle is being repaired. If there is an artwork problem that would affect this deadline, please telephone me before making any changes. The printed map must remain easy to read when the guide is folded."
         ]
       },
@@ -527,17 +535,17 @@
           ],
           [
             "Compact format",
-            "Folded guide",
+            "Option",
             "$240"
           ],
           [
             "Standard format",
-            "Alternative only",
+            "Option",
             "$210"
           ],
           [
             "Water-resistant finish",
-            "Selected",
+            "Available",
             "$60"
           ],
           [
@@ -547,7 +555,7 @@
           ]
         ],
         "body": [
-          "The selected order total is $325. The standard format is shown for comparison and is not included in that total. This quotation remains valid through August 9. Production begins after approval of both the quotation and the electronic proof; receipt of artwork alone does not authorize printing. The current production slot permits dispatch on August 15 and delivery on August 16.",
+          "The total will be confirmed once you specify a format. This quotation remains valid through August 9. Production begins after approval of both the quotation and the electronic proof; receipt of artwork alone does not authorize printing. The current production slot permits dispatch on August 15 and delivery on August 16. Format prices cover the full quantity shown above.",
           "Please review all text and map symbols in the proof carefully. Corrections requested after approval may require a new production slot and could incur an additional setup charge. Delivery includes one attempt during normal office hours. An authorized recipient must sign for the cartons, so please provide the name of someone who will be present. Payment is due within fourteen days of receipt. Reply to this quotation with your approval and the recipient details; the proof will then be sent separately. Please retain this quotation for your records."
         ]
       }
@@ -562,7 +570,7 @@
           "제목: 방문객 안내서 주문"
         ],
         "body": [
-          "다음 달 정원에 새 탐방로를 도입하여 입구에서 나눠 줄 접이식 안내서가 필요합니다. 600부의 최종 원고를 첨부합니다. 안내서는 매표기 옆에 설치된 작은 거치대에 들어가야 합니다. 거치대에는 소형만 맞으니 더 저렴하더라도 표준형으로 바꾸지 마십시오.",
+          "이달 말 정원에 새 탐방로를 도입하여 입구에서 나눠 줄 접이식 안내서가 필요합니다. 600부의 최종 원고를 첨부합니다. 안내서는 매표기 옆에 설치된 작은 거치대에 들어가야 합니다. 거치대에는 소형만 맞으니 더 저렴하더라도 표준형으로 바꾸지 마십시오.",
           "방문객들이 습한 날 야외에서 들고 다닐 것으로 예상해 내수성 마감을 선택했습니다. 실내 전시용 광택 마감은 필요 없습니다. 개막 행사는 8월 20일이지만 자원봉사자들이 환영 꾸러미를 준비하도록 17일까지 필요합니다. 차량 수리 중이므로 정원 사무실로 배송해야 합니다. 기한에 영향을 줄 원고 문제가 있으면 바꾸기 전에 전화해 주십시오. 접힌 상태에서도 지도가 읽기 쉬워야 합니다."
         ]
       },
@@ -586,17 +594,17 @@
           ],
           [
             "소형",
-            "접이식 안내서",
+            "선택 가능",
             "240달러"
           ],
           [
             "표준형",
-            "비교용 대안",
+            "선택 가능",
             "210달러"
           ],
           [
             "내수성 마감",
-            "선택",
+            "선택 가능",
             "60달러"
           ],
           [
@@ -606,7 +614,7 @@
           ]
         ],
         "body": [
-          "선택 주문 총액은 325달러다. 표준형은 비교용이며 총액에 포함되지 않는다. 견적은 8월 9일까지 유효하다. 견적과 전자 교정쇄가 모두 승인되어야 제작하며 원고 수령만으로 인쇄를 시작하지 않는다. 현재 제작 일정상 8월 15일 발송, 16일 배송이 가능하다.",
+          "규격을 지정하면 총액을 확정한다. 견적은 8월 9일까지 유효하다. 견적과 전자 교정쇄를 모두 승인해야 제작하며 원고 수령만으로 인쇄를 시작하지 않는다. 현재 일정상 8월 15일 발송, 16일 배송이 가능하다. 규격별 가격은 표에 적힌 전체 수량 기준이다.",
           "교정쇄의 글과 지도 기호를 꼼꼼히 확인해야 한다. 승인 후 수정은 제작 일정을 바꾸거나 추가 준비 비용을 발생시킬 수 있다. 배송은 정상 업무 시간 중 한 차례 방문을 포함한다. 권한 있는 수령자가 상자에 대해 서명해야 하므로 현장에 있을 사람의 이름을 제공해야 한다. 대금은 수령 후 14일 안에 낸다. 견적 승인과 수령자 정보를 회신하면 교정쇄를 별도로 보낸다. 기록용으로 이 견적서를 보관해야 한다."
         ]
       }
@@ -678,24 +686,24 @@
       },
       {
         "type": "inference",
-        "q": "Which quoted charge addresses the guide’s expected exposure outdoors?",
+        "q": "What total covers Ms. Quill’s requested format and finish, including delivery?",
         "choices": [
-          "The $25 delivery charge",
-          "The $60 finishing charge",
-          "The $240 compact format",
-          "The $210 alternative format"
+          "$295",
+          "$325",
+          "$300",
+          "$270"
         ],
         "answer": 1,
         "ko": {
-          "q": "야외 사용 환경에 대응하는 견적 비용은 어느 것인가?",
+          "q": "배송을 포함해 퀼 씨가 요청한 규격과 마감의 총액은 얼마인가?",
           "choices": [
-            "배송비 25달러",
-            "마감비 60달러",
-            "소형 규격 240달러",
-            "대체 규격 210달러"
+            "295달러",
+            "325달러",
+            "300달러",
+            "270달러"
           ]
         },
-        "explain": "이메일은 습한 야외 사용 때문에 내수성 마감을 골랐고 견적은 그 마감을 60달러로 표시한다. 규격 비용은 거치대 크기와 관련된다.",
+        "explain": "이메일이 소형·내수성 마감·배송을 요구하므로 견적의 240+60+25=325달러다. 견적만 보면 규격이 확정되지 않아 표준형 기준 295달러와 구별할 수 없다.",
         "crossRef": true
       },
       {
@@ -778,22 +786,22 @@
         "type": "purpose",
         "q": "What does the webpage describe?",
         "choices": [
-          "A camera retailer’s rental plans",
-          "A village transport service",
-          "A landscape exhibition schedule",
-          "Financial support for local research"
+          "Rates for renting survey equipment",
+          "Results of the latest application round",
+          "Instructions for reserving a presentation venue",
+          "Funding conditions for proposed field studies"
         ],
         "answer": 3,
         "ko": {
           "q": "웹페이지는 무엇을 설명하는가?",
           "choices": [
-            "카메라 소매점의 임대 요금제",
-            "마을 교통 서비스",
-            "경관 전시 일정",
-            "지역 연구를 위한 재정 지원"
+            "조사 장비 대여 요금",
+            "최근 신청 심사 결과",
+            "발표 장소 예약 지침",
+            "현장 조사 제안의 지원 조건"
           ]
         },
-        "explain": "첫 문단은 지역 경관 조사에 필요한 경비의 지원 조건을 설명한다. 교통 서비스 자체를 제공하는 것은 아니다."
+        "explain": "웹페이지는 비용 적격성·제출 서류·심사 시기를 안내한다. 심사 결과를 발표하는 페이지는 아니다."
       },
       {
         "type": "synonym",
@@ -824,7 +832,7 @@
         "type": "inference",
         "q": "Why does the revised equipment expense meet the grant rules?",
         "choices": [
-          "It is paid directly to the landowner",
+          "It was arranged with a nearby studio",
           "It removes all transport expenses",
           "It is for temporary use rather than ownership",
           "It pays the applicant for four months"
@@ -833,7 +841,7 @@
         "ko": {
           "q": "수정된 장비 비용이 지원 규정에 맞는 이유는 무엇인가?",
           "choices": [
-            "토지 소유주에게 직접 지불해서",
+            "인근 스튜디오와 마련한 거래이기 때문에",
             "교통비를 전부 없애서",
             "소유가 아닌 임시 사용을 위한 비용이라서",
             "신청자의 네 달 보수라서"
@@ -844,24 +852,24 @@
       },
       {
         "type": "inference",
-        "q": "When should Mr. Merrow expect a decision if his attachment arrives as planned?",
+        "q": "If Mr. Merrow adds $400 for presentation materials, how will his request compare with the grant limit?",
         "choices": [
-          "April 2",
-          "September 5",
-          "March 1",
-          "March 10"
+          "It will be $150 below the limit",
+          "It will exceed the limit by $150",
+          "It will be $550 below the limit",
+          "It will exceed the limit by $400"
         ],
         "answer": 0,
         "ko": {
-          "q": "첨부 파일이 예정대로 도착하면 메로 씨는 언제 결과를 받을 것으로 예상되는가?",
+          "q": "메로 씨가 발표 준비물 비용 400달러를 더하면 신청액은 지원 한도와 비교해 어떠한가?",
           "choices": [
-            "4월 2일",
-            "9월 5일",
-            "3월 1일",
-            "3월 10일"
+            "한도보다 150달러 적다",
+            "한도를 150달러 넘는다",
+            "한도보다 550달러 적다",
+            "한도를 400달러 넘는다"
           ]
         },
-        "explain": "기존 두 서류와 3월 8일 수정 예산을 합치면 3월 10일 전에 완성되므로 봄 심사 결과일인 4월 2일이다. 3월 10일은 접수 마감이다.",
+        "explain": "이메일의 수정 예산 1,450달러에 400달러를 더하면 1,850달러다. 웹페이지의 한도 2,000달러보다 150달러 적으며 발표 준비 비용은 지원 가능 항목이다.",
         "crossRef": true
       },
       {
@@ -894,48 +902,48 @@
     "passages": [
       {
         "type": "notice",
-        "title": "Rillstone Theater Volunteer Briefing",
+        "title": "Rillstone Retail: New Employee Orientation",
         "heading": [],
         "body": [
-          "Rillstone Theater is recruiting volunteer ushers for its summer performances. Ushers check tickets, direct audience members to their seats, and help collect reusable programs after each performance. They are not responsible for operating lighting equipment or selling refreshments. In return for each completed shift, volunteers receive a voucher that can be used for a later performance, subject to seat availability. Vouchers cannot be exchanged for cash.",
-          "All new ushers must attend one briefing before their first shift. Briefings are offered on July 2 at six in the evening and July 6 at ten in the morning. Both cover the same material and last ninety minutes. Volunteers should choose only one. The entrance on Canal Lane will be closed for repairs during the first week of July, so attendees must use the courtyard gate. Please bring identification and the completed emergency contact form sent with your acceptance email. Comfortable shoes are recommended because the briefing includes a walking tour of the auditorium."
+          "Rillstone Retail is preparing new sales assistants for the opening of its second store. Assistants will check incoming delivery notes, guide customers to the appropriate department, and return display samples to storage after closing. They will not operate the store’s electrical maintenance equipment. The opening team includes both experienced retail workers and employees entering the sector for the first time. Every new assistant receives a written guide to the company’s customer service standards.",
+          "Before their first shift, all new assistants must attend one orientation. Sessions take place on July 2 at six in the evening and July 6 at ten in the morning. Both last ninety minutes and cover the same material. The July 2 group will meet in the stockroom for a live demonstration. The July 6 group will meet in the training suite and watch a recorded stockroom demonstration because a stock count is scheduled that morning. Bring identification and the completed payroll information form sent with your employment offer."
         ]
       },
       {
         "type": "email",
-        "title": "Briefing attendance",
+        "title": "Orientation attendance",
         "heading": [
-          "To: Rillstone volunteer coordinator",
+          "To: Rillstone human resources",
           "From: Elin Corven",
           "Date: June 25",
-          "Subject: My available briefing session"
+          "Subject: Orientation attendance"
         ],
         "body": [
-          "Thank you for accepting me as an usher. I work at a bakery until seven in the evening on weekdays, but I am free for the morning session listed in your notice. Please register me for that session. I have checked my work schedule carefully and will be able to stay until the entire briefing has finished. My first volunteer shift is not until the following week.",
-          "I received the emergency contact form and have filled it out. I will bring it along with my identification. Since I have never visited your theater before, I looked up the usual public entrance on Canal Lane. I now understand that I should follow the temporary access instructions in the notice instead. One more question: my brother is interested in volunteering later in the season. Is there a waiting list he can join? Please send me the relevant link, and I will forward it to him rather than submit an application on his behalf."
+          "Thank you for offering me a sales assistant position. Until my current contract ends, I work at a bakery until seven in the evening on weekdays, but I am available for the morning orientation in your notice. Please register me for that session. I have checked my schedule and can stay for the full program. My first shift at your store is the following week.",
+          "I have completed the payroll information form and will bring it with my identification. I have never visited your new store, so please confirm where my group should gather and whether we will see the stockroom demonstration in person. My brother is also interested in future openings, but he is not applying for this intake. Please send me the address of your careers page so I can forward it to him. I will not submit an application on his behalf."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "릴스톤 극장 자원봉사 설명회",
+        "title": "릴스톤 리테일 신입사원 오리엔테이션",
         "heading": [],
         "body": [
-          "릴스톤 극장은 여름 공연의 자원봉사 안내원을 모집한다. 안내원은 표를 확인하고 관객을 좌석으로 안내하며 공연 뒤 재사용 프로그램을 수거한다. 조명 장비 조작과 다과 판매는 담당하지 않는다. 근무 한 차례를 마치면 잔여 좌석이 있는 이후 공연에 쓸 수 있는 교환권을 받는다. 현금 교환은 불가능하다.",
-          "새 안내원은 첫 근무 전에 설명회 한 번에 참석해야 한다. 7월 2일 오후 6시와 7월 6일 오전 10시에 열리며 내용은 같고 90분간 진행한다. 한 번만 선택해야 한다. 7월 첫 주에 커낼레인 입구는 수리로 닫혀 있으므로 안뜰 문을 이용해야 한다. 신분증과 합격 이메일로 받은 비상 연락 양식을 작성해 가져와야 한다. 객석 도보 견학이 포함되므로 편한 신발을 권한다."
+          "릴스톤 리테일은 두 번째 매장 개점을 위한 신입 판매 직원을 준비시키고 있다. 입고 확인서 점검, 고객 부서 안내, 폐점 후 전시 견본 창고 반납을 담당한다. 전기 유지보수 장비는 조작하지 않는다. 소매 경력자와 처음 일하는 직원이 함께하며 모두 회사 고객 서비스 기준 안내서를 받는다.",
+          "첫 근무 전에 오리엔테이션 한 번에 참석해야 한다. 7월 2일 오후 6시와 7월 6일 오전 10시에 열리며 내용은 같고 90분이다. 2일 참석자는 창고에 모여 현장 시연을 본다. 6일 오전에는 재고 조사가 예정되어 교육실에 모여 녹화된 창고 시연을 본다. 채용 제안에 동봉된 급여 정보 양식을 작성해 신분증과 가져와야 한다."
         ]
       },
       {
-        "title": "설명회 참석",
+        "title": "오리엔테이션 참석",
         "heading": [
-          "수신: 릴스톤 자원봉사 담당자",
+          "수신: 릴스톤 인사팀",
           "발신: 엘린 코번",
           "날짜: 6월 25일",
-          "제목: 참석 가능한 설명회"
+          "제목: 오리엔테이션 참석"
         ],
         "body": [
-          "안내원으로 뽑아 주셔서 감사합니다. 평일에는 제과점에서 저녁 7시까지 일하지만 공지의 오전 시간에는 가능합니다. 그 시간으로 등록해 주십시오. 근무 일정을 잘 확인했으며 설명회가 모두 끝날 때까지 있을 수 있습니다. 첫 봉사 근무는 그다음 주입니다.",
-          "비상 연락 양식을 받아 작성했습니다. 신분증과 함께 가져가겠습니다. 극장에 가 본 적이 없어 커낼레인의 평소 일반 입구를 찾아보았지만 이제는 공지의 임시 출입 안내를 따라야 한다는 것을 이해했습니다. 동생이 시즌 후반에 봉사하는 데 관심이 있습니다. 대기 명단에 이름을 올릴 수 있을까요? 대신 지원서를 제출하지 않고 링크를 전달할 수 있도록 관련 링크를 보내 주십시오."
+          "판매 직원 채용 제안 감사합니다. 현재 계약이 끝날 때까지 평일 저녁 7시까지 제과점에서 일하지만 공지의 오전 오리엔테이션은 가능합니다. 그 회차에 등록해 주십시오. 일정을 확인했으며 전체 프로그램에 참석할 수 있습니다. 귀사 첫 근무는 그다음 주입니다.",
+          "급여 정보 양식을 작성했으며 신분증과 가져가겠습니다. 새 매장에 가 본 적이 없어 우리 회차의 집합 장소와 창고 시연을 현장에서 보는지 확인하고 싶습니다. 남자 형제도 향후 채용에 관심이 있지만 이번에는 지원하지 않습니다. 전달할 수 있도록 채용 페이지 주소를 보내 주십시오. 제가 대신 지원하지는 않겠습니다."
         ]
       }
     ],
@@ -944,47 +952,47 @@
         "type": "purpose",
         "q": "What is the notice mainly intended to do?",
         "choices": [
-          "Explain arrangements for new volunteers",
-          "Advertise a bakery opening",
-          "Request donations for theater repairs",
-          "Announce a lighting workshop"
+          "Explain arrangements for incoming store employees",
+          "Advertise the store’s seasonal product discounts",
+          "Recruit a team of electrical maintenance specialists",
+          "Announce changes to existing employees’ payroll dates"
         ],
         "answer": 0,
         "ko": {
           "q": "공지의 주된 목적은 무엇인가?",
           "choices": [
-            "새 자원봉사자를 위한 준비 사항을 설명하는 것",
-            "제과점 개점을 광고하는 것",
-            "극장 수리 기부금을 요청하는 것",
-            "조명 강좌를 알리는 것"
+            "입사 예정 매장 직원의 준비 사항을 설명하는 것",
+            "매장의 계절 상품 할인을 광고하는 것",
+            "전기 정비 전문가를 채용하는 것",
+            "재직 직원의 급여일 변경을 알리는 것"
           ]
         },
-        "explain": "공지는 안내원 업무와 의무 설명회 참석 절차를 설명한다. 조명 조작은 안내원 업무가 아니라고 한다."
+        "explain": "신입 판매 직원의 업무와 필수 오리엔테이션을 설명한다. 급여 양식은 준비물이며 급여일 변경 공지가 아니다."
       },
       {
         "type": "not-true",
-        "q": "Which activity is NOT an usher’s responsibility?",
+        "q": "Which task is NOT assigned to the new sales assistants?",
         "choices": [
-          "Checking admission tickets",
-          "Helping visitors find seats",
-          "Selling food and drinks",
-          "Collecting reusable programs"
+          "Checking delivery documents",
+          "Helping customers locate departments",
+          "Operating electrical maintenance equipment",
+          "Returning display samples to storage"
         ],
         "answer": 2,
         "ko": {
-          "q": "안내원의 담당 업무가 아닌 것은 무엇인가?",
+          "q": "신입 판매 직원에게 맡기지 않는 업무는 무엇인가?",
           "choices": [
-            "입장권 확인",
-            "관객의 좌석 찾기 지원",
-            "음식과 음료 판매",
-            "재사용 프로그램 수거"
+            "배송 문서 확인",
+            "고객의 부서 찾기 지원",
+            "전기 정비 장비 조작",
+            "전시 견본 창고 반납"
           ]
         },
-        "explain": "공지 첫 문단에서 다과 판매를 업무에서 명시적으로 제외했다. 다른 세 가지는 안내원 업무로 나열되어 있다."
+        "explain": "공지 첫 문단에서 전기 유지보수 장비 조작을 제외한다. 다른 세 항목은 담당 업무다."
       },
       {
         "type": "inference",
-        "q": "When will Ms. Corven’s briefing finish?",
+        "q": "When will Ms. Corven’s orientation finish?",
         "choices": [
           "July 6 at 11:30 A.M.",
           "July 6 at 10:00 A.M.",
@@ -993,7 +1001,7 @@
         ],
         "answer": 0,
         "ko": {
-          "q": "코번 씨의 설명회는 언제 끝나는가?",
+          "q": "코번 씨의 오리엔테이션은 언제 끝나는가?",
           "choices": [
             "7월 6일 오전 11시 30분",
             "7월 6일 오전 10시",
@@ -1001,51 +1009,52 @@
             "7월 2일 오후 7시 30분"
           ]
         },
-        "explain": "이메일에서 오전 회차를 선택했고 공지에 그 회차는 7월 6일 10시 시작, 90분 진행이라고 되어 있다. 10시는 종료가 아닌 시작 시간이다.",
+        "explain": "이메일에서 오전 회차를 선택했고 공지는 7월 6일 10시부터 90분이라고 한다. 따라서 11시 30분 종료이며 10시는 시작이다.",
         "crossRef": true
       },
       {
         "type": "inference",
-        "q": "Which entrance should Ms. Corven use for her briefing?",
+        "q": "Where should Ms. Corven gather for the demonstration?",
         "choices": [
-          "The courtyard gate",
-          "The Canal Lane entrance",
-          "The backstage loading door",
-          "The bakery’s side entrance"
+          "In the training suite",
+          "In the stockroom",
+          "At the customer service desk",
+          "In the staff dining area"
         ],
         "answer": 0,
         "ko": {
-          "q": "코번 씨가 설명회에 갈 때 이용해야 할 입구는 어디인가?",
+          "q": "코번 씨는 시연을 보기 위해 어디에 모여야 하는가?",
           "choices": [
-            "안뜰 문",
-            "커낼레인 입구",
-            "무대 뒤 하역문",
-            "제과점 옆문"
+            "교육실",
+            "창고",
+            "고객 서비스 창구",
+            "직원 식사 공간"
           ]
         },
-        "explain": "선택한 7월 6일은 공지의 첫 주 입구 폐쇄 기간이므로 안뜰 문으로 가야 한다. 이메일에서 찾아본 평소 입구는 사용할 수 없다.",
+        "explain": "이메일에서 선택한 오전 회차는 7월 6일이다. 공지는 그 회차에 재고 조사 때문에 교육실에서 녹화 시연을 본다고 하므로 7월 2일의 창고 집합과 구별해야 한다.",
         "crossRef": true
       },
       {
         "type": "detail",
-        "q": "What does Ms. Corven request for her brother?",
+        "q": "What document must new employees complete before orientation?",
         "choices": [
-          "A performance voucher",
-          "A confirmed usher shift",
-          "A replacement contact form",
-          "An online waiting-list address"
+          "A store discount request",
+          "An electrical inspection checklist",
+          "A customer feedback survey",
+          "A form supplying details for salary payments"
         ],
         "answer": 3,
         "ko": {
-          "q": "코번 씨는 동생을 위해 무엇을 요청하는가?",
+          "q": "신입 직원이 오리엔테이션 전에 작성해야 할 문서는 무엇인가?",
           "choices": [
-            "공연 교환권",
-            "확정된 안내원 근무",
-            "대체 연락 양식",
-            "온라인 대기 명단 주소"
+            "매장 할인 요청서",
+            "전기 점검표",
+            "고객 의견 설문",
+            "급여 지급 정보를 제공하는 양식"
           ]
         },
-        "explain": "이메일 끝에서 대기 명단 링크를 보내 달라고 한다. 동생의 근무를 확정해 달라는 요청은 아니다."
+        "explain": "공지 마지막 문단은 채용 제안에 동봉된 급여 정보 양식을 작성하라고 한다. 고객 의견 설문은 준비물이 아니다.",
+        "crossRef": false
       }
     ]
   },
@@ -1064,10 +1073,13 @@
         ]
       },
       {
-        "type": "review",
-        "title": "A peaceful weekend",
+        "type": "email",
+        "title": "Guest feedback",
         "heading": [
-          "Sera Nolin — October 7"
+          "To: Wrenmere Lodge",
+          "From: Sera Nolin",
+          "Date: October 7",
+          "Subject: Feedback on our weekend"
         ],
         "body": [
           "We stayed in a lake room last weekend. The balcony view was wonderful, and breakfast was more substantial than expected. We arrived on the Friday noon bus but had not contacted the lodge about transportation. No one was waiting, so we hired a taxi. The receptionist later explained the shuttle procedure, which I had missed when making our reservation.",
@@ -1084,7 +1096,7 @@
           "Subject: Friday, October 18 arrival"
         ],
         "body": [
-          "I booked a garden room for two nights beginning October 18. After reading Ms. Nolin’s review, I wanted to arrange the arrival service she overlooked. We will use the same scheduled bus she used. Please confirm that you can collect two people with small suitcases. We are happy to leave our bags at reception and walk until our room is ready.",
+          "I booked a garden room for two nights beginning October 18. After reading Ms. Nolin’s feedback message, which she forwarded to me, I wanted to arrange the arrival service she overlooked. We will use the same scheduled bus she used. Please confirm that you can collect two people with small suitcases. We are happy to leave our bags at reception and walk until our room is ready.",
           "We would also like a dinner reservation for six o’clock at the inn you recommend. One of us avoids dairy products, so please mention this when booking. We do not need walking poles because we will bring our own. Could you reply with the shuttle meeting point and confirmation of the dinner booking? We would prefer not to rely on telephone reception while traveling through the hills."
         ]
       }
@@ -1099,13 +1111,16 @@
         ]
       },
       {
-        "title": "평온한 주말",
+        "title": "숙박객 의견",
         "heading": [
-          "세라 놀린 — 10월 7일"
+          "수신: 렌미어 로지",
+          "발신: 세라 놀린",
+          "날짜: 10월 7일",
+          "제목: 주말 숙박 의견"
         ],
         "body": [
-          "지난 주말 호수 객실에 묵었다. 발코니 전망이 훌륭했고 조식은 예상보다 푸짐했다. 금요일 정오 버스로 도착했지만 교통편에 관해 연락하지 않았다. 마중 나온 사람이 없어 택시를 탔다. 접수 직원이 나중에 예약할 때 놓친 셔틀 절차를 설명했다.",
-          "숙소에서 저녁을 먹을 수 있으리라 생각했다. 다행히 직원이 마을에 자리를 구해 주었지만 원하는 것보다 일찍 먹어야 했다. 산책로 표시는 명확했고 빌린 스틱은 가파른 구간에서 유용했다. 다음에는 도착 안내를 더 잘 읽겠다. 객실에는 실망한 점이 없으며 다음 도보 여행에도 같은 숙소를 예약할 의향이 있다."
+          "지난 주말 호수 객실에 묵었습니다. 발코니 전망이 훌륭했고 조식은 예상보다 푸짐했습니다. 금요일 정오 버스로 도착했지만 교통편에 관해 연락하지 않았습니다. 마중 나온 사람이 없어 택시를 탔습니다. 접수 직원이 나중에 예약할 때 놓친 셔틀 절차를 설명해 주었습니다.",
+          "숙소에서 저녁을 먹을 수 있으리라 생각했습니다. 다행히 직원이 마을에 자리를 구해 주었지만 원하는 것보다 일찍 먹어야 했습니다. 산책로 표시는 명확했고 빌린 스틱은 가파른 구간에서 유용했습니다. 다음에는 도착 안내를 더 잘 읽겠습니다. 객실에는 실망한 점이 없으며 다음 도보 여행에도 같은 숙소를 예약할 의향이 있습니다."
         ]
       },
       {
@@ -1117,32 +1132,32 @@
           "제목: 10월 18일 금요일 도착"
         ],
         "body": [
-          "18일부터 이틀간 정원 객실을 예약했습니다. 놀린 씨의 후기를 읽고 그분이 놓친 도착 서비스를 신청하고 싶습니다. 같은 정기 버스를 이용합니다. 작은 가방을 가진 두 명을 태워 줄 수 있는지 확인해 주십시오. 방이 준비될 때까지 짐을 맡기고 산책해도 괜찮습니다.",
+          "18일부터 이틀간 정원 객실을 예약했습니다. 놀린 씨가 전달해 준 의견 이메일을 읽고 그분이 놓친 도착 서비스를 신청하고 싶습니다. 같은 정기 버스를 이용합니다. 작은 가방을 가진 두 명을 태워 줄 수 있는지 확인해 주십시오. 방이 준비될 때까지 짐을 맡기고 산책해도 괜찮습니다.",
           "추천 여관 식당에 6시 저녁 예약도 부탁합니다. 한 명은 유제품을 피하니 예약할 때 전달해 주십시오. 스틱은 가져오므로 필요 없습니다. 셔틀 만남 장소와 저녁 예약 확인을 답장해 주십시오. 언덕 지역 이동 중 전화 수신에 의존하고 싶지 않습니다."
         ]
       }
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What does the webpage help visitors plan?",
+        "type": "detail",
+        "q": "What service is available before the standard check-in time?",
         "choices": [
-          "A taxi business",
-          "An equipment purchase",
-          "A walking holiday",
-          "A restaurant career"
+          "Guaranteed access to a cleaned room",
+          "Dinner served inside the lodge",
+          "Leaving luggage with reception staff",
+          "A shuttle meeting every arriving bus"
         ],
         "answer": 2,
         "ko": {
-          "q": "웹페이지는 어떤 계획을 돕는가?",
+          "q": "기본 입실 시각 전에 이용할 수 있는 서비스는 무엇인가?",
           "choices": [
-            "택시 사업",
-            "장비 구입",
-            "도보 여행 휴가",
-            "식당 취업"
+            "청소된 객실의 확정 이용",
+            "숙소 안에서 저녁 식사",
+            "접수 직원에게 짐 맡기기",
+            "모든 도착 버스의 셔틀"
           ]
         },
-        "explain": "객실·교통·식사 정보로 도보 여행객의 숙박을 돕는다. 장비 판매는 아니다."
+        "explain": "웹페이지는 오전 8시부터 짐을 맡길 수 있다고 한다. 이른 객실 입실은 요청할 수 있지만 보장되지 않는다."
       },
       {
         "type": "detail",
@@ -1167,24 +1182,24 @@
       },
       {
         "type": "inference",
-        "q": "Why should Mr. Drew qualify for the free shuttle?",
+        "q": "What will most likely happen when Mr. Drew arrives?",
         "choices": [
-          "He booked a balcony",
-          "He requested it sufficiently early",
-          "He is a returning guest",
-          "He is borrowing equipment"
+          "He will need to hire a taxi",
+          "A lodge shuttle will meet his bus",
+          "He will be able to enter his room at noon",
+          "His transport request will be rejected as too late"
         ],
         "answer": 1,
         "ko": {
-          "q": "드루 씨가 무료 셔틀 조건에 맞는 이유는 무엇인가?",
+          "q": "드루 씨가 도착하면 어떤 일이 일어날 가능성이 가장 높은가?",
           "choices": [
-            "발코니를 예약해서",
-            "충분히 일찍 요청해서",
-            "재방문객이어서",
-            "장비를 빌려서"
+            "택시를 직접 빌려야 한다",
+            "숙소 셔틀이 그의 버스를 맞이한다",
+            "정오에 바로 객실에 들어갈 수 있다",
+            "교통편 요청이 너무 늦어 거절된다"
           ]
         },
-        "explain": "이메일은 14일에 18일 도착을 신청하며 후기와 같은 금요일 정오 버스를 이용한다. 웹페이지의 최소 이틀 전 요청 조건을 충족한다.",
+        "explain": "놀린 이메일의 금요일 정오 버스를 드루도 이용하며, 10월 14일에 18일 도착 교통편을 신청해 웹페이지의 이틀 전 조건을 충족한다. 객실 조기 입실은 보장되지 않으며 교통편 대상 여부·버스·신청일을 함께 봐야 한다.",
         "crossRef": true
       },
       {
@@ -1206,7 +1221,7 @@
             "호수를 향한 발코니"
           ]
         },
-        "explain": "후기는 호수 객실 발코니를 칭찬하지만 이메일은 정원 객실 예약이다. 웹페이지는 발코니를 호수 객실에만 명시하며 욕실·조식은 양쪽 공통이다.",
+        "explain": "놀린 이메일은 호수 객실의 발코니를 칭찬하지만 드루 이메일은 정원 객실 예약이다. 웹페이지는 호수 객실에만 발코니를 명시하며 조식·욕실은 공통이다.",
         "crossRef": true
       },
       {
@@ -1243,7 +1258,7 @@
         "heading": [],
         "body": [
           "The Bexley Design Forum takes place at the Marlow Exchange on May 22. This year’s program combines demonstrations with discussions about making public spaces easier to navigate. Registration covers all sessions and lunch, but participants must reserve one afternoon workshop because equipment is shared in small groups. Morning presentations require no separate reservations.",
-          "The eastern wing will be undergoing maintenance. Sessions originally assigned there have been relocated to the rooms in the final schedule. Registration remains in the main lobby, where visitors collect badges before going upstairs. The tactile signs workshop requires a printed example of a sign from the participant’s workplace. Phone images are unsuitable for the marking exercise. All other materials are provided. Please disregard the room information in last month’s preliminary brochure and consult the updated schedule before traveling to the venue. Drinking water will be available near registration throughout the afternoon."
+          "The eastern wing will be undergoing maintenance. Sessions originally assigned there have been relocated to the rooms in the final schedule. Registration remains in the main lobby, where visitors collect badges before going to their sessions. The tactile signs workshop requires a printed floor plan of the participant’s workplace. Phone images are unsuitable for the marking exercise. All other materials are provided. Please disregard the room information in last month’s preliminary brochure and consult the updated schedule before traveling to the venue. Drinking water will be available near registration throughout the afternoon."
         ]
       },
       {
@@ -1289,7 +1304,7 @@
           "Subject: Access request"
         ],
         "body": [
-          "I selected the workshop requiring a printed workplace sign. The preliminary brochure placed it in the eastern wing, so I am glad I checked your latest notice. I will bring an enlarged printout of the directional sign outside our reception area. Visitors often miss the lift, and I hope to improve the guidance we give them.",
+          "I selected the workshop requiring a printed floor plan. The preliminary brochure placed it in the eastern wing, so I am glad I checked your latest notice. I will bring a printed floor plan of our reception area. Visitors often miss the lift, and I hope to improve the guidance we give them after discussing the layout with the workshop leader.",
           "Because of a knee injury, I will need step-free access to my workshop. Please record that request. I can attend the later joint discussion too, but must leave immediately afterward to meet a colleague. Could you send me the workshop leader’s contact details after the event? I may have a follow-up question once I have discussed possible changes with our facilities team. Thank you for helping me prepare for a productive visit."
         ]
       }
@@ -1300,7 +1315,7 @@
         "heading": [],
         "body": [
           "5월 22일 말로 익스체인지에서 공공 공간의 길 찾기를 개선하는 시연과 토론을 연다. 등록에는 모든 세션과 점심이 포함되지만 소그룹이 장비를 공유하므로 오후 워크숍 하나를 예약해야 한다. 오전 발표는 별도 예약이 없다.",
-          "동쪽 동 정비로 세션들을 최종 일정표의 방으로 옮겼다. 중앙 로비에서 등록하고 위층에 가기 전 출입증을 받는다. 촉각 표지 워크숍에는 직장 표지의 인쇄본이 필요하며 휴대전화 이미지는 표시 실습에 부적합하다. 다른 재료는 제공한다. 지난달 예비 책자의 장소 대신 이동 전 최신 일정을 확인해야 한다. 오후 내내 등록대 근처에서 식수를 제공한다."
+          "동쪽 동은 보수 중이므로 그곳에 배정됐던 세션을 최종 일정표의 방으로 옮겼다. 등록은 메인 로비에서 하며 세션에 가기 전 명찰을 받는다. 촉각 표지 실습에는 참가자 직장의 인쇄 평면도가 필요하다. 표시 실습에 휴대전화 이미지는 적합하지 않다. 나머지 재료는 제공한다. 지난달 예비 안내서의 방 정보는 무시하고 출발 전 갱신 일정표를 확인해야 한다. 오후 내내 등록처 근처에 식수가 있다."
         ]
       },
       {
@@ -1344,7 +1359,7 @@
           "제목: 이동 경로 요청"
         ],
         "body": [
-          "직장 표지 인쇄본을 요구하는 워크숍을 선택했습니다. 예비 책자에는 동쪽 동으로 되어 있어 최신 공지를 확인한 것이 다행입니다. 접수처 밖 방향 표지를 확대 인쇄해 가져갑니다. 방문객들이 승강기를 자주 놓쳐 안내를 개선하고 싶습니다.",
+          "인쇄 평면도가 필요한 실습을 선택했습니다. 예비 안내서에는 동쪽 동이어서 최신 공지를 확인하길 잘했다고 생각합니다. 접수 구역의 인쇄 평면도를 가져가겠습니다. 방문객들이 승강기를 자주 찾지 못해 진행자와 배치를 논의한 뒤 안내를 개선하고 싶습니다.",
           "무릎 부상으로 계단 없는 이동 경로가 필요하니 기록해 주십시오. 합동 토론도 참석하지만 끝나자마자 동료를 만나러 떠나야 합니다. 행사 후 진행자 연락처를 보내 주시겠습니까? 시설팀과 개선안을 논의한 뒤 추가 질문이 생길 수 있습니다. 유익한 방문 준비를 도와주셔서 감사합니다."
         ]
       }
@@ -1415,29 +1430,29 @@
             "포럼홀"
           ]
         },
-        "explain": "이메일의 인쇄 표지 준비물을 공지의 촉각 표지 실습과 연결하고 일정표를 보면 스튜디오 4다. 동쪽 동은 옛 장소다.",
+        "explain": "이메일의 준비물은 평면도이고 공지가 그 준비물을 촉각 표지 실습에 연결한다. 그 실습의 위치를 일정표에서 찾으면 스튜디오 4이므로 이메일·공지·일정표가 모두 필요하다.",
         "crossRef": true
       },
       {
         "type": "inference",
-        "q": "When does Ms. Sorn plan to leave?",
+        "q": "What will Ms. Sorn most likely use to reach her workshop?",
         "choices": [
-          "2:30 P.M.",
-          "3:30 P.M.",
-          "1:00 P.M.",
-          "2:45 P.M."
+          "The staircase beside Gallery 2",
+          "The elevator beyond the main lobby",
+          "The eastern wing’s usual entrance",
+          "The ground-floor courtyard passage"
         ],
         "answer": 1,
         "ko": {
-          "q": "손 씨가 출발하려는 시간은 언제인가?",
+          "q": "손 씨는 워크숍에 가려고 무엇을 이용할 가능성이 가장 높은가?",
           "choices": [
-            "오후 2시 30분",
-            "오후 3시 30분",
-            "오후 1시",
-            "오후 2시 45분"
+            "갤러리 2 옆 계단",
+            "중앙 로비 너머 엘리베이터",
+            "동쪽 동의 평소 입구",
+            "지상층 안뜰 통로"
           ]
         },
-        "explain": "이메일은 합동 토론 직후 떠난다고 하며 일정표의 종료 시간은 3시 30분이다. 2시 45분은 시작이다.",
+        "explain": "이메일의 평면도 준비물을 공지의 촉각 표지 실습과 연결하면 일정표상 장소는 2층 스튜디오 4다. 계단 없는 경로가 필요한 무릎 부상 조건을 적용하면 메인 로비 뒤 엘리베이터이며 지상층 갤러리 2가 아니다.",
         "crossRef": true
       },
       {
@@ -1509,7 +1524,7 @@
         ],
         "body": [
           "This invoice covers the goods listed above and one delivery to the customer’s premises. Inspect all cartons before placing items into service. Report damaged or missing goods within five business days, quoting the invoice number and quantity affected. A photograph is required for breakage claims so our warehouse can review the packaging used for the shipment.",
-          "Replacement of goods damaged in transit is free. Customers may instead request credit for affected items if replacements are unnecessary. Delivery charges are refundable only when the entire order is returned. Do not mail broken glass; retain the packaging until customer service authorizes disposal. Payment for undisputed items remains due within thirty days of delivery. Credits appear separately on the account rather than changing the original invoice. Please contact customer service if you need help reading your account statement."
+          "Replacement of goods damaged in transit is free. Customers may instead request credit for affected items if replacements are unnecessary. Delivery charges are refundable only when the entire order is returned. Do not mail broken glass; retain the packaging until customer service authorizes disposal. A reply marking the claim C gives that authorization; other status codes do not. Payment for undisputed items remains due within thirty days of delivery. Credits appear separately on the account rather than changing the original invoice. Please contact customer service if you need help reading your account statement."
         ]
       },
       {
@@ -1523,7 +1538,7 @@
         ],
         "body": [
           "We unpacked yesterday’s delivery this morning. Three storage jars were cracked, although the outer carton showed no obvious damage. I have attached photographs of the damaged jars and internal dividers. The other nine jars and all four measuring jugs are in good condition, and we want to keep them.",
-          "Please issue credit rather than send replacements. We have reduced the number of ingredients displayed at the counter, so nine jars will be enough. I will retain the damaged goods and packaging until you advise otherwise. Please confirm how this adjustment affects the amount we should pay. Our bookkeeper normally enters invoices exactly as printed, and I want to avoid making an unauthorized change to your document. We have not yet made any payment against this invoice or applied any earlier account credits."
+          "Please issue credit rather than send replacements. We have reduced the number of ingredients displayed at the counter, so nine jars will be enough. I have kept the damaged jars and their packaging for now. Please confirm how this adjustment affects the amount we should pay. Our bookkeeper normally enters invoices exactly as printed, and I want to avoid making an unauthorized change to your document. We have not yet made any payment against this invoice or applied any earlier account credits."
         ]
       },
       {
@@ -1537,7 +1552,7 @@
         ],
         "body": [
           "Thank you for the photographs. We have accepted your claim for the three damaged items and posted credit under reference CN88. The remaining goods need not be returned. The original invoice will remain on your account alongside the credit note. Your bookkeeper should record both documents and pay the resulting balance by the original due date.",
-          "You may now dispose of the broken items safely and recycle undamaged packaging where facilities permit. Our warehouse supervisor has asked the packing team to review divider spacing before shipping this product again. Your detailed description helped us identify a possible weakness without asking you to return anything. If the credit note is not visible in the customer portal by tomorrow morning, please reply directly to this message. There is no need to submit the photographs a second time."
+          "Your claim is now marked C. Please follow the handling instructions printed on your invoice when dealing with the damaged items and their packaging. Our warehouse supervisor has asked the packing team to review divider spacing before shipping this product again. Your detailed description helped us identify a possible weakness without asking you to return anything. If the credit note is not visible in the customer portal by tomorrow morning, please reply directly to this message. There is no need to submit the photographs a second time."
         ]
       }
     ],
@@ -1582,7 +1597,7 @@
         ],
         "body": [
           "위 상품과 고객 사업장으로의 배송 1회를 포함한다. 사용 전 모든 상자를 점검해야 한다. 파손·누락은 영업일 5일 내 송장 번호와 수량을 적어 신고해야 한다. 포장 검토를 위해 파손 청구에는 사진이 필요하다.",
-          "운송 파손품 교체는 무료이며 교체가 불필요하면 해당 금액 차감을 요청할 수 있다. 배송비는 전량 반품 때만 환불한다. 깨진 유리는 우편으로 보내지 말고 고객 서비스가 폐기를 허가할 때까지 포장재를 보관한다. 이의 없는 금액은 배송 후 30일 내 납부한다. 차감은 원본 송장을 고치지 않고 계정에 별도 표시한다. 계정 명세 해석에 도움이 필요하면 고객 서비스에 문의한다."
+          "운송 중 파손 제품은 무료로 교체하며 필요 없으면 해당 품목의 차감을 요청할 수 있다. 배송비는 전체 주문 반품 때만 환불한다. 깨진 유리는 우편으로 보내지 말고 고객 서비스가 폐기를 허가할 때까지 포장재를 보관한다. 답신에 청구 상태가 C로 표시되면 허가를 뜻하며 다른 코드는 아니다. 이의 없는 품목 대금은 배송 후 30일 내 지급해야 한다. 차감은 원본 송장을 바꾸지 않고 계정에 별도 표시한다. 명세 이해에 도움이 필요하면 고객 서비스에 연락한다."
         ]
       },
       {
@@ -1595,7 +1610,7 @@
         ],
         "body": [
           "어제 배송품을 오늘 풀었습니다. 외부 상자에 뚜렷한 손상은 없지만 병 3개에 금이 갔습니다. 파손 병과 내부 칸막이 사진을 첨부합니다. 나머지 병 9개와 계량 용기 4개는 상태가 좋아 보유하겠습니다.",
-          "교체품 대신 차감해 주십시오. 계산대 진열 재료를 줄여 병 9개면 충분합니다. 지시 전까지 파손품과 포장재를 보관하겠습니다. 조정 후 납부 금액을 확인해 주십시오. 경리가 인쇄된 그대로 송장을 입력하므로 문서를 임의로 바꾸지 않으려 합니다. 이 송장에 대해 아직 지불하거나 이전 차감액을 적용한 적은 없습니다."
+          "교체품 대신 차감해 주십시오. 카운터에 진열하는 재료 수를 줄여 병 9개면 충분합니다. 현재는 파손 병과 포장재를 보관하고 있습니다. 이 조정이 지급액에 어떤 영향을 주는지 확인해 주십시오. 회계 담당자는 보통 인쇄된 송장 그대로 입력하므로 문서를 허가 없이 바꾸고 싶지 않습니다. 아직 이 송장에 지급하거나 이전 계정 차감을 적용하지 않았습니다."
         ]
       },
       {
@@ -1607,32 +1622,32 @@
           "제목: 답신 NP604"
         ],
         "body": [
-          "사진 감사합니다. 파손품 3개 청구를 승인하고 CN88로 차감 등록했습니다. 나머지는 반송하지 않아도 됩니다. 원래 송장은 차감 전표와 계정에 남습니다. 경리는 두 문서를 기록하고 원래 납기까지 잔액을 지불하면 됩니다.",
-          "이제 파손품을 안전하게 폐기하고 가능하면 포장재를 재활용해도 됩니다. 창고 책임자가 다음 발송 전 칸막이 간격 검토를 지시했습니다. 상세한 설명 덕분에 반송 없이 취약점을 파악했습니다. 내일 오전까지 포털에서 차감 전표가 보이지 않으면 이 메시지에 직접 답장해 주십시오. 사진을 다시 보낼 필요는 없습니다."
+          "사진 감사합니다. 파손품 3개 청구를 승인하고 CN88로 차감 등록했습니다. 나머지는 반송하지 않아도 됩니다. 원래 송장은 차감 전표와 함께 계정에 남습니다. 경리는 두 문서를 기록하고 원래 납기까지 잔액을 지불하면 됩니다.",
+          "청구 상태는 이제 C입니다. 파손품과 포장재는 송장에 인쇄된 처리 지침을 따라 주십시오. 창고 감독자가 다음 출하 전 칸막이 간격을 검토하도록 포장팀에 요청했습니다. 자세한 설명 덕분에 반송 없이 약점을 찾을 수 있었습니다. 내일 오전까지 고객 포털에 차감 전표가 없으면 이 메시지에 직접 답장해 주십시오. 사진을 다시 제출할 필요는 없습니다."
         ]
       }
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What does the invoice text explain?",
+        "type": "not-true",
+        "q": "Which statement is NOT consistent with the invoice instructions?",
         "choices": [
-          "Advertising procedures",
-          "Packing course registration",
-          "Procedures for delivery problems",
-          "Equipment rental terms"
+          "Damage claims require photographic evidence",
+          "Problems must be reported within five business days",
+          "Delivery fees are refunded whenever any item is damaged",
+          "Credits are recorded separately from the original invoice"
         ],
         "answer": 2,
         "ko": {
-          "q": "송장 본문은 무엇을 설명하는가?",
+          "q": "송장 지침과 맞지 않는 설명은 무엇인가?",
           "choices": [
-            "광고 절차",
-            "포장 강좌 등록",
-            "배송 문제 처리 절차",
-            "장비 임대 조건"
+            "파손 청구에는 사진 증거가 필요하다",
+            "문제는 근무일 5일 내 신고해야 한다",
+            "품목 하나라도 파손되면 배송비가 환불된다",
+            "차감은 원래 송장과 별도로 기록한다"
           ]
         },
-        "explain": "본문은 파손 신고와 교체·차감 방법을 설명한다. 임대 계약이 아니다."
+        "explain": "송장은 전체 주문을 반품할 때만 배송비를 환불한다고 한다. 일부 파손만으로 자동 배송비 환불은 되지 않는다."
       },
       {
         "type": "detail",
@@ -1679,24 +1694,24 @@
       },
       {
         "type": "inference",
-        "q": "Why does the original $10 charge remain payable?",
+        "q": "What may Mr. Tarl do with the packaging after receiving the November 5 reply?",
         "choices": [
-          "The photographs were unclear",
-          "The café is keeping part of the order",
-          "The claim was submitted too late",
-          "Glass products are excluded from all refunds"
+          "Return it with all the undamaged goods",
+          "Dispose of it without awaiting another authorization",
+          "Retain it while waiting for permission to dispose of it",
+          "Send it to the packing team for another inspection"
         ],
         "answer": 1,
         "ko": {
-          "q": "원래의10달러 비용을 계속 내야 하는 이유는 무엇인가?",
+          "q": "탈 씨는 11월 5일 답신을 받은 뒤 포장재를 어떻게 해도 되는가?",
           "choices": [
-            "사진이 불분명해서",
-            "카페가 주문 일부를 보유하므로",
-            "청구가 너무 늦어서",
-            "유리 제품은 모든 환불에서 제외되므로"
+            "정상 물품 전부와 반송한다",
+            "추가 허가를 기다리지 않고 폐기한다",
+            "폐기 허가를 기다리며 보관한다",
+            "포장팀의 추가 검사에 보낸다"
           ]
         },
-        "explain": "송장은10달러가 배송비이며 전량 반품 때만 환불한다고 한다. 이메일은 정상 상품을 보유한다고 하므로 배송비는 차감되지 않는다.",
+        "explain": "11월 5일 답신의 상태 C를 송장의 코드 규칙과 연결하면 폐기 허가를 받은 것이다. 답신만으로는 C의 뜻을, 송장만으로는 이 청구의 현재 상태를 알 수 없다.",
         "crossRef": true
       },
       {
@@ -1922,46 +1937,47 @@
       },
       {
         "type": "inference",
-        "q": "Why is Niko Brant unsuitable for Ms. Toven despite his specialty?",
+        "q": "How should Ms. Toven regard the conversation she plans before the holiday break?",
         "choices": [
-          "He has no available places",
-          "His session conflicts with her service-desk duty",
-          "He requires travel to another office",
-          "He focuses on customer interviews"
+          "As a second competitive interview",
+          "As an opportunity to agree on expectations",
+          "As the start of a departmental transfer",
+          "As a meeting to obtain her first approval"
         ],
         "answer": 1,
         "ko": {
-          "q": "전문 분야가 맞는 브랜트가 토벤 씨에게 부적합한 이유는 무엇인가?",
+          "q": "토벤 씨는 연휴 전 계획한 대화를 어떻게 이해해야 하는가?",
           "choices": [
-            "빈자리가 없어서",
-            "수업이 서비스 데스크 근무와 겹쳐서",
-            "다른 사무실 출장을 요구해서",
-            "고객 인터뷰에 집중해서"
+            "두 번째 경쟁 면접",
+            "기대 사항을 조율할 기회",
+            "부서 이동의 시작",
+            "첫 승인을 받는 회의"
           ]
         },
-        "explain": "표의 목요일 14시와 이메일의 목요일 오후 필수 근무가 충돌한다. 표는 모두 빈자리가 있다고 밝힌다.",
+        "explain": "이메일은 연휴 전 소개 대화를 계획하고 표 아래 설명은 임시 연결 후 기대를 조율하는 자리이며 추가 선발 면접이 아니라고 한다. 상사 승인은 이미 받았다.",
         "crossRef": true
       },
       {
         "type": "detail",
-        "q": "What does Ms. Toven want to know about her sample report?",
+        "q": "What will supervisors receive from the mentoring program?",
         "choices": [
-          "Whether it must be printed in color",
-          "Whether it replaces her application",
-          "Whether customers must attend the meeting",
-          "Whether identifying information should be removed"
+          "Color copies of participants’ reports",
+          "Advice on which employees to promote",
+          "Individual customer account details",
+          "Records showing that employees took part"
         ],
         "answer": 3,
         "ko": {
-          "q": "토벤 씨는 견본 보고서에 관해 무엇을 알고 싶은가?",
+          "q": "상사가 멘토링 프로그램에서 받는 것은 무엇인가?",
           "choices": [
-            "컬러 인쇄해야 하는지",
-            "신청서를 대체하는지",
-            "고객이 회의에 참석해야 하는지",
-            "식별 정보를 제거해야 하는지"
+            "참가자 보고서의 컬러 사본",
+            "승진시킬 직원에 대한 조언",
+            "고객별 계정 정보",
+            "직원이 참여했음을 보여 주는 기록"
           ]
         },
-        "explain": "이메일 마지막에서 고객 계정 정보가 있어 익명화 필요 여부를 묻는다. 고객 참석을 요청하지 않는다."
+        "explain": "첫 메모는 상사에게 참석 확인을 보내지만 평가 점수나 승진 추천은 보내지 않는다고 한다. 고객 정보는 공유 대상이 아니다.",
+        "crossRef": false
       }
     ]
   },
@@ -2094,25 +2110,25 @@
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What prompted the temporary rules?",
+        "type": "detail",
+        "q": "What will continue at the main warehouse during the work?",
         "choices": [
-          "A reduction in outgoing orders",
-          "An expansion of chilled storage",
-          "A change of paper supplier",
-          "Work on a loading facility"
+          "Accepting new stock from suppliers",
+          "Storing refrigerated incoming deliveries",
+          "Unloading trucks longer than eight meters",
+          "Preparing shipments that leave the warehouse"
         ],
         "answer": 3,
         "ko": {
-          "q": "임시 규정의 원인은 무엇인가?",
+          "q": "공사 중 본창고에서 계속되는 업무는 무엇인가?",
           "choices": [
-            "출고 주문 감소",
-            "냉장 시설 확장",
-            "종이 공급업체 변경",
-            "하역 시설 공사"
+            "공급업체의 새 재고 입고",
+            "냉장 입고품 보관",
+            "8미터 초과 트럭 하역",
+            "창고에서 나가는 배송 준비"
           ]
         },
-        "explain": "공지 첫 문단은 하역대 교체를 이유로 든다. 출고 업무는 계속된다."
+        "explain": "공지 첫 문단은 입고는 별관으로 옮기지만 본창고의 출고 처리는 계속한다고 한다."
       },
       {
         "type": "not-true",
@@ -2159,24 +2175,24 @@
       },
       {
         "type": "inference",
-        "q": "Which change makes the vehicle compatible with the site restrictions?",
+        "q": "Why was the originally assigned truck not used for the February 13 delivery?",
         "choices": [
-          "Moving the arrival to February 15",
-          "Transferring the load to a shorter truck",
-          "Reducing the number of cartons",
-          "Replacing the original invoice"
+          "It had no refrigeration unit",
+          "It was too long for the annex yard",
+          "It could not carry the full quantity",
+          "It was unavailable on that date"
         ],
         "answer": 1,
         "ko": {
-          "q": "현장 제한에 차량이 맞도록 하는 변경은 무엇인가?",
+          "q": "원래 배정된 트럭을 2월 13일 배송에 쓰지 않은 이유는 무엇인가?",
           "choices": [
-            "도착을 15일로 옮기기",
-            "더 짧은 트럭으로 환적하기",
-            "상자 수 줄이기",
-            "원본 송장 교체하기"
+            "냉장 장치가 없어서",
+            "별관 마당에 들어가기에는 너무 길어서",
+            "전체 수량을 실을 수 없어서",
+            "그날 이용할 수 없어서"
           ]
         },
-        "explain": "공지의 8미터 제한과 이메일의 9미터에서 7미터로 환적 계획을 결합한다. 확정일은 13일이며 수량은 그대로다.",
+        "explain": "이메일의 원래 트럭은 9미터이고 공지는 임시 수령 기간의 별관을 8미터 이하로 제한한다. 이메일만으로는 9미터가 왜 부적합한지 알 수 없으며 상품은 냉장 대상이 아니다.",
         "crossRef": true
       },
       {
@@ -2209,113 +2225,107 @@
     "passages": [
       {
         "type": "advertisement",
-        "title": "Orswick Makers Fair: Demonstrator Applications",
+        "title": "Orswick Industrial Packaging Expo: Demonstrator Applications",
         "heading": [],
         "body": [
-          "The Orswick Makers Fair invites independent craftspeople to demonstrate how their products are made. The event will run on September 21 in the covered market. Demonstrators receive a worktable and access to a shared storage area, but must supply their own tools and protective equipment. The fair is designed around short demonstrations, rather than long classes requiring visitors to register in advance.",
+          "The Orswick Industrial Packaging Expo invites packaging manufacturers to demonstrate how their products are made. The event will run on September 21 in the exhibition hall. Demonstrators receive a worktable and access to a shared storage area, but must supply their own tools and protective equipment. The fair is designed around short demonstrations, rather than long classes requiring visitors to register in advance.",
           "Applications will be judged on clarity of the proposed demonstration and suitability for a public indoor setting. Open flames, spray finishes, and machinery that produces airborne dust are prohibited. Quiet hand tools are welcome. Demonstrators may sell finished products, but sales must not interrupt the advertised demonstration times. A small number of powered tables are available for tools requiring electricity. Applicants who need one must state the electrical requirement explicitly; bringing an extension cable does not guarantee access to a socket. All applications must include photographs of completed work and a short description of the process visitors will see."
         ]
       },
       {
         "type": "email",
-        "title": "Application: woven baskets",
+        "title": "Application: reusable shipping crates",
         "heading": [
-          "To: Makers Fair committee",
+          "To: Packaging Expo committee",
           "From: Liora Benn",
           "Date: August 12",
           "Subject: Demonstration proposal"
         ],
         "body": [
-          "I would like to demonstrate how I weave small baskets from prepared willow strips. Visitors would see me shape a base and add the first rows of the sides. I would bring several baskets at different stages so that the later steps can also be explained within a short session. My preparation at the studio includes soaking and trimming the willow; I would not do that work at the market.",
-          "My tools for the demonstration are simple hand tools, and I do not need electricity. I would like to sell a few finished baskets between demonstrations. The attached photographs show examples of the size and style I plan to display. My usual assistant is unavailable that day, so I will work alone and need a short break at midday. Please let me know whether this can be accommodated without interrupting the public program."
+          "I would like to demonstrate how our company assembles reusable shipping crates from prepared panels. Visitors would see me fit a base and attach the hinged sides. I would bring several crates at different stages so that the later steps can also be explained within a short session. Our factory uses powered equipment to cut and sand the panels before shipment; I would demonstrate only assembly at the exhibition hall.",
+          "My tools for the demonstration are simple hand tools, and I do not need electricity. I would like to discuss bulk orders with prospective customers between demonstrations. The attached photographs show examples of the sizes and designs our company supplies. I have a phone call with a customer about a contract scheduled for twelve thirty that day. It should last thirty minutes. Please let me know whether the demonstration program can leave me free to take that call."
         ]
       },
       {
         "type": "form",
-        "title": "Committee allocation sheet",
+        "title": "Committee decision record",
         "heading": [
-          "Accepted demonstrators — extract"
+          "Program meeting — August 20",
+          "Extract concerning Liora Benn"
         ],
         "table": [
           [
-            "Applicant",
-            "Table",
-            "Sessions"
+            "Agenda item",
+            "Recorded decision"
           ],
           [
-            "Liora Benn",
-            "C7",
-            "10:00, 11:00, 14:00"
+            "Morning program",
+            "Benn: 10:00 and 11:00"
           ],
           [
-            "Torin Fale",
-            "P2",
-            "10:30, 12:00, 14:30"
+            "Afternoon program",
+            "Benn: 14:00"
           ],
           [
-            "Ada Neris",
-            "C8",
-            "11:30, 13:00, 15:00"
+            "Display arrangements",
+            "Assembly samples approved"
           ]
         ],
         "body": [
-          "Tables marked C have no electrical supply. Tables marked P are connected to the event’s temporary electrical system. Each session lasts twenty minutes, followed by time for visitors to ask questions. Applicants should check that their allocated table matches the needs stated in their proposal and report any mismatch immediately.",
-          "The committee has left gaps between sessions where requested, but demonstration times are now fixed for printing in the visitor guide. Arrive by nine to prepare your display, and keep aisles clear of storage boxes. The covered market will be open to visitors until four. At the end of the day, unsold products and all personal tools must be removed; overnight storage is unavailable. Please acknowledge this allocation by August 25 so the guide can be sent to the printer."
+          "The committee approved Ms. Benn’s proposal after reviewing the submitted photographs and process description. Members agreed that visitors could understand the later stages by examining partially assembled crates. They did not ask her to extend the demonstration into a full workshop. Each demonstration remains twenty minutes, followed by questions from visitors.",
+          "The meeting also reviewed the order of presentations. Ms. Benn’s three sessions will stay at the times recorded above; an earlier suggestion to add a fourth session was not adopted. These decisions will now be entered in the printed visitor guide. Ms. Benn should acknowledge the record by August 25 and report any transcription error before printing. She may discuss orders between sessions but must be ready for each advertised start. All tools and unsold samples must be removed at the end of the event, since overnight storage has not been arranged."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "오스윅 제작자 박람회 시연자 모집",
+        "title": "오스윅 산업 포장 박람회 시연업체 모집",
         "heading": [],
         "body": [
-          "9월 21일 지붕 있는 시장에서 독립 공예가의 제작 시연을 모집한다. 작업대와 공용 보관 공간은 제공하지만 도구와 보호 장비는 직접 가져와야 한다. 사전 등록이 필요한 긴 수업보다 짧은 시연을 중심으로 한다.",
+          "오스윅 산업 포장 박람회는 포장재 제조업체의 제품 제작 시연을 모집한다. 행사는 9월 21일 전시장에서 열린다. 시연자에게 작업대와 공용 보관 공간을 제공하지만 도구와 보호 장비는 직접 가져와야 한다. 사전 등록이 필요한 긴 수업보다 짧은 시연을 중심으로 한다.",
           "명확한 제안과 실내 공개 장소에 대한 적합성을 심사한다. 불꽃, 분무 마감, 먼지 발생 기계는 금지하며 조용한 수공구는 환영한다. 완제품 판매는 가능하지만 공지된 시연을 방해하면 안 된다. 전원 작업대는 소수이므로 필요하면 명시해야 하며 연장선 지참만으로 콘센트 사용이 보장되지 않는다. 완성품 사진과 방문객에게 보여 줄 과정의 짧은 설명을 제출해야 한다."
         ]
       },
       {
-        "title": "바구니 시연 신청",
+        "title": "재사용 운송 상자 시연 신청",
         "heading": [
-          "수신: 박람회 위원회",
+          "수신: 포장 박람회 위원회",
           "발신: 리오라 벤",
           "날짜: 8월 12일",
           "제목: 시연 제안"
         ],
         "body": [
-          "준비된 버드나무 조각으로 작은 바구니를 엮는 법을 시연하고 싶습니다. 바닥 모양과 옆면 첫 줄을 만드는 과정을 보여 줍니다. 나중 단계도 짧은 시간에 설명하도록 여러 단계의 바구니를 가져갑니다. 재료를 불리고 다듬는 작업은 스튜디오에서 하며 시장에서는 하지 않습니다.",
-          "간단한 수공구를 쓰며 전기는 필요 없습니다. 시연 사이에 완성 바구니를 몇 개 팔고 싶습니다. 첨부 사진은 전시할 크기와 스타일의 예입니다. 평소 보조자가 그날 없어 혼자 일하므로 정오 무렵 짧은 휴식이 필요합니다. 공개 프로그램을 방해하지 않고 가능한지 알려 주십시오."
+          "저희 회사가 준비된 판재로 재사용 운송 상자를 조립하는 방법을 시연하고 싶습니다. 바닥을 맞추고 경첩이 달린 측면을 붙이는 과정을 보여 줍니다. 후속 단계도 짧은 시간에 설명하도록 여러 제작 단계의 상자를 가져갑니다. 판재는 공장에서 동력 장비로 미리 절단·연마하고 전시장에서는 조립만 시연하겠습니다.",
+          "시연은 간단한 수공구만 쓰므로 전기가 필요 없습니다. 시연 사이에 잠재 고객과 대량 주문을 상담하고 싶습니다. 첨부 사진은 회사가 공급하는 크기와 디자인의 예입니다. 당일 12시 30분부터 고객과 계약에 관해 전화할 예정이며 약 30분이 걸립니다. 그 전화를 받을 수 있도록 시연 일정을 조정할 수 있는지 알려 주십시오."
         ]
       },
       {
-        "title": "위원회 배정표",
+        "title": "위원회 결정 기록",
         "heading": [
-          "선정 시연자 발췌"
+          "프로그램 회의 — 8월 20일",
+          "리오라 벤 관련 발췌"
         ],
         "table": [
           [
-            "신청자",
-            "작업대",
-            "시연"
+            "안건",
+            "기록된 결정"
           ],
           [
-            "리오라 벤",
-            "C7",
-            "10:00, 11:00, 14:00"
+            "오전 프로그램",
+            "벤: 10:00 및 11:00"
           ],
           [
-            "토린 페일",
-            "P2",
-            "10:30, 12:00, 14:30"
+            "오후 프로그램",
+            "벤: 14:00"
           ],
           [
-            "에이다 네리스",
-            "C8",
-            "11:30, 13:00, 15:00"
+            "전시 준비",
+            "조립 단계 견본 승인"
           ]
         ],
         "body": [
-          "C 작업대에는 전원이 없고 P는 임시 전기 시설에 연결된다. 시연은 20분이며 이후 질문 시간이다. 제안의 필요 조건과 배정이 맞는지 확인하고 불일치하면 즉시 알려야 한다.",
-          "요청에 따라 시연 간격을 두었지만 안내서 인쇄를 위해 시간이 이제 확정되었다. 9시까지 와서 전시를 준비하고 보관 상자로 통로를 막지 않아야 한다. 방문객 입장은 4시까지다. 마지막에 팔리지 않은 물건과 개인 도구를 모두 치워야 하며 밤새 보관할 수 없다. 인쇄를 위해 8월 25일까지 배정을 확인해야 한다."
+          "위원회는 제출 사진과 과정 설명을 검토해 벤 씨 제안을 승인했다. 일부 조립한 상자로 후속 단계를 방문객이 이해할 수 있다고 판단했다. 전체 실습 강좌로 늘리라고 요구하지 않았다. 시연은 각각 20분이며 이후 방문객 질문 시간이다.",
+          "발표 순서도 검토했다. 벤 씨의 세 회차는 위 시각을 유지하며 앞서 제안된 네 번째 회차는 채택하지 않았다. 이 결정을 인쇄 안내서에 반영한다. 8월 25일까지 기록을 확인하고 전사 오류는 인쇄 전에 알려야 한다. 회차 사이 주문 상담은 가능하지만 공지된 시작에는 준비되어 있어야 한다. 밤샘 보관을 마련하지 않아 행사 끝에 모든 도구와 미판매 견본을 치워야 한다."
         ]
       }
     ],
@@ -2324,22 +2334,22 @@
         "type": "purpose",
         "q": "What is the advertisement seeking?",
         "choices": [
-          "Visitors for a registered course",
-          "People to present craft-making methods",
-          "Buyers for an empty market",
-          "Suppliers of electrical cables"
+          "Companies to sponsor permanent storage facilities",
+          "Manufacturers to demonstrate their production methods",
+          "Customers to enroll in extended technical courses",
+          "Contractors to install the hall’s electrical system"
         ],
         "answer": 1,
         "ko": {
-          "q": "광고가 모집하는 것은 무엇인가?",
+          "q": "광고는 무엇을 모집하는가?",
           "choices": [
-            "등록제 강좌 방문객",
-            "공예 제작법을 보여 줄 사람",
-            "빈 시장 구매자",
-            "전선 공급업체"
+            "상설 보관 시설을 후원할 회사",
+            "제작 방법을 시연할 제조업체",
+            "장기 기술 강좌를 수강할 고객",
+            "전시장 전기 시설을 설치할 계약업체"
           ]
         },
-        "explain": "제작 과정을 짧게 시연할 공예가를 모집한다. 장시간 등록 수업이 목적은 아니다."
+        "explain": "광고는 제조업체가 짧게 제품 제작 과정을 보여 주는 시연을 모집한다. 장기 수업이나 시설 공사 계약 모집은 아니다."
       },
       {
         "type": "synonym",
@@ -2368,68 +2378,69 @@
       },
       {
         "type": "inference",
-        "q": "Why is table C7 appropriate for Ms. Benn?",
+        "q": "Why can Ms. Benn’s manufacturing demonstration comply with the expo’s indoor restrictions?",
         "choices": [
-          "It includes a private assistant",
-          "Her demonstration requires no power",
-          "It provides overnight storage",
-          "It allows spray finishing"
+          "The organizers permit any machinery shown in the application photographs",
+          "Dust-producing preparation is completed away from the event",
+          "All exhibitors are allowed to spray finishes between sessions",
+          "The committee has waived the rules for completed products"
         ],
         "answer": 1,
         "ko": {
-          "q": "C7이 벤 씨에게 적합한 이유는 무엇인가?",
+          "q": "벤 씨의 제조 시연이 박람회 실내 제한을 지킬 수 있는 이유는 무엇인가?",
           "choices": [
-            "개인 보조자가 포함되어서",
-            "시연에 전원이 필요 없어서",
-            "밤샘 보관이 가능해서",
-            "분무 마감을 허용해서"
+            "신청 사진에 나온 기계는 모두 허용해서",
+            "먼지를 내는 사전 작업을 행사장 밖에서 끝내서",
+            "모든 전시자가 회차 사이 분무 마감을 할 수 있어서",
+            "위원회가 완성품에는 규칙을 면제해서"
           ]
         },
-        "explain": "이메일은 수공구만 쓰고 전기가 필요 없다고 하며 배정표 설명은 C에 전원이 없다고 한다. 전원 있는 P가 필요한 상황이 아니다.",
+        "explain": "광고는 먼지 발생 기계를 금지하고 이메일은 동력 절단·연마를 공장에서 끝내며 현장에서는 조립만 한다고 한다. 승인 사진이 기계 사용 금지의 예외를 만드는 것은 아니다.",
         "crossRef": true
       },
       {
         "type": "inference",
-        "q": "How does the allocation accommodate Ms. Benn’s request?",
+        "q": "What can Ms. Benn do without missing an assigned demonstration?",
         "choices": [
-          "It moves her work outdoors",
-          "It leaves a gap around midday",
-          "It supplies an additional assistant",
-          "It removes her morning demonstrations"
+          "Spend the entire morning at a customer’s factory",
+          "Hold her scheduled customer call at the expo",
+          "Move her afternoon demonstration to noon",
+          "Give a demonstration at twelve thirty"
         ],
         "answer": 1,
         "ko": {
-          "q": "배정은 벤 씨의 요청을 어떻게 반영하는가?",
+          "q": "벤 씨가 배정된 시연을 빠지지 않고 할 수 있는 일은 무엇인가?",
           "choices": [
-            "야외로 작업을 옮긴다",
-            "정오 전후에 공백을 둔다",
-            "보조자를 제공한다",
-            "오전 시연을 없앤다"
+            "오전 내내 고객 공장에 머무르기",
+            "박람회에서 예정된 고객 통화 진행하기",
+            "오후 시연을 정오로 옮기기",
+            "12시 30분에 시연 진행하기"
           ]
         },
-        "explain": "이메일의 정오 휴식 요청과 11시 이후 14시까지 없는 시연 일정을 연결한다. 오전 시연 두 개는 유지된다.",
+        "explain": "이메일의 고객 통화는 12시 30분부터 30분간이다. 위원회 기록에는 벤 씨의 20분 시연이 10시·11시·14시에만 있으므로 예정 통화가 시연과 겹치지 않는다.",
         "crossRef": true
       },
       {
         "type": "detail",
-        "q": "What must accepted demonstrators do by August 25?",
+        "q": "What must accompany every application?",
         "choices": [
-          "Pay for overnight storage",
-          "Submit a revised tool inventory",
-          "Confirm their assigned arrangements",
-          "Collect printed visitor guides"
+          "A signed bulk-purchase contract",
+          "A reservation for overnight storage",
+          "Product photographs and a process description",
+          "A certificate for electrical installation"
         ],
         "answer": 2,
         "ko": {
-          "q": "선정자는 8월 25일까지 무엇을 해야 하는가?",
+          "q": "모든 신청서에 무엇을 첨부해야 하는가?",
           "choices": [
-            "밤샘 보관료 납부",
-            "수정 도구 목록 제출",
-            "배정 사항 확인",
-            "인쇄 안내서 수령"
+            "서명한 대량 구매 계약",
+            "밤샘 보관 예약",
+            "제품 사진과 과정 설명",
+            "전기 설치 자격증"
           ]
         },
-        "explain": "배정표 마지막은 안내서 인쇄를 위해 배정을 확인하라고 한다. 밤샘 보관은 불가능하다."
+        "explain": "광고 두 번째 문단 끝은 완성품 사진과 방문객에게 보여 줄 과정의 짧은 설명을 요구한다.",
+        "crossRef": false
       }
     ]
   },
@@ -2482,7 +2493,7 @@
         "heading": [],
         "body": [
           "작은 지역사회 직업 생활에 관한 창작 수필을 싣는다. 일반 경제지에서 드물게 다루는 직업의 경험담을 환영한다. 서비스 광고보다 구체적 경험과 배운 점에 집중해야 한다. 공개 개인 블로그를 포함해 이미 발표된 글은 받지 않는다.",
-          "겨울호 원고는10월3일까지 도착해야 한다. 수정 요청이 가능하며 수정문 승인 전까지 채택은 조건부다. 사진은 선택이지만 식별 가능한 사람의 허락을 받아야 한다. 수필180달러, 첨부 사진을 쓰면 추가40달러를 발행 후 지급한다. 필자가 소유권을 유지하되 인쇄판과 디지털 보관소의 재현을 허용한다. 기록을 위해 제출본 사본을 보관해야 한다."
+          "겨울호 원고는 10월 3일까지 도착해야 한다. 수정 요청이 가능하며 수정문 승인 전까지 채택은 조건부다. 사진은 선택이지만 식별 가능한 사람의 허락을 받아야 한다. 수필 180달러, 첨부 사진을 쓰면 추가 40달러를 발행 후 지급한다. 필자가 소유권을 유지하되 인쇄판과 디지털 보관소의 재현을 허용한다. 기록을 위해 제출본 사본을 보관해야 한다."
         ]
       },
       {
@@ -2490,12 +2501,12 @@
         "heading": [
           "수신: 로언 셀드",
           "발신: 도블린 편집자",
-          "날짜: 10월10일",
+          "날짜: 10월 10일",
           "제목: 수리점 수필"
         ],
         "body": [
           "나이 든 고객의 시계 복원 이야기를 잘 읽었습니다. 금전 가치가 낮아도 소중히 여기는 이유를 나눈 대화가 가장 좋습니다. 작업장 소개를 줄이고 대화를 늘려 주십시오. 수리 기계 구조 설명은 불필요합니다.",
-          "사진을 싣고 싶지만 얼굴이 보이는 고객의 서면 허락이 필요합니다. 없으면 수정문 승인 후 글만 실을 수 있습니다.17일까지 수정본과 사진 소식을 보내 주십시오. 겨울호 지면은 임시 확보이며 최종 채택이 아닙니다. 편집자가 변경을 검토한 뒤 게재를 확정합니다."
+          "사진을 싣고 싶지만 얼굴이 보이는 고객의 서면 허락이 필요합니다. 없으면 수정문 승인 후 글만 실을 수 있습니다. 17일까지 수정본과 사진 소식을 보내 주십시오. 겨울호 지면은 임시 확보이며 최종 채택이 아닙니다. 편집자가 변경을 검토한 뒤 게재를 확정합니다."
         ]
       },
       {
@@ -2503,36 +2514,36 @@
         "heading": [
           "수신: 도블린 편집자",
           "발신: 로언 셀드",
-          "날짜: 10월15일",
+          "날짜: 10월 15일",
           "제목: 글과 사진"
         ],
         "body": [
           "요청대로 도입을 줄이고 대화를 늘렸습니다. 변경 표시 파일을 첨부합니다. 고객은 글은 괜찮지만 사진 게재를 원치 않습니다. 다른 사진도 없으니 이미지를 제외해 주십시오.",
-          "수정본 승인이 필요함을 이해합니다. 채택되면 기고자 양식 계좌로 송금해 주십시오. 다음 달 작업장 우편 주소가 바뀌어 옛 장소로 수표가 가는 것을 원치 않습니다. 문의는 기존 이메일을 이용해 주십시오.10월 마지막 주에는 작업장을 비우지만 작은 수정은 신속히 할 수 있습니다. 편집 조언 감사합니다."
+          "수정본 승인이 필요함을 이해합니다. 채택되면 기고자 양식 계좌로 송금해 주십시오. 다음 달 작업장 우편 주소가 바뀌어 옛 장소로 수표가 가는 것을 원치 않습니다. 문의는 기존 이메일을 이용해 주십시오. 10월 마지막 주에는 작업장을 비우지만 작은 수정은 신속히 할 수 있습니다. 편집 조언 감사합니다."
         ]
       }
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What does the webpage provide?",
+        "type": "detail",
+        "q": "Which submission fits the magazine’s stated editorial requirements?",
         "choices": [
-          "Repair-service advertisements",
-          "Photo archive subscriptions",
-          "Guidelines for potential contributors",
-          "Relocation instructions"
+          "An essay already available on a public personal blog",
+          "An advertisement describing a workshop’s repair rates",
+          "An unpublished account of a specific experience at work",
+          "A promotional catalog of services offered to local businesses"
         ],
         "answer": 2,
         "ko": {
-          "q": "웹페이지가 제공하는 것은 무엇인가?",
+          "q": "잡지의 명시된 편집 요건에 맞는 제출물은 무엇인가?",
           "choices": [
-            "수리 서비스 광고",
-            "사진 보관소 구독",
-            "예비 기고자 지침",
-            "이전 지침"
+            "공개 개인 블로그에 이미 있는 수필",
+            "작업장 수리 요금을 설명하는 광고",
+            "직장에서의 구체적 경험을 담은 미발표 글",
+            "지역 업체 대상 서비스 홍보 목록"
           ]
         },
-        "explain": "내용·마감·보수 등 기고 조건을 설명한다. 작업장 이전은 필자의 사정이다."
+        "explain": "웹페이지는 이미 발표되지 않은 구체적 직업 경험과 배운 점을 요구한다. 공개 블로그 글과 서비스 광고는 조건에 맞지 않는다."
       },
       {
         "type": "detail",
@@ -2568,13 +2579,13 @@
         "ko": {
           "q": "현재 제안대로 채택되면 어떤 보수를 받는가?",
           "choices": [
-            "발행 후180달러",
-            "채택 시40달러",
-            "제출 시180달러",
-            "발행 전220달러"
+            "발행 후 180달러",
+            "채택 시 40달러",
+            "제출 시 180달러",
+            "발행 전 220달러"
           ]
         },
-        "explain": "웹페이지 보수와 후속 이메일의 사진 철회를 결합하면 수필180달러만 발행 후 받는다. 사진40달러는 더하지 않는다.",
+        "explain": "웹페이지 보수와 후속 이메일의 사진 철회를 결합하면 수필 180달러만 발행 후 받는다. 사진 40달러는 더하지 않는다.",
         "crossRef": true
       },
       {
@@ -2596,7 +2607,7 @@
             "필요한 사진 허가를 포함했다"
           ]
         },
-        "explain": "편집 답신은10월17일까지를 요청했고 후속 답신은15일 발송이므로 이틀 전이다. 고객은 사진을 거절했다.",
+        "explain": "편집 답신은 10월 17일까지를 요청했고 후속 답신은 15일 발송이므로 이틀 전이다. 고객은 사진을 거절했다.",
         "crossRef": true
       },
       {
@@ -2694,14 +2705,14 @@
         "title": "펜베일 과학관 재개관",
         "heading": [],
         "body": [
-          "과학관은 대규모 개편 후3월19일 하천 체계 전시실을 재개관한다. 물의 경관 내 이동과 계절 홍수 관리를 설명한다. 기계 모형 일부를 조용한 상호작용 설비로 바꾸어 계획의 선택을 비교할 수 있게 했다. 일반 입장권에 포함된다.",
-          "여러 학급이 동시에 입구를 쓸 수 없어 시작 시간을 예약해야 한다. 학생20명 초과 단체에는 안내원2명을 배정하지만 함께 시작한다. 받침판은 빌려주며 교사가 연필과 미리 인쇄한 활동지를 준비한다. 물 검사 시연은 매일 첫 두 회차에만 있고 방문 중 추가 비용 없이 진행한다. 회차 선택 전 잔여석을 확인해야 한다."
+          "과학관은 대규모 개편 후 3월 19일 하천 체계 전시실을 재개관한다. 물의 경관 내 이동과 계절 홍수 관리를 설명한다. 기계 모형 일부를 조용한 상호작용 설비로 바꾸어 계획의 선택을 비교할 수 있게 했다. 일반 입장권에 포함된다.",
+          "여러 학급이 동시에 입구를 쓸 수 없어 시작 시간을 예약해야 한다. 학생 20명 초과 단체에는 안내원 2명을 배정하지만 함께 시작한다. 받침판은 빌려주며 교사가 연필과 미리 인쇄한 활동지를 준비한다. 물 검사 시연은 매일 첫 두 회차에만 있고 방문 중 추가 비용 없이 진행한다. 회차 선택 전 잔여석을 확인해야 한다."
         ]
       },
       {
         "title": "학교 방문 잔여석",
         "heading": [
-          "3월24일 — 3월8일 현황"
+          "3월 24일 — 3월 8일 현황"
         ],
         "table": [
           [
@@ -2731,8 +2742,8 @@
           ]
         ],
         "body": [
-          "방문은75분이다. 잔여석은 학생 기준이며 인솔 교사는 제외한다. 함께 참여해야 하면 시작 시간을 나눌 수 없으므로 학급 전체 자리가 있는 회차를 요청해야 한다.",
-          "방문 후 지붕 있는 식사 구역을11시부터2시까지 별도 예약 없이 이용할 수 있다. 음식을 팔지 않아 도시락을 가져와야 한다. 활동 중 가방은 감독되는 보관실에 둘 수 있다. 전세버스 픽업 시간은 학교가 기사에게 직접 알려야 하며 과학관이 개별 운송사에 대신 연락할 수 없다. 불특정 인원으로 자리를 잡아 둘 수 없으므로 정확한 학생 수를 신청해야 한다."
+          "방문은 75분이다. 잔여석은 학생 기준이며 인솔 교사는 제외한다. 함께 참여해야 하면 시작 시간을 나눌 수 없으므로 학급 전체 자리가 있는 회차를 요청해야 한다.",
+          "방문 후 지붕 있는 식사 구역을 11시부터 2시까지 별도 예약 없이 이용할 수 있다. 음식을 팔지 않아 도시락을 가져와야 한다. 활동 중 가방은 감독되는 보관실에 둘 수 있다. 전세버스 픽업 시간은 학교가 기사에게 직접 알려야 하며 과학관이 개별 운송사에 대신 연락할 수 없다. 불특정 인원으로 자리를 잡아 둘 수 없으므로 정확한 학생 수를 신청해야 한다."
         ]
       },
       {
@@ -2740,12 +2751,12 @@
         "heading": [
           "수신: 펜베일 예약실",
           "발신: 레나 보스킨, 엘라 초등학교",
-          "날짜: 3월9일",
-          "제목: 3월24일 방문"
+          "날짜: 3월 9일",
+          "제목: 3월 24일 방문"
         ],
         "body": [
-          "학생26명과 교사3명이 방문하려 합니다. 학급 프로젝트와 관련된 물 검사 시연을 특히 원하며 학생 전원이 함께 시작해야 합니다. 두 요건을 충족하는 가장 이른 회차를 예약해 주십시오. 학교 출발을 그에 맞추겠습니다.",
-          "방문 직후 식사 구역을30분 이용한 뒤 다른 활동 없이 떠납니다. 버스 회사에 알릴 픽업 시간을 확인해 주십시오. 도시락과 연필을 준비하고 이번 주 활동지를 내려받겠습니다. 규정에 맞는 안내원을 배정해 주십시오. 도착 시 교사가 받침판을 받을 곳도 알려 주십시오."
+          "학생 26명과 교사 3명이 방문하려 합니다. 학급 프로젝트와 관련된 물 검사 시연을 특히 원하며 학생 전원이 함께 시작해야 합니다. 두 요건을 충족하는 가장 이른 회차를 예약해 주십시오. 학교 출발을 그에 맞추겠습니다.",
+          "방문 직후 식사 구역을 30분 이용한 뒤 다른 활동 없이 떠납니다. 버스 회사에 알릴 픽업 시간을 확인해 주십시오. 도시락과 연필을 준비하고 이번 주 활동지를 내려받겠습니다. 규정에 맞는 안내원을 배정해 주십시오. 도착 시 교사가 받침판을 받을 곳도 알려 주십시오."
         ]
       }
     ],
@@ -2754,22 +2765,22 @@
         "type": "purpose",
         "q": "What is the announcement mainly about?",
         "choices": [
-          "A new school curriculum",
-          "A changed bus stop",
+          "A new pricing policy for school reservations",
+          "A replacement of guided visits with classroom lessons",
           "A redesigned gallery reopening",
-          "A meal service for teachers"
+          "A separate booking system for water-testing classes"
         ],
         "answer": 2,
         "ko": {
           "q": "공지의 주제는 무엇인가?",
           "choices": [
-            "새 학교 교육과정",
-            "버스 정류장 변경",
+            "학교 예약의 새 요금 정책",
+            "안내 관람을 교실 수업으로 대체",
             "개편된 전시실 재개관",
-            "교사 식사 서비스"
+            "물 검사 수업의 별도 예약 체계"
           ]
         },
-        "explain": "새 설비와 방문 조건을 갖춘 전시실 재개관을 알린다. 음식 판매 공지가 아니다."
+        "explain": "새 전시 설비와 단체 이용 조건을 갖춘 전시실 재개관을 알린다. 물 검사 시연은 관람 중 진행되며 별도 수업 예약이 아니다."
       },
       {
         "type": "detail",
@@ -2805,18 +2816,18 @@
         "ko": {
           "q": "보스킨 씨 요청에 맞는 회차는 언제인가?",
           "choices": [
-            "오전10시30분",
-            "오전11시30분",
-            "오후1시30분",
-            "오전9시30분"
+            "오전 10시 30분",
+            "오전 11시 30분",
+            "오후 1시 30분",
+            "오전 9시 30분"
           ]
         },
-        "explain": "26명 동시 참석과 시연 조건을 표에 적용하면9시30분18석은 부족하고10시30분32석이 맞는다. 이후 회차에는 시연이 없다.",
+        "explain": "26명 동시 참석과 시연 조건을 표에 적용하면 9시 30분 18석은 부족하고 10시 30분 32석이 맞는다. 이후 회차에는 시연이 없다.",
         "crossRef": true
       },
       {
         "type": "inference",
-        "q": "When should the school bus return?",
+        "q": "When should the bus pick up the class after its planned gallery visit and lunch?",
         "choices": [
           "11:45 A.M.",
           "1:00 P.M.",
@@ -2825,15 +2836,15 @@
         ],
         "answer": 3,
         "ko": {
-          "q": "학교 버스는 언제 돌아와야 하는가?",
+          "q": "예정된 전시 관람과 점심을 마친 학급을 버스가 언제 태워야 하는가?",
           "choices": [
-            "오전11시45분",
-            "오후1시",
-            "오후12시45분",
-            "오후12시15분"
+            "오전 11시 45분",
+            "오후 1시",
+            "오후 12시 45분",
+            "오후 12시 15분"
           ]
         },
-        "explain": "선택한10시30분에 방문75분과 이메일의 점심30분을 더하면12시15분이다.11시45분은 식사 전이다.",
+        "explain": "선택한 10시 30분에 방문 75분과 이메일의 점심 30분을 더하면 12시 15분이다. 11시 45분은 식사 전이다.",
         "crossRef": true
       },
       {
@@ -2865,250 +2876,220 @@
     "setType": "triple",
     "passages": [
       {
-        "type": "memo",
-        "title": "South Court Renovation",
+        "type": "article",
+        "title": "South Court Tests New Training-Room Surfaces",
         "heading": [
-          "From: Facilities Office",
-          "Date: June 1"
+          "Company Bulletin — June 28"
         ],
         "body": [
-          "Renovation of South Court will begin on June 16 and continue through July 4. Second-floor staff will move temporarily to the training suite in North Court. Desk telephones will be redirected automatically, but personal equipment should be labeled before the moving team arrives. The team will move labeled monitors and keyboards only; employees should carry their laptops and confidential papers themselves.",
-          "The training suite cannot host classes during the renovation. Existing bookings must move to another room or an online format. Classes involving physical prototype assembly cannot be delivered online and require washable work surfaces. The booking list identifies suitable rooms. Organizers must check capacity because several alternatives are smaller than the training suite. Exceptions to the surface requirement are not permitted: the rule protects furniture from adhesives used in prototype work. Facilities staff can discuss alternatives but cannot change these safety conditions."
+          "South Court’s facilities team has completed a four-week trial of washable work surfaces in Maple, one of the company’s training rooms. Instructors regularly use adhesive during prototype-assembly classes, and removing protective coverings from the old wooden tables delayed preparation for the next group. The trial was intended to shorten this preparation period while protecting furniture. Increasing class capacity was not one of its objectives.",
+          "Birch, used as a comparison room, kept its original wooden tables. Both rooms hosted the same course, with identical class sizes, lesson lengths, and supply budgets. The same two instructors taught in both rooms, and neither room received additional cleaning staff. Facilities recorded the time needed to make each room ready for another class, as well as any surface damage. Managers will consider these records together with instructor feedback at the quarterly facilities review. They have not yet approved installation in other rooms; the preparation figures alone will not determine their decision."
         ]
       },
       {
         "type": "form",
-        "title": "Alternative teaching rooms",
+        "title": "Training-room trial: summary record",
         "heading": [
-          "June 20, 9:00–12:00"
+          "Reporting period: June 1–28"
         ],
         "table": [
           [
             "Room",
-            "Capacity",
-            "Work surfaces",
-            "Status"
+            "Sessions recorded",
+            "Mean reset time",
+            "Surface-damage reports"
           ],
           [
             "Maple",
-            "24",
-            "Washable",
-            "Available"
+            "8",
+            "12 minutes",
+            "0"
           ],
           [
             "Birch",
-            "18",
-            "Washable",
-            "Available"
-          ],
-          [
-            "Ash",
-            "30",
-            "Wood veneer",
-            "Available"
-          ],
-          [
-            "Pine",
-            "28",
-            "Washable",
-            "Reserved"
+            "8",
+            "25 minutes",
+            "3"
           ]
         ],
         "body": [
-          "Capacity includes everyone, including instructors and assistants. Borrowing furniture from neighboring rooms cannot increase the limit. Status reflects confirmed bookings as of June 2; contact facilities promptly because available rooms may be allocated to another group. A provisional request alone does not hold a room indefinitely.",
-          "Every room listed has a projector and network connection. These features do not mean that its surfaces are suitable for practical construction work. Organizers must notify registered participants of a room change themselves. Facilities updates the central booking record but does not contact individual learners. Collect keys from the security desk on the morning of the booking and return them afterward. Leave the room clean and remove surplus materials before the next group arrives. Report missing equipment rather than taking a replacement from another room without permission."
+          "Reset time begins when learners leave and ends when the room is ready for the next group. It includes removing leftover materials, cleaning tables, and replacing supplies. It excludes the class itself. All sixteen sessions were completed as scheduled, and no observations were removed from this summary.",
+          "The figures are averages, not promises that every future reset will take exactly the same time. Damage reports count separate incidents requiring a repair assessment; they do not represent the number of tables replaced. There were no changes to staffing during the reporting period. The trial coordinator checked the original logs against these figures before circulating the summary. Keep the individual records available for the quarterly review, since managers may ask about differences between sessions."
         ]
       },
       {
-        "type": "email",
-        "title": "Prototype workshop relocation",
+        "type": "review",
+        "title": "Instructor assessment of the Maple trial",
         "heading": [
-          "To: Facilities Office",
-          "From: Evin Darel",
-          "Date: June 3",
-          "Subject: June 20 room"
+          "Evin Darel, Product Training",
+          "Submitted June 29"
         ],
         "body": [
-          "Our prototype workshop occupies the training suite booking on June 20 from nine until noon. Twenty-one learners have registered, and two instructors will be present throughout. We will use adhesive to assemble cardboard models, so online delivery would not serve our objective. Please reserve the available alternative meeting the published surface and capacity rules.",
-          "We do not need chairs beyond the room’s normal arrangement. I will send revised joining instructions to everyone once you confirm the location, including directions to the security desk. One learner wants to bring a colleague to observe. I have not approved this and will wait for the allocation. Please tell me who should report an equipment fault discovered during setup. I will arrive half an hour early to test the projector and arrange our model materials."
+          "I taught in both rooms during the trial. In Maple, spilled adhesive could be wiped off directly after each class. In Birch, removing the protective coverings was slow, and some adhesive reached the wood despite our precautions. The new surfaces addressed a recurring practical difficulty without changing what learners built.",
+          "The published summary supports my impression that Maple was ready again in less than half the time needed in Birch. I would favor extending the new surfaces to other rooms, subject to the facilities review. However, I would also like labeled storage compartments for spare materials. We still spend time identifying loose components, and that problem was outside this trial’s scope. Storage improvements should be considered separately rather than credited to the new tables."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "사우스코트 개보수",
+        "title": "사우스코트의 새 교육실 작업대 시험",
         "heading": [
-          "발신: 시설실",
-          "날짜: 6월1일"
+          "사내 소식지 — 6월 28일"
         ],
         "body": [
-          "6월16일부터7월4일까지 공사한다.2층 직원은 노스코트 교육실로 임시 이동한다. 전화는 자동 연결되지만 이사팀 도착 전 개인 장비에 표시해야 한다. 표시된 모니터와 키보드만 옮겨 주며 노트북과 기밀 문서는 직접 운반한다.",
-          "교육실 수업은 다른 방이나 온라인으로 옮겨야 한다. 실물 시제품 조립은 온라인이 불가하고 세척 가능한 작업대가 필요하다. 예약 목록에 적합한 방이 있다. 더 작은 대체 방도 있어 정원을 확인해야 한다. 접착제로부터 가구를 보호하는 작업대 규칙에 예외는 없다. 시설 직원이 대안은 논의할 수 있지만 이 안전 조건을 바꿀 수는 없다."
+          "사우스코트 시설팀은 회사 교육실 중 메이플에서 세척 가능한 작업대를 4주간 시험했다. 시제품 조립 수업에서 접착제를 자주 사용하는데, 기존 나무 작업대의 보호 덮개를 제거하느라 다음 학급 준비가 늦어졌다. 시험은 가구를 보호하면서 준비 시간을 줄이려는 것이며 학급 정원 확대가 목적은 아니었다.",
+          "비교실로 사용한 버치는 기존 나무 작업대를 유지했다. 두 방에서 같은 강좌를 진행했으며 학급 인원, 수업 시간, 소모품 예산이 동일했다. 같은 강사 2명이 두 방에서 수업했고 청소 인력도 늘리지 않았다. 시설팀은 다음 수업 준비 시간과 작업대 손상을 기록했다. 관리자는 분기 시설 검토에서 기록과 강사 의견을 함께 고려한다. 다른 방 설치는 아직 승인되지 않았으며 준비 수치만으로 결정하지 않는다."
         ]
       },
       {
-        "title": "대체 교육실",
+        "title": "교육실 시험 요약 기록",
         "heading": [
-          "6월20일9:00–12:00"
+          "기록 기간: 6월 1–28일"
         ],
         "table": [
           [
             "방",
-            "정원",
-            "작업대",
-            "상태"
+            "기록된 수업 수",
+            "평균 재정비 시간",
+            "작업대 손상 보고"
           ],
           [
             "메이플",
-            "24",
-            "세척 가능",
-            "예약 가능"
+            "8",
+            "12분",
+            "0"
           ],
           [
             "버치",
-            "18",
-            "세척 가능",
-            "예약 가능"
-          ],
-          [
-            "애시",
-            "30",
-            "무늬목",
-            "예약 가능"
-          ],
-          [
-            "파인",
-            "28",
-            "세척 가능",
-            "예약됨"
+            "8",
+            "25분",
+            "3"
           ]
         ],
         "body": [
-          "정원에 강사와 보조자를 포함한다. 옆방 가구를 빌려 정원을 늘릴 수 없다.6월2일 확정 예약 기준이므로 다른 단체에 배정되기 전에 신속히 연락해야 한다. 임시 요청만으로 무기한 방을 확보하지는 못한다.",
-          "모두 영사기와 네트워크가 있지만 작업대의 제작 실습 적합성을 뜻하지 않는다. 장소 변경은 주최자가 참가자에게 직접 알려야 한다. 시설실은 중앙 기록만 갱신한다. 당일 오전 경비실에서 열쇠를 받고 끝나면 반납한다. 다음 단체 전에 청소하고 남은 재료를 치워야 한다. 장비가 없으면 보고하고 허락 없이 다른 방에서 대체품을 가져오면 안 된다."
+          "재정비 시간은 학습자가 나간 뒤부터 다음 학급을 받을 준비가 될 때까지다. 남은 재료 제거, 작업대 청소, 소모품 보충을 포함하고 수업 자체는 제외한다. 16회 모두 예정대로 완료했으며 요약에서 제외한 관측은 없다.",
+          "수치는 평균이며 앞으로 모든 재정비가 정확히 그만큼 걸린다는 보장은 아니다. 손상 보고는 수리 평가가 필요한 별도 사건 수이며 교체한 작업대 수가 아니다. 기록 기간에 인력 변화는 없었다. 시험 담당자가 원본 기록과 수치를 대조한 뒤 요약을 배포했다. 관리자가 수업별 차이를 물을 수 있으므로 분기 검토용 개별 기록을 보관해야 한다."
         ]
       },
       {
-        "title": "시제품 워크숍 이전",
+        "title": "메이플 시험에 대한 강사 평가",
         "heading": [
-          "수신: 시설실",
-          "발신: 에빈 데럴",
-          "날짜: 6월3일",
-          "제목: 6월20일 장소"
+          "에빈 데럴, 제품 교육",
+          "제출: 6월 29일"
         ],
         "body": [
-          "20일9시부터정오까지 교육실 예약입니다. 학습자21명과 강사2명이 내내 참석합니다. 접착제로 판지 모형을 조립하므로 온라인은 목적에 맞지 않습니다. 공지된 작업대·정원 규칙에 맞는 예약 가능한 대안을 확보해 주십시오.",
-          "기본 배치 외 의자는 필요 없습니다. 장소 확인 후 경비실 길 안내를 포함한 수정 참가 안내를 전원에게 보내겠습니다. 학습자가 동료 참관을 문의했지만 승인하지 않았고 배정 후 결정하겠습니다. 준비 중 발견한 장비 결함을 누가 보고해야 하는지 알려 주십시오. 영사기 시험과 재료 배치를 위해30분 일찍 오겠습니다."
+          "시험 기간 두 방에서 모두 수업했다. 메이플에서는 수업 후 흘린 접착제를 바로 닦을 수 있었다. 버치에서는 보호 덮개 제거가 오래 걸렸고 주의를 기울여도 일부 접착제가 나무에 닿았다. 새 작업대는 학습자의 제작물을 바꾸지 않고 반복되는 실무상의 문제를 해결했다.",
+          "공개된 요약은 메이플의 준비 시간이 버치의 절반 미만이라는 내 인상을 뒷받침한다. 시설 검토를 거쳐 다른 방에도 새 작업대를 확대하는 데 찬성한다. 다만 여분 재료를 위한 이름표 붙은 보관 칸도 원한다. 흩어진 부품을 구별하는 데 여전히 시간이 들며 이는 이번 시험의 범위 밖이었다. 보관 개선은 새 작업대의 성과로 돌리지 말고 별도로 검토해야 한다."
         ]
       }
     ],
     "questions": [
       {
         "type": "purpose",
-        "q": "Why is the training suite unavailable for classes?",
+        "q": "What is the main purpose of the article?",
         "choices": [
-          "Its capacity has permanently decreased",
-          "Its projector is broken",
-          "It is becoming a public gallery",
-          "It will accommodate relocated employees"
+          "To announce an increase in class sizes",
+          "To recruit additional cleaning employees",
+          "To authorize replacement of every training-room table",
+          "To describe a trial of improved training facilities"
         ],
         "answer": 3,
         "ko": {
-          "q": "교육실에서 수업을 할 수 없는 이유는 무엇인가?",
+          "q": "기사의 주된 목적은 무엇인가?",
           "choices": [
-            "정원이 영구 감소해서",
-            "영사기가 고장 나서",
-            "공공 전시장이 되어서",
-            "이동한 직원들이 사용할 것이어서"
+            "학급 인원 확대 발표",
+            "추가 청소 직원 모집",
+            "모든 교육실 작업대 교체 승인",
+            "교육 시설 개선 시험 설명"
           ]
         },
-        "explain": "메모는 공사 중 직원들을 교육실로 이동시킨다고 한다. 장비 고장은 보고되지 않았다."
+        "explain": "기사는 세척 가능한 작업대의 시험 목적·비교 조건·평가 절차를 설명한다. 전면 교체는 아직 승인되지 않았다."
       },
       {
         "type": "not-true",
-        "q": "Which statement about alternative rooms is NOT true?",
+        "q": "Which statement about the trial is NOT true?",
         "choices": [
-          "Extra furniture increases the permitted attendance",
-          "All rooms have network access",
-          "Organizers must collect keys",
-          "Instructors count toward capacity"
+          "The trial was intended to accommodate larger classes",
+          "The same instructors taught in both rooms",
+          "Preparation time was measured separately from lessons",
+          "Managers will consider instructor feedback"
         ],
         "answer": 0,
         "ko": {
-          "q": "대체 방에 관한 설명 중 사실이 아닌 것은 무엇인가?",
+          "q": "시험에 관한 설명 중 사실이 아닌 것은 무엇인가?",
           "choices": [
-            "추가 가구가 허용 인원을 늘린다",
-            "모두 네트워크가 있다",
-            "주최자가 열쇠를 받아야 한다",
-            "강사도 정원에 포함된다"
+            "시험 목적은 더 큰 학급을 수용하는 것이었다",
+            "같은 강사들이 두 방에서 가르쳤다",
+            "준비 시간은 수업 시간과 별도로 측정했다",
+            "관리자가 강사 의견을 고려한다"
           ]
         },
-        "explain": "표 설명은 다른 방 가구로 정원을 늘릴 수 없다고 한다. 나머지는 명시된 사실이다."
+        "explain": "기사 첫 문단은 학급 정원 확대가 목적이 아니었다고 한다. 같은 강사와 의견 검토는 기사에, 수업 시간 제외는 기록 설명에 명시되어 있다."
       },
       {
         "type": "inference",
-        "q": "Which room meets the workshop’s requirements?",
+        "q": "What conclusion is best supported by the article and trial record?",
         "choices": [
-          "Maple",
-          "Birch",
-          "Ash",
-          "Pine"
+          "The new surfaces likely helped shorten preparation",
+          "Smaller classes in Maple produced the shorter reset times",
+          "Birch’s lessons ended earlier than Maple’s",
+          "The trial proved that supply budgets could be reduced"
         ],
         "answer": 0,
         "ko": {
-          "q": "워크숍 요건에 맞는 방은 어디인가?",
+          "q": "기사와 시험 기록이 가장 잘 뒷받침하는 결론은 무엇인가?",
           "choices": [
-            "메이플",
-            "버치",
-            "애시",
-            "파인"
+            "새 작업대가 준비 시간 단축에 기여했을 가능성이 높다",
+            "메이플의 더 작은 학급이 재정비 시간 단축을 만들었다",
+            "버치 수업이 메이플보다 일찍 끝났다",
+            "시험이 소모품 예산 감축 가능성을 입증했다"
           ]
         },
-        "explain": "이메일의 총23명과 접착제 실습을 메모·표에 적용하면 세척식24인용이며 예약 가능한 메이플만 맞는다. 파인은 예약됐다.",
+        "explain": "기사는 학급 인원·수업 시간·예산·인력을 같게 유지했다고 하고, 기록은 메이플 12분과 버치 25분의 차이를 보여 준다. 기록이나 후기만으로는 학급 규모 차이라는 B를 배제할 수 없으므로 기사의 비교 조건도 확인해야 한다.",
         "crossRef": true
       },
       {
         "type": "inference",
-        "q": "If the colleague observes, what will be true of the appropriate room?",
+        "q": "Which figures in the summary record support the impression Mr. Darel states in paragraph 2 of his assessment?",
         "choices": [
-          "It will exceed capacity by one",
-          "Its surface rule will need an exception",
-          "It will need to be replaced with Birch",
-          "Its capacity will be exactly reached"
+          "Eight sessions in each room",
+          "Zero damage reports compared with three",
+          "Sixteen completed observations and none excluded",
+          "Twelve minutes compared with twenty-five minutes"
         ],
         "answer": 3,
         "ko": {
-          "q": "동료가 참관하면 적합한 방에 관해 무엇이 참인가?",
+          "q": "요약 기록의 어떤 수치가 데럴 씨가 평가 2문단에서 밝힌 인상을 뒷받침하는가?",
           "choices": [
-            "정원을1명 초과한다",
-            "작업대 규칙 예외가 필요하다",
-            "버치로 교체해야 한다",
-            "정원에 정확히 도달한다"
+            "각 방의 수업 8회",
+            "손상 보고 0건과 3건",
+            "완료한 관측 16건과 제외 0건",
+            "12분과 25분"
           ]
         },
-        "explain": "현재23명에 참관자1명을 더하면 메이플 정원24명과 같다. 버치는18명으로 더 작다.",
+        "explain": "평가 2문단의 인상은 메이플의 준비 시간이 버치의 절반 미만이라는 것이다. 표의 12분은 25분의 절반인 12.5분보다 짧으므로 후기의 비교 대상과 기록의 수치를 함께 확인해야 한다.",
         "crossRef": true
       },
       {
         "type": "detail",
-        "q": "What will Mr. Darel do after the room is confirmed?",
+        "q": "What additional improvement does Mr. Darel suggest?",
         "choices": [
-          "Cancel the model-building exercise",
-          "Have facilities contact every learner",
-          "Send updated instructions to participants",
-          "Approve unlimited observers"
+          "Longer prototype-assembly lessons",
+          "Larger budgets for disposable coverings",
+          "Marked storage spaces for extra supplies",
+          "A separate cleaning team for each room"
         ],
         "answer": 2,
         "ko": {
-          "q": "방 확정 후 데럴 씨는 무엇을 할 것인가?",
+          "q": "데럴 씨가 추가로 제안하는 개선은 무엇인가?",
           "choices": [
-            "모형 제작을 취소한다",
-            "시설실에 전원 연락을 맡긴다",
-            "참가자에게 수정 안내를 보낸다",
-            "참관자를 무제한 승인한다"
+            "더 긴 시제품 조립 수업",
+            "일회용 덮개 예산 확대",
+            "여분 물품용으로 표시된 보관 공간",
+            "방별 별도 청소팀"
           ]
         },
-        "explain": "이메일은 본인이 수정 안내를 보내겠다고 한다. 시설실의 개별 연락은 아니다."
+        "explain": "후기 마지막 문단에서 이름표 붙은 보관 칸을 제안한다. 부품 식별 문제는 작업대 시험과 별도로 검토해야 한다."
       }
     ]
   }
