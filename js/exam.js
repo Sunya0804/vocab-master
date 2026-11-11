@@ -240,7 +240,13 @@
   }
 
   // Part 7 directions name the documents: "the following e-mail and order form".
-  const docList = titles => titles.length < 3 ? titles.join(' and ') : `${titles.slice(0, -1).join(', ')}, and ${titles.at(-1)}`;
+  // Directions name document kinds as the test does ("the following e-mail and form", "two e-mails"), not their titles.
+  const EXAM_P7_KINDS = {...EXAM_P6_DOCS, review:'review', announcement:'announcement', form:'form', text:'text-message chain', chat:'online chat discussion'};
+  const docList = passages => {
+    const kinds = passages.map(p => EXAM_P7_KINDS[p.type]);
+    if (kinds.length > 1 && kinds.every(kind => kind === kinds[0])) return `${kinds.length === 2 ? 'two' : 'three'} ${kinds[0]}s`;
+    return kinds.length < 3 ? kinds.join(' and ') : `${kinds.slice(0, -1).join(', ')}, and ${kinds.at(-1)}`;
+  };
   const markers = html => html.replace(/\[([1-4])\]/g, '<span class="reading-marker">[$1]</span>');
   const readingTable = rows => `<div class="exam-graphic reading-table"><table><thead><tr>${rows[0].map(cell => `<th scope="col">${escape(cell)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(row => `<tr>${row.map(cell => `<td>${escape(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 
@@ -280,7 +286,7 @@
       passage = set.passages.map((p, i) => readingDoc(p, i, set.passages.length, null, refs.filter(r => r.q.ref.passage === i))).join('');
       translation = set.passages.map((p, i) => readingDoc(p, i, set.passages.length, set.passagesKo[i])).join('');
     }
-    const direction = `Questions 1–${n} refer to the following ${part === 6 ? EXAM_P6_DOCS[set.passageType] : docList(set.passages.map(p => p.title.toLowerCase()))}.`;
+    const direction = `Questions 1–${n} refer to the following ${part === 6 ? EXAM_P6_DOCS[set.passageType] : docList(set.passages)}.`;
     return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}
       <section class="exam-question exam-set" data-question-id="${escape(set.id)}"><div class="exam-listening-heading">${icon('book-open')}<h1>세트 ${s.index + 1}</h1></div><p class="exam-set-direction" lang="en">${escape(direction)}</p>
       <div class="exam-reading"><section class="reading-passage" aria-label="지문" tabindex="0">${passage}${s.answered ? `<details class="reading-ko" ${part === 6 ? 'open' : ''}><summary>번역 보기</summary>${translation}</details>` : ''}</section>

@@ -62,5 +62,6 @@
 .reading-questions .exam-set-questions{margin-top:0}
 @media(min-width:900px){.app-shell:has(.exam-reading){max-width:1180px}
 .exam-reading{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:start}
-.reading-passage,.reading-questions{position:sticky;top:16px;max-height:calc(100dvh - 128px);overflow-y:auto;overscroll-behavior:contain}
+/* 380px = header, progress and set heading above the panes (~285px) + fixed bottom nav (~78px) + gap: both panes end above the nav on the first screen. */
+.reading-passage,.reading-questions{position:sticky;top:16px;max-height:max(320px,calc(100dvh - 380px));overflow-y:auto;overscroll-behavior:contain}
 .reading-questions{padding-right:8px}}
