@@ -61,7 +61,7 @@
    "choices": [
     "Express delivery costs an extra fifteen dollars.",
     "The original printer was surprisingly inexpensive.",
-    "The supplier is still waiting for a replacement part."
+    "We're collecting it ourselves instead of having it delivered."
    ],
    "answer": 2,
    "ko": {
@@ -69,14 +69,14 @@
     "choices": [
      "빠른 배송은 15달러가 추가돼요.",
      "원래 프린터는 놀랄 만큼 저렴했어요.",
-     "공급업체가 아직 교체 부품을 기다리고 있어요."
+     "배송받는 대신 저희가 직접 가지러 가기로 했어요."
     ]
    },
    "trap": [
     "related-word",
     "repeat-word"
    ],
-   "explain": "부품을 기다리고 있다는 상황으로 도착 시점이 아직 정해지지 않았음을 전하는 (C)의 간접 응답이 맞아요. (A)는 배송비, (B)는 printer를 반복한 과거 구매 가격 이야기예요."
+   "explain": "배송받는 대신 직접 수령한다는 (C)가 배송을 기다리는 전제를 정정하는 간접 응답이에요. (A)는 배송비이고, (B)는 원래 프린터의 구매 가격이라 도착 시점에 답하지 않아요."
   },
   {
    "id": "p2-004",
@@ -686,7 +686,7 @@
    "difficulty": 3,
    "q": "What should I tell customers about tomorrow's temporary network outage?",
    "choices": [
-    "Didn't IT send everyone a suggested explanation?",
+    "Let's confirm the wording with IT before contacting anyone.",
     "The customers arrived an hour before opening.",
     "Our network connects both regional offices."
    ],
@@ -694,7 +694,7 @@
    "ko": {
     "q": "내일의 일시적인 통신망 중단에 관해 고객들에게 뭐라고 말해야 하나요?",
     "choices": [
-     "전산팀에서 모두에게 권장 안내문을 보내지 않았나요?",
+     "누구에게 연락하기 전에 전산팀과 안내 문구를 확인해 봐요.",
      "고객들은 개점 한 시간 전에 도착했어요.",
      "우리 통신망은 두 지역 사무소를 연결해요."
     ]
@@ -703,7 +703,7 @@
     "wrong-subject",
     "repeat-word"
    ],
-   "explain": "전산팀이 보낸 안내문을 확인하도록 되묻는 (A)가 설명할 내용을 찾게 해 주는 간접 응답이에요. (B)는 고객의 과거 방문이고, (C)는 network를 반복한 일반 기능 설명이에요."
+   "explain": "전산팀과 안내 문구를 먼저 확인하자는 (A)가 고객에게 말할 내용을 정하기 위한 간접 응답이에요. (B)는 고객의 과거 방문이고, (C)는 통신망의 일반 기능이라 중단 안내 내용과 달라요."
   },
   {
    "id": "p2-029",
@@ -1216,7 +1216,7 @@
    "q": "When should I send the final invitation to our guest lecturer?",
    "choices": [
     "The lecture was about international trade.",
-    "Her assistant is still checking her availability.",
+    "She has already declined the invitation.",
     "She mailed us the invitation last year."
    ],
    "answer": 1,
@@ -1224,7 +1224,7 @@
     "q": "초청 강사에게 최종 초청장은 언제 보내야 하나요?",
     "choices": [
      "그 강의는 국제 무역에 관한 것이었어요.",
-     "그분의 비서가 아직 가능한 일정을 확인 중이에요.",
+     "그분은 이미 초청을 거절했어요.",
      "그녀가 지난해 우리에게 초청장을 우편으로 보냈어요."
     ]
    },
@@ -1232,7 +1232,7 @@
     "related-word",
     "wrong-subject"
    ],
-   "explain": "강사의 일정이 아직 확인 중이므로 발송 시점을 확정하기 어렵다는 (B)가 간접 응답이에요. (A)는 강의 내용이고, (C)는 발송 주체와 시점을 바꾼 과거 초청 이야기예요."
+   "explain": "초청을 이미 거절했다는 (B)가 최종 초청장을 보낼 필요가 없음을 암시하는 간접 응답이에요. (A)는 강의 내용이고, (C)는 발송 주체와 시점이 다른 지난해 초청 이야기예요."
   },
   {
    "id": "p2-050",
@@ -2512,7 +2512,7 @@
    "choices": [
     "Yes, the receipt lists the training fee and local tax.",
     "It arrived in my inbox this morning.",
-    "The schedule includes three workshops."
+    "Last year's schedule included three workshops."
    ],
    "answer": 1,
    "ko": {
@@ -2520,15 +2520,16 @@
     "choices": [
      "네, 영수증에 교육비와 지방세가 나와 있어요.",
      "오늘 아침에 제 메일함으로 왔어요.",
-     "일정에 워크숍 세 개가 포함되어 있어요."
+     "작년 일정에는 워크숍 세 개가 포함됐어요."
     ]
    },
    "trap": [
     "related-word",
     "repeat-word",
-    "similar-sound"
+    "similar-sound",
+    "wrong-subject"
    ],
-   "explain": "수정 일정이 도착했다고 답한 (B)가 정답이에요. (A)는 received와 소리가 비슷한 receipt를 쓴 교육비 이야기이고, (C)는 일정의 구성만 말해요."
+   "explain": "수정 일정이 도착했다고 답한 (B)가 정답이에요. (A)는 received와 소리가 비슷한 receipt를 쓴 교육비 이야기이고, (C)는 작년 일정 내용으로 다음 주 수정본 수령 여부와 달라요."
   },
   {
    "id": "p2-102",
@@ -2667,7 +2668,7 @@
    "q": "Do employees need identification badges to enter the building on weekends?",
    "choices": [
     "Our baggage labels show the company address and a tracking number.",
-    "Yes, the identification badges show each employee's department and photograph.",
+    "The badge printer is leased from a local company.",
     "Security checks everyone's badge at the entrance."
    ],
    "answer": 2,
@@ -2675,7 +2676,7 @@
     "q": "직원들이 주말에 건물에 들어가려면 신분증이 필요한가요?",
     "choices": [
      "저희 수하물 라벨에는 회사 주소와 추적 번호가 나와 있어요.",
-     "네, 신분증에는 직원마다 부서와 사진이 나와 있어요.",
+     "출입증 프린터는 지역 업체에서 임대했어요.",
      "보안 직원이 입구에서 모두의 신분증을 확인해요."
     ]
    },
@@ -2683,7 +2684,7 @@
     "repeat-word",
     "similar-sound"
    ],
-   "explain": "입구에서 신분증을 확인한다는 (C)가 필요 여부에 답해요. (A)는 badges와 소리가 비슷한 baggage를 쓴 수하물 라벨이고, (B)는 신분증의 기재 내용만 말해요."
+   "explain": "입구에서 신분증을 확인한다는 (C)가 필요 여부에 답해요. (A)는 badges와 소리가 비슷한 baggage를 쓴 수하물 라벨이고, (B)는 출입증 프린터의 임대 정보라 주말 출입 요건과 달라요."
   },
   {
    "id": "p2-108",
@@ -2692,7 +2693,7 @@
    "q": "Is the conference room available for our department meeting on Thursday?",
    "choices": [
     "It's free from ten until noon.",
-    "The heating in that room is inspected every Thursday morning.",
+    "The heating was inspected last Thursday morning.",
     "The meeting agenda has four items."
    ],
    "answer": 0,
@@ -2700,7 +2701,7 @@
     "q": "목요일 부서 회의에 그 회의실을 쓸 수 있나요?",
     "choices": [
      "10시부터 정오까지 비어 있어요.",
-     "그 방의 난방은 매주 목요일 아침에 점검해요.",
+     "난방은 지난 목요일 아침에 점검했어요.",
      "회의 안건은 네 개예요."
     ]
    },
@@ -2709,7 +2710,7 @@
     "related-word",
     "similar-sound"
    ],
-   "explain": "회의실이 비어 있는 시간을 알려 주는 (A)가 정답이에요. (B)는 meeting과 소리가 비슷한 heating을 쓴 난방 점검이고, (C)는 회의 안건 개수예요."
+   "explain": "회의실이 비어 있는 시간을 알려 주는 (A)가 정답이에요. (B)는 meeting과 소리가 비슷한 heating을 쓴 지난주 난방 점검이고, (C)는 회의 안건 개수라 목요일 회의실 이용 가능 여부에 답하지 않아요."
   },
   {
    "id": "p2-109",
@@ -2997,7 +2998,7 @@
    "difficulty": 2,
    "q": "Did the client accept our revised payment terms?",
    "choices": [
-    "The payment was made by bank transfer.",
+    "The bank transfer fee increased last month.",
     "Ask our account manager about that.",
     "The client accepts electronic invoices."
    ],
@@ -3005,7 +3006,7 @@
    "ko": {
     "q": "고객이 저희가 수정한 결제 조건을 받아들였나요?",
     "choices": [
-     "대금은 계좌 이체로 지불했어요.",
+     "계좌 이체 수수료는 지난달에 올랐어요.",
      "그건 저희 고객 담당 매니저에게 물어보세요.",
      "그 고객은 전자 청구서를 받아요."
     ]
@@ -3014,7 +3015,7 @@
     "repeat-word",
     "related-word"
    ],
-   "explain": "담당 매니저에게 확인하도록 안내하는 (B)가 답을 다른 사람에게 미루는 간접 응답이에요. (A)는 지급 수단, (C)는 청구서 수령 방식으로 조건 수락 여부와 달라요."
+   "explain": "담당 매니저에게 확인하도록 안내하는 (B)가 답을 다른 사람에게 미루는 간접 응답이에요. (A)는 은행 이체 수수료의 변동, (C)는 청구서 수령 방식으로 고객의 수정 조건 수락 여부와 달라요."
   },
   {
    "id": "p2-121",
@@ -3384,7 +3385,7 @@
    ],
    "answer": 1,
    "ko": {
-    "q": "오카포 씨가 해외 채용을 담당하는 거죠?",
+    "q": "오카포르 씨가 해외 채용을 담당하는 거죠?",
     "choices": [
      "국제선 터미널은 보수 공사 중이에요.",
      "네, 해외 채용을 모두 담당해요.",
@@ -3580,7 +3581,7 @@
    "difficulty": 3,
    "q": "Shouldn't we send the invoice to the distributor today?",
    "choices": [
-    "The distributor's billing address is on the contract.",
+    "The distributor's address label uses a smaller font.",
     "The system emails it automatically when the shipment leaves.",
     "Today's invoices are filed in numerical order."
    ],
@@ -3588,7 +3589,7 @@
    "ko": {
     "q": "오늘 유통업체에 청구서를 보내야 하지 않나요?",
     "choices": [
-     "유통업체의 청구지 주소는 계약서에 있어요.",
+     "그 유통업체의 주소 라벨은 더 작은 글꼴을 써요.",
      "화물이 출고되면 시스템이 자동으로 이메일로 보내요.",
      "오늘 청구서들은 번호순으로 정리되어 있어요."
     ]
@@ -3597,7 +3598,7 @@
     "related-word",
     "repeat-word"
    ],
-   "explain": "출고 시 자동 발송된다는 (B)가 별도 발송을 제안한 말에 절차로 답하는 간접 응답이에요. (A)는 주소, (C)는 문서 정리 방식으로 발송할 필요가 있는지 설명하지 않아요."
+   "explain": "출고 시 자동 발송된다는 (B)가 별도 발송을 제안한 말에 절차로 답하는 간접 응답이에요. (A)는 주소 라벨의 서식, (C)는 문서 정리 방식으로 청구서 발송 필요 여부에 답하지 않아요."
   },
   {
    "id": "p2-144",
@@ -3732,7 +3733,7 @@
    "q": "Are we repairing the old scanners or purchasing replacements?",
    "choices": [
     "Purchase receipts should be kept for tax purposes.",
-    "The repair invoice lists separate charges for labor and scanner parts.",
+    "The scanner's model number is printed beside the power switch.",
     "We're buying new ones under the bulk discount program."
    ],
    "answer": 2,
@@ -3740,7 +3741,7 @@
     "q": "오래된 스캐너를 수리하나요, 교체품을 구매하나요?",
     "choices": [
      "구매 영수증은 세금 신고를 위해 보관해야 해요.",
-     "수리 청구서에는 인건비와 스캐너 부품비가 따로 나와 있어요.",
+     "스캐너 모델 번호는 전원 스위치 옆에 인쇄돼 있어요.",
      "대량 구매 할인 제도로 새것을 살 거예요."
     ]
    },
@@ -3748,7 +3749,7 @@
     "repeat-word",
     "related-word"
    ],
-   "explain": "새 제품을 구매한다고 선택한 (C)가 정답이에요. (A)는 영수증 보관, (B)는 수리비 항목으로 수리와 교체 중 어느 계획인지 답하지 않아요."
+   "explain": "새 제품을 구매한다고 선택한 (C)가 정답이에요. (A)는 영수증 보관, (B)는 모델 번호 표시 위치로 수리와 교체 중 어느 계획인지 답하지 않아요."
   },
   {
    "id": "p2-150",
@@ -4130,26 +4131,25 @@
    "id": "p2-165",
    "type": "request",
    "difficulty": 2,
-   "q": "Would you cover the reception desk during my noon lunch break?",
+   "q": "Would you oversee the software migration during my afternoon appointment?",
    "choices": [
-    "The desk calendar covers the whole year.",
-    "I'm scheduled to interview a candidate at noon.",
-    "The lunch break lasts forty minutes."
+    "The software license is valid for another year.",
+    "I'm presenting the quarterly results then.",
+    "The appointment letter uses our new company logo."
    ],
    "answer": 1,
    "ko": {
-    "q": "제 정오 점심시간에 안내 데스크를 대신 봐주시겠어요?",
+    "q": "제가 오후에 약속이 있는 동안 소프트웨어 이전 작업을 감독해 주시겠어요?",
     "choices": [
-     "탁상 달력에는 일 년 전체가 나와 있어요.",
-     "정오에 지원자 면접을 하기로 되어 있어요.",
-     "점심시간은 40분이에요."
+     "소프트웨어 사용권은 일 년 더 유효해요.",
+     "그때 저는 분기 실적을 발표해요.",
+     "임명장에는 새 회사 로고가 사용돼요."
     ]
    },
    "trap": [
-    "repeat-word",
-    "related-word"
+    "repeat-word"
    ],
-   "explain": "정오에 면접 일정이 있다는 (B)가 대신 근무하기 어려움을 전하는 간접 응답이에요. (A)는 cover와 desk를 다른 의미로 썼고, (C)는 휴식 시간의 길이만 설명해요."
+   "explain": "같은 시간에 실적 발표가 있다는 (B)가 요청을 맡기 어려운 사정을 전하는 간접 응답이에요. (A)는 사용권 유효기간이고, (C)는 appointment를 약속이 아닌 임명에 사용한 문서 서식 이야기예요."
   },
   {
    "id": "p2-166",
@@ -4284,7 +4284,7 @@
    "choices": [
     "Isn't that a condition of our insurance coverage?",
     "The briefing materials are available in two languages.",
-    "We shortened the coffee break last time."
+    "The orientation booklet has a photograph of the cafeteria."
    ],
    "answer": 0,
    "ko": {
@@ -4292,15 +4292,14 @@
     "choices": [
      "그건 보험 보장을 받기 위한 조건 아닌가요?",
      "설명 자료는 두 언어로 제공돼요.",
-     "지난번에는 커피 휴식 시간을 줄였어요."
+     "오리엔테이션 안내 책자에는 구내식당 사진이 있어요."
     ]
    },
    "trap": [
     "repeat-word",
-    "related-word",
-    "wrong-subject"
+    "related-word"
    ],
-   "explain": "보험 조건이라는 점을 되물어 삭제 제안에 이의를 제기하는 (A)가 간접 응답이에요. (B)는 자료의 언어, (C)는 다른 시간대를 줄였던 과거 사실로 이번 안전 설명 삭제에 대한 응답이 아니에요."
+   "explain": "보험 조건이라는 점을 되물어 삭제 제안에 이의를 제기하는 (A)가 간접 응답이에요. (B)는 설명 자료의 언어, (C)는 안내 책자에 실린 사진으로 안전 설명을 빼자는 제안에 답하지 않아요."
   },
   {
    "id": "p2-172",
@@ -4359,7 +4358,7 @@
    "q": "Please release the revised specifications to our external partners today.",
    "choices": [
     "Has engineering signed off on the latest changes?",
-    "Our partners receive updates through a secure portal.",
+    "The partners' company logos appear at the top of the portal.",
     "The partners revised their standard delivery terms yesterday."
    ],
    "answer": 0,
@@ -4367,15 +4366,15 @@
     "q": "오늘 외부 협력사에 수정 사양을 공개해 주세요.",
     "choices": [
      "기술팀이 최근 변경 사항을 승인했나요?",
-     "저희 협력사들은 보안 포털로 업데이트를 받아요.",
+     "포털 상단에는 협력사들의 회사 로고가 표시돼요.",
      "협력사들이 어제 기본 배송 조건을 수정했어요."
     ]
    },
    "trap": [
-    "related-word",
-    "repeat-word"
+    "repeat-word",
+    "wrong-subject"
    ],
-   "explain": "공개 전 승인이 났는지 되묻는 (A)가 선행 조건을 확인하는 간접 응답이에요. (B)는 전달 경로이고, (C)는 partners와 revised를 반복하지만 수정한 주체와 대상이 다른 이야기예요."
+   "explain": "공개 전 승인이 났는지 되묻는 (A)가 선행 조건을 확인하는 간접 응답이에요. (B)는 포털 화면 구성이고, (C)는 협력사가 수정한 배송 조건이라 사양 공개 요청과 대상이 달라요."
   },
   {
    "id": "p2-175",
@@ -4740,7 +4739,7 @@
    "choices": [
     "The technician's estimate lists wiring and labor separately.",
     "There's another repair company across the street.",
-    "The replacement parts come with detailed instructions."
+    "The replacement parts are packed in separate cartons."
    ],
    "answer": 1,
    "ko": {
@@ -4748,7 +4747,7 @@
     "choices": [
      "그 기술자의 견적서에는 배선과 인건비가 따로 나와 있어요.",
      "길 건너편에 다른 수리 업체가 있어요.",
-     "교체 부품에는 자세한 설명서가 딸려 와요."
+     "교체 부품은 각각 다른 상자에 포장돼 있어요."
     ]
    },
    "trap": [
@@ -4756,7 +4755,7 @@
     "wrong-subject",
     "related-word"
    ],
-   "explain": "다른 수리 업체의 존재를 알려 주는 (B)가 제때 수리할 대안을 암시하는 간접 응답이에요. (A)는 견적서 항목, (C)는 부품 설명서로 기술자의 도착 지연에 대한 해결책이 아니에요."
+   "explain": "다른 수리 업체의 존재를 알려 주는 (B)가 제때 수리할 대안을 암시하는 간접 응답이에요. (A)는 견적서 항목, (C)는 부품 포장 방식으로 기술자의 도착 지연에 대응하지 않아요."
   },
   {
    "id": "p2-190",
