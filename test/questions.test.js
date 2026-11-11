@@ -13,10 +13,13 @@ const part5 = read('questions/toeic-part5.json');
 const part2 = read('questions/toeic-part2.json');
 const TRAPS = new Set(['repeat-word', 'similar-sound', 'wh-mismatch', 'yes-no-to-wh', 'related-word', 'wrong-subject']);
 
-for (const [file, n, choices] of [[part5, 300, 4], [part2, 200, 3]]) {
+// Banks grow over time (docs/tasks/expand-*.md): check minimum size and proportions, not exact counts.
+const near = (got, total, share, tol = 0.05) => Math.abs(got / total - share) <= tol;
+for (const [file, min, choices] of [[part5, 300, 4], [part2, 200, 3]]) {
   const qs = file.questions;
+  const n = qs.length;
   test(`part ${file.part}: ${n} questions, unique ids and stems`, () => {
-    assert.equal(qs.length, n);
+    assert.ok(n >= min, n);
     assert.equal(new Set(qs.map(q => q.q.trim().toLowerCase())).size, n);
     qs.forEach((q, i) => assert.equal(q.id, `p${file.part}-${String(i + 1).padStart(3, '0')}`));
   });
@@ -30,7 +33,7 @@ for (const [file, n, choices] of [[part5, 300, 4], [part2, 200, 3]]) {
   });
   test(`part ${file.part}: difficulty 25/45/30 and balanced answer positions`, () => {
     const d = count(qs, 'difficulty');
-    assert.deepEqual([d[1], d[2], d[3]], [n * 0.25, n * 0.45, n * 0.30]);
+    [0.25, 0.45, 0.30].forEach((share, i) => assert.ok(near(d[i + 1], n, share), `difficulty ${i + 1}`));
     Object.values(count(qs, 'answer')).forEach(c => assert.ok(c / n >= 0.2 && c / n <= 0.4));
   });
 }
@@ -40,7 +43,8 @@ test('part 5: one blank, type mix', () => {
     assert.equal(q.q.split('-------').length, 2, q.id);
     assert.ok(/[가-힣]/.test(q.ko), q.id);
   }
-  assert.deepEqual(count(part5.questions, 'type'), {pos:70, pronoun:20, comparison:10, verb:45, 'prep-conj':50, relative:15, vocab:90});
+  const t5 = count(part5.questions, 'type');
+  Object.entries({pos:70, pronoun:20, comparison:10, verb:45, 'prep-conj':50, relative:15, vocab:90}).forEach(([k, v]) => assert.ok(near(t5[k] || 0, part5.questions.length, v / 300), k));
 });
 
 test('part 2: translations, traps, type mix', () => {
@@ -48,21 +52,23 @@ test('part 2: translations, traps, type mix', () => {
     assert.ok(q.ko.q && q.ko.choices.length === 3, q.id);
     assert.ok(q.trap.length >= 1 && q.trap.every(t => TRAPS.has(t)), q.id);
   }
-  assert.deepEqual(count(part2.questions, 'type'), {wh:90, choice:15, yesno:30, 'negative-tag':15, request:25, statement:25});
+  const t2 = count(part2.questions, 'type');
+  Object.entries({wh:90, choice:15, yesno:30, 'negative-tag':15, request:25, statement:25}).forEach(([k, v]) => assert.ok(near(t2[k] || 0, part2.questions.length, v / 200), k));
 });
 
 // Part 3/4 sets: docs/tasks/exam-lc-spec.md
 const SET_TYPES = new Set(['topic', 'speaker', 'detail', 'reason', 'suggest', 'next', 'inference', 'intention', 'graphic']);
 const TALKS = {telephone:8, announcement:8, meeting:6, speech:6, advertisement:4, broadcast:4, tour:4};
-for (const [part, n, diff] of [[3, 52, [14, 24, 14]], [4, 40, [10, 18, 12]]]) {
+for (const [part, min, diff] of [[3, 52, [14, 24, 14]], [4, 40, [10, 18, 12]]]) {
   const sets = read(`questions/toeic-part${part}.json`).sets;
   const qs = sets.flatMap(s => s.questions);
+  const n = sets.length;
   const words = s => s.script.map(l => l.t).join(' ').split(/\s+/).length;
   test(`part ${part}: ${n} sets, ids, difficulty`, () => {
-    assert.equal(sets.length, n);
+    assert.ok(n >= min, n);
     sets.forEach((s, i) => assert.equal(s.id, `p${part}-${String(i + 1).padStart(3, '0')}`));
     const d = count(sets, 'difficulty');
-    assert.deepEqual([d[1], d[2], d[3]], diff);
+    diff.forEach((v, i) => assert.ok(near(d[i + 1], n, v / min, 0.06), `difficulty ${i + 1}`));
   });
   test(`part ${part}: set shape`, () => {
     for (const s of sets) {
@@ -87,10 +93,10 @@ for (const [part, n, diff] of [[3, 52, [14, 24, 14]], [4, 40, [10, 18, 12]]]) {
     }
   });
   test(`part ${part}: mix and answer positions`, () => {
-    assert.equal(sets.filter(s => s.graphic).length, part === 3 ? 12 : 8);
-    assert.equal(qs.filter(q => q.type === 'intention').length, part === 3 ? 8 : 12);
-    if (part === 3) assert.equal(sets.filter(s => new Set(s.script.map(l => l.s)).size >= 3).length, 10);
-    else assert.deepEqual(count(sets, 'talkType'), TALKS);
+    assert.ok(near(sets.filter(s => s.graphic).length, n, (part === 3 ? 12 : 8) / min));
+    assert.ok(near(qs.filter(q => q.type === 'intention').length, qs.length, (part === 3 ? 8 : 12) / (min * 3)));
+    if (part === 3) assert.ok(near(sets.filter(s => new Set(s.script.map(l => l.s)).size >= 3).length, n, 10 / min));
+    else Object.entries(TALKS).forEach(([k, v]) => assert.ok(near(count(sets, 'talkType')[k] || 0, n, v / 40, 0.06), k));
     Object.values(count(qs, 'answer')).forEach(c => assert.ok(c / qs.length >= 0.2 && c / qs.length <= 0.3));
   });
 }

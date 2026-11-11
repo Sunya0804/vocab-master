@@ -3411,6 +3411,1716 @@
           "blank": 4
         }
       ]
+    },
+    {
+      "id": "p6-033",
+      "difficulty": 1,
+      "passageType": "email",
+      "heading": [
+        "To: Product kitchen staff",
+        "From: Mira Delsin, Senrali Foods",
+        "Date: April 12",
+        "Subject: Crackers between samples"
+      ],
+      "headingKo": [
+        "수신: 제품 개발 주방 직원",
+        "발신: 센랄리 식품의 미라 델신",
+        "날짜: 4월 12일",
+        "제목: 시식 사이에 제공할 크래커"
+      ],
+      "paragraphs": [
+        "Please send another tray of plain crackers to the tasting room. The panel is in session, and the assistants are passing around the second soup sample. We chose crackers with a {1} flavor so that they would not compete with the soups.",
+        "The panel members {2} the soups in small portions. Please keep their trays in the room until the session ends; several samples remain to be served. Water is available beside each place, and participants may request more whenever they need it.",
+        "Rich flavors can linger after a sample has been swallowed. {3}, participants need a short pause before moving to the next cup. {4} This will help them judge each soup on its own rather than compare it with a flavor left in their mouths."
+      ],
+      "paragraphsKo": [
+        "시식실로 담백한 크래커 한 쟁반을 더 보내 주십시오. 현재 평가단의 시식이 진행 중이며 보조 직원들이 두 번째 수프 시료를 나누고 있습니다. 수프의 맛을 방해하지 않도록 맛이 {1} 순한 크래커를 골랐습니다.",
+        "평가단은 수프를 조금씩 {2} 시식하고 있습니다. 아직 제공할 시료가 몇 가지 남아 있으므로 시식이 끝날 때까지 쟁반을 방에 두십시오. 각 자리 옆에 물이 있으며 참가자는 필요할 때마다 더 요청할 수 있습니다.",
+        "진한 맛은 시료를 삼킨 후에도 남을 수 있습니다. {3} 따라서 참가자는 다음 컵으로 넘어가기 전에 잠시 쉬어야 합니다. {4} 이렇게 하면 입에 남은 맛과 비교하지 않고 각각의 수프 자체를 평가하는 데 도움이 됩니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "bitter",
+            "mild",
+            "spicy",
+            "smoky"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "쓴",
+              "순한",
+              "매운",
+              "훈연 향이 나는"
+            ]
+          },
+          "explain": "1문단은 크래커가 수프 맛을 방해하지 않게 고른 이유를 설명하므로 mild가 맞다. spicy는 자체의 강한 맛이 평가에 영향을 줄 수 있다."
+        },
+        {
+          "blank": 2,
+          "type": "tense",
+          "choices": [
+            "have tasted",
+            "had tasted",
+            "will taste",
+            "are tasting"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "시식한 상태다",
+              "시식했었다",
+              "시식할 것이다",
+              "시식하고 있다"
+            ]
+          },
+          "explain": "현재 평가단이 시식 중이고 두 번째 시료를 나누며 다음 시료도 남아 있으므로 are tasting이 맞다. have tasted는 해당 시식이 완료된 것으로 표현하여 진행 중인 상황과 다르다."
+        },
+        {
+          "blank": 3,
+          "type": "connector",
+          "choices": [
+            "Therefore",
+            "Nevertheless",
+            "For example",
+            "Similarly"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "따라서",
+              "그럼에도 불구하고",
+              "예를 들어",
+              "마찬가지로"
+            ]
+          },
+          "explain": "3문단은 맛이 남는 현상 때문에 시료 사이에 쉬어야 한다는 원인과 결과이므로 Therefore가 맞다. Nevertheless로 대조하거나 For example로 예시 관계를 만들 수 없다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "Ask them to mix a little of each soup in one cup.",
+            "Encourage them to taste the next soup while the previous flavor remains.",
+            "Have them eat a plain cracker and drink some water during that pause.",
+            "Serve the crackers only after the final soup has been scored."
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "수프를 조금씩 한 컵에 섞도록 요청하라.",
+              "이전 맛이 남아 있는 동안 다음 수프를 맛보도록 권하라.",
+              "쉬는 동안 담백한 크래커를 먹고 물을 조금 마시도록 하라.",
+              "마지막 수프의 점수를 매긴 뒤에만 크래커를 제공하라."
+            ]
+          },
+          "explain": "3문단의 휴식과 입에 남은 맛을 줄여 각각 평가한다는 목적을 연결하는 것은 크래커와 물을 이용하는 문장이다. 마지막 시료 뒤에만 제공하면 시료 사이의 잔여 맛을 줄일 수 없다."
+        }
+      ]
+    },
+    {
+      "id": "p6-034",
+      "difficulty": 2,
+      "passageType": "memo",
+      "heading": [
+        "To: Cross-border project teams",
+        "From: Elna Vorel, Scheduling Office",
+        "Date: March 17",
+        "Subject: Seasonal clock changes"
+      ],
+      "headingKo": [
+        "수신: 국제 프로젝트팀",
+        "발신: 일정 담당 엘나 보렐",
+        "날짜: 3월 17일",
+        "제목: 계절에 따른 시계 변경"
+      ],
+      "paragraphs": [
+        "The clocks in Belvona moved forward on Sunday, but those in our home city will not change until next month. Our meeting calendar {1} the difference. Its displayed times now place the Belvona call an hour earlier for our team than they did last week.",
+        "{2} For the next two weeks, accept the converted local time shown in the invitation rather than copying the hour from an older message. The Belvona office will continue to join at nine according to its own clocks.",
+        "When you create a new invitation, {3} the city associated with the meeting time. A city setting allows the calendar to apply seasonal changes, while a fixed offset does not. Check the resulting local times {4} before sending the invitation, especially for colleagues traveling between offices."
+      ],
+      "paragraphsKo": [
+        "벨보나의 시계는 일요일에 한 시간 빨라졌지만 우리 본사 도시의 시계는 다음 달까지 바뀌지 않습니다. 회의 달력은 그 차이를 {1} 반영한 상태입니다. 표시된 시각에 따르면 벨보나 통화는 우리 팀 기준으로 지난주보다 한 시간 이릅니다.",
+        "{2} 앞으로 2주 동안은 이전 메시지의 시각을 복사하지 말고 초대장에 변환되어 표시된 현지 시각을 따르십시오. 벨보나 사무소는 계속 그곳 시계로 9시에 참여합니다.",
+        "새 초대장을 만들 때는 회의 시각과 연결된 도시를 {3} 지정하십시오. 도시를 설정하면 달력이 계절 변경을 적용할 수 있지만 고정 시차 값은 그러지 못합니다. 특히 사무소 사이를 이동하는 동료가 있다면 보내기 전에 변환된 현지 시각을 {4} 주의 깊게 확인하십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "tense",
+          "choices": [
+            "will incorporate",
+            "was incorporating",
+            "has incorporated",
+            "will have incorporated"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "반영할 것이다",
+              "반영하고 있었다",
+              "반영한 상태다",
+              "반영을 마친 상태일 것이다"
+            ]
+          },
+          "explain": "1문단의 시계 변경은 이미 일어났고 현재 달력에 바뀐 시각이 표시되므로 has incorporated가 맞다. 미래형 둘은 반영을 앞으로의 일로 두며 was incorporating은 현재 반영 결과를 표현하지 않는다."
+        },
+        {
+          "blank": 2,
+          "type": "sentence",
+          "choices": [
+            "The usual time difference between the two offices is temporarily different.",
+            "Both offices moved their clocks forward on the same morning.",
+            "The Belvona team has moved its meeting to ten local time.",
+            "The invitation should show the same clock time in both cities."
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "두 사무소 사이의 평소 시차가 일시적으로 달라졌다.",
+              "두 사무소 모두 같은 날 아침 시계를 한 시간 앞당겼다.",
+              "벨보나팀이 회의를 현지 시각 10시로 옮겼다.",
+              "초대장에는 두 도시의 시각이 같게 표시되어야 한다."
+            ]
+          },
+          "explain": "1문단의 서로 다른 시계 변경일과 2문단의 임시 대응을 잇는 것은 일시적인 시차 변화다. 벨보나 회의 자체가 10시로 옮겨졌다는 보기는 9시를 유지한다는 뒤 문장과 충돌한다."
+        },
+        {
+          "blank": 3,
+          "type": "vocab",
+          "choices": [
+            "specify",
+            "conceal",
+            "abandon",
+            "divide"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "지정하다",
+              "숨기다",
+              "포기하다",
+              "나누다"
+            ]
+          },
+          "explain": "3문단에서 달력이 계절 변경을 적용하려면 시각에 연결된 도시를 설정해야 하므로 specify가 맞다. conceal은 필요한 도시 정보를 감추는 행동이다."
+        },
+        {
+          "blank": 4,
+          "type": "pos",
+          "choices": [
+            "care",
+            "careful",
+            "carefulness",
+            "carefully"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "주의",
+              "주의 깊은",
+              "신중함",
+              "주의 깊게"
+            ]
+          },
+          "explain": "3문단에서 동사 Check를 꾸미는 부사 carefully가 필요하다. careful은 형용사여서 여기서 확인 동작을 수식할 수 없다."
+        }
+      ]
+    },
+    {
+      "id": "p6-035",
+      "difficulty": 1,
+      "passageType": "advertisement",
+      "heading": [
+        "Office Aquariums without Feeding Guesswork"
+      ],
+      "headingKo": [
+        "먹이 양을 고민할 필요 없는 사무실 수족관"
+      ],
+      "paragraphs": [
+        "A small aquarium can make an office waiting area more welcoming. At Derveli Aquatic Care, we provide a feeding plan matched to the fish in your tank. {1} Staff can simply open the packet marked for that day, without measuring loose food at reception.",
+        "The packets contain {2} portions, so a colleague covering the desk does not have to guess the quantity. Extra food can remain uneaten and affect the water. Our instructions therefore explain why a missed feeding should not be followed by a double portion.",
+        "We also offer an {3} visit to assess the tank before preparing a plan. The assessment considers the number of fish and the equipment already installed. To {4} this service, send us a photograph of the tank and its approximate capacity. We will reply with available appointment times."
+      ],
+      "paragraphsKo": [
+        "작은 수족관은 사무실 대기 공간을 더 쾌적하게 만들 수 있습니다. 데르벨리 수족관 관리는 수조의 물고기에 맞춘 급여 계획을 제공합니다. {1} 직원은 접수처에서 낱개 먹이를 계량할 필요 없이 해당 날짜가 적힌 봉지를 열면 됩니다.",
+        "봉지에는 {2} 미리 계량된 분량이 들어 있어 대신 데스크를 맡은 동료가 양을 추측할 필요가 없습니다. 남는 먹이는 먹히지 않은 채 수질에 영향을 줄 수 있습니다. 따라서 안내문에서는 한 번 먹이를 주지 못했다고 다음에 두 배로 주면 안 되는 이유를 설명합니다.",
+        "계획을 작성하기 전에 수조를 평가하는 {3} 첫 방문도 제공합니다. 평가는 물고기 수와 이미 설치된 장비를 고려합니다. 이 서비스를 {4} 신청하려면 수조 사진과 대략적인 용량을 보내 주십시오. 가능한 방문 시간을 회신하겠습니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "sentence",
+          "choices": [
+            "A shared container lets each employee choose a different amount.",
+            "We mark each packet with the name of a tank manufacturer.",
+            "Our plan combines a week's food into a single feeding.",
+            "We divide the food into separate packets for individual days."
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "공용 용기를 이용하면 직원마다 다른 양을 선택할 수 있다.",
+              "각 봉지에는 수조 제조업체의 이름을 표시한다.",
+              "우리 계획은 일주일치 먹이를 한 번에 주도록 구성한다.",
+              "먹이를 날짜별로 개별 봉지에 나눈다."
+            ]
+          },
+          "explain": "1문단의 날짜가 표시된 봉지를 열고 계량하지 않는 방식은 날짜별 개별 포장을 설명하는 D와 이어진다. 제조업체 이름을 표시하는 것만으로 날짜별 급여량을 제공할 수 없다."
+        },
+        {
+          "blank": 2,
+          "type": "vocab",
+          "choices": [
+            "unlimited",
+            "measured",
+            "decorative",
+            "assorted"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "무제한의",
+              "계량된",
+              "장식용의",
+              "여러 종류를 섞은"
+            ]
+          },
+          "explain": "2문단은 대체 근무자도 양을 추측하지 않도록 한다는 내용이므로 measured가 맞다. assorted는 종류의 혼합일 뿐 일정한 분량을 뜻하지 않는다."
+        },
+        {
+          "blank": 3,
+          "type": "pos",
+          "choices": [
+            "initialize",
+            "initialization",
+            "initial",
+            "initially"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "초기화하다",
+              "초기화",
+              "처음의",
+              "처음에"
+            ]
+          },
+          "explain": "3문단의 관사 an과 명사 visit 사이에는 형용사 initial이 필요하다. initially는 부사라 방문이라는 명사를 직접 꾸밀 수 없다."
+        },
+        {
+          "blank": 4,
+          "type": "vocab",
+          "choices": [
+            "request",
+            "postpone",
+            "restrict",
+            "withdraw"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "신청하다",
+              "연기하다",
+              "제한하다",
+              "철회하다"
+            ]
+          },
+          "explain": "사진과 용량을 보내면 가능한 방문 시간을 받는 신규 신청 절차이므로 request가 맞다. postpone는 이미 정한 일정을 늦추는 뜻인데 그런 예약은 제시되지 않았다."
+        }
+      ]
+    },
+    {
+      "id": "p6-036",
+      "difficulty": 3,
+      "passageType": "article",
+      "heading": [
+        "Practice Books Hide Answers in Plain Sight"
+      ],
+      "headingKo": [
+        "정답을 가려 두는 연습 교재"
+      ],
+      "paragraphs": [
+        "Orvessa Learning's new arithmetic workbook lets learners attempt a problem without seeing its answer. Each exercise page has a narrow flap along the outer edge. The flap can {1} the answer column while leaving the questions visible.",
+        "Earlier editions placed answers in a separate booklet, which learners sometimes misplaced. The new format keeps exercises and answers together. {2}, instructors want learners to reveal the answers only after completing a page, not while working through individual problems.",
+        "The first classroom trial took place last September. During an observation visit, a student opened a flap and showed the correct method to a partner. The pair {3} their own calculations on a separate sheet before looking beneath the flap. Their completed sheet remained on the desk throughout the discussion.",
+        "{4} A teacher can therefore distinguish an independent attempt from a correction made after the answer was revealed."
+      ],
+      "paragraphsKo": [
+        "오르베사 학습사의 새 산수 교재는 정답을 보지 않고 문제를 풀 수 있게 합니다. 각 연습 페이지 바깥쪽에는 좁은 덮개가 있습니다. 덮개는 문제를 보이게 둔 채 정답 열을 {1} 가릴 수 있습니다.",
+        "이전 판은 정답을 별책에 실어 학습자가 잃어버리는 일이 있었습니다. 새 형식은 연습 문제와 정답을 함께 보관합니다. {2} 그러나 교사는 개별 문제를 푸는 중이 아니라 한 페이지를 끝낸 뒤에만 정답을 펼치도록 합니다.",
+        "첫 교실 시범 운영은 지난 9월에 이루어졌습니다. 참관 방문 중 한 학생이 덮개를 열어 짝에게 올바른 풀이를 보여 주었습니다. 두 학생은 덮개 아래를 보기 전에 별도 종이에 계산을 {3} 적어 놓은 상태였습니다. 완성된 종이는 토론 내내 책상 위에 있었습니다.",
+        "{4} 따라서 교사는 독립적으로 시도한 풀이와 정답을 본 뒤 수정한 내용을 구분할 수 있습니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "conceal",
+            "enlarge",
+            "duplicate",
+            "detach"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "가리다",
+              "확대하다",
+              "복제하다",
+              "분리하다"
+            ]
+          },
+          "explain": "1문단은 문제는 보이고 정답은 보이지 않게 하는 덮개의 기능을 설명하므로 conceal이 맞다. detach는 열을 떼어 낸다는 뜻으로 접어서 가리는 기능과 다르다."
+        },
+        {
+          "blank": 2,
+          "type": "connector",
+          "choices": [
+            "Otherwise",
+            "Similarly",
+            "However",
+            "For instance"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "그렇지 않으면",
+              "마찬가지로",
+              "그러나",
+              "예를 들어"
+            ]
+          },
+          "explain": "정답을 함께 두는 편의성과 정답을 펼치는 시점에 대한 제한을 대조하므로 However가 맞다. For instance 뒤의 교사 지침은 분실 방지 형식의 구체적 예가 아니다."
+        },
+        {
+          "blank": 3,
+          "type": "tense",
+          "choices": [
+            "will record",
+            "had recorded",
+            "are recording",
+            "were about to record"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "기록할 것이다",
+              "기록해 놓은 상태였다",
+              "기록하고 있다",
+              "막 기록하려던 참이었다"
+            ]
+          },
+          "explain": "지난 9월 정답을 펼친 시점보다 앞서 계산을 적었고 완성된 종이가 토론 내내 있었으므로 had recorded가 맞다. were about to record는 그 과거 시점에도 아직 기록 전이라는 뜻이다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "Learners erase their original calculations as soon as they open the flap.",
+            "The teacher collects the separate sheets before anyone begins calculating.",
+            "The answer column provides extra space for learners' first attempts.",
+            "Learners keep their original work and add corrections in a different color."
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "학습자는 덮개를 열자마자 원래 계산을 지운다.",
+              "교사는 계산을 시작하기 전에 별도 종이를 걷는다.",
+              "정답 열에는 학습자의 첫 풀이를 위한 추가 공간이 있다.",
+              "학습자는 원래 풀이를 남기고 다른 색으로 수정 내용을 더한다."
+            ]
+          },
+          "explain": "4문단에서 독립 풀이와 나중 수정 내용을 구분하려면 원본을 남기고 수정 색을 달리해야 한다. 원래 계산을 지우면 비교의 근거가 사라진다."
+        }
+      ]
+    },
+    {
+      "id": "p6-037",
+      "difficulty": 2,
+      "passageType": "email",
+      "heading": [
+        "To: Neli Ordan, Curtain Workshop",
+        "From: Vesa Ilren, Marvona Suites",
+        "Date: August 9",
+        "Subject: Light at the curtain edges"
+      ],
+      "headingKo": [
+        "수신: 커튼 작업장의 넬리 오르단",
+        "발신: 마르보나 스위트의 베사 일렌",
+        "날짜: 8월 9일",
+        "제목: 커튼 가장자리로 들어오는 빛"
+      ],
+      "paragraphs": [
+        "Thank you for visiting our sample guest room yesterday. We asked the lighting technician to remain outside the window during your visit. She {1} a lamp toward the closed curtains as you examined the room. The lamp remained on throughout your inspection, allowing you to see the bright line between the two panels.",
+        "The fabric itself blocked the light successfully; the problem was the {2} between the panels. {3} With one panel overlapping the other, that line should disappear without replacing the fabric.",
+        "Please revise the track arrangement in your quotation. We would like to {4} the existing curtains because they already match the upholstery. If the track requires additional wall supports, list those separately. Our installer can inspect the wall before you manufacture any new fittings."
+      ],
+      "paragraphsKo": [
+        "어제 견본 객실을 방문해 주셔서 감사합니다. 방문 중 조명 기술자에게 창문 밖에 머물러 달라고 요청했습니다. 기술자는 귀하가 방을 살펴보는 동안 닫힌 커튼 쪽으로 조명을 {1} 비추고 있었습니다. 검사 내내 조명이 켜져 있어 두 폭 사이의 밝은 선을 볼 수 있었습니다.",
+        "천 자체는 빛을 잘 막았으며 문제는 두 폭 사이의 {2} 틈이었습니다. {3} 한 폭이 다른 폭과 겹치면 천을 교체하지 않고도 그 선이 사라질 것입니다.",
+        "견적서의 레일 구성을 수정해 주십시오. 기존 커튼이 가구 천과 이미 어울리므로 이를 {4} 유지하고 싶습니다. 레일에 벽 지지대가 더 필요하다면 별도로 기재해 주십시오. 새 부속품을 제작하기 전에 저희 설치 기사가 벽을 살펴볼 수 있습니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "tense",
+          "choices": [
+            "was directing",
+            "has directed",
+            "will direct",
+            "had stopped directing"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "비추고 있었다",
+              "비춘 상태다",
+              "비출 것이다",
+              "비추기를 멈춘 상태였다"
+            ]
+          },
+          "explain": "어제 방문 중 검사와 동시에 조명이 계속 켜져 있었으므로 was directing이 맞다. had stopped directing은 검사 전에 비추기를 멈춘 상태라 검사 내내 켜져 있었다는 내용과 충돌한다."
+        },
+        {
+          "blank": 2,
+          "type": "vocab",
+          "choices": [
+            "pattern",
+            "weight",
+            "gap",
+            "texture"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "무늬",
+              "무게",
+              "틈",
+              "질감"
+            ]
+          },
+          "explain": "1문단의 두 폭 사이 밝은 선과 2문단의 겹침 해결책은 틈을 가리키므로 gap이 맞다. texture는 천 표면의 질감으로 패널 사이의 문제를 뜻하지 않는다."
+        },
+        {
+          "blank": 3,
+          "type": "sentence",
+          "choices": [
+            "The quotation should substitute thinner fabric for the current material.",
+            "Both panels should end farther from the center of the window.",
+            "The center track needs to let one curtain pass behind the other.",
+            "The two panels should be joined permanently along their outer edges."
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "견적에서는 현재 천을 더 얇은 천으로 대체해야 한다.",
+              "두 폭 모두 창문 중앙에서 더 멀리 끝나야 한다.",
+              "중앙 레일은 한쪽 커튼이 다른 쪽 뒤로 지나가도록 해야 한다.",
+              "두 폭은 바깥 가장자리를 따라 영구적으로 이어져야 한다."
+            ]
+          },
+          "explain": "2문단 뒤의 겹침 효과와 3문단의 레일 수정 요청을 연결하는 것은 한 폭이 다른 폭 뒤로 지나가는 방식이다. 중앙에서 더 멀리 끝나게 하면 두 폭 사이 틈이 커진다."
+        },
+        {
+          "blank": 4,
+          "type": "vocab",
+          "choices": [
+            "exchange",
+            "discard",
+            "shorten",
+            "retain"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "교환하다",
+              "버리다",
+              "짧게 하다",
+              "유지하다"
+            ]
+          },
+          "explain": "3문단에서 기존 커튼이 가구 천과 어울리고 레일만 바꾸려 하므로 retain이 맞다. exchange는 커튼 자체를 교환하는 것으로 요청과 다르다."
+        }
+      ]
+    },
+    {
+      "id": "p6-038",
+      "difficulty": 1,
+      "passageType": "notice",
+      "heading": [
+        "Rooftop Beehives: Observation Arrangements"
+      ],
+      "headingKo": [
+        "옥상 벌통 관찰 안내"
+      ],
+      "paragraphs": [
+        "The beehives above Nerulva Offices belong to a local honey producer. Employees may watch the beekeeper from the enclosed roof lobby, but the hive area itself is not a staff recreation space. Keep the glass doors {1} while the beekeeper is handling the frames.",
+        "The first public observation is scheduled for next Friday. The beekeeper will work from two until three, and her assistant will answer questions inside the lobby during that period. The beekeeper {2} the frames while visitors watch through the glass. She needs both hands for the work and cannot take questions herself.",
+        "The lobby holds a limited number of people. {3}, we are dividing observers into small groups. {4} Please choose one of the available group times through the staff calendar rather than gathering at the doors without a reservation."
+      ],
+      "paragraphsKo": [
+        "네룰바 사무동 옥상의 벌통은 지역 꿀 생산자 소유입니다. 직원은 유리로 둘러싸인 옥상 로비에서 양봉가를 볼 수 있지만 벌통 구역 자체는 직원 휴게 공간이 아닙니다. 양봉가가 벌집틀을 다루는 동안 유리문을 {1} 닫아 두십시오.",
+        "첫 공개 관찰은 다음 주 금요일로 예정되어 있습니다. 양봉가는 2시부터 3시까지 작업하며 그동안 보조 담당자가 로비 안에서 질문에 답합니다. 방문객이 유리 너머로 보는 동안 양봉가는 벌집틀을 {2} 살펴보고 있을 것입니다. 작업에 양손이 필요하므로 직접 질문을 받을 수 없습니다.",
+        "로비에 들어갈 수 있는 인원은 제한되어 있습니다. {3} 따라서 관찰자를 소규모 그룹으로 나눕니다. {4} 예약 없이 문 앞에 모이지 말고 직원 달력에서 가능한 그룹 시간 하나를 선택해 주십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "decorated",
+            "closed",
+            "numbered",
+            "polished"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "장식된",
+              "닫힌",
+              "번호가 매겨진",
+              "광택이 나는"
+            ]
+          },
+          "explain": "1문단은 직원이 유리 로비에서 관찰하고 벌통 구역에는 들어가지 않는 방식을 설명하므로 closed가 맞다. polished는 문을 닦은 상태이지 구역을 분리하는 조치가 아니다."
+        },
+        {
+          "blank": 2,
+          "type": "tense",
+          "choices": [
+            "had inspected",
+            "has inspected",
+            "will have finished inspecting",
+            "will be inspecting"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "검사했었다",
+              "검사한 상태다",
+              "검사를 끝낸 상태일 것이다",
+              "검사하고 있을 것이다"
+            ]
+          },
+          "explain": "다음 주 관찰 시간에 양봉가가 작업하고 보조 담당자가 대신 질문을 받으므로 will be inspecting이 맞다. will have finished inspecting은 방문객이 볼 때 이미 끝났다는 뜻이라 관찰 방식과 다르다."
+        },
+        {
+          "blank": 3,
+          "type": "connector",
+          "choices": [
+            "Accordingly",
+            "Nevertheless",
+            "For instance",
+            "By contrast"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "따라서",
+              "그럼에도 불구하고",
+              "예를 들어",
+              "대조적으로"
+            ]
+          },
+          "explain": "3문단의 수용 인원 제한 때문에 관찰자를 나누므로 Accordingly가 맞다. Nevertheless는 제한에도 불구하고 같은 조치를 취한다는 대조를 만들어 인과 흐름을 설명하지 못한다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "Each group will watch from beside the open hives.",
+            "Each group will enter the lobby at an assigned time.",
+            "Employees should question the beekeeper while she lifts the frames.",
+            "The roof lobby will remain empty throughout the demonstration."
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "각 그룹은 열린 벌통 옆에서 관찰한다.",
+              "각 그룹은 배정된 시각에 로비에 입장한다.",
+              "직원은 양봉가가 벌집틀을 들 때 질문해야 한다.",
+              "시연 내내 옥상 로비는 비어 있을 것이다."
+            ]
+          },
+          "explain": "3문단의 소그룹 운영과 시간 선택 안내를 잇는 것은 배정 시각에 로비로 입장하는 방식이다. 벌통 옆 관찰은 유리 로비 안에서 관찰한다는 제한에 어긋난다."
+        }
+      ]
+    },
+    {
+      "id": "p6-039",
+      "difficulty": 2,
+      "passageType": "letter",
+      "heading": [
+        "To: Oren Dalvi, Fleet Planning",
+        "From: Sera Velnik, Nuvrali Freight",
+        "Date: June 20",
+        "Subject: Loading your long trailer"
+      ],
+      "headingKo": [
+        "수신: 차량 계획 담당 오렌 달비",
+        "발신: 누브랄리 운송의 세라 벨닉",
+        "날짜: 6월 20일",
+        "제목: 긴 트레일러의 적재"
+      ],
+      "paragraphs": [
+        "Thank you for asking us to review the loading arrangement for your long trailer. A load can fall within the permitted total weight and still place excessive pressure on one axle. The position of the heavier crates therefore requires particular {1}.",
+        "{2} This would spread the weight more evenly along the trailer. Stacking them together beside the rear doors would leave the forward section relatively light, even though the total cargo weight would be unchanged.",
+        "We carried out the requested loading trial last Monday. Our driver {3} the trailer onto the axle scale, stopped for the readings, and then moved into the yard. The resulting weight distribution was acceptable. Before another driver repeats the trial, please give {4} the revised loading sketch so that the crate positions can be reproduced."
+      ],
+      "paragraphsKo": [
+        "긴 트레일러의 적재 구성을 검토해 달라고 요청해 주셔서 감사합니다. 화물의 전체 무게가 허용 범위여도 한 차축에 과도한 압력이 가해질 수 있습니다. 따라서 무거운 상자의 위치에는 특히 {1} 주의가 필요합니다.",
+        "{2} 그러면 트레일러 전체에 무게가 더 고르게 분산됩니다. 뒤쪽 문 옆에 함께 쌓으면 전체 화물 무게는 같아도 앞쪽 부분은 상대적으로 가벼워집니다.",
+        "요청하신 적재 시험은 지난 월요일에 실시했습니다. 운전기사는 트레일러를 차축 저울 위로 {3} 몰고 가서 측정할 동안 멈춘 뒤 마당으로 이동했습니다. 그때의 무게 분포는 적절했습니다. 다른 운전기사가 시험을 반복하기 전에 상자 위치를 재현할 수 있도록 수정된 적재 도면을 {4} 그 사람에게 주십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "permission",
+            "payment",
+            "attention",
+            "replacement"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "허가",
+              "지급",
+              "주의",
+              "교체"
+            ]
+          },
+          "explain": "1문단은 전체 무게만이 아니라 상자 위치도 신중히 보아야 한다는 내용이므로 attention이 맞다. replacement는 상자를 교체하라는 뜻이 되어 위치 조정의 취지와 다르다."
+        },
+        {
+          "blank": 2,
+          "type": "sentence",
+          "choices": [
+            "The heaviest crates should be placed together nearest the rear doors.",
+            "The heaviest crates should occupy several positions from front to back.",
+            "The axle scale should be removed before the trailer is loaded.",
+            "Lighter crates should be weighed without including the heavier ones."
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "가장 무거운 상자들을 뒤쪽 문 바로 옆에 모아 두어야 한다.",
+              "가장 무거운 상자들을 앞에서 뒤까지 여러 위치에 나누어 두어야 한다.",
+              "트레일러를 적재하기 전에 차축 저울을 치워야 한다.",
+              "무거운 상자는 제외하고 가벼운 상자의 무게를 재야 한다."
+            ]
+          },
+          "explain": "2문단의 고른 분산과 뒤쪽 집중 적재의 문제를 잇는 것은 무거운 상자를 길이 방향으로 나누는 방식이다. 뒤쪽에 모아 두는 보기는 바로 다음 설명과 반대다."
+        },
+        {
+          "blank": 3,
+          "type": "tense",
+          "choices": [
+            "has driven",
+            "will drive",
+            "had been driving",
+            "drove"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "운전한 상태다",
+              "운전할 것이다",
+              "계속 운전하고 있었다",
+              "운전했다"
+            ]
+          },
+          "explain": "지난 월요일의 저울 진입·정지·이동이라는 완료된 사건을 순서대로 나열하므로 drove가 맞다. had been driving은 다른 과거 시점 전까지 이어진 진행을 나타내어 이 단발 사건의 순차 서술과 맞지 않는다."
+        },
+        {
+          "blank": 4,
+          "type": "pronoun",
+          "choices": [
+            "them",
+            "their",
+            "theirs",
+            "themselves"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "그 사람에게",
+              "그 사람의",
+              "그 사람의 것",
+              "그 사람 자신"
+            ]
+          },
+          "explain": "3문단의 give 뒤에서 another driver를 받는 목적격 them이 필요하다. themselves는 주어 you와 다른 운전기사를 가리키므로 재귀대명사로 쓸 수 없다."
+        }
+      ]
+    },
+    {
+      "id": "p6-040",
+      "difficulty": 2,
+      "passageType": "email",
+      "heading": [
+        "To: Sales spreadsheet users",
+        "From: Pera Nelvi, Product Data",
+        "Date: November 6",
+        "Subject: Zeros at the start of product codes"
+      ],
+      "headingKo": [
+        "수신: 영업 스프레드시트 사용자",
+        "발신: 제품 데이터 담당 페라 넬비",
+        "날짜: 11월 6일",
+        "제목: 제품 코드 앞자리의 0"
+      ],
+      "paragraphs": [
+        "Some product codes begin with two zeros, but several recently shared spreadsheets display those codes without them. {1} A product code identifies an item; it is not a quantity to be used in arithmetic. Please keep all six characters exactly as supplied.",
+        "Our data specialist {2} the affected rows. She is discussing one uncertain match with the catalog team and has asked us not to use the sheet while she works through the remaining entries. Continue using the original product list for customer quotations in the meantime.",
+        "For future imports, set the code column to text before opening the file. This should {3} the leading zeros. Do not add zeros to every short entry automatically: a shortened entry may contain a different error. Send any {4} code to Product Data for checking rather than guessing which item it represents."
+      ],
+      "paragraphsKo": [
+        "일부 제품 코드는 0 두 개로 시작하지만 최근 공유된 여러 표에서는 그 숫자가 빠져 있습니다. {1} 제품 코드는 품목을 식별하는 것이지 산술 계산에 사용할 수량이 아닙니다. 제공된 여섯 글자를 모두 그대로 유지해 주십시오.",
+        "데이터 전문가는 영향을 받은 행들을 {2} 수정하고 있습니다. 불확실한 대응 항목 하나를 카탈로그팀과 논의 중이며 나머지 항목을 처리하는 동안 표를 사용하지 말라고 요청했습니다. 그동안 고객 견적에는 원본 제품 목록을 계속 사용하십시오.",
+        "다음에 가져올 때는 파일을 열기 전에 코드 열의 형식을 텍스트로 설정하십시오. 그러면 앞자리의 0을 {3} 보존할 수 있습니다. 짧은 항목마다 무조건 0을 추가하지 마십시오. 짧아진 항목에는 다른 오류가 있을 수도 있습니다. 무엇을 뜻하는지 추측하지 말고 {4} 모호한 코드를 제품 데이터팀에 보내 확인받으십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "sentence",
+          "choices": [
+            "The missing zeros indicate a lower number of items in stock.",
+            "The catalog team has deliberately shortened every product identifier.",
+            "The last two digits determine which warehouse holds an item.",
+            "The program has treated these identifiers as numbers rather than text."
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "빠진 0은 재고 수량이 줄었다는 뜻이다.",
+              "카탈로그팀이 모든 제품 식별자를 의도적으로 짧게 만들었다.",
+              "마지막 두 자릿수는 품목 보관 창고를 결정한다.",
+              "프로그램이 이 식별자를 텍스트가 아닌 숫자로 처리했다."
+            ]
+          },
+          "explain": "1문단에서 앞자리 0이 사라지고 코드는 계산용 수량이 아니라고 설명하므로 숫자 처리의 문제를 짚는 D가 맞다. 재고 감소라는 보기는 식별자와 수량을 혼동한다."
+        },
+        {
+          "blank": 2,
+          "type": "tense",
+          "choices": [
+            "is correcting",
+            "has corrected",
+            "had corrected",
+            "will correct"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "수정하고 있다",
+              "수정한 상태다",
+              "수정했었다",
+              "수정할 것이다"
+            ]
+          },
+          "explain": "2문단에서 현재 한 항목을 논의하고 나머지도 작업 중이어서 사용을 미루라고 하므로 is correcting이 맞다. has corrected는 영향을 받은 행의 수정이 끝난 상태로 표현한다."
+        },
+        {
+          "blank": 3,
+          "type": "vocab",
+          "choices": [
+            "calculate",
+            "preserve",
+            "subtract",
+            "estimate"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "계산하다",
+              "보존하다",
+              "빼다",
+              "추정하다"
+            ]
+          },
+          "explain": "코드를 제공된 그대로 두고 숫자로 처리하지 않으려는 것이므로 preserve가 맞다. subtract는 0을 제거하는 방향이라 요구와 반대다."
+        },
+        {
+          "blank": 4,
+          "type": "vocab",
+          "choices": [
+            "identical",
+            "valid",
+            "ambiguous",
+            "consecutive"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "동일한",
+              "유효한",
+              "모호한",
+              "연속된"
+            ]
+          },
+          "explain": "어떤 품목을 뜻하는지 추측하지 말고 확인받으라는 마지막 문장은 ambiguous code에 해당한다. valid는 이미 올바른 코드라는 뜻이라 불확실성 확인 요청과 다르다."
+        }
+      ]
+    },
+    {
+      "id": "p6-041",
+      "difficulty": 3,
+      "passageType": "article",
+      "heading": [
+        "Shop Mannequins Gain Replaceable Hands"
+      ],
+      "headingKo": [
+        "손을 교체할 수 있게 된 매장 마네킹"
+      ],
+      "paragraphs": [
+        "Display supplier Velsari Forms has introduced a mannequin with removable hands. The first shipment left yesterday. The company {1} fixed hands for years before the new design entered production. Stores that bought those earlier models often had difficulty pulling narrow sleeves over the fingers.",
+        "The removable pieces attach with concealed magnets. Staff can take off a hand, slide on a sleeve, and replace the hand without tools. {2}, the fingers must still be handled gently; the magnetic connection does not make the material resistant to impact.",
+        "Each replacement hand is marked with a side and model code. The code helps staff {3} a suitable part without comparing several nearly identical shapes.",
+        "{4} A hand from a different size may appear secure at first but leave a visible step at the wrist. Buyers should therefore check the code before ordering spare pieces for an existing display."
+      ],
+      "paragraphsKo": [
+        "진열용품 공급업체 벨사리 폼스가 손을 분리할 수 있는 마네킹을 출시했습니다. 첫 출하분은 어제 나갔습니다. 회사는 새 설계를 생산하기 전에 수년간 고정식 손을 {1} 공급해 오고 있었습니다. 이전 모델을 구입한 매장은 좁은 소매를 손가락 위로 통과시키기 어려운 경우가 많았습니다.",
+        "분리되는 부품은 보이지 않는 자석으로 붙습니다. 직원은 도구 없이 손을 떼고 소매를 끼운 다음 다시 붙일 수 있습니다. {2} 그러나 손가락은 여전히 조심히 다뤄야 합니다. 자석 결합부가 있다고 재료가 충격에 강해지는 것은 아닙니다.",
+        "교체용 손에는 좌우 구분과 모델 코드가 표시됩니다. 코드를 통해 직원은 거의 같은 모양을 여러 개 비교하지 않고 적합한 부품을 {3} 식별할 수 있습니다.",
+        "{4} 크기가 다른 손도 처음에는 단단히 붙은 것처럼 보이지만 손목에 눈에 띄는 단차를 만들 수 있습니다. 따라서 기존 진열용으로 예비 부품을 주문하기 전에 코드를 확인해야 합니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "tense",
+          "choices": [
+            "had been supplying",
+            "was preparing to start supplying",
+            "will have supplied",
+            "has been supplying"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "공급해 오고 있었다",
+              "공급을 시작할 준비를 하고 있었다",
+              "공급을 마친 상태일 것이다",
+              "공급해 오고 있다"
+            ]
+          },
+          "explain": "1문단은 새 설계 생산 전 수년의 공급을 회고하고 기존 제품을 이미 구매한 매장을 언급하므로 had been supplying이 맞다. was preparing to start supplying은 실제 공급 전 준비 단계여서 기존 구매 사실과 충돌한다."
+        },
+        {
+          "blank": 2,
+          "type": "connector",
+          "choices": [
+            "Consequently",
+            "Likewise",
+            "For example",
+            "However"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "그 결과",
+              "마찬가지로",
+              "예를 들어",
+              "그러나"
+            ]
+          },
+          "explain": "도구 없이 쉽게 교체하는 장점 뒤에 충격에 주의해야 한다는 한계를 제시하므로 However가 맞다. 손상 주의는 쉬운 교체의 결과나 구체적 예가 아니다."
+        },
+        {
+          "blank": 3,
+          "type": "vocab",
+          "choices": [
+            "reshape",
+            "identify",
+            "weigh",
+            "polish"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "모양을 바꾸다",
+              "식별하다",
+              "무게를 재다",
+              "광택을 내다"
+            ]
+          },
+          "explain": "3문단은 비슷한 모양 중 맞는 부품을 코드로 구별하는 것이므로 identify가 맞다. reshape는 부품 자체를 가공하는 행동이다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "A strong magnetic grip is sufficient evidence that a hand fits correctly.",
+            "A matching attachment alone does not guarantee a smooth fit at the wrist.",
+            "The codes indicate the date on which each store dressed its mannequin.",
+            "Larger hands are recommended when the display clothing has narrow sleeves."
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "자석이 강하게 붙으면 손이 제대로 맞는다는 충분한 증거다.",
+              "결합부가 맞는 것만으로 손목에 매끄럽게 맞는다고 보장할 수 없다.",
+              "코드는 각 매장이 마네킹에 옷을 입힌 날짜를 나타낸다.",
+              "진열 의류의 소매가 좁으면 더 큰 손을 권장한다."
+            ]
+          },
+          "explain": "4문단의 단단히 붙어도 단차가 생긴다는 사례를 소개하는 것은 결합과 외형 적합성을 구분하는 B다. 강한 자석 결합만으로 충분하다는 A는 바로 뒤 사례에 반박된다."
+        }
+      ]
+    },
+    {
+      "id": "p6-042",
+      "difficulty": 2,
+      "passageType": "advertisement",
+      "heading": [
+        "A Brochure That Opens the Right Way"
+      ],
+      "headingKo": [
+        "읽는 방향에 맞게 펼쳐지는 안내서"
+      ],
+      "paragraphs": [
+        "Translating the words in a brochure does not ensure a suitable physical layout. Pelvessa Pagecraft prepares booklets for languages read from right to left. Our designers {1} the binding position as well as the text, so that pages turn in the expected direction.",
+        "Charts, captions, and page numbers receive an {2} check. A chart may retain its original direction even when surrounding text changes direction, depending on what the chart represents.",
+        "{3} The outside cover may look correct while the first interior spread opens in the wrong sequence. Clients can turn the pages of the model and mark any problems before approving the production layout.",
+        "Our new folded-model service launches next month. Printed models will go to clients before their review calls. During those calls, our designers {4} the models alongside the clients; each check will begin with the call and continue until it ends."
+      ],
+      "paragraphsKo": [
+        "안내서의 단어를 번역한다고 물리적 구성이 반드시 적합해지는 것은 아닙니다. 펠베사 페이지크래프트는 오른쪽에서 왼쪽으로 읽는 언어를 위한 책자를 제작합니다. 디자이너는 예상한 방향으로 페이지를 넘기도록 본문뿐 아니라 제본 위치도 {1} 조정합니다.",
+        "도표, 설명문, 페이지 번호는 {2} 개별적인 점검을 받습니다. 도표가 나타내는 내용에 따라 주변 글의 읽기 방향이 바뀌어도 도표 자체의 방향은 유지할 수 있습니다.",
+        "{3} 겉표지가 올바르게 보여도 첫 안쪽 펼침면은 순서가 틀릴 수 있습니다. 고객은 모형의 페이지를 넘겨 보고 제작 구성을 승인하기 전에 문제를 표시할 수 있습니다.",
+        "새 접지 모형 서비스는 다음 달 시작됩니다. 검토 통화 전에 고객에게 인쇄 모형을 보냅니다. 통화 중 디자이너는 고객과 함께 모형을 {4} 살펴보고 있을 것이며 각 검토는 통화와 함께 시작되어 끝날 때까지 이어집니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "price",
+            "translate",
+            "adjust",
+            "seal"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "가격을 매기다",
+              "번역하다",
+              "조정하다",
+              "봉하다"
+            ]
+          },
+          "explain": "1문단은 페이지를 넘기는 방향에 맞춰 제본 위치도 바꾸는 작업이므로 adjust가 맞다. translate는 문장을 다른 언어로 옮기는 것으로 제본 위치에 쓰기 어렵다."
+        },
+        {
+          "blank": 2,
+          "type": "pos",
+          "choices": [
+            "individual",
+            "individually",
+            "individuality",
+            "individualize"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "개별적인",
+              "개별적으로",
+              "개성",
+              "개별화하다"
+            ]
+          },
+          "explain": "2문단에서 관사 an과 명사 check 사이에는 형용사 individual이 맞다. individually는 부사여서 이 명사구를 만들 수 없다."
+        },
+        {
+          "blank": 3,
+          "type": "sentence",
+          "choices": [
+            "We approve interior page order by inspecting the closed front cover.",
+            "We supply loose sheets without indicating where they will be joined.",
+            "We provide a folded paper model for checking the reading sequence.",
+            "We postpone page-order decisions until after the production copies are bound."
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "닫힌 앞표지만 살펴 안쪽 페이지 순서를 승인한다.",
+              "어디를 연결할지 표시하지 않은 낱장을 제공한다.",
+              "읽는 순서를 확인하도록 접은 종이 모형을 제공한다.",
+              "제작 사본을 제본한 뒤까지 페이지 순서 결정을 미룬다."
+            ]
+          },
+          "explain": "3문단의 실제 페이지 넘기기와 제작 전 문제 표시를 가능하게 하는 것은 접은 모형이다. 닫힌 앞표지만 살피면 안쪽 순서 오류를 확인할 수 없다."
+        },
+        {
+          "blank": 4,
+          "type": "tense",
+          "choices": [
+            "were examining",
+            "have examined",
+            "will have finished examining",
+            "will be examining"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "살펴보고 있었다",
+              "살펴본 상태다",
+              "살펴보기를 끝낸 상태일 것이다",
+              "살펴보고 있을 것이다"
+            ]
+          },
+          "explain": "다음 달 서비스의 검토가 통화와 함께 시작되어 끝날 때까지 이어지므로 will be examining이 맞다. will have finished examining은 통화 시점에 검토가 이미 끝난 상태여서 설명된 절차와 다르다."
+        }
+      ]
+    },
+    {
+      "id": "p6-043",
+      "difficulty": 3,
+      "passageType": "memo",
+      "heading": [
+        "To: Coating line operators",
+        "From: Evara Chen, Production Engineering",
+        "Date: June 8",
+        "Subject: Oven warm-up"
+      ],
+      "headingKo": [
+        "수신: 코팅 라인 작업자",
+        "발신: 생산기술팀 에바라 첸",
+        "날짜: 6월 8일",
+        "제목: 오븐 예열"
+      ],
+      "paragraphs": [
+        "The green light on our curing oven indicates that the air beside its sensor has reached the selected temperature. It does not measure the temperature of the metal racks. {1}, a green light alone is not sufficient permission to load coated parts.",
+        "Cold racks absorb heat from newly loaded parts, making the coating less uniform. Allowing additional warm-up time helps {2} the temperature throughout the chamber.",
+        "Yesterday's trial began with an empty, cold oven. I returned after the additional warm-up interval. The operator {3} another twenty minutes beyond the green light. The first tray was already inside; she explained that the extra interval had ended before she loaded it.",
+        "Starting Monday, use this extra interval whenever the oven has cooled completely. {4} The added time should be included in the morning production schedule."
+      ],
+      "paragraphsKo": [
+        "경화 오븐의 초록불은 센서 옆 공기가 설정 온도에 도달했음을 나타냅니다. 금속 선반의 온도를 측정하는 것은 아닙니다. {1} 따라서 초록불만으로 코팅한 부품을 넣어도 된다고 판단해서는 안 됩니다.",
+        "차가운 선반은 새로 넣은 부품의 열을 흡수하여 코팅을 불균일하게 만듭니다. 추가로 예열하면 내부 전체의 온도를 {2} 안정시키는 데 도움이 됩니다.",
+        "어제 시험은 비어 있는 차가운 오븐으로 시작했습니다. 저는 추가 예열 시간이 지난 뒤 돌아왔습니다. 작업자는 초록불이 켜진 후 20분을 더 {3} 기다린 상태였습니다. 첫 쟁반은 이미 안에 있었으며 작업자는 추가 시간이 끝난 뒤에 넣었다고 설명했습니다.",
+        "월요일부터 오븐이 완전히 식었을 때마다 이 추가 시간을 적용하십시오. {4} 아침 생산 일정에는 이 시간을 포함해야 합니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "connector",
+          "choices": [
+            "In contrast",
+            "Consequently",
+            "For instance",
+            "Meanwhile"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "반대로",
+              "따라서",
+              "예를 들어",
+              "한편"
+            ]
+          },
+          "explain": "1문단은 표시등이 선반 온도를 알려 주지 못한다는 한계에서 투입 판단이 불충분하다는 결론을 도출하므로 Consequently가 맞다. In contrast는 대조가 아니며 For instance 뒤의 문장은 사례가 아니다."
+        },
+        {
+          "blank": 2,
+          "type": "vocab",
+          "choices": [
+            "forecast",
+            "record",
+            "stabilize",
+            "lower"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "예측하다",
+              "기록하다",
+              "안정시키다",
+              "낮추다"
+            ]
+          },
+          "explain": "2문단은 차가운 선반 때문에 생기는 온도 차이를 추가 예열로 줄이는 내용이므로 stabilize가 맞다. lower는 예열의 목적과 반대다."
+        },
+        {
+          "blank": 3,
+          "type": "tense",
+          "choices": [
+            "had waited",
+            "has waited",
+            "was about to wait",
+            "will wait"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "기다린 상태였다",
+              "기다린 상태다",
+              "막 기다리려던 참이었다",
+              "기다릴 것이다"
+            ]
+          },
+          "explain": "3문단에서 돌아온 과거 시점보다 먼저 추가 예열 시간이 지났고 쟁반도 이미 들어 있었으므로 had waited가 맞다. was about to wait는 그때 아직 대기를 시작하지 않은 상태라 맞지 않는다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "Load the first tray as soon as the air indicator turns green.",
+            "Shorten the interval when all the racks are cold.",
+            "Use the green light to check whether the coating is already uniform.",
+            "Begin counting the additional minutes when the green light comes on."
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "공기 표시등이 초록색으로 바뀌자마자 첫 쟁반을 넣어라.",
+              "모든 선반이 차가울 때 추가 시간을 줄여라.",
+              "코팅이 이미 균일한지 초록불로 확인하라.",
+              "초록불이 켜지면 추가 시간을 세기 시작하라."
+            ]
+          },
+          "explain": "4문단의 추가 시간은 시험에서 초록불 이후 더 기다린 20분을 뜻하므로 그 기산점을 설명하는 문장이 맞다. 즉시 투입하거나 차가운 선반의 예열 시간을 줄이면 앞의 지침과 충돌한다."
+        }
+      ]
+    },
+    {
+      "id": "p6-044",
+      "difficulty": 3,
+      "passageType": "email",
+      "heading": [
+        "To: Liora Penn",
+        "From: Narek Voss, Fentava Auctions",
+        "Date: August 14",
+        "Subject: Settings for your equipment listing"
+      ],
+      "headingKo": [
+        "수신: 리오라 펜",
+        "발신: 펜타바 경매의 나레크 보스",
+        "날짜: 8월 14일",
+        "제목: 귀사의 장비 출품 설정"
+      ],
+      "paragraphs": [
+        "Thank you for asking about the opening bid for your packaging machine. The auction opens tomorrow; no bids can be placed yet. Our system {1} your chosen opening amount when bidding begins. That amount will appear beside the empty bid field, ready for the first visitor.",
+        "The opening amount is the lowest acceptable first bid. Your reserve is different: it is the minimum price at which you agree to sell. {2} A bid above the opening amount can therefore still fall short of a sale.",
+        "Please {3} the reserve privately before we publish the listing. Bidders will see whether it has been met, but not its value. Once the auction opens, the reserve is fixed; this prevents sellers from moving the {4} after bidding has started."
+      ],
+      "paragraphsKo": [
+        "포장 기계의 시작 입찰가에 관해 문의해 주셔서 감사합니다. 경매는 내일 시작하므로 아직 입찰할 수 없습니다. 입찰이 시작되면 시스템이 선택하신 시작 금액을 {1} 표시합니다. 첫 방문자가 볼 수 있도록 빈 입찰란 옆에 그 금액이 나타납니다.",
+        "시작 금액은 첫 입찰로 허용되는 최저 금액입니다. 최저 매각가는 별개로, 판매에 동의하는 최소 가격입니다. {2} 따라서 시작 금액을 넘긴 입찰도 매각으로 이어지지 않을 수 있습니다.",
+        "출품 내용을 공개하기 전에 최저 매각가를 비공개로 {3} 확정해 주십시오. 입찰자는 최저 매각가 충족 여부만 볼 수 있으며 그 금액은 볼 수 없습니다. 경매가 시작되면 최저 매각가는 고정되므로 판매자가 입찰 개시 후 {4} 기준선을 옮길 수 없습니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "tense",
+          "choices": [
+            "had displayed",
+            "has displayed",
+            "will have stopped displaying",
+            "will display"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "표시했었다",
+              "표시한 상태다",
+              "표시를 중단한 상태일 것이다",
+              "표시할 것이다"
+            ]
+          },
+          "explain": "1문단의 아직 시작하지 않은 경매와 뒤의 금액이 입찰란 옆에 나타난다는 설명을 함께 보면 will display가 맞다. will have stopped displaying도 미래지만 첫 방문자가 그 금액을 본다는 내용과 반대다."
+        },
+        {
+          "blank": 2,
+          "type": "sentence",
+          "choices": [
+            "The first bid always guarantees that the machine will be sold.",
+            "You may set this second figure above the amount needed to begin bidding.",
+            "Bidders can buy the machine immediately by paying the opening amount.",
+            "The reserve automatically falls to match the first offer received."
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "첫 입찰은 항상 기계의 매각을 보장한다.",
+              "이 두 번째 금액은 입찰을 시작하는 데 필요한 금액보다 높게 정할 수 있다.",
+              "입찰자는 시작 금액을 내면 즉시 기계를 구매할 수 있다.",
+              "최저 매각가는 첫 제안에 맞추어 자동으로 내려간다."
+            ]
+          },
+          "explain": "2문단 뒤의 시작 금액을 넘어도 매각되지 않을 수 있다는 결론은 최저 매각가가 더 높을 수 있다는 설명으로 이어진다. 첫 입찰이 매각을 보장한다는 문장은 그 결론과 모순된다."
+        },
+        {
+          "blank": 3,
+          "type": "vocab",
+          "choices": [
+            "advertise",
+            "divide",
+            "confirm",
+            "exceed"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "광고하다",
+              "나누다",
+              "확정하다",
+              "초과하다"
+            ]
+          },
+          "explain": "3문단은 공개 전에 비공개 설정값을 정하고 이후 바꾸지 못하게 하는 절차이므로 confirm이 맞다. advertise는 비공개라는 조건에 맞지 않는다."
+        },
+        {
+          "blank": 4,
+          "type": "vocab",
+          "choices": [
+            "threshold",
+            "equipment",
+            "audience",
+            "deadline"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "기준선",
+              "장비",
+              "관객",
+              "마감 시각"
+            ]
+          },
+          "explain": "3문단에서 고정되는 것은 판매 가능한 최소 금액이라는 기준선이므로 threshold가 맞다. deadline은 지문에 나오지 않으며, 입찰이 시작된 뒤 고정되는 것은 최저 매각가라는 기준 금액이다."
+        }
+      ]
+    },
+    {
+      "id": "p6-045",
+      "difficulty": 1,
+      "passageType": "invitation",
+      "heading": [
+        "An overhead view of your warehouse"
+      ],
+      "headingKo": [
+        "창고를 위에서 살펴보세요"
+      ],
+      "paragraphs": [
+        "Roventa Robotics invites distribution managers to a demonstration of our tethered inventory drone on September 9. Its camera reads carton labels on high shelves while an operator stays on the ground. The demonstration will show how to {1} the need for repeated ladder trips.",
+        "The drone receives power through a cable connected to a floor unit. That cable must remain clear of people. {2}, visitors will watch from behind a marked boundary instead of walking beneath the aircraft. The viewing area provides a clear sightline to both the shelves and the operator.",
+        "After the flight, an engineer will give a {3} explanation of the tether connection. {4} Please wait for this part of the program if you would like a closer look at the equipment."
+      ],
+      "paragraphsKo": [
+        "로벤타 로보틱스는 9월 9일 유선 재고 조사 드론 시연에 물류 관리자를 초대합니다. 작업자가 바닥에 있는 동안 카메라가 높은 선반의 상자 라벨을 읽습니다. 시연에서는 사다리를 반복해서 오를 필요를 {1} 줄이는 방법을 보여 줍니다.",
+        "드론은 바닥 장치에 연결된 케이블로 전력을 받습니다. 이 케이블은 사람과 접촉하지 않아야 합니다. {2} 따라서 방문객은 기체 아래를 걷는 대신 표시된 경계 뒤에서 관람합니다. 관람 구역에서는 선반과 작업자가 모두 잘 보입니다.",
+        "비행이 끝나면 엔지니어가 유선 연결부를 {3} 자세하게 설명합니다. {4} 장비를 가까이 보고 싶다면 이 순서가 될 때까지 기다려 주십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "satisfy",
+            "recognize",
+            "reduce",
+            "create"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "충족하다",
+              "인식하다",
+              "줄이다",
+              "만들다"
+            ]
+          },
+          "explain": "1문단의 높은 선반 라벨을 지상에서 읽는 기능은 사다리 사용의 필요를 줄이므로 reduce가 맞다. create는 기능을 소개하는 목적과 반대다."
+        },
+        {
+          "blank": 2,
+          "type": "connector",
+          "choices": [
+            "Nevertheless",
+            "For example",
+            "Therefore",
+            "Likewise"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "그럼에도 불구하고",
+              "예를 들어",
+              "따라서",
+              "마찬가지로"
+            ]
+          },
+          "explain": "2문단의 사람과 케이블을 떨어뜨려야 한다는 조건이 경계 뒤 관람의 이유이므로 Therefore가 맞다. Nevertheless의 대조나 Likewise의 병렬 관계가 아니다."
+        },
+        {
+          "blank": 3,
+          "type": "pos",
+          "choices": [
+            "detail",
+            "detailed",
+            "detailing",
+            "details"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "세부 사항",
+              "자세한",
+              "상세히 설명하기",
+              "세부 사항들"
+            ]
+          },
+          "explain": "3문단에서 명사 explanation을 꾸미는 형용사 detailed가 맞다. detailing은 여기서 설명의 자세함을 나타내는 형용사로 쓸 수 없다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "With the drone on the ground, visitors may approach the disconnected cable.",
+            "Visitors will hold the power cable while the drone remains overhead.",
+            "The engineer will take questions only before the flight begins.",
+            "The connection will stay out of view throughout the demonstration."
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "드론이 바닥에 놓인 상태에서 방문객은 분리한 케이블에 가까이 갈 수 있다.",
+              "드론이 머리 위에 떠 있는 동안 방문객이 전원 케이블을 잡게 된다.",
+              "엔지니어는 비행이 시작되기 전에만 질문을 받는다.",
+              "연결부는 시연 내내 보이지 않는 곳에 있게 된다."
+            ]
+          },
+          "explain": "3문단은 비행 후 연결부 설명과 가까이 관찰할 기회를 연결하므로 착륙한 장비의 분리된 케이블에 접근하는 문장이 맞다. 비행 중 케이블을 잡는 것은 2문단의 관람 경계와 충돌한다."
+        }
+      ]
+    },
+    {
+      "id": "p6-046",
+      "difficulty": 2,
+      "passageType": "webpage",
+      "heading": [
+        "Choosing a grain pattern for cabinet doors"
+      ],
+      "headingKo": [
+        "수납장 문에 넣을 나뭇결 고르기"
+      ],
+      "paragraphs": [
+        "For clients ordering paired cabinet doors, Velastri Woodworks offers book-matched veneer. Two adjacent sheets are sliced from the same block of wood. One is turned over like a page, producing a {1} pattern across the pair. Small differences in color remain because the material is natural.",
+        "We began offering this option in March, and it is still available. Our workshop {2} three pairs of doors in this style. All three have been delivered, and customers can now see photographs of the finished installations on this page.",
+        "Before cutting, we arrange the two sheets side by side. {3} Please approve that arrangement as a pair, since rotating one sheet later would change the relationship between the two halves. If you prefer a different arrangement, tell us before we cut {4} to the final door dimensions."
+      ],
+      "paragraphsKo": [
+        "벨라스트리 목공은 두 짝 수납장 문을 주문하는 고객에게 북매치 무늬목을 제공합니다. 같은 나무 블록에서 연속된 두 장을 잘라 한 장을 책장처럼 뒤집으면 두 장에 걸쳐 {1} 대칭을 이루는 무늬가 생깁니다. 천연 재료이므로 약간의 색 차이는 남습니다.",
+        "3월부터 이 선택 사항을 제공했으며 지금도 이용할 수 있습니다. 공방은 지금까지 이 방식의 문 세 쌍을 {2} 완성했습니다. 세 쌍 모두 배송되었으며 고객은 이 페이지에서 완성된 설치 사진을 볼 수 있습니다.",
+        "절단하기 전에 두 장을 나란히 배열합니다. {3} 나중에 한 장을 회전시키면 양쪽의 관계가 달라지므로 한 쌍의 배열로 승인해 주십시오. 다른 배열을 원하면 최종 문 치수에 맞추어 {4} 그것들을 자르기 전에 알려 주십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "vocab",
+          "choices": [
+            "random",
+            "striped",
+            "faded",
+            "symmetrical"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "무작위의",
+              "줄무늬의",
+              "빛바랜",
+              "대칭적인"
+            ]
+          },
+          "explain": "1문단에서 연속된 무늬목 한 장을 책장처럼 뒤집어 마주 놓으므로 symmetrical이 맞다. random은 서로 대응하는 무늬를 만드는 방식과 맞지 않는다."
+        },
+        {
+          "blank": 2,
+          "type": "tense",
+          "choices": [
+            "has completed",
+            "is completing",
+            "will complete",
+            "had been completing"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "완성했다",
+              "완성하고 있다",
+              "완성할 것이다",
+              "완성하는 중이었다"
+            ]
+          },
+          "explain": "3월부터 현재까지 제공한다는 앞문장과 세 쌍 모두 이미 배송되었다는 뒷문장을 함께 보면 has completed가 맞다. is completing은 완성품 세 쌍이 배송된 상태와 다르다."
+        },
+        {
+          "blank": 3,
+          "type": "sentence",
+          "choices": [
+            "We let you approve the doors separately after installation.",
+            "Each sheet is rotated independently after you accept the design.",
+            "The grain pattern is selected only after both sheets have been cut.",
+            "A photograph of this layout lets you see how the grain meets at the center."
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "설치 후 문을 각각 별도로 승인하게 한다.",
+              "디자인을 승인하면 각 장을 독립적으로 회전시킨다.",
+              "두 장을 모두 자른 뒤에야 나뭇결 배열을 고른다.",
+              "이 배열의 사진으로 나뭇결이 중앙에서 어떻게 만나는지 볼 수 있다."
+            ]
+          },
+          "explain": "3문단은 절단 전에 한 쌍의 배열을 확인하고 승인하는 절차이므로 중앙의 연결을 보여 주는 사진이 맞다. 절단이나 설치 후 승인한다는 문장은 검토 시점과 충돌한다."
+        },
+        {
+          "blank": 4,
+          "type": "pronoun",
+          "choices": [
+            "theirs",
+            "them",
+            "themselves",
+            "their"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "그들의 것",
+              "그것들을",
+              "그것들 자신을",
+              "그것들의"
+            ]
+          },
+          "explain": "3문단의 cut의 목적어는 앞의 두 무늬목 장이므로 목적격 them이 맞다. themselves는 절단하는 주체 we와 대상이 같다는 뜻이 되어 맞지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "p6-047",
+      "difficulty": 3,
+      "passageType": "email",
+      "heading": [
+        "To: Della Varen",
+        "From: Corin Aslo, Accounts Receivable",
+        "Date: November 6",
+        "Subject: Small differences in invoice totals"
+      ],
+      "headingKo": [
+        "수신: 델라 바렌",
+        "발신: 매출채권 담당 코린 아슬로",
+        "날짜: 11월 6일",
+        "제목: 청구서 합계의 소액 차이"
+      ],
+      "paragraphs": [
+        "Your spreadsheet rounds the tax on each line before adding the amounts. Our billing system adds the unrounded tax amounts and rounds only the final sum. {1}, the two totals can differ by a cent even when all prices and tax rates match.",
+        "The billing team is updating the calculation method today. The revised version is scheduled to be ready before tomorrow's first invoice run. By that run, the team {2} the change. Invoices produced in the run will use line-by-line rounding, so their totals should agree with your spreadsheet.",
+        "The adjustment leaves every tax rate and item price {3}. {4} Please compare the next invoice with the same spreadsheet formulas you use now; there is no need to change your calculations."
+      ],
+      "paragraphsKo": [
+        "귀사의 스프레드시트는 각 항목의 세금을 반올림한 뒤 더합니다. 저희 청구 시스템은 반올림하지 않은 세액을 더한 다음 최종 합계만 반올림합니다. {1} 따라서 가격과 세율이 모두 같아도 두 합계가 1센트 차이 날 수 있습니다.",
+        "청구 담당 팀은 오늘 계산 방식을 수정하고 있습니다. 수정본은 내일 첫 청구서 발행 전에 준비될 예정입니다. 그 발행 시점에는 팀이 변경을 {2} 완료했을 것입니다. 해당 발행분은 항목별 반올림을 사용하므로 귀사의 스프레드시트와 합계가 일치할 것입니다.",
+        "이번 조정 후에도 모든 세율과 품목 가격은 {3} 변함없이 유지됩니다. {4} 다음 청구서는 지금 쓰는 스프레드시트 수식과 비교해 주십시오. 귀사의 계산 방식을 바꿀 필요는 없습니다."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "connector",
+          "choices": [
+            "As a result",
+            "Even so",
+            "For instance",
+            "In comparison"
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "그 결과",
+              "그렇다 해도",
+              "예를 들어",
+              "이에 비해"
+            ]
+          },
+          "explain": "1문단에서 서로 다른 반올림 순서가 소액 차이를 만드는 결과로 이어지므로 As a result가 맞다. For instance 뒤에는 구체적인 금액 사례가 없으며 일반적 결과를 설명한다."
+        },
+        {
+          "blank": 2,
+          "type": "tense",
+          "choices": [
+            "will be starting",
+            "will have completed",
+            "had completed",
+            "has begun"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "착수하고 있을 것이다",
+              "완료해 놓았을 것이다",
+              "완료했었다",
+              "착수한 상태다"
+            ]
+          },
+          "explain": "2문단 앞의 발행 전 준비 완료 일정과 뒤의 해당 발행분에서 새 계산을 사용한다는 결과가 미래완료를 뒷받침한다. will be starting은 그 시점에 이미 새 계산을 사용한다는 내용과 충돌한다."
+        },
+        {
+          "blank": 3,
+          "type": "vocab",
+          "choices": [
+            "provisional",
+            "negotiable",
+            "unequal",
+            "unchanged"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "잠정적인",
+              "협상 가능한",
+              "같지 않은",
+              "변함없는"
+            ]
+          },
+          "explain": "앞 문단에서 달라지는 것은 반올림 순서이고 뒤에서는 기존 수식대로 비교하라고 하므로 세율과 가격은 unchanged가 맞다. provisional은 금액을 잠정적으로 정한다는 뜻으로 변경 범위와 다르다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "We will increase the prices to absorb the rounding difference.",
+            "The new method requires your spreadsheet to stop rounding each line.",
+            "Only the stage at which fractional cents are rounded will be different.",
+            "The tax rates in your spreadsheet must be replaced before the next invoice."
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "반올림 차이를 흡수하도록 가격을 올릴 것이다.",
+              "새 방식에 맞추려면 귀사 스프레드시트의 항목별 반올림을 중단해야 한다.",
+              "센트 미만의 값을 반올림하는 단계만 달라질 것이다.",
+              "다음 청구서가 나오기 전에 귀사 스프레드시트의 세율을 바꾸어야 한다."
+            ]
+          },
+          "explain": "3문단에서 세율과 가격은 유지되고 고객의 수식도 그대로 쓰므로 달라지는 반올림 단계만 설명하는 문장이 맞다. 고객의 항목별 반올림을 중단하라는 문장은 새 청구 방식과 반대다."
+        }
+      ]
+    },
+    {
+      "id": "p6-048",
+      "difficulty": 2,
+      "passageType": "email",
+      "heading": [
+        "To: Field repair staff",
+        "From: Lena Orvel, Service Administration",
+        "Date: February 19",
+        "Subject: Writing on service forms"
+      ],
+      "headingKo": [
+        "수신: 현장 수리 직원",
+        "발신: 서비스 행정팀 레나 오르벨",
+        "날짜: 2월 19일",
+        "제목: 서비스 양식 작성"
+      ],
+      "paragraphs": [
+        "Several customers could not read the bottom copy of their service forms last week. The forms contain three sheets that transfer writing through pressure. A felt-tip pen makes a dark mark on the top sheet but may leave the lower sheets blank.",
+        "I visited a repair team yesterday to observe the problem. A technician {1} a customer address on the top sheet when I approached. His pen was moving across the final line, and I waited until he put it down before examining the copies.",
+        "Please use a ballpoint pen and apply {2} pressure. Keep all three sheets together on a firm surface until you finish writing. A soft folder can absorb some of the force. {3}, use a rigid board beneath the form. {4} Replace the form if any copy is unreadable."
+      ],
+      "paragraphsKo": [
+        "지난주 여러 고객이 서비스 양식의 맨 아래 사본을 읽을 수 없었습니다. 양식은 압력으로 글씨가 전사되는 세 장으로 이루어져 있습니다. 펠트펜은 맨 위 종이에 진한 자국을 남겨도 아래 종이에는 글씨가 남지 않을 수 있습니다.",
+        "문제를 살피려고 어제 수리 팀을 방문했습니다. 제가 다가갔을 때 기술자는 맨 위 종이에 고객 주소를 {1} 적고 있었습니다. 펜이 마지막 줄을 따라 움직이고 있었으며 저는 그가 펜을 내려놓을 때까지 기다린 뒤 사본을 확인했습니다.",
+        "볼펜을 사용하고 {2} 충분한 압력을 가해 주십시오. 작성이 끝날 때까지 세 장을 단단한 표면 위에 함께 두십시오. 부드러운 폴더는 힘의 일부를 흡수할 수 있습니다. {3} 따라서 양식 밑에 단단한 판을 받치십시오. {4} 읽을 수 없는 사본이 있으면 양식을 교체하십시오."
+      ],
+      "questions": [
+        {
+          "blank": 1,
+          "type": "tense",
+          "choices": [
+            "has written",
+            "had finished writing",
+            "was writing",
+            "will write"
+          ],
+          "answer": 2,
+          "ko": {
+            "choices": [
+              "작성한 상태다",
+              "작성을 마쳤었다",
+              "작성하고 있었다",
+              "작성할 것이다"
+            ]
+          },
+          "explain": "2문단의 어제 방문과 뒤의 펜이 아직 움직여 내려놓을 때까지 기다렸다는 상황으로 보아 was writing이 맞다. had finished writing은 관찰 당시 이미 작성을 끝냈다는 뜻이라 맞지 않는다."
+        },
+        {
+          "blank": 2,
+          "type": "vocab",
+          "choices": [
+            "uneven",
+            "minimal",
+            "accidental",
+            "adequate"
+          ],
+          "answer": 3,
+          "ko": {
+            "choices": [
+              "고르지 않은",
+              "최소한의",
+              "우연한",
+              "충분한"
+            ]
+          },
+          "explain": "첫 문단의 압력 전사 방식과 아래 사본이 안 보이는 문제가 필요한 만큼의 압력을 요구하므로 adequate가 맞다. minimal은 아래 장까지 전달될 충분한 힘을 보장하지 못한다."
+        },
+        {
+          "blank": 3,
+          "type": "connector",
+          "choices": [
+            "Even so",
+            "Accordingly",
+            "For example",
+            "Similarly"
+          ],
+          "answer": 1,
+          "ko": {
+            "choices": [
+              "그렇다 해도",
+              "따라서",
+              "예를 들어",
+              "마찬가지로"
+            ]
+          },
+          "explain": "3문단에서 부드러운 받침이 힘을 흡수한다는 문제 때문에 단단한 판을 쓰라는 지침이 나오므로 Accordingly가 맞다. For example로 연결하면 단단한 판이 부드러운 폴더의 사례가 되어 맞지 않는다."
+        },
+        {
+          "blank": 4,
+          "type": "sentence",
+          "choices": [
+            "Check the lowest sheet before handing a copy to the customer.",
+            "Give the customer the lowest sheet without separating it for inspection.",
+            "Remove the two lower sheets before writing the customer address.",
+            "Use the darkest felt-tip pen if the lower copies are blank."
+          ],
+          "answer": 0,
+          "ko": {
+            "choices": [
+              "고객에게 사본을 건네기 전에 맨 아래 종이를 확인하라.",
+              "검사를 위해 분리하지 말고 맨 아래 종이를 고객에게 주어라.",
+              "고객 주소를 쓰기 전에 아래 두 장을 제거하라.",
+              "아래 사본이 비어 있으면 가장 진한 펠트펜을 사용하라."
+            ]
+          },
+          "explain": "마지막 문단의 읽을 수 없는 양식 교체 지침에 앞서 사본을 확인하는 문장이 필요하다. 아래 두 장을 미리 제거하면 압력 전사가 일어나지 않는다."
+        }
+      ]
     }
   ]
 }
