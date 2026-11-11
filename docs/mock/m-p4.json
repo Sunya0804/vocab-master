@@ -7,106 +7,106 @@
     "script": [
       {
         "s": "W",
-        "t": "Does your business send small products through the mail, but struggle to find boxes that fit?"
+        "t": "Does the piano in your hotel lounge sound uneven, even when an experienced musician plays it?"
       },
       {
         "s": "W",
-        "t": "At Kelvoro Packaging, we make shipping boxes in the exact dimensions you request, even for orders as small as twenty."
+        "t": "At Kelvoro Piano Care, our technicians adjust and tune pianos for hotels, restaurants, and other businesses throughout the city."
       },
       {
         "s": "W",
-        "t": "Our plain brown boxes are made from recycled cardboard and arrive flat, saving space until you need them."
+        "t": "We bring our tools to your premises, so there is no need to move the instrument to a repair shop."
       },
       {
         "s": "W",
-        "t": "You can fold each box into shape without glue, using the illustrated instructions included with every order."
+        "t": "Appointments are available early in the morning, before your guests arrive, and each visit normally takes about two hours."
       },
       {
         "s": "W",
-        "t": "We also offer printed designs, although those require larger quantities and take longer to produce."
+        "t": "Our standard fee covers tuning; any damaged parts are quoted separately before we replace them."
       },
       {
         "s": "W",
-        "t": "To see whether our standard cardboard suits your products, request a free sample pack through our website."
+        "t": "To receive a written price estimate, send us the piano model and a photograph through our website."
       },
       {
         "s": "W",
-        "t": "The pack includes three material thicknesses, so you can test them before placing a paid order."
+        "t": "A technician will review the details and call you to discuss a suitable appointment."
       }
     ],
     "scriptKo": [
-      "작은 제품을 우편으로 보내는 사업체인데 크기가 맞는 상자를 찾기 어려우신가요?",
-      "켈보로 패키징은 단 스무 개를 주문하셔도 요청하신 정확한 치수로 배송 상자를 제작합니다.",
-      "무늬 없는 갈색 상자는 재생 골판지로 만들고 납작한 상태로 배송하므로 필요할 때까지 공간을 절약할 수 있습니다.",
-      "주문마다 포함된 그림 설명서를 이용해 접착제 없이 상자를 접어 만들 수 있습니다.",
-      "인쇄 디자인도 제공하지만 더 많은 수량을 주문해야 하며 제작 기간도 더 깁니다.",
-      "기본 골판지가 제품에 적합한지 알아보려면 웹사이트에서 무료 견본 묶음을 신청하세요.",
-      "세 가지 두께의 재료가 들어 있으므로 유료 주문 전에 시험해 볼 수 있습니다."
+      "호텔 라운지의 피아노가 숙련된 연주자가 쳐도 음이 고르지 않게 들리나요?",
+      "켈보로 피아노 케어의 기술자들은 도시 전역의 호텔, 식당 및 다른 사업체를 위해 피아노를 조정하고 조율합니다.",
+      "저희가 공구를 가지고 사업장으로 방문하므로 악기를 수리점으로 옮길 필요가 없습니다.",
+      "손님이 도착하기 전 이른 아침에 예약할 수 있으며, 방문 작업에는 보통 약 두 시간이 걸립니다.",
+      "기본 요금에는 조율이 포함되며 손상된 부품은 교체 전에 별도로 견적을 냅니다.",
+      "서면 견적을 받으려면 웹사이트로 피아노 모델과 사진을 보내 주세요.",
+      "기술자가 내용을 검토한 뒤 적절한 방문 일정을 상의하려고 전화할 것입니다."
     ],
     "graphic": null,
     "questions": [
       {
         "type": "speaker",
-        "q": "What does the company produce?",
+        "q": "What service does the company provide?",
         "choices": [
-          "Postal scales",
-          "Printing machines",
-          "Office furniture",
-          "Mailing containers"
+          "Hotel reservations",
+          "Music lessons",
+          "Instrument transportation",
+          "Piano maintenance"
         ],
         "answer": 3,
         "ko": {
-          "q": "이 회사는 무엇을 생산하는가?",
+          "q": "이 회사는 어떤 서비스를 제공하는가?",
           "choices": [
-            "우편용 저울",
-            "인쇄 기계",
-            "사무용 가구",
-            "배송용 용기"
+            "호텔 예약",
+            "음악 수업",
+            "악기 운송",
+            "피아노 관리"
           ]
         },
-        "explain": "shipping boxes를 배송용 용기로 바꾼 (D)가 정답이다. 인쇄 디자인은 상자의 옵션이지 인쇄 기계 판매가 아니다."
+        "explain": "호텔과 식당 등의 피아노를 조정하고 조율하는 업체이므로 (D)가 정답이다. 연주 수업이나 악기 운송을 제공하는 광고가 아니다."
       },
       {
         "type": "detail",
-        "q": "Why are the boxes delivered flat?",
+        "q": "Why do technicians visit customers at their premises?",
         "choices": [
-          "To reduce storage space",
-          "To make printing faster",
-          "To avoid using recycled materials",
-          "To allow inspection of glue"
+          "To avoid transporting the piano",
+          "To attend a musical performance",
+          "To deliver replacement instruments",
+          "To train hotel employees"
         ],
         "answer": 0,
         "ko": {
-          "q": "상자를 납작하게 배송하는 이유는 무엇인가?",
+          "q": "기술자들이 고객의 사업장을 방문하는 이유는 무엇인가?",
           "choices": [
-            "보관 공간을 줄이기 위해",
-            "인쇄를 빠르게 하기 위해",
-            "재생 재료 사용을 피하기 위해",
-            "접착제를 검사할 수 있게 하기 위해"
+            "피아노를 운반하지 않아도 되게 하려고",
+            "음악 공연에 참석하려고",
+            "교체 악기를 배달하려고",
+            "호텔 직원을 교육하려고"
           ]
         },
-        "explain": "saving space until you need them이 근거이므로 (A)가 정답이다. 상자는 접착제 없이 조립한다."
+        "explain": "공구를 가지고 방문해 악기를 수리점으로 옮길 필요가 없게 하므로 (A)가 정답이다. 공연 참석이나 직원 교육이 목적은 아니다."
       },
       {
         "type": "suggest",
-        "q": "What are listeners encouraged to request?",
+        "q": "What are listeners asked to send?",
         "choices": [
-          "A shipping refund",
-          "A printed catalog",
-          "A factory appointment",
-          "A complimentary material selection"
+          "Their hotel room number",
+          "A recording of a performance",
+          "A list of available parts",
+          "A model name and an image"
         ],
         "answer": 3,
         "ko": {
-          "q": "청취자에게 무엇을 요청하도록 권하고 있는가?",
+          "q": "청취자에게 무엇을 보내 달라고 하는가?",
           "choices": [
-            "배송비 환불",
-            "인쇄 카탈로그",
-            "공장 방문 예약",
-            "무료 재료 견본 모음"
+            "호텔 객실 번호",
+            "공연 녹음",
+            "이용 가능한 부품 목록",
+            "모델명과 사진"
           ]
         },
-        "explain": "free sample pack을 complimentary material selection으로 바꾼 (D)가 정답이다. 공장 방문 예약은 언급하지 않는다."
+        "explain": "서면 견적을 위해 피아노 모델과 사진을 보내 달라고 하므로 (D)가 정답이다. 부품은 필요할 때 별도로 견적을 낸다."
       }
     ]
   },
@@ -635,7 +635,7 @@
             "승인 요청에서 사진을 빼야 한다."
           ]
         },
-        "explain": "직원이 은 제품 구역까지 교체 주문에 넣을지 묻자 그대로 두겠다고 답한다. 호박 구역은 따뜻한 조명으로 바꾼 상태다."
+        "explain": "비교 결과 은 제품은 원래 흰 조명 아래에서 선명하게 보이므로 그 구역의 조명은 유지한다는 뜻이다. 호박 보석 위의 조명 여섯 개만 교체한다. 직원의 질문에 답하는 장면은 아니다."
       },
       {
         "type": "suggest",
@@ -1447,7 +1447,7 @@
             "최신 대체 장비 견적"
           ]
         },
-        "explain": "recent supplier estimates를 최신 대체 견적으로 바꾼 (D)가 정답이다. 옛 영수증을 다시 보낼 필요는 없다고 명시한다."
+        "explain": "현재 구할 수 있는 동등한 장비의 비용을 확인하도록 공급업체의 서면 견적을 요청하므로 (D)가 정답이다. 대본은 옛 영수증의 재제출 여부를 직접 말하지 않는다."
       },
       {
         "type": "intention",
@@ -2719,7 +2719,7 @@
             "적절한 마감이 확인된 뒤 방식을 도입해야 한다."
           ]
         },
-        "explain": "this afternoon의 전면 적용 승인 요청을 보류한다는 뜻이다. 추가 마감 결과를 기다리는 것이며 검사나 시험품 분리는 미루지 않는다."
+        "explain": "생산 라인 전체 도입용 승인서는 준비됐지만, 흠집 난 시험 패널과 승인된 마감을 먼저 비교하자는 뜻이다. 표면 검사 결과를 확인한 뒤 도입을 결정하려는 것이며 검사나 시험품 분리를 미루지 않는다."
       }
     ]
   },
@@ -2894,7 +2894,7 @@
             "외부 업체가 미확인 소스를 제공해도 된다."
           ]
         },
-        "explain": "직접 재료 업체에 연락하겠다는 청취자의 제안을 정중히 사양하고 조리장이 확인을 맡는다는 뜻이다. 좌석 번호 요청을 취소하거나 소스 사용을 허용하지 않는다."
+        "explain": "주방이 대체 재료까지 확인하므로 고객 회사가 개별 공급업체에 연락할 필요가 없다는 뜻이다. 좌석 번호는 별도로 보내 달라고 하며, 재료를 확인할 수 있는 소스를 사용한다."
       },
       {
         "type": "topic",
@@ -3178,7 +3178,7 @@
       },
       {
         "s": "W",
-        "t": "Until then, request scanned copies through the records desk if you need information urgently."
+        "t": "While the drying unit is running, request scanned copies through the records desk if you need information urgently."
       },
       {
         "s": "W",
@@ -3200,7 +3200,7 @@
     "scriptKo": [
       "기록 시설 견학 중 네 문서 보관실의 상태를 보여 주는 관측 게시판 옆에 잠시 멈추겠습니다.",
       "한 방의 습도가 종이 기록 허용 수준을 넘어서 건조 장비를 가동 중이며 그 방의 보관함은 닫아 두어야 합니다.",
-      "그때까지 정보가 긴급히 필요하면 기록 담당 데스크에 스캔 사본을 요청하십시오.",
+      "건조 장비가 가동되는 동안 정보가 긴급히 필요하면 기록 담당 데스크에 스캔 사본을 요청하십시오.",
       "그 방 담당 직원은 이동식 건조 장치가 습기를 낮추는 동안 캐비닛을 닫아 두어야 합니다.",
       "다른 방의 기록은 평소대로 꺼내도 되며 방 사이에 상자를 옮길 필요는 없습니다.",
       "모니터가 적절한 수치를 확인하면 시설팀이 해당 캐비닛의 정상 이용을 허가하는 별도 메시지를 보낼 것입니다.",
@@ -5200,7 +5200,7 @@
             "직원들이 다른 철거 날짜를 골라야 한다."
           ]
         },
-        "explain": "월요일 착공을 직원들에게 발표해도 되는지에 대해 잠정 날짜로만 두라는 뜻이다. 임대 계약은 확정됐지만 철거 허가는 아직이다."
+        "explain": "월요일의 시공업체 방문과 건물 출입은 가능하지만 배선 보호 도면이 빠져 서면 허가를 받을 수 없다. 따라서 착공일은 허가가 날 때까지 잠정 일정으로 둬야 한다는 뜻이다."
       },
       {
         "type": "suggest",
@@ -5594,7 +5594,11 @@
       },
       {
         "s": "M",
-        "t": "We will assess the effect after two weeks by comparing waiting times during the supported hour with the previous month's figures."
+        "t": "The figures represent calls received, including those callers abandoned before an agent answered, so they reflect demand rather than completed conversations alone."
+      },
+      {
+        "s": "M",
+        "t": "To reduce waiting during the busiest period, an employee from order administration will join the desk for the single hour with the highest average."
       },
       {
         "s": "M",
@@ -5606,21 +5610,17 @@
       },
       {
         "s": "M",
-        "t": "The figures represent calls received, including those callers abandoned before an agent answered, so they reflect demand rather than completed conversations alone."
-      },
-      {
-        "s": "M",
-        "t": "To reduce waiting during the busiest period, an employee from order administration will join the desk for the single hour with the highest average."
+        "t": "We will assess the effect after two weeks by comparing waiting times during the supported hour with the previous month's figures."
       }
     ],
     "scriptKo": [
       "도매 고객의 전화를 받는 서비스 데스크 직원에게 안내합니다.",
       "지난달 수신 전화를 분석했으며 시간대별 평균이 팀 공지판에 표시되어 있습니다.",
-      "2주 후 지원 시간대의 대기 시간을 지난달 수치와 비교해 효과를 평가하겠습니다.",
+      "수치는 상담원이 받기 전에 발신자가 끊은 전화도 포함하므로 완료된 대화뿐 아니라 전체 수요를 반영합니다.",
+      "가장 바쁜 때의 대기를 줄이기 위해 평균이 가장 높은 한 시간 동안 주문 관리 직원 한 명이 데스크에 합류합니다.",
       "추가 지원 업무는 최초 문의 응대이며 환불 승인이나 신용 한도 변경은 아닙니다.",
       "추가 직원으로 모두의 일정을 옮기지 않고도 충분히 대응할 수 있을 것이므로 당분간 평소 휴식 일정을 유지하십시오.",
-      "수치는 상담원이 받기 전에 발신자가 끊은 전화도 포함하므로 완료된 대화뿐 아니라 전체 수요를 반영합니다.",
-      "가장 바쁜 때의 대기를 줄이기 위해 평균이 가장 높은 한 시간 동안 주문 관리 직원 한 명이 데스크에 합류합니다."
+      "2주 후 지원 시간대의 대기 시간을 지난달 수치와 비교해 효과를 평가하겠습니다."
     ],
     "graphic": {
       "title": "Average Incoming Calls",

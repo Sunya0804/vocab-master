@@ -9,46 +9,46 @@
       "script": [
         {
           "s": "W",
-          "t": "Good morning, Tomas. Our human resources team is checking the interview arrangements for the accounting assistant position next Tuesday."
+          "t": "Good morning, Tomas. Our human resources team is preparing the assessment packets for Tuesday's accounting assistant interviews."
         },
         {
           "s": "M",
-          "t": "We have four candidates, and each interview will take thirty minutes. Are we still using the fourth-floor meeting room?"
+          "t": "The four candidates have all confirmed. I've printed their application forms and the panel's interview questions."
         },
         {
           "s": "W",
-          "t": "That room is being painted, so I've reserved the small training room beside human resources instead."
+          "t": "Thanks. The practical test results are missing from two packets. We need those before the panel meets."
         },
         {
           "s": "M",
-          "t": "Thanks for catching that. The candidates already received arrival instructions mentioning the old room, didn't they?"
+          "t": "The testing officer sent the results this morning. I can add them, but the sheets use candidate numbers rather than names."
         },
         {
           "s": "W",
-          "t": "Yes, but their appointment times haven't changed. I'll send corrected directions and ask reception to guide them."
+          "t": "Use the registration list to match each number to the right application. I'll prepare the panel's evaluation forms."
         },
         {
           "s": "M",
-          "t": "I'll bring the interview questions and a copy of the scoring sheet for everyone on the panel."
+          "t": "Should I make extra copies of those forms for the panel members?"
         },
         {
           "s": "W",
-          "t": "Could you also check that the room has enough chairs before you leave today?"
+          "t": "Yes, once I've finished them. Please match the test sheets first, so I can check the complete packets."
         },
         {
           "s": "M",
-          "t": "Certainly. I'll go upstairs now and make sure everything is ready."
+          "t": "I'll open the registration list now and check the numbers on the two sheets."
         }
       ],
       "scriptKo": [
-        "좋은 아침이에요, 토마스. 우리 인사팀에서 다음 주 화요일 회계 보조직 면접 준비를 확인하고 있어요.",
-        "지원자는 네 명이고 면접은 각각 30분 걸려요. 여전히 4층 회의실을 쓰나요?",
-        "그 방은 페인트칠 중이라 대신 인사부 옆 작은 교육실을 예약했어요.",
-        "미리 확인해 줘서 고마워요. 지원자들에게 예전 방으로 오라는 안내가 이미 갔죠?",
-        "네, 하지만 면접 시간은 바뀌지 않았어요. 수정된 길 안내를 보내고 접수처에도 안내를 부탁할게요.",
-        "저는 면접 질문과 면접위원들 각자 쓸 평가표 사본을 가져올게요.",
-        "오늘 퇴근하기 전에 방에 의자가 충분한지도 확인해 주실래요?",
-        "물론이죠. 지금 올라가서 모두 준비되어 있는지 확인할게요."
+        "좋은 아침이에요, 토마스. 우리 인사팀에서 화요일 회계 보조직 면접용 평가 자료를 준비하고 있어요.",
+        "지원자 네 명 모두 참석을 확인했어요. 지원서와 면접위원들의 질문을 인쇄했어요.",
+        "고마워요. 자료 두 묶음에 실무 시험 결과가 빠져 있어요. 면접위원들이 모이기 전에 필요해요.",
+        "시험 담당자가 오늘 오전에 결과를 보냈어요. 추가할 수 있는데 점수표에는 이름 대신 지원자 번호가 있어요.",
+        "등록 명단으로 각 번호와 지원서를 맞춰 주세요. 저는 면접위원용 평가 양식을 준비할게요.",
+        "면접위원들에게 줄 평가 양식도 여분으로 복사할까요?",
+        "네, 제가 완성한 뒤에요. 완성된 자료 묶음을 확인할 수 있도록 시험 점수표부터 맞춰 주세요.",
+        "지금 등록 명단을 열고 점수표 두 장의 번호를 확인할게요."
       ],
       "graphic": null,
       "questions": [
@@ -71,49 +71,49 @@
               "접수처"
             ]
           },
-          "explain": "첫 발언에서 자신의 팀을 human resources라고 밝히므로 (B)가 맞다. 회계는 채용할 직무이고 접수처는 지원자 안내를 도와줄 곳이다."
+          "explain": "첫 발언에서 자신의 팀을 human resources라고 밝히므로 (B)가 맞다. 회계는 채용 대상 직무이며 여자는 인사팀의 평가 자료를 준비한다."
         },
         {
           "type": "reason",
           "q": "What problem does the woman mention?",
           "choices": [
             "A candidate canceled an appointment.",
-            "Reception has received incorrect interview times.",
-            "The scoring sheets have not been prepared.",
-            "The original meeting room is being painted."
+            "The interview questions have not been printed.",
+            "The registration list has been lost.",
+            "Two packets lack practical test results."
           ],
           "answer": 3,
           "ko": {
             "q": "여자가 언급하는 문제는 무엇인가?",
             "choices": [
-              "지원자 한 명이 약속을 취소했다.",
-              "접수처에 잘못된 면접 시간이 전달됐다.",
-              "평가표가 준비되지 않았다.",
-              "원래 회의실을 도색하고 있다."
+              "지원자 한 명이 면접을 취소했다.",
+              "면접 질문이 인쇄되지 않았다.",
+              "등록 명단을 분실했다.",
+              "자료 두 묶음에 실무 시험 결과가 없다."
             ]
           },
-          "explain": "여자가 기존 방은 페인트칠 중이라고 말하므로 (D)가 맞다. 면접 시간은 그대로이며, 평가표도 남자가 가져오겠다고 했다."
+          "explain": "여자가 두 자료 묶음에 실무 시험 결과가 빠졌다고 하므로 (D)가 맞다. 질문은 이미 인쇄했고 지원자들도 모두 참석을 확인했다."
         },
         {
           "type": "next",
           "q": "What will the man do next?",
           "choices": [
-            "Check the seating in the training room.",
-            "Send updated arrival instructions to all four candidates.",
-            "Revise the scoring system.",
-            "Meet applicants at reception."
+            "Match test sheets to candidate applications.",
+            "Prepare evaluation forms for the panel.",
+            "Telephone candidates about their appointments.",
+            "Make copies of the evaluation forms."
           ],
           "answer": 0,
           "ko": {
             "q": "남자는 다음에 무엇을 할 것인가?",
             "choices": [
-              "교육실의 의자를 확인한다.",
-              "네 지원자 모두에게 수정된 도착 안내를 보낸다.",
-              "평가 체계를 수정한다.",
-              "접수처에서 지원자들을 만난다."
+              "시험 점수표를 지원자 지원서와 맞춘다.",
+              "면접위원용 평가 양식을 준비한다.",
+              "지원자들에게 면접 일정에 관해 전화한다.",
+              "평가 양식을 복사한다."
             ]
           },
-          "explain": "의자가 충분한지 확인해 달라는 요청에 지금 올라가 보겠다고 하므로 (A)가 맞다. 안내문 발송은 여자가 맡았고, 평가 방식 변경은 언급되지 않았다."
+          "explain": "등록 명단을 열어 점수표의 번호를 확인하겠다고 하므로 (A)가 맞다. 평가 양식 복사는 여자가 양식을 완성한 뒤에 한다."
         }
       ]
     },
@@ -124,7 +124,7 @@
       "script": [
         {
           "s": "M",
-          "t": "Which workshop are you choosing for staff learning day? Registration closes this afternoon."
+          "t": "Which of these workshops would you choose? I can help reserve a place if you decide today."
         },
         {
           "s": "W",
@@ -132,7 +132,7 @@
         },
         {
           "s": "M",
-          "t": "That session is popular. Bring your laptop with the latest software, since everyone will practice the techniques."
+          "t": "That session is part of our staff learning day. Bring your laptop with the latest software because employees will practice the techniques."
         },
         {
           "s": "W",
@@ -156,9 +156,9 @@
         }
       ],
       "scriptKo": [
-        "직원 학습의 날에 어떤 연수회를 고를 거예요? 등록이 오늘 오후에 마감돼요.",
+        "이 연수회들 중 어느 것을 고르겠어요? 오늘 결정하면 자리 예약을 도와줄 수 있어요.",
         "청구 업무는 이미 하고 있어요. 큰 데이터 표를 더 빠르게 다루는 방법을 배우고 싶어요.",
-        "그 강좌가 인기 있어요. 모두 직접 기법을 연습하니까 최신 소프트웨어가 설치된 노트북을 가져오세요.",
+        "그 강좌는 직원 학습의 날 행사에 포함돼요. 직원들이 기법을 실습하니 최신 소프트웨어가 설치된 노트북을 가져오세요.",
         "제 것은 준비됐어요. 듣고 싶은 강좌 직후에 고객 약속이 있어서 제시간에 나가야 해요.",
         "제가 등록하면서 자리도 예약할까요? 대규모 강의와 소규모 실습반 중에 고를 수 있어요.",
         "작은 반으로 해 주세요. 회계에서 쓰는 파일에 관해 질문하고 싶어요.",
@@ -193,27 +193,6 @@
       },
       "questions": [
         {
-          "type": "topic",
-          "q": "What are the speakers discussing?",
-          "choices": [
-            "Changes to the customer appointment system.",
-            "Replacing software on the accounting computers.",
-            "Enrollment in an employee development event.",
-            "Preparing a lecture for new clients."
-          ],
-          "answer": 2,
-          "ko": {
-            "q": "화자들은 무엇에 대해 논의하고 있는가?",
-            "choices": [
-              "고객 예약 제도의 변경",
-              "회계용 컴퓨터의 소프트웨어 교체",
-              "직원 역량 개발 행사 등록",
-              "신규 고객 대상 강의 준비"
-            ]
-          },
-          "explain": "직원 교육 행사에서 들을 강좌와 등록 절차를 고르므로 learning day를 바꿔 말한 (C)가 맞다. 고객 약속과 노트북은 참가 조건이며, 화자들은 강사가 아니라 수강자다."
-        },
-        {
           "type": "graphic",
           "q": "Look at the graphic. When will the woman attend a workshop?",
           "choices": [
@@ -233,6 +212,27 @@
             ]
           },
           "explain": "큰 데이터 표를 더 빠르게 다루고 싶다는 말을 표의 Spreadsheet Shortcuts와 연결하면 10시 15분인 (B)가 맞다. 청구 업무는 이미 익숙하며 고객 약속은 수강 뒤의 일정이다."
+        },
+        {
+          "type": "topic",
+          "q": "What are the speakers discussing?",
+          "choices": [
+            "Changes to the customer appointment system.",
+            "Replacing software on the accounting computers.",
+            "Enrollment in an employee development event.",
+            "Preparing a lecture for new clients."
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "화자들은 무엇에 대해 논의하고 있는가?",
+            "choices": [
+              "고객 예약 제도의 변경",
+              "회계용 컴퓨터의 소프트웨어 교체",
+              "직원 역량 개발 행사 등록",
+              "신규 고객 대상 강의 준비"
+            ]
+          },
+          "explain": "직원 교육 행사에서 들을 강좌와 등록 절차를 고르므로 learning day를 바꿔 말한 (C)가 맞다. 고객 약속과 노트북은 참가 조건이며, 화자들은 강사가 아니라 수강자다."
         },
         {
           "type": "next",
@@ -264,46 +264,36 @@
       "script": [
         {
           "s": "W",
-          "t": "The estimate for refurbishing our staff lounge looks promising. The basic cabinets are cheaper than expected. Installation is planned for the evening."
+          "t": "We need to choose an installation time for the new cabinets in our staff lounge. The supplier offers morning or evening appointments."
         },
         {
           "s": "M",
-          "t": "We got a discount by choosing standard sizes rather than ordering custom units."
+          "t": "An evening visit would keep the lounge open during lunch. The installer has a free slot on Thursday."
         },
         {
           "s": "W",
-          "t": "That's only half the story. Have you seen what happens after office hours here?"
+          "t": "That's only half the story. Our loading crew leaves at five, and the installer needs help unloading the cabinets."
         },
         {
           "s": "M",
-          "t": "The loading crew goes home at five, so we'd have to unload the truck ourselves."
+          "t": "Could the morning crew receive them at our storage building? The installer could collect them there the next day."
         },
         {
           "s": "W",
-          "t": "And the fitter charges extra for evening work. Finance needs the complete amount before releasing funds."
+          "t": "Possibly. Compare that route with a morning delivery straight here, including how long each would close the lounge."
         },
         {
           "s": "M",
-          "t": "Could we have everything dropped off at our storage building during the day? The fitter could start here next morning."
-        },
-        {
-          "s": "W",
-          "t": "Let's compare that arrangement with an evening installation before deciding. Include the extra labor at either site."
-        },
-        {
-          "s": "M",
-          "t": "Good idea. I'll price both approaches with the supplier; we can book the cheaper one once finance agrees."
+          "t": "I'll ask the supervisor which crew can assist at each location, then bring you both schedules before we book."
         }
       ],
       "scriptKo": [
-        "직원 휴게실을 보수하는 견적이 괜찮아 보여요. 기본 수납장이 예상보다 저렴해요. 설치는 저녁에 하기로 했어요.",
-        "맞춤 제품 대신 표준 크기를 골라 할인을 받았어요.",
-        "그건 이야기의 절반뿐이에요. 여기서 업무시간이 끝난 뒤에는 어떻게 되는지 봤어요?",
-        "하역 직원들은 5시에 퇴근하니까 우리가 직접 트럭에서 짐을 내려야겠네요.",
-        "게다가 설치 기사는 저녁 작업에 추가 요금을 받아요. 재무부는 자금을 지급하기 전에 총액을 알아야 해요.",
-        "낮에 우리 창고 건물로 모두 배송받으면 어떨까요? 설치 기사는 다음 날 아침 여기서 작업할 수 있어요.",
-        "결정 전에 그 방식과 저녁 설치를 비교해 봐요. 어느 장소든 추가 인건비를 포함해요.",
-        "좋아요. 업체에 두 방식의 가격을 알아볼게요. 재무부가 동의하면 더 저렴한 쪽으로 예약할 수 있어요."
+        "직원 휴게실의 새 수납장 설치 시간을 골라야 해요. 공급업체는 오전이나 저녁 시간을 제안했어요.",
+        "저녁에 오면 점심시간에 휴게실을 열어 둘 수 있어요. 설치 기사는 목요일 저녁이 비어 있어요.",
+        "그건 이야기의 절반뿐이에요. 하역 직원들은 5시에 퇴근하고 설치 기사는 수납장을 내릴 도움이 필요해요.",
+        "오전 근무조가 창고 건물에서 물건을 받으면 어떨까요? 설치 기사가 다음 날 거기서 가져올 수 있어요.",
+        "가능할 수도 있어요. 각 방식에서 휴게실을 얼마나 닫아야 하는지까지 포함해서 이곳으로 바로 오전 배송하는 방식과 비교해 주세요.",
+        "예약 전에 각 장소에서 어느 근무조가 도울 수 있는지 감독자에게 묻고 두 일정을 가져올게요."
       ],
       "graphic": null,
       "questions": [
@@ -311,7 +301,7 @@
           "type": "topic",
           "q": "What are the speakers reviewing?",
           "choices": [
-            "The overall expense of a workplace improvement.",
+            "Scheduling a workplace furniture installation.",
             "Conditions for canceling a furniture order.",
             "A plan to extend office hours.",
             "The design of custom kitchen units."
@@ -320,55 +310,55 @@
           "ko": {
             "q": "화자들은 무엇을 검토하고 있는가?",
             "choices": [
-              "업무 공간 개선에 드는 전체 비용",
+              "업무 공간의 가구 설치 일정 조정",
               "가구 주문을 취소하는 조건",
               "업무시간 연장 계획",
               "맞춤 주방 가구의 설계"
             ]
           },
-          "explain": "휴게실 보수에 수납장 외의 요금까지 포함해야 하는지 검토하므로 (A)가 맞다. 맞춤 가구는 선택하지 않았고 업무시간 자체를 바꾸려는 대화도 아니다."
+          "explain": "휴게실을 사용하는 시간과 배송·설치 인력의 근무 시간을 맞추므로 (A)가 맞다. 가구 디자인이나 주문 취소를 논의하지 않는다."
         },
         {
           "type": "intention",
           "q": "What does the woman mean when she says, \"That's only half the story\"?",
           "choices": [
-            "The supplier's discount has expired.",
-            "Half the cabinets have arrived.",
-            "Additional costs must be considered.",
-            "The lounge needs fewer storage units."
+            "The lunch service must move to another building.",
+            "The installer needs approval for a larger vehicle.",
+            "Delivery staffing must also influence the schedule.",
+            "The supplier needs another day to finish manufacturing."
           ],
           "answer": 2,
           "ko": {
             "q": "여자가 “그건 이야기의 절반뿐이에요”라고 말한 의도는 무엇인가?",
             "choices": [
-              "공급업체의 할인이 끝났다는 것",
-              "수납장의 절반이 도착했다는 것",
-              "추가 비용도 고려해야 한다는 것",
-              "휴게실에 수납장이 덜 필요하다는 것"
+              "점심 식사 서비스를 다른 건물로 옮겨야 한다.",
+              "설치 기사는 더 큰 차량의 승인이 필요하다.",
+              "배송 작업 인력도 일정 결정에 고려해야 한다.",
+              "공급업체는 제조를 마치는 데 하루가 더 필요하다."
             ]
           },
-          "explain": "업무시간 뒤에는 자체 하역과 설치 추가 요금이 필요하다는 맥락에서 비용을 더 고려하라는 (C)가 맞다. half는 도착한 수납장 수량이나 할인 유효기간을 뜻하지 않는다."
+          "explain": "저녁에는 하역 직원이 없고 설치 기사에게 짐을 내릴 도움이 필요하므로 (C)가 맞다. 수납장 제조 지연이나 차량 승인 문제는 언급하지 않았다."
         },
         {
           "type": "suggest",
           "q": "What does the woman recommend?",
           "choices": [
-            "Reserve a slot before seeking funds.",
-            "Assess costs for both scheduling options.",
-            "Use the cabinet price as the entire budget.",
-            "Leave all unloading work to the regular crew."
+            "Book the evening visit before consulting the crew.",
+            "Compare delivery plans and their effects on lounge access.",
+            "Keep the lounge closed throughout the coming week.",
+            "Have the installer unload the cabinets without assistance."
           ],
           "answer": 1,
           "ko": {
             "q": "여자는 무엇을 권하는가?",
             "choices": [
-              "자금을 요청하기 전에 시간대를 예약한다.",
-              "두 일정 방식에 드는 비용을 비교 평가한다.",
-              "수납장 가격을 전체 예산으로 삼는다.",
-              "모든 하역을 정규 하역 직원들에게 맡긴다."
+              "근무조와 상의하기 전에 저녁 방문을 예약한다.",
+              "배송 계획과 휴게실 사용에 미칠 영향을 비교한다.",
+              "다음 주 내내 휴게실을 닫아 둔다.",
+              "설치 기사에게 도움 없이 수납장을 내리게 한다."
             ]
           },
-          "explain": "낮 배송 방식과 저녁 설치 방식을 추가 인건비까지 비교하자는 말을 바꾼 (B)가 맞다. 예약은 재무부 동의 후이며 저녁에는 하역 직원들이 이미 퇴근한다."
+          "explain": "창고 경유와 직접 오전 배송이 휴게실을 얼마나 닫게 하는지 비교하자고 하므로 (B)가 맞다. 예약은 인력과 두 일정을 확인한 뒤에 한다."
         }
       ]
     },
@@ -614,46 +604,36 @@
       "script": [
         {
           "s": "W",
-          "t": "I'm processing your trip claim for accounting, and the meal total needs attention."
+          "t": "Could you confirm which office you visited during your two-day trip? We can use the receipts as an example for new staff."
         },
         {
           "s": "M",
-          "t": "Was something missing? I uploaded the receipts from my two days at the Briarford office."
+          "t": "Certainly. I visited the Briarford office, and all my meal receipts are already scanned. Let's work through them by date."
         },
         {
           "s": "W",
-          "t": "The documents are clear, but you entered one combined amount. The allowance is calculated separately for each day."
+          "t": "For our accounting team's example, we'll apply the destination's daily ceiling from this table to each day's meals and keep transport separate."
         },
         {
           "s": "M",
-          "t": "I thought the limit covered the whole visit. My train fare went in a different section."
+          "t": "Would an example with dinner above the ceiling help? On the second evening, I paid more than the permitted amount."
         },
         {
           "s": "W",
-          "t": "That's correct for transport. For food, use the destination's daily ceiling in the policy table, even when dinner costs more."
+          "t": "Yes. Show the actual spending beside the amount eligible for reimbursement. That comparison will help new staff complete the form."
         },
         {
           "s": "M",
-          "t": "Understood. I'll divide the meals by date and reduce any daily amount above that ceiling."
-        },
-        {
-          "s": "W",
-          "t": "Please keep the original receipts attached. If the claim is changed without them, the system sends it back."
-        },
-        {
-          "s": "M",
-          "t": "I'll correct the entries now and submit the updated report before this afternoon's payment run."
+          "t": "I'll enter the itemized amounts and resubmit my report with the receipts. You can then use the approved version for training."
         }
       ],
       "scriptKo": [
-        "회계 부서에서 당신의 출장비 청구를 처리하고 있는데 식비 총액을 살펴봐야 해요.",
-        "뭐가 빠졌나요? 브라이어퍼드 사무소에서 보낸 이틀간의 영수증을 올렸어요.",
-        "증빙은 명확하지만 금액을 하나로 합쳐 입력했어요. 식비 한도는 하루씩 따로 계산해요.",
-        "한도가 출장 전체에 적용되는 줄 알았어요. 기차 요금은 다른 항목에 넣었어요.",
-        "교통비는 그렇게 하는 게 맞아요. 식비는 저녁값이 더 비싸도 규정 표에 있는 목적지별 하루 상한을 적용하세요.",
-        "알겠어요. 식비를 날짜별로 나누고 일일 상한을 넘는 금액은 줄일게요.",
-        "원본 영수증은 계속 첨부해 두세요. 증빙 없이 청구를 수정하면 시스템에서 반려해요.",
-        "지금 항목을 고쳐서 오늘 오후 지급 처리 전에 수정 보고서를 제출할게요."
+        "이틀 출장 중 어느 사무소에 갔는지 확인해 주실래요? 영수증을 신입 직원용 예시로 쓸 수 있어요.",
+        "물론이죠. 브라이어퍼드 사무소에 갔고 식비 영수증은 모두 스캔했어요. 날짜별로 함께 살펴봐요.",
+        "회계팀 예시에서는 이 표의 목적지별 일일 한도를 각 날짜의 식비에 적용하고 교통비는 따로 두겠어요.",
+        "저녁 식비가 한도를 넘는 예시가 도움이 될까요? 둘째 날 저녁에는 허용 금액보다 많이 냈어요.",
+        "네. 실제 지출 옆에 환급 가능한 금액을 표시하세요. 신입 직원들이 양식을 작성하는 데 그 비교가 도움이 될 거예요.",
+        "항목별 금액을 입력하고 영수증과 함께 보고서를 다시 제출할게요. 그러면 승인된 버전을 교육에 쓰실 수 있어요."
       ],
       "graphic": {
         "title": "Domestic Travel Meal Allowances",
@@ -683,27 +663,6 @@
       },
       "questions": [
         {
-          "type": "speaker",
-          "q": "What department does the woman work in?",
-          "choices": [
-            "Building maintenance.",
-            "Finance.",
-            "Travel sales.",
-            "Food service."
-          ],
-          "answer": 1,
-          "ko": {
-            "q": "여자는 어느 부서에서 일하는가?",
-            "choices": [
-              "시설 유지보수",
-              "재무",
-              "여행 판매",
-              "급식"
-            ]
-          },
-          "explain": "첫 발언에서 회계 업무로 출장비 청구를 처리한다고 하므로 accounting을 바꾼 (B)가 맞다. 교통비와 식비는 검토 대상이지 여자의 부서가 아니다."
-        },
-        {
           "type": "graphic",
           "q": "Look at the graphic. What daily meal limit applies to the man's visit?",
           "choices": [
@@ -725,6 +684,27 @@
           "explain": "대본의 출장지는 Briarford이며 표의 해당 일일 상한은 38달러이므로 (A)가 맞다. 이틀의 금액을 하나로 묶어 한도를 적용해서는 안 된다."
         },
         {
+          "type": "speaker",
+          "q": "What department does the woman work in?",
+          "choices": [
+            "Building maintenance.",
+            "Finance.",
+            "Travel sales.",
+            "Food service."
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "여자는 어느 부서에서 일하는가?",
+            "choices": [
+              "시설 유지보수",
+              "재무",
+              "여행 판매",
+              "급식"
+            ]
+          },
+          "explain": "여자가 회계팀에서 쓸 출장 청구 예시를 준비한다고 하므로 재무 부서인 (B)가 맞다. 식당에서 음식을 제공하는 사람이 아니다."
+        },
+        {
           "type": "next",
           "q": "What will the man do next?",
           "choices": [
@@ -743,7 +723,7 @@
               "항목을 나눈 출장 경비를 다시 청구한다."
             ]
           },
-          "explain": "날짜별 금액을 고쳐 지급 처리 전에 다시 제출하겠다는 말을 바꿔 말한 (D)가 맞다. 규정 상한을 높이거나 영수증을 합치려는 계획은 없다."
+          "explain": "항목별 금액을 입력하고 영수증과 함께 재제출하겠다고 하므로 (D)가 맞다. 식비 한도 인상이나 출장 기간 단축을 요청하지 않는다."
         }
       ]
     },
@@ -869,15 +849,15 @@
       "script": [
         {
           "s": "W",
-          "t": "I've booked the conference room for new staff orientation, starting at eleven. The sales team has it earlier."
+          "t": "Ten minutes to move tables that usually take fifteen? That's a tight fit, even with both of us helping."
         },
         {
           "s": "M",
-          "t": "Their review ends at ten fifty, doesn't it? We need to rearrange the tables and connect the laptop."
+          "t": "The sales review ends at ten fifty, and our new staff orientation starts in the same room at eleven. We also need to connect the laptop."
         },
         {
           "s": "W",
-          "t": "That's a tight fit. Moving those heavy tables usually takes at least fifteen minutes, even with two people."
+          "t": "Exactly. We should allow enough time for the whole changeover, rather than just moving the first few tables."
         },
         {
           "s": "M",
@@ -901,9 +881,9 @@
         }
       ],
       "scriptKo": [
-        "신입 직원 오리엔테이션을 11시부터 하려고 회의실을 예약했어요. 그 전에는 영업팀이 써요.",
-        "영업 검토 회의가 10시 50분에 끝나죠? 탁자를 재배치하고 노트북을 연결해야 해요.",
-        "빠듯하네요. 그 무거운 탁자들을 옮기는 데는 둘이 해도 보통 최소 15분이 걸려요.",
+        "보통 15분 걸리는 탁자 이동을 10분 안에 한다고요? 우리 둘이 도와도 빠듯하겠어요.",
+        "영업 검토 회의가 10시 50분에 끝나고 같은 방에서 신입 직원 오리엔테이션이 11시에 시작해요. 노트북도 연결해야 해요.",
+        "맞아요. 탁자 몇 개만 옮기는 게 아니라 공간 전환 전체에 충분한 시간을 줘야 해요.",
         "영업팀에 일찍 끝내 달라고 할 수도 있지만 외부 방문자가 원격으로 합류한대요.",
         "그 검토 회의를 방해하고 싶지는 않아요. 신입 직원들은 하루 종일 있으니 우리 시작을 늦춰도 돼요.",
         "11시 15분이면 시간이 충분할까요? 그때 방이 비어 있는지 확인할게요.",
@@ -912,27 +892,6 @@
       ],
       "graphic": null,
       "questions": [
-        {
-          "type": "topic",
-          "q": "What are the speakers mainly discussing?",
-          "choices": [
-            "Reducing the size of a training group.",
-            "Replacing damaged conference furniture.",
-            "Arranging an earlier flight for a visitor.",
-            "Coordinating consecutive uses of a shared facility."
-          ],
-          "answer": 3,
-          "ko": {
-            "q": "화자들은 주로 무엇에 대해 논의하고 있는가?",
-            "choices": [
-              "교육 인원 축소",
-              "손상된 회의실 가구 교체",
-              "방문객의 더 이른 항공편 마련",
-              "공용 시설의 연속 사용 일정 조정"
-            ]
-          },
-          "explain": "앞 회의가 끝난 뒤 다음 교육 준비에 필요한 시간을 조정하므로 (D)가 맞다. 탁자는 손상이 아닌 재배치 대상이고 외부인은 원격 참석자다."
-        },
         {
           "type": "intention",
           "q": "What does the woman mean when she says, \"That's a tight fit\"?",
@@ -953,6 +912,27 @@
             ]
           },
           "explain": "회의 사이 간격은 10분인데 탁자 이동만 15분이 필요하므로 준비 시간이 부족하다는 (C)가 맞다. 좌석이나 문 크기 문제가 아니며 여자는 앞 회의를 방해하지 않겠다고 한다."
+        },
+        {
+          "type": "topic",
+          "q": "What are the speakers mainly discussing?",
+          "choices": [
+            "Reducing the size of a training group.",
+            "Replacing damaged conference furniture.",
+            "Arranging an earlier flight for a visitor.",
+            "Coordinating consecutive uses of a shared facility."
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "화자들은 주로 무엇에 대해 논의하고 있는가?",
+            "choices": [
+              "교육 인원 축소",
+              "손상된 회의실 가구 교체",
+              "방문객의 더 이른 항공편 마련",
+              "공용 시설의 연속 사용 일정 조정"
+            ]
+          },
+          "explain": "앞 회의가 끝난 뒤 다음 교육 준비에 필요한 시간을 조정하므로 (D)가 맞다. 탁자는 손상이 아닌 재배치 대상이고 외부인은 원격 참석자다."
         },
         {
           "type": "next",
@@ -1509,46 +1489,46 @@
       "script": [
         {
           "s": "W",
-          "t": "Does our development benefit cover the evening statistics course at the community institute? It's related to my current project."
+          "t": "I'm planning the funding for an evening statistics course related to my project. Could we go through the development benefit together?"
         },
         {
           "s": "M",
-          "t": "It can. Your manager must endorse the application before classes begin, but payment comes after successful completion."
+          "t": "Certainly. Your manager endorses the application before classes begin, and the company reimburses the fee after successful completion."
         },
         {
           "s": "W",
-          "t": "I've paid a deposit already. I was hoping approval would let me claim the course fee straight away."
+          "t": "Then I'll cover the initial payments myself. The institute offers installments, which would spread the cost over the course."
         },
         {
           "s": "M",
-          "t": "Keep the receipt, but you'll need proof that you finished. We don't pay the institute directly."
+          "t": "Keep the receipts and obtain confirmation that you passed. We need both when processing the final claim."
         },
         {
           "s": "W",
-          "t": "Then I should ask about installments. The balance is due before the final class."
+          "t": "I'll ask the institute for its installment dates after my manager has reviewed the application. Could you send me the form?"
         },
         {
           "s": "M",
-          "t": "That's between you and the school. Our benefit refunds approved expenses only after the required evidence arrives."
+          "t": "Here it is, with the document checklist. Your manager can assess how the course supports your current assignment."
         },
         {
           "s": "W",
-          "t": "Understood. I'll speak to my manager today, before the course begins next month."
+          "t": "Thank you. I'll speak to her today, then arrange the payments once she has made a decision."
         },
         {
           "s": "M",
-          "t": "I'll send you the form and a document checklist so you can prepare."
+          "t": "That will leave plenty of time before next month's first class."
         }
       ],
       "scriptKo": [
-        "지역 교육기관의 저녁 통계 강좌도 우리 교육 지원 혜택으로 보장되나요? 지금 제 프로젝트와 관련이 있어요.",
-        "가능해요. 수업 시작 전에 관리자가 신청을 승인해야 하지만 지급은 성공적으로 수료한 뒤에 해요.",
-        "이미 예약금을 냈어요. 승인을 받으면 바로 수업료를 청구할 수 있을 줄 알았어요.",
-        "영수증은 보관하되 마쳤다는 증빙도 필요해요. 저희가 교육기관에 직접 지급하지는 않아요.",
-        "그럼 분할 납부를 물어봐야겠네요. 마지막 수업 전에 잔금을 내야 하거든요.",
-        "그건 본인과 학교 사이에서 정할 일이에요. 필요한 증빙이 온 뒤에 승인된 경비를 환급해요.",
-        "알겠어요. 다음 달 수업이 시작되기 전에 오늘 관리자에게 이야기할게요.",
-        "미리 준비할 수 있도록 양식과 증빙 점검표를 보내 드릴게요."
+        "제 프로젝트와 관련된 저녁 통계 강좌의 자금 계획을 세우고 있어요. 교육 지원 혜택을 함께 살펴볼까요?",
+        "물론이죠. 수업 시작 전에 관리자가 신청을 승인하고 회사는 성공적으로 수료한 뒤 수업료를 환급해요.",
+        "그럼 처음에는 제가 납부할게요. 교육기관이 분할 납부를 제공해서 수강 기간에 걸쳐 비용을 나눌 수 있어요.",
+        "영수증을 보관하고 과정을 통과했다는 확인을 받으세요. 최종 청구를 처리할 때 둘 다 필요해요.",
+        "관리자가 신청서를 검토한 뒤 교육기관에 분할 납부 날짜를 물을게요. 양식을 보내 주실래요?",
+        "여기 증빙 점검표와 함께 있어요. 관리자는 강좌가 현재 업무에 어떻게 도움이 되는지 검토할 수 있어요.",
+        "고마워요. 오늘 관리자에게 이야기하고 결정이 나면 납부를 준비할게요.",
+        "그러면 다음 달 첫 수업 전까지 시간이 충분하겠네요."
       ],
       "graphic": null,
       "questions": [
@@ -1756,7 +1736,7 @@
         },
         {
           "s": "M",
-          "t": "I wouldn't frame it yet. There are still comments in the margin beside that paragraph."
+          "t": "I can ask our legal adviser to review that clause today. We need wording both sides can accept."
         },
         {
           "s": "W",
@@ -1764,26 +1744,26 @@
         },
         {
           "s": "M",
-          "t": "Let's hold it entirely. I'll highlight the disputed clause and send it to our legal adviser."
+          "t": "Let's hold it entirely. I'll send the disputed clause to our legal adviser now and request a shorter cancellation period."
         },
         {
           "s": "W",
-          "t": "Ask whether a shorter cancellation period would protect both sides without delaying the deal."
+          "t": "I'll keep the team-board announcement in draft, then. Could we at least print the email as evidence that the deal is complete?"
         },
         {
           "s": "M",
-          "t": "I'll request that advice today before we send the distributor a revised version."
+          "t": "Let's leave it there for now. Their approval still depends on the clause, so the team should wait for a signed agreement."
         }
       ],
       "scriptKo": [
         "유통업체가 우리 제안을 좋아해요. 계약을 확보했다고 영업팀에 알리고 싶어요.",
         "다음 문단을 보면 해지 조항에 대한 법률 검토를 요청하고 있어요. 그 조건은 아직 확정되지 않았어요.",
         "맞아요, 그래도 메시지가 긍정적이네요. 인쇄해서 우리 팀 게시판에 붙이려고 했어요.",
-        "아직 액자에 넣지는 않겠어요. 그 문단 옆 여백에 아직 의견이 달려 있어요.",
+        "오늘 법률 고문에게 그 조항을 검토해 달라고 할 수 있어요. 양측이 수용할 문구가 필요해요.",
         "그럼 양쪽이 문구에 동의할 때까지 내부에만 알리면 될까요?",
-        "아예 발표를 미뤄요. 문제 된 조항을 표시해 우리 법률 고문에게 보낼게요.",
-        "해지 기간을 줄이면 거래를 늦추지 않으면서 양쪽을 보호할 수 있을지 물어보세요.",
-        "유통업체에 수정본을 보내기 전에 오늘 그 조언을 요청할게요."
+        "발표를 전부 보류해요. 지금 논란이 있는 조항을 법률 고문에게 보내고 더 짧은 해지 통지 기간을 요청할게요.",
+        "그럼 팀 게시판 공지는 초안으로 보관할게요. 적어도 계약이 완료됐다는 증거로 이메일을 인쇄해도 될까요?",
+        "지금은 그 상태로 두죠. 그들의 승인은 여전히 그 조항에 달려 있으니 팀은 서명된 계약서를 기다려야 해요."
       ],
       "graphic": null,
       "questions": [
@@ -1809,27 +1789,6 @@
           "explain": "유통업체의 긍정적인 답장과 아직 해결되지 않은 계약 조건을 논의하므로 (B)가 맞다. 해지 조항을 검토하는 것이지 기존 주문이 취소됐다는 내용은 아니다."
         },
         {
-          "type": "intention",
-          "q": "What does the man mean when he says, \"I wouldn't frame it yet\"?",
-          "choices": [
-            "The email contains the wrong company logo.",
-            "The team board needs professional repairs.",
-            "Celebration would be premature.",
-            "The document must be printed in color."
-          ],
-          "answer": 2,
-          "ko": {
-            "q": "남자가 “아직 액자에 넣지는 않겠어요”라고 말한 의도는 무엇인가?",
-            "choices": [
-              "이메일에 잘못된 회사 로고가 있다는 것",
-              "팀 게시판에 전문 수리가 필요하다는 것",
-              "축하하기에는 아직 이르다는 것",
-              "문서를 컬러로 인쇄해야 한다는 것"
-            ]
-          },
-          "explain": "해지 조건이 미확정이고 발표도 보류하기로 하는 맥락이므로 축하하기에는 이르다는 (C)가 맞다. 게시판의 상태나 인쇄 색상을 고치라는 말이 아니다."
-        },
-        {
           "type": "next",
           "q": "What will the man do next?",
           "choices": [
@@ -1849,6 +1808,27 @@
             ]
           },
           "explain": "문제 된 해지 조항을 법률 고문에게 보내 의견을 받겠다고 하므로 (D)가 맞다. 발표는 미루기로 했으며 전체 제안서를 버리려는 것이 아니다."
+        },
+        {
+          "type": "intention",
+          "q": "What does the man mean by, \"Let's leave it there for now\"?",
+          "choices": [
+            "The legal review should wait until after the announcement.",
+            "The distributor should receive the current wording unchanged.",
+            "The team's success announcement should remain on hold.",
+            "The adviser should stop negotiating a shorter notice period."
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "남자가 “지금은 그 상태로 두죠”라고 말한 의도는 무엇인가?",
+            "choices": [
+              "법무 검토는 발표가 끝난 뒤까지 기다려야 한다.",
+              "유통업체에 현재 문구를 그대로 보내야 한다.",
+              "팀의 계약 성사 발표를 계속 보류해야 한다.",
+              "고문은 더 짧은 통지 기간 협상을 중단해야 한다."
+            ]
+          },
+          "explain": "상대 승인이 해지 조항에 달려 있어 서명된 계약을 기다리라고 하므로 (C)가 맞다. 법무 검토와 문구 협상은 지금 진행하며 중단하지 않는다."
         }
       ]
     },
@@ -2088,47 +2068,37 @@
       "talkType": "conversation",
       "script": [
         {
-          "s": "W",
-          "t": "The recruitment fair expects around four hundred and fifty visitors. We need one brochure per person."
-        },
-        {
           "s": "M",
-          "t": "I have four printing quotes. Our total budget, including delivery, is two hundred and fifty dollars."
+          "t": "We need brochures for the recruitment fair. Is the final artwork ready to send to a printer?"
         },
         {
           "s": "W",
-          "t": "The fair opens Friday morning, so the boxes must be here by Thursday afternoon."
+          "t": "Our manager approved the contact details this morning. I'll export that version and email it now, while you compare the printing quotes."
         },
         {
           "s": "M",
-          "t": "One cheap offer has too few copies, and another printer can't finish until Friday."
+          "t": "Thanks. I have four offers here, with delivery included in each total. What quantity should I use when comparing them?"
         },
         {
           "s": "W",
-          "t": "Then choose the offer that meets every condition. A larger batch will leave useful spares."
+          "t": "We expect four hundred and fifty visitors, and everyone should receive a copy. Our total budget is two hundred and fifty dollars."
         },
         {
           "s": "M",
-          "t": "I'll order once we have the final file. Has the manager checked the contact details?"
+          "t": "And the fair opens on Friday morning, doesn't it? That makes a Friday delivery too late."
         },
         {
           "s": "W",
-          "t": "She approved them this morning. I'll export that version as a PDF and email it now."
-        },
-        {
-          "s": "M",
-          "t": "Thanks. I'll attach it to the chosen quote and request a proof before production starts."
+          "t": "Exactly. The boxes must arrive by Thursday afternoon. Choose the offer meeting the quantity, budget, and delivery requirements."
         }
       ],
       "scriptKo": [
-        "취업 박람회에는 방문객이 약 450명 올 예정이에요. 한 사람에게 안내 책자 한 부가 필요해요.",
-        "인쇄 견적 네 개가 있어요. 배송을 포함한 총예산은 250달러예요.",
-        "박람회는 금요일 아침에 열리니 상자들이 목요일 오후까지 와야 해요.",
-        "저렴한 제안 하나는 부수가 너무 적고 다른 인쇄소는 금요일에야 끝낼 수 있어요.",
-        "그럼 모든 조건을 충족하는 제안을 골라요. 더 큰 묶음으로 하면 여분이 생겨서 좋아요.",
-        "최종 파일이 있으면 주문할게요. 관리자가 연락처 정보를 확인했나요?",
-        "오늘 아침에 승인했어요. 그 버전을 PDF로 내보내서 지금 이메일로 보낼게요.",
-        "고마워요. 고른 견적에 파일을 첨부하고 인쇄 시작 전에 교정본을 요청할게요."
+        "채용 박람회에 쓸 안내 책자가 필요해요. 인쇄업체에 보낼 최종 디자인 파일이 준비됐나요?",
+        "관리자가 오늘 오전에 연락처를 승인했어요. 그 버전을 내보내 지금 이메일로 보낼 테니 인쇄 견적을 비교해 주세요.",
+        "고마워요. 배송비를 포함한 견적 네 개가 있어요. 비교할 때 몇 부를 기준으로 할까요?",
+        "방문객은 450명이고 모두 한 부씩 받아야 해요. 총예산은 250달러예요.",
+        "박람회가 금요일 오전에 시작하죠? 그러면 금요일 배송은 너무 늦겠네요.",
+        "맞아요. 상자는 목요일 오후까지 와야 해요. 수량·예산·배송 조건을 충족하는 견적을 골라 주세요."
       ],
       "graphic": {
         "title": "Brochure Printing Quotes",
@@ -2189,27 +2159,6 @@
           "explain": "취업 박람회 방문객에게 줄 안내 책자를 인쇄하려 하므로 recruitment fair와 brochure를 바꾼 (B)가 맞다. 예산은 정해진 조건이며 증액을 협상하지 않는다."
         },
         {
-          "type": "graphic",
-          "q": "Look at the graphic. Which vendor meets all the requirements?",
-          "choices": [
-            "Alder Print.",
-            "Brook Press.",
-            "Cobalt Copy.",
-            "Dune Print."
-          ],
-          "answer": 3,
-          "ko": {
-            "q": "시각 자료를 보라. 모든 조건을 충족하는 업체는 어디인가?",
-            "choices": [
-              "앨더 프린트",
-              "브룩 프레스",
-              "코발트 카피",
-              "듄 프린트"
-            ]
-          },
-          "explain": "450부 이상, 목요일 오후 전 도착, 250달러 이하를 모두 충족하는 것은 Dune Print이므로 (D)가 맞다. 나머지는 각각 수량 부족, 도착 지연, 예산 초과 중 하나에 걸린다."
-        },
-        {
           "type": "next",
           "q": "What will the woman do next?",
           "choices": [
@@ -2228,7 +2177,28 @@
               "인쇄소에서 완성된 상자를 수령한다."
             ]
           },
-          "explain": "관리자가 승인한 버전을 PDF로 만들어 보내겠다는 말을 바꿔 말한 (A)가 맞다. 연락처는 이미 승인됐으며 아직 인쇄를 시작하지도 않았다."
+          "explain": "여자는 승인된 연락처가 든 파일을 지금 내보내 이메일로 보내겠다고 하므로 (A)가 맞다. 인쇄된 상자를 수령하는 단계는 아니다."
+        },
+        {
+          "type": "graphic",
+          "q": "Look at the graphic. Which vendor meets all the requirements?",
+          "choices": [
+            "Alder Print.",
+            "Brook Press.",
+            "Cobalt Copy.",
+            "Dune Print."
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "시각 자료를 보라. 모든 조건을 충족하는 업체는 어디인가?",
+            "choices": [
+              "앨더 프린트",
+              "브룩 프레스",
+              "코발트 카피",
+              "듄 프린트"
+            ]
+          },
+          "explain": "450부 이상, 목요일 오후까지 도착, 250달러 이하를 모두 충족하는 것은 Dune Print이므로 (D)가 맞다. 나머지는 각각 수량 부족, 도착 지연, 예산 초과 중 하나에 걸린다."
         }
       ]
     },
@@ -2589,46 +2559,36 @@
       "script": [
         {
           "s": "W",
-          "t": "Our training tables arrive tomorrow. We need them assembled before the eleven o'clock briefing."
+          "t": "The training tables arrive tomorrow. Could you confirm the delivery booking and send the carrier our unloading instructions?"
         },
         {
           "s": "M",
-          "t": "The supplier lists four arrival slots. Must the driver use the service elevator?"
+          "t": "Certainly. I'll reserve the suitable slot now, then include the order reference in my message. Which unloading requirements should I check?"
         },
         {
           "s": "W",
-          "t": "Yes. The boxes are too heavy for the stairs, and freight access is available only in marked slots."
+          "t": "The boxes need the freight elevator; they're too heavy for the stairs. Only the marked slots include access to it."
         },
         {
           "s": "M",
-          "t": "The driver needs forty-five minutes to unload and assemble everything. Does your room setup need extra time?"
+          "t": "The driver needs forty-five minutes for unloading and assembly. How much additional time will your team need?"
         },
         {
           "s": "W",
-          "t": "Fifteen minutes. The whole job must finish before the briefing, so the tables need to arrive by ten."
+          "t": "Fifteen minutes to arrange the room. Everything must be finished before the eleven o'clock briefing, so arrival must be no later than ten."
         },
         {
           "s": "M",
-          "t": "That rules out the later elevator slot. The earliest slot lacks access, despite leaving more time."
-        },
-        {
-          "s": "W",
-          "t": "Book the remaining suitable one and tell the driver to check in at loading reception."
-        },
-        {
-          "s": "M",
-          "t": "I'll reserve it now, then send the order reference and unloading instructions together."
+          "t": "Then I'll choose a slot with elevator access that leaves the full hour for both jobs. The later elevator slot won't work."
         }
       ],
       "scriptKo": [
-        "내일 교육용 탁자들이 와요. 11시 설명회 전에 조립이 끝나야 해요.",
-        "업체가 도착 시간대를 네 개 제시했어요. 기사는 화물용 승강기를 써야 하나요?",
-        "네. 상자들이 계단으로 옮기기에는 너무 무겁고 표시된 시간대에만 화물 이용이 가능해요.",
-        "기사가 하역하고 모두 조립하는 데 45분이 필요해요. 방을 정리할 시간도 더 필요한가요?",
-        "15분이요. 설명회 전에 전체 작업이 끝나야 하니 탁자들은 10시까지 도착해야 해요.",
-        "그럼 승강기가 되는 늦은 시간대는 안 되겠네요. 가장 이른 시간대는 여유는 많지만 이용이 안 돼요.",
-        "남은 적합한 시간을 예약하고 기사에게 하역 접수처에서 확인받으라고 알려 주세요.",
-        "지금 예약하고 주문 참조 번호와 하역 안내를 함께 보낼게요."
+        "교육용 탁자가 내일 와요. 배송 예약을 확정하고 운송업체에 하역 안내를 보내 주실래요?",
+        "물론이죠. 지금 적합한 시간대를 예약하고 메시지에 주문 번호도 넣을게요. 어떤 하역 조건을 확인할까요?",
+        "상자가 계단으로 옮기기에는 너무 무거워 화물 승강기가 필요해요. 표시된 시간대에만 사용할 수 있어요.",
+        "기사는 하역과 조립에 45분이 필요해요. 팀에서 추가로 얼마나 더 필요할까요?",
+        "방을 정리하는 데 15분이요. 11시 설명회 전에 모두 끝나야 하므로 늦어도 10시까지는 도착해야 해요.",
+        "그럼 승강기를 쓸 수 있고 두 작업에 한 시간을 확보할 수 있는 시간대를 고를게요. 늦은 승강기 시간대는 안 되겠네요."
       ],
       "graphic": {
         "title": "Furniture Delivery Slots",
@@ -2684,27 +2644,6 @@
           "explain": "탁자 배송·조립·방 정리를 설명회 전에 끝내도록 맞추므로 (A)가 맞다. 승강기는 고장 난 것이 아니라 시간대별 사용이 제한된다."
         },
         {
-          "type": "graphic",
-          "q": "Look at the graphic. Which delivery slot should the man reserve?",
-          "choices": [
-            "Slot A.",
-            "Slot B.",
-            "Slot C.",
-            "Slot D."
-          ],
-          "answer": 1,
-          "ko": {
-            "q": "시각 자료를 보라. 남자는 어느 배송 시간대를 예약해야 하는가?",
-            "choices": [
-              "A 시간대",
-              "B 시간대",
-              "C 시간대",
-              "D 시간대"
-            ]
-          },
-          "explain": "10시 이전 도착과 화물 승강기 이용을 모두 충족하는 것은 9시 30분의 B 시간대이므로 (B)가 맞다. A는 승강기가 없고 C와 D는 준비 마감에 늦다."
-        },
-        {
           "type": "next",
           "q": "What will the man do next?",
           "choices": [
@@ -2723,7 +2662,28 @@
               "운송업체와 배송 절차를 확정한다."
             ]
           },
-          "explain": "예약 후 주문 번호와 하역 안내를 보내겠다는 말을 바꾼 (D)가 맞다. 계단 운반은 무게 때문에 제외했고 설명회 변경이나 조립 생략도 논의하지 않았다."
+          "explain": "남자는 적합한 시간을 예약하고 주문 번호와 하역 안내를 보내겠다고 하므로 (D)가 맞다. 설명회 연기나 계단 운반을 요청하지 않는다."
+        },
+        {
+          "type": "graphic",
+          "q": "Look at the graphic. Which delivery slot should the man reserve?",
+          "choices": [
+            "Slot A.",
+            "Slot B.",
+            "Slot C.",
+            "Slot D."
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "시각 자료를 보라. 남자는 어느 배송 시간대를 예약해야 하는가?",
+            "choices": [
+              "A 시간대",
+              "B 시간대",
+              "C 시간대",
+              "D 시간대"
+            ]
+          },
+          "explain": "늦어도 10시까지 도착하고 화물 승강기를 쓸 수 있는 것은 9시 30분의 B 시간대이므로 (B)가 맞다. A는 승강기가 없고 C와 D는 준비 마감에 늦다."
         }
       ]
     },
@@ -3939,36 +3899,36 @@
       "script": [
         {
           "s": "W",
-          "t": "I'm trying to borrow this mystery novel with the new checkout machine, but it keeps rejecting it. My card worked for the other two items."
+          "t": "I've set aside this mystery novel for a customer at our lending desk. Its barcode has peeled away, so the checkout machine can't read it."
         },
         {
           "s": "M",
-          "t": "Let me look at the label inside the cover. These machines need a clear barcode, and the edge of this one has peeled away."
+          "t": "We can enter the item's number manually. Shall we complete the loan first and replace the label when the book comes back?"
         },
         {
           "s": "W",
-          "t": "So I don't need a new card? I thought the change to the system meant I had to replace mine."
+          "t": "Yes, the customer is leaving town tomorrow. Her card worked for two other books, and she'd like to take all three today."
         },
         {
           "s": "M",
-          "t": "Your card is fine. My colleague at the desk can enter the item's number by hand and complete the checkout for you."
+          "t": "My colleague can process it at the desk. I'll put a note in the item record so the returned book goes to our labeling team."
         },
         {
           "s": "W",
-          "t": "Good. I was hoping to take all three away today because I'm leaving town for a week tomorrow."
+          "t": "I'll take it to your colleague now and explain that we've agreed to replace the damaged label after this loan."
         },
         {
           "s": "M",
-          "t": "You can borrow all three for three weeks. Take this one to her, and I'll reset the machine for the next person."
+          "t": "Good. The customer can keep it for the normal three weeks, and the replacement won't affect her borrowing period."
         }
       ],
       "scriptKo": [
-        "새 대출 기계로 이 추리소설을 빌리려는데 계속 거부돼요. 다른 두 권은 제 카드로 처리됐어요.",
-        "표지 안쪽 라벨을 볼게요. 이 기계는 바코드가 선명해야 하는데 이건 가장자리가 벗겨졌네요.",
-        "그러면 새 카드는 필요 없나요? 시스템이 바뀌어서 카드를 교체해야 하는 줄 알았어요.",
-        "카드는 괜찮아요. 창구의 동료가 자료 번호를 손으로 입력해서 대출 처리를 마칠 수 있어요.",
-        "잘됐네요. 내일부터 일주일 동안 다른 곳에 가 있어서 오늘 세 권 모두 가져가고 싶었어요.",
-        "세 권 모두 3주 동안 빌릴 수 있어요. 이 책을 그 직원에게 가져가 주세요. 저는 다음 사람이 쓰도록 기계를 초기화할게요."
+        "대출 창구의 고객을 위해 이 추리소설을 따로 두었어요. 바코드가 벗겨져서 대출 기계가 읽지 못해요.",
+        "자료 번호를 직접 입력할 수 있어요. 먼저 대출을 처리하고 책이 돌아오면 라벨을 교체할까요?",
+        "네, 고객은 내일 다른 지역으로 떠나요. 다른 책 두 권에서는 카드가 작동했고 오늘 세 권을 모두 빌리고 싶어 해요.",
+        "제 동료가 창구에서 처리할 수 있어요. 반납된 책이 라벨 담당팀으로 가도록 자료 기록에 메모할게요.",
+        "지금 그 동료에게 가져가서 이번 대출 뒤에 손상된 라벨을 교체하기로 했다고 설명할게요.",
+        "좋아요. 고객은 평소처럼 3주 동안 빌릴 수 있고 라벨 교체가 대출 기간에 영향을 주지는 않아요."
       ],
       "graphic": null,
       "questions": [
@@ -3991,11 +3951,11 @@
               "여행 안내소"
             ]
           },
-          "explain": "회원증으로 소설을 3주 동안 borrow할 수 있다고 하므로 도서 대출 기관으로 바꿔 표현한 (C)가 정답이다. 카드는 정상이라고 했으므로 (A)의 카드 제작 업무와는 다르다."
+          "explain": "고객의 책 대출과 반납 후 라벨 교체를 논의하므로 도서 대출 기관인 (C)가 맞다. 카드를 제작하는 업체가 아니다."
         },
         {
           "type": "reason",
-          "q": "Why is the woman unable to complete her checkout?",
+          "q": "Why does a book require manual checkout?",
           "choices": [
             "Her membership has recently expired.",
             "A printed identifier is damaged.",
@@ -4004,7 +3964,7 @@
           ],
           "answer": 1,
           "ko": {
-            "q": "여자가 대출 처리를 마치지 못하는 이유는 무엇인가?",
+            "q": "책 한 권은 왜 수기로 대출 처리해야 하는가?",
             "choices": [
               "회원 자격이 최근 만료되었기 때문에",
               "인쇄된 식별 표시가 손상되었기 때문에",
@@ -4012,7 +3972,7 @@
               "대출 한도에 도달했기 때문에"
             ]
           },
-          "explain": "바코드 가장자리가 벗겨져 기계가 읽지 못하므로 손상된 식별 표시라는 (B)가 정답이다. 회원증은 정상이고 다른 두 권은 처리되었으므로 (A)와 (C)는 근거가 없다."
+          "explain": "책의 바코드가 벗겨져 기계가 읽지 못하므로 인쇄된 식별표의 손상을 바꿔 말한 (B)가 맞다. 고객의 카드는 다른 책에서 작동했다."
         },
         {
           "type": "next",
@@ -4033,7 +3993,7 @@
               "대출 거래 처리를 지원받는다"
             ]
           },
-          "explain": "창구 직원이 자료 번호를 직접 입력할 수 있다고 하므로 직원 도움을 받는다는 (D)가 정답이다. 새 회원증이 필요하다는 (A)는 카드가 정상이라는 설명과 맞지 않는다."
+          "explain": "여자는 책을 동료에게 가져가 수기 대출 처리를 부탁하겠다고 하므로 (D)가 맞다. 고객 카드는 정상이라 새로 발급하지 않는다."
         }
       ]
     },
@@ -4107,22 +4067,22 @@
           "type": "intention",
           "q": "Why does the woman say, \"I can see the clock\"?",
           "choices": [
-            "To request a replacement wall clock",
-            "To confirm the customer's arrival time",
-            "To discourage further reminders about the deadline",
-            "To explain why a payment was late"
+            "She needs the collection time confirmed with the customer.",
+            "She needs more labels before the boxes can be folded.",
+            "She needs practical assistance assembling the customer's packages.",
+            "She needs the customer to approve a later pickup."
           ],
           "answer": 2,
           "ko": {
             "q": "여자가 “저도 시계는 보여요”라고 말하는 이유는 무엇인가?",
             "choices": [
-              "벽시계 교체를 요청하려고",
-              "고객의 도착 시각을 확인하려고",
-              "마감 시각을 더 이상 상기시키지 말라고 하려고",
-              "결제가 늦어진 이유를 설명하려고"
+              "고객에게 수령 시각을 확인받아야 한다.",
+              "상자를 접기 전에 라벨이 더 필요하다.",
+              "고객용 포장 상자를 조립할 실질적인 도움이 필요하다.",
+              "고객에게 더 늦은 수령 시각을 승인받아야 한다."
             ]
           },
-          "explain": "남자가 촉박한 수령 시각을 재차 강조하자 여자가 시계를 볼 수 있다고 응수하며 조립 중인 상자 이야기를 하므로 재촉을 그만하라는 (C)가 정답이다. 시계를 고쳐 달라는 요청은 없어 (A)는 문자 그대로 받아들인 오답이다."
+          "explain": "상자 탭이 빠져 조립에 애를 먹는 중에 시간을 재촉받았으므로 (C)가 맞다. 고객 시각을 다시 묻거나 수령을 미루자는 요청은 없고 남자가 상자 접기를 돕는다."
         },
         {
           "type": "suggest",
@@ -4154,7 +4114,7 @@
       "script": [
         {
           "s": "M",
-          "t": "Welcome to the visitor lot at Ternlow Square. Will you be staying for the whole day or just making a short visit?"
+          "t": "How long will you leave your car here today? The board lists our charges by length of stay."
         },
         {
           "s": "W",
@@ -4162,7 +4122,7 @@
         },
         {
           "s": "M",
-          "t": "Then you don't need the longest-stay option. The board beside the entrance lists the charge for each length of visit."
+          "t": "You're in the visitor lot at Ternlow Square. The tariff you need is shown on that board beside the entrance."
         },
         {
           "s": "W",
@@ -4178,9 +4138,9 @@
         }
       ],
       "scriptKo": [
-        "턴로 스퀘어 방문객 주차장에 오신 것을 환영해요. 하루 종일 계실 건가요, 잠시 방문하실 건가요?",
+        "오늘 차를 얼마나 오래 세워 두실 건가요? 표에는 주차 시간별 요금이 있어요.",
         "두 시간만 있을 거예요. 길 건너 건물에 약속이 있고, 끝나면 바로 회사로 돌아갈 거예요.",
-        "그러면 가장 오래 머무는 요금은 필요 없겠네요. 입구 옆 게시판에 이용 시간별 요금이 나와 있어요.",
+        "여기는 턴로 스퀘어의 방문객 주차장이에요. 필요한 요금은 입구 옆 표에 나와 있어요.",
         "고마워요. 저 게시판이 방문객용인지 여기 주차하는 직원들만 해당하는지 몰랐어요.",
         "방문객용이에요. 직원들은 월 정기권이 있어요. 방문객은 나가기 전에 기계에서 결제하고 동전이나 은행 카드를 쓸 수 있어요.",
         "체크카드를 가지고 있으니 약속을 마치고 돌아와서 기계에서 그걸로 결제할게요."
@@ -4213,27 +4173,6 @@
       },
       "questions": [
         {
-          "type": "topic",
-          "q": "What are the speakers mainly discussing?",
-          "choices": [
-            "Changing an employee's work hours",
-            "Obtaining a monthly travel permit",
-            "Moving an appointment to another building",
-            "Arranging short-term vehicle storage"
-          ],
-          "answer": 3,
-          "ko": {
-            "q": "화자들은 주로 무엇을 논의하고 있는가?",
-            "choices": [
-              "직원의 근무 시간 변경",
-              "월간 교통 정기권 발급",
-              "약속 장소를 다른 건물로 변경",
-              "차량 단기 보관 준비"
-            ]
-          },
-          "explain": "방문객이 두 시간 차를 세울 곳과 요금을 안내받으므로 주차를 short-term vehicle storage로 바꾼 (D)가 정답이다. 월 정기권은 직원에게만 해당하므로 (B)는 방문 목적과 다르다."
-        },
-        {
           "type": "graphic",
           "q": "Look at the graphic. How much will the woman pay for parking?",
           "choices": [
@@ -4253,6 +4192,27 @@
             ]
           },
           "explain": "여자는 두 시간 머물 예정이고 표의 1시간 초과~3시간 구간은 6달러이므로 (B)가 정답이다. 3달러는 한 시간 이하에만 적용되므로 (A)는 체류 조건과 맞지 않는다."
+        },
+        {
+          "type": "topic",
+          "q": "What are the speakers mainly discussing?",
+          "choices": [
+            "Changing an employee's work hours",
+            "Obtaining a monthly travel permit",
+            "Moving an appointment to another building",
+            "Visitor parking arrangements"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "화자들은 주로 무엇을 논의하고 있는가?",
+            "choices": [
+              "직원의 근무 시간 변경",
+              "월간 교통 정기권 발급",
+              "약속 장소를 다른 건물로 변경",
+              "방문객 주차 방법 논의"
+            ]
+          },
+          "explain": "방문객의 주차 시간과 요금 납부 방식을 설명하므로 (D)가 맞다. 직원용 월 정기권을 신청하는 대화가 아니다."
         },
         {
           "type": "next",
@@ -4739,36 +4699,36 @@
       "script": [
         {
           "s": "W",
-          "t": "I have an appointment about a city permit for my shop's new sign. Is this the right counter to submit my application?"
+          "t": "I have an appointment about a city permit for my shop's new sign. Can you check the documents I've brought?"
         },
         {
           "s": "M",
-          "t": "This is the public service center's information counter. Your appointment notice should name the office handling your application; the directory shows where it is."
+          "t": "Certainly. This is the public service center's information counter. You'll need the completed form and your original lease for verification."
         },
         {
           "s": "W",
-          "t": "The notice says Licensing. I brought the completed form and a copy of the lease, just as my business partner suggested."
+          "t": "I've brought a copy. The original is in the shop safe nearby, so I can retrieve it before my appointment in an hour."
         },
         {
           "s": "M",
-          "t": "They require the original lease for verification, not a copy. They'll return it to you after comparing the details with the form."
+          "t": "Please do. The office will return it after checking the details, so you won't have to leave it with the application."
         },
         {
           "s": "W",
-          "t": "The original is in our shop safe, a short walk away. My appointment isn't for another hour, so I can fetch it."
+          "t": "Once I'm back, which office should I look for? My notice says Licensing, rather than Planning."
         },
         {
           "s": "M",
-          "t": "That would be best. Bring it with the form, and use the directory to find the office when you come back."
+          "t": "Use that department's entry in the directory to find the floor. The elevator is beside the main staircase."
         }
       ],
       "scriptKo": [
-        "매장의 새 간판에 관한 시 허가 상담 예약이 있어요. 이 창구에 신청서를 내면 되나요?",
-        "여기는 공공 서비스센터 안내 창구예요. 예약 안내문에 담당 부서가 적혀 있을 거예요. 위치는 부서 안내표에 나와 있어요.",
-        "안내문에는 인허가과라고 나와 있어요. 동업자가 알려 준 대로 작성한 양식과 임대 계약서 사본을 가져왔어요.",
-        "확인을 위해 사본이 아니라 임대 계약서 원본이 필요해요. 양식과 내용을 대조한 뒤 돌려드릴 거예요.",
-        "원본은 걸어서 가까운 매장 금고에 있어요. 예약까지 한 시간 남았으니 가져올 수 있어요.",
-        "그렇게 하시는 게 좋겠어요. 양식과 함께 가져오시고, 돌아오시면 부서 안내표를 보고 담당 사무실을 찾아가세요."
+        "매장의 새 간판 시 허가에 관한 예약이 있어요. 가져온 서류를 확인해 주실래요?",
+        "물론이죠. 여기는 공공 서비스센터 안내 창구예요. 작성한 양식과 확인용 임대차 계약서 원본이 필요해요.",
+        "사본을 가져왔어요. 원본은 근처 매장 금고에 있으니 한 시간 뒤 예약 전에 가져올 수 있어요.",
+        "그렇게 해 주세요. 담당 부서에서 내용을 확인한 뒤 돌려주니 신청서와 함께 맡겨 둘 필요는 없어요.",
+        "돌아오면 어느 부서를 찾으면 되나요? 안내문에는 도시계획부가 아니라 인허가부라고 되어 있어요.",
+        "부서 안내에서 그 부서를 보고 층을 찾으세요. 엘리베이터는 중앙 계단 옆에 있어요."
       ],
       "graphic": {
         "title": "Public Service Center Directory",
@@ -4819,6 +4779,27 @@
           "explain": "시 허가 상담을 받으러 온 여자에게 공공 서비스센터의 담당 부서를 안내하므로 지방 행정 청사인 (B)가 정답이다. 간판은 허가 대상일 뿐 제작 작업장인 (A)에서 대화하는 것이 아니다."
         },
         {
+          "type": "next",
+          "q": "What will the woman do before her appointment?",
+          "choices": [
+            "Collect the original tenancy document",
+            "Submit a photocopy without verification",
+            "Change her business partner's contact information",
+            "Arrange an inspection of the building"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "여자는 예약 상담 전에 무엇을 할 것인가?",
+            "choices": [
+              "임대차 계약서 원본을 가져온다",
+              "확인 없이 사본을 제출한다",
+              "동업자의 연락처를 바꾼다",
+              "건물 검사 일정을 잡는다"
+            ]
+          },
+          "explain": "근처 매장 금고에 둔 원본을 예약 전에 가져오겠다고 하므로 (A)가 맞다. 제출한 사본만으로 확인 절차를 마칠 수는 없다."
+        },
+        {
           "type": "graphic",
           "q": "Look at the graphic. Which floor should the woman visit for her appointment?",
           "choices": [
@@ -4838,27 +4819,6 @@
             ]
           },
           "explain": "대화의 예약 부서는 Licensing이고 표의 해당 위치는 3층이므로 (C)가 정답이다. 4층의 Planning은 관련 있어 보여도 안내문에 지정된 부서가 아니므로 (D)는 오답이다."
-        },
-        {
-          "type": "next",
-          "q": "What will the woman do before her appointment?",
-          "choices": [
-            "Retrieve a non-copied rental agreement",
-            "Submit a photocopy without verification",
-            "Change her business partner's contact information",
-            "Arrange an inspection of the building"
-          ],
-          "answer": 0,
-          "ko": {
-            "q": "여자는 예약 상담 전에 무엇을 할 것인가?",
-            "choices": [
-              "복사본이 아닌 임대 계약서를 가져온다",
-              "확인 없이 사본을 제출한다",
-              "동업자의 연락처를 바꾼다",
-              "건물 검사 일정을 잡는다"
-            ]
-          },
-          "explain": "매장의 임대 계약서 원본을 가져오겠다고 했으므로 non-copied rental agreement를 확보하는 (A)가 정답이다. 사본은 확인 요건을 충족하지 못하므로 (B)는 오답이다."
         }
       ]
     },
@@ -4982,7 +4942,7 @@
         },
         {
           "s": "W",
-          "t": "Yes. I only started taking short walks again last month. That's not what I signed up for."
+          "t": "Yes. I only started taking short walks again last month, and the timed jumps in that email sound rather demanding."
         },
         {
           "s": "M",
@@ -4990,20 +4950,25 @@
         },
         {
           "s": "W",
-          "t": "Saturday works. My neighbor took that class after several months away from exercise. She said she could pause whenever she needed to."
+          "t": "Saturday works. Could you check that class at the front desk? My neighbor said participants could pause whenever they needed to."
         },
         {
           "s": "M",
-          "t": "Come over to the front desk. I'll check the beginner group's places and switch your booking while we're there."
+          "t": "I'll check the beginner group's places there now and arrange a transfer. You would keep the same membership and payment."
+        },
+        {
+          "s": "W",
+          "t": "The email still lists those timed jumps. That's not what I signed up for. I wanted a gradual return to exercise."
         }
       ],
       "scriptKo": [
         "베스노라 피트니스의 강좌 이메일을 열어 봤어요. 첫 저녁 수업에 정해진 시간 동안 점프하고 무거운 기구로 운동한다고 되어 있어요.",
         "예약 내역을 열어 볼게요. 지난주 걷기 모임과 함께 방문하신 뒤에 그 강좌를 고르셨나요?",
-        "네. 저는 지난달에야 짧게 걷는 운동을 다시 시작했어요. 제가 신청한 건 그런 게 아니에요.",
+        "네. 지난달에야 짧게 걷기를 다시 시작했는데 이메일에 나온 시간제한 점프는 꽤 힘들어 보여요.",
         "다른 강사의 명단에 예약이 있네요. 주말 시간표를 열어 볼게요. 토요일 오전 반에 자리가 있어요.",
-        "토요일도 괜찮아요. 이웃이 몇 달간 운동을 쉬다가 그 수업을 들었어요. 필요할 때마다 쉬어도 됐다고 하더라고요.",
-        "안내 데스크로 오세요. 거기서 초급반의 빈자리를 확인하고 예약을 옮겨 드릴게요."
+        "토요일은 괜찮아요. 접수처에서 그 수업을 확인해 주실래요? 이웃은 참가자들이 필요할 때 언제든 쉴 수 있었다고 했어요.",
+        "지금 접수처에서 초급반의 자리를 확인하고 변경할게요. 회원 자격과 납부 금액은 그대로예요.",
+        "이메일에는 여전히 시간제한 점프가 적혀 있네요. 제가 신청하려던 게 아니에요. 저는 운동을 서서히 다시 시작하고 싶었어요."
       ],
       "graphic": null,
       "questions": [
@@ -5029,27 +4994,6 @@
           "explain": "예약 명단을 확인하고 안내 데스크에서 고객을 다른 강사의 수업으로 옮기는 역할이므로 운동 시설 안내 직원인 (A)가 정답이다. 중량 기구는 이메일 속 운동 내용이므로 (B)의 공급업자가 아니다."
         },
         {
-          "type": "intention",
-          "q": "Why does the woman say, \"That's not what I signed up for\"?",
-          "choices": [
-            "She disputes having authorized a payment.",
-            "She wants to instruct an evening course.",
-            "She cannot attend any weekend activities.",
-            "She expected a gentler workout."
-          ],
-          "answer": 3,
-          "ko": {
-            "q": "여자가 “제가 신청한 건 그런 게 아니에요”라고 말하는 이유는 무엇인가?",
-            "choices": [
-              "결제 승인 사실을 부인하기 때문에",
-              "저녁 강좌를 직접 가르치고 싶기 때문에",
-              "주말 활동에 전혀 참석할 수 없기 때문에",
-              "더 가벼운 운동을 예상했기 때문에"
-            ]
-          },
-          "explain": "짧은 걷기를 막 다시 시작한 여자가 점프와 중량 운동 안내를 보고 반응하므로 더 가벼운 운동을 기대했다는 (D)가 정답이다. 토요일 참석도 가능하다고 했으므로 (C)는 문맥과 다르다."
-        },
-        {
           "type": "next",
           "q": "What will the man do next?",
           "choices": [
@@ -5069,6 +5013,27 @@
             ]
           },
           "explain": "남자가 안내 데스크에서 초급반의 빈자리를 확인한 뒤 예약을 옮기겠다고 하므로 (C)가 정답이다. 전액 환불이 아니라 수업 변경을 진행하므로 (A)는 오답이다."
+        },
+        {
+          "type": "intention",
+          "q": "Why does the woman say, \"That's not what I signed up for\"?",
+          "choices": [
+            "She disputes having authorized a payment.",
+            "She wants to instruct an evening course.",
+            "She cannot attend any weekend activities.",
+            "She expected a gentler workout."
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "여자가 “제가 신청한 건 그런 게 아니에요”라고 말하는 이유는 무엇인가?",
+            "choices": [
+              "결제 승인 사실을 부인하기 때문에",
+              "저녁 강좌를 직접 가르치고 싶기 때문에",
+              "주말 활동에 전혀 참석할 수 없기 때문에",
+              "더 가벼운 운동을 예상했기 때문에"
+            ]
+          },
+          "explain": "여자는 운동을 서서히 재개하려 했는데 저녁 반의 고강도 운동을 받았으므로 (D)가 맞다. 회원 자격과 납부 금액은 그대로 유지된다."
         }
       ]
     },
@@ -5079,36 +5044,36 @@
       "script": [
         {
           "s": "M",
-          "t": "Thanks for the room key. Before I go upstairs, could you explain the courtesy shuttle from the hotel? I have some customer visits today."
+          "t": "Thanks for my room key. Before I go upstairs, could I get a guide to your courtesy shuttle? I have customer visits today."
         },
         {
           "s": "W",
-          "t": "Certainly. Morning departures go to different destinations, as shown on this board. You can board any of them with your room card."
+          "t": "Of course. I have a printed leaflet with the departure board and return stops. You can take it with you."
         },
         {
           "s": "M",
-          "t": "I originally planned to see the museum, but the shop owner I'm meeting has asked me to come to the covered market first."
+          "t": "Please mark the return stop for me. I'll be looking at shop signs and might otherwise walk past it."
         },
         {
           "s": "W",
-          "t": "Then choose the departure for that destination. The return stop is on the opposite side of the market, beside a public fountain."
+          "t": "I'll circle it on this leaflet. First, which destination will you visit? The morning shuttles follow different routes."
         },
         {
           "s": "M",
-          "t": "I'll probably miss that if I'm looking at shop signs. Is there a route image I can keep on my phone?"
+          "t": "The shop owner has asked me to come to the covered market before our other appointments. The museum can wait until tomorrow."
         },
         {
           "s": "W",
-          "t": "I only have this printed leaflet. I'll circle the stop for you, and you can take it along."
+          "t": "Then choose that destination's departure. Its return stop is opposite the market, beside the public fountain; I'll mark that point now."
         }
       ],
       "scriptKo": [
-        "객실 열쇠 감사해요. 올라가기 전에 호텔 무료 셔틀을 설명해 주실 수 있나요? 오늘 고객들을 방문해야 해요.",
-        "물론이죠. 이 게시판처럼 오전 출발편마다 목적지가 달라요. 객실 카드가 있으면 어느 편이든 탈 수 있어요.",
-        "원래 박물관에 가려고 했는데 만날 매장 주인이 실내 시장으로 먼저 와 달라고 했어요.",
-        "그러면 그 목적지로 가는 편을 고르세요. 돌아오는 정류장은 시장 반대쪽의 공공 분수 옆에 있어요.",
-        "매장 간판을 보고 있으면 못 찾을 것 같아요. 휴대전화에 보관할 수 있는 노선 그림이 있나요?",
-        "인쇄된 안내지만 있어요. 정류장에 동그라미를 쳐 드릴 테니 가지고 가세요."
+        "객실 열쇠 고마워요. 올라가기 전에 호텔 무료 셔틀 안내를 받을 수 있을까요? 오늘 고객 방문이 있어요.",
+        "물론이죠. 출발 시간표와 귀환 정류장이 적힌 인쇄 안내지가 있어요. 가져가셔도 돼요.",
+        "귀환 정류장을 표시해 주세요. 가게 간판을 보다가 지나칠 수도 있겠어요.",
+        "이 안내지에 동그라미로 표시할게요. 먼저 어디로 가실 건가요? 오전 셔틀들은 서로 다른 노선으로 가요.",
+        "가게 주인이 다른 약속 전에 지붕 있는 시장으로 와 달라고 했어요. 박물관은 내일까지 미뤄도 돼요.",
+        "그럼 그 목적지의 출발편을 고르세요. 귀환 정류장은 시장 맞은편 공공 분수 옆에 있고 지금 그 지점을 표시할게요."
       ],
       "graphic": {
         "title": "Morning Courtesy Shuttles",
@@ -5159,27 +5124,6 @@
           "explain": "객실 열쇠를 준 뒤 투숙객 교통편과 귀환 정류장을 안내하므로 숙박 안내 담당자인 (B)가 정답이다. 매장 주인은 남자가 만날 다른 사람이라 (C)는 여자의 직무가 아니다."
         },
         {
-          "type": "graphic",
-          "q": "Look at the graphic. Which departure should the man choose?",
-          "choices": [
-            "9:10",
-            "9:25",
-            "9:40",
-            "9:55"
-          ],
-          "answer": 1,
-          "ko": {
-            "q": "시각 자료를 보라. 남자는 어느 출발편을 골라야 하는가?",
-            "choices": [
-              "9시 10분",
-              "9시 25분",
-              "9시 40분",
-              "9시 55분"
-            ]
-          },
-          "explain": "먼저 갈 곳이 covered market으로 바뀌었고 표에서 해당 목적지는 9시 25분 출발이므로 (B)가 정답이다. 박물관행 9시 55분인 (D)는 변경 전 계획을 따른 함정이다."
-        },
-        {
           "type": "next",
           "q": "What will the woman do next?",
           "choices": [
@@ -5199,6 +5143,27 @@
             ]
           },
           "explain": "인쇄 안내지의 정류장에 동그라미를 치고 가져가게 하겠다고 하므로 승차 지점이 표시된 종이 안내서를 제공하는 (A)가 정답이다. 선택하는 버스가 달라질 뿐 운행 목적지를 바꾸는 것은 아니므로 (C)는 오답이다."
+        },
+        {
+          "type": "graphic",
+          "q": "Look at the graphic. Which departure should the man choose?",
+          "choices": [
+            "9:10",
+            "9:25",
+            "9:40",
+            "9:55"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "시각 자료를 보라. 남자는 어느 출발편을 골라야 하는가?",
+            "choices": [
+              "9시 10분",
+              "9시 25분",
+              "9시 40분",
+              "9시 55분"
+            ]
+          },
+          "explain": "먼저 갈 곳은 covered market이고 표에서 해당 목적지는 9시 25분 출발이므로 (B)가 정답이다. 박물관은 내일 가도 된다고 했으므로 박물관행 9시 55분인 (D)는 맞지 않는다."
         }
       ]
     },
@@ -5434,15 +5399,15 @@
       "script": [
         {
           "s": "W",
-          "t": "Our display cooler at Norevik Deli is reading twelve degrees again. I've kept the service slips from your team's visits this month."
+          "t": "Another controller reset? We've heard that before. I have the service slips from your two visits earlier this month."
         },
         {
           "s": "M",
-          "t": "I can reset the controller again. That would be quicker than opening the housing, and your lunch customers will be here soon."
+          "t": "I understand. The display cooler at your deli is back at twelve degrees, despite those resets. I'll need to investigate further."
         },
         {
           "s": "W",
-          "t": "We've heard that before. These slips are dated the fourth and the ninth, and it's only the twelfth today."
+          "t": "Those visits were on the fourth and the ninth, and it's only the twelfth today. Our lunch customers arrive in an hour."
         },
         {
           "s": "M",
@@ -5458,15 +5423,36 @@
         }
       ],
       "scriptKo": [
-        "노레빅 델리의 진열 냉장기가 또 12도로 표시돼요. 이번 달 직원분들이 다녀가신 정비 내역서를 보관해 뒀어요.",
-        "제어기를 다시 초기화할 수 있어요. 덮개를 여는 것보다 빠를 테고, 곧 점심 손님들도 오실 거잖아요.",
-        "그 말은 전에도 들었어요. 이 내역서들 날짜가 4일과 9일인데 오늘이 겨우 12일이에요.",
+        "또 제어기를 초기화한다고요? 그 말은 전에도 들었어요. 이번 달 앞선 두 차례 방문의 정비 내역을 갖고 있어요.",
+        "알겠어요. 두 차례 초기화했는데도 델리 매장의 진열 냉장고가 다시 12도네요. 더 조사해야겠어요.",
+        "방문일이 4일과 9일이었고 오늘은 겨우 12일이에요. 점심 손님들이 한 시간 뒤에 와요.",
         "장비 뒷면과 벽 콘센트에 접근해야겠어요. 저 좁은 통로를 비워 주실 수 있나요?",
         "네. 오늘 쓸 식재료는 이웃 매장 냉장고에 있고, 작업을 마치실 때까지 점심 근무 직원들이 그곳을 쓸 수 있어요.",
         "그러면 센서에 측정기를 연결해서 회로 측정값을 확인할게요. 교체할 부품을 논의하기 전에 그 수치를 보여 드릴게요."
       ],
       "graphic": null,
       "questions": [
+        {
+          "type": "intention",
+          "q": "Why does the woman say, \"We've heard that before\"?",
+          "choices": [
+            "Repeating the reset is unlikely to solve the problem.",
+            "The quoted repair charge seems too high.",
+            "The suggested replacement may not fit the cabinet.",
+            "The neighboring shop cannot store the stock safely."
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "여자가 “그 말은 전에도 들었어요”라고 말하는 이유는 무엇인가?",
+            "choices": [
+              "초기화를 반복해도 문제가 해결될 것 같지 않다.",
+              "제시한 수리비가 너무 높아 보인다.",
+              "제안한 교체품이 캐비닛에 맞지 않을 수 있다.",
+              "이웃 매장에서는 식품을 안전하게 보관할 수 없다."
+            ]
+          },
+          "explain": "두 차례 초기화 후에도 온도가 다시 올랐으므로 같은 처방을 의심하는 (A)가 맞다. 수리비 견적이나 교체품 규격은 아직 제시하지 않았다."
+        },
         {
           "type": "topic",
           "q": "What are the speakers mainly discussing?",
@@ -5487,27 +5473,6 @@
             ]
           },
           "explain": "조정 후에도 온도 문제가 반복되므로 unresolved refrigeration malfunction으로 바꿔 말한 (B)가 정답이다. 이웃 매장 공간은 임시 보관 대안이지 주방 공동 운영 계획이 아니므로 (C)는 오답이다."
-        },
-        {
-          "type": "intention",
-          "q": "Why does the woman say, \"We've heard that before\"?",
-          "choices": [
-            "She questions the reliability of the remedy.",
-            "She agrees that the full repair is approved.",
-            "She wants the same controller ordered again.",
-            "She needs the explanation repeated more loudly."
-          ],
-          "answer": 0,
-          "ko": {
-            "q": "여자가 “그 말은 전에도 들었어요”라고 말하는 이유는 무엇인가?",
-            "choices": [
-              "해결책의 신뢰성을 의심하기 때문에",
-              "전체 수리가 승인되었다는 데 동의하기 때문에",
-              "같은 제어기를 다시 주문하고 싶기 때문에",
-              "더 큰 소리로 설명을 다시 들어야 하기 때문에"
-            ]
-          },
-          "explain": "같은 달 두 차례의 정비 날짜와 다시 오른 온도를 제시하며 초기화 제안에 반응하므로 해결책의 신뢰성을 의심하는 (A)가 정답이다. 부품 교체는 측정 후에 논의할 일이므로 (B)는 성급한 동의로 해석한 오답이다."
         },
         {
           "type": "next",
@@ -5894,7 +5859,7 @@
       "script": [
         {
           "s": "W",
-          "t": "We're opening a second Jorwick Optics shop, and I'd like some removable window advertising. Can you print our logo and opening date as decals?"
+          "t": "Could you quote for two identical window decals, each fifty-four centimeters wide? These are the approved dimensions for both pieces."
         },
         {
           "s": "M",
@@ -5902,7 +5867,7 @@
         },
         {
           "s": "W",
-          "t": "We need two identical ones, each fifty-four centimeters wide. Our designer has already approved the dimensions and the colors."
+          "t": "They're for our second Jorwick Optics shop. We want removable advertising with our logo and opening date, using the colors in this artwork."
         },
         {
           "s": "M",
@@ -5918,9 +5883,9 @@
         }
       ],
       "scriptKo": [
-        "조르윅 옵틱스의 두 번째 매장을 열어서 떼어낼 수 있는 창문 광고를 만들고 싶어요. 로고와 개점 날짜를 데칼로 인쇄할 수 있나요?",
+        "창문 데칼 두 개의 견적을 알려 주실래요? 둘은 같고 각각 너비가 54센티미터예요. 두 개 모두 승인된 치수예요.",
         "네, 기본 가격은 데칼 각각의 너비에 따라 달라요. 이 표는 세전 개당 요금이에요.",
-        "각각 너비 54센티미터로 똑같은 두 장이 필요해요. 디자이너가 크기와 색상은 이미 승인했어요.",
+        "두 번째 조릭 옵틱스 매장에 쓸 거예요. 이 디자인의 색으로 로고와 개업 날짜를 넣은 제거 가능한 광고물을 원해요.",
         "그 크기는 저희 기계로 가능해요. 가져오신 도안으로 시작할까요, 아직 바뀌는 것이 있나요?",
         "이 도안을 쓰되 먼저 교정본을 보게 해 주세요. 어제 날짜가 바뀌어서 올바르게 나오는지 확인해야 해요.",
         "이 화면에 도안을 띄워서 날짜를 함께 확대해 봐요. 승인서에 서명하시면 진행할 수 있어요."
@@ -5953,27 +5918,6 @@
       },
       "questions": [
         {
-          "type": "topic",
-          "q": "What are the speakers mainly discussing?",
-          "choices": [
-            "Commissioning promotional material for a retail expansion",
-            "Replacing damaged lenses in a pair of glasses",
-            "Moving a printing machine to another location",
-            "Selecting new colors for an existing logo"
-          ],
-          "answer": 0,
-          "ko": {
-            "q": "화자들은 주로 무엇을 논의하고 있는가?",
-            "choices": [
-              "소매 사업 확장을 위한 홍보물 제작 의뢰",
-              "안경의 손상된 렌즈 교체",
-              "인쇄 기계를 다른 장소로 이동",
-              "기존 로고의 새 색상 선택"
-            ]
-          },
-          "explain": "두 번째 매장의 로고와 개점일을 알릴 창문 광고를 주문하므로 retail expansion을 위한 promotional material 의뢰라는 (A)가 정답이다. 안경점은 고객 업종일 뿐 렌즈 수리인 (B)를 논의하는 것이 아니다."
-        },
-        {
           "type": "graphic",
           "q": "Look at the graphic. What is the total before tax for the woman's decals?",
           "choices": [
@@ -5993,6 +5937,27 @@
             ]
           },
           "explain": "너비 54센티미터는 개당 39달러이고 두 장이므로 총 78달러인 (C)가 정답이다. 보기는 표의 각 규격을 두 장씩 주문한 금액 순서이며 (B)와 (D)는 각각 더 좁거나 넓은 규격의 값이다."
+        },
+        {
+          "type": "topic",
+          "q": "What are the speakers mainly discussing?",
+          "choices": [
+            "Commissioning promotional material for a retail expansion",
+            "Replacing damaged lenses in a pair of glasses",
+            "Moving a printing machine to another location",
+            "Selecting new colors for an existing logo"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "화자들은 주로 무엇을 논의하고 있는가?",
+            "choices": [
+              "소매 사업 확장을 위한 홍보물 제작 의뢰",
+              "안경의 손상된 렌즈 교체",
+              "인쇄 기계를 다른 장소로 이동",
+              "기존 로고의 새 색상 선택"
+            ]
+          },
+          "explain": "두 번째 매장의 로고와 개점일을 알릴 창문 광고를 주문하므로 retail expansion을 위한 promotional material 의뢰라는 (A)가 정답이다. 안경점은 고객 업종일 뿐 렌즈 수리인 (B)를 논의하는 것이 아니다."
         },
         {
           "type": "suggest",

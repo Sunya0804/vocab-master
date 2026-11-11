@@ -156,24 +156,24 @@
       {
         "id": "m-p1-5-06",
         "test": 5,
-        "difficulty": 3,
+        "difficulty": 2,
         "photoType": "object",
-        "place": "outdoor-work",
+        "place": "office",
         "image": "images/mock/m1-5-6.webp",
         "alt": "실내 공사 공간에 바퀴 달린 비계가 있고 발판 위쪽으로 난간이 뻗어 있으며 양동이는 옆 바닥에 있다.",
         "choices": [
-          "The bucket stands inside the rectangle formed by the wheels.",
-          "Guardrails rise above the scaffold's wooden platform.",
-          "Diagonal braces extend above the wooden platform.",
-          "The bucket's rim is level with the scaffold deck."
+          "The bucket is underneath the wooden platform.",
+          "The platform has railings along its sides.",
+          "The platform is leaning against the wall.",
+          "Two buckets are standing beside the platform."
         ],
         "answer": 1,
         "ko": {
           "choices": [
-            "양동이가 바퀴들이 이루는 사각형 안에 놓여 있다.",
-            "보호 난간이 비계의 나무 발판 위로 솟아 있다.",
-            "대각선 버팀대들이 나무 발판 위쪽으로 뻗어 있다.",
-            "양동이 가장자리가 비계 발판과 같은 높이에 있다."
+            "양동이가 나무 발판 아래에 있다.",
+            "발판의 가장자리를 따라 난간이 있다.",
+            "발판이 벽에 기대어 있다.",
+            "양동이 두 개가 발판 옆에 놓여 있다."
           ]
         },
         "trap": [
@@ -181,7 +181,7 @@
           "position",
           "position"
         ],
-        "explain": "발판 위쪽은 난간, 대각선 버팀대는 발판 아래쪽이므로 (B)가 맞다. 양동이는 바퀴들 바깥의 바닥에 있으며 윗 가장자리는 발판보다 낮다."
+        "explain": "수평으로 놓인 발판의 가장자리를 따라 난간이 있어 (B)가 맞다. 양동이는 발판 아래가 아니라 옆 바닥에 하나만 있다."
       }
     ],
     "2": [
@@ -2938,7 +2938,7 @@
                 "직원들이 다른 철거 날짜를 골라야 한다."
               ]
             },
-            "explain": "월요일 착공을 직원들에게 발표해도 되는지에 대해 잠정 날짜로만 두라는 뜻이다. 임대 계약은 확정됐지만 철거 허가는 아직이다."
+            "explain": "월요일의 시공업체 방문과 건물 출입은 가능하지만 배선 보호 도면이 빠져 서면 허가를 받을 수 없다. 따라서 착공일은 허가가 날 때까지 잠정 일정으로 둬야 한다는 뜻이다."
           },
           {
             "type": "suggest",
@@ -3332,7 +3332,11 @@
           },
           {
             "s": "M",
-            "t": "We will assess the effect after two weeks by comparing waiting times during the supported hour with the previous month's figures."
+            "t": "The figures represent calls received, including those callers abandoned before an agent answered, so they reflect demand rather than completed conversations alone."
+          },
+          {
+            "s": "M",
+            "t": "To reduce waiting during the busiest period, an employee from order administration will join the desk for the single hour with the highest average."
           },
           {
             "s": "M",
@@ -3344,21 +3348,17 @@
           },
           {
             "s": "M",
-            "t": "The figures represent calls received, including those callers abandoned before an agent answered, so they reflect demand rather than completed conversations alone."
-          },
-          {
-            "s": "M",
-            "t": "To reduce waiting during the busiest period, an employee from order administration will join the desk for the single hour with the highest average."
+            "t": "We will assess the effect after two weeks by comparing waiting times during the supported hour with the previous month's figures."
           }
         ],
         "scriptKo": [
           "도매 고객의 전화를 받는 서비스 데스크 직원에게 안내합니다.",
           "지난달 수신 전화를 분석했으며 시간대별 평균이 팀 공지판에 표시되어 있습니다.",
-          "2주 후 지원 시간대의 대기 시간을 지난달 수치와 비교해 효과를 평가하겠습니다.",
+          "수치는 상담원이 받기 전에 발신자가 끊은 전화도 포함하므로 완료된 대화뿐 아니라 전체 수요를 반영합니다.",
+          "가장 바쁜 때의 대기를 줄이기 위해 평균이 가장 높은 한 시간 동안 주문 관리 직원 한 명이 데스크에 합류합니다.",
           "추가 지원 업무는 최초 문의 응대이며 환불 승인이나 신용 한도 변경은 아닙니다.",
           "추가 직원으로 모두의 일정을 옮기지 않고도 충분히 대응할 수 있을 것이므로 당분간 평소 휴식 일정을 유지하십시오.",
-          "수치는 상담원이 받기 전에 발신자가 끊은 전화도 포함하므로 완료된 대화뿐 아니라 전체 수요를 반영합니다.",
-          "가장 바쁜 때의 대기를 줄이기 위해 평균이 가장 높은 한 시간 동안 주문 관리 직원 한 명이 데스크에 합류합니다."
+          "2주 후 지원 시간대의 대기 시간을 지난달 수치와 비교해 효과를 평가하겠습니다."
         ],
         "graphic": {
           "title": "Average Incoming Calls",
@@ -3949,11 +3949,11 @@
         ],
         "paragraphs": [
           "Employees who receive a jury-service summons should notify People Services and their immediate supervisor. Our company policy provides a procedure for recording this absence separately from annual leave. The summons must be submitted {1} so that staffing can be arranged without unnecessary disruption. Please {2} the case details on your copy before uploading it. People Services needs the attendance dates and the issuing office, but not information about the individuals involved in the proceedings.",
-          "The absence system {3} jury service as a separate category. Annual leave balances are not reduced when that category is selected. {4} If the court releases you earlier than expected, let your supervisor know so that the recorded absence can reflect the time actually required."
+          "The upgraded absence system is already available, and the new jury-service option appears beside annual leave. The absence system {3} jury service as a separate category. Staff can now select it without reducing their annual leave balances. {4} If the court releases you earlier than expected, let your supervisor know so that the recorded absence can reflect the time actually required."
         ],
         "paragraphsKo": [
           "배심원 소환장을 받은 직원은 인사 서비스팀과 직속 상사에게 알려야 한다. 사내 규정에는 이 부재를 연차 휴가와 별도로 기록하는 절차가 있다. 불필요한 차질 없이 인력을 배치할 수 있도록 소환장을 {1} 제출해야 한다. 사본을 업로드하기 전에 사건의 세부 사항을 {2} 주기 바란다. 인사 서비스팀에는 출석 날짜와 발급 기관 정보가 필요하지만, 재판 관련 개인에 관한 정보는 필요하지 않다.",
-          "부재 관리 시스템은 배심원 의무를 별도 범주로 {3}. 해당 범주를 선택하면 연차 잔여 일수는 줄어들지 않는다. {4} 법원이 예상보다 일찍 귀가시키면 실제로 필요한 시간에 맞춰 부재 기록을 조정할 수 있도록 상사에게 알려야 한다."
+          "업그레이드된 부재 시스템을 사용할 수 있으며 연차 옆에 새 배심원 출석 항목이 보입니다. 부재 시스템은 배심원 출석을 별도 항목으로 {3} 분류한 상태입니다. 직원은 이제 연차 잔액을 줄이지 않고 이 항목을 선택할 수 있습니다. {4} 법원이 예정보다 일찍 귀가시키면 실제 필요한 시간을 반영하도록 상사에게 알리십시오."
         ],
         "questions": [
           {
@@ -4000,21 +4000,21 @@
             "blank": 3,
             "type": "tense",
             "choices": [
-              "used to recognize",
-              "will start recognizing",
-              "recognizes",
-              "has stopped recognizing"
+              "was classifying",
+              "will classify",
+              "has classified",
+              "had classified"
             ],
             "answer": 2,
             "ko": {
               "choices": [
-                "인식하곤 했다",
-                "인식하기 시작할 것이다",
-                "인식한다",
-                "인식하기를 중단했다"
+                "분류하고 있었다",
+                "분류할 것이다",
+                "분류한 상태다",
+                "분류했었다"
               ]
             },
-            "explain": "해당 범주를 선택하면 연차가 차감되지 않는다는 현재 기능을 설명하므로 recognizes가 맞다. will start recognizing은 앞으로 기능을 도입한다는 뜻이어서 현재 이용 방법 안내와 맞지 않는다."
+            "explain": "앞의 새 옵션 표시와 뒤의 현재 선택 가능성이 업그레이드의 결과이므로 has classified가 맞다. 과거진행·과거완료는 현재 효력이 있는 결과를 나타내지 못하며 will classify는 이미 사용 가능한 항목을 미래로 미룬다."
           },
           {
             "blank": 4,
@@ -4056,12 +4056,12 @@
         "paragraphs": [
           "Thank you for suggesting two rooms on the third floor for our family visit. My parents will occupy one room, and my children and I will use the other. We would like to {1} access between the rooms so that we can help my parents without entering the public corridor.",
           "{2} Two rooms next to each other with separate corridor entrances would not meet that need. Please confirm whether the rooms you suggested have this feature. {3}, if they do not, we would be willing to consider a family suite on another floor, provided it has two separate sleeping areas.",
-          "The reservations supervisor promised the plan for Monday afternoon, after checking availability that morning. We will compare the options on Tuesday. When we sit down to compare them, the reservations supervisor {4} the plan. Please let us know promptly if Monday's delivery becomes impossible."
+          "The reservations supervisor offered to draw a floor plan showing both arrangements. We agreed on delivery for Monday afternoon. The reservations supervisor {4} the plan. It reached us on Monday at three, and we compared the room layouts at our family meeting on Tuesday. Please retain both options while we make our final choice."
         ],
         "paragraphsKo": [
           "가족 방문을 위해 3층 객실 두 개를 제안해 주셔서 감사합니다. 부모님이 한 방을 쓰고 아이들과 저는 다른 방을 쓸 예정입니다. 공용 복도로 나가지 않고 부모님을 도와드릴 수 있도록 객실 사이의 접근을 {1} 싶습니다.",
           "{2} 서로 옆에 있지만 복도 출입구만 따로 있는 두 객실은 이 필요를 충족하지 못합니다. 제안하신 객실에 이 시설이 있는지 확인해 주십시오. {3} 없다면 별도의 침실 공간이 두 곳 있는 다른 층의 가족용 스위트룸도 고려할 수 있습니다.",
-          "예약 책임자는 월요일 오전 이용 가능 여부를 확인한 뒤 오후에 평면도를 보내 주기로 했습니다. 저희는 화요일에 선택지를 비교할 예정입니다. 비교하려고 앉을 때에는 예약 책임자가 평면도를 {4} 보내 놓은 상태일 것입니다. 월요일 전달이 불가능해지면 바로 알려 주십시오."
+          "예약 책임자가 두 가지 배치를 보여 주는 평면도를 그려 주겠다고 했습니다. 월요일 오후에 받기로 합의했습니다. 예약 책임자는 도면을 {4} 보냈습니다. 월요일 3시에 도착했고 우리는 화요일 가족 모임에서 객실 배치를 비교했습니다. 최종 선택을 하는 동안 두 안을 유지해 주십시오."
         ],
         "questions": [
           {
@@ -4128,21 +4128,21 @@
             "blank": 4,
             "type": "tense",
             "choices": [
-              "will have sent",
-              "will be sending",
-              "has sent",
-              "sent"
+              "sent",
+              "would send",
+              "is sending",
+              "will have sent"
             ],
             "answer": 0,
             "ko": {
               "choices": [
-                "보낸 상태일 것이다",
-                "보내고 있을 것이다",
-                "보낸 상태다",
-                "보냈다"
+                "보냈다",
+                "보낼 것이었다",
+                "보내는 중이다",
+                "보내기를 마쳤을 것이다"
               ]
             },
-            "explain": "월요일 오후 발송한 계획을 화요일에 비교하므로 그 미래 시점까지 완료될 일을 나타내는 will have sent가 맞다. will be sending은 비교할 때 발송 중이라는 뜻이며 has sent와 sent는 앞으로 이루어질 발송을 이미 끝난 일로 나타내므로 맞지 않는다."
+            "explain": "월요일 발송·도착 후 화요일 비교라는 완료된 사건을 순서대로 서술하므로 sent가 맞다. would send는 과거의 예정이고 is sending은 이미 월요일에 도착한 계획을 아직 보내는 중이라고 하므로 맞지 않는다."
           }
         ]
       },
@@ -4163,12 +4163,12 @@
         ],
         "paragraphs": [
           "Several departments have received letters requesting payment to renew our website address. The letters use our correct domain name, but that alone does not establish that the sender is our service provider. Please {1} the sender before authorizing any payment.",
-          "By the time Finance settled the provider's invoice on February 6, our web team {2} the domain through that provider. The payment cleared an existing charge; it was not an order to begin a renewal. No department needs to pay separately.",
+          "Finance paid an outstanding renewal fee on February 6. Our web team {2} the domain through that provider. The renewed service was already in effect when Finance made the payment, which cleared a charge for work performed earlier. No department needs to pay separately.",
           "If another notice arrives, {3} it to Web Operations for review. Do not use the payment link printed in the letter. {4} We can compare the sender's details with our provider's records and tell you whether the correspondence is genuine. Keep the original notice until we have completed that check."
         ],
         "paragraphsKo": [
           "여러 부서에서 회사 웹사이트 주소 갱신 대금을 요구하는 편지를 받았습니다. 편지에 정확한 도메인 이름이 적혀 있지만 그것만으로 발신자가 당사 서비스 제공업체라는 사실이 확인되지는 않습니다. 대금 지급을 승인하기 전에 발신자를 {1} 주십시오.",
-          "재무팀이 2월 6일 제공업체 청구액을 지급했을 때 웹팀은 그 업체를 통해 도메인을 {2} 갱신해 놓은 상태였습니다. 지급은 이미 발생한 비용을 정산한 것이며 갱신을 시작하라는 주문이 아니었습니다. 어느 부서도 별도로 낼 필요가 없습니다.",
+          "재무팀은 2월 6일 미지급 갱신 비용을 냈습니다. 웹팀은 그 제공업체를 통해 도메인을 {2} 갱신한 상태였습니다. 재무팀이 결제할 때 갱신 서비스는 이미 유효했고 지급액은 앞서 수행한 작업의 비용을 정산한 것입니다. 부서가 별도로 돈을 낼 필요는 없습니다.",
           "다른 안내문을 받으면 검토할 수 있도록 웹 운영팀에 {3} 주십시오. 편지에 인쇄된 결제 링크는 사용하지 마십시오. {4} 당사는 발신자 정보를 제공업체 기록과 비교하여 진짜 안내문인지 알려 드릴 수 있습니다. 확인을 마칠 때까지 원본 안내문을 보관해 주십시오."
         ],
         "questions": [
@@ -4197,20 +4197,20 @@
             "type": "tense",
             "choices": [
               "will renew",
-              "was preparing to renew",
+              "was renewing",
               "had renewed",
-              "is renewing"
+              "would renew"
             ],
             "answer": 2,
             "ko": {
               "choices": [
                 "갱신할 것이다",
-                "갱신을 준비하고 있었다",
-                "갱신한 상태였다",
-                "갱신하고 있다"
+                "갱신하고 있었다",
+                "갱신했었다",
+                "갱신할 것이었다"
               ]
             },
-            "explain": "지급이 갱신을 시작하기 위한 주문이 아니라 기존 비용의 정산이므로 had renewed가 맞다. was preparing to renew는 아직 갱신 전 준비라는 뜻이라 비용의 성격과 맞지 않는다."
+            "explain": "앞의 과거 비용 결제와 뒤의 이미 유효했던 갱신 서비스·선행 작업을 연결하면 had renewed가 맞다. was renewing은 결제 때 갱신 작업이 진행 중이란 뜻이고 would renew는 그때 앞으로의 일이라 이미 유효한 서비스와 맞지 않는다."
           },
           {
             "blank": 3,
@@ -4267,13 +4267,13 @@
         ],
         "paragraphs": [
           "Navora Analytics has changed the way it assesses applicants for junior analyst positions. Candidates now complete a short exercise using a fictional sales dataset. {1} Assessors therefore see the work before learning who produced it.",
-          "The company {2} the first group of anonymous submissions. Assessors received them on Monday and expect to release scores at the end of the month. Questions raised during their review are being sent to applicants through the coordinator.",
+          "The assessors began their review on Monday and have worked on it every day since. The company {2} the first group of anonymous submissions. Questions from the continuing review are going to applicants through the coordinator, and final scores are not expected until the end of the month.",
           "A separate coordinator holds the link between each code and its applicant. Reviewers must {3} their scores before that link is disclosed. This sequence prevents knowledge of an applicant's background from influencing the initial assessment.",
           "The exercise is only one part of recruitment. It measures analysis and written explanation, but it does not reveal how someone handles a live discussion. {4}, shortlisted applicants will take part in an interview focused on collaboration."
         ],
         "paragraphsKo": [
           "Navora Analytics는 초급 분석가 지원자 평가 방식을 바꾸었다. 지원자는 가상의 판매 자료로 짧은 과제를 수행한다. {1} 따라서 평가자는 작성자가 누구인지 알기 전에 결과물을 보게 된다.",
-          "회사는 첫 익명 제출물 집단을 {2}. 평가자는 월요일에 제출물을 받았으며 이달 말에 점수를 공개할 예정이다. 검토 중 생긴 질문은 조정 담당자를 통해 지원자에게 전달되고 있다.",
+          "평가자는 월요일에 심사를 시작해 이후 매일 작업을 이어 왔다. 회사는 첫 익명 제출물을 {2} 평가해 오고 있다. 계속되는 심사에서 나온 질문은 조정자를 통해 지원자에게 전달되며 최종 점수는 월말에 나올 예정이다.",
           "별도 조정 담당자가 각 코드와 지원자를 연결하는 정보를 보관한다. 평가자는 그 연결 정보가 공개되기 전에 점수를 {3} 해야 한다. 이 순서를 통해 지원자의 배경을 아는 것이 최초 평가에 영향을 주지 않도록 한다.",
           "이 과제는 채용 절차의 일부일 뿐이다. 분석과 글로 설명하는 능력을 측정하지만 실시간 토론에 어떻게 대응하는지는 보여 주지 못한다. {4} 최종 후보자는 협업에 초점을 맞춘 면접에 참여하게 된다."
         ],
@@ -4302,21 +4302,21 @@
             "blank": 2,
             "type": "tense",
             "choices": [
-              "has finished evaluating",
-              "is evaluating",
-              "will begin evaluating",
-              "had finished evaluating"
+              "will have evaluated",
+              "has been evaluating",
+              "evaluated",
+              "will begin evaluating"
             ],
             "answer": 1,
             "ko": {
               "choices": [
-                "평가를 마쳤다",
-                "평가하고 있다",
-                "평가를 시작할 것이다",
-                "평가를 마친 상태였다"
+                "평가를 마쳤을 것이다",
+                "평가해 오고 있다",
+                "평가했다",
+                "평가를 시작할 것이다"
               ]
             },
-            "explain": "제출물을 받아 검토 중 나온 질문을 현재 전달하고 있고 점수는 이달 말에 공개하므로 is evaluating이 맞다. will begin evaluating은 평가를 아직 시작하지 않았다는 뜻이라 진행 중인 질의와 맞지 않는다."
+            "explain": "월요일부터 이어 온 작업과 현재 계속되는 질문이라는 두 단서에 맞는 has been evaluating이 정답이다. evaluated는 끝난 과거 평가, will begin evaluating은 아직 시작하지 않은 일이라 맞지 않는다."
           },
           {
             "blank": 3,
@@ -4343,7 +4343,7 @@
             "type": "connector",
             "choices": [
               "Despite this",
-              "For instance",
+              "In contrast",
               "For this reason",
               "Similarly"
             ],
@@ -4351,7 +4351,7 @@
             "ko": {
               "choices": [
                 "그럼에도 불구하고",
-                "예를 들어",
+                "대조적으로",
                 "이러한 이유로",
                 "마찬가지로"
               ]
@@ -5472,8 +5472,8 @@
               "Date: July 16"
             ],
             "body": [
-              "The warehouse has confirmed that order X73 contains batches A18 and B22. The production record places A18 at our Lydora plant and B22 at our Senwick plant. Both will leave from the same central warehouse. Please prepare the statement for X73. The warehouse supervisor can answer any questions about the batch references.",
-              "The customer is Harven Assembly. The delivery team has entered Harven Assembly in the shipping record. Packing is finished, and the driver is booked for Thursday. The coordinator returned statement OS73 this morning. It is in my inbox, but I have not yet checked the customer fields or sent my confirmation. Last month's similar order contained only A18. The new customer order and the current production record are attached, along with the warehouse supervisor's contact details. I will be available until four today and from nine tomorrow morning."
+              "The warehouse has confirmed that order X73 contains batches A18 and B22. The production record places A18 at our Lydora plant and B22 at our Senwick plant. Both will leave from the same central warehouse. The warehouse supervisor can answer any questions about the batch references.",
+              "The customer is Harven Assembly. The delivery team has entered Harven Assembly in the shipping record. Packing is finished, and the driver is booked for Thursday. You returned statement OS73 for X73 this morning. It is in my inbox, but I have not yet checked the customer fields or sent my confirmation. Last month's similar order contained only A18. The new customer order and the current production record are attached, along with the warehouse supervisor's contact details. I will be available until four today and from nine tomorrow morning."
             ]
           }
         ],
@@ -5495,8 +5495,8 @@
               "날짜: 7월 16일"
             ],
             "body": [
-              "창고에서 X73 주문에 A18과 B22 배치가 있다고 확인했습니다. 생산 기록상 A18은 라이도라 공장, B22는 센윅 공장에서 만들었습니다. 둘 다 같은 중앙 창고에서 출고됩니다. X73 명세서를 작성해 주십시오. 배치 번호 질문에는 창고 책임자가 답할 수 있습니다.",
-              "고객은 하번 어셈블리입니다. 배송팀은 출하 기록에 하번 어셈블리를 입력했습니다. 포장은 끝났고 기사는 목요일로 예약했습니다. 담당자가 오늘 아침 OS73 확인서를 돌려보냈습니다. 받은 편지함에 있지만 아직 고객 항목을 확인하거나 확인 회신을 보내지는 않았습니다. 지난달의 유사 주문에는 A18만 들어 있었습니다. 새 주문서와 현재 생산 기록, 창고 책임자 연락처를 첨부했습니다. 오늘 4시까지, 내일 오전 9시부터 연락 가능합니다."
+              "창고에서 X73 주문에 A18과 B22 배치가 있다고 확인했습니다. 생산 기록상 A18은 라이도라 공장, B22는 센윅 공장에서 만들었습니다. 둘 다 같은 중앙 창고에서 출고됩니다. 배치 번호 질문에는 창고 책임자가 답할 수 있습니다.",
+              "고객은 하번 어셈블리입니다. 배송팀은 출하 기록에 하번 어셈블리를 입력했습니다. 포장은 끝났고 기사는 목요일로 예약했습니다. 오늘 아침 X73의 OS73 확인서를 제게 돌려보내 주셨습니다. 받은 편지함에 있지만 아직 고객 항목을 확인하거나 확인 회신을 보내지는 않았습니다. 지난달의 유사 주문에는 A18만 들어 있었습니다. 새 주문서와 현재 생산 기록, 창고 책임자 연락처를 첨부했습니다. 오늘 4시까지, 내일 오전 9시부터 연락 가능합니다."
             ]
           }
         ],

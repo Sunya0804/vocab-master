@@ -556,11 +556,23 @@
     "script": [
       {
         "s": "M",
-        "t": "Before we open the hardware store, let's review how we pass customer complaints from the sales floor to the returns desk."
+        "t": "Before we open the hardware store, let's review the new reporting cards for complaints passed from sales to the returns desk."
       },
       {
         "s": "M",
-        "t": "Several shoppers have described a fault to one employee, only to be asked for the whole explanation again at the next counter."
+        "t": "Take a stack of blank cards to your department and leave some beside each register before customers arrive."
+      },
+      {
+        "s": "M",
+        "t": "Each card has a short description of the reported fault and the initials of the employee who first discussed it."
+      },
+      {
+        "s": "M",
+        "t": "Keep the purchase receipt with it, so the returns clerk can check the transaction and ask that colleague about unclear notes."
+      },
+      {
+        "s": "M",
+        "t": "Several shoppers have explained a problem on the sales floor, then been asked to tell the whole story again at the next counter."
       },
       {
         "s": "M",
@@ -568,29 +580,17 @@
       },
       {
         "s": "M",
-        "t": "At busy times, a supervisor has no way of knowing which colleague first spoke with the customer."
-      },
-      {
-        "s": "M",
-        "t": "The new reporting card has a box for a short description and another for the employee's initials."
-      },
-      {
-        "s": "M",
-        "t": "Keep the purchase receipt with the card; the returns clerk can ask the named colleague about unclear notes before considering any cash refund."
-      },
-      {
-        "s": "M",
-        "t": "Before we open, take a stack of blank cards to your department and leave some beside each register."
+        "t": "The card should travel with the customer, allowing the next employee to continue from the information already gathered."
       }
     ],
     "scriptKo": [
-      "매장 문을 열기 전에 판매장에서 반품 창구로 고객 불만을 전달하는 방법을 살펴보겠습니다.",
-      "몇몇 고객은 직원 한 명에게 결함을 설명했는데 다음 창구에서 처음부터 전부 다시 설명해 달라는 요청을 받았습니다.",
-      "고객들이 처음부터 다시 설명해야 해서는 안 됩니다.",
-      "바쁠 때는 관리자가 어느 동료가 고객과 처음 이야기했는지 알 방법이 없습니다.",
-      "새 보고 카드에는 짧은 설명을 적는 칸과 직원의 이름 머리글자를 적는 칸이 있습니다.",
-      "구매 영수증을 카드와 함께 두세요. 반품 창구 직원은 현금 환불을 검토하기 전에 메모가 불분명한 부분을 이름이 적힌 동료에게 물을 수 있습니다.",
-      "문을 열기 전에 빈 카드를 여러 장 부서로 가져가 각 계산대 옆에 놓아 주세요."
+      "철물점 문을 열기 전에 판매 직원이 반품 창구로 넘기는 불만 사항을 기록할 새 카드를 살펴봅시다.",
+      "고객이 오기 전에 빈 카드 한 묶음을 각 부서로 가져가 계산대마다 놓아 두세요.",
+      "각 카드에는 신고된 결함의 짧은 설명과 처음 상담한 직원의 머리글자를 적습니다.",
+      "반품 담당자가 거래를 확인하고 불분명한 메모는 해당 동료에게 물을 수 있도록 구매 영수증을 함께 두세요.",
+      "여러 고객이 판매 구역에서 문제를 설명한 뒤 다음 창구에서 전부 다시 말해 달라는 요청을 받았습니다.",
+      "처음부터 다시 설명하게 해서는 안 됩니다.",
+      "카드를 고객과 함께 넘겨 다음 직원이 이미 모은 정보에서 이어서 처리하도록 해야 합니다."
     ],
     "graphic": null,
     "questions": [
@@ -616,27 +616,6 @@
         "explain": "고객이 창구마다 같은 설명을 반복하는 문제를 보고 카드와 직원 식별 정보로 해결하려 하므로 지원팀 사이의 의사소통 개선인 (D)가 맞다. 현금 환불은 검토할 개별 업무이지 새 정책을 도입한다는 뜻이 아니다."
       },
       {
-        "type": "intention",
-        "q": "What does the man mean by, \"They shouldn't have to start over\"?",
-        "choices": [
-          "Shoppers should receive refunds without receipts.",
-          "Earlier discussions should remain accessible.",
-          "Employees should repeat their register training.",
-          "Managers should rewrite the store's refund policy."
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "남자가 '처음부터 다시 해야 해서는 안 된다'고 말한 의도는 무엇인가?",
-          "choices": [
-            "고객에게 영수증 없이 환불해 주어야 한다.",
-            "앞서 나눈 이야기의 내용을 다른 직원도 확인할 수 있어야 한다.",
-            "직원들이 계산대 교육을 다시 받아야 한다.",
-            "관리자들이 매장 환불 정책을 다시 작성해야 한다."
-          ]
-        },
-        "explain": "같은 설명을 다시 요구받은 고객 이야기와 직원 이름이 붙는 보고 카드의 맥락에서 앞선 상담 내용을 이어받아야 한다는 (B)가 맞다. 직원 교육을 다시 받으라는 (C)의 의미가 아니다."
-      },
-      {
         "type": "suggest",
         "q": "What are employees asked to do before the store opens?",
         "choices": [
@@ -656,6 +635,27 @@
           ]
         },
         "explain": "빈 카드를 각 계산대 옆에 놓으라는 지시를 intake forms와 checkout points로 바꾼 (C)가 맞다. 설명을 적는 칸은 별도의 보고 카드에 있고 영수증은 함께 보관하는 증빙이므로 (B)는 오답이다."
+      },
+      {
+        "type": "intention",
+        "q": "What does the man mean by, \"They shouldn't have to start over\"?",
+        "choices": [
+          "A supervisor should replace the customer's missing purchase receipt.",
+          "The returns desk should receive the sales employee's notes.",
+          "The first employee should complete every refund without referral.",
+          "The customer should prepare a separate written account at home."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "남자가 '처음부터 다시 해야 해서는 안 된다'고 말한 의도는 무엇인가?",
+          "choices": [
+            "감독자가 고객의 분실 영수증을 대신 발급해야 한다.",
+            "반품 창구가 판매 직원의 상담 메모를 받아야 한다.",
+            "첫 직원이 넘기지 않고 모든 환불을 끝내야 한다.",
+            "고객이 집에서 별도의 서면 설명을 준비해야 한다."
+          ]
+        },
+        "explain": "고객이 다음 창구에서 설명을 반복하지 않도록 앞선 상담 기록을 넘겨야 하므로 (B)가 맞다. 반품 절차를 없애거나 고객에게 새 설명문을 준비시키는 뜻은 아니다."
       }
     ]
   },
@@ -666,15 +666,15 @@
     "script": [
       {
         "s": "W",
-        "t": "Welcome to the Corven Works, where old pots and pans are given a second life instead of being thrown away."
+        "t": "We'll go to the repair workshop first, before visiting the finished products. Please use the building guide to locate that department."
       },
       {
         "s": "W",
-        "t": "Customers bring us cookware with loose handles or damaged surfaces, and our specialists decide whether each piece can safely be used again."
+        "t": "Welcome to Corven Works, where specialists restore customers' pots and pans with loose handles or damaged surfaces so they can be used again safely."
       },
       {
         "s": "W",
-        "t": "Before we visit the finished products on display, we'll go to the repair workshop shown on your building guide."
+        "t": "Today's visit follows an item from assessment to repair, then to the finished-product display after lunch."
       },
       {
         "s": "W",
@@ -694,9 +694,9 @@
       }
     ],
     "scriptKo": [
-      "낡은 냄비와 팬을 버리지 않고 다시 사용할 수 있게 만드는 코번 웍스에 오신 것을 환영합니다.",
-      "고객이 손잡이가 헐겁거나 표면이 손상된 조리 기구를 가져오면 전문가들이 다시 안전하게 사용할 수 있는지 판단합니다.",
-      "완성품 전시를 보기 전에 건물 안내표에 표시된 수선 작업장으로 가겠습니다.",
+      "완성품을 보기 전에 수리 작업장부터 가겠습니다. 건물 안내에서 그 부서의 위치를 확인해 주세요.",
+      "손잡이가 헐겁거나 표면이 손상된 고객의 냄비와 팬을 전문가가 다시 안전하게 쓰도록 복원하는 코번 웍스에 오신 것을 환영합니다.",
+      "오늘 방문에서는 물품의 평가와 수리를 살펴보고 점심 뒤에 완성품 전시를 보겠습니다.",
       "점심 전에는 그 부서만 방문할 것이므로 접수처를 나설 때 안내표를 꺼내 두세요.",
       "승강기는 우리 일행 전원이 탈 수 있지만 계단을 원하시는 분은 제 보조 안내원을 따라가셔도 됩니다.",
       "작업장에 도착하면 안전을 위해 파란 선 뒤에 계시고 가방은 방문객 선반에 놓아 주세요.",
@@ -730,27 +730,6 @@
     },
     "questions": [
       {
-        "type": "speaker",
-        "q": "What kind of business are the listeners visiting?",
-        "choices": [
-          "A kitchen equipment rental agency.",
-          "A metalware refurbishment firm.",
-          "A food packaging manufacturer.",
-          "A restaurant supply delivery company."
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "청중은 어떤 업체를 방문하고 있는가?",
-          "choices": [
-            "주방 장비 대여 업체.",
-            "금속 조리 기구 재생 업체.",
-            "식품 포장재 제조사.",
-            "식당 물품 배송 업체."
-          ]
-        },
-        "explain": "낡은 냄비와 팬을 다시 안전하게 쓰게 하는 업체를 metalware refurbishment firm으로 바꾼 (B)가 맞다. 포장실이 표에 있어도 포장재를 제조하는 업체라는 근거는 없다."
-      },
-      {
         "type": "graphic",
         "q": "Look at the graphic. Which floor is the group's next destination?",
         "choices": [
@@ -770,6 +749,27 @@
           ]
         },
         "explain": "다음 목적지는 repair workshop이고 표에서 그 부서는 2층이므로 (B)가 맞다. 3층 제품 전시는 이후에 방문하므로 (C)는 오답이다."
+      },
+      {
+        "type": "speaker",
+        "q": "What kind of business are the listeners visiting?",
+        "choices": [
+          "A kitchen equipment rental agency.",
+          "A metalware refurbishment firm.",
+          "A food packaging manufacturer.",
+          "A restaurant supply delivery company."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "청중은 어떤 업체를 방문하고 있는가?",
+          "choices": [
+            "주방 장비 대여 업체.",
+            "금속 조리 기구 재생 업체.",
+            "식품 포장재 제조사.",
+            "식당 물품 배송 업체."
+          ]
+        },
+        "explain": "낡은 냄비와 팬을 다시 안전하게 쓰게 하는 업체를 metalware refurbishment firm으로 바꾼 (B)가 맞다. 포장실이 표에 있어도 포장재를 제조하는 업체라는 근거는 없다."
       },
       {
         "type": "suggest",
@@ -869,22 +869,22 @@
         "type": "intention",
         "q": "What does the woman mean by, \"That's one less thing to pack\"?",
         "choices": [
-          "One personal item will be provided.",
-          "The customer's luggage has been lost.",
-          "The swimming session will finish early.",
-          "A locker has insufficient space."
+          "The listener does not need to bring a towel.",
+          "Poolside clothing can be borrowed at reception.",
+          "A suitable swimsuit will be supplied at the pool.",
+          "The instructor already has the customer's health information."
         ],
         "answer": 0,
         "ko": {
           "q": "여자가 '짐에 넣을 물건이 하나 줄었다'고 말한 의도는 무엇인가?",
           "choices": [
-            "개인용 물품 하나를 제공할 것이다.",
-            "고객의 짐이 분실되었다.",
-            "수영 수업이 일찍 끝날 것이다.",
-            "사물함의 공간이 부족하다."
+            "청자는 수건을 가져올 필요가 없다.",
+            "접수처에서 수영장 이동용 옷을 빌릴 수 있다.",
+            "수영장에서 맞는 수영복을 제공할 것이다.",
+            "강사가 이미 고객의 건강 정보를 갖고 있다."
           ]
         },
-        "explain": "탈의실에 세탁한 수건이 준비되어 있다는 말 직후이므로 수건을 가져올 필요가 없다는 (A)가 맞다. 사물함은 뒤에 식수 위치를 설명할 때 나오며 수납 공간 부족을 말하지 않았다."
+        "explain": "바로 앞에서 탈의실에 세탁된 수건이 있다고 했으므로 (A)가 맞다. 수영복과 이동용 옷, 건강 정보는 직접 가져오라는 안내다."
       },
       {
         "type": "suggest",
@@ -1161,44 +1161,60 @@
     "script": [
       {
         "s": "W",
-        "t": "For this morning's restaurant briefing, I want to explain an offer from our vegetable supplier that would change our kitchen preparation schedule."
+        "t": "Kitchen team, decide how to divide the vegetable washing and portioning among yourselves once today's delivery is confirmed. That part is yours."
       },
       {
         "s": "W",
-        "t": "The farm can send our crates at three this afternoon instead of the usual half past four."
+        "t": "For everyone attending this restaurant briefing, including front-of-house staff, the vegetable supplier has offered a three o'clock delivery instead of half past four."
       },
       {
         "s": "W",
-        "t": "Our first dinner guests aren't booked until half past five, and all the vegetables must be washed and portioned before they arrive."
+        "t": "All the vegetables must be prepared before our first dinner guests arrive at half past five, but the kitchen can choose its own task assignments."
       },
       {
         "s": "W",
-        "t": "That gives us a little breathing room."
+        "t": "The pastry team's ingredients are already here, so its timetable and the front-of-house shifts will stay unchanged."
       },
       {
         "s": "W",
-        "t": "The pastry team should keep its existing timetable, since the ingredients for the cold desserts are already here."
+        "t": "I have not accepted the earlier delivery yet, since that truck sometimes carries a smaller load."
       },
       {
         "s": "W",
-        "t": "Front of house will also start at the normal time, so there is no need to change anyone's shift."
-      },
-      {
-        "s": "W",
-        "t": "Before accepting the earlier slot, I'll call the farm to confirm the crate count, because that truck sometimes carries a smaller load."
+        "t": "I'll call the farm now to confirm the crate count before we commit to the change."
       }
     ],
     "scriptKo": [
-      "오늘 아침 식당 업무 회의에서는 주방 준비 일정을 바꿀 수 있는 채소 공급업체의 제안을 설명하겠습니다.",
-      "농장에서 평소의 4시 30분 대신 오늘 오후 3시에 채소 상자를 보내 줄 수 있다고 합니다.",
-      "첫 저녁 손님은 5시 30분에 예약되어 있고 그 전에 채소를 모두 씻고 나누어 준비해야 합니다.",
-      "그러면 우리에게 조금 여유가 생기겠네요.",
-      "차가운 디저트의 재료는 이미 도착했으므로 제과팀은 기존 시간표를 유지해 주세요.",
-      "홀 업무도 평소 시간에 시작하므로 누구의 근무 시간도 바꿀 필요가 없습니다.",
-      "일찍 오는 차량은 때로 적은 양을 싣기 때문에 그 시간대를 수락하기 전에 농장에 전화해 상자 수를 확인하겠습니다."
+      "주방팀은 오늘 배송이 확정되면 채소 세척과 분량 나누기를 어떻게 분담할지 직접 결정하세요. 그 부분은 여러분에게 맡깁니다.",
+      "홀 직원을 포함한 이번 식당 업무회의 참석자 여러분께 말씀드립니다. 채소 공급업체가 4시 30분 대신 3시 배송을 제안했습니다.",
+      "첫 저녁 손님이 오는 5시 30분 전까지 채소를 모두 준비해야 하지만 주방에서는 작업 배정을 직접 정할 수 있습니다.",
+      "제과팀 재료는 이미 도착했으므로 제과팀 일정과 홀 근무 시간은 바뀌지 않습니다.",
+      "그 트럭은 가끔 적은 물량을 싣기 때문에 아직 이른 배송을 수락하지 않았습니다.",
+      "변경을 확정하기 전에 지금 농장에 전화해 상자 수를 확인하겠습니다."
     ],
     "graphic": null,
     "questions": [
+      {
+        "type": "intention",
+        "q": "What does the woman mean by, \"That part is yours\"?",
+        "choices": [
+          "The supplier should decide the final delivery quantity.",
+          "The front-of-house team should revise the dinner bookings.",
+          "The kitchen team should organize the vegetable preparation.",
+          "The pastry team should approve the supplier's delivery change."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "여자가 “그 부분은 여러분에게 맡깁니다”라고 말한 의도는 무엇인가?",
+          "choices": [
+            "공급업체가 최종 배송 수량을 결정해야 한다.",
+            "홀 팀이 저녁 예약을 수정해야 한다.",
+            "주방팀이 채소 준비 작업을 구성해야 한다.",
+            "제과팀이 공급업체의 배송 변경을 승인해야 한다."
+          ]
+        },
+        "explain": "화자는 채소 세척과 분량 나누기의 분담을 주방팀에 맡기므로 (C)가 맞다. 배송 물량 확인과 변경 확정은 화자가 직접 맡는다."
+      },
       {
         "type": "speaker",
         "q": "Who most likely are the listeners?",
@@ -1221,27 +1237,6 @@
         "explain": "채소 손질, 제과팀 일정과 홀 근무를 함께 설명하는 식당 업무 회의이므로 주방·홀 직원들인 (B)가 맞다. 농장은 공급업체로 언급될 뿐 청중의 소속이 아니다."
       },
       {
-        "type": "intention",
-        "q": "What does the woman mean by, \"That gives us a little breathing room\"?",
-        "choices": [
-          "The dining area needs better ventilation.",
-          "Fewer guests are expected for dinner.",
-          "The cooks will have more leeway.",
-          "Employees will receive a longer meal break."
-        ],
-        "answer": 2,
-        "ko": {
-          "q": "여자가 '그러면 조금 여유가 생긴다'고 말한 의도는 무엇인가?",
-          "choices": [
-            "식사 공간에 더 나은 환기가 필요하다.",
-            "저녁 손님이 줄어들 것으로 예상한다.",
-            "조리 직원들의 시간적 여유가 커진다.",
-            "직원들의 식사 휴식 시간이 길어진다."
-          ]
-        },
-        "explain": "배송은 앞당겨지고 손님 도착 시간은 그대로이므로 조리 직원에게 시간적 여유가 생긴다는 more leeway의 (C)가 맞다. breathing을 문자 그대로 환기로 해석하는 (A)는 의도와 다르다."
-      },
-      {
         "type": "next",
         "q": "What will the speaker do next?",
         "choices": [
@@ -1260,7 +1255,7 @@
             "직원들에게 추가 근무를 요청한다."
           ]
         },
-        "explain": "이른 시간대를 수락하기 전에 농장에 전화해 crate count를 확인한다는 말을 delivery volume으로 바꾼 (A)가 맞다. 제과팀 시간표는 유지하라고 했으므로 (B)는 반대 내용이다."
+        "explain": "화자가 농장에 지금 전화해 상자 수를 확인하겠다고 하므로 (A)가 맞다. 제과팀과 홀의 일정은 그대로 둔다."
       }
     ]
   },
@@ -1491,46 +1486,36 @@
     "script": [
       {
         "s": "W",
-        "t": "This workshop is about checking hotel rooms after maintenance, not about cleaning them faster."
+        "t": "This workshop concerns checking hotel rooms after maintenance, with particular attention to faults that a quick glance can miss."
       },
       {
         "s": "W",
-        "t": "Last week, a loose connector under one sink was missed because the inspector only checked that water came out of the tap."
+        "t": "After every check, file the completed checklist with the room's job record, even when nothing requires attention."
       },
       {
         "s": "W",
-        "t": "The room looked ready, but a slow leak damaged the cabinet overnight and kept the room out of use for three days."
+        "t": "Initial each item so the next shift can identify who checked it; the revised form includes a test below the basin."
       },
       {
         "s": "W",
-        "t": "Thirty seconds can be expensive."
+        "t": "Last week, an inspector checked the tap but missed a loose connector underneath the sink."
       },
       {
         "s": "W",
-        "t": "The cabinet had to be removed, and the booking desk had to find another room for the arriving guests."
+        "t": "A slow leak then damaged the cabinet overnight, keeping the room unavailable for three days and forcing the desk to relocate arriving guests."
       },
       {
         "s": "W",
-        "t": "Our revised checklist therefore asks you to test the area below the basin, not just the fittings you can see from above."
-      },
-      {
-        "s": "W",
-        "t": "The maintenance team has added a space for initials beside each item, so the next shift can see who signed it off."
-      },
-      {
-        "s": "W",
-        "t": "File the completed checklist with the room's job record, even when you find nothing that needs attention."
+        "t": "The repair was avoidable if that final check had been completed. Thirty seconds can be expensive."
       }
     ],
     "scriptKo": [
-      "이번 실습에서는 호텔 객실의 수리 후 점검을 다루며 더 빨리 청소하는 법을 다루는 것은 아닙니다.",
-      "지난주 한 세면대 아래의 느슨한 연결 부위를 검사자가 수도꼭지에서 물이 나오는지만 확인한 탓에 놓쳤습니다.",
-      "방은 준비된 것처럼 보였지만 천천히 새는 물이 밤새 수납장을 손상시켜 객실을 사흘간 사용할 수 없게 했습니다.",
-      "30초가 큰 비용이 될 수 있습니다.",
-      "수납장을 철거해야 했고 예약 담당자는 도착할 손님을 위한 다른 객실을 찾아야 했습니다.",
-      "따라서 개정된 점검표에는 위에서 보이는 부속품뿐 아니라 세면대 아래도 시험하도록 되어 있습니다.",
-      "유지 보수팀은 다음 근무조가 누가 확인했는지 알 수 있도록 각 항목 옆에 이름 머리글자를 적는 칸을 추가했습니다.",
-      "손볼 문제가 없더라도 작성한 점검표를 객실 작업 기록과 함께 보관하세요."
+      "이 연수회는 정비 후 호텔 객실을 점검할 때 빠르게 훑어보면 놓칠 수 있는 결함을 다룹니다.",
+      "점검할 때마다 문제가 없더라도 완료한 점검표를 객실 작업 기록과 함께 보관하세요.",
+      "다음 근무조가 누가 확인했는지 알도록 각 항목에 머리글자를 적으세요. 수정 양식에는 세면대 아래 점검이 포함됩니다.",
+      "지난주 점검자는 수도꼭지를 확인했지만 싱크대 아래의 느슨한 연결부를 놓쳤습니다.",
+      "그 뒤 느린 누수가 밤새 수납장을 손상시켜 사흘 동안 객실을 쓰지 못했고 접수처는 도착 손님을 다른 객실로 옮겨야 했습니다.",
+      "마지막 점검을 마쳤다면 그 수리는 피할 수 있었습니다. 30초가 큰 비용이 될 수 있습니다."
     ],
     "graphic": null,
     "questions": [
@@ -1553,28 +1538,7 @@
             "예약 절차를 바꾼다."
           ]
         },
-        "explain": "수리 후 드러나지 않는 문제까지 점검하게 하므로 quality assurance 개선으로 바꾼 (B)가 맞다. 시작부터 더 빠른 청소를 다루지 않는다고 밝혔으므로 (A)는 반대 내용이다."
-      },
-      {
-        "type": "intention",
-        "q": "What does the woman mean by, \"Thirty seconds can be expensive\"?",
-        "choices": [
-          "Haste can have costly consequences.",
-          "The hotel should recover repair costs from guests.",
-          "Guests should limit their water use.",
-          "A room rate will increase shortly."
-        ],
-        "answer": 0,
-        "ko": {
-          "q": "여자가 '30초가 큰 비용이 될 수 있다'고 말한 의도는 무엇인가?",
-          "choices": [
-            "서두르면 큰 손실이 생길 수 있다.",
-            "호텔이 투숙객에게 수리비를 청구해야 한다.",
-            "투숙객이 물 사용을 줄여야 한다.",
-            "객실 요금이 곧 오를 것이다."
-          ]
-        },
-        "explain": "점검을 빠뜨려 누수 손상과 객실 사용 중단이 이어졌으므로 서두름이 큰 손실로 이어질 수 있다는 (A)가 맞다. 투숙객에게 수리비를 청구하자는 (B)의 내용은 대본에 없다."
+        "explain": "수리 후 빠르게 훑어보면 놓칠 결함까지 점검하게 하므로 품질 확인 개선을 뜻하는 (B)가 맞다. 청소 속도나 예약 절차 변경이 연수회의 목적은 아니다."
       },
       {
         "type": "suggest",
@@ -1595,7 +1559,28 @@
             "점검 보고서를 보관한다."
           ]
         },
-        "explain": "이상이 없어도 작성한 점검표를 객실 작업 기록과 함께 보관하라는 지시를 archive the assessment reports로 바꾼 (D)가 맞다. 수납장 철거는 지난 사례의 결과이지 지금 청중에게 맡긴 일이 아니다."
+        "explain": "점검이 끝날 때마다 점검표를 객실 작업 기록에 보관하라는 안내를 바꾼 (D)가 맞다. 객실 요금 검토나 수납장 이동을 지시하지 않았다."
+      },
+      {
+        "type": "intention",
+        "q": "What does the woman mean by, \"Thirty seconds can be expensive\"?",
+        "choices": [
+          "Skipping the under-basin check can leave costly damage unnoticed.",
+          "Delaying a guest's room assignment can increase compensation costs.",
+          "Replacing a cabinet before inspection can cause unnecessary expense.",
+          "Shorter water tests can reduce a room's running costs."
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "여자가 '30초가 큰 비용이 될 수 있다'고 말한 의도는 무엇인가?",
+          "choices": [
+            "세면대 아래 점검을 생략하면 큰 손상의 원인을 놓친다.",
+            "객실 배정을 늦추면 보상 비용이 늘 수 있다.",
+            "점검 전에 수납장을 바꾸면 불필요한 비용이 생긴다.",
+            "수도 시험을 줄이면 객실 운영 비용을 절감한다."
+          ]
+        },
+        "explain": "세면대 아래 연결부 점검 누락으로 누수 손상이 이어졌으므로 (A)가 맞다. 객실 재배정은 원인이 아니라 손상에 따른 후속 조치였다."
       }
     ]
   },
@@ -1861,7 +1846,19 @@
     "script": [
       {
         "s": "M",
-        "t": "Mr. Kadar, this is Emil from Orlen Appliance Support, following up on your request to return the countertop coffee machine."
+        "t": "Mr. Kadar, this is Emil. We haven't approved an exchange, because the decision depends on what tomorrow's inspection shows."
+      },
+      {
+        "s": "M",
+        "t": "I'd hold on to that box."
+      },
+      {
+        "s": "M",
+        "t": "Reusable shipping sleeves are on order, but our courier won't receive another batch until the end of the month."
+      },
+      {
+        "s": "M",
+        "t": "I'm following up on the rattling from your countertop coffee machine, on behalf of Orlen Appliance Support."
       },
       {
         "s": "M",
@@ -1877,54 +1874,21 @@
       },
       {
         "s": "M",
-        "t": "We haven't approved an exchange, because that decision will depend on what the inspection shows."
-      },
-      {
-        "s": "M",
-        "t": "I'd hold on to that box."
-      },
-      {
-        "s": "M",
-        "t": "Reusable shipping sleeves are on order, but our courier won't receive another batch until the end of the month."
-      },
-      {
-        "s": "M",
         "t": "Before tomorrow's appointment, leave a small gap between the unit and the surrounding panels, then listen for any change in the noise."
       }
     ],
     "scriptKo": [
-      "카다르 고객님, 조리대용 커피 머신의 반품 요청 건으로 연락드리는 오를런 가전 지원팀의 에밀입니다.",
+      "카다르 씨, 에밀입니다. 내일 점검 결과에 따라 결정하므로 교환을 아직 승인하지 않았습니다.",
+      "저라면 그 상자를 보관해 두겠어요.",
+      "재사용 운송 포장재를 주문해 두었지만 배송업체는 월말이 되어야 다음 물량을 받는다고 해요.",
+      "오를렌 가전 지원팀에서 조리대용 커피 머신의 덜컹거리는 소리에 관해 후속 안내를 드립니다.",
       "보내 주신 녹음으로 덜컹거리는 소리는 들을 수 있지만 머신이 옆 수납장에 닿아 있는지는 보이지 않아요.",
       "나무 판자에 닿으면 정상적인 진동도 훨씬 크게 들릴 수 있어 소리만으로 결함을 판단할 수 없어요.",
       "내일 기술자가 영상으로 고객님과 설치 상태를 살펴볼 수 있으며 지금 단계에서는 집에 방문할 필요가 없어요.",
-      "점검 결과에 따라 결정할 것이기 때문에 아직 교환을 승인하지는 않았어요.",
-      "저라면 그 상자를 보관해 두겠어요.",
-      "재사용 운송 포장재를 주문해 두었지만 배송업체는 월말이 되어야 다음 물량을 받는다고 해요.",
       "내일 상담 전에 기기와 주변 판자 사이를 조금 벌려 놓고 소리가 달라지는지 들어보세요."
     ],
     "graphic": null,
     "questions": [
-      {
-        "type": "topic",
-        "q": "What is the purpose of the message?",
-        "choices": [
-          "To announce the dispatch of a replacement product.",
-          "To investigate a reported malfunction.",
-          "To confirm a technician's home visit.",
-          "To offer a discount on a new cupboard."
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "메시지의 목적은 무엇인가?",
-          "choices": [
-            "교체 제품의 발송을 알린다.",
-            "신고된 오작동을 조사한다.",
-            "기술자의 가정 방문을 확정한다.",
-            "새 수납장의 할인을 제안한다."
-          ]
-        },
-        "explain": "소음으로 접수한 반품 요청에 대해 아직 결함을 확정하지 않고 영상 점검을 준비하므로 reported malfunction을 조사하는 (B)가 맞다. 교환은 승인되지 않았고 집 방문도 필요 없다고 하므로 (A)와 (C)는 성급한 결론이다."
-      },
       {
         "type": "intention",
         "q": "What does the man mean by, \"I'd hold on to that box\"?",
@@ -1945,6 +1909,27 @@
           ]
         },
         "explain": "교환 여부가 점검 후 결정되고 대체 포장재는 월말에야 온다는 맥락에서 반송 가능성에 대비하라는 (D)가 맞다. 이미 사용 중인 머신의 소음을 녹음했으므로 미개봉 유지인 (C)는 아니다."
+      },
+      {
+        "type": "topic",
+        "q": "What is the purpose of the message?",
+        "choices": [
+          "To announce the dispatch of a replacement product.",
+          "To investigate a reported malfunction.",
+          "To confirm a technician's home visit.",
+          "To offer a discount on a new cupboard."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "메시지의 목적은 무엇인가?",
+          "choices": [
+            "교체 제품의 발송을 알린다.",
+            "신고된 오작동을 조사한다.",
+            "기술자의 가정 방문을 확정한다.",
+            "새 수납장의 할인을 제안한다."
+          ]
+        },
+        "explain": "소음으로 접수한 반품 요청에 대해 아직 결함을 확정하지 않고 영상 점검을 준비하므로 reported malfunction을 조사하는 (B)가 맞다. 교환은 승인되지 않았고 집 방문도 필요 없다고 하므로 (A)와 (C)는 성급한 결론이다."
       },
       {
         "type": "suggest",

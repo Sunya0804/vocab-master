@@ -350,8 +350,8 @@
     ],
     "scriptKo": [
       "광고팀이 파일 변환 프로그램의 신뢰할 만한 속도 비교를 원해요. 이전 버전에 쓴 컴퓨터를 예약했어요.",
-      "원래 설정으로 보관된 컬러 카탈로그을 다시 쓰세요. 그러면 프로그램만 달라지겠네요.",
-      "좋아요. 실제로 문제가 하나 있어요. 카탈로그이 당신의 제한된 폴더에 있어서 제 계정으로 열 수 없어요.",
+      "원래 설정으로 보관된 컬러 카탈로그를 다시 쓰세요. 그러면 프로그램만 달라지겠네요.",
+      "좋아요. 실제로 문제가 하나 있어요. 카탈로그가 당신의 제한된 폴더에 있어서 제 계정으로 열 수 없어요.",
       "임시 접근 권한을 줄 수 있어요. 파일을 읽을 수 있지만 바꿀 수는 없어요.",
       "그거면 충분해요. 시험 결과는 별도 변환 사본으로 만들어져서 원본은 그대로 남아요.",
       "권한을 지금 활성화했어요. 광고팀이 결과를 받는 금요일에 접근 권한이 만료돼요."
@@ -372,12 +372,12 @@
           "q": "화자들은 무엇을 준비하는가?",
           "choices": [
             "사진 저장 예산",
-            "새 목록 배치",
+            "새 카탈로그 배치",
             "조건을 통제한 소프트웨어 비교",
             "보고서 작성 연수"
           ]
         },
-        "explain": "이전 시험과 같은 컴퓨터·자료·설정으로 프로그램의 속도를 비교하려 한다. 목록의 디자인을 바꾸는 작업이 아니다."
+        "explain": "이전 시험과 같은 컴퓨터·자료·설정으로 프로그램의 속도를 비교하려 한다. 카탈로그의 디자인을 바꾸는 작업이 아니다."
       },
       {
         "type": "suggest",
@@ -398,7 +398,7 @@
             "두 번째 컴퓨터"
           ]
         },
-        "explain": "보관된 컬러 목록과 원래 설정을 쓰라고 한다. 새 자료나 다른 컴퓨터를 쓰자는 말은 없다."
+        "explain": "보관된 컬러 카탈로그과 원래 설정을 쓰라고 한다. 새 자료나 다른 컴퓨터를 쓰자는 말은 없다."
       },
       {
         "type": "intention",
@@ -1810,7 +1810,7 @@
       },
       {
         "s": "M",
-        "t": "Leave them separate. Sunday's hours receive the weekend rate, while Monday's use the normal rate."
+        "t": "Sunday's hours receive the weekend rate, while Monday's use the normal rate."
       },
       {
         "s": "W",
@@ -1825,7 +1825,7 @@
       "야간 급여 예시를 함께 검토할 수 있을까요? 제 근무는 일요일 밤 10시에 시작해서 월요일 아침 6시에 끝나요.",
       "시스템이 자정에 근무를 나눠요. 두 시간은 일요일이고 나머지 여섯 시간은 월요일로 기록돼요.",
       "각 시간당 금액을 계약서와 대조하고 싶어요. 근무의 각 부분에 어떤 요율을 적용해야 하나요?",
-      "따로 두세요. 일요일 시간에는 주말 요율이, 월요일 시간에는 일반 요율이 적용돼요.",
+      "일요일 시간에는 주말 요율이, 월요일 시간에는 일반 요율이 적용돼요.",
       "그러면 오늘 밤 총액을 확인할게요. 계산된 예시는 전체 근무조 대신 저에게 직접 보내 주실래요?",
       "물론이죠. 점심 뒤 야간 예시를 이메일로 보낼게요. 남은 질문은 내일 개별적으로 이야기하죠."
     ],
@@ -1892,7 +1892,7 @@
             "합쳐진 시간 기록"
           ]
         },
-        "explain": "마지막에 안내서의 야간 근무 예시를 보내겠다고 한다. 기록은 합치지 않고 따로 둔다."
+        "explain": "남자가 점심 뒤 야간 근무 계산 예시를 여자에게 직접 이메일로 보내겠다고 한다."
       }
     ]
   },
@@ -2767,7 +2767,7 @@
       },
       {
         "type": "suggest",
-        "q": "What does the woman first ask the man to record?",
+        "q": "What does the woman ask the man to do first?",
         "choices": [
           "Shorten the drying period",
           "Change the approved sample",
@@ -2776,7 +2776,7 @@
         ],
         "answer": 2,
         "ko": {
-          "q": "여자가 먼저 남자에게 적어 달라고 하는 것은 무엇인가?",
+          "q": "여자가 남자에게 먼저 하라고 요청하는 것은 무엇인가?",
           "choices": [
             "건조 시간을 줄인다",
             "승인 견본을 바꾼다",
@@ -3365,7 +3365,7 @@
             "시운전 때 감독자 참석"
           ]
         },
-        "explain": "시설 감독자에게 참석하고 보고서 사본을 보관하도록 요청한다. 배송은 이미 완료됐다."
+        "explain": "시설 감독자에게 시운전에 참석하고 보고서 사본을 보관하도록 요청한다. 기계는 시운전 방문보다 3주 먼저 도착할 예정이어서 그 사이 보관 공간을 마련하려는 것이다."
       }
     ]
   },
@@ -4998,18 +4998,18 @@
         "type": "topic",
         "q": "What problem are the speakers addressing?",
         "choices": [
-          "A damaged catalog binding",
-          "A missing customer mailing list",
           "An incorrect destination for a printed code",
+          "A missing customer mailing list",
+          "A damaged catalog binding",
           "A shortage of packing materials"
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "화자들은 어떤 문제를 다루는가?",
           "choices": [
-            "손상된 목록 제본",
-            "누락된 고객 발송 명단",
             "인쇄 코드의 잘못된 연결 목적지",
+            "누락된 고객 발송 명단",
+            "손상된 목록 제본",
             "부족한 포장재"
           ]
         },
@@ -5019,17 +5019,17 @@
         "type": "detail",
         "q": "Why can reprinting be avoided?",
         "choices": [
-          "The intermediary address can be redirected.",
           "Customers already have the correct catalog.",
+          "The intermediary address can be redirected.",
           "The old product is still being sold.",
           "Every reader has a company account."
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "재인쇄를 피할 수 있는 이유는 무엇인가?",
           "choices": [
-            "중간 주소의 연결을 바꿀 수 있어서",
             "고객에게 이미 올바른 목록이 있어서",
+            "중간 주소의 연결을 바꿀 수 있어서",
             "옛 제품을 계속 판매해서",
             "모든 독자에게 회사 계정이 있어서"
           ]
@@ -5041,17 +5041,17 @@
         "q": "What additional check does the man propose?",
         "choices": [
           "Changing the catalog's page numbers",
-          "Testing access without logging in",
           "Opening more customer accounts",
+          "Testing access without logging in",
           "Sending the cartons before testing"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "남자가 제안하는 추가 확인은 무엇인가?",
           "choices": [
             "목록 페이지 번호 변경",
-            "로그인 없이 접근 시험",
             "고객 계정 추가 개설",
+            "로그인 없이 접근 시험",
             "시험 전에 상자 발송"
           ]
         },
