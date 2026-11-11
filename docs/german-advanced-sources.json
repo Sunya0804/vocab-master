@@ -8,7 +8,7 @@
     "file": "german-b1.json",
     "id": "german-b1",
     "count": 3620,
-    "sha256": "5ed2578124666cb491790080e45362b3fc248c44333bbcf8019ae91598af78d5",
+    "sha256": "4a422b51a6feb0190b5f9b4a61734bc33ce5ed241c8a46a2b3a452a0e3843168",
     "provenance": "german-sources.json"
   },
   "packages": [
@@ -19,7 +19,7 @@
       "newCount": 248,
       "count": 3868,
       "days": 194,
-      "sha256": "1705d305eab9134eaf830b1483e82a745f5328aa27b9a5135bf89ee12dda7513"
+      "sha256": "31a8b2a1e493344f291d7bbe97c619d77944e129284ee1f82a4d51cc619848b5"
     },
     {
       "id": "german-c1",
@@ -28,7 +28,7 @@
       "newCount": 231,
       "count": 4099,
       "days": 205,
-      "sha256": "679665ea9f29eb5035627c210fc179af0368c104369c729bc261da19795371cb"
+      "sha256": "1017a0e813f597be1b76cfb7e858aa2e99b1f595fe7b96b8a2c7e2e5e8638a74"
     },
     {
       "id": "german-c2",
@@ -37,7 +37,7 @@
       "newCount": 272,
       "count": 4371,
       "days": 219,
-      "sha256": "bc41cdeedb5d90222ba66a1003a4b295cd13498083822c19fad52c875edee0b9"
+      "sha256": "4ee9020c10f02ccc033d94e96f9a11d5d7b6cda5163203821a90108fb380082d"
     }
   ],
   "sources": [

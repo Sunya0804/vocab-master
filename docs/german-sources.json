@@ -10,21 +10,21 @@
       "id": "german-a1",
       "count": 820,
       "days": 41,
-      "sha256": "72d4642652f888ea4e76b4203e3ff482836bcc59f246baf751762b6db8afe640"
+      "sha256": "03e26995f1ef486008c894905c116d46309569e339ba6ef11538b39a0144bc1d"
     },
     {
       "file": "german-a2.json",
       "id": "german-a2",
       "count": 1579,
       "days": 79,
-      "sha256": "5f72d840baab32673778c9d9377588d35d1d86402141ba298842503436179e37"
+      "sha256": "4acc73c425819bdc450f9af3c3fcde67ac98793d8fc766f879a15941461d230a"
     },
     {
       "file": "german-b1.json",
       "id": "german-b1",
       "count": 3620,
       "days": 181,
-      "sha256": "5ed2578124666cb491790080e45362b3fc248c44333bbcf8019ae91598af78d5"
+      "sha256": "4a422b51a6feb0190b5f9b4a61734bc33ce5ed241c8a46a2b3a452a0e3843168"
     }
   ],
   "sources": [
