@@ -16,6 +16,23 @@
     try {
       const parts = (location.hash || '#/home').slice(2).split('/').map(decodeURIComponent);
       const page = parts[0];
+      // Fetch only the built-in packages this screen reads; show the loading state meanwhile.
+      const needed = page === 'home' || !page ? [(findPackage(selectedPackage) || packages()[0])?.id]
+        : ['day','cards','quiz','cloze','listen'].includes(page) ? [parts[1]]
+        : page === 'wrong' ? [...new Set(Object.values(state.wrong).map(entry => entry.pkg))] : [];
+      const pending = builtins.filter(pkg => needed.includes(pkg.id) && !packageReady(pkg));
+      if (pending.some(pkg => pkg.failed)) {
+        pending.forEach(pkg => { delete pkg.failed; });
+        main.innerHTML = `<div class="empty-state"><h1>단어장을 불러오지 못했어요</h1><p>연결을 확인한 뒤 다시 시도해 주세요. 한 번 연 단어장은 오프라인에서도 열려요.</p><button class="primary" data-action="reload-packages">다시 시도</button></div>`;
+        main.setAttribute('aria-busy', 'false');
+        return;
+      }
+      if (pending.length) {
+        main.innerHTML = '<div class="empty-state"><h1>단어장을 준비하고 있어요</h1><p>단어장 불러오는 중</p></div>';
+        main.setAttribute('aria-busy', 'true');
+        void loadPackages(pending.map(pkg => pkg.id)).then(render);
+        return;
+      }
       let html;
       if (page === 'home' || !page) html = renderHome();
       else if (page === 'wrong') html = renderWrong();
@@ -73,6 +90,7 @@
     if (!button || button.disabled || !ready) return;
     const {action, pkg:pkgId, day} = button.dataset;
     if (action === 'speak') speak(button.dataset.text, button.dataset.lang);
+    else if (action === 'reload-packages') render();
     else if (action === 'exam-level') { const level = Number(button.dataset.level); if ([0, 1, 2, 3].includes(level)) { examDifficulty = level; render(); } }
     else if (action === 'exam-start') startExam(Number(button.dataset.part), button.dataset.mode);
     else if (action === 'exam-reload') { void loadExamBank(Number(button.dataset.part)); render(); }
@@ -330,18 +348,14 @@
     try {
       const response = await fetch('./packages/index.json');
       if (!response.ok) throw new Error('Package index unavailable');
-      const files = await response.json();
-      if (!Array.isArray(files)) throw new Error('Invalid package index');
-      const results = await Promise.allSettled(files.map(async filename => {
-        if (typeof filename !== 'string' || !/^[\w.-]+\.json$/.test(filename)) throw new Error('Invalid package filename');
-        const response = await fetch(`./packages/${filename}`);
-        if (!response.ok) throw new Error('Package unavailable');
-        const pkg = await response.json();
-        if (!validPackage(pkg)) throw new Error('Invalid package');
-        return pkg;
-      }));
-      builtins = results.filter(result => result.status === 'fulfilled').map(result => result.value);
-      if (results.some(result => result.status === 'rejected')) toast('일부 단어장을 불러오지 못했어요. 연결 후 새로고침해 주세요.');
+      const entries = await response.json();
+      if (!Array.isArray(entries)) throw new Error('Invalid package index');
+      // Only names and languages here; render() fetches a package's words when a screen needs them.
+      builtins = entries.filter(entry => isObject(entry) && typeof entry.file === 'string' && /^[\w.-]+\.json$/.test(entry.file)
+        && typeof entry.id === 'string' && entry.id && typeof entry.name === 'string' && entry.name.trim()
+        && (entry.lang === undefined || typeof entry.lang === 'string') && (entry.languageName === undefined || typeof entry.languageName === 'string'))
+        .map(entry => ({file:entry.file, id:entry.id, name:entry.name, ...(entry.lang ? {lang:entry.lang} : {}), ...(entry.languageName ? {languageName:entry.languageName} : {})}));
+      if (builtins.length < entries.length) toast('일부 단어장을 불러오지 못했어요. 연결 후 새로고침해 주세요.');
     } catch (_) { toast('기본 단어장을 불러오지 못했어요. 연결 후 새로고침해 주세요.'); }
     ready = true;
     if (!location.hash || location.hash === '#main') history.replaceState(null, '', '#/home');

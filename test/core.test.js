@@ -776,6 +776,21 @@ test('German cloze finds separated, umlaut-changed and participle verb forms wit
   assert.ok(!Core.stemMatches('fährt', 'fahren', false));
 });
 
+test('package index entries match their package files (id, name, language)', () => {
+  const dir = path.join(__dirname, '../packages');
+  const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
+  assert.ok(Array.isArray(index) && index.length);
+  assert.equal(new Set(index.map(entry => entry.id)).size, index.length);
+  const listed = fs.readdirSync(dir).filter(file => file.endsWith('.json') && file !== 'index.json').sort();
+  assert.deepEqual(index.map(entry => entry.file).sort(), listed);
+  for (const entry of index) {
+    assert.match(entry.file, /^[\w.-]+\.json$/);
+    const pkg = JSON.parse(fs.readFileSync(path.join(dir, entry.file), 'utf8'));
+    assert.deepEqual(Object.keys(entry).sort(), ['file', 'id', 'name', ...['lang', 'languageName'].filter(key => key in pkg)].sort(), entry.file);
+    for (const key of ['id', 'name', 'lang', 'languageName']) assert.equal(entry[key], pkg[key], `${entry.file} ${key}`);
+  }
+});
+
 test('spokenText reads only the part before " / " and keeps ellipses', () => {
   assert.equal(Core.spokenText('ihr / Ihr'), 'ihr');
   assert.equal(Core.spokenText('Deutsch / deutsch'), 'Deutsch');

@@ -1,1 +1,11 @@
-["toeic.json", "suneung.json", "teps.json", "german-a1.json", "german-a2.json", "german-b1.json", "german-b2.json", "german-c1.json", "german-c2.json"]
+[
+  {"file": "toeic.json", "id": "toeic", "name": "토익 종합 보카 5804"},
+  {"file": "suneung.json", "id": "suneung", "name": "수능 필수 보카 3000"},
+  {"file": "teps.json", "id": "teps", "name": "TEPS 필수 보카 2000"},
+  {"file": "german-a1.json", "id": "german-a1", "name": "독일어 A1 보카 820", "lang": "de-DE", "languageName": "독일어"},
+  {"file": "german-a2.json", "id": "german-a2", "name": "독일어 A2 보카 1579 · A1 포함", "lang": "de-DE", "languageName": "독일어"},
+  {"file": "german-b1.json", "id": "german-b1", "name": "독일어 B1 보카 3620 · A2까지 포함", "lang": "de-DE", "languageName": "독일어"},
+  {"file": "german-b2.json", "id": "german-b2", "name": "독일어 B2 보카 3868 · B1까지 포함", "lang": "de-DE", "languageName": "독일어"},
+  {"file": "german-c1.json", "id": "german-c1", "name": "독일어 C1 보카 4099 · B2까지 포함", "lang": "de-DE", "languageName": "독일어"},
+  {"file": "german-c2.json", "id": "german-c2", "name": "독일어 C2 보카 4371 · C1까지 포함", "lang": "de-DE", "languageName": "독일어"}
+]

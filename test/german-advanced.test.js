@@ -16,7 +16,7 @@ let passed=0;
 function test(name,run){run();passed++;console.log('ok - '+name);}
 
 test('B2-C2 packages are registered and preserve every lower-level row and grammar field', () => {
-  const index=read('packages/index.json');
+  const index=read('packages/index.json').map(entry => entry.file);
   assert.equal(hash('packages/german-b1.json'),manifest.base.sha256);
   assert.equal(manifest.base.count,3620);
   packages.forEach((pkg,i) => {

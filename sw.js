@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v25-cloze-de';
+const CACHE_VERSION = 'vocab-master-shell-v26-lazy-packages';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = ['questions/toeic-part2.json', 'questions/toeic-part3.json', 'questions/toeic-part4.json', 'questions/toeic-part5.json'];
@@ -17,8 +17,9 @@ async function precachePackages() {
     const response = await fetch(indexRequest);
     if (!response.ok) return;
     await cache.put(indexRequest, response.clone()).catch(() => {});
-    const files = await response.json();
-    if (!Array.isArray(files)) return;
+    const entries = await response.json();
+    if (!Array.isArray(entries)) return;
+    const files = entries.map(entry => entry && entry.file);
     await Promise.allSettled(files.filter(file => typeof file === 'string' && /^[\w.-]+\.json$/.test(file)).map(async file => {
       const request = reloadRequest(`./packages/${file}`);
       const response = await fetch(request);

@@ -70,6 +70,25 @@
   }
 
   const packages = () => [...builtins, ...state.custom];
+  // Built-ins start as index entries {file, id, name, lang?, languageName?}; words arrive when a screen needs them.
+  const packageReady = pkg => Array.isArray(pkg?.words);
+  const packageLoads = Object.create(null);
+  function loadPackages(ids) {
+    return Promise.all(ids.map(id => {
+      const entry = builtins.find(pkg => pkg.id === id);
+      if (!entry || packageReady(entry)) return null;
+      return packageLoads[id] ||= (async () => {
+        try {
+          const response = await fetch(`./packages/${entry.file}`);
+          if (!response.ok) throw new Error('Package unavailable');
+          const pkg = await response.json();
+          if (!validPackage(pkg) || pkg.id !== id) throw new Error('Invalid package');
+          builtins[builtins.indexOf(entry)] = pkg;
+        } catch (_) { entry.failed = true; }
+        finally { delete packageLoads[id]; }
+      })();
+    }));
+  }
   const findPackage = id => packages().find(pkg => pkg.id === id);
   const wrongEntries = () => Object.entries(state.wrong).sort((a, b) => b[1].miss - a[1].miss || a[1].en.localeCompare(b[1].en));
   const isKnown = (pkg, word) => !!state.known[Core.wordId(pkg, word[0])];

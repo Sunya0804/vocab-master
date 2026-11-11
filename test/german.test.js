@@ -9,7 +9,7 @@ const root = path.resolve(__dirname, '..');
 const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const manifest = read('docs/german-sources.json');
 const packages = ['a1','a2','b1'].map(level => read(`packages/german-${level}.json`));
-const all = packages[2], index = read('packages/index.json');
+const all = packages[2], index = read('packages/index.json').map(entry => entry.file);
 let passed = 0;
 function test(name, run) { run(); passed++; console.log('ok - ' + name); }
 
