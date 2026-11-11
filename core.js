@@ -414,6 +414,9 @@
   // Long stems match by prefix; stems of 3 letters or fewer ("in", "as", "for") only as the whole word,
   // in English also with s/es/d/ed/ing, so "in" never grabs "interview".
   function stemMatches(token, stem, german) {
+    return strictStemMatch(token, stem, german) || (!!german && verbFormMatches(token, stem));
+  }
+  function strictStemMatch(token, stem, german) {
     token = token.toLowerCase();
     if (stem.length > 3) return token.indexOf(stem) === 0;
     if (token === stem) return true;
@@ -421,6 +424,71 @@
     // German: adjective/noun endings (gut → gutes). English: s/es/d/ed/ing, a doubled final consonant counts (running, hugged).
     return german ? /^(e|es|er|en|em)$/.test(token.slice(stem.length))
       : new RegExp('^' + stem.slice(-1) + '?(s|es|d|ed|ing)$').test(token.slice(stem.length));
+  }
+
+  // German verbs: an explicit set of forms, matched as whole tokens, used only where stemMatches finds nothing.
+  // Present/imperative/weak past endings, vowel change a→ä, au→äu, o→ö, e→i/ie (2nd/3rd person and imperative),
+  // participles ge…t/ge…en, and for separable verbs the attached forms (anfängt, angefangen, anzufangen).
+  // shortcut: no irregular past or ablaut participles (ging, gesprochen); add a form table if those matter.
+  var SEPARABLE = ['zusammen', 'zurück', 'vorbei', 'herein', 'heraus', 'herunter', 'hinein', 'hinaus', 'hinunter', 'weiter',
+    'kennen', 'statt', 'teil', 'fest', 'fort', 'nach', 'ab', 'an', 'auf', 'aus', 'bei', 'ein', 'her', 'hin', 'los', 'mit',
+    'um', 'vor', 'weg', 'zu'];
+  var germanVerbCache = Object.create(null);
+  function verbStem(infinitive) {
+    if (/[^e]en$/.test(infinitive) || /een$/.test(infinitive)) return infinitive.slice(0, -2);
+    if (/(e[lr]n|un)$/.test(infinitive)) return infinitive.slice(0, -1);
+    return null;
+  }
+  function vowelChanges(stem) {
+    var out = [];
+    [[/au/g, 'äu'], [/a(?!u)/g, 'ä'], [/o/g, 'ö'], [/e/g, 'i'], [/e/g, 'ie']].forEach(function (rule) {
+      var match;
+      while ((match = rule[0].exec(stem))) out.push(stem.slice(0, match.index) + rule[1] + stem.slice(match.index + match[0].length));
+    });
+    return out;
+  }
+  // Finite forms (present, imperative, weak past) of an infinitive without a separable prefix.
+  function finiteForms(infinitive, add) {
+    var stem = verbStem(infinitive);
+    if (!stem || stem.length < 2) return;
+    ['', 'e', 'st', 't', 'et', 'est', 'en', 'n', 'te', 'test', 'ten', 'tet', 'ete', 'eten'].forEach(function (ending) {
+      if (ending || /[^aeiouäöü]$/.test(stem)) add(stem + ending);
+    });
+    vowelChanges(stem).forEach(function (changed) {
+      ['st', 't', ''].forEach(function (ending) { add(changed + ending); });
+    });
+  }
+  function participles(infinitive, add) {
+    var stem = verbStem(infinitive);
+    if (!stem || stem.length < 2) return;
+    add('ge' + stem + 't'); add('ge' + stem + 'et'); add('ge' + infinitive);
+  }
+  function germanVerb(stem) {
+    if (germanVerbCache[stem]) return germanVerbCache[stem];
+    var verb = { forms: new Set(), prefix: '', finite: new Set() };
+    if (stem.length >= 4 && (/(en|ern|eln)$/.test(stem) || stem === 'tun')) {
+      var add = function (form) { verb.forms.add(form); };
+      finiteForms(stem, add);
+      participles(stem, add);
+      var prefix = SEPARABLE.find(function (p) { return stem.indexOf(p) === 0 && stem.length - p.length >= 3; });
+      var body = prefix && stem.slice(prefix.length);
+      if (prefix && verbStem(body)) {
+        verb.prefix = prefix;
+        finiteForms(body, function (form) { verb.finite.add(form); add(prefix + form); });
+        participles(body, function (form) { add(prefix + form); });
+        add(prefix + 'zu' + body);
+      }
+    }
+    germanVerbCache[stem] = verb;
+    return verb;
+  }
+  function verbFormMatches(token, stem) {
+    return germanVerb(stem).forms.has(token.toLowerCase());
+  }
+  // The separated prefix closes its clause: last word, or followed by punctuation or und/oder/aber/denn.
+  function closesClause(text, token, next) {
+    var rest = text.slice(token.index + token.text.length);
+    return !next || /^\s*[.,;:!?)–—"“”»]/.test(rest) || /^(und|oder|aber|denn)$/i.test(next.text);
   }
 
   // Splits word[3] into text and blanks: each stem takes its first matching token after the previous blank.
@@ -435,10 +503,26 @@
     while ((match = EXAMPLE_TOKEN.exec(text))) tokens.push({ text: match[0], index: match.index });
     var picked = [];
     var from = 0;
+    var find = function (test, start) {
+      for (var k = start; k < tokens.length; k++) if (test(tokens[k])) return k;
+      return -1;
+    };
     for (var i = 0; i < stems.length; i++) {
-      while (from < tokens.length && !stemMatches(tokens[from].text, stems[i], german)) from++;
-      if (from >= tokens.length) return null;
-      picked.push(tokens[from++]);
+      var stem = stems[i];
+      var at = find(function (token) { return strictStemMatch(token.text, stem, german); }, from);
+      if (at < 0 && german) at = find(function (token) { return verbFormMatches(token.text, stem); }, from);
+      if (at >= 0) { picked.push(tokens[at]); from = at + 1; continue; }
+      // Separated verb: finite form, then the prefix closing its clause ("fängt … an"); last such prefix wins.
+      var verb = german ? germanVerb(stem) : null;
+      var finite = verb && verb.prefix ? find(function (token) { return verb.finite.has(token.text.toLowerCase()); }, from) : -1;
+      if (finite < 0) return null;
+      var particle = -1;
+      for (var k = finite + 1; k < tokens.length; k++) {
+        if (tokens[k].text.toLowerCase() === verb.prefix && closesClause(text, tokens[k], tokens[k + 1])) particle = k;
+      }
+      if (particle < 0) return null;
+      picked.push(tokens[finite], tokens[particle]);
+      from = particle + 1;
     }
     var segments = [];
     var cursor = 0;

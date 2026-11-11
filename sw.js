@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v24-ui-polish';
+const CACHE_VERSION = 'vocab-master-shell-v25-cloze-de';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = ['questions/toeic-part2.json', 'questions/toeic-part3.json', 'questions/toeic-part4.json', 'questions/toeic-part5.json'];

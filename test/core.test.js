@@ -714,7 +714,7 @@ test('clozeExample blanks inflected, phrasal and German forms; clozeCorrect norm
   assert.deepEqual(blanks(c), ['set', 'up']);
   assert.equal(c.answer, 'set up');
   c = Core.clozeExample(['fahren', '타고 가다', 'v', 'Er fährt morgen nach Berlin.', ''], true);
-  assert.equal(c, null, 'umlaut stem change is a match failure under the highlight rule');
+  assert.equal(c.answer, 'fährt', 'umlaut stem change a→ä matches');
   c = Core.clozeExample(['der Bahnhof', '역', 'n', 'Der Bahnhof ist weit.', ''], true);
   assert.deepEqual(blanks(c), ['Bahnhof']);
   c = Core.clozeExample(['sich freuen', '기뻐하다', 'v', 'Wir freuen uns sehr.', ''], true);
@@ -746,6 +746,34 @@ test('short stems match whole words only; prefix headwords are not cloze questio
   assert.ok(!Core.stemMatches('ins', 'in', true));
   assert.equal(Core.clozeExample(['Feier-', '', '', 'Morgen ist ein Feiertag.'], true), null);
   assert.equal(Core.clozeExample(['irgend-', '', '', 'Irgendwann komme ich.'], true), null);
+});
+
+test('German cloze finds separated, umlaut-changed and participle verb forms without false matches', () => {
+  const de = (head, ex) => { const c = Core.clozeExample([head, '', '동', ex], true); return c && c.answer; };
+  // Separable verbs: separated (prefix closing the clause, last one wins) and attached forms.
+  assert.equal(de('anfangen', 'Der Kurs fängt um neun an.'), 'fängt an');
+  assert.equal(de('ankommen', 'Er kommt an der Haltestelle an.'), 'kommt an');
+  assert.equal(de('aufstehen', 'Ich stehe früh auf, und dann jogge ich.'), 'stehe auf');
+  assert.equal(de('anfangen', 'Wir haben schon angefangen.'), 'angefangen');
+  assert.equal(de('anfangen', 'Es ist Zeit, mit der Arbeit anzufangen.'), 'anzufangen');
+  assert.equal(de('anfangen', 'Ich weiß, dass der Kurs um neun anfängt.'), 'anfängt');
+  // Vowel change and participles.
+  assert.equal(de('laufen', 'Sie läuft jeden Morgen.'), 'läuft');
+  assert.equal(de('geben', 'Er gibt mir das Buch.'), 'gibt');
+  assert.equal(de('sehen', 'Sie sieht den Fehler.'), 'sieht');
+  assert.equal(de('stoßen', 'Er stößt an die Tür.'), 'stößt');
+  assert.equal(de('kaufen', 'Ich habe Brot gekauft.'), 'gekauft');
+  assert.equal(de('fahren', 'Wir sind nach Wien gefahren.'), 'gefahren');
+  assert.equal(de('trainieren', 'Die Mannschaft trainiert zweimal pro Woche.'), 'trainiert');
+  // No false matches: preposition "an" mid-clause, nouns, unrelated words, English untouched.
+  assert.equal(de('anfangen', 'Er fängt an der Uni.'), null);
+  assert.equal(de('leben', 'Die Liebe ist groß.'), null);
+  assert.equal(de('fahren', 'Die Fähre ist voll.'), null);
+  assert.equal(Core.clozeExample(['play', '', 'v', 'She plays tennis.'], false).answer, 'plays');
+  assert.equal(Core.clozeExample(['give', '', 'v', 'He gave me a book.'], false), null);
+  // Highlighting uses the same single-token forms.
+  assert.ok(Core.stemMatches('fährt', 'fahren', true));
+  assert.ok(!Core.stemMatches('fährt', 'fahren', false));
 });
 
 test('spokenText reads only the part before " / " and keeps ellipses', () => {
