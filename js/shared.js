@@ -7,6 +7,8 @@
   const supportsSpeech = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   let Core, state, storage, preferenceStorage, builtins = [], selectedPackage = '', session = null;
   let selectedLevels = Object.create(null);
+  // Last wordbook per language name, so the language switch returns to it.
+  let selectedByLanguage = Object.create(null);
   let quizTimer, toastTimer, practiceId = 0, meaningsHidden = false, ready = false;
   const draft = {text:'', name:'', words:[]};
   const homePositions = new Map();
@@ -34,7 +36,10 @@
         const saved = preferences.progress['preferences:selection'];
         const levels = isObject(saved?.levels) ? {...saved.levels} : {};
         levels[selectedPackage] = selectedLevels[selectedPackage] ?? null;
-        preferences.progress['preferences:selection'] = {package:selectedPackage, levels};
+        const languages = isObject(saved?.languages) ? {...saved.languages} : {};
+        if (findPackage(selectedPackage)) languages[languageName(selectedPackage)] = selectedPackage;
+        selectedByLanguage = Object.assign(Object.create(null), languages);
+        preferences.progress['preferences:selection'] = {package:selectedPackage, levels, languages};
       }
       if (Core.saveState(preferenceStorage, preferences) === false) throw new Error('Preferences unavailable');
       return true;
@@ -64,6 +69,10 @@
         for (const [pkgId, level] of Object.entries(selection.levels)) {
           if (level === null || typeof level === 'string') selectedLevels[pkgId] = level;
         }
+      }
+      selectedByLanguage = Object.create(null);
+      if (isObject(selection?.languages)) {
+        for (const [name, pkgId] of Object.entries(selection.languages)) if (typeof pkgId === 'string') selectedByLanguage[name] = pkgId;
       }
     }
     return loaded;

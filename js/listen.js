@@ -67,6 +67,12 @@
     if (listenSettings.examples) {
       if (word[3]) queue.push({text:word[3], lang:packageLang(listening.pkgId)});
       if (word[4] && korean) queue.push({text:word[4], lang:'ko-KR'});
+      // Only the first other sense, so one word does not run too long.
+      const [sense] = Core.wordSenses(word);
+      if (sense) {
+        queue.push({text:sense[1], lang:packageLang(listening.pkgId)});
+        if (korean) queue.push({text:sense[2], lang:'ko-KR'});
+      }
     }
     listening.status = `재생 중 · ${languageName(listening.pkgId)} 단어 → 뜻` + (listenSettings.examples ? ' → 예문 → 해석' : '');
     refreshListening();
@@ -172,7 +178,7 @@
     const s = listening, word = s.words[s.index];
     return `${back(dayHash(pkg.id, day), 'Day로 돌아가기')}${intro(pkg.name, `Day ${String(day + 1).padStart(2, '0')} 듣기`, '한 단어씩 듣고, 뜻을 떠올려 보세요.')}
       <div class="session-top"><span class="pill">단어 듣기</span><p id="listen-position">${s.index + 1} / ${s.words.length}</p></div>${meter(s.index + 1, s.words.length, '현재 듣는 단어 위치')}
-      <section class="listen-card" aria-label="현재 듣는 단어"><h2 class="english" lang="${escape(packageLang(pkg.id))}">${escape(word[0])}</h2>${posBadge(word)}<p class="listen-meaning" lang="ko">${escape(word[1])}</p>${wordGrammarHTML(word, pkg.id)}${exampleHTML(word, false, false, pkg.id)}</section>
+      <section class="listen-card" aria-label="현재 듣는 단어"><h2 class="english" lang="${escape(packageLang(pkg.id))}">${escape(word[0])}</h2>${posBadge(word)}<p class="listen-meaning" lang="ko">${escape(word[1])}</p>${wordGrammarHTML(word, pkg.id)}${exampleHTML(word, false, false, pkg.id)}${listenSettings.examples ? sensesHTML([...word.slice(0, 5), Core.wordSenses(word).slice(0, 1)], false, false, pkg.id) : ''}</section>
       <p id="listen-status" class="session-note">${supportsSpeech ? escape(s.status) : '이 브라우저는 음성 합성을 지원하지 않아요. 음성을 지원하는 브라우저에서 열어 주세요.'}</p>
       ${s.notice ? `<p class="offline-banner listen-notice">${escape(s.notice)}</p>` : ''}
       <div class="button-row listen-controls"><button id="listen-prev" data-action="listen-prev" aria-label="이전 단어" ${!supportsSpeech || s.index === 0 ? 'disabled' : ''}>${icon('arrow-left')} 이전</button><button id="listen-toggle" class="secondary" data-action="listen-toggle" aria-label="듣기 ${s.playing ? '일시정지' : '재생'}" aria-pressed="${s.playing}" ${!supportsSpeech ? 'disabled' : ''}>${s.playing ? `${icon('pause')} 일시정지` : `${icon('play')} 재생`}</button><button id="listen-next" data-action="listen-next" aria-label="다음 단어" ${!supportsSpeech || s.index === s.words.length - 1 ? 'disabled' : ''}>다음 ${icon('arrow-right')}</button></div>

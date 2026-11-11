@@ -238,7 +238,9 @@
     mockRun.sheet = false;
     saveMockState();
     render();
-    document.getElementById(`mock-choice-${no}-0`)?.scrollIntoView({block:'center'});
+    // The first question of a set opens at its passage; later ones scroll to the question itself.
+    if (item.no === item.unit.first) window.scrollTo(0, 0);
+    else document.getElementById(`mock-choice-${no}-0`)?.scrollIntoView({block:'center'});
   }
 
   function toggleMockSheet() {
@@ -385,7 +387,12 @@
         <p class="exam-note">근사치예요(섹션별 ±50점). 공식 환산표는 공개되지 않아, 알려진 근사표의 구간 중간값을 이어서 계산했어요.</p></section>
       <section class="exam-card"><h2>파트별 정답률</h2><dl class="exam-type-results">${parts.map(r => `<div><dt>Part ${r.part} ${escape(EXAM_PARTS[r.part].name)}</dt><dd>${r.right} / ${r.total} · ${Math.round(r.right / r.total * 100)}%</dd></div>`).join('')}</dl></section>
       <section class="mock-review"><h2>틀린 문항 ${200 - attempt.lc - attempt.rc}개</h2><p class="exam-note">안 푼 문항도 틀린 문항에 들어가요. 누르면 해설·번역·대본이 열려요.</p>
-        ${wrongUnits.map(unit => renderMockReview(n, unit, answers)).join('')}</section>
+        ${[1, 2, 3, 4, 5, 6, 7].map(part => {
+          // One fold per part: with many misses, 200 unit rows made the page several screens long.
+          const units = wrongUnits.filter(unit => unit.part === part);
+          const count = units.reduce((sum, unit) => sum + mockBanks[n].items.slice(unit.first, unit.last + 1).filter(item => answers[item.no] !== item.q.answer).length, 0);
+          return units.length ? `<details class="mock-review-part"><summary>Part ${part} ${escape(EXAM_PARTS[part].name)} · ${count}개</summary>${units.map(unit => renderMockReview(n, unit, answers)).join('')}</details>` : '';
+        }).join('')}</section>
       ${attempts.length > 1 ? `<section class="exam-card"><h2>응시 기록</h2><dl class="exam-type-results">${attempts.slice().reverse().map(a => { const s = scoreOf(a); return `<div><dt>${day(a.at)}</dt><dd>${s.lc + s.rc}점 (LC ${a.lc} · RC ${a.rc})</dd></div>`; }).join('')}</dl></section>` : ''}
       <div class="stack exam-result-actions"><button class="secondary full" data-action="mock-start" data-test="${n}">다시 응시</button><a class="button-link full" href="#/exam">문제 홈으로</a></div>`;
   }

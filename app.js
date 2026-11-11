@@ -125,8 +125,9 @@
       main.querySelector(`[data-action="filter-level"][data-level="${index}"]`)?.focus({preventScroll:true});
     }
     else if (action === 'pick-language') {
-      // shortcut: switching language opens that language's first wordbook; remember the last one per language if users ask.
-      const pkg = packages().find(item => languageName(item.id) === button.dataset.language);
+      // Returns to the wordbook last opened in that language; its first wordbook otherwise (or if that one was deleted).
+      const inLanguage = packages().filter(item => languageName(item.id) === button.dataset.language);
+      const pkg = inLanguage.find(item => item.id === selectedByLanguage[button.dataset.language]) || inLanguage[0];
       if (pkg && languageName(selectedPackage) !== button.dataset.language) { selectedPackage = pkg.id; persist({saveSelection:true}); render(); }
       main.querySelector(`[data-action="pick-language"][data-language="${CSS.escape(button.dataset.language)}"]`)?.focus({preventScroll:true});
     }
