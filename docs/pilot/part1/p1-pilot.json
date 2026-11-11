@@ -1,0 +1,80 @@
+[
+  {
+    "id": "p1-pilot-001",
+    "image": "p1-pilot-1.webp",
+    "alt": "창가의 사무실에 한 사람과 사무용 가구, 책상 위 소품들이 보이는 흑백 사진.",
+    "choices": [
+      "She's making a call on the telephone.",
+      "She's holding a folder at a filing cabinet.",
+      "She's wiping the surface of the desk.",
+      "She's sitting down at the desk."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "여자가 전화기로 통화하고 있다.",
+        "여자가 서류 캐비닛 앞에서 서류철을 들고 있다.",
+        "여자가 책상 표면을 닦고 있다.",
+        "여자가 책상 앞에 앉고 있다."
+      ]
+    },
+    "trap": [
+      "related-object",
+      "wrong-action",
+      "wrong-posture"
+    ],
+    "explain": "여자가 열린 서류 캐비닛 앞에서 서류철을 손으로 잡고 있으므로 (B)가 맞다. (A)의 전화기는 뒤쪽 책상에 놓여 있고, 책상을 닦는 동작이나 앉는 자세는 보이지 않아 (C)와 (D)는 오답이다."
+  },
+  {
+    "id": "p1-pilot-002",
+    "image": "p1-pilot-2.webp",
+    "alt": "상점 건물 앞 보도에 두 사람과 운반 기구, 자전거, 화분이 보이는 흑백 사진.",
+    "choices": [
+      "A woman is pushing a hand truck.",
+      "The man is riding a bicycle.",
+      "The boxes are stacked on the sidewalk.",
+      "Both people are carrying cardboard boxes."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "여자가 손수레를 밀고 있다.",
+        "남자가 자전거를 타고 있다.",
+        "상자들이 보도 위에 쌓여 있다.",
+        "두 사람이 모두 종이 상자를 운반하고 있다."
+      ]
+    },
+    "trap": [
+      "wrong-action",
+      "related-object",
+      "state-vs-action"
+    ],
+    "explain": "두 사람이 각각 바닥에서 떨어진 상자를 들고 걷고 있으므로 (D)가 맞다. (A)의 손수레와 (B)의 자전거는 사용되지 않은 채 세워져 있고, 상자는 바닥에 쌓여 있지 않아 (C)도 오답이다."
+  },
+  {
+    "id": "p1-pilot-003",
+    "image": "p1-pilot-3.webp",
+    "alt": "야외 테라스에 테이블과 의자, 접힌 파라솔, 화분이 있는 흑백 사진.",
+    "choices": [
+      "Several chairs have been stacked beside the tables.",
+      "The furniture is being rearranged by a worker.",
+      "Tablecloths have been spread across the tables.",
+      "An umbrella is open above a table."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "의자 여러 개가 테이블 옆에 포개져 있다.",
+        "직원이 가구를 재배치하고 있다.",
+        "테이블들 위에 식탁보가 펼쳐져 있다.",
+        "테이블 위쪽에 파라솔이 펼쳐져 있다."
+      ]
+    },
+    "trap": [
+      "ongoing-passive",
+      "absent-object",
+      "opposite-state"
+    ],
+    "explain": "의자가 테이블 옆에서 포개진 상태로 놓여 있으므로 (A)가 맞으며, 작업자가 없어 진행 중인 동작을 묘사한 is being rearranged의 (B)는 맞지 않는다. 테이블 위에는 식탁보가 없고 파라솔은 접혀 있으므로 (C)와 (D)도 오답이다."
+  }
+]

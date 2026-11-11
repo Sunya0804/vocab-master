@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "p1-1-001",
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "office",
+    "image": "images/part1/p1-1-001.webp",
+    "alt": "사무실에 남자와 복사기, 의자, 전화기가 보이는 흑백 사진.",
+    "choices": [
+      "He's holding an open folder.",
+      "He's answering the desk telephone.",
+      "He's sitting beside the window.",
+      "He's opening the copier lid."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "남자가 펼친 서류철을 들고 있다.",
+        "남자가 책상 전화기를 받고 있다.",
+        "남자가 창문 옆에 앉아 있다.",
+        "남자가 복사기 덮개를 열고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "position",
+      "action"
+    ],
+    "explain": "남자의 손이 펼친 서류철을 받치고 있으므로 (A)가 정답이다. 전화기는 책상에 놓여 있고 남자는 서 있어 (B)와 (C)는 사진과 다르다."
+  },
+  {
+    "id": "p1-1-002",
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "outdoor-work",
+    "image": "images/part1/p1-1-002.webp",
+    "alt": "정원에서 여자와 화분, 손수레, 삽이 보이는 흑백 사진.",
+    "choices": [
+      "She's pushing a wheelbarrow along the path.",
+      "She's digging beside the wall.",
+      "She's watering a potted plant.",
+      "She's carrying a coiled hose."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "여자가 길을 따라 외바퀴 손수레를 밀고 있다.",
+        "여자가 벽 옆에서 땅을 파고 있다.",
+        "여자가 화분에 심긴 식물에 물을 주고 있다.",
+        "여자가 감긴 호스를 운반하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "물뿌리개에서 화분으로 물이 흐르므로 (C)가 정답이다. 삽은 벽에 기대어 있고 호스는 바닥에 있어 (B)와 (D)는 하지 않는 동작이다."
+  },
+  {
+    "id": "p1-1-003",
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "restaurant",
+    "image": "images/part1/p1-1-003.webp",
+    "alt": "카페에 남자와 테이블, 의자, 컵이 보이는 흑백 사진.",
+    "choices": [
+      "He's stacking cups on a table.",
+      "He's wiping a table with a cloth.",
+      "He's opening the patio umbrella.",
+      "He's carrying a chair outside."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "남자가 테이블에 컵을 포개고 있다.",
+        "남자가 천으로 테이블을 닦고 있다.",
+        "남자가 야외 파라솔을 펼치고 있다.",
+        "남자가 의자를 밖으로 운반하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "남자가 손으로 천을 눌러 테이블 표면을 닦으므로 (B)가 정답이다. 컵은 뒤쪽 카운터에 있으며 파라솔은 접혀 있어 (A)와 (C)는 맞지 않는다."
+  },
+  {
+    "id": "p1-1-004",
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "warehouse",
+    "image": "images/part1/p1-1-004.webp",
+    "alt": "창고 통로에 여자와 상자, 운반대, 선반이 보이는 흑백 사진.",
+    "choices": [
+      "She's climbing a small ladder.",
+      "She's opening a carton on the shelf.",
+      "She's sitting on a loaded cart.",
+      "She's pushing a cart of boxes."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "여자가 작은 사다리를 오르고 있다.",
+        "여자가 선반의 상자를 열고 있다.",
+        "여자가 짐을 실은 운반대에 앉아 있다.",
+        "여자가 상자를 실은 운반대를 밀고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "position"
+    ],
+    "explain": "여자가 운반대 손잡이를 두 손으로 잡고 앞으로 움직이므로 (D)가 정답이다. 사다리와 선반 상자는 손대지 않은 상태여서 (A)와 (B)는 오답이다."
+  },
+  {
+    "id": "p1-1-005",
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "home",
+    "image": "images/part1/p1-1-005.webp",
+    "alt": "거실에 남자와 의자, 소파, 책장이 보이는 흑백 사진.",
+    "choices": [
+      "He's adjusting the floor lamp.",
+      "He's tying his shoelaces while seated.",
+      "He's taking a book off the shelf.",
+      "He's spreading a blanket on the sofa."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "남자가 플로어 램프를 조절하고 있다.",
+        "남자가 앉아서 신발 끈을 묶고 있다.",
+        "남자가 선반에서 책을 꺼내고 있다.",
+        "남자가 소파에 담요를 펼치고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "남자가 의자에 앉아 두 손으로 신발 끈을 잡고 있으므로 (B)가 정답이다. 손이 램프나 책장에 닿아 있지 않아 (A)와 (C)는 틀린 동작이다."
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "store",
+    "alt": "의류 매장에 여자와 선반, 마네킹, 거울이 보이는 흑백 사진.",
+    "choices": [
+      "She's trying on a shirt.",
+      "She's moving the display mannequin.",
+      "She's placing shoes on a shelf.",
+      "She's handling some folded clothing."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "여자가 셔츠를 입어 보고 있다.",
+        "여자가 진열용 마네킹을 옮기고 있다.",
+        "여자가 선반에 신발을 놓고 있다.",
+        "여자가 접힌 옷을 만지고 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "action",
+      "absent"
+    ],
+    "explain": "여자가 선반 위 접힌 옷에 양손을 대고 있으므로 (D)가 정답이다. 셔츠를 입거나 마네킹을 옮기는 동작은 없어 (A)와 (B)는 오답이다.",
+    "id": "p1-1-006",
+    "image": "images/part1/p1-1-006.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "lab",
+    "alt": "실험실에 남자와 현미경, 시험관, 싱크대가 보이는 흑백 사진.",
+    "choices": [
+      "He's looking through a microscope.",
+      "He's washing tubes in the sink.",
+      "He's putting on a laboratory coat.",
+      "He's carrying a stool across the room."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "남자가 현미경을 들여다보고 있다.",
+        "남자가 싱크대에서 시험관을 씻고 있다.",
+        "남자가 실험복을 입고 있다.",
+        "남자가 방을 가로질러 의자를 운반하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "wearing",
+      "action"
+    ],
+    "explain": "남자가 현미경 접안부에 눈을 대고 있으므로 (A)가 정답이다. 실험복은 이미 착용한 상태이고 손은 현미경에 있어 (B)와 (C)는 틀린 동작이다.",
+    "id": "p1-1-007",
+    "image": "images/part1/p1-1-007.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "transport",
+    "alt": "기차 승강장에 여자와 여행 가방, 벤치, 시계가 보이는 흑백 사진.",
+    "choices": [
+      "She's lifting luggage onto a bench.",
+      "She's cleaning the train windows.",
+      "She's pulling a suitcase along the platform.",
+      "She's sitting beneath a clock."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "여자가 짐을 벤치 위로 들어 올리고 있다.",
+        "여자가 기차 창문을 닦고 있다.",
+        "여자가 승강장을 따라 여행 가방을 끌고 있다.",
+        "여자가 시계 아래 앉아 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "position"
+    ],
+    "explain": "여자가 바퀴 달린 여행 가방의 손잡이를 잡고 걷고 있으므로 (C)가 정답이다. 벤치는 비어 있고 가방은 바닥에 있어 (A)와 (D)는 맞지 않는다.",
+    "id": "p1-1-008",
+    "image": "images/part1/p1-1-008.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "outdoor-work",
+    "alt": "마당에 남자와 갈퀴, 손수레, 양동이, 울타리가 보이는 흑백 사진.",
+    "choices": [
+      "He's painting a wooden fence.",
+      "He's raking leaves on the ground.",
+      "He's emptying a bucket into a cart.",
+      "He's hanging a lantern from a branch."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "남자가 나무 울타리에 페인트를 칠하고 있다.",
+        "남자가 바닥의 낙엽을 갈퀴로 모으고 있다.",
+        "남자가 양동이의 내용물을 손수레에 붓고 있다.",
+        "남자가 나뭇가지에 등을 걸고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "갈퀴의 끝이 낙엽에 닿아 있고 남자가 자루를 잡고 있으므로 (B)가 정답이다. 양동이는 옆에 놓여 있어 (C)는 실제 동작과 다르다.",
+    "id": "p1-1-009",
+    "image": "images/part1/p1-1-009.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "office",
+    "alt": "사무실 책상 앞에 여자와 모니터, 전화기, 조명이 보이는 흑백 사진.",
+    "choices": [
+      "She's taking papers from a cabinet.",
+      "She's adjusting the window blinds.",
+      "She's holding a telephone receiver.",
+      "She's working at a computer keyboard."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "여자가 캐비닛에서 서류를 꺼내고 있다.",
+        "여자가 창문 블라인드를 조절하고 있다.",
+        "여자가 전화기 수화기를 들고 있다.",
+        "여자가 컴퓨터 키보드로 작업하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "여자가 모니터를 보며 양손을 키보드에 올려 놓고 있으므로 (D)가 정답이다. 수화기는 전화기 위에 놓여 있어 (C)는 오답이다.",
+    "id": "p1-1-010",
+    "image": "images/part1/p1-1-010.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "store",
+    "answer": 2,
+    "alt": "꽃가게에 여자와 꽃, 가위, 바구니가 보이는 흑백 사진.",
+    "choices": [
+      "She's filling a vase with water.",
+      "She's tying ribbon around a basket.",
+      "She's trimming some flower stems.",
+      "She's hanging flowers above the window."
+    ],
+    "ko": {
+      "choices": [
+        "여자가 꽃병에 물을 채우고 있다.",
+        "여자가 바구니에 리본을 묶고 있다.",
+        "여자가 꽃줄기를 다듬고 있다.",
+        "여자가 창문 위에 꽃을 걸고 있다."
+      ]
+    },
+    "explain": "가위 날이 손에 든 꽃줄기에 닿아 있으므로 (C)가 정답이다. 리본과 바구니는 작업대에 놓여 있어 (B)는 실제 동작이 아니다.",
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "id": "p1-1-011",
+    "image": "images/part1/p1-1-011.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "outdoor-work",
+    "answer": 0,
+    "alt": "야외 벽 앞에 남자와 페인트 도구, 사다리가 보이는 흑백 사진.",
+    "choices": [
+      "He's applying paint to a wall.",
+      "He's climbing a wooden ladder.",
+      "He's filling a bucket from a hose.",
+      "He's carrying a tray across the lawn."
+    ],
+    "ko": {
+      "choices": [
+        "남자가 벽에 페인트를 칠하고 있다.",
+        "남자가 나무 사다리를 오르고 있다.",
+        "남자가 호스로 양동이에 물을 채우고 있다.",
+        "남자가 잔디밭을 가로질러 쟁반을 운반하고 있다."
+      ]
+    },
+    "explain": "남자가 롤러를 벽에 대고 칠하고 있으므로 (A)가 정답이다. 사다리는 옆에 기대어 있고 남자는 바닥에 무릎을 꿇고 있어 (B)는 맞지 않는다.",
+    "trap": [
+      "action",
+      "absent",
+      "action"
+    ],
+    "id": "p1-1-012",
+    "image": "images/part1/p1-1-012.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "restaurant",
+    "answer": 3,
+    "alt": "주방에 여자와 빵, 도마, 그릇, 오븐이 보이는 흑백 사진.",
+    "choices": [
+      "She's stirring a pot on the stove.",
+      "She's stacking bowls in the oven.",
+      "She's putting on an apron.",
+      "She's slicing a loaf of bread."
+    ],
+    "ko": {
+      "choices": [
+        "여자가 가스레인지 위 냄비를 젓고 있다.",
+        "여자가 오븐 안에 그릇을 쌓고 있다.",
+        "여자가 앞치마를 입고 있다.",
+        "여자가 빵 한 덩이를 썰고 있다."
+      ]
+    },
+    "explain": "여자가 칼을 빵에 대고 있으며 도마 위에 잘린 조각이 있으므로 (D)가 정답이다. 앞치마는 이미 착용한 상태라 입는 동작을 말하는 (C)는 오답이다.",
+    "trap": [
+      "action",
+      "position",
+      "wearing"
+    ],
+    "id": "p1-1-013",
+    "image": "images/part1/p1-1-013.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "store",
+    "answer": 1,
+    "alt": "작업장에 남자와 자전거, 공구, 여분 타이어가 보이는 흑백 사진.",
+    "choices": [
+      "He's riding a bicycle outside.",
+      "He's using a wrench on a bicycle.",
+      "He's inflating a tire with a pump.",
+      "He's hanging a wheel on the wall."
+    ],
+    "ko": {
+      "choices": [
+        "남자가 밖에서 자전거를 타고 있다.",
+        "남자가 자전거에 렌치를 사용하고 있다.",
+        "남자가 펌프로 타이어에 공기를 넣고 있다.",
+        "남자가 벽에 바퀴를 걸고 있다."
+      ]
+    },
+    "explain": "남자가 렌치를 자전거 뒷바퀴 부근에 대고 있으므로 (B)가 정답이다. 자전거는 작업용 받침대에 고정되어 있어 타고 있다는 (A)는 오답이다.",
+    "trap": [
+      "action",
+      "absent",
+      "action"
+    ],
+    "id": "p1-1-014",
+    "image": "images/part1/p1-1-014.webp"
+  },
+  {
+    "difficulty": 1,
+    "photoType": "single",
+    "place": "home",
+    "answer": 0,
+    "alt": "실내 작업대에 여자와 재봉틀, 천, 가위가 보이는 흑백 사진.",
+    "choices": [
+      "She's guiding fabric through a sewing machine.",
+      "She's cutting cloth with a pair of scissors.",
+      "She's placing thread on a shelf.",
+      "She's carrying a stack of folded fabric."
+    ],
+    "ko": {
+      "choices": [
+        "여자가 재봉틀에 천을 밀어 넣으며 바느질하고 있다.",
+        "여자가 가위로 천을 자르고 있다.",
+        "여자가 선반에 실을 놓고 있다.",
+        "여자가 접힌 천 더미를 운반하고 있다."
+      ]
+    },
+    "explain": "여자의 손이 재봉틀 바늘 앞의 천을 잡고 있으므로 (A)가 정답이다. 가위와 접힌 천은 작업대에 놓여 있어 (B)와 (D)는 하지 않는 동작이다.",
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "id": "p1-1-015",
+    "image": "images/part1/p1-1-015.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "office",
+    "answer": 2,
+    "alt": "사무실에 앉은 남자와 전화기, 조명, 서류철이 보이는 흑백 사진.",
+    "choices": [
+      "The lamp is being carried across the room.",
+      "The folders are open on the floor.",
+      "A lamp stands beside the keyboard.",
+      "The telephone has been placed on a shelf."
+    ],
+    "ko": {
+      "choices": [
+        "조명이 방을 가로질러 운반되고 있다.",
+        "서류철들이 바닥에 펼쳐져 있다.",
+        "조명이 키보드 옆에 서 있다.",
+        "전화기가 선반 위에 놓여 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "position"
+    ],
+    "explain": "책상 위 키보드 옆에 스탠드가 놓여 있으므로 (C)가 정답이다. 남자는 전화 중이고 조명을 옮기지 않아 (A)의 진행 수동태는 맞지 않는다.",
+    "id": "p1-1-016",
+    "image": "images/part1/p1-1-016.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "outdoor-work",
+    "answer": 0,
+    "alt": "화단에 여자와 작은 삽, 물뿌리개, 양동이가 보이는 흑백 사진.",
+    "choices": [
+      "She's working the soil with a hand tool.",
+      "She's putting on a pair of gloves.",
+      "She's watering flowers beside the fence.",
+      "She's carrying a bucket across the grass."
+    ],
+    "ko": {
+      "choices": [
+        "여자가 손도구로 흙을 다루고 있다.",
+        "여자가 장갑을 끼고 있다.",
+        "여자가 울타리 옆 꽃에 물을 주고 있다.",
+        "여자가 잔디밭을 가로질러 양동이를 운반하고 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "action",
+      "action"
+    ],
+    "explain": "여자가 작은 삽을 흙에 대고 작업하므로 손도구를 쓴다는 (A)가 정답이다. 장갑은 이미 착용했고 물뿌리개는 바닥에 있어 (B)와 (C)는 실제 동작이 아니다.",
+    "id": "p1-1-017",
+    "image": "images/part1/p1-1-017.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "store",
+    "answer": 1,
+    "alt": "의류 매장에 남자와 재킷, 옷걸이 봉, 거울이 보이는 흑백 사진.",
+    "choices": [
+      "He's putting on a jacket beside a mirror.",
+      "He's examining a garment on a hanger.",
+      "He's folding shirts on a stool.",
+      "He's fastening a shelf to the wall."
+    ],
+    "ko": {
+      "choices": [
+        "남자가 거울 옆에서 재킷을 입고 있다.",
+        "남자가 옷걸이에 걸린 의류를 살펴보고 있다.",
+        "남자가 의자 위에서 셔츠를 접고 있다.",
+        "남자가 선반을 벽에 고정하고 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "action",
+      "action"
+    ],
+    "explain": "남자가 옷걸이를 잡고 재킷을 내려다보므로 재킷을 garment로 바꾼 (B)가 정답이다. 재킷 소매에 팔을 넣고 있지 않아 (A)는 착용 동작을 혼동한 오답이다.",
+    "id": "p1-1-018",
+    "image": "images/part1/p1-1-018.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "office",
+    "answer": 3,
+    "alt": "창가에 여자와 청소 도구, 의자, 캐비닛이 보이는 흑백 사진.",
+    "choices": [
+      "A bucket is being emptied into a sink.",
+      "The chair is positioned on the desk.",
+      "The cabinet drawers have been left open.",
+      "A bucket rests on the floor near the chair."
+    ],
+    "ko": {
+      "choices": [
+        "양동이의 내용물이 싱크대로 쏟아지고 있다.",
+        "의자가 책상 위에 놓여 있다.",
+        "캐비닛 서랍들이 열린 채로 있다.",
+        "양동이가 의자 근처 바닥에 놓여 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "position"
+    ],
+    "explain": "양동이가 의자 앞쪽 바닥에 놓여 있으므로 (D)가 정답이다. 여자는 창문을 닦고 있어 양동이를 비우는 중이라는 (A)는 맞지 않는다.",
+    "id": "p1-1-019",
+    "image": "images/part1/p1-1-019.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "lab",
+    "answer": 2,
+    "alt": "실험실에 보안경을 쓴 남자와 비커, 시험관대, 싱크대가 보이는 흑백 사진.",
+    "choices": [
+      "He's putting on protective eyewear.",
+      "He's rinsing glassware under a faucet.",
+      "He's transferring liquid between containers.",
+      "He's stacking empty containers in a cabinet."
+    ],
+    "ko": {
+      "choices": [
+        "남자가 보안경을 쓰고 있다.",
+        "남자가 수도꼭지 아래에서 유리 기구를 헹구고 있다.",
+        "남자가 용기 사이로 액체를 옮겨 붓고 있다.",
+        "남자가 캐비닛에 빈 용기를 포개고 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "action",
+      "action"
+    ],
+    "explain": "기울인 비커에서 다른 비커로 액체가 흐르므로 용기 사이로 옮긴다는 (C)가 정답이다. 보안경은 이미 쓰고 있고 수도꼭지는 손대지 않아 (A)와 (B)는 틀린 동작이다.",
+    "id": "p1-1-020",
+    "image": "images/part1/p1-1-020.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "street",
+    "answer": 1,
+    "alt": "보도에 여자와 빗자루, 벤치, 자전거가 보이는 흑백 사진.",
+    "choices": [
+      "She's riding a bicycle beside a bench.",
+      "She's sweeping debris off the pavement.",
+      "She's putting a basket on a bicycle.",
+      "She's painting the seat of a bench."
+    ],
+    "ko": {
+      "choices": [
+        "여자가 벤치 옆에서 자전거를 타고 있다.",
+        "여자가 포장된 길에서 부스러기를 쓸고 있다.",
+        "여자가 자전거에 바구니를 올리고 있다.",
+        "여자가 벤치 좌석에 페인트를 칠하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "여자가 빗자루로 낙엽을 모으므로 debris를 쓴 (B)가 정답이다. 자전거는 벽에 기대어 있어 (A)는 틀린 동작이다.",
+    "id": "p1-1-021",
+    "image": "images/part1/p1-1-021.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "warehouse",
+    "answer": 3,
+    "alt": "창고 작업대에 남자와 상자, 테이프, 선반이 보이는 흑백 사진.",
+    "choices": [
+      "He's removing a carton from a shelf.",
+      "He's carrying a pallet through the warehouse.",
+      "He's cutting a box open with scissors.",
+      "He's sealing a package with tape."
+    ],
+    "ko": {
+      "choices": [
+        "남자가 선반에서 상자를 꺼내고 있다.",
+        "남자가 창고를 가로질러 팔레트를 운반하고 있다.",
+        "남자가 가위로 상자를 잘라 열고 있다.",
+        "남자가 테이프로 포장물을 봉하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "absent"
+    ],
+    "explain": "남자가 닫힌 상자 윗면에 테이프를 붙이고 있어 package를 쓴 (D)가 정답이다. 상자를 여는 것이 아니며 가위도 보이지 않아 (C)는 오답이다.",
+    "id": "p1-1-022",
+    "image": "images/part1/p1-1-022.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "transport",
+    "answer": 0,
+    "alt": "역 벤치에 여자와 책, 여행 가방, 기차가 보이는 흑백 사진.",
+    "choices": [
+      "She's holding an open book on her lap.",
+      "She's lifting a suitcase into the train.",
+      "She's putting on a long coat.",
+      "She's wiping the back of a bench."
+    ],
+    "ko": {
+      "choices": [
+        "여자가 무릎 위에 펼친 책을 들고 있다.",
+        "여자가 여행 가방을 기차 안으로 들어 올리고 있다.",
+        "여자가 긴 코트를 입고 있다.",
+        "여자가 벤치 등받이를 닦고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "wearing",
+      "action"
+    ],
+    "explain": "여자가 앉아서 펼친 책을 양손으로 들고 있으므로 (A)가 정답이다. 가방은 옆에 세워져 있고 코트는 이미 입고 있어 (B)와 (C)는 맞지 않는다.",
+    "id": "p1-1-023",
+    "image": "images/part1/p1-1-023.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "single",
+    "place": "home",
+    "answer": 2,
+    "alt": "주방 싱크대에 남자와 접시, 식기 건조대, 주전자가 보이는 흑백 사진.",
+    "choices": [
+      "He's drying his hands on a towel.",
+      "He's pouring water from a kettle.",
+      "He's rinsing a dish under running water.",
+      "He's hanging a plate above the window."
+    ],
+    "ko": {
+      "choices": [
+        "남자가 수건으로 손을 말리고 있다.",
+        "남자가 주전자에서 물을 붓고 있다.",
+        "남자가 흐르는 물 아래에서 접시를 헹구고 있다.",
+        "남자가 창문 위에 접시를 걸고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "position"
+    ],
+    "explain": "남자가 수도꼭지 아래에서 접시를 잡고 물로 씻으므로 dish로 바꾼 (C)가 정답이다. 주전자는 조리대에 놓여 있어 (B)는 실제 동작이 아니다.",
+    "id": "p1-1-024",
+    "image": "images/part1/p1-1-024.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "office",
+    "answer": 1,
+    "alt": "사무실 테이블에 두 사람과 도면, 조명, 캐비닛이 보이는 흑백 사진.",
+    "choices": [
+      "They're hanging a drawing on a wall.",
+      "They're looking over a plan together.",
+      "They're moving a cabinet toward the window.",
+      "They're folding a table beside some chairs."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 벽에 그림을 걸고 있다.",
+        "두 사람이 함께 도면을 검토하고 있다.",
+        "두 사람이 창문 쪽으로 캐비닛을 옮기고 있다.",
+        "두 사람이 의자 옆에서 테이블을 접고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "두 사람이 테이블 위 도면을 내려다보고 여자가 한 부분을 가리키므로 (B)가 정답이다. 도면은 벽이 아니라 테이블에 펼쳐져 있어 (A)는 오답이다.",
+    "id": "p1-1-025",
+    "image": "images/part1/p1-1-025.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "outdoor-work",
+    "answer": 0,
+    "alt": "정원에 두 사람과 큰 화분, 손수레, 삽이 보이는 흑백 사진.",
+    "choices": [
+      "They're carrying a large planter together.",
+      "They're shoveling soil into a wheelbarrow.",
+      "They're cutting branches off a tree.",
+      "They're putting on their gardening gloves."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 큰 화분을 함께 운반하고 있다.",
+        "두 사람이 손수레에 흙을 삽으로 퍼 넣고 있다.",
+        "두 사람이 나뭇가지를 자르고 있다.",
+        "두 사람이 원예용 장갑을 끼고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "wearing"
+    ],
+    "explain": "두 사람이 바닥에서 들린 큰 화분을 양쪽에서 잡고 있으므로 (A)가 정답이다. 장갑은 이미 끼고 있고 삽은 울타리에 있어 (B)와 (D)는 맞지 않는다.",
+    "id": "p1-1-026",
+    "image": "images/part1/p1-1-026.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "store",
+    "answer": 2,
+    "alt": "의류 작업 공간에 세 사람과 셔츠, 선반, 옷걸이가 보이는 흑백 사진.",
+    "choices": [
+      "Everyone is trying on matching shirts.",
+      "The woman is taking a coat off a hanger.",
+      "One of the men is handling hanging clothes.",
+      "Both men are moving a shelf together."
+    ],
+    "ko": {
+      "choices": [
+        "모두가 같은 셔츠를 입어 보고 있다.",
+        "여자가 옷걸이에서 코트를 꺼내고 있다.",
+        "남자들 중 한 명이 걸린 옷을 만지고 있다.",
+        "두 남자가 함께 선반을 옮기고 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "action",
+      "action"
+    ],
+    "explain": "뒤쪽 남자가 옷걸이 봉에 걸린 셔츠를 잡고 있어 (C)가 정답이다. 여자는 카운터에서 접힌 옷을 다루므로 (B)는 주체와 동작을 혼동한 오답이다.",
+    "id": "p1-1-027",
+    "image": "images/part1/p1-1-027.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "restaurant",
+    "answer": 3,
+    "alt": "식당 테이블에 두 사람과 컵, 접시, 꽃병이 보이는 흑백 사진.",
+    "choices": [
+      "They're carrying plates to another table.",
+      "They're arranging flowers in a vase.",
+      "They're looking through restaurant menus.",
+      "They're holding cups while facing each other."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 다른 테이블로 접시를 운반하고 있다.",
+        "두 사람이 꽃병에 꽃을 꽂고 있다.",
+        "두 사람이 식당 메뉴를 살펴보고 있다.",
+        "두 사람이 마주 보며 컵을 들고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "association"
+    ],
+    "explain": "두 사람이 테이블 양쪽에 앉아 컵을 들고 서로 보고 있으므로 (D)가 정답이다. 식당에서 연상되는 메뉴는 보이지 않아 (C)는 근거가 없다.",
+    "id": "p1-1-028",
+    "image": "images/part1/p1-1-028.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "street",
+    "answer": 1,
+    "alt": "비 오는 길에 두 사람과 우산, 벤치, 자전거가 보이는 흑백 사진.",
+    "choices": [
+      "They're folding umbrellas beside a bench.",
+      "They're walking beneath open umbrellas.",
+      "They're riding bicycles along a railing.",
+      "They're putting bags under a bench."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 벤치 옆에서 우산을 접고 있다.",
+        "두 사람이 펼친 우산 아래에서 걷고 있다.",
+        "두 사람이 난간을 따라 자전거를 타고 있다.",
+        "두 사람이 벤치 아래에 가방을 놓고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "position"
+    ],
+    "explain": "두 사람이 펼친 우산을 든 채 길을 걷고 있으므로 (B)가 정답이다. 자전거는 난간 옆에 세워져 있어 (C)는 틀린 동작이다.",
+    "id": "p1-1-029",
+    "image": "images/part1/p1-1-029.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "transport",
+    "answer": 0,
+    "alt": "역에 두 사람과 노선도, 여행 가방, 벤치가 보이는 흑백 사진.",
+    "choices": [
+      "They're examining a map beside their luggage.",
+      "They're placing luggage on the station bench.",
+      "They're boarding a train with their bags.",
+      "They're adjusting the hands of a clock."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 짐 옆에서 지도를 살펴보고 있다.",
+        "두 사람이 역 벤치에 짐을 놓고 있다.",
+        "두 사람이 가방을 들고 기차에 타고 있다.",
+        "두 사람이 시계 바늘을 조절하고 있다."
+      ]
+    },
+    "trap": [
+      "position",
+      "association",
+      "action"
+    ],
+    "explain": "두 사람이 가방 옆에 서서 노선도를 향하고 있으므로 (A)가 정답이다. 벤치는 비어 있고 탑승 동작은 없어 (B)와 (C)는 맞지 않는다.",
+    "id": "p1-1-030",
+    "image": "images/part1/p1-1-030.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "warehouse",
+    "answer": 2,
+    "alt": "창고에 두 사람과 큰 상자, 팔레트, 운반대가 보이는 흑백 사진.",
+    "choices": [
+      "They're pulling a loaded trolley together.",
+      "They're opening a carton on the floor.",
+      "They're supporting a large package between them.",
+      "They're assembling shelving beside a pallet."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 짐을 실은 운반대를 함께 당기고 있다.",
+        "두 사람이 바닥의 상자를 열고 있다.",
+        "두 사람이 사이에 놓인 큰 포장물을 받쳐 들고 있다.",
+        "두 사람이 팔레트 옆에서 선반을 조립하고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "두 사람이 큰 상자의 양쪽 아래를 잡고 받쳐 들어 package로 바꾼 (C)가 정답이다. 상자는 닫혀 있고 운반대는 옆에 있으므로 (A)와 (B)는 오답이다.",
+    "id": "p1-1-031",
+    "image": "images/part1/p1-1-031.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "lab",
+    "answer": 3,
+    "alt": "실험실에 두 사람과 현미경, 공책, 유리 용기가 보이는 흑백 사진.",
+    "choices": [
+      "Both people are looking through the microscope.",
+      "The man is handing a beaker to the woman.",
+      "The woman is removing her laboratory coat.",
+      "The woman is holding a notebook beside the man."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 모두 현미경을 들여다보고 있다.",
+        "남자가 여자에게 비커를 건네고 있다.",
+        "여자가 실험복을 벗고 있다.",
+        "여자가 남자 옆에서 공책을 들고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "wearing"
+    ],
+    "explain": "서 있는 여자가 공책과 펜을 들고 있어 (D)가 정답이다. 현미경을 들여다보는 사람은 남자 한 명이므로 (A)는 동작 주체의 수를 늘린 오답이다.",
+    "id": "p1-1-032",
+    "image": "images/part1/p1-1-032.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "home",
+    "answer": 0,
+    "alt": "거실에 두 사람과 테이블, 소파, 조명, 깔개가 보이는 흑백 사진.",
+    "choices": [
+      "They're carrying a piece of furniture together.",
+      "They're rolling up a rug beside the sofa.",
+      "They're sitting at opposite ends of the table.",
+      "They're hanging a picture above the lamp."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 가구 하나를 함께 운반하고 있다.",
+        "두 사람이 소파 옆에서 깔개를 말고 있다.",
+        "두 사람이 테이블 양 끝에 앉아 있다.",
+        "두 사람이 조명 위에 그림을 걸고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "position",
+      "action"
+    ],
+    "explain": "두 사람이 테이블 양 끝을 들고 있으므로 테이블을 furniture로 바꾼 (A)가 정답이다. 깔개는 펼쳐져 있고 두 사람은 서 있어 (B)와 (C)는 오답이다.",
+    "id": "p1-1-033",
+    "image": "images/part1/p1-1-033.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "office",
+    "answer": 1,
+    "alt": "회의 테이블에 세 사람과 노트북, 물병, 화분이 보이는 흑백 사진.",
+    "choices": [
+      "Everyone is writing on a presentation pad.",
+      "One of the men is pointing toward a computer.",
+      "The woman is pouring water into a glass.",
+      "Both men are putting on their glasses."
+    ],
+    "ko": {
+      "choices": [
+        "모두가 발표용 종이에 쓰고 있다.",
+        "남자들 중 한 명이 컴퓨터 쪽을 가리키고 있다.",
+        "여자가 잔에 물을 따르고 있다.",
+        "두 남자가 안경을 쓰고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "wearing"
+    ],
+    "explain": "가운데 남자가 팔을 뻗어 노트북을 가리키므로 (B)가 정답이다. 물병은 테이블에 놓여 있고 여자가 들고 있지 않아 (C)는 틀린 동작이다.",
+    "id": "p1-1-034",
+    "image": "images/part1/p1-1-034.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "outdoor-work",
+    "answer": 3,
+    "alt": "야외 작업대에 두 남자와 목재, 줄자, 전동 톱이 보이는 흑백 사진.",
+    "choices": [
+      "They're sawing a board into smaller pieces.",
+      "They're loading timber onto a truck.",
+      "They're placing tools inside a cabinet.",
+      "They're measuring a length of wood."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 판자를 작은 조각으로 톱질하고 있다.",
+        "두 사람이 트럭에 목재를 싣고 있다.",
+        "두 사람이 캐비닛에 공구를 넣고 있다.",
+        "두 사람이 목재 길이를 재고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "absent",
+      "absent"
+    ],
+    "explain": "두 사람이 판자 위로 줄자를 펴서 양 끝을 잡고 있으므로 (D)가 정답이다. 전동 톱은 옆 작업대에 놓여 있어 (A)는 주변 도구로 유도한 오답이다.",
+    "id": "p1-1-035",
+    "image": "images/part1/p1-1-035.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "store",
+    "answer": 0,
+    "alt": "시장 가판대에 두 사람과 과일 바구니, 저울, 차양이 보이는 흑백 사진.",
+    "choices": [
+      "They're examining pieces of fruit.",
+      "They're weighing produce on a scale.",
+      "They're pulling down a shop awning.",
+      "They're stacking empty baskets on the ground."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 과일을 살펴보고 있다.",
+        "두 사람이 저울로 농산물 무게를 재고 있다.",
+        "두 사람이 상점 차양을 내리고 있다.",
+        "두 사람이 바닥에 빈 바구니를 포개고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "position"
+    ],
+    "explain": "두 사람이 사과를 손에 들고 바라보므로 과일이라는 상위어를 쓴 (A)가 정답이다. 저울 위에는 과일이 없어 (B)는 연상한 작업을 넣은 오답이다.",
+    "id": "p1-1-036",
+    "image": "images/part1/p1-1-036.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "restaurant",
+    "answer": 2,
+    "alt": "주방 작업대에 두 사람과 반죽, 그릇, 밀대가 보이는 흑백 사진.",
+    "choices": [
+      "Both people are putting on aprons.",
+      "The man is removing a pan from the oven.",
+      "Both people are working dough with their hands.",
+      "The woman is washing bowls in a sink."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 모두 앞치마를 입고 있다.",
+        "남자가 오븐에서 팬을 꺼내고 있다.",
+        "두 사람이 모두 손으로 반죽을 다루고 있다.",
+        "여자가 싱크대에서 그릇을 씻고 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "action",
+      "action"
+    ],
+    "explain": "두 사람 모두 작업대 위 반죽을 손으로 누르고 있으므로 (C)가 정답이다. 남자가 오븐 쪽을 보고 있어도 손은 반죽에 있어 (B)는 시선과 동작을 혼동한 오답이다.",
+    "id": "p1-1-037",
+    "image": "images/part1/p1-1-037.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "street",
+    "answer": 1,
+    "alt": "길가에 두 사람과 벤치, 나무, 난간이 보이는 흑백 사진.",
+    "choices": [
+      "Both people are seated on a bench.",
+      "The man is bending down to adjust his footwear.",
+      "The woman is placing her bag on the ground.",
+      "The man is climbing over a railing."
+    ],
+    "ko": {
+      "choices": [
+        "두 사람이 모두 벤치에 앉아 있다.",
+        "남자가 몸을 굽혀 신발을 손보고 있다.",
+        "여자가 가방을 바닥에 내려놓고 있다.",
+        "남자가 난간을 넘어가고 있다."
+      ]
+    },
+    "trap": [
+      "position",
+      "action",
+      "action"
+    ],
+    "explain": "남자가 쪼그려 앉아 신발 끈을 잡고 있어 footwear로 바꾼 (B)가 정답이다. 여자는 가방을 어깨에 메고 서 있으므로 (A)와 (C)는 틀리다.",
+    "id": "p1-1-038",
+    "image": "images/part1/p1-1-038.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "transport",
+    "answer": 3,
+    "alt": "부두에 두 남자와 배, 밧줄, 계선주가 보이는 흑백 사진.",
+    "choices": [
+      "Both men are stepping aboard a vessel.",
+      "One of the men is painting a bollard.",
+      "Both men are pulling a boat out of the water.",
+      "One of the men is holding a coil of rope."
+    ],
+    "ko": {
+      "choices": [
+        "두 남자가 모두 배에 오르고 있다.",
+        "남자들 중 한 명이 계선주를 칠하고 있다.",
+        "두 남자가 모두 배를 물 밖으로 끌어내고 있다.",
+        "남자들 중 한 명이 감긴 밧줄을 들고 있다."
+      ]
+    },
+    "trap": [
+      "action",
+      "action",
+      "action"
+    ],
+    "explain": "왼쪽 남자가 고리 모양으로 감긴 밧줄을 양손으로 들고 있어 (D)가 정답이다. 두 사람 모두 부두에 서 있으므로 (A)는 동작을 과장한 오답이다.",
+    "id": "p1-1-039",
+    "image": "images/part1/p1-1-039.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "office",
+    "answer": 2,
+    "alt": "사무실에 세 사람과 책상, 벽시계, 수납장이 보이는 흑백 사진.",
+    "choices": [
+      "A clock is being installed by one of the workers.",
+      "The cabinet doors have been left open.",
+      "A clock is mounted above a storage cabinet.",
+      "Several computers have been placed inside the cabinet."
+    ],
+    "ko": {
+      "choices": [
+        "직원 중 한 명이 시계를 설치하고 있다.",
+        "수납장 문들이 열린 채로 있다.",
+        "시계가 수납장 위쪽에 달려 있다.",
+        "컴퓨터 여러 대가 수납장 안에 놓여 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "position"
+    ],
+    "explain": "시계가 닫힌 수납장 위쪽 벽에 달려 있으므로 (C)가 정답이다. 사람들은 각자 책상에 있어 설치 중이라는 (A)는 상태를 동작으로 바꾼 오답이다.",
+    "id": "p1-1-040",
+    "image": "images/part1/p1-1-040.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "store",
+    "alt": "가게 안 두 사람과 계산대, 옷걸이, 거울이 보이는 흑백 사진.",
+    "choices": [
+      "The mirror is being carried outside.",
+      "Some baskets are stacked beneath the counter.",
+      "The garments are lying on the floor.",
+      "A customer is trying on a coat."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "거울이 밖으로 운반되고 있다.",
+        "바구니들이 계산대 아래 쌓여 있다.",
+        "옷들이 바닥에 놓여 있다.",
+        "손님이 코트를 입어 보고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "계산대 아래 여러 바구니가 포개져 있으므로 stacked beneath가 맞다. 거울은 세워져 있고 옷은 걸려 있으며 코트를 입어 보는 사람은 없다.",
+    "id": "p1-1-041",
+    "image": "images/part1/p1-1-041.webp"
+  },
+  {
+    "difficulty": 2,
+    "photoType": "group",
+    "place": "restaurant",
+    "alt": "식당 테라스에 두 사람과 식탁, 의자, 화분이 있는 흑백 사진.",
+    "choices": [
+      "The woman is putting on an apron.",
+      "The chairs are stacked beside the doorway.",
+      "The man is wiping the tabletop.",
+      "Some napkins have been folded on a table."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "여자가 앞치마를 입는 중이다.",
+        "의자들이 출입구 옆에 쌓여 있다.",
+        "남자가 식탁 윗면을 닦고 있다.",
+        "식탁 위에 냅킨들이 접혀 있다."
+      ]
+    },
+    "trap": [
+      "wearing",
+      "position",
+      "action"
+    ],
+    "explain": "식탁 위 냅킨들이 이미 접힌 상태이므로 have been folded가 맞다. 여자는 앞치마를 착용한 상태이고 의자는 놓여 있으며 남자는 팔짱을 끼고 있다.",
+    "id": "p1-1-042",
+    "image": "images/part1/p1-1-042.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "outdoor-work",
+    "alt": "창고 외벽 주변에 사다리, 화분, 호스와 관목이 보이는 흑백 사진.",
+    "choices": [
+      "A ladder is propped against an outbuilding.",
+      "Some plants are being watered with a hose.",
+      "The containers are suspended from the roof.",
+      "A worker is replacing some wooden boards."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "사다리가 부속 건물에 기대어 있다.",
+        "식물들이 호스로 물을 공급받고 있다.",
+        "용기들이 지붕에 매달려 있다.",
+        "작업자가 나무 판자들을 교체하고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "사다리가 작은 창고에 비스듬히 기대어 있어 propped against an outbuilding으로 표현할 수 있다. 물 주는 동작이나 작업자는 없고 화분은 땅 위에 있다.",
+    "id": "p1-1-043",
+    "image": "images/part1/p1-1-043.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "office",
+    "alt": "회의실에 탁자와 의자, 영사기, 수납장이 있는 흑백 사진.",
+    "choices": [
+      "Some equipment is being installed overhead.",
+      "The seating has been stacked in a corner.",
+      "Several chairs are arranged around a conference table.",
+      "A presenter is adjusting a projection screen."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "장비가 머리 위에 설치되고 있다.",
+        "좌석들이 구석에 쌓여 있다.",
+        "여러 의자가 회의용 탁자 주위에 배치되어 있다.",
+        "발표자가 영사막을 조절하고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "탁자를 둘러싼 의자의 배치를 arranged around로 묘사한 보기가 맞다. 설치 작업이나 발표자는 없고 의자는 쌓여 있지 않다.",
+    "id": "p1-1-044",
+    "image": "images/part1/p1-1-044.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "outdoor-work",
+    "alt": "작은 창고 옆에 수레와 정원 도구, 양동이가 보이는 흑백 사진.",
+    "choices": [
+      "Some gardening tools are being sharpened.",
+      "Several implements are hanging on an exterior wall.",
+      "The wheelbarrow is filled with fresh flowers.",
+      "Some buckets have been placed on the roof."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "정원 도구들이 날을 세우는 작업을 받고 있다.",
+        "여러 도구가 외벽에 걸려 있다.",
+        "외바퀴 수레가 생화로 가득 차 있다.",
+        "양동이들이 지붕 위에 놓여 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "absent",
+      "position"
+    ],
+    "explain": "갈퀴와 삽 등 도구들이 벽에 걸려 있으며 implements는 도구들을 통칭한다. 연마 중인 사람이나 생화는 없고 양동이는 땅 위에 있다.",
+    "id": "p1-1-045",
+    "image": "images/part1/p1-1-045.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "store",
+    "alt": "신발 매장에 선반과 신발, 상자, 거울이 보이는 흑백 사진.",
+    "choices": [
+      "Some footwear has been displayed on wall shelves.",
+      "Some merchandise is being packed into cartons.",
+      "The mirror is positioned underneath the stool.",
+      "A shopper is fastening a sandal strap."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "신발류가 벽 선반에 진열되어 있다.",
+        "상품이 상자에 포장되고 있다.",
+        "거울이 걸상 아래에 놓여 있다.",
+        "손님이 샌들 끈을 채우고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "구두와 운동화 등이 선반에 진열되어 있어 상위어 footwear로 묶은 보기가 맞다. 포장하거나 신발을 신는 사람은 없고 거울은 걸상 옆에 세워져 있다.",
+    "id": "p1-1-046",
+    "image": "images/part1/p1-1-046.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "restaurant",
+    "alt": "강변 식당 테라스에 차양과 식탁, 의자, 화분이 보이는 흑백 사진.",
+    "choices": [
+      "The railing is being repainted by a waiter.",
+      "The tables are covered with fallen branches.",
+      "An awning extends over the dining area.",
+      "Several passengers are boarding a nearby ferry."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "종업원이 난간을 다시 칠하고 있다.",
+        "식탁들이 떨어진 나뭇가지로 덮여 있다.",
+        "차양이 식사 공간 위로 뻗어 있다.",
+        "승객 여러 명이 근처 나룻배에 타고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "absent",
+      "association"
+    ],
+    "explain": "테라스 위로 펼쳐진 천막 차양을 awning extends over로 묘사했다. 페인트칠하는 사람이나 식탁 위 나뭇가지, 승선 장면은 보이지 않는다.",
+    "id": "p1-1-047",
+    "image": "images/part1/p1-1-047.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "street",
+    "alt": "보도에 자전거들과 거치대, 벤치, 나무가 보이는 흑백 사진.",
+    "choices": [
+      "Several cycles are being ridden along the pavement.",
+      "The bench is positioned between two bicycles.",
+      "A mechanic is replacing a bicycle chain.",
+      "Some bicycles have been parked beside a railing."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "자전거 여러 대가 보도를 따라 운행되고 있다.",
+        "벤치가 자전거 두 대 사이에 놓여 있다.",
+        "정비공이 자전거 체인을 교체하고 있다.",
+        "자전거들이 난간 옆에 주차되어 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "난간 옆 거치대에 자전거들이 세워져 있으므로 have been parked가 맞다. 타거나 수리하는 사람은 없고 벤치는 자전거들 사이가 아닌 나무 건너편에 있다.",
+    "id": "p1-1-048",
+    "image": "images/part1/p1-1-048.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "transport",
+    "alt": "주차 구역에 자동차들과 작은 부스, 가로등이 있는 흑백 사진.",
+    "choices": [
+      "Some vehicles are being washed near a booth.",
+      "Several vehicles are parked in marked spaces.",
+      "The booth has been placed on a vehicle.",
+      "An attendant is collecting a parking payment."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "차량들이 부스 근처에서 세차되고 있다.",
+        "차량 여러 대가 표시된 주차 구역에 세워져 있다.",
+        "부스가 차량 위에 놓여 있다.",
+        "안내원이 주차 요금을 받고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "흰 선으로 구획된 칸에 자동차들이 주차되어 있어 vehicles와 marked spaces가 각각 차와 주차 칸을 가리킨다. 세차나 요금 수납은 보이지 않고 부스는 땅 위에 있다.",
+    "id": "p1-1-049",
+    "image": "images/part1/p1-1-049.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "warehouse",
+    "alt": "창고에 상자와 팔레트, 선반, 운반대차가 있는 흑백 사진.",
+    "choices": [
+      "Some cartons have been stacked on wooden pallets.",
+      "Some packages are being loaded onto a truck.",
+      "The trolley is suspended above the shelving.",
+      "A worker is sealing a container with tape."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "상자들이 나무 팔레트 위에 쌓여 있다.",
+        "꾸러미들이 트럭에 실리고 있다.",
+        "운반대차가 선반 위에 매달려 있다.",
+        "작업자가 테이프로 용기를 봉하고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "나무 운반 받침인 pallets 위에 상자들이 쌓인 상태이므로 have been stacked가 맞다. 적재나 포장 작업자는 없고 대차는 바닥에 있다.",
+    "id": "p1-1-050",
+    "image": "images/part1/p1-1-050.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "lab",
+    "alt": "실험대 위에 유리 용기와 덮개를 씌운 장비가 있는 흑백 사진.",
+    "choices": [
+      "Some glassware is being rinsed in a sink.",
+      "The stools have been placed on the worktop.",
+      "Some apparatus has been covered with protective fabric.",
+      "A technician is pouring liquid into a vessel."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "유리 기구들이 싱크대에서 헹궈지고 있다.",
+        "걸상들이 작업대 위에 놓여 있다.",
+        "장비 일부에 보호용 천이 씌워져 있다.",
+        "기술자가 용기에 액체를 붓고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "실험대 위 장비 두 대가 천으로 덮여 있어 apparatus와 has been covered가 사진에 맞다. 세척이나 액체를 붓는 사람은 없고 걸상은 작업대 아래에 있다.",
+    "id": "p1-1-051",
+    "image": "images/part1/p1-1-051.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "home",
+    "alt": "거실에 소파와 쿠션, 담요, 낮은 탁자가 보이는 흑백 사진.",
+    "choices": [
+      "Some upholstery is being repaired by hand.",
+      "A blanket has been spread across the entire floor.",
+      "The vase is positioned beneath the coffee table.",
+      "A throw is draped over one end of a sofa."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "소파 덮개가 손으로 수선되고 있다.",
+        "담요가 바닥 전체에 펼쳐져 있다.",
+        "꽃병이 낮은 탁자 밑에 놓여 있다.",
+        "작은 담요가 소파 한쪽 끝에 걸쳐져 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "position"
+    ],
+    "explain": "소파 오른쪽 끝에 걸쳐진 담요를 throw is draped over로 표현했다. 수선하는 사람은 없고 담요는 바닥에 펼쳐져 있지 않으며 꽃병은 탁자 위에 있다.",
+    "id": "p1-1-052",
+    "image": "images/part1/p1-1-052.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "office",
+    "alt": "사무실에 프린터와 수납장, 문서 받침, 책상이 있는 흑백 사진.",
+    "choices": [
+      "Some document trays are stacked beside a printer.",
+      "Some office supplies are being delivered.",
+      "A chair has been placed on top of the desk.",
+      "An employee is feeding paper into a copier."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "문서 받침들이 프린터 옆에 쌓여 있다.",
+        "사무용품들이 배달되고 있다.",
+        "의자가 책상 위에 놓여 있다.",
+        "직원이 복사기에 종이를 넣고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "프린터 옆 여러 층의 서류 받침이 보이므로 document trays are stacked가 맞다. 배달하거나 종이를 넣는 사람은 없고 의자는 바닥에 있다.",
+    "id": "p1-1-053",
+    "image": "images/part1/p1-1-053.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "outdoor-work",
+    "alt": "정원 울타리 옆에 외바퀴 수레와 삽, 물뿌리개가 있는 흑백 사진.",
+    "choices": [
+      "Some earth is being shoveled into a container.",
+      "A wheelbarrow has been filled with soil.",
+      "The watering can is hanging from the fence.",
+      "A gardener is trimming the hedge."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "흙이 삽으로 용기에 담기고 있다.",
+        "외바퀴 수레에 흙이 채워져 있다.",
+        "물뿌리개가 울타리에 걸려 있다.",
+        "정원사가 생울타리를 다듬고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "수레에 흙이 담긴 결과 상태이므로 has been filled가 맞고, 현재 삽질 중이라는 being shoveled는 틀리다. 물뿌리개는 땅에 있으며 정원사는 없다.",
+    "id": "p1-1-054",
+    "image": "images/part1/p1-1-054.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "store",
+    "alt": "상점 외부에 차양과 셔터, 벤치, 화분이 있는 흑백 사진.",
+    "choices": [
+      "Some shutters are being raised above an entrance.",
+      "Several customers are waiting beneath the canopy.",
+      "The planters are positioned on top of the bench.",
+      "Metal shutters have been lowered behind a bench."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "셔터들이 입구 위로 올라가고 있다.",
+        "손님 여러 명이 차양 아래에서 기다리고 있다.",
+        "화분들이 벤치 위에 놓여 있다.",
+        "벤치 뒤로 금속 셔터들이 내려져 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "absent",
+      "position"
+    ],
+    "explain": "벤치 뒤의 셔터가 완전히 내려진 상태여서 have been lowered가 맞다. 셔터를 올리는 동작이나 손님은 없고 화분들은 벤치 양옆 바닥에 있다.",
+    "id": "p1-1-055",
+    "image": "images/part1/p1-1-055.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "restaurant",
+    "alt": "식기 보관 공간에 컵과 접시, 선반, 싱크대가 보이는 흑백 사진.",
+    "choices": [
+      "Some crockery is being washed in the basin.",
+      "The drinking glasses are suspended beneath the counter.",
+      "Some mugs are suspended from hooks beneath a shelf.",
+      "A cook is drying dishes with a towel."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "식기들이 싱크대에서 세척되고 있다.",
+        "유리잔들이 조리대 아래 매달려 있다.",
+        "머그잔들이 선반 아래 고리에 매달려 있다.",
+        "요리사가 수건으로 그릇을 말리고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "선반 밑 고리에 손잡이가 걸린 머그잔들이 보여 suspended from hooks가 맞다. 유리잔은 선반 위에 있고 식기를 씻거나 닦는 사람은 없다.",
+    "id": "p1-1-056",
+    "image": "images/part1/p1-1-056.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "street",
+    "alt": "공원 산책로에 벤치와 자전거, 난간, 분수가 있는 흑백 사진.",
+    "choices": [
+      "There is an unoccupied bench beside the pond.",
+      "The bicycle is being ridden across a bridge.",
+      "The fountain has been installed on the walkway.",
+      "A visitor is fastening a bicycle helmet."
+    ],
+    "answer": 0,
+    "ko": {
+      "choices": [
+        "연못 옆에 비어 있는 벤치가 있다.",
+        "자전거가 다리 위를 건너고 있다.",
+        "분수가 산책로 위에 설치되어 있다.",
+        "방문자가 자전거 헬멧을 채우고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "연못 앞 벤치에 아무도 앉아 있지 않아 unoccupied bench라는 위치·상태 묘사가 맞다. 자전거는 세워져 있고 분수는 물속에 있으며 헬멧을 쓰는 사람도 없다.",
+    "id": "p1-1-057",
+    "image": "images/part1/p1-1-057.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "transport",
+    "alt": "물가에 작은 배들과 나무 부두, 밧줄, 구명환이 있는 흑백 사진.",
+    "choices": [
+      "Some vessels are being steered away from the shore.",
+      "Two vessels are moored alongside a wooden dock.",
+      "The life ring has been placed inside a cabin.",
+      "Some passengers are carrying luggage onto a boat."
+    ],
+    "answer": 1,
+    "ko": {
+      "choices": [
+        "배들이 해안에서 멀어지는 방향으로 조종되고 있다.",
+        "배 두 척이 나무 부두 옆에 계류되어 있다.",
+        "구명환이 선실 안에 놓여 있다.",
+        "승객들이 짐을 배로 나르고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "밧줄로 부두에 묶인 배 두 척을 vessels are moored alongside로 표현했다. 운항하거나 승선하는 사람은 없고 구명환은 부두 난간에 걸려 있다.",
+    "id": "p1-1-058",
+    "image": "images/part1/p1-1-058.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "warehouse",
+    "alt": "창고에 말린 카펫과 선반, 상자, 팔레트 운반기가 있는 흑백 사진.",
+    "choices": [
+      "Some floor coverings are being unrolled in the aisle.",
+      "The shelving is completely devoid of merchandise.",
+      "An operator is maneuvering the pallet jack.",
+      "Several rugs have been rolled up for storage."
+    ],
+    "answer": 3,
+    "ko": {
+      "choices": [
+        "바닥 깔개들이 통로에서 펼쳐지고 있다.",
+        "선반에 상품이 전혀 없다.",
+        "작업자가 팔레트 운반기를 조종하고 있다.",
+        "양탄자 여러 장이 보관을 위해 말려 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "absent",
+      "absent"
+    ],
+    "explain": "선반에 양탄자들이 둥글게 말린 상태로 보관되어 있어 have been rolled up이 맞다. 펼치는 사람이나 운반기 조작자는 없으며 선반에는 물건이 있다.",
+    "id": "p1-1-059",
+    "image": "images/part1/p1-1-059.webp"
+  },
+  {
+    "difficulty": 3,
+    "photoType": "object",
+    "place": "home",
+    "alt": "실내 벽 근처에 액자들과 책장, 말린 카펫, 공구함이 있는 흑백 사진.",
+    "choices": [
+      "Some artwork is being mounted above a bookcase.",
+      "The tool case is resting on the highest shelf.",
+      "Some framed pictures are propped against a wall.",
+      "A decorator is spreading a rug across the floor."
+    ],
+    "answer": 2,
+    "ko": {
+      "choices": [
+        "미술 작품이 책장 위쪽에 설치되고 있다.",
+        "공구함이 가장 높은 선반에 놓여 있다.",
+        "액자들이 벽에 기대어 있다.",
+        "실내 장식 작업자가 바닥에 양탄자를 펼치고 있다."
+      ]
+    },
+    "trap": [
+      "being",
+      "position",
+      "absent"
+    ],
+    "explain": "여러 액자가 바닥에서 벽에 기대어 있으므로 propped against가 맞다. 설치하거나 양탄자를 펼치는 사람은 없고 공구함은 바닥에 있다.",
+    "id": "p1-1-060",
+    "image": "images/part1/p1-1-060.webp"
+  }
+]

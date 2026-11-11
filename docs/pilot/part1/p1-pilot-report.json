@@ -1,0 +1,185 @@
+{
+  "purpose": "Original Part 1 image-generation pilot; no application code or existing question data changes",
+  "createdAt": "2026-11-11T08:12:01.172Z",
+  "generator": {
+    "tool": "image_gen.imagegen",
+    "mode": "built-in",
+    "modelName": "not exposed by this tool",
+    "referenceImagesUsed": false,
+    "transparentBackground": false,
+    "parallelRequests": 3,
+    "timingDefinition": "각 이미지의 도구 호출 직전부터 응답까지의 경과 초.대기와 도구 오버헤드를 포함하며 순수 모델 연산 시간은 아님.",
+    "batchElapsedSeconds": 57.423,
+    "generationSeconds": [
+      19.561,
+      38.5,
+      57.371
+    ],
+    "retries": 0,
+    "costMeasured": false
+  },
+  "processing": {
+    "tool": "Python Pillow 12.3.0",
+    "operations": [
+      "luminance grayscale conversion",
+      "aspect-preserving LANCZOS resize to 1024x768",
+      "WebP encode with method=6; highest tested quality meeting 120000-byte ceiling"
+    ],
+    "maximumWidth": 1024,
+    "maximumBytesPerImage": 120000,
+    "qualityPolicy": "90,88,86,84,82,80,78,76,74,72,70,68,66,64,60 순으로 시도",
+    "originalsPreserved": true,
+    "pathEncodingNote": "검증 중 Python 표준출력의 로캘 인코딩 때문에 메타데이터 원본 경로에 대체문자가 섞인 것을 발견해 생성 도구가 반환한 정확한 Unicode 경로로 정정하고 존재 검사를 다시 수행함."
+  },
+  "questionFile": "p1-pilot.json",
+  "imagePathBase": "directory containing p1-pilot.json",
+  "answerIndexing": "zero-based",
+  "questionsWrittenAfterInspectingImages": true,
+  "assets": [
+    {
+      "index": 1,
+      "image": "p1-pilot-1.webp",
+      "source": "C:/Users/정우진/.codex/generated_images/01a1c2b7-15bf-75f3-ae2f-ac125260eabf/exec-ca5a072c-b86a-411f-82c0-5ef6748b1e5a.png",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "dimensions": [
+        1024,
+        768
+      ],
+      "bytes": 76658,
+      "webpQuality": 90,
+      "postprocessAndWriteSeconds": 0.367,
+      "id": "p1-pilot-001",
+      "generatedAt": "2026-11-11T08:04:02.786Z",
+      "generationStartedAt": "2026-11-11T08:03:43.225Z",
+      "generationSeconds": 19.561,
+      "prompt": "Use case: photorealistic-natural. Asset type: original listening-test pilot photograph. Create ONE completely original black-and-white candid documentary photograph, landscape 4:3 composition. Ordinary modern office in natural window light, realistic midtones and modest depth of field, no cinematic or advertising polish. Exactly one adult woman in plain work clothes, seen from a comfortable medium-wide distance, standing side-on at an open waist-height metal filing cabinet. Her hands are clearly visible and anatomically natural: one hand holds a plain file folder partway inside the open drawer, the other steadies the drawer edge. Her attention is on the drawer, not the camera. Include a simple desk with a closed laptop, an unused telephone, stacked paper trays, and a small plant in the background, but no other person. The person and her actual handling of the folder must remain the clear focal subject. Show sufficient office surroundings and the drawer, with no face close-up. No readable text anywhere, no lettering, no numbers, no logos, no branding, no watermark, no captions. Blank folder covers and blank paper surfaces. Realistic hands, sensible contact with objects, coherent furniture geometry. Do not imitate or recreate any existing test photograph, famous image, real person, or copyrighted composition.",
+      "visualReview": {
+        "index": 1,
+        "scene": "single-person indoor office",
+        "observedEvidence": "서 있는 여성의 손이 서류철을 잡고 있고, 캐비닛 서랍은 열려 있으며 전화기는 뒤 책상에 놓여 있음.",
+        "criticalDefectsObserved": [],
+        "limitations": [
+          "서랍을 잡은 손의 일부 손가락이 겹치므로 개별 손가락 전체를 확인할 수는 없음.",
+          "전화기 버튼의 미세한 표식은 최종 해상도에서 읽을 수 없으며 작은 배경 소품의 디테일 검수에는 한계가 있음."
+        ],
+        "distractorEvidence": {
+          "A": "전화기를 들거나 귀에 대고 있지 않음.",
+          "C": "손은 캐비닛과 서류철에 있고 책상 표면을 닦지 않음.",
+          "D": "책상 의자는 옆에 비어 있고 인물은 캐비닛 앞에 서 있음."
+        },
+        "ambiguityControl": "단일 정지 화면에서 넣기와 꺼내기의 방향은 확정하기 어려워 정답을 '들고 있다'로 작성함."
+      }
+    },
+    {
+      "index": 2,
+      "image": "p1-pilot-2.webp",
+      "source": "C:/Users/정우진/.codex/generated_images/01a1c2b7-15bf-75f3-ae2f-ac125260eabf/exec-af6917bb-f87d-45ae-b290-3bac4b66af05.png",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "dimensions": [
+        1024,
+        768
+      ],
+      "bytes": 111646,
+      "webpQuality": 82,
+      "postprocessAndWriteSeconds": 1.465,
+      "id": "p1-pilot-002",
+      "generatedAt": "2026-11-11T08:04:21.726Z",
+      "generationStartedAt": "2026-11-11T08:03:43.226Z",
+      "generationSeconds": 38.5,
+      "prompt": "Use case: photorealistic-natural. Asset type: original listening-test pilot photograph. Create ONE completely original black-and-white candid documentary photograph, landscape 4:3 composition, plain daytime sunlight with realistic detail, no cinematic styling or staged smiles. On the sidewalk outside an unbranded neighborhood shop, exactly two adult workers, a man and a woman, are walking side by side carrying separate plain cardboard boxes at waist level. Each person supports their own box securely with both hands; hands must be visible, anatomically correct, and separated from the other person's hands. Both boxes are clearly off the ground. Frame both people head to shoes at an ordinary eye-level medium-wide distance, with faces small and incidental. Include an empty stationary hand truck beside the shop wall, a parked bicycle, a few potted plants, and closed shop windows as secondary objects for visual discrimination. Nobody is using the hand truck or riding the bicycle. No other people. No readable signs, labels, text, letters, numbers, logos, branding, watermark or captions. Plain undecorated clothing and blank boxes. Physically coherent boxes, fingers, ground contact, and walking postures. Entirely invented scene and people, not based on an existing test photo, public figure, or copyrighted image.",
+      "visualReview": {
+        "index": 2,
+        "scene": "two-person outdoor shop",
+        "observedEvidence": "두 사람이 각자 종이 상자를 들고 보도 위를 걷고 있으며 빈 손수레와 자전거는 뒤에 세워져 있음.",
+        "criticalDefectsObserved": [],
+        "limitations": [
+          "상자 뒤 손은 일부 가려져 모든 손가락의 형태를 확인할 수 없음.",
+          "두 사람의 옷과 운반 자세가 비슷해 자연스러운 우연의 장면보다 연출된 사진처럼 보임."
+        ],
+        "distractorEvidence": {
+          "A": "손수레를 잡거나 미는 사람이 없음.",
+          "B": "자전거는 벽 옆에 세워져 있음.",
+          "C": "상자는 사람들의 손에 들려 있고 보도에 쌓여 있지 않음."
+        },
+        "ambiguityControl": "상자를 어디에서 가져왔는지, 차량에서 내리는 중인지 등 사진 밖의 사건은 보기로 사용하지 않음."
+      }
+    },
+    {
+      "index": 3,
+      "image": "p1-pilot-3.webp",
+      "source": "C:/Users/정우진/.codex/generated_images/01a1c2b7-15bf-75f3-ae2f-ac125260eabf/exec-a230c32d-3f5d-412b-9629-b7f574012c36.png",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "dimensions": [
+        1024,
+        768
+      ],
+      "bytes": 115274,
+      "webpQuality": 74,
+      "postprocessAndWriteSeconds": 2.932,
+      "id": "p1-pilot-003",
+      "generatedAt": "2026-11-11T08:04:40.597Z",
+      "generationStartedAt": "2026-11-11T08:03:43.226Z",
+      "generationSeconds": 57.371,
+      "prompt": "Use case: photorealistic-natural. Asset type: original listening-test pilot photograph. Create ONE completely original black-and-white documentary photograph, landscape 4:3 composition. A quiet empty outdoor cafe terrace in soft natural daylight. Absolutely no people anywhere, including through windows, in reflections, or in the background. Several identical plain metal patio chairs are neatly nested into two stable stacks beside three bare rectangular tables; the chair stacks rest on the ground, not on the tables. Make the stacking state unmistakable and mechanically plausible, with coherent chair legs and supports. All tables have bare uncovered tops, no food or tablecloths. Additional background objects: a closed patio umbrella, a few large plant pots, a plain unmarked entrance door, and paving stones. Eye-level medium-wide framing with all principal furniture visible, natural contrast, real material texture, no illustration or cinematic mood. No human activity, no hands, no floating objects, no readable text, signs, numbers, logos, branding, watermark or captions. This must be a new invented location and composition, not a reproduction or imitation of an existing test photograph.",
+      "visualReview": {
+        "index": 3,
+        "scene": "unoccupied outdoor furniture",
+        "observedEvidence": "사람이 없는 테라스에서 의자 두 무리가 포개져 있고 테이블 상판은 비어 있으며 파라솔은 접혀 있음.",
+        "criticalDefectsObserved": [],
+        "limitations": [
+          "겹친 금속 의자 프레임은 복잡해 대량 제작 때 구조 일관성 확대 검수가 필요함.",
+          "120000바이트 제한을 맞추기 위해 WebP 품질74를 사용하여 작은 질감은 부드러워짐."
+        ],
+        "distractorEvidence": {
+          "B": "현재 재배치 작업을 하는 사람이 보이지 않아 진행 수동태를 뒷받침하지 않음.",
+          "C": "테이블 상판에 식탁보가 없음.",
+          "D": "파라솔 천이 기둥 주위로 접혀 있음."
+        },
+        "ambiguityControl": "과거 동작의 결과로 보이는 상태와 현재 진행 중인 동작을 구분하도록 작성함."
+      }
+    }
+  ],
+  "comparison": {
+    "similarities": [
+      "실사 흑백 사진, 실내/자연광, 얼굴 클로즈업 없는 중간 거리 구도.",
+      "일상 업무 동작과 주변 사물을 함께 배치해 동작·사물·상태 오답을 만들 수 있음.",
+      "1인·2인·무인 장면을 구분하고, 무인 사진에는 is being 진행 수동태 함정을 사용함."
+    ],
+    "differences": [
+      "기존 시험 사진을 참조하거나 따라 그리지 않았으며 동일한 시각 분포를 검증한 것은 아님.",
+      "생성 사진은 정돈된 구도와 비슷한 옷·자세 때문에 일부 연출된 느낌이 남음.",
+      "3장 시범이므로 실제 시험의 소재·난이도 분포를 대표하지 않으며 문항은 쉬운 초안 수준임."
+    ],
+    "defectsSummary": "최종 1024x768 이미지에서 명백한 추가 손가락·깨진 큰 글자·로고·부유 사물은 발견하지 못함.가려진 손과 작은 소품/의자 프레임은 검증 한계가 있어 원본과 최종본 모두 사람이 확인함."
+  },
+  "scalingTo50": {
+    "imageStorageUpperBoundBytes": 6000000,
+    "notes": [
+      "손·손잡이·상자 접촉·겹친 의자 같은 구조 결함과 작은 글자/로고의 재출현을 장마다 검수해야 함.",
+      "인물 외모·옷·구도·행동과 보기 함정이 반복될 수 있어 소재와 문항 유형을 먼저 분산 설계해야 함.",
+      "복잡한 배경은 용량이 커져 품질 저하나 추가 축소가 필요할 수 있음.이번 결과에서도 품질90/82/74로 차이가 있었음.",
+      "동시 요청 제한·대기·실패·재생성 횟수에 따라 처리 시간이 달라짐.3회 관측으로 50장의 소요 시간이나 비용을 신뢰성 있게 예측할 수 없음.",
+      "사진을 먼저 확인한 뒤 문항을 작성하고, 단일 사진으로 알 수 없는 이동 방향·숨은 행동·직업 추정 때문에 복수 정답이 생기지 않도록 별도 검토해야 함."
+    ]
+  },
+  "scope": {
+    "newFilesOnly": [
+      "p1-pilot-1.webp",
+      "p1-pilot-2.webp",
+      "p1-pilot-3.webp",
+      "p1-pilot.json",
+      "p1-pilot-report.json"
+    ],
+    "existingCodeOrDataEdited": false,
+    "gitCommitCreated": false
+  }
+}

@@ -30,3 +30,37 @@
 .language-switch .segment{min-height:40px;border:0;border-radius:8px;background:transparent;font-size:14px;color:var(--secondary)}
 .language-switch .segment[aria-pressed=true]{background:var(--raised);color:var(--ink);font-weight:500;box-shadow:0 1px 2px rgb(0 0 0 / 8%)}
 .language-switch .segment:hover{color:var(--ink)}
+/* Part 1 photo and A-D letter answers; Part 6-7 reading layout: passage above questions, side by side from 900px with separate scrolling. */
+.exam-photo{display:block;width:100%;height:auto;margin-top:16px;border:1px solid var(--line);border-radius:12px;background:var(--raised)}
+.exam-letter-choices.is-four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.exam-reading{display:grid;gap:24px;margin-top:16px}
+.reading-passage{padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--surface);overflow-wrap:anywhere}
+.reading-passage:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.reading-doc+.reading-doc{margin-top:24px;padding-top:24px;border-top:2px dashed var(--line)}
+.reading-doc-label{margin:0 0 4px;font-size:12px;font-weight:500;color:var(--primary)}
+.reading-doc-title{margin:0 0 8px;font-size:15px;font-weight:600}
+.reading-heading{padding-bottom:8px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.reading-heading p{margin:0;font-size:13px;color:var(--secondary)}
+.reading-body p{margin:12px 0 0;line-height:1.75}
+.reading-body p:first-child{margin-top:0}
+.reading-blank{padding:0 4px;border-bottom:2px solid var(--secondary);background:var(--raised);font-weight:500;white-space:nowrap}
+.reading-blank.is-active{border-color:var(--primary);background:var(--highlight);color:var(--ink)}
+.reading-blank.is-filled{border-color:var(--success);background:var(--success-bg);color:var(--success);white-space:normal}
+.reading-marker{font-weight:600;color:var(--primary)}
+.reading-ref{padding-left:8px;border-left:3px solid var(--primary)}
+.reading-ref-label{display:block;font-size:12px;color:var(--primary)}
+.reading-word{padding:0 2px;background:var(--highlight);color:inherit;border-radius:2px}
+.reading-chat{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}
+.reading-chat li{padding:8px 12px;border-radius:12px;background:var(--raised)}
+.reading-chat p{margin:0}
+.reading-chat-meta{font-size:12px;color:var(--secondary)}
+.reading-chat-meta strong{color:var(--ink);font-weight:600}
+.reading-table{margin:12px 0}
+.reading-ko{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+.reading-ko summary{min-height:48px;display:flex;align-items:center;font-weight:500;cursor:pointer}
+.reading-ko .reading-body,.reading-ko .reading-chat li p:last-child{font-size:14px}
+.reading-questions .exam-set-questions{margin-top:0}
+@media(min-width:900px){.app-shell:has(.exam-reading){max-width:1180px}
+.exam-reading{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:start}
+.reading-passage,.reading-questions{position:sticky;top:16px;max-height:calc(100dvh - 128px);overflow-y:auto;overscroll-behavior:contain}
+.reading-questions{padding-right:8px}}

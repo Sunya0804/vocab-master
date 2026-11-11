@@ -350,8 +350,8 @@
     return shuffle(selected, rand);
   }
 
-  // Part 2·5 question ids are p5-001; Part 3·4 set questions are set id + number (p3-001-1).
-  var EXAM_ID = /^p(?:[25]-\d+|[34]-\d+-[1-3])$/;
+  // Part 1·2·5 question ids are p5-001; set questions are set id + number (p3-001-1, p6-001-4, p7-001-5).
+  var EXAM_ID = /^p(?:[125]-\d+|[34]-\d+-[1-3]|6-\d+-[1-4]|7-\d+-[1-5])$/;
 
   function validExamState(value) {
     return isRecord(value) && isRecord(value.answers)

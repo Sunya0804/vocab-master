@@ -1,8 +1,8 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v26-lazy-packages';
+const CACHE_VERSION = 'vocab-master-shell-v27-exam-p167';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
-const QUESTION_FILES = ['questions/toeic-part2.json', 'questions/toeic-part3.json', 'questions/toeic-part4.json', 'questions/toeic-part5.json'];
+const QUESTION_FILES = [1, 2, 3, 4, 5, 6, 7].map(part => `questions/toeic-part${part}.json`);
 const SCOPE = self.registration.scope;
 const APP_SHELL = ['./', './index.html', './style.css', './app.js', './js/shared.js', './js/study.js', './js/listen.js', './js/exam.js', './js/settings.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
@@ -62,7 +62,8 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const relative = url.pathname.slice(new URL(SCOPE).pathname.length);
   const isPackage = relative.startsWith('packages/');
-  const isQuestion = QUESTION_FILES.includes(relative);
+  // Part 1 photos are cached once viewed, like question files, so a solved photo opens offline.
+  const isQuestion = QUESTION_FILES.includes(relative) || /^images\/part1\/[\w.-]+\.webp$/.test(relative);
   const isShell = APP_SHELL.some(asset => asset.slice(2) === relative);
   if (!isPackage && !isQuestion && !isShell && request.mode !== 'navigate') return;
   event.respondWith((async () => {

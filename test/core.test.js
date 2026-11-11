@@ -687,8 +687,8 @@ test('exam backup validation rejects malformed records', () => {
 
 test('exam ids accept Part 3/4 set questions and set stats mark sets with an unresolved wrong question', () => {
   let exam = {answers:{}};
-  for (const id of ['p2-001', 'p3-001-1', 'p4-012-3']) exam = Core.recordExamAnswer(exam, id, true, 1);
-  for (const id of ['p3-001', 'p3-001-4', 'p6-001', 'p4-1-001']) assert.throws(() => Core.recordExamAnswer(exam, id, true, 1), TypeError);
+  for (const id of ['p2-001', 'p3-001-1', 'p4-012-3', 'p1-001', 'p6-001-4', 'p7-003-5']) exam = Core.recordExamAnswer(exam, id, true, 1);
+  for (const id of ['p3-001', 'p3-001-4', 'p6-001', 'p4-1-001', 'p6-001-5', 'p7-001-6', 'p7-001', 'p1-001-1']) assert.throws(() => Core.recordExamAnswer(exam, id, true, 1), TypeError);
   assert.equal(Core.validExamState({answers:{'p3-001-0':{correct:true, at:0, tries:1}}}), false);
   const q = {type:'detail'};
   const sets = [{id:'p3-001', difficulty:1, questions:[q, q, q]}, {id:'p3-002', difficulty:2, questions:[q, q, q]}];
