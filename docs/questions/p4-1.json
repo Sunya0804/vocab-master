@@ -5,7 +5,7 @@
       {"s":"W","t":"Hello, this is Leni Varek from the personnel office at Ovelin Analytics, calling about your application for the payroll assistant position."},
       {"s":"W","t":"Your interview is still scheduled for ten on Thursday morning, and the conversation with the hiring manager should take about forty minutes."},
       {"s":"W","t":"However, please come to the east entrance rather than the main reception area, because painters will be working in the front lobby."},
-      {"s":"W","t":"You don't need to bring references or another copy of your résumé; we already have those documents in your application file."},
+      {"s":"W","t":"Your references and résumé are included in the hiring manager's briefing notes, alongside a checklist of topics for the discussion."},
       {"s":"W","t":"Do bring a photo ID, since the security officer must check it before issuing your visitor badge."},
       {"s":"W","t":"If that time no longer works for you, please call me by three tomorrow so I can arrange a different appointment."}
     ],
@@ -13,14 +13,14 @@
       "안녕하세요, 오벨린 애널리틱스 인사부의 레니 바렉이에요. 급여 업무 보조 직무에 지원하신 건으로 전화드려요.",
       "면접은 예정대로 목요일 오전 10시이며, 채용 담당 관리자와의 면담은 약 40분 걸릴 거예요.",
       "다만 정면 로비에서 도색 작업을 할 예정이니 중앙 접수처 대신 동쪽 출입구로 와 주세요.",
-      "추천서나 이력서 사본은 더 가져오실 필요 없어요. 지원 서류철에 이미 보관되어 있어요.",
+      "추천서와 이력서는 면담 주제 점검표와 함께 채용 담당 관리자의 사전 자료에 포함되어 있어요.",
       "방문증을 발급하기 전에 보안 담당자가 확인해야 하니 사진이 있는 신분증은 꼭 가져오세요.",
       "그 시간이 더는 맞지 않으시면 다른 약속을 잡을 수 있도록 내일 3시까지 제게 전화해 주세요."
     ],
     "graphic":null,
     "questions":[
       {"type":"speaker","q":"Who most likely is the woman?","choices":["A building security officer","An employee in human resources","A candidate for an accounting job","A painting company representative"],"answer":1,"ko":{"q":"여자는 어떤 사람인가?","choices":["건물 보안 담당자","인사 부서 직원","회계 직무 지원자","도색 회사 담당자"]},"explain":"personnel office에서 지원자의 면접을 안내하므로 인사 부서 직원이라는 (B)가 맞다. security officer는 신분증을 확인할 별도의 사람이다."},
-      {"type":"detail","q":"What does the woman ask the listener to bring?","choices":["A letter of reference","An additional résumé","A completed payroll report","Identification with a photograph"],"answer":3,"ko":{"q":"여자는 청자에게 무엇을 가져오라고 요청하는가?","choices":["추천서","추가 이력서","작성한 급여 보고서","사진이 있는 신분증"]},"explain":"photo ID를 가져오라는 말이 identification with a photograph로 바뀐 (D)가 맞다. 추천서와 이력서는 이미 확보했으므로 가져올 필요가 없다고 한다."},
+      {"type":"detail","q":"What does the woman ask the listener to bring?","choices":["A letter of reference","An additional résumé","A completed payroll report","Identification with a photograph"],"answer":3,"ko":{"q":"여자는 청자에게 무엇을 가져오라고 요청하는가?","choices":["추천서","추가 이력서","작성한 급여 보고서","사진이 있는 신분증"]},"explain":"photo ID를 가져오라는 요청을 identification with a photograph로 바꾼 (D)가 맞다. 추천서와 이력서는 면접관의 사전 자료로 언급되며 지원자에게 지참을 요청한 물건은 아니다."},
       {"type":"next","q":"What should the listener do to change the appointment?","choices":["Telephone the personnel office","Contact the security officer","Visit the east entrance","Submit another application"],"answer":0,"ko":{"q":"청자는 약속을 변경하려면 무엇을 해야 하는가?","choices":["인사부에 전화한다","보안 담당자에게 연락한다","동쪽 출입구를 방문한다","지원서를 다시 제출한다"]},"explain":"시간이 맞지 않으면 인사 담당자인 자신에게 전화하라고 하므로 (A)가 맞다. 동쪽 출입구는 방문 장소이지 일정 변경 방법이 아니다."}
     ]
   },
@@ -435,18 +435,18 @@
   {
     "id":"p4-1-018","difficulty":3,"talkType":"speech",
     "script":[
-      {"s":"M","t":"Before our revised purchasing workflow goes live, this workshop is intended to uncover concerns that the trial report may have missed."},
-      {"s":"M","t":"Everyone who tested the procedure is here today, but the written summary mainly reflects comments from three team leaders."},
-      {"s":"M","t":"Several assistants actually used the process more often, yet they have not been invited to explain where it caused difficulties."},
+      {"s":"M","t":"Before our revised purchasing workflow goes live, I'd like to hear how it worked at your desks and counters."},
+      {"s":"M","t":"The pilot involved purchasing assistants, maintenance coordinators, and reception staff, and each team kept a daily usage log."},
+      {"s":"M","t":"The draft report on the screen contains three quotations from supervisors, and each example focuses on authorizing a large order."},
       {"s":"M","t":"A few voices are still missing."},
       {"s":"M","t":"To give every response equal weight, the first exercise will be completed individually before we begin a group discussion."},
       {"s":"M","t":"For this exercise, take the feedback card on your chair and describe one step that needs improvement, without writing your name."},
       {"s":"M","t":"Put your card in the box near the door, and I will read the suggestions aloud before we discuss possible changes."}
     ],
     "scriptKo":[
-      "개편된 구매 절차를 정식으로 시행하기 전에 이번 워크숍에서 시범 운영 보고서가 놓쳤을 수 있는 우려를 파악하려고 합니다.",
-      "절차를 시험한 분은 오늘 모두 참석했지만 서면 요약에는 주로 팀장 세 분의 의견이 반영되어 있습니다.",
-      "일부 보조 직원은 그 절차를 더 자주 사용했는데도 어떤 어려움이 있었는지 설명해 달라는 요청을 아직 받지 못했습니다.",
+      "개편된 구매 절차를 정식으로 시행하기 전에 여러분이 각자의 자리와 창구에서 그 절차를 사용해 본 경험을 듣고 싶습니다.",
+      "시범 운영에는 구매 보조 직원, 정비 조정 담당자, 접수 직원이 참여했으며 각 팀은 매일 사용 기록을 남겼습니다.",
+      "화면에 띄운 보고서 초안에는 상사의 말을 인용한 문장 세 개가 있으며 예시는 모두 큰 주문을 결재하는 내용입니다.",
       "아직 몇몇 목소리가 빠져 있습니다.",
       "모든 응답을 동등하게 다루기 위해 첫 활동은 개별로 진행한 뒤 단체 논의를 시작하겠습니다.",
       "이번 활동에서는 의자 위 의견 카드에 이름을 적지 말고 개선이 필요한 단계 한 가지를 적어 주십시오.",
@@ -454,8 +454,8 @@
     ],
     "graphic":null,
     "questions":[
-      {"type":"topic","q":"What is the purpose of the workshop?","choices":["To announce the selection of three team leaders","To elicit reactions to a proposed system","To train employees to write formal reports","To distribute purchasing duties to new assistants"],"answer":1,"ko":{"q":"워크숍의 목적은 무엇인가?","choices":["팀장 세 명의 선정을 발표한다","제안된 체계에 대한 반응을 이끌어 낸다","직원들에게 공식 보고서 작성을 교육한다","신입 보조 직원에게 구매 업무를 배분한다"]},"explain":"시행 전 절차에 대해 보고서에 빠진 의견을 알아보려는 목적을 elicit reactions로 바꾼 (B)가 맞다. 팀장 세 명은 이미 의견을 낸 사람들이며 새 선발 대상이 아니다."},
-      {"type":"intention","q":"What does the man imply when he says, \"A few voices are still missing\"?","choices":["Not every viewpoint has been represented","Some employees cannot hear the speaker","Invited colleagues have missed the event","Recorded training narration is incomplete"],"answer":0,"ko":{"q":"남자가 “아직 몇몇 목소리가 빠져 있습니다”라고 말하는 의도는 무엇인가?","choices":["모든 관점이 반영된 것은 아니다","일부 직원이 화자의 말을 듣지 못한다","초대된 동료들이 행사에 오지 않았다","교육 녹음의 해설이 완성되지 않았다"]},"explain":"참석자는 모두 왔지만 실제 이용이 많았던 보조 직원의 의견이 빠졌다는 맥락이므로 (A)가 맞다. missing은 결석이나 음향 문제를 가리키지 않는다."},
+      {"type":"topic","q":"What is the purpose of the workshop?","choices":["To announce the selection of three team leaders","To elicit reactions to a proposed system","To train employees to write formal reports","To distribute purchasing duties to new assistants"],"answer":1,"ko":{"q":"워크숍의 목적은 무엇인가?","choices":["팀장 세 명의 선정을 발표한다","제안된 체계에 대한 반응을 이끌어 낸다","직원들에게 공식 보고서 작성을 교육한다","신입 보조 직원에게 구매 업무를 배분한다"]},"explain":"정식 시행 전 현장의 사용 경험을 듣고 개선 의견을 모으려는 목적을 elicit reactions로 바꾼 (B)가 맞다. 화면의 세 인용문은 상사들의 경험이며 팀장 선발을 발표하는 내용이 아니다."},
+      {"type":"intention","q":"What does the man imply when he says, \"A few voices are still missing\"?","choices":["Not every viewpoint has been represented","Some employees cannot hear the speaker","Invited colleagues have missed the event","Recorded training narration is incomplete"],"answer":0,"ko":{"q":"남자가 “아직 몇몇 목소리가 빠져 있습니다”라고 말하는 의도는 무엇인가?","choices":["모든 관점이 반영된 것은 아니다","일부 직원이 화자의 말을 듣지 못한다","초대된 동료들이 행사에 오지 않았다","교육 녹음의 해설이 완성되지 않았다"]},"explain":"여러 직무에서 시범 사용했지만 보고서 예시는 상사의 큰 주문 결재에 집중되어 있어 다른 관점도 필요하다는 (A)가 맞다. 사용 경험을 모으고 익명 카드를 받는 맥락에서 나온 말이며 출석이나 음향 점검을 하는 안내가 아니다."},
       {"type":"next","q":"What will participants do next?","choices":["Publicly criticize their team leaders","Rewrite the report with their names","Offer anonymous evaluations","Begin using the final purchasing procedure"],"answer":2,"ko":{"q":"참가자들은 다음에 무엇을 할 것인가?","choices":["팀장들을 공개적으로 비판한다","이름을 써서 보고서를 다시 작성한다","익명으로 평가 의견을 낸다","최종 구매 절차를 사용하기 시작한다"]},"explain":"이름 없이 개선 의견을 카드에 적어 상자에 넣으라는 요청을 anonymous evaluations로 바꾼 (C)가 맞다. 단체 논의는 개별 카드 작성 다음에 진행한다."}
     ]
   },

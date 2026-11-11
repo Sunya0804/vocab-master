@@ -21,7 +21,7 @@
         },
         {
           "s": "W",
-          "t": "You don't need to bring references or another copy of your résumé; we already have those documents in your application file."
+          "t": "Your references and résumé are included in the hiring manager's briefing notes, alongside a checklist of topics for the discussion."
         },
         {
           "s": "W",
@@ -36,7 +36,7 @@
         "안녕하세요, 오벨린 애널리틱스 인사부의 레니 바렉이에요. 급여 업무 보조 직무에 지원하신 건으로 전화드려요.",
         "면접은 예정대로 목요일 오전 10시이며, 채용 담당 관리자와의 면담은 약 40분 걸릴 거예요.",
         "다만 정면 로비에서 도색 작업을 할 예정이니 중앙 접수처 대신 동쪽 출입구로 와 주세요.",
-        "추천서나 이력서 사본은 더 가져오실 필요 없어요. 지원 서류철에 이미 보관되어 있어요.",
+        "추천서와 이력서는 면담 주제 점검표와 함께 채용 담당 관리자의 사전 자료에 포함되어 있어요.",
         "방문증을 발급하기 전에 보안 담당자가 확인해야 하니 사진이 있는 신분증은 꼭 가져오세요.",
         "그 시간이 더는 맞지 않으시면 다른 약속을 잡을 수 있도록 내일 3시까지 제게 전화해 주세요."
       ],
@@ -82,7 +82,7 @@
               "사진이 있는 신분증"
             ]
           },
-          "explain": "photo ID를 가져오라는 말이 identification with a photograph로 바뀐 (D)가 맞다. 추천서와 이력서는 이미 확보했으므로 가져올 필요가 없다고 한다."
+          "explain": "photo ID를 가져오라는 요청을 identification with a photograph로 바꾼 (D)가 맞다. 추천서와 이력서는 면접관의 사전 자료로 언급되며 지원자에게 지참을 요청한 물건은 아니다."
         },
         {
           "type": "next",
@@ -1894,15 +1894,15 @@
       "script": [
         {
           "s": "M",
-          "t": "Before our revised purchasing workflow goes live, this workshop is intended to uncover concerns that the trial report may have missed."
+          "t": "Before our revised purchasing workflow goes live, I'd like to hear how it worked at your desks and counters."
         },
         {
           "s": "M",
-          "t": "Everyone who tested the procedure is here today, but the written summary mainly reflects comments from three team leaders."
+          "t": "The pilot involved purchasing assistants, maintenance coordinators, and reception staff, and each team kept a daily usage log."
         },
         {
           "s": "M",
-          "t": "Several assistants actually used the process more often, yet they have not been invited to explain where it caused difficulties."
+          "t": "The draft report on the screen contains three quotations from supervisors, and each example focuses on authorizing a large order."
         },
         {
           "s": "M",
@@ -1922,9 +1922,9 @@
         }
       ],
       "scriptKo": [
-        "개편된 구매 절차를 정식으로 시행하기 전에 이번 워크숍에서 시범 운영 보고서가 놓쳤을 수 있는 우려를 파악하려고 합니다.",
-        "절차를 시험한 분은 오늘 모두 참석했지만 서면 요약에는 주로 팀장 세 분의 의견이 반영되어 있습니다.",
-        "일부 보조 직원은 그 절차를 더 자주 사용했는데도 어떤 어려움이 있었는지 설명해 달라는 요청을 아직 받지 못했습니다.",
+        "개편된 구매 절차를 정식으로 시행하기 전에 여러분이 각자의 자리와 창구에서 그 절차를 사용해 본 경험을 듣고 싶습니다.",
+        "시범 운영에는 구매 보조 직원, 정비 조정 담당자, 접수 직원이 참여했으며 각 팀은 매일 사용 기록을 남겼습니다.",
+        "화면에 띄운 보고서 초안에는 상사의 말을 인용한 문장 세 개가 있으며 예시는 모두 큰 주문을 결재하는 내용입니다.",
         "아직 몇몇 목소리가 빠져 있습니다.",
         "모든 응답을 동등하게 다루기 위해 첫 활동은 개별로 진행한 뒤 단체 논의를 시작하겠습니다.",
         "이번 활동에서는 의자 위 의견 카드에 이름을 적지 말고 개선이 필요한 단계 한 가지를 적어 주십시오.",
@@ -1951,7 +1951,7 @@
               "신입 보조 직원에게 구매 업무를 배분한다"
             ]
           },
-          "explain": "시행 전 절차에 대해 보고서에 빠진 의견을 알아보려는 목적을 elicit reactions로 바꾼 (B)가 맞다. 팀장 세 명은 이미 의견을 낸 사람들이며 새 선발 대상이 아니다."
+          "explain": "정식 시행 전 현장의 사용 경험을 듣고 개선 의견을 모으려는 목적을 elicit reactions로 바꾼 (B)가 맞다. 화면의 세 인용문은 상사들의 경험이며 팀장 선발을 발표하는 내용이 아니다."
         },
         {
           "type": "intention",
@@ -1972,7 +1972,7 @@
               "교육 녹음의 해설이 완성되지 않았다"
             ]
           },
-          "explain": "참석자는 모두 왔지만 실제 이용이 많았던 보조 직원의 의견이 빠졌다는 맥락이므로 (A)가 맞다. missing은 결석이나 음향 문제를 가리키지 않는다."
+          "explain": "여러 직무에서 시범 사용했지만 보고서 예시는 상사의 큰 주문 결재에 집중되어 있어 다른 관점도 필요하다는 (A)가 맞다. 사용 경험을 모으고 익명 카드를 받는 맥락에서 나온 말이며 출석이나 음향 점검을 하는 안내가 아니다."
         },
         {
           "type": "next",

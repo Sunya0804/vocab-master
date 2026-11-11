@@ -2240,47 +2240,47 @@
       },
       {
         "s": "W",
-        "t": "The grant permits instruction and course materials, not social meals. The trainer's invoice qualifies."
+        "t": "The award letter lists the trainer's fee and the practice booklets. I've marked both lines."
       },
       {
         "s": "W2",
-        "t": "We're printing practice booklets ourselves. That should leave some money after the trainer is paid."
+        "t": "We're printing the booklets ourselves, at two hundred dollars below the outside quote."
       },
       {
         "s": "M",
-        "t": "Could we use that balance for dinner instead of asking another organization to help?"
+        "t": "Could the caterer's deposit come from the difference? They'll hold our reservation until Friday."
       },
       {
         "s": "W",
-        "t": "Any unused grant funds must be returned. Saving on booklets doesn't alter the spending restrictions."
+        "t": "The accountant wants receipts against those two lines, then whatever remains sent back to the regional office."
       },
       {
         "s": "W2",
-        "t": "Then we need a separate source for the meal, not a larger training order."
+        "t": "Our local partner helped with last year's dinner. Do we still have a contact there?"
       },
       {
         "s": "M",
-        "t": "A local partner might sponsor it. I have a meeting with them tomorrow about another program."
+        "t": "I'm meeting them tomorrow about another program. We could add a few minutes."
       },
       {
         "s": "W",
-        "t": "Bring the catering quote along, but keep that discussion separate from the grant. They may prefer to cover the meal directly."
+        "t": "Take the catering quote too. Their representative mentioned wanting to support workplace gatherings."
       },
       {
         "s": "W2",
-        "t": "I'll join you and explain why our course funding cannot cover refreshments."
+        "t": "I'll join you and explain the guest numbers, so they can decide whether to help."
       }
     ],
     "scriptKo": [
       "지역 사무소에서 감독자 연수회 비용을 지원했어요. 그 돈으로 환영 만찬도 치를 수 있나요?",
-      "지원금은 교육과 수업 자료에만 허용되고 친목 식사는 안 돼요. 강사 청구서는 해당돼요.",
-      "실습 책자는 내부에서 인쇄하고 있어요. 강사비를 내고도 돈이 남을 것 같아요.",
-      "다른 단체에 도움을 구하는 대신 그 잔액을 만찬에 쓸 수 있을까요?",
-      "쓰지 않은 지원금은 모두 돌려줘야 해요. 책자 비용을 아껴도 사용 제한은 바뀌지 않아요.",
-      "그럼 교육 주문을 늘리는 게 아니라 식사비를 위한 별도 재원이 필요하겠네요.",
-      "지역 협력사가 후원할 수도 있어요. 다른 프로그램 때문에 내일 그쪽과 회의가 있어요.",
-      "출장 요리 견적을 가져가되 그 논의는 지원금과 별도로 진행하세요. 그쪽에서 식사비를 직접 내는 편을 원할 수도 있어요.",
-      "저도 같이 가서 왜 우리 교육 지원금으로 식음료 비용을 낼 수 없는지 설명할게요."
+      "지원 결정서에는 강사료와 실습 책자가 적혀 있어요. 두 항목에 표시해 뒀어요.",
+      "책자는 내부에서 인쇄하고 있어서 외부 견적보다 200달러 적게 들어요.",
+      "그 차액으로 출장 요리 업체에 예약금을 낼 수 있을까요? 금요일까지 예약을 잡아 준대요.",
+      "회계 담당자는 그 두 항목의 영수증을 받고 나서 남은 금액을 지역 사무소로 돌려보내 달라고 해요.",
+      "지역 협력사가 지난해 만찬을 도왔어요. 아직 그쪽 담당자와 연락하나요?",
+      "다른 프로그램 때문에 내일 그쪽과 회의가 있어요. 몇 분 더 이야기할 수 있겠네요.",
+      "출장 요리 견적도 가져가세요. 그쪽 담당자가 직장 모임을 지원하고 싶다고 했어요.",
+      "저도 같이 가서 참석 인원을 설명할게요. 그러면 도와줄 수 있을지 판단할 수 있겠네요."
     ],
     "graphic": null,
     "questions": [
@@ -2303,7 +2303,7 @@
             "지역 사무소에 인쇄물 반환"
           ]
         },
-        "explain": "지원금으로 교육비와 식사비 중 무엇을 낼 수 있는지 구분하므로 (A)가 맞다. 돌려줘야 하는 것은 인쇄물이 아니라 쓰지 않은 돈이다."
+        "explain": "지원 결정서의 두 교육 항목과 만찬비의 재원을 구분해 논의하므로 (A)가 맞다. 지역 사무소로 반환하는 것은 인쇄물이 아니라 정산 뒤 남은 돈이다."
       },
       {
         "type": "inference",
@@ -2324,7 +2324,7 @@
             "지출을 줄여도 보조금의 사용 범위가 넓어지지는 않는다."
           ]
         },
-        "explain": "잔액 반환 의무와 교육 용도 제한을 연결하면 (D)가 맞다. 만찬은 별도 후원을 찾을 수 있으므로 취소해야 한다고 단정할 수 없다."
+        "explain": "지원 결정서의 강사료·책자 두 항목을 정산하고 잔액은 지역 사무소에 반환하므로 절감액도 다른 용도로 돌릴 수 없다는 (D)가 맞다. 협력사의 관심은 언급하지만 아직 후원을 확약받지는 않았으므로 (B)는 틀리다."
       },
       {
         "type": "next",
@@ -2345,7 +2345,7 @@
             "강사 대금 지급 취소"
           ]
         },
-        "explain": "내일 협력사 회의에 식사 견적을 가져가 후원을 논의하자는 흐름을 바꾼 (B)가 맞다. 교육 지원금의 용도를 넓히거나 강사 비용을 취소하는 계획은 없다."
+        "explain": "내일 협력사 회의에 식사 견적을 가져가 지원 가능성을 논의하려 하므로 (B)가 맞다. 강사료 지급을 취소하거나 남은 돈으로 책자를 더 주문하는 계획은 없다."
       }
     ]
   },
@@ -2846,51 +2846,51 @@
     "script": [
       {
         "s": "W",
-        "t": "Our board report uses March's revenue spreadsheet. Today's figures exclude two invoices canceled this morning."
+        "t": "For tomorrow's directors' session, we need to account for two invoices canceled this morning."
       },
       {
         "s": "M",
-        "t": "Design received yesterday's version and has already formatted the charts. The packets go out at noon."
+        "t": "The packets are at reception. I printed them today, and the cover date is correct."
       },
       {
         "s": "M2",
-        "t": "I confirmed both cancellations. The dashboard changed, but the separate spreadsheet didn't refresh automatically."
+        "t": "I logged the cancellations at nine. The file sent for printing was saved yesterday at four."
       },
       {
         "s": "W",
-        "t": "So the chart is outdated, even though its printed date says today."
+        "t": "The members still need the other pages. Could we present the revenue section another way?"
       },
       {
         "s": "M",
-        "t": "Could we change the date instead of rebuilding pages so close to the deadline?"
+        "t": "The meeting room has a screen. Do we have a source that includes this morning's transactions?"
       },
       {
         "s": "M2",
-        "t": "That wouldn't fix the totals. We need the corrected source and a revised note about those invoices."
+        "t": "The dashboard connects to our accounting software. Both cancellations are visible there now."
       },
       {
         "s": "W",
-        "t": "I'll create a fresh summary and mark the figures that design needs to replace."
+        "t": "I'll go there now and hook up a laptop. Can you help position the equipment?"
       },
       {
         "s": "M",
-        "t": "Send it within thirty minutes, and I can update only the chart and the paragraph below."
+        "t": "Certainly. I'll get a longer cable, so everyone can see the display clearly."
       },
       {
         "s": "M2",
-        "t": "I'll check the replacement totals before the packet is released."
+        "t": "I'll join you. We can try the connection before the members arrive."
       }
     ],
     "scriptKo": [
-      "이사회 보고서에는 3월 매출 스프레드시트를 쓰고 있어요. 오늘 수치에서는 오늘 아침 취소된 청구서 두 건이 빠져 있어요.",
-      "디자인팀은 어제 버전을 받아 도표 배치를 이미 끝냈어요. 자료는 정오에 나가요.",
-      "두 취소를 제가 확인했어요. 대시보드는 바뀌었지만 별도 스프레드시트는 자동 갱신되지 않았어요.",
-      "그럼 인쇄 날짜는 오늘이어도 도표는 오래된 수치네요.",
-      "마감이 이렇게 가까운데 페이지를 다시 만들지 말고 날짜만 바꿀 수는 없을까요?",
-      "그러면 합계는 고쳐지지 않아요. 수정된 원본과 그 청구서들에 관한 설명을 고친 문구가 필요해요.",
-      "제가 새 요약을 만들고 디자인팀에서 교체할 수치를 표시할게요.",
-      "30분 안에 보내면 도표와 그 아래 문단만 고칠 수 있어요.",
-      "수정 자료가 나가기 전에 제가 대체된 합계를 확인할게요."
+      "내일 이사회 회의에서는 오늘 아침 취소된 청구서 두 건을 반영해야 해요.",
+      "자료는 접수처에 있어요. 오늘 인쇄했고 표지 날짜도 맞아요.",
+      "취소는 제가 9시에 기록했어요. 인쇄용으로 보낸 파일은 어제 4시에 저장됐어요.",
+      "이사들에게는 다른 페이지도 여전히 필요해요. 매출 부분은 다른 방식으로 제시할 수 있을까요?",
+      "회의실에 화면이 있어요. 오늘 아침 거래까지 포함하는 자료가 있나요?",
+      "대시보드는 회계 소프트웨어에 연결돼요. 지금 거기에는 취소 두 건이 모두 보여요.",
+      "지금 거기로 가서 노트북을 연결할게요. 장비 배치를 도와줄 수 있나요?",
+      "물론이죠. 모두 화면을 잘 볼 수 있도록 더 긴 케이블을 가져올게요.",
+      "저도 같이 갈게요. 이사들이 도착하기 전에 연결을 시험해 볼 수 있어요."
     ],
     "graphic": null,
     "questions": [
@@ -2913,11 +2913,11 @@
             "임원 대상 재무 보고 수정"
           ]
         },
-        "explain": "취소된 청구서가 반영되지 않은 이사회 보고 수치를 고치므로 (D)가 맞다. 자료 배포 시각이 촉박할 뿐 이사회 일정을 바꾸는 논의가 아니다."
+        "explain": "취소된 청구서 두 건을 반영해 이사들에게 재무 정보를 제시할 방법을 조정하므로 (D)가 맞다. 고객의 지급 기한이나 회의 날짜를 바꾸려는 논의가 아니다."
       },
       {
         "type": "inference",
-        "q": "What can be inferred about the report?",
+        "q": "What can be inferred about the printed material?",
         "choices": [
           "Every data display updates from a single source.",
           "A recent timestamp can accompany obsolete calculations.",
@@ -2926,7 +2926,7 @@
         ],
         "answer": 1,
         "ko": {
-          "q": "보고서에 대해 무엇을 추론할 수 있는가?",
+          "q": "인쇄된 자료에 대해 무엇을 추론할 수 있는가?",
           "choices": [
             "모든 수치 화면이 하나의 원본에서 자동 갱신된다.",
             "최근 날짜가 표시되어도 계산 내용은 오래됐을 수 있다.",
@@ -2934,28 +2934,28 @@
             "인쇄 날짜를 바꾸면 계산이 고쳐진다."
           ]
         },
-        "explain": "오늘 날짜의 도표가 자동 갱신되지 않은 어제 파일을 쓴다는 정보를 연결하면 (B)가 맞다. 날짜 변경만으로 합계를 고칠 수 없다고 명시했다."
+        "explain": "오늘 날짜의 표지, 어제 저장된 인쇄 파일, 오늘 9시의 취소 기록을 연결하면 날짜가 최근이어도 계산 내용은 오래됐을 수 있다는 (B)가 맞다. 표지 날짜만 바꿔서는 누락된 거래 내역이 반영되지 않으므로 (D)는 틀리다."
       },
       {
         "type": "next",
         "q": "What will the woman do next?",
         "choices": [
-          "Supply data for targeted layout adjustments.",
+          "Prepare a venue for a digital financial presentation.",
           "Delay the board meeting a month.",
           "Request payment on the voided invoices.",
-          "Send yesterday's charts without verifying the two canceled invoices."
+          "Replace all printed packets with newly revised copies."
         ],
         "answer": 0,
         "ko": {
           "q": "여자는 다음에 무엇을 할 것인가?",
           "choices": [
-            "필요한 부분의 편집을 위해 데이터를 제공한다.",
+            "전자 재무 발표를 위해 회의 장소를 준비한다.",
             "이사회를 한 달 미룬다.",
             "취소된 청구서의 대금을 요청한다.",
-            "취소된 두 청구서를 확인하지 않고 어제 도표를 보낸다."
+            "인쇄된 자료 전체를 새 수정본으로 교체한다."
           ]
         },
-        "explain": "새 요약과 교체 수치를 만들어 디자인팀에 보내겠다는 말을 바꾼 (A)가 맞다. 이후 다른 화자가 합계를 확인하므로 검토 없이 발송하는 것도 아니다."
+        "explain": "여자가 바로 회의실로 가서 노트북을 연결하고 장비를 배치하려 하므로 (A)가 맞다. 인쇄물 전체를 새로 만드는 대신 대시보드를 화면으로 보여 줄 준비를 한다."
       }
     ]
   },
