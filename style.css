@@ -19,3 +19,14 @@
 @media(max-width:350px){main,.brand-bar{padding-left:16px;padding-right:16px}.button-row button{font-size:12px;padding:12px 8px}.study-card .english{font-size:32px}.word-row{flex-wrap:wrap}.word-row .word-content{flex-basis:calc(100% - 104px)}}
 @media(prefers-color-scheme:dark){:root{--bg:#141415;--surface:#19191b;--raised:#232325;--ink:#ededed;--secondary:#a1a1a6;--muted:#939399;--line:rgb(237 237 237 / 8%);--primary:#5fcf9f;--primary-ink:#141415;--highlight:#6b5c2a;--danger:#d28d86;--danger-bg:#332426;--success:#99bba3;--success-bg:#223029;--shadow:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+/* Word rows: speaker + known checkbox sit on the headword line; meaning and example use the full card width. */
+.word-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:start;column-gap:4px}
+.word-row>.word-content{display:contents}
+.word-row>.word-content>*{grid-column:1/-1}
+.word-row>.word-content>.word-title{grid-column:1;grid-row:1;align-self:center}
+.word-row>.icon-button,.word-row>.check-label{grid-row:1;align-self:center}
+/* Language switch: a joined segmented control so it does not read like the level filter chips below. */
+.language-switch{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:4px;padding:4px;margin-bottom:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.language-switch .segment{min-height:40px;border:0;border-radius:8px;background:transparent;font-size:14px;color:var(--secondary)}
+.language-switch .segment[aria-pressed=true]{background:var(--raised);color:var(--ink);font-weight:500;box-shadow:0 1px 2px rgb(0 0 0 / 8%)}
+.language-switch .segment:hover{color:var(--ink)}
