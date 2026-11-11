@@ -37,7 +37,7 @@
   }
 
   async function exportBackup() {
-    const blob = new Blob([JSON.stringify({version:1, exportedAt:new Date().toISOString(), state, exam:examState}, null, 2)], {type:'application/json'});
+    const blob = new Blob([JSON.stringify({version:1, exportedAt:new Date().toISOString(), state, exam:examState, mock:mockState}, null, 2)], {type:'application/json'});
     const fileName = `vocab-master-${new Date().toISOString().slice(0, 10)}.json`;
     try {
       const mobile = navigator.userAgentData?.mobile === true || window.matchMedia?.('(pointer: coarse)').matches;
@@ -86,25 +86,32 @@
       if (value.settings !== undefined && (!isObject(value.settings) || typeof value.settings.autoSpeak !== 'boolean')) throw new BackupError('자동 발음 설정이 올바르지 않아요.');
       const restoredExam = json.exam === undefined ? examState : json.exam;
       if (!Core.validExamState(restoredExam)) throw new BackupError('문제 학습 기록의 형식이 올바르지 않아요.');
+      // Backups made before mock tests existed keep the current mock records.
+      const restoredMock = json.mock === undefined ? mockState : json.mock;
+      if (!Core.validMockState(restoredMock)) throw new BackupError('모의고사 기록의 형식이 올바르지 않아요.');
       if (!confirm('백업으로 복원할까요? 현재 학습 기록과 가져온 단어장이 백업 내용으로 교체됩니다.')) return;
       // Feed the validated payload through Core's storage boundary as well.
       const restored = Core.loadState({getItem:key => key === 'vocab-master-v1' ? JSON.stringify(value) : null, setItem:() => {}});
-      const previous = state, previousExam = examState;
-      const before = ['vocab-master-v1', 'vocab-master-preferences-v1', EXAM_KEY].map(key => [key, storage.getItem(key)]);
+      const previous = state, previousExam = examState, previousMock = mockState;
+      const before = ['vocab-master-v1', 'vocab-master-preferences-v1', EXAM_KEY, MOCK_KEY].map(key => [key, storage.getItem(key)]);
       state = restored;
       state.settings = value.settings || {autoSpeak:false};
       try {
         storage.setItem(EXAM_KEY, JSON.stringify(restoredExam));
+        storage.setItem(MOCK_KEY, JSON.stringify(restoredMock));
         if (!persist()) throw new Error('Restore unavailable');
       } catch (_) {
         state = previous;
         examState = previousExam;
+        mockState = previousMock;
         for (const [key, raw] of before) try { if (raw === null) storage.removeItem(key); else storage.setItem(key, raw); } catch (_) { /* Keep the save error visible. */ }
         toast('백업을 저장하지 못했어요. 저장 공간과 브라우저 설정을 확인해 주세요.');
         return;
       }
       examState = restoredExam;
+      mockState = restoredMock;
       stopExamAudio(); examSession = null;
+      stopMock(); mockRun = null;
       session = null; render(); toast('백업을 복원했어요.');
     } catch (error) {
       const reason = error instanceof SyntaxError ? 'JSON 형식이 아니에요. 백업 JSON 파일을 선택해 주세요.'

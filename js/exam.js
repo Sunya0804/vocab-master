@@ -45,12 +45,13 @@
   const validChoices = q => isObject(q) && strings(q.choices, 4) && new Set(q.choices).size === 4
     && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < 4 && filled(q.explain) && isObject(q.ko) && strings(q.ko.choices, 4);
 
-  function validExamQuestion(q, part) {
-    if (part === 1) return validChoices(q) && /^p1-\d+$/.test(q.id) && [1, 2, 3].includes(q.difficulty)
+  // id: part banks use p5-001; mock tests use m-p5-2-07.
+  function validExamQuestion(q, part, id = new RegExp(`^p${part}-\\d+$`)) {
+    if (part === 1) return validChoices(q) && id.test(q.id) && [1, 2, 3].includes(q.difficulty)
       && ['single', 'group', 'object'].includes(q.photoType) && filled(q.image) && filled(q.alt)
       && Array.isArray(q.trap) && q.trap.every(tag => Object.hasOwn(EXAM_P1_TRAPS, tag));
     const count = part === 5 ? 4 : 3;
-    return isObject(q) && new RegExp(`^p${part}-\\d+$`).test(q.id)
+    return isObject(q) && id.test(q.id)
       && typeof q.q === 'string' && !!q.q.trim() && typeof q.explain === 'string' && !!q.explain.trim()
       && [1, 2, 3].includes(q.difficulty) && Object.hasOwn(EXAM_TYPES, q.type)
       && Array.isArray(q.choices) && q.choices.length === count
@@ -63,8 +64,8 @@
           && Array.isArray(q.trap) && q.trap.every(tag => Object.hasOwn(EXAM_TRAPS, tag)));
   }
 
-  function validExamSet(set, part) {
-    if (!isObject(set) || !new RegExp(`^p${part}-\\d+$`).test(set.id) || ![1, 2, 3].includes(set.difficulty) || !Array.isArray(set.questions)) return false;
+  function validExamSet(set, part, id = new RegExp(`^p${part}-\\d+$`)) {
+    if (!isObject(set) || !id.test(set.id) || ![1, 2, 3].includes(set.difficulty) || !Array.isArray(set.questions)) return false;
     if (part === 6) return validPart6(set);
     if (part === 7) return validPart7(set);
     return (part === 3 ? set.talkType === 'conversation' : set.talkType !== 'conversation' && Object.hasOwn(EXAM_TALKS, set.talkType))
@@ -127,6 +128,7 @@
 
   function ensureExamBanks() {
     for (const part of Object.keys(EXAM_PARTS).map(Number)) if (examBanks[part].status === 'idle') void loadExamBank(part);
+    checkMockBanks();
   }
 
   function examPool(part, wrong = false) {
@@ -157,7 +159,7 @@
   }
 
   function renderExamHome() {
-    return `${intro('', '토익 문제', 'Part 1~4 듣기 · Part 5~7 읽기')}<div class="level-filter exam-filter" role="group" aria-label="문제 난이도">${EXAM_LEVELS.map((label, level) => `<button class="level-chip" data-action="exam-level" data-level="${level}" aria-pressed="${examDifficulty === level}">${label}</button>`).join('')}</div>
+    return `${intro('', '토익 문제', 'Part 1~4 듣기 · Part 5~7 읽기')}${renderMockHome()}<h2 class="exam-section-title">파트별 연습</h2><div class="level-filter exam-filter" role="group" aria-label="문제 난이도">${EXAM_LEVELS.map((label, level) => `<button class="level-chip" data-action="exam-level" data-level="${level}" aria-pressed="${examDifficulty === level}">${label}</button>`).join('')}</div>
       <p class="exam-note">${examDifficulty ? '선택한 난이도의 문제로 세트를 구성해요' : '실전 세트 난이도 · 쉬움 25% · 보통 45% · 어려움 30%'}</p>
       <div class="exam-parts">${Object.keys(EXAM_PARTS).map(Number).map(part => {
         const bank = examBanks[part], info = EXAM_PARTS[part], unit = info.sets ? '세트' : '문항';
@@ -268,25 +270,32 @@
       ${src.table ? readingTable(src.table) : ''}${body ? `<div class="reading-body" lang="${ko ? 'ko' : 'en'}">${body}</div>` : ''}</article>`;
   }
 
-  function renderReadingSet() {
-    const s = examSession, set = s.questions[s.index], part = s.part, n = set.questions.length, last = s.index === s.questions.length - 1;
-    const right = set.questions.filter((q, i) => s.picks[i] === q.answer).length;
+  // Part 6/7 passage, its translation and the direction line; first = number of the set's first question
+  // (1 in practice sets, the test number such as 131 in a mock test).
+  function readingPassage(set, part, answered, active, first = 1) {
     let passage, translation;
     if (part === 6) {
       // Blank {n}: numbered gap, highlighted while it is the one being solved, filled with the answer after grading.
       const gap = number => {
-        const q = set.questions[number - 1];
-        return s.answered ? `<mark class="reading-blank is-filled">(${number}) ${escape(q.choices[q.answer])}</mark>`
-          : `<span class="reading-blank${number - 1 === s.active ? ' is-active' : ''}">(${number})<span aria-hidden="true"> -------</span><span class="sr-only"> 빈칸</span></span>`;
+        const q = set.questions[number - 1], label = first + number - 1;
+        return answered ? `<mark class="reading-blank is-filled">(${label}) ${escape(q.choices[q.answer])}</mark>`
+          : `<span class="reading-blank${number - 1 === active ? ' is-active' : ''}">(${label})<span aria-hidden="true"> -------</span><span class="sr-only"> 빈칸</span></span>`;
       };
       passage = `<article class="reading-doc">${set.heading.length ? `<div class="reading-heading">${set.heading.map(line => `<p>${escape(line)}</p>`).join('')}</div>` : ''}<div class="reading-body" lang="en">${set.paragraphs.map(text => `<p>${escape(text).replace(/\{(\d)\}/g, (_, d) => gap(Number(d)))}</p>`).join('')}</div></article>`;
       translation = `<article class="reading-doc">${set.headingKo.length ? `<div class="reading-heading">${set.headingKo.map(line => `<p>${escape(line)}</p>`).join('')}</div>` : ''}<div class="reading-body" lang="ko">${set.paragraphsKo.map(text => `<p>${escape(text).replace(/\{(\d)\}/g, '<span class="reading-blank is-filled">($1)</span>')}</p>`).join('')}</div></article>`;
     } else {
-      const refs = set.questions.map((q, i) => ({q, n:i + 1})).filter(r => r.q.ref);
+      const refs = set.questions.map((q, i) => ({q, n:first + i})).filter(r => r.q.ref);
       passage = set.passages.map((p, i) => readingDoc(p, i, set.passages.length, null, refs.filter(r => r.q.ref.passage === i))).join('');
       translation = set.passages.map((p, i) => readingDoc(p, i, set.passages.length, set.passagesKo[i])).join('');
     }
-    const direction = `Questions 1–${n} refer to the following ${part === 6 ? EXAM_P6_DOCS[set.passageType] : docList(set.passages)}.`;
+    const direction = `Questions ${first}–${first + set.questions.length - 1} refer to the following ${part === 6 ? EXAM_P6_DOCS[set.passageType] : docList(set.passages)}.`;
+    return {passage, translation, direction};
+  }
+
+  function renderReadingSet() {
+    const s = examSession, set = s.questions[s.index], part = s.part, n = set.questions.length, last = s.index === s.questions.length - 1;
+    const right = set.questions.filter((q, i) => s.picks[i] === q.answer).length;
+    const {passage, translation, direction} = readingPassage(set, part, s.answered, s.active);
     return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}
       <section class="exam-question exam-set" data-question-id="${escape(set.id)}"><div class="exam-listening-heading">${icon('book-open')}<h1>세트 ${s.index + 1}</h1></div><p class="exam-set-direction" lang="en">${escape(direction)}</p>
       <div class="exam-reading"><section class="reading-passage" aria-label="지문" tabindex="0">${passage}${s.answered ? `<details class="reading-ko" ${part === 6 ? 'open' : ''}><summary>번역 보기</summary>${translation}</details>` : ''}</section>
@@ -394,6 +403,82 @@
   const activeExamAudio = token => token === examAudioGeneration && examSession?.audioPlaying
     && examSession.route === location.hash && !examSession.finished && !document.hidden;
 
+  // Spoken items for one Part 1/2 question or Part 3/4 set. first = number read before each set question
+  // ("Question 32." in a mock test). Part 3/4 question items carry question:true so a caller can add pauses.
+  function examAudioQueue(part, item, english, first = 1) {
+    if (part <= 2) {
+      // Part 1: one narrator reads the four statements; Part 2: a second voice answers the question.
+      const questionVoice = speechVoice(english, 'en-US');
+      const responseVoice = part === 1 ? questionVoice : english.find(voice => voice !== questionVoice) || questionVoice;
+      return (part === 2 ? [{text:item.q, voice:questionVoice, label:'질문'}] : []).concat(item.choices.map((text, index) => ({text:`(${String.fromCharCode(65 + index)}) ${text}`, voice:responseVoice, label:`${part === 1 ? '보기' : '응답'} (${String.fromCharCode(65 + index)})`})));
+    }
+    const lang = voice => voice.lang.toLowerCase().replace('_', '-');
+    // Different accents first, then any remaining English voices.
+    const pool = [...new Set([...EXAM_ACCENTS.map(accent => english.find(voice => lang(voice) === accent)).filter(Boolean), ...english])];
+    // Speaker code's first letter (M/W) picks a voice of that gender: an unused one first, then a reused one or a
+    // neutral voice with pitch (women higher, men lower) so speakers stay distinguishable.
+    const cast = {}, used = new Set();
+    for (const speaker of new Set(item.script.map(line => line.s))) {
+      const gender = speaker[0], same = pool.filter(voice => examVoiceGender(voice) === gender);
+      const fresh = same.find(voice => !used.has(voice));
+      const voice = fresh || same[0] || pool.find(voice => !examVoiceGender(voice) && !used.has(voice)) || pool.find(voice => !examVoiceGender(voice)) || pool[0];
+      const alone = voice && !used.has(voice) && examVoiceGender(voice) === gender;
+      used.add(voice);
+      cast[speaker] = {voice, pitch:alone ? 1 : EXAM_PITCH[speaker] ?? EXAM_PITCH[gender] ?? 1};
+    }
+    return item.script.map((line, index) => ({text:line.t, ...cast[line.s], label:`${part === 3 ? '대화' : '담화'} ${index + 1}/${item.script.length}`}))
+      .concat(item.questions.map((q, index) => ({text:`Question ${first + index}. ${q.q}`, voice:pool[0], label:`${first + index}번 질문`, question:true})));
+  }
+
+  // Speaks queue items in order; item.gap = pause after the item in ms. Stops silently once active() is false.
+  // timer(fn, ms) schedules and lets the caller keep the handle to cancel; onItem reports progress; fail = speech error.
+  function speakQueue(queue, {active, timer, onItem, done, fail}) {
+    function step(index) {
+      if (!active()) return;
+      if (index >= queue.length) { done(); return; }
+      const item = queue[index], utterance = new SpeechSynthesisUtterance(item.text);
+      utterance.lang = item.voice?.lang || 'en-US';
+      utterance.rate = 1;
+      utterance.pitch = item.pitch ?? 1;
+      if (item.voice) utterance.voice = item.voice;
+      onItem(item, utterance);
+      let settled = false;
+      const timeout = timer(() => advance(true), Math.min(60000, Math.max(4000, item.text.length * 180 + 1500)));
+      function advance(error) {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timeout);
+        utterance.onend = null;
+        utterance.onerror = null;
+        if (!active()) return;
+        if (error) fail(); else timer(() => step(index + 1), item.gap ?? 250);
+      }
+      utterance.onend = () => advance(false);
+      utterance.onerror = () => advance(true);
+      try { window.speechSynthesis.speak(utterance); } catch (_) { advance(true); }
+    }
+    step(0);
+  }
+
+  // Calls begin(voices) now, or once voices load (up to 800 ms). Returns a cleanup that cancels the wait.
+  function whenVoices(begin) {
+    const voices = listenVoices();
+    if (voices.length) { begin(voices); return () => {}; }
+    const speech = window.speechSynthesis;
+    let settled = false;
+    const finish = () => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeout);
+      speech.removeEventListener?.('voiceschanged', changed);
+      begin(listenVoices());
+    };
+    const changed = () => { if (listenVoices().length) finish(); };
+    const timeout = setTimeout(finish, 800);
+    speech.addEventListener?.('voiceschanged', changed);
+    return () => { settled = true; clearTimeout(timeout); speech.removeEventListener?.('voiceschanged', changed); };
+  }
+
   function playExamAudio() {
     const s = examSession;
     if (!s || s.part >= 5 || s.route !== location.hash || s.finished || !supportsSpeech || document.hidden) return;
@@ -405,90 +490,20 @@
     s.audioStatus = '음성을 준비하고 있어요';
     const token = examAudioGeneration;
     refreshExam();
-    function begin(voices) {
+    examVoiceCleanup = whenVoices(voices => {
       if (!activeExamAudio(token)) return;
       const english = voices.filter(voice => voice.lang.toLowerCase().startsWith('en'));
-      let queue;
-      if (s.part <= 2) {
-        // Part 1: one narrator reads the four statements; Part 2: a second voice answers the question.
-        const questionVoice = speechVoice(english, 'en-US');
-        const responseVoice = s.part === 1 ? questionVoice : english.find(voice => voice !== questionVoice) || questionVoice;
-        const q = s.questions[s.index];
-        queue = (s.part === 2 ? [{text:q.q, voice:questionVoice, label:'질문'}] : []).concat(q.choices.map((text, index) => ({text:`(${String.fromCharCode(65 + index)}) ${text}`, voice:responseVoice, label:`${s.part === 1 ? '보기' : '응답'} (${String.fromCharCode(65 + index)})`})));
-      } else {
-        const set = s.questions[s.index], lang = voice => voice.lang.toLowerCase().replace('_', '-');
-        // Different accents first, then any remaining English voices.
-        const pool = [...new Set([...EXAM_ACCENTS.map(accent => english.find(voice => lang(voice) === accent)).filter(Boolean), ...english])];
-        // Speaker code's first letter (M/W) picks a voice of that gender: an unused one first, then a reused one or a
-        // neutral voice with pitch (women higher, men lower) so speakers stay distinguishable.
-        const cast = {}, used = new Set();
-        for (const speaker of new Set(set.script.map(line => line.s))) {
-          const gender = speaker[0], same = pool.filter(voice => examVoiceGender(voice) === gender);
-          const fresh = same.find(voice => !used.has(voice));
-          const voice = fresh || same[0] || pool.find(voice => !examVoiceGender(voice) && !used.has(voice)) || pool.find(voice => !examVoiceGender(voice)) || pool[0];
-          const alone = voice && !used.has(voice) && examVoiceGender(voice) === gender;
-          used.add(voice);
-          cast[speaker] = {voice, pitch:alone ? 1 : EXAM_PITCH[speaker] ?? EXAM_PITCH[gender] ?? 1};
-        }
-        queue = set.script.map((line, index) => ({text:line.t, ...cast[line.s], label:`${s.part === 3 ? '대화' : '담화'} ${index + 1}/${set.script.length}`}))
-          .concat(set.questions.map((q, index) => ({text:`Question ${index + 1}. ${q.q}`, voice:pool[0], label:`${index + 1}번 질문`})));
-      }
-      function step(index) {
-        if (!activeExamAudio(token)) return;
-        if (index >= queue.length) {
+      speakQueue(examAudioQueue(s.part, s.questions[s.index], english), {
+        active:() => activeExamAudio(token),
+        timer:(fn, ms) => (examAudioTimer = setTimeout(fn, ms)),
+        onItem:(item, utterance) => { s.audioUtterance = utterance; s.audioStatus = `${item.label} 재생 중`; refreshExam(); },
+        done:() => {
           s.audioPlaying = false;
           s.audioStatus = s.part === 1 ? '재생 완료 · 사진에 맞는 보기를 고르세요' : s.part === 2 ? '재생 완료 · 알맞은 응답을 고르세요' : '재생 완료 · 세 문항의 답을 고르세요';
           refreshExam();
-          return;
-        }
-        const item = queue[index], utterance = new SpeechSynthesisUtterance(item.text);
-        utterance.lang = item.voice?.lang || 'en-US';
-        utterance.rate = 1;
-        utterance.pitch = item.pitch ?? 1;
-        if (item.voice) utterance.voice = item.voice;
-        s.audioUtterance = utterance;
-        s.audioStatus = `${item.label} 재생 중`;
-        refreshExam();
-        let settled = false;
-        const timeout = setTimeout(() => advance(true), Math.min(60000, Math.max(4000, item.text.length * 180 + 1500)));
-        examAudioTimer = timeout;
-        function advance(error) {
-          if (settled) return;
-          settled = true;
-          clearTimeout(timeout);
-          utterance.onend = null;
-          utterance.onerror = null;
-          if (!activeExamAudio(token)) return;
-          s.audioUtterance = null;
-          if (error) {
-            stopExamAudio('음성을 재생하지 못했어요');
-            s.audioFallback = true;
-            refreshExam();
-          } else examAudioTimer = setTimeout(() => step(index + 1), 250);
-        }
-        utterance.onend = () => advance(false);
-        utterance.onerror = () => advance(true);
-        try { window.speechSynthesis.speak(utterance); } catch (_) { advance(true); }
-      }
-      step(0);
-    }
-    const voices = listenVoices();
-    if (voices.length) { begin(voices); return; }
-    const speech = window.speechSynthesis;
-    let settled = false;
-    const finish = () => {
-      if (settled) return;
-      settled = true;
-      clearTimeout(timeout);
-      speech.removeEventListener?.('voiceschanged', changed);
-      if (examVoiceCleanup === cleanup) examVoiceCleanup = null;
-      begin(listenVoices());
-    };
-    const changed = () => { if (listenVoices().length) finish(); };
-    const timeout = setTimeout(finish, 800);
-    const cleanup = () => { settled = true; clearTimeout(timeout); speech.removeEventListener?.('voiceschanged', changed); };
-    examVoiceCleanup = cleanup;
-    examAudioTimer = timeout;
-    speech.addEventListener?.('voiceschanged', changed);
+        },
+        fail:() => { s.audioUtterance = null; stopExamAudio('음성을 재생하지 못했어요'); s.audioFallback = true; refreshExam(); }
+      });
+    });
   }
 

@@ -549,7 +549,43 @@
     return String(text).split(' / ')[0];
   }
 
+  // Mock test section score (5-495) from correct answers out of 100: midpoints of the approximate table in
+  // docs/research/toeic-p1-p6-p7.md 4-4 (count bucket middle -> score range middle), linear between them, 5-point steps.
+  var MOCK_SCALE = [[0, 5], [9.5, 35], [24.5, 87.5], [34.5, 132.5], [44.5, 180], [54.5, 230], [64.5, 282.5], [72, 327.5],
+    [77, 355], [82, 385], [87, 415], [92, 447.5], [97.5, 480], [100, 495]];
+  function mockScore(correct) {
+    if (!Number.isInteger(correct) || correct < 0 || correct > 100) throw new RangeError('Invalid correct count');
+    for (var i = 1; i < MOCK_SCALE.length; i++) {
+      var a = MOCK_SCALE[i - 1], b = MOCK_SCALE[i];
+      if (correct <= b[0]) return Math.round((a[1] + (b[1] - a[1]) * (correct - a[0]) / (b[0] - a[0])) / 5) * 5;
+    }
+  }
+
+  // Mock answers map question number 1-200 to a choice index.
+  function validMockAnswers(answers) {
+    return isRecord(answers) && Object.keys(answers).every(function (no) {
+      var value = answers[no];
+      return /^(?:[1-9]\d?|1\d\d|200)$/.test(no) && Number.isInteger(value) && value >= 0 && value <= 3;
+    });
+  }
+
+  // {attempts:[{test, at, answers, lc, rc}], progress:{"1":{answers, section, unit, rcEndsAt}}}
+  function validMockState(value) {
+    return isRecord(value) && Array.isArray(value.attempts) && isRecord(value.progress)
+      && value.attempts.every(function (attempt) {
+        return isRecord(attempt) && [1, 2, 3, 4, 5].includes(attempt.test) && Number.isFinite(attempt.at) && attempt.at >= 0
+          && validMockAnswers(attempt.answers) && [attempt.lc, attempt.rc].every(function (n) { return Number.isInteger(n) && n >= 0 && n <= 100; });
+      })
+      && Object.keys(value.progress).every(function (test) {
+        var p = value.progress[test];
+        return /^[1-5]$/.test(test) && isRecord(p) && validMockAnswers(p.answers) && ['lc', 'rc-intro', 'rc'].includes(p.section)
+          && Number.isInteger(p.unit) && p.unit >= 0 && (p.rcEndsAt === null || Number.isFinite(p.rcEndsAt));
+      });
+  }
+
   return {
+    mockScore: mockScore,
+    validMockState: validMockState,
     spokenText: spokenText,
     stemMatches: stemMatches,
     exampleStems: exampleStems,

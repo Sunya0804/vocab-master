@@ -65,3 +65,45 @@
 /* 380px = header, progress and set heading above the panes (~285px) + fixed bottom nav (~78px) + gap: both panes end above the nav on the first screen. */
 .reading-passage,.reading-questions{position:sticky;top:16px;max-height:max(320px,calc(100dvh - 380px));overflow-y:auto;overscroll-behavior:contain}
 .reading-questions{padding-right:8px}}
+/* Mock tests: home cards, runner toolbar and timer, OMR answer sheet, review. */
+.mock-home{margin:24px 0 32px}
+.mock-home h2,.exam-section-title{font-size:18px;margin:0 0 4px}
+.mock-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:12px;margin-top:16px}
+.mock-card{display:grid;gap:4px;padding:12px 16px;border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:var(--shadow)}
+.mock-card.is-empty{background:transparent;box-shadow:none;color:var(--secondary)}
+.mock-card-title{font-size:18px;font-weight:600;color:var(--ink);text-decoration:none}
+a.mock-card-title{min-height:32px}
+a.mock-card-title::after{content:" →";color:var(--primary)}
+.mock-card-status{font-size:13px;color:var(--secondary)}
+.mock-card-score{font-size:12px;color:var(--primary)}
+.mock-top{flex-wrap:wrap;gap:8px}
+.mock-tools{display:flex;gap:8px;margin-left:auto}
+.mock-tools button{min-height:40px;padding:8px 14px}
+.mock-timer{margin:0;font-variant-numeric:tabular-nums;font-weight:600;color:var(--ink)}
+.mock-intro{display:grid;gap:12px;margin:24px 0}
+.mock-intro ul{margin:0;padding-left:20px;display:grid;gap:8px}
+.mock-number{font-size:18px;margin:24px 0 0}
+.mock-question-title{font-size:15px;font-weight:500;line-height:1.5;margin:0 0 12px}
+.mock-nav{margin:24px 0}
+.mock-sheet h2{display:flex;gap:8px;align-items:baseline;font-size:15px;margin:24px 0 8px}
+.mock-sheet h2 small{font-weight:400;color:var(--secondary)}
+.omr{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:4px 16px}
+.omr-row{display:flex;align-items:center;gap:4px;padding:2px 4px;border-radius:8px}
+.omr-row.is-open{background:var(--raised)}
+.omr-no{min-width:40px;min-height:36px;padding:0 4px;border:0;background:transparent;font-size:13px;font-variant-numeric:tabular-nums;text-align:right;color:var(--secondary)}
+button.omr-no{color:var(--primary);text-decoration:underline}
+.omr-bubble{min-width:32px;min-height:32px;padding:0;border-radius:50%;font-size:12px}
+.omr-bubble[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+.omr-bubble:disabled{opacity:.55;cursor:default}
+/* LC answers lock once RC starts (and RC before it). */
+.mock-unit .choice:disabled{cursor:default;opacity:.7}
+.mock-unit .choice.is-picked:disabled{opacity:1}
+.mock-score-label{margin:0;font-size:13px;color:var(--secondary)}
+.mock-review{margin:32px 0}
+.mock-review h2{font-size:18px}
+.mock-review-unit{margin-top:12px;padding:12px 16px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.mock-review-unit summary{min-height:40px;display:flex;align-items:center;font-weight:500;cursor:pointer}
+.mock-review-unit .reading-passage{padding:0;border:0;margin-top:8px}
+.mock-review-choices{list-style:none;padding:0;margin:8px 0;display:grid;gap:4px;font-size:14px}
+.mock-review-choices small{color:var(--secondary)}
+.mock-review-choices .script-correct{border-left:2px solid var(--success);padding-left:8px}

@@ -37,7 +37,7 @@
       if (page === 'home' || !page) html = renderHome();
       else if (page === 'wrong') html = renderWrong();
       else if (page === 'settings') html = renderSettings();
-      else if (page === 'exam') html = parts[1] ? renderExamPage(Number(parts[1]), parts[2] || 'set') : renderExamHome();
+      else if (page === 'exam') html = parts[1] === 'mock' ? renderMock(Number(parts[2]), parts[3]) : parts[1] ? renderExamPage(Number(parts[1]), parts[2] || 'set') : renderExamHome();
       else if (['day','cards','quiz','cloze','listen'].includes(page)) {
         const pkg = findPackage(parts[1]);
         const day = Number(parts[2]);
@@ -100,6 +100,17 @@
     else if (action === 'exam-next') nextExam();
     else if (action === 'exam-audio') playExamAudio();
     else if (action === 'exam-audio-stop') { stopExamAudio('재생 정지 · 다시 듣기를 누르면 처음부터 읽어요'); refreshExam(); }
+    else if (action === 'mock-start') startMock(Number(button.dataset.test));
+    else if (action === 'mock-reload') { const test = Number(button.dataset.test); if (mockBanks[test]) { mockBanks[test].status = 'idle'; render(); } }
+    else if (action === 'mock-play') playMock();
+    else if (action === 'mock-pause') pauseMock();
+    else if (action === 'mock-answer') answerMock(Number(button.dataset.no), Number(button.dataset.index));
+    else if (action === 'mock-move') moveMock(Number(button.dataset.step));
+    else if (action === 'mock-goto') gotoMock(Number(button.dataset.no));
+    else if (action === 'mock-sheet') toggleMockSheet();
+    else if (action === 'mock-lc-end') endMockLc();
+    else if (action === 'mock-rc') startMockRc();
+    else if (action === 'mock-submit') submitMock(mockRun?.test);
     else if (action === 'start-listen') location.hash = `#/listen/${path(pkgId)}/${day}`;
     else if (action === 'listen-toggle') toggleListening();
     else if (action === 'listen-prev') moveListening(listening.index - 1);
@@ -238,7 +249,9 @@
     const destination = new URL(event.newURL).hash;
     clearTimeout(quizTimer);
     stopExamAudio();
+    stopMock();
     if (examSession && examSession.route !== destination) examSession = null;
+    if (mockRun && mockRun.route !== destination) mockRun = null;
     if (listening) {
       haltListening();
       if (listening.route !== destination) listening = null;
@@ -265,6 +278,7 @@
   });
   document.addEventListener('visibilitychange', () => {
     if (document.hidden && examSession?.audioPlaying) { stopExamAudio('화면을 벗어나 재생을 멈췄어요'); refreshExam(); }
+    if (document.hidden && mockRun?.playing) pauseMock();
     if (document.hidden && listening?.playing) {
       haltListening('화면을 벗어나 일시정지했어요. 재생하면 현재 단어부터 다시 들어요.');
       refreshListening();
@@ -272,6 +286,7 @@
   });
   window.addEventListener('pagehide', () => {
     if (examSession?.audioPlaying) { stopExamAudio('화면을 벗어나 재생을 멈췄어요'); refreshExam(); }
+    if (mockRun?.playing) pauseMock();
     if (listening) {
       haltListening('화면을 벗어나 일시정지했어요. 재생하면 현재 단어부터 다시 들어요.');
       refreshListening();
@@ -325,7 +340,7 @@
 
   async function init() {
     Core = window.Core;
-    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats','examSetStats'];
+    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats','examSetStats','mockScore','validMockState'];
     if (!Core || required.some(name => typeof Core[name] !== 'function')) {
       main.innerHTML = empty('학습 기능을 준비하고 있어요', 'Core 모듈이 준비되면 새로고침해 주세요.');
       main.setAttribute('aria-busy', 'false');
@@ -340,6 +355,7 @@
       state = loadSavedState({restoreSelection:true});
       listenSettings = loadListenSettings();
       examState = loadExamState();
+      mockState = loadMockState();
     } catch (_) {
       main.innerHTML = empty('저장 공간에 접근할 수 없어요', '브라우저에서 이 사이트의 저장 공간을 허용한 뒤 새로고침해 주세요.');
       main.setAttribute('aria-busy', 'false');

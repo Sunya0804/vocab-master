@@ -1,10 +1,10 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v28-reading-nav';
+const CACHE_VERSION = 'vocab-master-shell-v29-mock';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = [1, 2, 3, 4, 5, 6, 7].map(part => `questions/toeic-part${part}.json`);
 const SCOPE = self.registration.scope;
-const APP_SHELL = ['./', './index.html', './style.css', './app.js', './js/shared.js', './js/study.js', './js/listen.js', './js/exam.js', './js/settings.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
+const APP_SHELL = ['./', './index.html', './style.css', './app.js', './js/shared.js', './js/study.js', './js/listen.js', './js/exam.js', './js/mock.js', './js/settings.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 const reloadRequest = url => new Request(new URL(url, SCOPE).href, {cache:'reload'});
 
@@ -62,8 +62,8 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const relative = url.pathname.slice(new URL(SCOPE).pathname.length);
   const isPackage = relative.startsWith('packages/');
-  // Part 1 photos are cached once viewed, like question files, so a solved photo opens offline.
-  const isQuestion = QUESTION_FILES.includes(relative) || /^images\/part1\/[\w.-]+\.webp$/.test(relative);
+  // Part 1 photos, mock tests and their photos are cached once opened, like question files, so they open offline.
+  const isQuestion = QUESTION_FILES.includes(relative) || /^images\/(?:part1|mock)\/[\w.-]+\.webp$/.test(relative) || /^questions\/mock\/mock-[1-5]\.json$/.test(relative);
   const isShell = APP_SHELL.some(asset => asset.slice(2) === relative);
   if (!isPackage && !isQuestion && !isShell && request.mode !== 'navigate') return;
   event.respondWith((async () => {

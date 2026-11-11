@@ -800,5 +800,35 @@ test('spokenText reads only the part before " / " and keeps ellipses', () => {
   assert.equal(Core.spokenText('der Tisch'), 'der Tisch');
 });
 
+test('mock section score follows the approximate table midpoints, rising, in 5-point steps', () => {
+  assert.equal(Core.mockScore(0), 5);
+  assert.equal(Core.mockScore(100), 495);
+  assert.equal(Core.mockScore(87), 415); // 85-89 -> 400-430 middle
+  assert.equal(Core.mockScore(72), 330); // 70-74 -> 310-345 middle 327.5, rounded to 5
+  let last = 0;
+  for (let n = 0; n <= 100; n++) {
+    const score = Core.mockScore(n);
+    assert.ok(score >= last && score % 5 === 0 && score >= 5 && score <= 495, `n=${n} score=${score}`);
+    last = score;
+  }
+  for (const bad of [-1, 101, 1.5, '50']) assert.throws(() => Core.mockScore(bad), RangeError);
+});
+
+test('mock state keeps attempts and per-test progress, rejects malformed records', () => {
+  const ok = {attempts:[{test:1, at:1, answers:{'1':0, '200':3}, lc:50, rc:61}], progress:{'2':{answers:{'7':2}, section:'rc', unit:3, rcEndsAt:99}}};
+  assert.ok(Core.validMockState(ok));
+  assert.ok(Core.validMockState({attempts:[], progress:{}}));
+  for (const bad of [
+    {attempts:[{...ok.attempts[0], test:6}], progress:{}},
+    {attempts:[{...ok.attempts[0], answers:{'201':0}}], progress:{}},
+    {attempts:[{...ok.attempts[0], answers:{'1':4}}], progress:{}},
+    {attempts:[{...ok.attempts[0], lc:101}], progress:{}},
+    {attempts:[], progress:{'6':ok.progress['2']}},
+    {attempts:[], progress:{'1':{...ok.progress['2'], section:'done'}}},
+    {attempts:[], progress:{'1':{...ok.progress['2'], rcEndsAt:undefined}}},
+    {attempts:{}, progress:{}}, null
+  ]) assert.equal(Core.validMockState(bad), false, JSON.stringify(bad));
+});
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 if (failed) process.exitCode = 1;
