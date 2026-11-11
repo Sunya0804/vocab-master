@@ -95,6 +95,12 @@
       persist({saveSelection:true}); render();
       main.querySelector(`[data-action="filter-level"][data-level="${index}"]`)?.focus({preventScroll:true});
     }
+    else if (action === 'pick-language') {
+      // shortcut: switching language opens that language's first wordbook; remember the last one per language if users ask.
+      const pkg = packages().find(item => languageName(item.id) === button.dataset.language);
+      if (pkg && languageName(selectedPackage) !== button.dataset.language) { selectedPackage = pkg.id; persist({saveSelection:true}); render(); }
+      main.querySelector(`[data-action="pick-language"][data-language="${CSS.escape(button.dataset.language)}"]`)?.focus({preventScroll:true});
+    }
     else if (action === 'start-cards') location.hash = `#/cards/${path(pkgId)}/${day}`;
     else if (action === 'start-cloze') location.hash = `#/cloze/${path(pkgId)}/${day}`;
     else if (action === 'cloze-hint' && session?.type === 'cloze' && !session.answered) {
