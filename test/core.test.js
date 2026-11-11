@@ -554,14 +554,14 @@ test('storage wrappers tolerate unavailable or full storage', () => {
   }), Core.defaultState());
 });
 
-test('TOEIC vocabulary supports two to five fields and chunks its current size correctly', () => {
+test('TOEIC vocabulary supports two to five fields (plus optional senses) and chunks its current size correctly', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '../packages/toeic.json'), 'utf8'));
   assert.equal(pkg.id, 'toeic');
   assert.ok(pkg.words.length > 0);
   const seen = new Set();
   for (const word of pkg.words) {
-    assert.ok(Array.isArray(word) && word.length >= 2 && word.length <= 5);
-    assert.ok(word.every(value => typeof value === 'string' && value.trim() === value));
+    assert.ok(Array.isArray(word) && word.length >= 2 && word.length <= 6);
+    assert.ok(word.slice(0, 5).every(value => typeof value === 'string' && value.trim() === value));
     assert.ok(word[0].length > 0 && word[1].length > 0);
     assert.match(word[0], /[A-Za-z]/);
     assert.match(word[1], /[가-힣]/);

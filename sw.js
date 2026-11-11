@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v29-mock';
+const CACHE_VERSION = 'vocab-master-shell-v30-senses';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = [1, 2, 3, 4, 5, 6, 7].map(part => `questions/toeic-part${part}.json`);

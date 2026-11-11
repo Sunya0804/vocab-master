@@ -58,7 +58,7 @@
       if (!next.questions.length) { toast('퀴즈를 만들 수 있는 단어가 없어요.'); return; }
     }
     if (type === 'cloze') {
-      next.questions = Core.shuffle(items.map(item => ({...item, cloze:clozeFor(item)})).filter(question => question.cloze));
+      next.questions = Core.shuffle(items.map(item => ({...item, ...clozeFor(item)})).filter(question => question.cloze));
       Object.assign(next, {hint:0, hinted:0, input:'', notice:'', lastCorrect:null});
       if (!next.questions.length) { toast('예문 빈칸 문제를 만들 수 있는 단어가 없어요.'); return; }
     }
@@ -88,7 +88,7 @@
     }
     const item = s.items[s.index];
     return `${back(s.returnHash, '학습 나가기')}<div class="session-top"><span class="pill">${escape(s.label)}</span><p>카드 <strong>${s.index + 1}</strong> / ${s.items.length}</p></div>${meter(s.index, s.items.length, '카드 학습 진행')}
-      <section class="study-card ${s.revealed ? 'is-revealed' : ''}" aria-label="학습 카드"><button class="card-face" data-action="reveal" aria-expanded="${s.revealed}" aria-label="${escape(item.word[0])}, ${s.revealed ? escape(item.word[1]) : '탭해서 뜻 보기'}"><span class="eyebrow">${s.revealed ? '뜻 확인' : '뜻 떠올리기'}</span><span class="english" lang="${escape(packageLang(item.pkgId))}">${escape(item.word[0])}</span>${s.revealed ? `${posBadge(item.word)}<span class="card-meaning">${escape(item.word[1])}</span>` : '<span class="card-hint">카드를 탭하면 뜻이 나타나요</span>'}</button>${s.revealed ? `${wordGrammarHTML(item.word, item.pkgId)}${exampleHTML(item.word, false, true, item.pkgId)}` : ''}</section>
+      <section class="study-card ${s.revealed ? 'is-revealed' : ''}" aria-label="학습 카드"><button class="card-face" data-action="reveal" aria-expanded="${s.revealed}" aria-label="${escape(item.word[0])}, ${s.revealed ? escape(item.word[1]) : '탭해서 뜻 보기'}"><span class="eyebrow">${s.revealed ? '뜻 확인' : '뜻 떠올리기'}</span><span class="english" lang="${escape(packageLang(item.pkgId))}">${escape(item.word[0])}</span>${s.revealed ? `${posBadge(item.word)}<span class="card-meaning">${escape(item.word[1])}</span>` : '<span class="card-hint">카드를 탭하면 뜻이 나타나요</span>'}</button>${s.revealed ? `${wordGrammarHTML(item.word, item.pkgId)}${exampleHTML(item.word, false, true, item.pkgId)}${sensesHTML(item.word, false, true, item.pkgId)}` : ''}</section>
       <div class="card-bottom"><p>${s.revealed ? '알고 있는 단어인지 선택해 주세요' : '뜻을 떠올려 본 뒤 카드를 뒤집어 보세요'}</p>${speaker(item.word[0], item.pkgId)}</div>
       <div class="button-row study-actions"><button class="danger-fill" data-action="card-answer" data-known="false">${icon('rotate-ccw')} 몰라요</button><button class="secondary" data-action="card-answer" data-known="true">${icon('check')} 알아요</button></div><p class="session-note">모르는 단어는 오답노트에서 다시 만나요.</p>`;
   }
@@ -126,7 +126,7 @@
       : s.lastCorrect ? `${icon('check')} 정답이에요`
       : `${icon('x')} 오답이에요 · 정답 <strong lang="${lang}">${escape(q.cloze.answer)}</strong> · 내 답 <span lang="${lang}">${escape(s.input.trim())}</span>`;
     return `${back(s.returnHash, '퀴즈 나가기')}<div class="session-top"><span class="pill">예문 빈칸</span><p>문제 <strong>${s.index + 1}</strong> / ${s.questions.length}</p></div>${meter(s.index, s.questions.length, '예문 빈칸 진행')}
-      <section class="cloze-card${s.answered ? ` is-${s.lastCorrect ? 'correct' : 'incorrect'}` : ''}" aria-label="예문 빈칸 문제"><div class="example-line"><p class="cloze-sentence" lang="${lang}">${sentence}</p>${s.answered ? speaker(q.word[3], q.pkgId) : ''}</div>${q.word[4] ? `<p class="cloze-translation" lang="ko">${escape(q.word[4])}</p>` : ''}${s.answered ? `<div class="cloze-word"><span class="english" lang="${lang}">${escape(q.word[0])}</span>${posBadge(q.word)}${speaker(q.word[0], q.pkgId)}</div><p class="card-meaning">${escape(q.word[1])}</p>` : ''}</section>
+      <section class="cloze-card${s.answered ? ` is-${s.lastCorrect ? 'correct' : 'incorrect'}` : ''}" aria-label="예문 빈칸 문제"><div class="example-line"><p class="cloze-sentence" lang="${lang}">${sentence}</p>${s.answered ? speaker(q.exWord[3], q.pkgId) : ''}</div>${q.exWord[4] ? `<p class="cloze-translation" lang="ko">${escape(q.exWord[4])}</p>` : ''}${s.answered ? `<div class="cloze-word"><span class="english" lang="${lang}">${escape(q.word[0])}</span>${posBadge(q.word)}${speaker(q.word[0], q.pkgId)}</div><p class="card-meaning">${escape(q.word[1])}</p>${q.sense ? `<p class="cloze-sense">이 예문의 뜻 · ${escape(q.sense)}</p>` : ''}` : ''}</section>
       <form id="cloze-form" class="cloze-form" novalidate><label for="cloze-input">빈칸에 들어갈 ${escape(languageName(q.pkgId))} 단어</label><div class="cloze-row"><input id="cloze-input" type="text" lang="${lang}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" value="${escape(s.input)}" aria-describedby="cloze-feedback" ${s.answered ? 'readonly' : ''}><button type="submit" class="primary" ${s.answered ? 'disabled' : ''}>확인</button></div></form>
       <p id="cloze-feedback" class="answer-feedback">${feedback}</p>
       ${s.answered ? `<button class="primary" id="cloze-next" data-action="cloze-next">${s.index + 1 >= s.questions.length ? '결과 보기' : '다음'} ${icon('arrow-right')}</button>` : `<button class="secondary" id="cloze-hint" data-action="cloze-hint" ${s.hint >= maxHint ? 'disabled' : ''}>힌트 보기 · ${s.hint}/${maxHint}</button><p class="session-note">힌트를 보면 첫 글자부터 최대 두 글자까지 보여요.</p>`}`;

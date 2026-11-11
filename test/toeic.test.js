@@ -111,15 +111,16 @@ test('all 5,804 TOEIC entries have usable five-field metadata and original short
   assert.equal(pkg.words.length, 5804);
   assert.equal(byHeadword.size, pkg.words.length);
   pkg.words.forEach(word => {
-    assert.equal(word.length, 5, word[0]);
-    word.forEach(field => assert.ok(typeof field === 'string' && field.trim() === field && field.length, word[0]));
+    // The optional 6th field (other senses) is checked in test/senses.test.js.
+    assert.ok(word.length === 5 || word.length === 6, word[0]);
+    word.slice(0, 5).forEach(field => assert.ok(typeof field === 'string' && field.trim() === field && field.length, word[0]));
     assert.match(word[2], /^[명동형부전접대감](?:\/[명동형부전접대감])*$/, word[0]);
     assert.equal(new Set(word[2].split('/')).size, word[2].split('/').length, word[0]);
     assert.ok(word[3].split(/\s+/).length <= 15, word[0]);
     assert.ok(containsTarget(word[0], word[3]), word[0] + ': ' + word[3]);
     assert.match(word[1], /[가-힣]/, word[0]);
     assert.match(word[4], /[가-힣]/, word[0]);
-    assert.doesNotMatch(word.join(''), /[\u0000-\u001f\ue000-\uf8ff\ufffd]/, word[0]);
+    assert.doesNotMatch(word.slice(0, 5).join(''), /[\u0000-\u001f\ue000-\uf8ff\ufffd]/, word[0]);
     assert.doesNotMatch(word[3], /\bthe (?:a|an|the|some|any|each|every|both|either|neither|all|this|that|these|those)\s/i, word[0]);
   });
 });
@@ -134,7 +135,7 @@ test('original pairs and corrected legacy headword sets survive sorting; content
   assert.equal(legacyHeadwords.size, review.beforeEntryCount);
   assert.equal(legacyWords.length, snapshot.legacyEntryCount);
   assert.equal(hash([...legacyHeadwords].sort()), snapshot.legacyHeadwordsSha256);
-  assert.equal(hash(sortedWords(pkg.words)), snapshot.wordsSha256);
+  assert.equal(hash(sortedWords(pkg.words.map(word => word.slice(0, 5)))), snapshot.wordsSha256);
   assert.equal(snapshot.entryCount, pkg.words.length);
   assert.equal(provenance.result.entryCount, pkg.words.length);
   assert.equal(provenance.result.completeFiveFieldEntries, pkg.words.length);

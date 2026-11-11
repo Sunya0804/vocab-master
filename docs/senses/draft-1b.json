@@ -1,0 +1,242 @@
+[
+  {
+    "index": 364,
+    "en": "book",
+    "sense": "예약하다",
+    "pos": "동",
+    "ex": "Please book the conference room before Friday so the client can visit.",
+    "exKo": "고객이 방문할 수 있도록 금요일 전에 회의실을 예약해라."
+  },
+  {
+    "index": 566,
+    "en": "address",
+    "sense": "다루다",
+    "pos": "동",
+    "ex": "The manager will briefly address the staffing shortage during tomorrow's department meeting.",
+    "exKo": "관리자는 내일 부서 회의에서 인력 부족 문제를 간단히 다룰 것이다."
+  },
+  {
+    "index": 1097,
+    "en": "issue",
+    "sense": "발행하다",
+    "pos": "동",
+    "ex": "The front desk will issue a new key card to each conference attendee.",
+    "exKo": "프런트 데스크는 각 회의 참석자에게 새 키카드를 발급할 것이다."
+  },
+  {
+    "index": 737,
+    "en": "charge",
+    "sense": "청구하다",
+    "pos": "동",
+    "ex": "The repair shop will charge an extra fee for weekend delivery service.",
+    "exKo": "그 수리점은 주말 배송 서비스에 대해 추가 요금을 청구할 것이다."
+  },
+  {
+    "index": 9,
+    "en": "account",
+    "sense": "설명",
+    "pos": "명",
+    "ex": "The witness gave a detailed account of the incident to the security team.",
+    "exKo": "그 목격자는 보안팀에 그 사건에 대한 자세한 설명을 했다."
+  },
+  {
+    "index": 922,
+    "en": "figure",
+    "sense": "인물",
+    "pos": "명",
+    "ex": "A well-known industry figure will speak at the leadership conference next month.",
+    "exKo": "업계의 저명한 인물이 다음 달 리더십 콘퍼런스에서 연설할 것이다."
+  },
+  {
+    "index": 1346,
+    "en": "reserve",
+    "sense": "확보해 두다",
+    "pos": "동",
+    "ex": "The finance team will reserve enough funds to cover unexpected repair costs.",
+    "exKo": "재무팀은 예상치 못한 수리 비용을 충당할 수 있도록 충분한 자금을 확보해 둘 것이다."
+  },
+  {
+    "index": 1266,
+    "en": "plant",
+    "sense": "공장",
+    "pos": "명",
+    "ex": "The company will open a new manufacturing plant near the port next year.",
+    "exKo": "그 회사는 내년에 항구 근처에 새 제조 공장을 열 것이다."
+  },
+  {
+    "index": 1657,
+    "en": "board",
+    "sense": "탑승하다",
+    "pos": "동",
+    "ex": "Hotel guests must board the shuttle bus ten minutes before its scheduled departure.",
+    "exKo": "호텔 투숙객은 예정된 출발 십 분 전에 셔틀버스에 탑승해야 한다."
+  },
+  {
+    "index": 1653,
+    "en": "bill",
+    "sense": "청구하다",
+    "pos": "동",
+    "ex": "The consultant will bill the client for travel expenses at the end of the month.",
+    "exKo": "그 컨설턴트는 월말에 고객에게 출장 경비를 청구할 것이다."
+  },
+  {
+    "index": 1705,
+    "en": "current",
+    "sense": "흐름, 전류",
+    "pos": "명",
+    "ex": "Before replacing the main wiring, the technician measured the electrical current carefully.",
+    "exKo": "주 배선을 교체하기 전에 기술자는 전류를 주의 깊게 측정했다."
+  },
+  {
+    "index": 1735,
+    "en": "duty",
+    "sense": "세금",
+    "pos": "명",
+    "ex": "Imported office furniture is subject to a customs duty of eight percent.",
+    "exKo": "수입 사무용 가구에는 8퍼센트의 관세가 부과된다."
+  },
+  {
+    "index": 1806,
+    "en": "interest",
+    "sense": "이해관계",
+    "pos": "명",
+    "ex": "The board must protect the interests of shareholders during the merger talks.",
+    "exKo": "이사회는 합병 협상 중에 주주들의 이해관계를 보호해야 한다."
+  },
+  {
+    "index": 1874,
+    "en": "policy",
+    "sense": "보험 증권",
+    "pos": "명",
+    "ex": "Keep your insurance policy in a safe place in case you need to file a claim.",
+    "exKo": "청구를 제기할 경우에 대비해 보험 증권을 안전한 곳에 보관해라."
+  },
+  {
+    "index": 1850,
+    "en": "operation",
+    "sense": "수술",
+    "pos": "명",
+    "ex": "After the operation, the employee will work from home for two weeks.",
+    "exKo": "수술 후에 그 직원은 2주 동안 재택근무를 할 것이다."
+  },
+  {
+    "index": 1883,
+    "en": "process",
+    "sense": "처리하다",
+    "pos": "동",
+    "ex": "The accounting team will process all refund requests within three business days.",
+    "exKo": "회계팀은 모든 환불 요청을 영업일 기준 3일 이내에 처리할 것이다."
+  },
+  {
+    "index": 1887,
+    "en": "project",
+    "sense": "예상하다",
+    "pos": "동",
+    "ex": "Analysts project that demand for electric delivery vans will rise sharply next year.",
+    "exKo": "분석가들은 전기 배송 차량의 수요가 내년에 급격히 증가할 것으로 예상한다."
+  },
+  {
+    "index": 1893,
+    "en": "rate",
+    "sense": "평가하다",
+    "pos": "동",
+    "ex": "Customers rated the new online booking system highly for its simple design.",
+    "exKo": "고객들은 새로운 온라인 예약 시스템을 간단한 디자인 덕분에 높게 평가했다."
+  },
+  {
+    "index": 1920,
+    "en": "review",
+    "sense": "평가, 후기",
+    "pos": "명",
+    "ex": "Her annual performance review with her manager will take place next Tuesday afternoon.",
+    "exKo": "그녀의 관리자와의 연례 성과 평가는 다음 주 화요일 오후에 열릴 것이다."
+  },
+  {
+    "index": 1447,
+    "en": "state",
+    "sense": "진술하다",
+    "pos": "동",
+    "ex": "The applicant must state clearly on the form why she is applying for the position.",
+    "exKo": "지원자는 지원서에 자신이 그 직책에 지원하는 이유를 분명히 진술해야 한다."
+  },
+  {
+    "index": 1454,
+    "en": "stock",
+    "sense": "비축하다",
+    "pos": "동",
+    "ex": "The warehouse will stock extra winter coats before the holiday shopping season.",
+    "exKo": "창고는 연휴 쇼핑 시즌 전에 추가 겨울 코트를 비축할 것이다."
+  },
+  {
+    "index": 1958,
+    "en": "track",
+    "sense": "선로, 경로",
+    "pos": "명",
+    "ex": "The new rail track will connect the distribution center to the harbor.",
+    "exKo": "새 철도 선로는 유통 센터와 항구를 연결할 것이다."
+  },
+  {
+    "index": 2109,
+    "en": "yield",
+    "sense": "수익",
+    "pos": "명",
+    "ex": "The marketing team measured the yield of each advertising channel before renewing the contract.",
+    "exKo": "마케팅팀은 계약을 갱신하기 전에 각 광고 채널의 수익률을 측정했다."
+  },
+  {
+    "index": 1997,
+    "en": "delegate",
+    "sense": "대표",
+    "pos": "명",
+    "ex": "Each delegate received a name badge and a detailed schedule at registration.",
+    "exKo": "각 대표는 등록할 때 이름표와 자세한 일정표를 받았다."
+  },
+  {
+    "index": 4088,
+    "en": "secure",
+    "sense": "안전한",
+    "pos": "형",
+    "ex": "Keep your laptop secure by locking it in the cabinet before leaving.",
+    "exKo": "떠나기 전에 노트북을 캐비닛에 잠가 안전하게 보관해라."
+  },
+  {
+    "index": 4123,
+    "en": "superior",
+    "sense": "상사",
+    "pos": "명",
+    "ex": "Report the safety violation to your immediate superior before the shift ends.",
+    "exKo": "교대가 끝나기 전에 안전 위반 사항을 직속 상사에게 보고해라."
+  },
+  {
+    "index": 4030,
+    "en": "premium",
+    "sense": "고급의",
+    "pos": "형",
+    "ex": "Guests who book premium rooms receive complimentary breakfast and daily airport pickup.",
+    "exKo": "프리미엄 객실을 예약한 투숙객은 무료 조식과 매일 공항 픽업 서비스를 받는다."
+  },
+  {
+    "index": 4045,
+    "en": "quote",
+    "sense": "견적",
+    "pos": "명",
+    "ex": "The quote includes labor, materials, and taxes but excludes installation and delivery fees.",
+    "exKo": "그 견적에는 인건비, 자재비, 세금이 포함되지만 설치비와 배송비는 제외된다."
+  },
+  {
+    "index": 4093,
+    "en": "settlement",
+    "sense": "정산",
+    "pos": "명",
+    "ex": "The final settlement of the account will be completed after the audit.",
+    "exKo": "계정의 최종 정산은 감사 후에 완료될 것이다."
+  },
+  {
+    "index": 832,
+    "en": "deposit",
+    "sense": "맡기다",
+    "pos": "동",
+    "ex": "The tenant must deposit two months' rent into the landlord's account before moving in.",
+    "exKo": "세입자는 입주 전에 집주인 계좌로 두 달치 임대료를 입금해야 한다."
+  }
+]

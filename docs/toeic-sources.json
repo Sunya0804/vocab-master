@@ -23,9 +23,9 @@
     "hashProjection": "SHA-256 of JSON.stringify: basePairsSha256 covers original [English,Korean] pairs; wordsSha256 covers all five fields. For both, sort a copied array by normalized English headword using lexicographic string comparison. legacyHeadwordsSha256 covers the sorted normalized headword set with legacy corrections applied. Normalization is NFKC, curly-to-straight apostrophes, collapsed/trimmed whitespace and lowercase.",
     "entryCount": 5804,
     "legacyEntryCount": 4132,
-    "basePairsSha256": "529aaf587d74f97f2524db6fd247489fabd97ae8659b9981b99a1d836b35e667",
+    "basePairsSha256": "41694822c2aacd8e94cd04f5e094038902aaae4ed934ed080ab246245b639e5c",
     "legacyHeadwordsSha256": "31830945f1bc31c425aeeadb22697cd1e0fec09f72cca5f1da2d5001a6c91949",
-    "wordsSha256": "0592b2194b695858b9a007e8833b4f8a85205bca5fe9be292ee18143c79a0854",
+    "wordsSha256": "0f02a6f404fc49504d892f03409ff70dbe6a0d2274f037ddf6a08a7936525842",
     "levels": [
       {
         "name": "Lv1 기초",
@@ -67,7 +67,14 @@
         "ex": "The manager criticized the lax safety rules.",
         "exKo": "관리자는 느슨한 안전 규정을 비판했다."
       }
-    ]
+    ],
+    "senses": {
+      "source": "docs/senses/final.json",
+      "wordCount": 376,
+      "senseCount": 387,
+      "sensesSha256": "43eb46661e73486cd1812bcd8d1a5c48dca0ae3e6b5a58c40baf5028ac1f29ef",
+      "hashProjection": "SHA-256 of JSON.stringify of [headword, senses] for words with a 6th field, sorted like wordsSha256. wordsSha256 covers the first five fields only."
+    }
   },
   "method": {
     "layout": "[English headword or phrase, Korean meaning, POS, original English example, Korean example translation]",

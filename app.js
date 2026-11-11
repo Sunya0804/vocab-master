@@ -340,7 +340,7 @@
 
   async function init() {
     Core = window.Core;
-    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats','examSetStats','mockScore','validMockState'];
+    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats','examSetStats','mockScore','validMockState','wordSenses'];
     if (!Core || required.some(name => typeof Core[name] !== 'function')) {
       main.innerHTML = empty('학습 기능을 준비하고 있어요', 'Core 모듈이 준비되면 새로고침해 주세요.');
       main.setAttribute('aria-busy', 'false');

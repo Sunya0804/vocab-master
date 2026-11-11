@@ -491,6 +491,14 @@
     return !next || /^\s*[.,;:!?)–—"“”»]/.test(rest) || /^(und|oder|aber|denn)$/i.test(next.text);
   }
 
+  // Optional 6th field: other senses as [[sense, ex, exKo], ...]. Malformed rows (e.g. in an old backup) are dropped, never rendered.
+  function wordSenses(word) {
+    var senses = Array.isArray(word) ? word[5] : null;
+    return Array.isArray(senses) ? senses.filter(function (sense) {
+      return Array.isArray(sense) && sense.length === 3 && sense.every(function (field) { return typeof field === 'string' && field.trim() !== ''; });
+    }) : [];
+  }
+
   // Splits word[3] into text and blanks: each stem takes its first matching token after the previous blank.
   // Prefix entries ("Feier-") are skipped: the blank would be a whole compound, not the headword.
   function clozeExample(word, german) {
@@ -590,6 +598,7 @@
     stemMatches: stemMatches,
     exampleStems: exampleStems,
     clozeExample: clozeExample,
+    wordSenses: wordSenses,
     clozeCorrect: clozeCorrect,
     examSetStats: examSetStats,
     selectExamQuestions: selectExamQuestions,

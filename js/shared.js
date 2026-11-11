@@ -128,11 +128,27 @@
     });
   }
 
-  const clozeFor = item => Core.clozeExample(item.word, packageLang(item.pkgId).startsWith('de'));
+  // One cloze per word: picks the main example or one of the other senses' examples at random.
+  // exWord carries the chosen example in slots 3-4; sense is '' for the main example.
+  function clozeFor(item) {
+    const german = packageLang(item.pkgId).startsWith('de');
+    const options = [['', item.word[3], item.word[4]], ...Core.wordSenses(item.word)].map(([sense, ex, exKo]) => {
+      const exWord = [item.word[0], item.word[1], item.word[2], ex, exKo];
+      const cloze = Core.clozeExample(exWord, german);
+      return cloze && {cloze, exWord, sense};
+    }).filter(Boolean);
+    return options.length ? options[Math.floor(Math.random() * options.length)] : null;
+  }
 
   function exampleHTML(word, hidden = false, withSpeech = false, pkgId) {
     if (!word[3] && !word[4]) return '';
     return `<div class="word-example">${word[3] ? `<div class="example-line"><p lang="${escape(packageLang(pkgId))}">${highlightedExample(word, pkgId)}</p>${withSpeech ? speaker(word[3], pkgId) : ''}</div>` : ''}${word[4] ? `<p class="example-translation" lang="ko" data-meaning ${hidden ? 'hidden' : ''}>${escape(word[4])}</p>` : ''}</div>`;
+  }
+
+  function sensesHTML(word, hidden = false, withSpeech = false, pkgId) {
+    const senses = Core.wordSenses(word);
+    if (!senses.length) return '';
+    return `<div class="word-senses"><p class="senses-label">다른 뜻</p><ul>${senses.map(([sense, ex, exKo]) => `<li><p class="sense-meaning" lang="ko" data-meaning ${hidden ? 'hidden' : ''}>${escape(sense)}</p>${exampleHTML([word[0], sense, '', ex, exKo], hidden, withSpeech, pkgId)}</li>`).join('')}</ul></div>`;
   }
 
   function wordGrammarHTML(word, pkgId, hidden = false) {
@@ -153,12 +169,12 @@
   }
 
   function wordHTML(word, hidden = false, withSpeech = false, pkgId) {
-    return `<div class="word-title"><h3 class="english" lang="${escape(packageLang(pkgId))}">${escape(word[0])}</h3>${posBadge(word)}</div><p data-meaning ${hidden ? 'hidden' : ''}>${escape(word[1])}</p>${wordGrammarHTML(word, pkgId, hidden)}${exampleHTML(word, hidden, withSpeech, pkgId)}`;
+    return `<div class="word-title"><h3 class="english" lang="${escape(packageLang(pkgId))}">${escape(word[0])}</h3>${posBadge(word)}</div><p data-meaning ${hidden ? 'hidden' : ''}>${escape(word[1])}</p>${wordGrammarHTML(word, pkgId, hidden)}${exampleHTML(word, hidden, withSpeech, pkgId)}${sensesHTML(word, hidden, withSpeech, pkgId)}`;
   }
 
   function wrongWord(entry) {
     const original = findPackage(entry.pkg)?.words.find(word => word[0] === entry.en);
-    return [entry.en, entry.ko, entry.pos || original?.[2] || '', entry.ex || original?.[3] || '', entry.exKo || original?.[4] || ''];
+    return [entry.en, entry.ko, entry.pos || original?.[2] || '', entry.ex || original?.[3] || '', entry.exKo || original?.[4] || '', original?.[5]];
   }
 
   function speak(text, language = 'en-US') {

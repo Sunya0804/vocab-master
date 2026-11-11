@@ -72,7 +72,8 @@
       "계좌, 거래처; 설명",
       "명",
       "Your monthly salary will go directly into your account.",
-      "매달 급여가 귀하의 계좌로 바로 입금된다."
+      "매달 급여가 귀하의 계좌로 바로 입금된다.",
+      [["설명","The witness gave a detailed account of the incident to the security team.","그 목격자는 보안팀에 그 사건에 대한 자세한 설명을 했다."]]
     ],
     [
       "addition",
@@ -205,7 +206,8 @@
       "시작; 초기의",
       "명/형",
       "The beginning of the presentation includes a brief company history.",
-      "발표 시작 부분에는 간략한 회사 연혁이 포함되어 있다."
+      "발표 시작 부분에는 간략한 회사 연혁이 포함되어 있다.",
+      [["초기의","In the beginning stages of a project, careful planning and frequent communication matter most.","프로젝트의 초기 단계에서는 신중한 계획과 잦은 소통이 가장 중요하다."]]
     ],
     [
       "belong to",
@@ -226,7 +228,8 @@
       "물다; 한 입",
       "동/명",
       "The clinic treated the tourist for an insect bite.",
-      "진료소는 관광객의 벌레 물린 곳을 치료했다."
+      "진료소는 관광객의 벌레 물린 곳을 치료했다.",
+      [["한 입","Guests at the tasting event enjoyed a small bite of the new dessert before dinner.","시식 행사에 온 손님들은 저녁 식사 전에 새 디저트를 한 입씩 맛보았다."]]
     ],
     [
       "boat",
@@ -429,7 +432,8 @@
       "깨끗한; 청소하다, 깨끗하게 하다",
       "동/형",
       "Staff clean the coffee machine thoroughly after the café closes.",
-      "직원들은 카페가 문을 닫은 뒤 커피 머신을 철저히 청소한다."
+      "직원들은 카페가 문을 닫은 뒤 커피 머신을 철저히 청소한다.",
+      [["깨끗한","All clean uniforms must be returned to the locker room before the morning shift begins.","깨끗한 유니폼은 모두 아침 근무가 시작되기 전에 탈의실로 반납해야 한다."]]
     ],
     [
       "climb",
@@ -464,7 +468,8 @@
       "감기, 추위; 추운",
       "명",
       "A bad cold kept our receptionist home for three days.",
-      "심한 감기 때문에 접수 담당자가 사흘 동안 집에 있었다."
+      "심한 감기 때문에 접수 담당자가 사흘 동안 집에 있었다.",
+      [["추운","Winter temperatures make the warehouse cold, so workers received insulated jackets this year.","겨울철 기온 때문에 창고가 추워지자 올해 직원들에게 보온 재킷을 지급했다."]]
     ],
     [
       "company",
@@ -527,7 +532,8 @@
       "맞는; 정정하다",
       "형/동",
       "Please enter the correct delivery address.",
-      "올바른 배송 주소를 입력해 주어라."
+      "올바른 배송 주소를 입력해 주어라.",
+      [["정정하다","Before the supplier receives the final copy, our accountant will correct the invoice total.","공급업체가 최종 사본을 받기 전에 우리 회계 담당자가 청구서 합계를 정정할 것이다."]]
     ],
     [
       "correctly",
@@ -541,7 +547,8 @@
       "덮다; 비용을 부담하다",
       "동",
       "We decided to cover the cost of the replacement parts.",
-      "우리는 교체 부품 비용을 부담하기로 했다."
+      "우리는 교체 부품 비용을 부담하기로 했다.",
+      [["덮다","Workers must cover the equipment with a plastic sheet while the ceiling is being repaired.","천장을 수리하는 동안 작업자들은 장비를 비닐 시트로 덮어야 한다."]]
     ],
     [
       "daily",
@@ -702,7 +709,8 @@
       "변명, 이유; 용서하다",
       "명/동",
       "A missed bus is no excuse for repeatedly arriving late.",
-      "버스를 놓쳤다는 것은 반복해서 지각하는 데 대한 변명이 되지 않는다."
+      "버스를 놓쳤다는 것은 반복해서 지각하는 데 대한 변명이 되지 않는다.",
+      [["용서하다","Our supervisor asked everyone to excuse his absence from the meeting because of illness.","우리 관리자는 자신이 아파서 회의에 빠진 것을 모두에게 양해해 달라고 부탁했다."]]
     ],
     [
       "exit",
@@ -982,7 +990,8 @@
       "단체, 집단; 무리로 나누다",
       "명/동",
       "A group of new employees will tour the facility tomorrow.",
-      "신입 직원 한 무리가 내일 시설을 둘러볼 예정이다."
+      "신입 직원 한 무리가 내일 시설을 둘러볼 예정이다.",
+      [["무리로 나누다","Ahead of the safety orientation, the trainer will group the new hires by department.","안전 교육에 앞서 교육 담당자는 신입 사원들을 부서별로 나눌 것이다."]]
     ],
     [
       "gym",
@@ -996,7 +1005,8 @@
       "손; 건네주다",
       "명/동",
       "Raise your hand if you need help completing the application.",
-      "신청서 작성에 도움이 필요하면 손을 들어 주어라."
+      "신청서 작성에 도움이 필요하면 손을 들어 주어라.",
+      [["건네주다","A receptionist at the front desk will hand each visitor a badge and a short building guide.","프런트 데스크의 접수 직원은 방문객마다 명찰과 간단한 건물 안내서를 건넬 것이다."]]
     ],
     [
       "hang",
@@ -1171,7 +1181,8 @@
       "보유하다, 계속하다",
       "동",
       "We agreed to keep a copy of each receipt.",
-      "우리는 영수증마다 사본을 보관하기로 합의했다."
+      "우리는 영수증마다 사본을 보관하기로 합의했다.",
+      [["계속하다","Managers keep working on the budget review until every department submits its figures.","관리자들은 모든 부서가 수치를 제출할 때까지 예산 검토 작업을 계속한다."]]
     ],
     [
       "knife",
@@ -1234,7 +1245,8 @@
       "목록, 명단; 목록에 기입하다",
       "명/동",
       "Check the guest list before handing out conference badges.",
-      "회의 명찰을 나눠 주기 전에 참석자 명단을 확인하라."
+      "회의 명찰을 나눠 주기 전에 참석자 명단을 확인하라.",
+      [["목록에 기입하다","Please list every item you purchased on the expense form before submitting it.","제출하기 전에 지출 양식에 구입한 모든 항목을 기입해라."]]
     ],
     [
       "listen to",
@@ -1269,7 +1281,8 @@
       "찾아보다, 조사하다; 올려다보다",
       "동",
       "We intend to look up the updated regulations.",
-      "우리는 갱신된 규정을 찾아보고자 한다."
+      "우리는 갱신된 규정을 찾아보고자 한다.",
+      [["올려다보다","Visitors should look up from their phones when the safety announcement begins in the lobby.","방문객들은 로비에서 안전 안내 방송이 시작되면 휴대전화에서 고개를 들어 올려다보아야 한다."]]
     ],
     [
       "lose",
@@ -1297,7 +1310,8 @@
       "우편물; 우편으로 보내다",
       "명/동",
       "The receptionist sorts incoming mail before the office opens.",
-      "접수 직원은 사무실이 문을 열기 전에 들어온 우편물을 분류한다."
+      "접수 직원은 사무실이 문을 열기 전에 들어온 우편물을 분류한다.",
+      [["우편으로 보내다","By registered post, we will mail the signed contract to the client's office tomorrow.","우리는 등기 우편으로 서명한 계약서를 내일 고객 사무실로 보낼 것이다."]]
     ],
     [
       "make a call",
@@ -1507,7 +1521,8 @@
       "~하자마자; 이전에, 한 번",
       "접/부",
       "Once the shipment arrives, we will confirm the quantity.",
-      "배송품이 도착하는 대로 수량을 확인하겠다."
+      "배송품이 도착하는 대로 수량을 확인하겠다.",
+      [["한 번","I have met the new supplier once, but I cannot remember his name.","나는 새 공급업체 담당자를 한 번 만난 적이 있지만 그의 이름은 기억나지 않는다."]]
     ],
     [
       "online",
@@ -1528,14 +1543,16 @@
       "짐; 짐을 꾸리다",
       "명/동",
       "Remember to pack comfortable shoes for the factory inspection tour.",
-      "공장 시찰을 위해 편안한 신발을 챙겨 짐을 꾸려라."
+      "공장 시찰을 위해 편안한 신발을 챙겨 짐을 꾸려라.",
+      [["짐","Carrying a heavy pack of brochures and bottled water, the tour guide led us uphill.","안내 책자와 생수로 가득 찬 무거운 짐을 메고 관광 안내원이 우리를 언덕 위로 이끌었다."]]
     ],
     [
       "paint",
       "물감; 그림을 그리다",
       "명/동",
       "The maintenance crew applied fresh paint to the reception walls.",
-      "유지보수팀은 접수처 벽에 새 페인트를 칠했다."
+      "유지보수팀은 접수처 벽에 새 페인트를 칠했다.",
+      [["그림을 그리다","On quiet weekends, a retired engineer likes to paint landscapes of the harbor.","은퇴한 엔지니어는 조용한 주말이면 항구 풍경을 그리기를 좋아한다."]]
     ],
     [
       "painting",
@@ -1626,7 +1643,8 @@
       "계획; 계획을 세우다",
       "명/동",
       "The board approved our plan to open two additional branches.",
-      "이사회는 지점 두 곳을 추가로 열겠다는 우리 계획을 승인했다."
+      "이사회는 지점 두 곳을 추가로 열겠다는 우리 계획을 승인했다.",
+      [["계획을 세우다","Together with the catering staff, the event committee will plan the annual charity dinner.","행사 위원회는 케이터링 직원들과 함께 연례 자선 만찬을 계획할 것이다."]]
     ],
     [
       "plate",
@@ -1654,7 +1672,8 @@
       "의견; 가리키다",
       "명/동",
       "Your point about delivery costs deserves further discussion today.",
-      "배송비에 관한 귀하의 의견은 오늘 추가로 논의할 만하다."
+      "배송비에 관한 귀하의 의견은 오늘 추가로 논의할 만하다.",
+      [["가리키다","Pointing at the emergency exit, the guide explained how to open the door during a fire.","비상구를 가리키며 안내원은 화재 시 문을 여는 방법을 설명했다."]]
     ],
     [
       "practice",
@@ -1773,7 +1792,8 @@
       "임대료; 빌리다, 빌려주다",
       "명/동",
       "The monthly rent includes heating but excludes electricity and internet.",
-      "월 임대료에는 난방비가 포함되지만 전기료와 인터넷 요금은 제외된다."
+      "월 임대료에는 난방비가 포함되지만 전기료와 인터넷 요금은 제외된다.",
+      [["빌리다","We decided to rent a small office near the station for the sales team.","우리는 영업팀을 위해 역 근처의 작은 사무실을 빌리기로 했다."]]
     ],
     [
       "repeat",
@@ -1794,7 +1814,8 @@
       "권리; 바른, 옳은",
       "명",
       "Passengers have the right to compensation when their luggage is lost.",
-      "승객은 수하물을 분실했을 때 보상받을 권리가 있다."
+      "승객은 수하물을 분실했을 때 보상받을 권리가 있다.",
+      [["바른, 옳은","Choosing the right packaging material reduced damage claims by nearly thirty percent last quarter.","알맞은 포장재를 선택한 덕분에 지난 분기 손상 배상 청구가 거의 30퍼센트 줄었다."]]
     ],
     [
       "right away",
@@ -1920,14 +1941,16 @@
       "상점; 물건을 사다",
       "명/동",
       "The repair shop offers free estimates for damaged bicycles.",
-      "그 수리점은 고장 난 자전거에 대해 무료 견적을 제공한다."
+      "그 수리점은 고장 난 자전거에 대해 무료 견적을 제공한다.",
+      [["물건을 사다","Employees often shop for office supplies at the discount store across the street.","직원들은 종종 길 건너 할인 매장에서 사무용품을 산다."]]
     ],
     [
       "show",
       "보여주다; 전시회",
       "명/동",
       "We decided to show the visitors our new facility.",
-      "우리는 방문객들에게 새 시설을 보여 주기로 했다."
+      "우리는 방문객들에게 새 시설을 보여 주기로 했다.",
+      [["전시회","This spring, the annual trade show attracted buyers from more than forty countries.","올해 봄 연례 무역 전시회에는 40개국이 넘는 나라에서 바이어들이 몰렸다."]]
     ],
     [
       "shower",
@@ -2004,7 +2027,8 @@
       "조용한, 정지한; 여전히",
       "형/부",
       "The lake was still in the early morning.",
-      "이른 아침 호수는 잔잔했다."
+      "이른 아침 호수는 잔잔했다.",
+      [["여전히","Our printer is still out of order, so please send the files to the branch office.","프린터가 여전히 고장 났으니 파일을 지사로 보내라."]]
     ],
     [
       "stop",
@@ -2018,7 +2042,8 @@
       "가게; 저장하다",
       "명/동",
       "The department store extends its opening hours during the holidays.",
-      "그 백화점은 명절 기간에 영업시간을 연장한다."
+      "그 백화점은 명절 기간에 영업시간을 연장한다.",
+      [["저장하다","Staff should store confidential files in the locked cabinet at the end of each day.","직원들은 매일 업무가 끝나면 기밀 서류를 잠긴 캐비닛에 보관해야 한다."]]
     ],
     [
       "suggest",
@@ -2053,7 +2078,8 @@
       "놀라게 하다; 놀라운 일",
       "동/명",
       "The early delivery surprised the customer.",
-      "이른 배송이 고객을 놀라게 했다."
+      "이른 배송이 고객을 놀라게 했다.",
+      [["놀라운 일","News of the finance director's resignation came as a surprise to the whole department.","재무 이사의 사임 소식은 부서 전체에 놀라운 일이었다."]]
     ],
     [
       "take a break",
@@ -2319,7 +2345,8 @@
       "견해; ~이라고 여기다",
       "명/동",
       "The consultant shared her view on the proposed pricing changes.",
-      "컨설턴트는 제안된 가격 변경에 대한 자신의 견해를 밝혔다."
+      "컨설턴트는 제안된 가격 변경에 대한 자신의 견해를 밝혔다.",
+      [["~이라고 여기다","Many analysts view the recent merger as a risky move for both companies.","많은 분석가는 최근 합병을 두 회사 모두에 위험한 행보로 여긴다."]]
     ],
     [
       "visit",
@@ -2382,14 +2409,16 @@
       "물; 물을 주다",
       "명/동",
       "Bottled water is available beside the conference registration desk.",
-      "회의 등록 데스크 옆에 생수가 준비되어 있다."
+      "회의 등록 데스크 옆에 생수가 준비되어 있다.",
+      [["물을 주다","Every Monday and Thursday morning, the office manager waters the plants in the lobby.","사무실 관리자는 매주 월요일과 목요일 아침 로비의 화초에 물을 준다."]]
     ],
     [
       "wear",
       "입고 있다, 착용하다; 수염 등을 기르고 있다",
       "동",
       "We intend to wear protective equipment during the inspection.",
-      "우리는 점검 중 보호 장비를 착용하고자 한다."
+      "우리는 점검 중 보호 장비를 착용하고자 한다.",
+      [["수염 등을 기르고 있다","Wearing a short beard, the new security guard always greets visitors politely.","짧은 수염을 기른 새 경비원은 방문객에게 늘 정중하게 인사한다."]]
     ],
     [
       "weather forecast",
@@ -2522,14 +2551,16 @@
       "참석하다, 다니다",
       "동",
       "We would like to attend the professional development workshop.",
-      "우리는 직무 능력 개발 연수회에 참석하고 싶다."
+      "우리는 직무 능력 개발 연수회에 참석하고 싶다.",
+      [["다니다","She attends a language institute twice a week to improve her business English.","그녀는 업무 영어를 늘리려고 일주일에 두 번 어학원에 다닌다."]]
     ],
     [
       "bag",
       "가방, 봉지; 봉지에 담다",
       "명/동",
       "Carry important documents in a waterproof bag during your journey.",
-      "이동 중에는 중요한 서류를 방수 가방에 넣어 가지고 다녀라."
+      "이동 중에는 중요한 서류를 방수 가방에 넣어 가지고 다녀라.",
+      [["봉지에 담다","At the checkout, the cashier will bag fresh produce separately from the cleaning products.","계산대에서 계산원은 신선한 농산물을 세제류와 분리해 봉지에 담을 것이다."]]
     ],
     [
       "believe",
@@ -2557,7 +2588,8 @@
       "책; 예약하다",
       "명/동",
       "This book explains basic accounting principles through practical examples.",
-      "이 책은 실용적인 사례를 통해 기본 회계 원리를 설명한다."
+      "이 책은 실용적인 사례를 통해 기본 회계 원리를 설명한다.",
+      [["예약하다","Please book the conference room before Friday so the client can visit.","고객이 방문할 수 있도록 금요일 전에 회의실을 예약해라."]]
     ],
     [
       "bottom",
@@ -2578,21 +2610,24 @@
       "돌봄, 주의; 신경 쓰다",
       "명/동",
       "Our customer care team answers inquiries in three languages.",
-      "우리 고객 관리팀은 세 가지 언어로 문의에 답한다."
+      "우리 고객 관리팀은 세 가지 언어로 문의에 답한다.",
+      [["신경 쓰다","As long as clients are informed, the director does not care about small delays.","고객에게 미리 알리기만 하면 그 이사는 작은 지연에는 신경 쓰지 않는다."]]
     ],
     [
       "cash",
       "현금; 현금으로 바꾸다",
       "명/동",
       "Small purchases can be paid for with petty cash.",
-      "소액 구매는 소액 현금으로 지불할 수 있다."
+      "소액 구매는 소액 현금으로 지불할 수 있다.",
+      [["현금으로 바꾸다","Guests can cash a traveler's check at the hotel desk before noon each day.","투숙객은 매일 정오 전에 호텔 데스크에서 여행자 수표를 현금으로 바꿀 수 있다."]]
     ],
     [
       "close",
       "닫다; 가까운",
       "동/형",
       "We decided to close the office during the renovation.",
-      "우리는 개보수 기간에 사무실 문을 닫기로 했다."
+      "우리는 개보수 기간에 사무실 문을 닫기로 했다.",
+      [["가까운","Because the new branch is close to the subway station, many commuters stop there.","새 지점이 지하철역에서 가까워서 많은 통근자가 그곳에 들른다."]]
     ],
     [
       "collect",
@@ -2613,14 +2648,16 @@
       "요리하다; 요리사",
       "명/동",
       "We decided to cook dinner for the visiting team.",
-      "우리는 방문한 팀을 위해 저녁을 요리하기로 했다."
+      "우리는 방문한 팀을 위해 저녁을 요리하기로 했다.",
+      [["요리사","For the company's anniversary dinner, the head cook prepares a special menu each year.","주방장은 해마다 회사 창립 기념 만찬을 위해 특별 메뉴를 준비한다."]]
     ],
     [
       "cross",
       "건너다; 십자 표시",
       "동",
       "We intend to cross the bridge on foot.",
-      "우리는 걸어서 다리를 건너고자 한다."
+      "우리는 걸어서 다리를 건너고자 한다.",
+      [["십자 표시","Place a cross in the box beside the option you prefer on the survey.","설문지에서 원하는 항목 옆 칸에 십자 표시를 하라."]]
     ],
     [
       "decision",
@@ -2641,7 +2678,8 @@
       "그리다, 끌어들이다; 추첨",
       "명/동",
       "We intend to draw a detailed plan of the new layout.",
-      "우리는 새 배치의 상세 도면을 그리고자 한다."
+      "우리는 새 배치의 상세 도면을 그리고자 한다.",
+      [["추첨","During the closing ceremony, we will announce the winner of the prize draw.","폐회식에서 우리는 추첨 당첨자를 발표할 것이다."]]
     ],
     [
       "earn",
@@ -2655,7 +2693,8 @@
       "심지어; 평평한, 고른",
       "형/부",
       "Even experienced technicians must attend the safety training.",
-      "숙련된 기술자조차 안전 교육에 참석해야 한다."
+      "숙련된 기술자조차 안전 교육에 참석해야 한다.",
+      [["평평한, 고른","Make sure the table surface is even before placing the projector on it.","프로젝터를 올려놓기 전에 탁자 표면이 평평한지 확인하라."]]
     ],
     [
       "expect",
@@ -2680,10 +2719,11 @@
     ],
     [
       "face",
-      "직면하다; 얼굴, 표면",
+      "직면하다; 얼굴, 표면; 앞면, 전면",
       "명/동",
       "We agreed to face the financial challenges directly.",
-      "우리는 재정적 어려움에 직접 맞서기로 합의했다."
+      "우리는 재정적 어려움에 직접 맞서기로 합의했다.",
+      [["앞면, 전면","Workers will clean and repaint the face of the building during the summer.","작업자들은 여름 동안 건물 외벽을 청소하고 다시 칠할 것이다."]]
     ],
     [
       "fan",
@@ -2697,7 +2737,8 @@
       "농장; 농사를 짓다",
       "명/동",
       "The restaurant buys seasonal produce directly from a nearby farm.",
-      "그 식당은 인근 농장에서 제철 농산물을 직접 구입한다."
+      "그 식당은 인근 농장에서 제철 농산물을 직접 구입한다.",
+      [["농사를 짓다","Having farmed this land for three generations, the family now supplies local hotels.","그 가족은 삼 대째 이 땅에서 농사를 지어 왔으며 지금은 지역 호텔에 농산물을 공급한다."]]
     ],
     [
       "fear",
@@ -2718,7 +2759,8 @@
       "양식, 형태; 형성하다",
       "명/동",
       "Complete the application form using black ink and capital letters.",
-      "검은색 잉크와 대문자로 신청서를 작성하라."
+      "검은색 잉크와 대문자로 신청서를 작성하라.",
+      [["형성하다","Small daily habits form the basis of a reliable safety culture in factories.","작은 일상 습관이 공장의 신뢰할 만한 안전 문화의 바탕을 이룬다."]]
     ],
     [
       "funny",
@@ -2732,7 +2774,8 @@
       "가스, 기체; 휘발유",
       "명",
       "The restaurant closed temporarily because workers detected a gas leak.",
-      "작업자들이 가스 누출을 발견해서 그 식당은 임시 휴업했다."
+      "작업자들이 가스 누출을 발견해서 그 식당은 임시 휴업했다.",
+      [["휘발유","On the way out of town, the driver stopped to buy gas for the long trip.","시내를 벗어나는 길에 운전자는 먼 여행을 위해 휘발유를 사려고 들렀다."]]
     ],
     [
       "good",
@@ -2746,7 +2789,8 @@
       "다루다, 처리하다; 손잡이",
       "명/동",
       "We would like to handle urgent inquiries before routine paperwork.",
-      "우리는 일상적인 서류 업무보다 긴급 문의를 먼저 처리하고 싶다."
+      "우리는 일상적인 서류 업무보다 긴급 문의를 먼저 처리하고 싶다.",
+      [["손잡이","When the handle of the meeting room door came loose, maintenance replaced it.","회의실 문 손잡이가 헐거워지자 유지보수팀이 그것을 교체했다."]]
     ],
     [
       "imagine",
@@ -2781,7 +2825,8 @@
       "땅; 착륙하다, 획득하다",
       "명",
       "The company purchased land beside the river for its new warehouse.",
-      "그 회사는 새 창고를 짓기 위해 강 옆의 땅을 구입했다."
+      "그 회사는 새 창고를 짓기 위해 강 옆의 땅을 구입했다.",
+      [["착륙하다","Landing in Tokyo at nine will leave us enough time for the meeting.","9시에 도쿄에 착륙하면 회의에 쓸 시간이 충분히 남는다."]]
     ],
     [
       "language",
@@ -2799,38 +2844,43 @@
     ],
     [
       "lead",
-      "이끌다; 선두, 납",
+      "이끌다; 선두, 납; 선두, 우세",
       "명/동",
       "We intend to lead the discussion about the expansion.",
-      "우리는 확장에 관한 논의를 이끌고자 한다."
+      "우리는 확장에 관한 논의를 이끌고자 한다.",
+      [["선두, 우세","In this quarter's sales, our team holds a narrow lead over the competitor.","이번 분기 매출에서 우리 팀은 경쟁사에 근소한 차이로 앞서 있다."]]
     ],
     [
       "leave",
       "떠나다, 남기다; 휴가",
       "명/동",
       "We decided to leave additional time for questions.",
-      "우리는 질문을 위해 시간을 더 남겨 두기로 했다."
+      "우리는 질문을 위해 시간을 더 남겨 두기로 했다.",
+      [["휴가","He applied for two weeks of leave to care for his recovering father.","그는 회복 중인 아버지를 돌보기 위해 2주 휴가를 신청했다."]]
     ],
     [
       "light",
-      "빛, 조명; 가벼운; 불을 켜다",
+      "빛, 조명; 가벼운; 불을 켜다; 불을 붙이다",
       "명/형/동",
       "Please check the light above the entrance.",
-      "입구 위의 조명을 확인해 주어라."
+      "입구 위의 조명을 확인해 주어라.",
+      [["가벼운","A light jacket is enough for the conference hall, which stays warm all day.","회의장은 하루 종일 따뜻해서 가벼운 재킷이면 충분하다."],["불을 붙이다","Staff light the candles on each table shortly before the restaurant opens for dinner.","직원들은 식당의 저녁 영업이 시작되기 직전에 각 탁자의 초에 불을 붙인다."]]
     ],
     [
       "live",
       "살다; 생방송의",
       "동/형",
       "Most employees live within an hour of the office.",
-      "대부분의 직원은 사무실에서 한 시간 이내 거리에 산다."
+      "대부분의 직원은 사무실에서 한 시간 이내 거리에 산다.",
+      [["생방송의","Millions watched the live broadcast of the product launch on the company website.","수백만 명이 회사 웹사이트에서 신제품 출시 생방송을 시청했다."]]
     ],
     [
       "local",
       "지역의; 현지인",
       "명/형",
       "The hotel recommends local restaurants that serve traditional seafood dishes.",
-      "그 호텔은 전통 해산물 요리를 내놓는 지역 식당들을 추천한다."
+      "그 호텔은 전통 해산물 요리를 내놓는 지역 식당들을 추천한다.",
+      [["현지인","Tours led by locals who know the region's history well are popular with foreign visitors.","지역 역사를 잘 아는 현지인들이 진행하는 투어는 외국인 방문객에게 인기가 많다."]]
     ],
     [
       "location",
@@ -2844,7 +2894,8 @@
       "잠그다; 자물쇠",
       "명/동",
       "We would like to lock the storage room after the delivery.",
-      "우리는 배송이 끝난 뒤 보관실을 잠그고 싶다."
+      "우리는 배송이 끝난 뒤 보관실을 잠그고 싶다.",
+      [["자물쇠","Someone broke the lock on the supply closet, so tools were left unprotected overnight.","누군가 비품 보관함의 자물쇠를 부수는 바람에 도구들이 밤새 그대로 방치되었다."]]
     ],
     [
       "lonely",
@@ -2858,7 +2909,8 @@
       "긴; 갈망하다",
       "형/동",
       "The long corridor connects the warehouse to the shipping office.",
-      "긴 복도가 창고와 배송 사무실을 연결한다."
+      "긴 복도가 창고와 배송 사무실을 연결한다.",
+      [["갈망하다","After years of routine paperwork, he longs for a position with more responsibility.","몇 년 동안 반복적인 서류 업무를 해 온 그는 더 큰 책임을 맡는 자리를 갈망한다."]]
     ],
     [
       "lower",
@@ -2872,7 +2924,8 @@
       "의미하다; 비열한; 평균",
       "동/형/명",
       "The sign means that the entrance is closed.",
-      "그 표지판은 입구가 닫혀 있다는 뜻이다."
+      "그 표지판은 입구가 닫혀 있다는 뜻이다.",
+      [["비열한","Spreading rumors about a coworker is a mean act that damages trust in the office.","동료에 대해 소문을 퍼뜨리는 것은 사무실의 신뢰를 해치는 비열한 짓이다."],["평균","Our monthly sales figures are close to the mean recorded over the past decade.","우리의 월별 매출 수치는 지난 10년간 기록된 평균에 가깝다."]]
     ],
     [
       "meeting",
@@ -2893,14 +2946,16 @@
       "마음; 꺼리다, 주의하다",
       "명/동",
       "A short walk helped clear my mind before the presentation.",
-      "짧은 산책 덕분에 발표 전에 머릿속을 정리할 수 있었다."
+      "짧은 산책 덕분에 발표 전에 머릿속을 정리할 수 있었다.",
+      [["주의하다","Visitors should mind the wet floor near the elevator during morning cleaning.","방문객은 아침 청소 시간에 엘리베이터 근처의 젖은 바닥에 주의해야 한다."]]
     ],
     [
       "move",
       "움직이다, 이사하다; 조치",
       "명/동",
       "We would like to move the office closer to the station.",
-      "우리는 사무실을 역 근처로 옮기고 싶다."
+      "우리는 사무실을 역 근처로 옮기고 싶다.",
+      [["조치","Hiring a bilingual receptionist was a smart move for the expanding overseas office.","이중 언어 구사 접수원을 채용한 것은 확장 중인 해외 지사에 현명한 조치였다."]]
     ],
     [
       "neighborhood",
@@ -2914,7 +2969,8 @@
       "공지, 주의; 알아차리다",
       "명/동",
       "A notice on the entrance explains the temporary opening hours.",
-      "입구의 공지문에는 임시 영업시간이 안내되어 있다."
+      "입구의 공지문에는 임시 영업시간이 안내되어 있다.",
+      [["알아차리다","The supervisor noticed several errors in the invoice before it was sent to the client.","관리자는 청구서가 고객에게 발송되기 전에 여러 오류를 알아차렸다."]]
     ],
     [
       "personal",
@@ -2935,7 +2991,8 @@
       "장소; 놓다, 주문하다",
       "명/동",
       "The lobby provides a comfortable place for guests to wait.",
-      "로비에는 손님들이 기다릴 수 있는 편안한 장소가 마련되어 있다."
+      "로비에는 손님들이 기다릴 수 있는 편안한 장소가 마련되어 있다.",
+      [["주문하다","Please place your order by Thursday so the supplier can ship it on Monday.","공급업체가 월요일에 출고할 수 있도록 목요일까지 주문해라."]]
     ],
     [
       "plastic",
@@ -2956,7 +3013,8 @@
       "예쁜; 꽤",
       "형/부",
       "The new schedule is pretty convenient for everyone.",
-      "새 일정은 모두에게 꽤 편리하다."
+      "새 일정은 모두에게 꽤 편리하다.",
+      [["예쁜","The newly renovated lobby has pretty flower arrangements that impress every visitor.","새로 단장한 로비에는 방문객마다 감탄하게 하는 예쁜 꽃 장식이 있다."]]
     ],
     [
       "price",
@@ -2977,7 +3035,8 @@
       "생산하다, 만들어 내다; 농산물",
       "동/명",
       "We agreed to produce a detailed report on the findings.",
-      "우리는 조사 결과에 관한 상세 보고서를 작성하기로 합의했다."
+      "우리는 조사 결과에 관한 상세 보고서를 작성하기로 합의했다.",
+      [["농산물","The cafeteria buys fresh produce from nearby farms every Tuesday to keep meals affordable.","구내식당은 식사를 저렴하게 제공하려고 매주 화요일 인근 농장에서 신선한 농산물을 구입한다."]]
     ],
     [
       "provide",
@@ -2998,14 +3057,16 @@
       "품질, 특성; 양질의",
       "명/형",
       "We inspect fabric quality before accepting deliveries from new suppliers.",
-      "우리는 새 공급업체의 물품을 받기 전에 원단 품질을 검사한다."
+      "우리는 새 공급업체의 물품을 받기 전에 원단 품질을 검사한다.",
+      [["양질의","Guests praised the hotel for its quality service and attentive front desk staff.","투숙객들은 그 호텔의 양질의 서비스와 세심한 프런트 직원을 칭찬했다."]]
     ],
     [
       "raise",
       "올리다, 모금하다; 임금 인상",
       "명/동",
       "We would like to raise funds for the community library.",
-      "우리는 지역 도서관을 위한 기금을 모으고 싶다."
+      "우리는 지역 도서관을 위한 기금을 모으고 싶다.",
+      [["임금 인상","The union is asking for a raise of five percent for all warehouse employees.","노조는 모든 창고 직원에게 5퍼센트의 임금 인상을 요구하고 있다."]]
     ],
     [
       "repair",
@@ -3019,7 +3080,8 @@
       "나머지, 휴식; 쉬다",
       "명/동",
       "Half the chairs arrived today, and the rest are due tomorrow.",
-      "의자의 절반은 오늘 도착했고 나머지는 내일 도착할 예정이다."
+      "의자의 절반은 오늘 도착했고 나머지는 내일 도착할 예정이다.",
+      [["쉬다","After the long flight, the sales team rested briefly before the client meeting.","긴 비행 끝에 영업팀은 고객 미팅 전에 잠시 쉬었다."]]
     ],
     [
       "restroom",
@@ -3033,14 +3095,16 @@
       "방, 공간, 여지",
       "명",
       "We reserved a private room for the client dinner.",
-      "우리는 고객과의 저녁 식사를 위해 독립된 방을 예약했다."
+      "우리는 고객과의 저녁 식사를 위해 독립된 방을 예약했다.",
+      [["공간","There is not enough room in the archive for the new filing cabinets.","새 서류 보관함을 놓을 만한 공간이 문서고에 충분하지 않다."],["여지","The report leaves little room for doubt about the cause of the delay.","그 보고서는 지연 원인에 대한 의심의 여지를 거의 남기지 않는다."]]
     ],
     [
       "run",
       "달리다; 운영하다",
       "동",
       "We intend to run a small distribution business.",
-      "우리는 소규모 유통 사업체를 운영하고자 한다."
+      "우리는 소규모 유통 사업체를 운영하고자 한다.",
+      [["달리다","Every morning he runs two kilometers along the river before starting work.","그는 일을 시작하기 전에 매일 아침 강변을 따라 2킬로미터를 달린다."]]
     ],
     [
       "sell",
@@ -3068,7 +3132,8 @@
       "소리; 건전한; 소리가 나다",
       "명/형/동",
       "The unusual sound from the motor suggested a mechanical problem.",
-      "모터에서 나는 특이한 소리는 기계적 문제가 있음을 시사했다."
+      "모터에서 나는 특이한 소리는 기계적 문제가 있음을 시사했다.",
+      [["건전한","The company's sound financial position enabled it to expand without borrowing additional money.","회사는 재무 상태가 건전해 추가 대출 없이 사업을 확장할 수 있었다."],["소리가 나다","The alarm sounds twice whenever a delivery truck enters the loading area.","배송 트럭이 하역장에 들어올 때마다 경보음이 두 번 울린다."]]
     ],
     [
       "stay",
@@ -3082,7 +3147,8 @@
       "이야기, 기사; 층",
       "명",
       "The newspaper's lead story describes the factory's successful environmental program.",
-      "신문의 주요 기사는 그 공장의 성공적인 환경 프로그램을 설명한다."
+      "신문의 주요 기사는 그 공장의 성공적인 환경 프로그램을 설명한다.",
+      [["층","The top story of the new headquarters contains meeting rooms with views of the station.","새 본사의 맨 위층에는 역이 내려다보이는 회의실들이 있다."]]
     ],
     [
       "straight",
@@ -3096,14 +3162,16 @@
       "주제, 대상; ~을 받게 하다",
       "명/동",
       "The subject of tomorrow's lecture is managing an international workforce.",
-      "내일 강연의 주제는 국제적인 인력을 관리하는 것이다."
+      "내일 강연의 주제는 국제적인 인력을 관리하는 것이다.",
+      [["~을 받게 하다","All imported equipment is subjected to a strict safety inspection before release.","모든 수입 장비는 출고 전에 엄격한 안전 검사를 받는다."]]
     ],
     [
       "support",
       "지원하다; 지지, 받침대",
       "명/동",
       "We decided to support the expansion with additional funding.",
-      "우리는 추가 자금으로 확장을 지원하기로 했다."
+      "우리는 추가 자금으로 확장을 지원하기로 했다.",
+      [["지지","The marketing plan won strong support from regional managers at the annual meeting.","그 마케팅 계획은 연례 회의에서 지역 관리자들의 강한 지지를 얻었다."]]
     ],
     [
       "take out",
@@ -3124,7 +3192,8 @@
       "표, 승차권; 위반 통지서",
       "명",
       "Your train ticket includes a reserved seat and light refreshments.",
-      "기차표에는 지정 좌석과 간단한 다과가 포함되어 있다."
+      "기차표에는 지정 좌석과 간단한 다과가 포함되어 있다.",
+      [["위반 통지서","A parking ticket was left on the windshield of the company van.","회사 밴의 앞유리에 주차 위반 통지서가 놓여 있었다."]]
     ],
     [
       "tourist",
@@ -3138,7 +3207,8 @@
       "돌다, 돌리다; 차례, 전환",
       "동/명",
       "We intend to turn the control knob gently.",
-      "우리는 조절 손잡이를 천천히 돌리고자 한다."
+      "우리는 조절 손잡이를 천천히 돌리고자 한다.",
+      [["차례","It is your turn to present the quarterly results to the regional director.","이제 네가 지역 본부장에게 분기 실적을 보고할 차례다."]]
     ],
     [
       "wallet",
@@ -3152,7 +3222,8 @@
       "파도; 손을 흔들다",
       "명",
       "A large wave splashed seawater onto the ferry's lower deck.",
-      "큰 파도가 여객선의 아래쪽 갑판에 바닷물을 튀겼다."
+      "큰 파도가 여객선의 아래쪽 갑판에 바닷물을 튀겼다.",
+      [["손을 흔들다","The driver waved at the guard before driving through the factory gate.","운전기사는 공장 정문을 지나기 전에 경비원에게 손을 흔들었다."]]
     ],
     [
       "weak",
@@ -3166,14 +3237,16 @@
       "환영하다; 반가운",
       "동/형",
       "We welcome suggestions from our customers.",
-      "우리는 고객들의 제안을 환영한다."
+      "우리는 고객들의 제안을 환영한다.",
+      [["반가운","After a week of delayed shipments, the extra staff were a welcome sight.","일주일간 배송이 지연된 뒤라 추가 인력은 반가운 존재였다."]]
     ],
     [
       "wind",
       "바람; 감다, 구불구불 이어지다",
       "명",
       "Strong wind forced workers to postpone repairs to the roof.",
-      "강한 바람 때문에 작업자들은 지붕 수리를 미뤄야 했다."
+      "강한 바람 때문에 작업자들은 지붕 수리를 미뤄야 했다.",
+      [["감다","Please wind the cables neatly around the reel before returning the projector.","프로젝터를 반납하기 전에 케이블을 릴에 깔끔하게 감아라."]]
     ],
     [
       "wrist",
@@ -3516,7 +3589,8 @@
       "목표; 객관적인",
       "명/형",
       "Our immediate objective is to reduce the number of damaged shipments.",
-      "우리의 당면 목표는 파손된 배송물의 수를 줄이는 것이다."
+      "우리의 당면 목표는 파손된 배송물의 수를 줄이는 것이다.",
+      [["객관적인","An objective evaluation of each proposal will help us choose the best vendor.","각 제안에 대한 객관적인 평가가 최적의 업체를 고르는 데 도움이 될 것이다."]]
     ],
     [
       "obtain",
@@ -3537,14 +3611,16 @@
       "운영하다, 작동하다",
       "동",
       "We intend to operate the machine in shifts.",
-      "우리는 교대로 기계를 가동하고자 한다."
+      "우리는 교대로 기계를 가동하고자 한다.",
+      [["운영하다","The Kim family operates three coffee shops inside the airport's international departure terminal.","김 씨 가족은 공항 국제선 출국 터미널 안에서 커피숍 세 곳을 운영한다."]]
     ],
     [
       "outstanding",
       "뛰어난; 미지불된",
       "형",
       "The accounting team is reviewing all outstanding invoices.",
-      "회계팀은 모든 미지급 청구서를 검토하고 있다."
+      "회계팀은 모든 미지급 청구서를 검토하고 있다.",
+      [["뛰어난","Her outstanding performance in customer service earned her a promotion last quarter.","고객 서비스에서의 그녀의 뛰어난 성과는 지난 분기에 승진으로 이어졌다."]]
     ],
     [
       "overdue",
@@ -3600,7 +3676,8 @@
       "영수증, 수령",
       "명",
       "Keep your receipt until the refund appears on your statement.",
-      "환불 금액이 명세서에 표시될 때까지 영수증을 보관하여라."
+      "환불 금액이 명세서에 표시될 때까지 영수증을 보관하여라.",
+      [["수령","Goods are inspected on receipt and returned to the supplier if damaged.","물품은 수령 시 검사하고, 파손된 경우 공급업체에 반송한다."]]
     ],
     [
       "refund",
@@ -3761,7 +3838,8 @@
       "인출하다, 철회하다",
       "동",
       "We agreed to withdraw our application.",
-      "우리는 우리의 신청을 철회하기로 합의했다."
+      "우리는 우리의 신청을 철회하기로 합의했다.",
+      [["인출하다","You can withdraw up to five hundred dollars daily from the branch ATM.","지점 ATM에서는 하루에 최대 500달러까지 인출할 수 있다."]]
     ],
     [
       "workshop",
@@ -3803,7 +3881,8 @@
       "수수료; 의뢰하다",
       "명/동",
       "The travel agent earns a commission on each cruise booking.",
-      "그 여행 대리인은 크루즈 예약 건마다 수수료를 받는다."
+      "그 여행 대리인은 크루즈 예약 건마다 수수료를 받는다.",
+      [["의뢰하다","The city commissioned a local firm to design the new pedestrian bridge.","시는 새 보행자 다리 설계를 지역 업체에 의뢰했다."]]
     ],
     [
       "preference",
@@ -3950,7 +4029,8 @@
       "대리의, 직무대행의; 연기",
       "명/형",
       "The acting director will approve expenses until a replacement arrives.",
-      "직무대행 이사는 후임자가 올 때까지 경비를 승인할 것이다."
+      "직무대행 이사는 후임자가 올 때까지 경비를 승인할 것이다.",
+      [["연기","She studied acting in college before joining the company's public relations team.","그녀는 회사 홍보팀에 합류하기 전에 대학에서 연기를 공부했다."]]
     ],
     [
       "additional charge",
@@ -3971,7 +4051,8 @@
       "주소; 다루다, 연설하다",
       "명/동",
       "Check the delivery address carefully before confirming your online order.",
-      "온라인 주문을 확정하기 전에 배송 주소를 주의 깊게 확인하라."
+      "온라인 주문을 확정하기 전에 배송 주소를 주의 깊게 확인하라.",
+      [["다루다","The manager will briefly address the staffing shortage during tomorrow's department meeting.","관리자는 내일 부서 회의에서 인력 부족 문제를 간단히 다룰 것이다."]]
     ],
     [
       "adjust the mirror",
@@ -4069,7 +4150,8 @@
       "경고하다; 주의하는",
       "동/형",
       "The alarm will alert staff to a possible fire.",
-      "경보기가 직원들에게 화재 가능성을 알린다."
+      "경보기가 직원들에게 화재 가능성을 알린다.",
+      [["주의하는","Security staff must stay alert to unusual activity in the parking garage.","보안 요원은 주차장에서 벌어지는 이상한 움직임에 주의를 기울여야 한다."]]
     ],
     [
       "all the way",
@@ -4370,7 +4452,8 @@
       "공격하다; (문제에) 착수하다",
       "동",
       "We intend to attack the problem from a new angle.",
-      "우리는 새로운 관점에서 문제에 접근하고자 한다."
+      "우리는 새로운 관점에서 문제에 접근하고자 한다.",
+      [["공격하다","Hackers attacked the retailer's payment system last month and stole thousands of customer records.","해커들이 지난달 그 소매업체의 결제 시스템을 공격해 수천 건의 고객 기록을 훔쳤다."]]
     ],
     [
       "attempt",
@@ -4433,7 +4516,8 @@
       "지지하다, 입증하다; 백업하다; 정체되다",
       "동",
       "We agreed to back up our financial records.",
-      "우리는 재무 기록을 백업하기로 합의했다."
+      "우리는 재무 기록을 백업하기로 합의했다.",
+      [["지지하다, 입증하다","The sales figures back up her claim that the new packaging attracts buyers.","판매 수치는 새 포장이 구매자를 끌어들인다는 그녀의 주장을 뒷받침한다."]]
     ],
     [
       "backseat",
@@ -4447,7 +4531,8 @@
       "잔액; 균형",
       "명",
       "Your remaining balance appears at the bottom of each receipt.",
-      "남은 잔액은 각 영수증의 맨 아래에 표시된다."
+      "남은 잔액은 각 영수증의 맨 아래에 표시된다.",
+      [["균형","Employees should find a healthy balance between urgent daily tasks and long-term planning.","직원들은 급한 일상 업무와 장기 계획 사이에서 건강한 균형을 찾아야 한다."]]
     ],
     [
       "bank loan",
@@ -4818,7 +4903,8 @@
       "지사, 분점, 나뭇가지",
       "명",
       "The bank's newest branch provides services in several languages.",
-      "그 은행의 가장 새로운 지점은 여러 언어로 서비스를 제공한다."
+      "그 은행의 가장 새로운 지점은 여러 언어로 서비스를 제공한다.",
+      [["나뭇가지","A heavy branch fell on the sidewalk and blocked the entrance to the shop.","무거운 나뭇가지가 인도에 떨어져 가게 입구를 막았다."]]
     ],
     [
       "branch office",
@@ -5168,7 +5254,8 @@
       "요금; 청구하다",
       "명/동",
       "The delivery charge depends on the weight of your order.",
-      "배송 요금은 주문한 물품의 무게에 따라 달라진다."
+      "배송 요금은 주문한 물품의 무게에 따라 달라진다.",
+      [["청구하다","The repair shop will charge an extra fee for weekend delivery service.","그 수리점은 주말 배송 서비스에 대해 추가 요금을 청구할 것이다."]]
     ],
     [
       "charge for",
@@ -5252,7 +5339,8 @@
       "(사실·소유권의) 주장, 요구, 청구",
       "명",
       "Attach photographs of the damage to support your insurance claim.",
-      "보험금 청구를 뒷받침할 수 있도록 피해 사진을 첨부하라."
+      "보험금 청구를 뒷받침할 수 있도록 피해 사진을 첨부하라.",
+      [["주장","The supplier's claim that prices would not rise proved false within a month.","가격이 오르지 않을 것이라는 공급업체의 주장은 한 달 만에 거짓으로 드러났다."]]
     ],
     [
       "clap",
@@ -5312,10 +5400,11 @@
     ],
     [
       "closing",
-      "폐쇄; 폐회의, 마감하는",
+      "폐쇄; 폐회의, 마감하는; 폐회의, 마지막의",
       "명/형",
       "The factory's closing left many residents looking for new jobs.",
-      "공장 폐쇄로 많은 주민이 새 일자리를 찾게 되었다."
+      "공장 폐쇄로 많은 주민이 새 일자리를 찾게 되었다.",
+      [["폐회의, 마지막의","The closing session of the conference will include a panel on workplace safety.","콘퍼런스의 폐회 세션에서는 직장 안전에 관한 패널 토론이 열릴 것이다."]]
     ],
     [
       "clothing line",
@@ -5378,7 +5467,8 @@
       "상업의; 광고",
       "명/형",
       "The building's ground floor is reserved for commercial use.",
-      "그 건물의 1층은 상업적 용도로 지정되어 있다."
+      "그 건물의 1층은 상업적 용도로 지정되어 있다.",
+      [["광고","The company spent millions on a thirty-second commercial during the championship game.","그 회사는 결승전 중에 방영된 30초 광고에 수백만 달러를 썼다."]]
     ],
     [
       "communicate",
@@ -5557,10 +5647,11 @@
     ],
     [
       "counter",
-      "계산대; 반대의",
+      "계산대; 반대의; 반박하다",
       "명/형",
       "Please collect your tickets at the counter beside the entrance.",
-      "입구 옆 계산대에서 표를 수령하라."
+      "입구 옆 계산대에서 표를 수령하라.",
+      [["반박하다","The manager will counter the supplier's claim with delivery records showing repeated delays.","관리자는 반복된 지연이 드러난 배송 기록으로 공급업체의 주장을 반박할 것이다."]]
     ],
     [
       "countryside",
@@ -5588,7 +5679,8 @@
       "(주가의) 폭락, 추락, 충돌",
       "명",
       "The market crash sharply reduced the value of their investments.",
-      "증시 폭락으로 그들의 투자 가치가 급격히 줄었다."
+      "증시 폭락으로 그들의 투자 가치가 급격히 줄었다.",
+      [["추락","The cause of the helicopter crash remains unclear after weeks of investigation.","수주간의 조사에도 헬리콥터 추락 원인은 아직 밝혀지지 않았다."],["충돌","A minor crash on the highway delayed several employees on their way to work.","고속도로에서 발생한 경미한 충돌로 여러 직원의 출근이 늦어졌다."]]
     ],
     [
       "creation",
@@ -5830,10 +5922,11 @@
     ],
     [
       "deposit",
-      "예금, 보증금; 맡기다",
+      "예금, 보증금; 맡기다; 입금하다",
       "명/동",
       "Your deposit will be returned after we inspect the rental equipment.",
-      "대여 장비를 점검한 뒤 보증금을 돌려드린다."
+      "대여 장비를 점검한 뒤 보증금을 돌려드린다.",
+      [["입금하다","The tenant must deposit two months' rent into the landlord's account before moving in.","세입자는 입주 전에 집주인 계좌로 두 달치 임대료를 입금해야 한다."]]
     ],
     [
       "desert",
@@ -5903,7 +5996,8 @@
       "지시하다, 안내하다; 직접적인",
       "동/형",
       "We decided to direct visitors to the registration desk.",
-      "우리는 방문객들을 등록 데스크로 안내하기로 했다."
+      "우리는 방문객들을 등록 데스크로 안내하기로 했다.",
+      [["직접적인","Customers with direct access to the online portal can track their orders instantly.","온라인 포털에 직접 접속할 수 있는 고객은 주문을 즉시 확인할 수 있다."]]
     ],
     [
       "disadvantage",
@@ -6148,7 +6242,8 @@
       "효과적인; 시행 중인",
       "형",
       "Regular reminders are effective in reducing missed medical appointments.",
-      "정기적인 알림은 진료 예약 불참을 줄이는 데 효과적이다."
+      "정기적인 알림은 진료 예약 불참을 줄이는 데 효과적이다.",
+      [["시행 중인","The new overtime policy becomes effective on the first day of next month.","새 초과근무 정책은 다음 달 1일부터 시행된다."]]
     ],
     [
       "elect",
@@ -6435,7 +6530,8 @@
       "특징; 특집으로 다루다",
       "명/동",
       "The adjustable height is the most popular feature of this desk.",
-      "높이를 조절할 수 있다는 점이 이 책상의 가장 인기 있는 특징이다."
+      "높이를 조절할 수 있다는 점이 이 책상의 가장 인기 있는 특징이다.",
+      [["특집으로 다루다","The magazine will feature the CEO's restructuring plan in its March issue.","그 잡지는 3월 호에서 최고경영자의 구조조정 계획을 특집으로 다룰 것이다."]]
     ],
     [
       "fence",
@@ -6463,7 +6559,8 @@
       "수치; 인물",
       "명",
       "The sales figure for March exceeded our original forecast.",
-      "3월 매출 수치는 우리의 당초 예측을 넘어섰다."
+      "3월 매출 수치는 우리의 당초 예측을 넘어섰다.",
+      [["인물","A well-known industry figure will speak at the leadership conference next month.","업계의 저명한 인물이 다음 달 리더십 콘퍼런스에서 연설할 것이다."]]
     ],
     [
       "figure out",
@@ -6778,7 +6875,8 @@
       "더 먼, 그 이상의; 더 나아가서, 게다가",
       "형/부",
       "Please contact us if you need further information.",
-      "추가 정보가 필요하면 저희에게 연락해 주어라."
+      "추가 정보가 필요하면 저희에게 연락해 주어라.",
+      [["더 나아가서, 게다가","The proposal saves money and, further, reduces the time staff spend on paperwork.","그 제안은 비용을 절감하고, 게다가 직원들이 서류 작업에 쓰는 시간도 줄여 준다."]]
     ],
     [
       "gain",
@@ -7093,7 +7191,8 @@
       "~에 좋은, 유용한; ~동안 유효한",
       "형",
       "This voucher is good for two months.",
-      "이 상품권은 두 달 동안 유효하다."
+      "이 상품권은 두 달 동안 유효하다.",
+      [["~에 좋은, 유용한","Regular stretching is good for employees who sit at a desk all day.","규칙적인 스트레칭은 하루 종일 책상에 앉아 있는 직원들에게 좋다."]]
     ],
     [
       "goods",
@@ -7128,7 +7227,8 @@
       "수여하다; 보조금",
       "동/명",
       "The committee will grant additional funding to the project.",
-      "위원회는 그 사업에 추가 자금을 지급할 예정이다."
+      "위원회는 그 사업에 추가 자금을 지급할 예정이다.",
+      [["보조금","The research team received a government grant to develop energy-saving building materials.","연구팀은 에너지 절약형 건축 자재를 개발하려고 정부 보조금을 받았다."]]
     ],
     [
       "grill",
@@ -7653,7 +7753,8 @@
       "도구, 기계, 악기",
       "명",
       "A precise measuring instrument helps technicians align the machine parts.",
-      "정밀 측정 도구는 기술자들이 기계 부품을 정렬하는 데 도움이 된다."
+      "정밀 측정 도구는 기술자들이 기계 부품을 정렬하는 데 도움이 된다.",
+      [["악기","The lobby pianist plays several instruments and performs during the evening reception.","로비 피아니스트는 여러 악기를 연주하며 저녁 리셉션에서 공연한다."]]
     ],
     [
       "insurance",
@@ -7685,10 +7786,11 @@
     ],
     [
       "issue",
-      "쟁점; 발행하다",
+      "쟁점; 발행하다; 발급하다",
       "명/동",
       "The main issue is whether the supplier can meet our deadline.",
-      "주요 쟁점은 공급업체가 우리 마감일을 맞출 수 있는지다."
+      "주요 쟁점은 공급업체가 우리 마감일을 맞출 수 있는지다.",
+      [["발급하다","The front desk will issue a new key card to each conference attendee.","프런트 데스크는 각 회의 참석자에게 새 키카드를 발급할 것이다."]]
     ],
     [
       "job fair",
@@ -7737,7 +7839,8 @@
       "신문, 잡지, 일지",
       "명",
       "The engineer published her findings in a respected industry journal.",
-      "그 엔지니어는 저명한 업계 학술지에 연구 결과를 발표했다."
+      "그 엔지니어는 저명한 업계 학술지에 연구 결과를 발표했다.",
+      [["일지","Drivers must record each delivery in the travel journal kept inside the truck.","운전기사는 트럭 안에 보관된 운행 일지에 배송 건마다 기록해야 한다."]]
     ],
     [
       "journalist",
@@ -8024,7 +8127,8 @@
       "짐, 작업량",
       "명",
       "The truck's heavy load must be secured before departure.",
-      "트럭의 무거운 짐은 출발 전에 고정해야 한다."
+      "트럭의 무거운 짐은 출발 전에 고정해야 한다.",
+      [["작업량","New scheduling software reduced the administrative load on the accounting staff considerably.","새 일정 관리 소프트웨어는 회계 직원들의 행정 업무량을 상당히 줄였다."]]
     ],
     [
       "load a truck",
@@ -8112,10 +8216,11 @@
     ],
     [
       "luxury",
-      "사치, 사치품; 값비싼",
+      "사치, 사치품; 값비싼; 고급의, 호화로운",
       "명",
       "For many travelers, a private cabin is an affordable luxury.",
-      "많은 여행객에게 독립된 객실은 감당할 수 있는 사치이다."
+      "많은 여행객에게 독립된 객실은 감당할 수 있는 사치이다.",
+      [["고급의, 호화로운","The hotel offers luxury suites with private terraces overlooking the busy harbor.","그 호텔은 분주한 항구가 내려다보이는 전용 테라스가 딸린 고급 스위트룸을 제공한다."]]
     ],
     [
       "luxury goods",
@@ -8283,7 +8388,8 @@
       "원형, 모범; ~의 모형을 만들다",
       "명/동",
       "The small clinic became a model for other rural health centers.",
-      "그 작은 진료소는 다른 농촌 보건소들의 모범이 되었다."
+      "그 작은 진료소는 다른 농촌 보건소들의 모범이 되었다.",
+      [["~의 모형을 만들다","Before construction begins, the design team will model the new lobby in clay.","설계팀은 공사가 시작되기 전에 새 로비의 모형을 점토로 만들 것이다."]]
     ],
     [
       "model number",
@@ -8602,10 +8708,11 @@
     ],
     [
       "original",
-      "최초의, 독창적인; 원형",
+      "최초의, 독창적인; 원형; 원본",
       "명/형",
       "The architect's original design included a larger reception area.",
-      "건축가의 최초 설계에는 더 넓은 접수 공간이 포함되어 있었다."
+      "건축가의 최초 설계에는 더 넓은 접수 공간이 포함되어 있었다.",
+      [["원본","Our lawyer compared the photocopy with the original of the purchase agreement.","우리 변호사는 사본을 구매 계약서 원본과 대조했다."]]
     ],
     [
       "out of paper",
@@ -8808,7 +8915,8 @@
       "직접; 개인적으로",
       "부",
       "The director personally welcomed the new employees.",
-      "이사는 신입 직원들을 직접 환영했다."
+      "이사는 신입 직원들을 직접 환영했다.",
+      [["개인적으로","I personally disagree with the proposal, though I will support the team's final decision.","나는 개인적으로 그 제안에 반대하지만, 팀의 최종 결정은 따를 것이다."]]
     ],
     [
       "pharmacy",
@@ -8871,7 +8979,8 @@
       "식물, 공장; (식물을) 심다",
       "명/동",
       "Place the plant near a window where it receives indirect sunlight.",
-      "그 식물을 간접 햇빛이 드는 창문 가까이에 놓아라."
+      "그 식물을 간접 햇빛이 드는 창문 가까이에 놓아라.",
+      [["공장","The company will open a new manufacturing plant near the port next year.","그 회사는 내년에 항구 근처에 새 제조 공장을 열 것이다."]]
     ],
     [
       "play a role in",
@@ -8962,7 +9071,8 @@
       "위치, 직책; 배치하다",
       "명/동",
       "The map shows the exact position of each emergency exit.",
-      "지도에는 각 비상구의 정확한 위치가 표시되어 있다."
+      "지도에는 각 비상구의 정확한 위치가 표시되어 있다.",
+      [["배치하다","Staff will position the registration desk near the main entrance before the workshop starts.","직원들은 워크숍이 시작되기 전에 접수대를 정문 근처에 배치할 것이다."]]
     ],
     [
       "positive",
@@ -9060,7 +9170,8 @@
       "상품; 소중하게 여기다",
       "명/동",
       "The competition's first prize is a weekend at a seaside resort.",
-      "그 대회의 1등 상품은 해변 리조트에서 보내는 주말이다."
+      "그 대회의 1등 상품은 해변 리조트에서 보내는 주말이다.",
+      [["소중하게 여기다","Our firm prizes punctuality, so arriving late to client meetings is never acceptable.","우리 회사는 시간 엄수를 소중히 여기므로 고객 회의에 늦는 것은 용납되지 않는다."]]
     ],
     [
       "product designer",
@@ -9085,10 +9196,11 @@
     ],
     [
       "professional",
-      "전문가; 직업상의",
+      "전문가; 직업상의; 직무와 관련된",
       "명",
       "Ask a qualified professional to inspect the building's electrical wiring.",
-      "자격을 갖춘 전문가에게 건물의 전기 배선 점검을 의뢰하라."
+      "자격을 갖춘 전문가에게 건물의 전기 배선 점검을 의뢰하라.",
+      [["직무와 관련된","Each year she attends three professional conferences to maintain her industry certification.","그녀는 업계 자격을 유지하려고 해마다 직무 관련 학술회의에 세 번 참석한다."]]
     ],
     [
       "professor",
@@ -9225,10 +9337,11 @@
     ],
     [
       "range",
-      "범위, 구역; 늘어놓다, 배치하다",
+      "범위, 구역; 늘어놓다, 배치하다; 범위에 걸치다",
       "명/동",
       "Keep the storage temperature within the range specified on the label.",
-      "보관 온도를 라벨에 명시된 범위 안으로 유지하라."
+      "보관 온도를 라벨에 명시된 범위 안으로 유지하라.",
+      [["범위에 걸치다","The available meeting rooms range from small offices to halls accommodating two hundred guests.","이용 가능한 회의실은 작은 사무실부터 손님 200명을 수용하는 홀까지 다양하다."]]
     ],
     [
       "rare",
@@ -9288,10 +9401,11 @@
     ],
     [
       "refer to",
-      "참조하다; 가리키다, ~에게 문의하다",
+      "참조하다; 가리키다, ~에게 문의하다; ~에게 문의 사항을 넘기다",
       "동",
       "We agreed to refer to the manual before adjusting the settings.",
-      "우리는 설정을 조정하기 전에 설명서를 참조하기로 합의했다."
+      "우리는 설정을 조정하기 전에 설명서를 참조하기로 합의했다.",
+      [["~에게 문의 사항을 넘기다","Please refer all questions about remaining vacation days to the human resources coordinator.","남은 휴가 일수에 관한 모든 문의는 인사 담당자에게 전달해라."]]
     ],
     [
       "reference number",
@@ -9431,7 +9545,8 @@
       "예약하다, 확보해 두다",
       "동",
       "We agreed to reserve a larger meeting room.",
-      "우리는 더 큰 회의실을 예약하기로 합의했다."
+      "우리는 더 큰 회의실을 예약하기로 합의했다.",
+      [["확보해 두다","The finance team will reserve enough funds to cover unexpected repair costs.","재무팀은 예상치 못한 수리 비용을 충당할 수 있도록 충분한 자금을 확보해 둘 것이다."]]
     ],
     [
       "resident",
@@ -9452,7 +9567,8 @@
       "재개하다; 이력서",
       "명/동",
       "We would like to resume production after the final safety check.",
-      "우리는 최종 안전 점검 후에 생산을 재개하고 싶다."
+      "우리는 최종 안전 점검 후에 생산을 재개하고 싶다.",
+      [["이력서","Applicants must upload a one-page resume and contact details for two references before the deadline.","지원자는 마감 전에 한 쪽짜리 이력서와 추천인 두 명의 연락처를 업로드해야 한다."]]
     ],
     [
       "retail store",
@@ -9536,7 +9652,8 @@
       "판에 박힌 일; 정기적인",
       "명/형",
       "Checking the cash register is part of our daily routine.",
-      "금전 등록기를 확인하는 것은 우리 일상 업무의 일부이다."
+      "금전 등록기를 확인하는 것은 우리 일상 업무의 일부이다.",
+      [["정기적인","Every second Monday, technicians carry out a routine inspection of the fire extinguishers.","기술자들은 격주 월요일마다 소화기를 정기 점검한다."]]
     ],
     [
       "row the boat",
@@ -9620,7 +9737,8 @@
       "시식하다; 견본품",
       "명/동",
       "We intend to sample the new menu before the opening.",
-      "우리는 개장 전에 새 메뉴를 시식하고자 한다."
+      "우리는 개장 전에 새 메뉴를 시식하고자 한다.",
+      [["견본품","The sales representative left a fabric sample so the client could compare colors.","영업 사원은 고객이 색을 비교할 수 있도록 천 견본품을 두고 갔다."]]
     ],
     [
       "savings",
@@ -9641,14 +9759,16 @@
       "규모, 저울",
       "명",
       "The scale of the project requires cooperation between several departments.",
-      "그 프로젝트의 규모상 여러 부서의 협력이 필요하다."
+      "그 프로젝트의 규모상 여러 부서의 협력이 필요하다.",
+      [["저울","Weigh each parcel on the digital scale before printing the shipping label.","배송 라벨을 출력하기 전에 각 소포의 무게를 디지털 저울로 재라."]]
     ],
     [
       "scan",
       "훑어보다, 자세히 조사하다; 스캔하다",
       "동",
       "We agreed to scan the documents before archiving them.",
-      "우리는 보관하기 전에 서류를 스캔하기로 합의했다."
+      "우리는 보관하기 전에 서류를 스캔하기로 합의했다.",
+      [["훑어보다","With only a minute before the meeting, she scanned the report for the total cost.","회의 시작까지 1분밖에 남지 않아 그녀는 총비용을 찾으려고 보고서를 빠르게 훑어보았다."]]
     ],
     [
       "schedule an appointment",
@@ -9662,7 +9782,8 @@
       "스크린; 심사하다",
       "명/동",
       "The screen at reception displays directions to each meeting room.",
-      "접수처의 스크린에는 각 회의실로 가는 길이 표시된다."
+      "접수처의 스크린에는 각 회의실로 가는 길이 표시된다.",
+      [["심사하다","The agency will screen all applicants for security clearance before scheduling interviews.","그 기관은 면접 일정을 잡기 전에 모든 지원자의 보안 허가 여부를 심사할 것이다."]]
     ],
     [
       "seafood",
@@ -9676,7 +9797,8 @@
       "인장, 봉함; 밀봉하다",
       "명/동",
       "Check that the seal is intact before accepting the package.",
-      "소포를 받기 전에 봉함이 훼손되지 않았는지 확인하라."
+      "소포를 받기 전에 봉함이 훼손되지 않았는지 확인하라.",
+      [["밀봉하다","Before loading the truck, workers must seal every box with reinforced tape.","트럭에 싣기 전에 작업자들은 모든 상자를 강화 테이프로 밀봉해야 한다."]]
     ],
     [
       "section",
@@ -9956,7 +10078,8 @@
       "종류; 분류하다",
       "명/동",
       "This sort of packaging protects fragile items during long journeys.",
-      "이런 종류의 포장은 장거리 운송 중 깨지기 쉬운 물건을 보호한다."
+      "이런 종류의 포장은 장거리 운송 중 깨지기 쉬운 물건을 보호한다.",
+      [["분류하다","Two interns sorted the incoming mail by department and delivered it upstairs.","인턴 두 명이 들어온 우편물을 부서별로 분류해 위층으로 전달했다."]]
     ],
     [
       "sort of",
@@ -10054,7 +10177,8 @@
       "쪼개다, 분리시키다; 균열, 분열",
       "명/동",
       "We intend to split the order into two deliveries.",
-      "우리는 주문을 두 번의 배송으로 나누고자 한다."
+      "우리는 주문을 두 번의 배송으로 나누고자 한다.",
+      [["균열","Inspectors found a hairline split in the pipe during the quarterly safety check.","점검관들은 분기 안전 점검 중에 배관에서 실금 같은 균열을 발견했다."]]
     ],
     [
       "spoke",
@@ -10110,7 +10234,8 @@
       "~에 도장을 찍다; 우표",
       "명/동",
       "We agreed to stamp the invoices before filing them.",
-      "우리는 정리하기 전에 청구서에 도장을 찍기로 합의했다."
+      "우리는 정리하기 전에 청구서에 도장을 찍기로 합의했다.",
+      [["우표","The envelope lacked a stamp, so the post office returned it to sender.","봉투에 우표가 없어서 우체국이 발신인에게 돌려보냈다."]]
     ],
     [
       "stand in a line",
@@ -10138,7 +10263,8 @@
       "상태; 진술하다",
       "명/동",
       "The inspector recorded the state of the machinery before repairs began.",
-      "검사관은 수리가 시작되기 전에 기계의 상태를 기록했다."
+      "검사관은 수리가 시작되기 전에 기계의 상태를 기록했다.",
+      [["진술하다","The applicant must state clearly on the form why she is applying for the position.","지원자는 지원서에 자신이 그 직책에 지원하는 이유를 분명히 진술해야 한다."]]
     ],
     [
       "status",
@@ -10187,7 +10313,8 @@
       "재고; 비축하다",
       "명/동",
       "Our current stock should meet customer demand until the next delivery.",
-      "현재 재고는 다음 배송 때까지 고객 수요를 충족할 수 있을 것이다."
+      "현재 재고는 다음 배송 때까지 고객 수요를 충족할 수 있을 것이다.",
+      [["비축하다","The warehouse will stock extra winter coats before the holiday shopping season.","창고는 연휴 쇼핑 시즌 전에 추가 겨울 코트를 비축할 것이다."]]
     ],
     [
       "stock market",
@@ -10922,7 +11049,8 @@
       "방문; 객원의, 방문하는",
       "명/형",
       "A visiting professor will give a lecture on sustainable manufacturing.",
-      "객원 교수가 지속 가능한 제조에 관해 강연할 예정이다."
+      "객원 교수가 지속 가능한 제조에 관해 강연할 예정이다.",
+      [["방문","Visiting clients regularly is an important part of every account manager's work in this region.","고객을 정기적으로 방문하는 일은 이 지역 모든 거래처 담당자의 중요한 업무다."]]
     ],
     [
       "voice mail",
@@ -10936,7 +11064,8 @@
       "(소리) 크기, 양, 책",
       "명",
       "Keep the volume low while other passengers are resting.",
-      "다른 승객들이 쉬는 동안 소리 크기를 낮게 유지하라."
+      "다른 승객들이 쉬는 동안 소리 크기를 낮게 유지하라.",
+      [["양","Online order volume doubled after the holiday advertisement aired on national television.","연휴 광고가 전국 방송에 나간 뒤 온라인 주문량이 두 배로 늘었다."],["책","In the locked cabinet, the library keeps the oldest volume of the tax code.","도서실은 잠긴 캐비닛에 세법 책 중 가장 오래된 한 권을 보관한다."]]
     ],
     [
       "wait for a table",
@@ -11125,7 +11254,8 @@
       "~을 알고 싶다; 놀라운 것",
       "동/명",
       "We wonder whether the shipment will arrive on time.",
-      "우리는 배송품이 제시간에 도착할지 궁금하다."
+      "우리는 배송품이 제시간에 도착할지 궁금하다.",
+      [["놀라운 것","For many visitors, the newly opened rooftop garden is a wonder of modern design.","많은 방문객에게 새로 문을 연 옥상 정원은 현대 디자인의 놀라운 사례다."]]
     ],
     [
       "work environment",
@@ -11244,14 +11374,16 @@
       "인정하다; 입장을 허가하다",
       "동",
       "We decided to admit that we underestimated the cost.",
-      "우리는 비용을 과소평가했음을 인정하기로 했다."
+      "우리는 비용을 과소평가했음을 인정하기로 했다.",
+      [["입장을 허가하다","Without a badge, guests will not be admitted to the testing floor.","출입증이 없는 방문객은 시험 구역 출입이 허가되지 않는다."]]
     ],
     [
       "advance",
       "전진, 선금; 진전시키다",
       "명/동",
       "The publisher paid an advance before the author completed her manuscript.",
-      "출판사는 작가가 원고를 완성하기 전에 선금을 지급했다."
+      "출판사는 작가가 원고를 완성하기 전에 선금을 지급했다.",
+      [["진전시키다","The vendor claims new software will advance the project beyond its current stage.","공급업체는 새 소프트웨어가 프로젝트를 다음 단계로 진전시킬 것이라고 주장한다."]]
     ],
     [
       "advantage",
@@ -11314,14 +11446,16 @@
       "목표; 겨냥하다",
       "명/동",
       "We aim to reduce packaging waste without increasing shipping costs.",
-      "우리는 배송비를 늘리지 않으면서 포장 폐기물을 줄이는 것을 목표로 한다."
+      "우리는 배송비를 늘리지 않으면서 포장 폐기물을 줄이는 것을 목표로 한다.",
+      [["겨냥하다","The advertisement aims at business travelers who book rooms at short notice.","그 광고는 임박해서 객실을 예약하는 출장객을 겨냥한다."]]
     ],
     [
       "alarm",
       "경보, 불안; 불안하게 하다",
       "명/동",
       "The smoke alarm sounded when toast burned in the kitchen.",
-      "주방에서 토스트가 타자 화재 경보가 울렸다."
+      "주방에서 토스트가 타자 화재 경보가 울렸다.",
+      [["불안하게 하다","The sudden drop in sales alarmed the board, prompting an emergency strategy review.","매출의 갑작스러운 하락은 이사회를 불안하게 해 긴급 전략 검토를 촉발했다."]]
     ],
     [
       "all the time",
@@ -11349,7 +11483,8 @@
       "양, 금액; 합계가 되다",
       "명/동",
       "Enter the exact amount shown on your original sales receipt.",
-      "판매 영수증 원본에 표시된 정확한 금액을 입력하라."
+      "판매 영수증 원본에 표시된 정확한 금액을 입력하라.",
+      [["합계가 되다","All these small expenses amount to more than the annual travel budget.","이 모든 소액 경비를 합치면 연간 출장 예산을 넘는다."]]
     ],
     [
       "amusement",
@@ -11398,7 +11533,8 @@
       "접근하다; 접근법",
       "명/동",
       "We intend to approach the problem from a different angle.",
-      "우리는 다른 관점에서 문제에 접근하고자 한다."
+      "우리는 다른 관점에서 문제에 접근하고자 한다.",
+      [["접근법","Our new approach to customer complaints emphasizes quick replies and detailed written follow-ups.","고객 불만에 대한 우리의 새 접근법은 신속한 답변과 자세한 서면 후속 조치를 강조한다."]]
     ],
     [
       "appropriate",
@@ -11426,7 +11562,8 @@
       "준비하다, 배치하다",
       "동",
       "We would like to arrange transportation for the visiting speakers.",
-      "우리는 방문 연사들을 위한 교통편을 준비하고 싶다."
+      "우리는 방문 연사들을 위한 교통편을 준비하고 싶다.",
+      [["배치하다","In rows facing the presentation screen, the event staff arranged the chairs.","행사 직원들은 의자를 발표 화면을 바라보도록 줄지어 배치했다."]]
     ],
     [
       "arrival",
@@ -11510,7 +11647,8 @@
       "수여하다, 계약을 주다; 상",
       "동/명",
       "We would like to award the contract to a local supplier.",
-      "우리는 현지 공급업체에 계약을 맡기고 싶다."
+      "우리는 현지 공급업체에 계약을 맡기고 싶다.",
+      [["상","For reducing energy use by fifteen percent, the branch received an award.","그 지점은 에너지 사용량을 15퍼센트 줄인 공로로 상을 받았다."]]
     ],
     [
       "aware",
@@ -11580,7 +11718,8 @@
       "청구서, 법안; 청구하다",
       "명/동",
       "The hotel bill lists room charges separately from restaurant expenses.",
-      "호텔 청구서에는 객실 요금과 식당 지출이 구분되어 있다."
+      "호텔 청구서에는 객실 요금과 식당 지출이 구분되어 있다.",
+      [["청구하다","The consultant will bill the client for travel expenses at the end of the month.","그 컨설턴트는 월말에 고객에게 출장 경비를 청구할 것이다."]]
     ],
     [
       "billion",
@@ -11601,14 +11740,16 @@
       "구획, 블록; 막다",
       "명/동",
       "Our new pharmacy occupies the corner of this busy city block.",
-      "우리 새 약국은 이 번화한 도시 구획의 모퉁이에 자리하고 있다."
+      "우리 새 약국은 이 번화한 도시 구획의 모퉁이에 자리하고 있다.",
+      [["막다","A stalled delivery truck blocked the entrance to the parking garage for hours.","멈춰 선 배달 트럭이 몇 시간 동안 주차장 입구를 막았다."]]
     ],
     [
       "board",
       "이사회, 판자; 탑승하다",
       "명/동",
       "The board voted to expand the company's operations into southern markets.",
-      "이사회는 회사의 사업을 남부 시장으로 확대하기로 표결했다."
+      "이사회는 회사의 사업을 남부 시장으로 확대하기로 표결했다.",
+      [["탑승하다","Hotel guests must board the shuttle bus ten minutes before its scheduled departure.","호텔 투숙객은 예정된 출발 십 분 전에 셔틀버스에 탑승해야 한다."]]
     ],
     [
       "bottling machine",
@@ -11706,7 +11847,8 @@
       "최고의, 주요한; 책임자",
       "명/형",
       "Our chief concern is the safety of all employees.",
-      "우리의 주된 관심사는 모든 직원의 안전이다."
+      "우리의 주된 관심사는 모든 직원의 안전이다.",
+      [["책임자","Along with the facility manager, the police chief toured the new security control room.","경찰 책임자는 시설 관리자와 함께 새 보안 통제실을 둘러보았다."]]
     ],
     [
       "cleaning solution",
@@ -11741,7 +11883,8 @@
       "수집품, 모음; 수거",
       "명",
       "The museum's collection includes rare photographs of the city's first railway.",
-      "그 박물관의 소장품에는 도시 최초의 철도를 찍은 희귀 사진이 포함되어 있다."
+      "그 박물관의 소장품에는 도시 최초의 철도를 찍은 희귀 사진이 포함되어 있다.",
+      [["수거","Garbage collection in this district now begins at seven every weekday morning.","이 구역의 쓰레기 수거는 이제 평일 아침 7시에 시작한다."]]
     ],
     [
       "combine",
@@ -11811,7 +11954,8 @@
       "걱정, 관심사; 관련되다",
       "명/동",
       "Food safety remains our main concern when choosing a new caterer.",
-      "새 출장 음식 업체를 고를 때 식품 안전은 여전히 우리의 가장 큰 관심사다."
+      "새 출장 음식 업체를 고를 때 식품 안전은 여전히 우리의 가장 큰 관심사다.",
+      [["관련되다","This notice concerns changes to the employee parking policy effective next month.","이 안내문은 다음 달부터 시행되는 직원 주차 규정 변경과 관련된다."]]
     ],
     [
       "conclusion",
@@ -11944,7 +12088,8 @@
       "현재의; 흐름, 전류",
       "명/형",
       "Please check the current exchange rate before purchasing foreign currency.",
-      "외화를 구입하기 전에 현재 환율을 확인하라."
+      "외화를 구입하기 전에 현재 환율을 확인하라.",
+      [["전류","Before replacing the main wiring, the technician measured the electrical current carefully.","주 배선을 교체하기 전에 기술자는 전류를 주의 깊게 측정했다."]]
     ],
     [
       "damage",
@@ -11965,7 +12110,8 @@
       "거래; 다루다",
       "명/동",
       "Negotiators finalized a deal to supply fresh produce to the hotel.",
-      "협상 담당자들은 호텔에 신선한 농산물을 공급하는 거래를 성사시켰다."
+      "협상 담당자들은 호텔에 신선한 농산물을 공급하는 거래를 성사시켰다.",
+      [["다루다","Our support team deals with hundreds of password requests during the first week.","우리 지원팀은 첫째 주에 수백 건의 비밀번호 요청을 처리한다."]]
     ],
     [
       "declare",
@@ -12000,21 +12146,24 @@
       "정도, 학위; 온도의 도",
       "명",
       "This engineering position requires a degree from an accredited university.",
-      "이 엔지니어 직책은 공인된 대학의 학위를 요구한다."
+      "이 엔지니어 직책은 공인된 대학의 학위를 요구한다.",
+      [["온도의 도","Store the vaccine at four degrees Celsius until the clinic is ready.","진료소가 준비될 때까지 백신을 섭씨 4도에 보관하라."]]
     ],
     [
       "deliver",
       "배달하다; 연설하다",
       "동",
       "We agreed to deliver the equipment before the opening.",
-      "우리는 개장 전에 장비를 배달하기로 합의했다."
+      "우리는 개장 전에 장비를 배달하기로 합의했다.",
+      [["연설하다","At the regional sales conference, the CEO will deliver the opening address.","최고경영자는 지역 영업 콘퍼런스에서 개회사를 할 것이다."]]
     ],
     [
       "demand",
       "수요, 요구; 요구하다",
       "명/동",
       "Rising demand for electric bicycles prompted the retailer to expand inventory.",
-      "전기 자전거 수요가 증가하자 소매업체는 재고를 늘렸다."
+      "전기 자전거 수요가 증가하자 소매업체는 재고를 늘렸다.",
+      [["요구하다","Union representatives demanded a written explanation for the recent sudden schedule changes.","노조 대표들은 최근의 갑작스러운 일정 변경에 대해 서면 해명을 요구했다."]]
     ],
     [
       "depart",
@@ -12091,7 +12240,8 @@
       "이사, 책임자, 감독",
       "명",
       "The finance director approved funding for the new accounting software.",
-      "재무 이사는 새 회계 소프트웨어에 대한 자금 지원을 승인했다."
+      "재무 이사는 새 회계 소프트웨어에 대한 자금 지원을 승인했다.",
+      [["감독","When the warehouse lighting dimmed unexpectedly, the director stopped filming the scene immediately.","창고 조명이 갑자기 어두워지자 감독은 곧바로 그 장면 촬영을 중단했다."]]
     ],
     [
       "disaster",
@@ -12147,14 +12297,16 @@
       "예정된; 지급 기일이 된",
       "형",
       "The final payment is due next Friday.",
-      "최종 대금의 지급 기일은 다음 주 금요일이다."
+      "최종 대금의 지급 기일은 다음 주 금요일이다.",
+      [["예정된","The inspection team is due to arrive at the plant on Thursday morning.","점검팀은 목요일 아침에 공장에 도착할 예정이다."]]
     ],
     [
       "duty",
       "직무, 의무; 세금",
       "명",
       "It is your duty to report unsafe equipment to the supervisor.",
-      "안전하지 않은 장비를 감독자에게 보고하는 것은 당신의 의무다."
+      "안전하지 않은 장비를 감독자에게 보고하는 것은 당신의 의무다.",
+      [["세금","Imported office furniture is subject to a customs duty of eight percent.","수입 사무용 가구에는 8퍼센트의 관세가 부과된다."]]
     ],
     [
       "electrical cord",
@@ -12203,7 +12355,8 @@
       "공학자, 기사; 설계하다",
       "명",
       "An engineer calculated how much weight the bridge could support.",
-      "공학자가 그 다리가 견딜 수 있는 하중을 계산했다."
+      "공학자가 그 다리가 견딜 수 있는 하중을 계산했다.",
+      [["설계하다","Consultants engineered a ventilation system that cut energy costs by nearly half.","컨설턴트들은 에너지 비용을 거의 절반으로 줄인 환기 시스템을 설계했다."]]
     ],
     [
       "entertainment",
@@ -12224,7 +12377,8 @@
       "입장, 항목, 출품작",
       "명",
       "Your conference badge permits entry to all afternoon workshops today.",
-      "회의 참가증으로 오늘 오후의 모든 워크숍에 입장할 수 있다."
+      "회의 참가증으로 오늘 오후의 모든 워크숍에 입장할 수 있다.",
+      [["항목","Please verify each entry in the expense sheet before submitting it for approval.","승인을 위해 제출하기 전에 경비 내역서의 각 항목을 확인해라."],["출품작","Each entry in the photography contest was displayed in the main lobby.","사진 공모전 출품작은 모두 본관 로비에 전시되었다."]]
     ],
     [
       "environment",
@@ -12238,14 +12392,16 @@
       "동등한; ~와 같다",
       "형/동",
       "Each finalist will receive an equal amount of time to present.",
-      "각 결선 진출자에게는 발표할 시간이 똑같이 주어질 것이다."
+      "각 결선 진출자에게는 발표할 시간이 똑같이 주어질 것이다.",
+      [["~와 같다","The total monthly expenses equal the amount approved by the finance director.","월 총지출은 재무 이사가 승인한 금액과 같다."]]
     ],
     [
       "essential",
       "필수적인; 필수품",
       "형/명",
       "Accurate measurements are essential when ordering replacement windows for this building.",
-      "이 건물의 교체용 창문을 주문할 때는 정확한 치수가 필수적이다."
+      "이 건물의 교체용 창문을 주문할 때는 정확한 치수가 필수적이다.",
+      [["필수품","The hotel provides free essentials such as soap, towels, and bottled water.","그 호텔은 비누, 수건, 생수 같은 필수품을 무료로 제공한다."]]
     ],
     [
       "establish",
@@ -12385,7 +12541,8 @@
       "힘; 강요하다",
       "명/동",
       "Excessive force can damage the handle when opening this heavy door.",
-      "이 무거운 문을 열 때 지나친 힘을 가하면 손잡이가 손상될 수 있다."
+      "이 무거운 문을 열 때 지나친 힘을 가하면 손잡이가 손상될 수 있다.",
+      [["강요하다","Heavy snow forced the airline to cancel six morning flights from the city.","폭설 때문에 항공사는 그 도시를 떠나는 아침 항공편 여섯 편을 취소할 수밖에 없었다."]]
     ],
     [
       "freeway",
@@ -12413,14 +12570,16 @@
       "연료; 부채질하다",
       "명/동",
       "The delivery company saved fuel by combining several nearby routes.",
-      "배송 회사는 인근의 여러 운행 경로를 통합하여 연료를 절약했다."
+      "배송 회사는 인근의 여러 운행 경로를 통합하여 연료를 절약했다.",
+      [["부채질하다","Rumors that the merger talks had collapsed were fueled by the delayed report.","보고서 발표가 지연되면서 합병 협상이 결렬되었다는 소문이 더욱 확산되었다."]]
     ],
     [
       "function",
       "기능; 작동하다",
       "명",
       "The timer's main function is to prevent the oven from overheating.",
-      "타이머의 주된 기능은 오븐의 과열을 방지하는 것이다."
+      "타이머의 주된 기능은 오븐의 과열을 방지하는 것이다.",
+      [["작동하다","The elevator will not function until a technician replaces the damaged control panel.","기술자가 손상된 제어판을 교체할 때까지 엘리베이터는 작동하지 않을 것이다."]]
     ],
     [
       "get to work",
@@ -12434,7 +12593,8 @@
       "~을 고려하면; 주어진",
       "전/형",
       "Given the short deadline, we hired extra staff.",
-      "짧은 기한을 고려하여 우리는 직원을 추가로 고용했다."
+      "짧은 기한을 고려하여 우리는 직원을 추가로 고용했다.",
+      [["주어진","Within the given budget, we cannot replace every computer in the office.","주어진 예산 안에서는 사무실의 모든 컴퓨터를 교체할 수 없다."]]
     ],
     [
       "gradually",
@@ -12448,7 +12608,8 @@
       "졸업하다; 졸업생",
       "명/동",
       "We would like to graduate from the professional training program.",
-      "우리는 전문 교육 과정을 이수하고 싶다."
+      "우리는 전문 교육 과정을 이수하고 싶다.",
+      [["졸업생","Each spring, the company recruits graduates from nearby universities for its accounting team.","그 회사는 해마다 봄에 인근 대학 졸업생을 회계팀에 채용한다."]]
     ],
     [
       "greeter",
@@ -12511,21 +12672,24 @@
       "고용하다, 빌리다; 신규 채용자",
       "명/동",
       "We decided to hire an experienced technician.",
-      "우리는 경험 많은 기술자를 고용하기로 했다."
+      "우리는 경험 많은 기술자를 고용하기로 했다.",
+      [["신규 채용자","After a short break, the recent hires will attend a two-week orientation.","잠깐 휴식한 뒤 신규 채용자들은 2주간 오리엔테이션에 참석할 것이다."]]
     ],
     [
       "honor",
-      "명예; 존중하다, 약속을 지키다",
+      "명예; 존중하다, 약속을 지키다; 약속·계약을 지키다",
       "명/동",
       "Receiving this award is a great honor for our entire research team.",
-      "이 상을 받는 것은 우리 연구팀 전체에게 큰 영광이다."
+      "이 상을 받는 것은 우리 연구팀 전체에게 큰 영광이다.",
+      [["약속·계약을 지키다","The contractor promised to honor the warranty even after the one-year period expired.","그 시공업체는 1년이 지난 뒤에도 보증 조건을 지키겠다고 약속했다."]]
     ],
     [
       "host",
       "주최하다; 주최자, 진행자",
       "명/동",
       "We agreed to host a workshop for local entrepreneurs.",
-      "우리는 지역 창업가들을 위한 연수회를 주최하기로 합의했다."
+      "우리는 지역 창업가들을 위한 연수회를 주최하기로 합의했다.",
+      [["진행자","As the host of the annual charity gala, she introduced every speaker personally.","그녀는 연례 자선 갈라 행사의 진행자로서 모든 연사를 직접 소개했다."]]
     ],
     [
       "housing",
@@ -12648,10 +12812,11 @@
     ],
     [
       "interest",
-      "관심, 이자; 이해관계",
+      "관심, 이자; 이해관계; 이익, 권익",
       "명",
       "The bank pays interest on balances above one thousand dollars.",
-      "그 은행은 천 달러를 초과하는 잔액에 이자를 지급한다."
+      "그 은행은 천 달러를 초과하는 잔액에 이자를 지급한다.",
+      [["이익, 권익","The board must protect the interests of shareholders during the merger talks.","이사회는 합병 협상 중에 주주들의 이익을 보호해야 한다."]]
     ],
     [
       "interview",
@@ -12707,7 +12872,8 @@
       "노동, 노동력; 일하다",
       "명/동",
       "Installing the cabinets requires skilled labor rather than specialized machinery.",
-      "수납장을 설치하려면 특수 기계보다 숙련된 노동력이 필요하다."
+      "수납장을 설치하려면 특수 기계보다 숙련된 노동력이 필요하다.",
+      [["일하다","Crews labored through the night to restore power to the flooded warehouse.","작업반은 침수된 창고에 전력을 복구하려고 밤새 일했다."]]
     ],
     [
       "lack",
@@ -12770,7 +12936,8 @@
       "대출; 빌려주다",
       "명/동",
       "The bank approved a small loan to help us purchase kitchen equipment.",
-      "은행은 우리가 주방 장비를 구입하도록 소액 대출을 승인했다."
+      "은행은 우리가 주방 장비를 구입하도록 소액 대출을 승인했다.",
+      [["빌려주다","The gallery agreed to loan three paintings to the museum for its winter exhibition.","그 화랑은 겨울 특별전을 위해 그림 세 점을 박물관에 빌려주기로 합의했다."]]
     ],
     [
       "locate",
@@ -12819,14 +12986,16 @@
       "재료, 자료; 중요한",
       "명/형",
       "This lightweight material keeps outdoor jackets warm without adding extra weight.",
-      "이 가벼운 소재는 무게를 더하지 않으면서 야외용 재킷을 따뜻하게 유지한다."
+      "이 가벼운 소재는 무게를 더하지 않으면서 야외용 재킷을 따뜻하게 유지한다.",
+      [["중요한","The auditor found several material errors in the quarterly financial statement submitted last week.","감사관은 지난주에 제출된 분기 재무제표에서 중대한 오류 몇 건을 발견했다."]]
     ],
     [
       "measure",
       "측정하다; 조치, 척도",
       "명/동",
       "We would like to measure the room before ordering new furniture.",
-      "우리는 새 가구를 주문하기 전에 방의 크기를 재고 싶다."
+      "우리는 새 가구를 주문하기 전에 방의 크기를 재고 싶다.",
+      [["조치","The city introduced new safety measures after the bridge inspection revealed cracks.","시는 교량 점검에서 균열이 드러난 뒤 새로운 안전 조치를 도입했다."]]
     ],
     [
       "medical",
@@ -12924,7 +13093,8 @@
       "물건, 목적; 반대하다",
       "명/동",
       "A heavy object fell from the shelf and cracked the counter.",
-      "무거운 물건이 선반에서 떨어져 계산대에 금이 갔다."
+      "무거운 물건이 선반에서 떨어져 계산대에 금이 갔다.",
+      [["반대하다","Several residents objected to the plan for a taller building near the park.","주민 몇 명이 공원 근처에 더 높은 건물을 짓는 계획에 반대했다."]]
     ],
     [
       "observe",
@@ -12942,31 +13112,35 @@
     ],
     [
       "official",
-      "공식적인; 공무원, 임원",
+      "공식적인; 공무원, 임원; 회사 관계자",
       "명/형",
       "The official opening date will appear on the museum's website tomorrow.",
-      "공식 개관일은 내일 박물관 웹사이트에 게시될 것이다."
+      "공식 개관일은 내일 박물관 웹사이트에 게시될 것이다.",
+      [["회사 관계자","A company official confirmed that the merger would be announced within two weeks.","회사 관계자 한 명이 합병을 2주 안에 발표할 것이라고 확인했다."]]
     ],
     [
       "opening",
       "빈자리, 개장; 시작",
       "명",
       "There is an opening for a bilingual receptionist at our clinic.",
-      "우리 의원에는 두 언어를 구사하는 접수 직원의 빈자리가 있다."
+      "우리 의원에는 두 언어를 구사하는 접수 직원의 빈자리가 있다.",
+      [["시작","The opening of the new branch will be marked by a small ceremony.","새 지점 운영의 시작을 기념하는 소규모 행사가 열릴 예정이다."]]
     ],
     [
       "operation",
       "운영, 작동; 수술",
       "명",
       "The factory suspended operation while electricians replaced the damaged power lines.",
-      "전기 기술자들이 손상된 전선을 교체하는 동안 공장은 가동을 중단했다."
+      "전기 기술자들이 손상된 전선을 교체하는 동안 공장은 가동을 중단했다.",
+      [["수술","After the operation, the employee will work from home for two weeks.","수술 후에 그 직원은 2주 동안 재택근무를 할 것이다."]]
     ],
     [
       "organization",
       "조직, 단체, 정리",
       "명",
       "Our organization delivers donated furniture to families moving into permanent homes.",
-      "우리 단체는 정착할 집으로 이사하는 가정에 기증받은 가구를 배달한다."
+      "우리 단체는 정착할 집으로 이사하는 가정에 기증받은 가구를 배달한다.",
+      [["정리","Careful organization of the files saved the team hours during the audit.","서류를 꼼꼼히 정리해 둔 덕분에 팀은 감사 기간에 여러 시간을 아꼈다."]]
     ],
     [
       "organize",
@@ -13043,7 +13217,8 @@
       "환자; 참을성 있는",
       "명/형",
       "The nurse asked the patient to wait for the blood test results.",
-      "간호사는 환자에게 혈액 검사 결과를 기다려 달라고 요청했다."
+      "간호사는 환자에게 혈액 검사 결과를 기다려 달라고 요청했다.",
+      [["참을성 있는","Please be patient while the technician checks whether your laptop can be repaired.","기술자가 노트북 수리 가능 여부를 확인하는 동안 참을성 있게 기다려라."]]
     ],
     [
       "payment",
@@ -13085,7 +13260,8 @@
       "기간, 시대; 마침표",
       "명",
       "The rental period begins when you collect the vehicle from reception.",
-      "대여 기간은 접수처에서 차량을 인수할 때 시작된다."
+      "대여 기간은 접수처에서 차량을 인수할 때 시작된다.",
+      [["마침표","Remember to place a period at the end of each sentence in the report.","보고서의 각 문장 끝에 마침표를 찍는 것을 잊지 마라."]]
     ],
     [
       "personality",
@@ -13127,7 +13303,8 @@
       "정책, 방침; 보험 증권",
       "명",
       "Our refund policy allows returns within thirty days with a receipt.",
-      "우리 환불 방침에 따라 영수증이 있으면 30일 이내에 반품할 수 있다."
+      "우리 환불 방침에 따라 영수증이 있으면 30일 이내에 반품할 수 있다.",
+      [["보험 증권","Keep your insurance policy in a safe place in case you need to file a claim.","보험금을 청구할 경우에 대비해 보험 증권을 안전한 곳에 보관해라."]]
     ],
     [
       "popular",
@@ -13190,7 +13367,8 @@
       "과정, 절차; 처리하다",
       "명/동",
       "The approval process takes longer when supporting documents are missing.",
-      "증빙 서류가 빠져 있으면 승인 절차에 더 오랜 시간이 걸린다."
+      "증빙 서류가 빠져 있으면 승인 절차에 더 오랜 시간이 걸린다.",
+      [["처리하다","The accounting team will process all refund requests within three business days.","회계팀은 모든 환불 요청을 영업일 기준 3일 이내에 처리할 것이다."]]
     ],
     [
       "production",
@@ -13218,7 +13396,8 @@
       "프로젝트; 예상하다, 투사하다",
       "명/동",
       "This restoration project will return the abandoned station to public use.",
-      "이 복원 사업으로 버려진 역을 다시 대중이 이용할 수 있게 된다."
+      "이 복원 사업으로 버려진 역을 다시 대중이 이용할 수 있게 된다.",
+      [["예상하다","Analysts project that demand for electric delivery vans will rise sharply next year.","분석가들은 전기 배송 차량의 수요가 내년에 급격히 증가할 것으로 예상한다."]]
     ],
     [
       "properly",
@@ -13260,7 +13439,8 @@
       "비율, 요금; 평가하다",
       "명/동",
       "Our weekend room rate includes breakfast and secure parking overnight.",
-      "우리의 주말 객실 요금에는 아침 식사와 야간 보안 주차가 포함된다."
+      "우리의 주말 객실 요금에는 아침 식사와 야간 보안 주차가 포함된다.",
+      [["평가하다","Customers rated the new online booking system highly for its simple design.","고객들은 새로운 온라인 예약 시스템을 간단한 디자인 덕분에 높게 평가했다."]]
     ],
     [
       "react",
@@ -13281,7 +13461,8 @@
       "접수처, 환영 행사; 반응",
       "명",
       "Leave your signed visitor pass at reception before departing the building.",
-      "건물을 나가기 전에 서명한 방문증을 접수처에 반납하라."
+      "건물을 나가기 전에 서명한 방문증을 접수처에 반납하라.",
+      [["반응","The revised policy received a warm reception from employees at the factory.","수정된 방침은 공장 직원들로부터 따뜻한 반응을 얻었다."]]
     ],
     [
       "recognize",
@@ -13309,14 +13490,16 @@
       "거절하다; 폐기물",
       "명/동",
       "We decided to refuse applications that lack the required documents.",
-      "우리는 필수 서류가 빠진 신청을 거절하기로 했다."
+      "우리는 필수 서류가 빠진 신청을 거절하기로 했다.",
+      [["폐기물","Staff must separate refuse from recyclable materials before the collection truck arrives.","직원들은 수거 차량이 오기 전에 폐기물과 재활용품을 분리해야 한다."]]
     ],
     [
       "register",
-      "등록하다; 등록부, 계산대",
+      "등록하다; 등록부, 계산대; 금전 등록기",
       "명/동",
       "We intend to register the new business with the local office.",
-      "우리는 관할 사무소에 새 사업체를 등록하고자 한다."
+      "우리는 관할 사무소에 새 사업체를 등록하고자 한다.",
+      [["금전 등록기","The cashier closed the register and counted the bills before locking the store.","계산원은 가게 문을 잠그기 전에 계산대를 닫고 지폐를 세었다."]]
     ],
     [
       "regular",
@@ -13365,7 +13548,8 @@
       "발표하다, 출시하다; 석방",
       "명/동",
       "We decided to release the inspection results on Monday.",
-      "우리는 월요일에 점검 결과를 발표하기로 했다."
+      "우리는 월요일에 점검 결과를 발표하기로 했다.",
+      [["석방","The court ordered the release of the driver after new evidence surfaced.","법원은 새로운 증거가 나온 뒤 운전자의 석방을 명령했다."]]
     ],
     [
       "reliable",
@@ -13446,10 +13630,11 @@
     ],
     [
       "review",
-      "검토하다; 평가, 후기",
+      "검토하다; 평가, 후기; 업무 성과 평가",
       "명/동",
       "We decided to review all applications before making a decision.",
-      "우리는 결정하기 전에 모든 지원서를 검토하기로 했다."
+      "우리는 결정하기 전에 모든 지원서를 검토하기로 했다.",
+      [["업무 성과 평가","Her annual performance review with her manager will take place next Tuesday afternoon.","그녀는 다음 주 화요일 오후에 관리자와 연례 성과 평가 면담을 할 예정이다."]]
     ],
     [
       "reward",
@@ -13470,7 +13655,8 @@
       "줄, 열; 노를 젓다",
       "명/동",
       "Please reserve the front row for guests who need hearing assistance.",
-      "청각 지원이 필요한 손님들을 위해 맨 앞줄을 비워 두어라."
+      "청각 지원이 필요한 손님들을 위해 맨 앞줄을 비워 두어라.",
+      [["노를 젓다","Guests can row a small boat along the canal behind the hotel.","손님들은 호텔 뒤편 운하를 따라 작은 배를 저을 수 있다."]]
     ],
     [
       "sales associate",
@@ -13505,7 +13691,8 @@
       "보안, 안전; 담보",
       "명",
       "Additional security measures protect confidential customer records from unauthorized access.",
-      "추가 보안 조치는 기밀 고객 기록을 무단 접근으로부터 보호한다."
+      "추가 보안 조치는 기밀 고객 기록을 무단 접근으로부터 보호한다.",
+      [["담보","The borrower offered the delivery van as security for the business loan.","차입자는 사업자 대출의 담보로 배달용 밴을 제공했다."]]
     ],
     [
       "seek",
@@ -13519,7 +13706,8 @@
       "선택하다; 엄선된",
       "동/형",
       "We intend to select the most reliable supplier.",
-      "우리는 가장 믿을 만한 공급업체를 고르고자 한다."
+      "우리는 가장 믿을 만한 공급업체를 고르고자 한다.",
+      [["엄선된","Only select employees were invited to the preview of the new product line.","엄선된 직원들만 신제품 라인 사전 공개 행사에 초대되었다."]]
     ],
     [
       "selection",
@@ -13533,7 +13721,8 @@
       "분리하다; 별개의",
       "동/형",
       "We agreed to separate the damaged goods from the usable stock.",
-      "우리는 사용 가능한 재고에서 손상된 상품을 분리하기로 합의했다."
+      "우리는 사용 가능한 재고에서 손상된 상품을 분리하기로 합의했다.",
+      [["별개의","Each department keeps a separate budget for travel, training, and office supplies.","각 부서는 출장, 교육, 사무용품을 위한 별도의 예산을 운영한다."]]
     ],
     [
       "serious",
@@ -13561,7 +13750,8 @@
       "교대 근무, 변화; 옮기다",
       "명",
       "Workers on the evening shift receive an additional transportation allowance.",
-      "저녁 교대 근무 직원들은 추가 교통 수당을 받는다."
+      "저녁 교대 근무 직원들은 추가 교통 수당을 받는다.",
+      [["옮기다","We had to shift the meeting to Thursday because the client's flight was delayed.","고객의 항공편이 지연되는 바람에 우리는 회의를 목요일로 옮겨야 했다."]]
     ],
     [
       "shy",
@@ -13582,7 +13772,8 @@
       "가라앉다; 싱크대",
       "동/명",
       "The damaged boat began to sink near the harbor.",
-      "손상된 배가 항구 근처에서 가라앉기 시작했다."
+      "손상된 배가 항구 근처에서 가라앉기 시작했다.",
+      [["싱크대","A leaking pipe under the kitchen sink damaged the floor of the staff lounge.","주방 싱크대 아래에서 새는 관 때문에 직원 휴게실 바닥이 망가졌다."]]
     ],
     [
       "slightly",
@@ -13603,7 +13794,8 @@
       "단계, 무대; 개최하다",
       "명/동",
       "At this stage, the design team is still testing different materials.",
-      "이 단계에서 디자인팀은 아직 여러 재료를 시험하고 있다."
+      "이 단계에서 디자인팀은 아직 여러 재료를 시험하고 있다.",
+      [["개최하다","The association will stage a job fair for veterans in the main hall.","그 협회는 대강당에서 참전 용사를 위한 취업 박람회를 개최할 것이다."]]
     ],
     [
       "stair",
@@ -13666,7 +13858,8 @@
       "공급하다; 공급품",
       "명/동",
       "We decided to supply the branch with additional materials.",
-      "우리는 지점에 재료를 더 공급하기로 했다."
+      "우리는 지점에 재료를 더 공급하기로 했다.",
+      [["공급품","The storage room holds a large supply of printer paper and toner for the whole floor.","창고에는 한 층 전체가 쓸 인쇄용지와 토너가 넉넉히 비치되어 있다."]]
     ],
     [
       "survive",
@@ -13680,7 +13873,8 @@
       "목표, 대상; 겨냥하다",
       "명/동",
       "The team exceeded its monthly sales target despite the holiday closures.",
-      "그 팀은 휴일 휴점에도 불구하고 월간 매출 목표를 초과 달성했다."
+      "그 팀은 휴일 휴점에도 불구하고 월간 매출 목표를 초과 달성했다.",
+      [["겨냥하다","The new advertisement targets young professionals who commute to the city by subway.","새 광고는 매일 지하철로 도심에 출근하는 젊은 직장인들을 겨냥한다."]]
     ],
     [
       "teenage",
@@ -13715,7 +13909,8 @@
       "추적하다; 선로, 경로",
       "명/동",
       "We would like to track the shipment through the online system.",
-      "우리는 온라인 시스템으로 배송품의 위치를 추적하고 싶다."
+      "우리는 온라인 시스템으로 배송품의 위치를 추적하고 싶다.",
+      [["선로","The new rail track will connect the distribution center to the harbor.","새 철도 선로는 유통 센터와 항구를 연결할 것이다."]]
     ],
     [
       "tradition",
@@ -13750,7 +13945,8 @@
       "치료, 대우, 처리",
       "명",
       "He completed treatment for his injury before returning to work.",
-      "그는 부상 치료를 마친 뒤 업무에 복귀했다."
+      "그는 부상 치료를 마친 뒤 업무에 복귀했다.",
+      [["대우","All interns deserve fair treatment and clear feedback from their supervisors during training.","모든 인턴은 교육 기간에 관리자로부터 공정한 대우와 분명한 피드백을 받을 자격이 있다."],["처리","The treatment of wastewater at the plant follows strict environmental standards set by the city.","그 공장의 폐수 처리는 시가 정한 엄격한 환경 기준을 따른다."]]
     ],
     [
       "trend",
@@ -13771,7 +13967,8 @@
       "이해; 이해심 있는",
       "명/형",
       "The training deepened our understanding of the needs of elderly customers.",
-      "그 교육은 고령 고객의 요구에 대한 우리의 이해를 높였다."
+      "그 교육은 고령 고객의 요구에 대한 우리의 이해를 높였다.",
+      [["이해심 있는","An understanding supervisor allowed him to leave early for a family emergency.","이해심 있는 상사는 그가 가족 응급 상황 때문에 일찍 퇴근하도록 허락했다."]]
     ],
     [
       "unexpected",
@@ -13834,7 +14031,8 @@
       "낭비하다; 폐기물",
       "동/명",
       "Unused subscriptions can waste the company's money.",
-      "이용하지 않는 구독 서비스는 회사 자금을 낭비할 수 있다."
+      "이용하지 않는 구독 서비스는 회사 자금을 낭비할 수 있다.",
+      [["폐기물","The factory was fined for dumping chemical waste into the river last spring.","그 공장은 지난봄 강에 화학 폐기물을 버린 혐의로 벌금을 물었다."]]
     ],
     [
       "wastepaper",
@@ -13869,7 +14067,8 @@
       "~의 가치가 있는; 가치",
       "형/명",
       "The repair is worth the cost.",
-      "그 수리는 비용을 들일 만한 가치가 있다."
+      "그 수리는 비용을 들일 만한 가치가 있다.",
+      [["가치","The appraiser estimated the worth of the antique furniture at three thousand dollars.","감정사는 그 골동품 가구의 가치를 3천 달러로 추정했다."]]
     ],
     [
       "youth",
@@ -13988,7 +14187,8 @@
       "위임하다; 대표",
       "동/명",
       "The manager will delegate routine tasks to her assistants.",
-      "관리자는 일상 업무를 보조 직원들에게 위임할 예정이다."
+      "관리자는 일상 업무를 보조 직원들에게 위임할 예정이다.",
+      [["대표","Each delegate received a name badge and a detailed schedule at registration.","각 대표는 등록할 때 이름표와 자세한 일정표를 받았다."]]
     ],
     [
       "deliberately",
@@ -14769,10 +14969,11 @@
     ],
     [
       "yield",
-      "산출하다; 수익",
+      "산출하다; 수익; 수확량",
       "동/명",
       "The investment could yield a steady annual return.",
-      "그 투자는 매년 안정적인 수익을 낼 수 있다."
+      "그 투자는 매년 안정적인 수익을 낼 수 있다.",
+      [["수확량","The new irrigation system increased the yield of vegetables grown for the hotel's restaurant.","새 관개 시설 덕분에 호텔 식당용으로 재배하는 채소의 수확량이 늘었다."]]
     ],
     [
       "A as well as B",
@@ -15066,7 +15267,8 @@
       "진보, 전진, 승진",
       "명",
       "Fluency in a second language can accelerate your career advancement.",
-      "제2외국어를 유창하게 구사하면 경력상의 발전을 앞당길 수 있다."
+      "제2외국어를 유창하게 구사하면 경력상의 발전을 앞당길 수 있다.",
+      [["진보, 전진","Technological advancement has changed how warehouses track inventory and schedule daily deliveries.","기술의 진보는 창고가 재고를 추적하고 매일 배송 일정을 짜는 방식을 바꾸었다."]]
     ],
     [
       "adverse",
@@ -16550,7 +16752,8 @@
       "(언어) 구사력, 명령, 지배력",
       "명",
       "A strong command of Spanish is essential for this translation position.",
-      "이 번역 직책에는 뛰어난 스페인어 구사력이 필수적이다."
+      "이 번역 직책에는 뛰어난 스페인어 구사력이 필수적이다.",
+      [["명령","The fire officer gave a command that everyone leave the building immediately.","소방 책임자는 모든 사람이 즉시 건물을 떠나라는 명령을 내렸다."],["지배력","The company's command of the regional market grew after two rivals closed.","경쟁사 두 곳이 문을 닫은 뒤 그 회사의 지역 시장 지배력은 더 커졌다."]]
     ],
     [
       "commemorate",
@@ -16662,7 +16865,8 @@
       "(건물 등의) 집합체, 단지; 복잡한",
       "명/형",
       "The research complex houses laboratories, offices, and a small conference hall.",
-      "그 연구 단지에는 실험실, 사무실, 작은 회의장이 들어서 있다."
+      "그 연구 단지에는 실험실, 사무실, 작은 회의장이 들어서 있다.",
+      [["복잡한","The refund process is too complex for most customers to complete online.","환불 절차는 대부분의 고객이 온라인으로 끝내기에는 너무 복잡하다."]]
     ],
     [
       "compliant",
@@ -17558,7 +17762,8 @@
       "구별, 차이; 우수성",
       "명",
       "The guide explains the distinction between refundable and nonrefundable airline tickets.",
-      "그 안내서는 환불 가능한 항공권과 환불 불가능한 항공권의 차이를 설명한다."
+      "그 안내서는 환불 가능한 항공권과 환불 불가능한 항공권의 차이를 설명한다.",
+      [["우수성","Her research on supply chain efficiency earned her a reputation for academic distinction.","그녀는 공급망 효율성 연구로 학문적으로 탁월하다는 평판을 얻었다."]]
     ],
     [
       "distinguish",
@@ -17817,7 +18022,8 @@
       "상세하게 설명하다; 공들인, 정교한",
       "동/형",
       "We decided to elaborate on the proposal during the meeting.",
-      "우리는 회의 중 그 제안을 자세히 설명하기로 했다."
+      "우리는 회의 중 그 제안을 자세히 설명하기로 했다.",
+      [["공들인, 정교한","The hotel prepared an elaborate dinner for the visiting trade delegation from Singapore.","그 호텔은 싱가포르에서 온 무역 대표단을 위해 공들인 만찬을 준비했다."]]
     ],
     [
       "elderly",
@@ -17933,10 +18139,11 @@
     ],
     [
       "epidemic",
-      "전염성의; (전염병의) 유행",
+      "전염성의; (전염병의) 유행; 유행성의",
       "명/형",
       "The epidemic forced the regional clinic to extend its operating hours.",
-      "전염병의 유행으로 지역 의원은 진료 시간을 연장해야 했다."
+      "전염병의 유행으로 지역 의원은 진료 시간을 연장해야 했다.",
+      [["유행성의","During the outbreak, clinics expanded their services to respond to the epidemic disease.","질병이 유행하는 동안 진료소들은 유행성 질환에 대응하려고 진료 서비스를 확대했다."]]
     ],
     [
       "equality",
@@ -18111,7 +18318,8 @@
       "외부의; 외관",
       "명/형",
       "The exterior walls were repainted to protect the building from coastal weather.",
-      "해안 날씨로부터 건물을 보호하기 위해 외벽을 다시 칠했다."
+      "해안 날씨로부터 건물을 보호하기 위해 외벽을 다시 칠했다.",
+      [["외관","Workers cleaned the exterior of the building before the annual shareholders meeting.","직원들은 연례 주주총회 전에 건물 외관을 청소했다."]]
     ],
     [
       "external",
@@ -18146,7 +18354,8 @@
       "위조의; 모조품",
       "명/형",
       "The appraiser discovered that the supposedly antique vase was a fake.",
-      "감정사는 골동품으로 알려진 그 꽃병이 모조품임을 발견했다."
+      "감정사는 골동품으로 알려진 그 꽃병이 모조품임을 발견했다.",
+      [["위조의","The accountant noticed several fake invoices among the vendor payment records last month.","회계사는 지난달 공급업체 지급 기록에서 위조 송장 여러 장을 발견했다."]]
     ],
     [
       "fall behind",
@@ -19060,10 +19269,11 @@
     ],
     [
       "harbor",
-      "항구; (배를) 항구에 정박시키다",
+      "항구; (배를) 항구에 정박시키다; 의구심 등을 품다",
       "명/동",
       "Fishing boats returned to the harbor before the evening storm arrived.",
-      "어선들은 저녁 폭풍이 오기 전에 항구로 돌아왔다."
+      "어선들은 저녁 폭풍이 오기 전에 항구로 돌아왔다.",
+      [["의구심 등을 품다","Several employees still harbor doubts about the proposed merger despite the director's reassurances.","이사의 안심시키는 설명에도 몇몇 직원은 여전히 합병안에 의구심을 품고 있다."]]
     ],
     [
       "harsh",
@@ -19224,7 +19434,8 @@
       "가장 중요한 부분; 강조하다",
       "명/동",
       "The highlight of the tour was a visit to the restored lighthouse.",
-      "그 여행의 가장 인상적인 부분은 복원된 등대를 방문한 것이었다."
+      "그 여행의 가장 인상적인 부분은 복원된 등대를 방문한 것이었다.",
+      [["강조하다","The trainer highlighted the importance of checking labels before shipping fragile goods.","강사는 깨지기 쉬운 물품을 발송하기 전에 라벨을 확인하는 것의 중요성을 강조했다."]]
     ],
     [
       "hiring committee",
@@ -20453,10 +20664,11 @@
     ],
     [
       "litter",
-      "쓰레기; 어지르다, 흐트러뜨리다",
+      "쓰레기; 어지르다, 흐트러뜨리다; 쓰레기를 버리다",
       "명/동",
       "Volunteers collected litter from the park after the outdoor music festival.",
-      "자원봉사자들은 야외 음악 축제가 끝난 뒤 공원의 쓰레기를 주웠다."
+      "자원봉사자들은 야외 음악 축제가 끝난 뒤 공원의 쓰레기를 주웠다.",
+      [["쓰레기를 버리다","Guests who litter the garden will be asked to leave the resort.","정원에 쓰레기를 버리는 손님은 리조트에서 퇴장하도록 요청받을 것이다."]]
     ],
     [
       "lively",
@@ -21016,7 +21228,8 @@
       "기념물; 기념의",
       "명/형",
       "Residents placed flowers at the memorial honoring workers lost in the accident.",
-      "주민들은 사고로 숨진 근로자들을 기리는 기념물에 꽃을 놓았다."
+      "주민들은 사고로 숨진 근로자들을 기리는 기념물에 꽃을 놓았다.",
+      [["기념의","A memorial garden was planted behind the office to honor the company's late founder.","회사의 고인이 된 창립자를 추모하기 위해 사무실 뒤편에 기념 정원이 조성되었다."]]
     ],
     [
       "mentor",
@@ -21030,7 +21243,8 @@
       "상인; 상업(용)의, 무역의",
       "명/형",
       "The merchant buys fresh spices directly from growers in neighboring villages.",
-      "그 상인은 이웃 마을 재배자들에게서 신선한 향신료를 직접 구입한다."
+      "그 상인은 이웃 마을 재배자들에게서 신선한 향신료를 직접 구입한다.",
+      [["상업(용)의, 무역의","The port handles merchant ships carrying grain, machinery, and packaged food from overseas.","그 항구는 해외에서 곡물과 기계, 포장 식품을 실어 오는 상업용 선박을 처리한다."]]
     ],
     [
       "merge",
@@ -21457,7 +21671,8 @@
       "바쁜, 사용 중인, 사람이 있는",
       "형",
       "The occupied meeting room will become available after three o'clock.",
-      "사용 중인 회의실은 3시 이후에 이용할 수 있다."
+      "사용 중인 회의실은 3시 이후에 이용할 수 있다.",
+      [["바쁜","Fully occupied with the quarterly audit, the accounting team postponed all external meetings.","분기 감사 업무로 바빴던 회계팀은 외부 회의를 모두 연기했다."]]
     ],
     [
       "occupy",
@@ -21506,7 +21721,8 @@
       "기분을 상하게 하다; 규칙을 위반하다",
       "동",
       "The careless remark may offend some participants.",
-      "무심코 한 발언이 일부 참가자들의 기분을 상하게 할 수 있다."
+      "무심코 한 발언이 일부 참가자들의 기분을 상하게 할 수 있다.",
+      [["규칙을 위반하다","Drivers who offend against the parking regulations three times lose garage access permanently.","주차 규정을 세 번 위반한 운전자는 차고 이용 권한을 영구히 잃는다."]]
     ],
     [
       "offer an apology to A",
@@ -21625,7 +21841,8 @@
       "~의 가장자리에; ~하기 직전에",
       "전",
       "The company is on the edge of a major breakthrough.",
-      "그 회사는 중요한 돌파구를 마련하기 직전이다."
+      "그 회사는 중요한 돌파구를 마련하기 직전이다.",
+      [["~의 가장자리에","A small café sits on the edge of the industrial park near the north gate.","산업 단지 북문 근처 가장자리에 작은 카페가 하나 있다."]]
     ],
     [
       "on the recommendation of",
@@ -21737,7 +21954,8 @@
       "다르게, 달리; 만약 그렇지 않으면",
       "부",
       "Please leave now; otherwise, you may miss the train.",
-      "지금 출발하라. 그렇지 않으면 기차를 놓칠 수 있다."
+      "지금 출발하라. 그렇지 않으면 기차를 놓칠 수 있다.",
+      [["다르게, 달리","Unless the client requests otherwise, we will ship the samples by express courier.","고객이 달리 요청하지 않는 한, 우리는 샘플을 특급 택배로 보낼 것이다."]]
     ],
     [
       "out of order",
@@ -21912,7 +22130,8 @@
       "심사위원단; 판",
       "명",
       "The panel will interview three finalists on Thursday morning.",
-      "심사위원단은 목요일 오전에 최종 후보 세 명을 면접할 것이다."
+      "심사위원단은 목요일 오전에 최종 후보 세 명을 면접할 것이다.",
+      [["판","A cracked panel on the elevator door must be replaced before the safety inspection.","안전 점검 전에 승강기 문의 갈라진 판을 교체해야 한다."]]
     ],
     [
       "paper jam",
@@ -22136,7 +22355,8 @@
       "시각, 관점; 원근 화법의",
       "명/형",
       "The customer survey offered a fresh perspective on service quality.",
-      "고객 설문은 서비스 품질에 대한 새로운 관점을 제시했다."
+      "고객 설문은 서비스 품질에 대한 새로운 관점을 제시했다.",
+      [["원근 화법의","Architecture students practiced perspective drawing before redesigning the lobby of the old hotel.","건축학과 학생들은 오래된 호텔 로비를 다시 설계하기 전에 원근법으로 도면 그리는 연습을 했다."]]
     ],
     [
       "persuade",
@@ -22241,7 +22461,8 @@
       "놓기, 배치, 취업 알선",
       "명",
       "The agency offers job placement services to recent graduates.",
-      "그 기관은 최근 졸업생들에게 취업 알선 서비스를 제공한다."
+      "그 기관은 최근 졸업생들에게 취업 알선 서비스를 제공한다.",
+      [["배치","Careful placement of the display shelves increased foot traffic near the store entrance.","진열대를 세심하게 배치한 덕분에 매장 입구 쪽 유동 인구가 늘었다."]]
     ],
     [
       "playing field",
@@ -22465,7 +22686,8 @@
       "주요한, 주된; (단체의) 장, 교장",
       "형/명",
       "Our principal objective is to improve customer satisfaction.",
-      "우리의 주요 목표는 고객 만족도를 높이는 것이다."
+      "우리의 주요 목표는 고객 만족도를 높이는 것이다.",
+      [["교장","After the graduation ceremony, the principal thanked every teacher for their extra support.","졸업식이 끝난 뒤 교장은 추가로 수고한 모든 교사에게 감사를 전했다."]]
     ],
     [
       "principle",
@@ -22752,7 +22974,8 @@
       "마련하다, 시행 준비를 갖추다; 제자리에 두다",
       "동",
       "We decided to put the new safety procedures in place.",
-      "우리는 새 안전 절차를 마련하기로 했다."
+      "우리는 새 안전 절차를 마련하기로 했다.",
+      [["제자리에 두다","Workers will put in place the new barriers along the platform edge tonight.","작업반은 오늘 밤 승강장 가장자리를 따라 새 방호벽을 제자리에 설치할 것이다."]]
     ],
     [
       "put in some overtime",
@@ -22822,7 +23045,8 @@
       "계급, 순위; 등급을 매기다",
       "명/동",
       "Our hotel's rank improved after the latest customer survey.",
-      "최근 고객 설문 이후 우리 호텔의 순위가 올랐다."
+      "최근 고객 설문 이후 우리 호텔의 순위가 올랐다.",
+      [["등급을 매기다","Reviewers rank each applicant on communication skills, relevant experience, and weekend availability.","심사관들은 의사소통 능력, 관련 경험, 주말 근무 가능 여부로 지원자마다 등급을 매긴다."]]
     ],
     [
       "ratio",
@@ -22903,10 +23127,11 @@
     ],
     [
       "rebound",
-      "회복; 다시 일어서다",
+      "회복; 다시 일어서다; 튀어 돌아오다",
       "명/동",
       "Analysts expect a rebound in hotel bookings this spring.",
-      "분석가들은 이번 봄 호텔 예약의 회복을 예상한다."
+      "분석가들은 이번 봄 호텔 예약의 회복을 예상한다.",
+      [["튀어 돌아오다","During the company tournament, the ball rebounded from the wall and landed outside the court.","사내 대회 도중 공이 벽에 맞고 튀어나와 코트 밖에 떨어졌다."]]
     ],
     [
       "recession",
@@ -23004,7 +23229,8 @@
       "참조하다; 넘기다, 소개하다",
       "동",
       "We agreed to refer the inquiry to the legal department.",
-      "우리는 문의 사항을 법무 부서로 넘기기로 합의했다."
+      "우리는 문의 사항을 법무 부서로 넘기기로 합의했다.",
+      [["참조하다","For warranty details, refer to the booklet packed inside the shipping carton.","보증 관련 세부 사항은 배송 상자 안에 동봉된 책자를 참조해라."]]
     ],
     [
       "reference letter",
@@ -23179,7 +23405,8 @@
       "갱신 가능한; 재생 가능한",
       "형",
       "The region is investing in renewable energy.",
-      "그 지역은 재생 에너지에 투자하고 있다."
+      "그 지역은 재생 에너지에 투자하고 있다.",
+      [["갱신 가능한","Membership is renewable each January once the annual fee has been paid in full.","회원 자격은 연회비를 전액 납부하면 매년 1월에 갱신할 수 있다."]]
     ],
     [
       "rent out",
@@ -24075,7 +24302,8 @@
       "더미; 쌓아 올리다",
       "명/동",
       "A stack of unsigned invoices sat beside the printer.",
-      "서명되지 않은 청구서 더미가 프린터 옆에 놓여 있었다."
+      "서명되지 않은 청구서 더미가 프린터 옆에 놓여 있었다.",
+      [["쌓아 올리다","Volunteers stack donated boxes near the loading dock every Saturday morning before noon.","자원봉사자들은 토요일 아침마다 하역장 근처에 기부 상자를 쌓아 올린다."]]
     ],
     [
       "stacks of books",
@@ -24110,7 +24338,8 @@
       "상품 진열대; 꼼짝 못하다",
       "명/동",
       "The fruit stall near the station sells fresh local peaches.",
-      "역 근처 과일 진열대에서는 신선한 지역 복숭아를 판다."
+      "역 근처 과일 진열대에서는 신선한 지역 복숭아를 판다.",
+      [["꼼짝 못하다","Negotiations stalled after both overseas suppliers refused to lower their unit prices.","두 해외 공급업체가 모두 단가를 낮추기를 거부하자 협상이 교착 상태에 빠졌다."]]
     ],
     [
       "stand for",
@@ -24292,7 +24521,8 @@
       "시냇물; 흐르다",
       "명/동",
       "A narrow stream separates the conference center from the gardens.",
-      "좁은 시냇물이 회의장과 정원을 가른다."
+      "좁은 시냇물이 회의장과 정원을 가른다.",
+      [["흐르다","Bright sunlight streamed through the glass roof of the newly renovated atrium.","새로 단장한 아트리움의 유리 지붕으로 밝은 햇빛이 흘러 들어왔다."]]
     ],
     [
       "streetcar",
@@ -24425,7 +24655,8 @@
       "용의자; 의심하다",
       "명/동",
       "Police identified a suspect using the store's security camera footage.",
-      "경찰은 매장 보안 카메라 영상으로 용의자를 확인했다."
+      "경찰은 매장 보안 카메라 영상으로 용의자를 확인했다.",
+      [["의심하다","Auditors suspect that several expense receipts were altered before the quarterly review.","감사관들은 분기 검토 전에 여러 경비 영수증이 조작되었을 가능성을 의심한다."]]
     ],
     [
       "sustainable",
@@ -24460,7 +24691,8 @@
       "재단사; 맞춤 제작하다",
       "명/동",
       "A tailor will adjust your uniform before the opening ceremony.",
-      "재단사가 개막식 전에 제복을 수선해 줄 것이다."
+      "재단사가 개막식 전에 제복을 수선해 줄 것이다.",
+      [["맞춤 제작하다","The agency can tailor each training program to the needs of new hires.","그 대행사는 신입 사원의 요구에 맞춰 각 교육 프로그램을 맞춤 제작할 수 있다."]]
     ],
     [
       "take A seriously",
@@ -24779,10 +25011,11 @@
     ],
     [
       "trace",
-      "~을 추적하다; 자취, 극소량",
+      "~을 추적하다; 자취, 극소량; 흔적",
       "명/동",
       "We would like to trace the package using its tracking number.",
-      "우리는 운송장 번호로 소포의 위치를 추적하고 싶다."
+      "우리는 운송장 번호로 소포의 위치를 추적하고 싶다.",
+      [["흔적","Investigators found no trace of the missing shipment anywhere in the warehouse.","조사관들은 창고 어디에서도 분실된 화물의 흔적을 찾지 못했다."]]
     ],
     [
       "trade negotiation",
@@ -25685,7 +25918,8 @@
       "입장, 입장료; 인정",
       "명",
       "The ticket includes admission to all three exhibition halls.",
-      "그 표에는 전시관 세 곳 모두의 입장료가 포함된다."
+      "그 표에는 전시관 세 곳 모두의 입장료가 포함된다.",
+      [["인정","His admission that the financial report was incomplete surprised the entire board.","재무 보고서가 미완성이라는 그의 인정에 이사회 전체가 놀랐다."]]
     ],
     [
       "admittedly",
@@ -25748,7 +25982,8 @@
       "닻, 진행자; 고정하다",
       "명/동",
       "The crew checked the anchor before approaching the crowded harbor.",
-      "선원들은 붐비는 항구에 접근하기 전에 닻을 점검했다."
+      "선원들은 붐비는 항구에 접근하기 전에 닻을 점검했다.",
+      [["고정하다","Workers anchored the display stands to the floor before the storm arrived.","작업자들은 폭풍이 닥치기 전에 진열대를 바닥에 단단히 고정했다."]]
     ],
     [
       "ancient",
@@ -25825,7 +26060,8 @@
       "대략의; 대략 추산하다",
       "동/형",
       "Please provide an approximate delivery date before confirming our order.",
-      "주문을 확정하기 전에 대략적인 배송 날짜를 알려 주어라."
+      "주문을 확정하기 전에 대략적인 배송 날짜를 알려 주어라.",
+      [["대략 추산하다","Analysts approximate next year's demand by reviewing three years of sales data.","분석가들은 3년치 판매 데이터를 검토해 내년 수요를 대략 추산한다."]]
     ],
     [
       "arise",
@@ -25864,10 +26100,11 @@
     ],
     [
       "associate",
-      "관련짓다; 동료",
+      "관련짓다; 동료; 직원, 판매 사원",
       "명/동",
       "We would like to associate each order with a unique reference number.",
-      "우리는 주문마다 고유한 참조 번호를 연결하고 싶다."
+      "우리는 주문마다 고유한 참조 번호를 연결하고 싶다.",
+      [["직원, 판매 사원","A sales associate will help you locate the item in the storeroom.","판매 사원이 창고에서 물품 위치를 찾도록 도와줄 것이다."]]
     ],
     [
       "associated",
@@ -25881,7 +26118,8 @@
       "가정, 추정; 책임의 인수",
       "명",
       "Our forecast relies on the assumption that fuel prices remain stable.",
-      "우리 예측은 연료 가격이 안정적으로 유지된다는 가정에 근거한다."
+      "우리 예측은 연료 가격이 안정적으로 유지된다는 가정에 근거한다.",
+      [["책임의 인수","Her assumption of duties as regional manager begins on the first of March.","지역 관리자로서 그녀의 업무 인수는 3월 1일에 시작된다."]]
     ],
     [
       "assurance",
@@ -26056,7 +26294,8 @@
       "탓하다; 책임, 비난",
       "명/동",
       "We decided to blame the delay on a scheduling error.",
-      "우리는 그 지연을 일정 관리 오류 탓으로 돌리기로 했다."
+      "우리는 그 지연을 일정 관리 오류 탓으로 돌리기로 했다.",
+      [["책임, 비난","Much of the blame for the late launch fell on the testing team.","출시가 늦어진 책임의 상당 부분은 테스트 팀에 돌아갔다."]]
     ],
     [
       "bloom",
@@ -26074,10 +26313,11 @@
     ],
     [
       "brief",
-      "간략한; 보고하다",
+      "간략한; 보고하다; 간단히 설명하다",
       "동/형",
       "The manager gave a brief summary before opening the discussion.",
-      "관리자는 토의를 시작하기 전에 간략한 요약을 했다."
+      "관리자는 토의를 시작하기 전에 간략한 요약을 했다.",
+      [["간단히 설명하다","Before the client arrives, the coordinator will brief the staff on the new agenda.","고객이 도착하기 전에 담당자가 직원들에게 새 회의 안건을 간단히 설명할 것이다."]]
     ],
     [
       "briefly",
@@ -26105,7 +26345,8 @@
       "부담; 부담을 지우다",
       "명/동",
       "Unexpected repair bills placed a heavy burden on the shop.",
-      "예상치 못한 수리비가 그 가게에 큰 부담을 줬다."
+      "예상치 못한 수리비가 그 가게에 큰 부담을 줬다.",
+      [["부담을 지우다","Extra reporting requirements burden small suppliers that lack a dedicated accounting staff.","추가 보고 요건은 전담 회계 인력이 없는 소규모 공급업체에 부담을 지운다."]]
     ],
     [
       "bury",
@@ -26172,10 +26413,11 @@
     ],
     [
       "cell",
-      "세포, 작은 방",
+      "세포, 작은 방; 감방",
       "명",
       "Each cell requires energy to perform its essential functions.",
-      "각 세포는 필수 기능을 수행하기 위해 에너지가 필요하다."
+      "각 세포는 필수 기능을 수행하기 위해 에너지가 필요하다.",
+      [["감방","The old jail cells were converted into small offices for the tour guides.","옛 유치장 독방들은 관광 가이드를 위한 작은 사무실로 개조되었다."]]
     ],
     [
       "certification",
@@ -26238,7 +26480,8 @@
       "승인, 재고 정리; 여유 공간",
       "명",
       "We need customs clearance before distributing the imported equipment.",
-      "수입 장비를 배포하기 전에 세관 승인이 필요하다."
+      "수입 장비를 배포하기 전에 세관 승인이 필요하다.",
+      [["여유 공간","Trucks taller than the bridge's posted clearance must use the eastern bypass.","다리에 표시된 여유 높이보다 높은 트럭은 동쪽 우회 도로를 이용해야 한다."]]
     ],
     [
       "coastal",
@@ -26340,17 +26583,19 @@
     ],
     [
       "compromise",
-      "타협; 타협하다, 위태롭게 하다",
+      "타협; 타협하다, 위태롭게 하다; 위태롭게 하다, 훼손하다",
       "명/동",
       "Both sides accepted a compromise on the delivery schedule.",
-      "양측은 배송 일정에 관한 타협을 받아들였다."
+      "양측은 배송 일정에 관한 타협을 받아들였다.",
+      [["위태롭게 하다, 훼손하다","Poor lighting on the production line can compromise the accuracy of quality inspections.","생산 라인의 조명이 어두우면 품질 검사의 정확성이 위태로워질 수 있다."]]
     ],
     [
       "concentrate",
       "집중하다; 농축하다",
       "동",
       "We decided to concentrate on the most urgent requests.",
-      "우리는 가장 긴급한 요청들에 집중하기로 했다."
+      "우리는 가장 긴급한 요청들에 집중하기로 했다.",
+      [["농축하다","The juice supplier concentrates the fruit extract before shipping it to overseas buyers.","그 주스 업체는 해외 구매자에게 보내기 전에 과일 추출물을 농축한다."]]
     ],
     [
       "concept",
@@ -26364,14 +26609,16 @@
       "수행하다; 행동",
       "명/동",
       "We intend to conduct a survey of recent customers.",
-      "우리는 최근 고객들을 대상으로 설문을 실시하고자 한다."
+      "우리는 최근 고객들을 대상으로 설문을 실시하고자 한다.",
+      [["행동","During the bidding process, the vendor's conduct raised serious ethical concerns among officials.","입찰 과정에서의 그 업체의 행동은 심각한 윤리적 우려를 불러일으켰다."]]
     ],
     [
       "conflict",
       "갈등, 충돌; 상충하다",
       "명/동",
       "A scheduling conflict prevents our director from attending tomorrow's ceremony.",
-      "일정 충돌 때문에 우리 이사는 내일 행사에 참석할 수 없다."
+      "일정 충돌 때문에 우리 이사는 내일 행사에 참석할 수 없다.",
+      [["상충하다","The new policy may conflict with the privacy rules of several member states.","새 정책은 여러 회원국의 개인정보 보호 규정과 상충할 수 있다."]]
     ],
     [
       "confuse",
@@ -26504,7 +26751,8 @@
       "범죄자; 범죄의",
       "명/형",
       "The convicted criminal received a prison sentence for fraud.",
-      "유죄 판결을 받은 범죄자는 사기로 징역형을 선고받았다."
+      "유죄 판결을 받은 범죄자는 사기로 징역형을 선고받았다.",
+      [["범죄의","An internal review found no evidence of criminal activity at the subsidiary.","내부 검토 결과 자회사에서 범죄 활동의 증거는 발견되지 않았다."]]
     ],
     [
       "critically",
@@ -26588,7 +26836,8 @@
       "시연, 입증; 시위",
       "명",
       "The salesperson gave a demonstration of the new cleaning machine.",
-      "판매원은 새 청소 기계의 시연을 했다."
+      "판매원은 새 청소 기계의 시연을 했다.",
+      [["시위","A peaceful demonstration outside city hall delayed traffic for nearly two hours.","시청 앞 평화 시위로 차량 통행이 두 시간 가까이 지연되었다."]]
     ],
     [
       "denial",
@@ -26609,7 +26858,8 @@
       "의존하는; 부양가족",
       "형/명",
       "The delivery date is dependent on weather conditions.",
-      "배송일은 날씨 조건에 달려 있다."
+      "배송일은 날씨 조건에 달려 있다.",
+      [["부양가족","Employees may add a dependent to the health plan during open enrollment.","직원들은 가입 기간에 건강 보험에 부양가족을 추가할 수 있다."]]
     ],
     [
       "detect",
@@ -27029,7 +27279,8 @@
       "직물, 천; 구조",
       "명",
       "This durable fabric is suitable for restaurant staff uniforms.",
-      "이 내구성 있는 직물은 식당 직원 제복에 적합하다."
+      "이 내구성 있는 직물은 식당 직원 제복에 적합하다.",
+      [["구조","Trust between managers and staff forms the fabric of a healthy workplace.","관리자와 직원 사이의 신뢰는 건강한 직장을 이루는 바탕이다."]]
     ],
     [
       "faith",
@@ -27176,14 +27427,16 @@
       "프리랜서의; 프리랜서로 일하다",
       "형/동",
       "A freelance designer created the illustrations for our annual report.",
-      "프리랜서 디자이너가 우리 연례 보고서의 삽화를 제작했다."
+      "프리랜서 디자이너가 우리 연례 보고서의 삽화를 제작했다.",
+      [["프리랜서로 일하다","She decided to freelance for several clients after leaving the publishing firm.","그녀는 출판사에서 나온 뒤 여러 고객을 위해 프리랜서로 일하기로 했다."]]
     ],
     [
       "frequent",
       "잦은; 자주 방문하다",
       "형/동",
       "Frequent inspections help prevent equipment failures.",
-      "잦은 검사는 장비 고장을 예방하는 데 도움이 된다."
+      "잦은 검사는 장비 고장을 예방하는 데 도움이 된다.",
+      [["자주 방문하다","Many tourists frequent the small riverside cafés during the annual summer festival.","많은 관광객이 해마다 열리는 여름 축제 때 강변의 작은 카페들을 자주 찾는다."]]
     ],
     [
       "frisbee",
@@ -27309,7 +27562,8 @@
       "고층의; 고층 건물",
       "명/형",
       "A high-rise apartment building overlooks the city's central park.",
-      "고층 아파트 건물이 시의 중앙 공원을 내려다본다."
+      "고층 아파트 건물이 시의 중앙 공원을 내려다본다.",
+      [["고층 건물","The high rise near the station was evacuated after a sudden power failure yesterday.","어제 갑작스러운 정전이 발생해 역 근처 고층 건물에서 사람들이 대피했다."]]
     ],
     [
       "horizontal",
@@ -27323,14 +27577,16 @@
       "환대; 숙박·접객업",
       "명",
       "Our overseas guests thanked the staff for their warm hospitality.",
-      "해외 손님들은 직원들의 따뜻한 환대에 감사했다."
+      "해외 손님들은 직원들의 따뜻한 환대에 감사했다.",
+      [["숙박·접객업","She built her career in hospitality, managing luxury hotels across three countries.","그녀는 세 나라의 고급 호텔을 관리하며 숙박·접객업에서 경력을 쌓았다."]]
     ],
     [
       "ideal",
       "이상적인; 이상",
       "형/명",
       "This quiet room is ideal for confidential business discussions.",
-      "이 조용한 방은 비밀이 필요한 업무 논의에 이상적이다."
+      "이 조용한 방은 비밀이 필요한 업무 논의에 이상적이다.",
+      [["이상","The committee's ideal of a completely paperless office proved difficult to achieve.","완전한 종이 없는 사무실이라는 위원회의 이상은 실현하기 어려운 것으로 드러났다."]]
     ],
     [
       "illustrate",
@@ -27421,7 +27677,8 @@
       "불편; 불편을 주다",
       "명/동",
       "We apologize for the inconvenience caused by the elevator closure.",
-      "승강기 폐쇄로 불편을 드려 사과드린다."
+      "승강기 폐쇄로 불편을 드려 사과드린다.",
+      [["불편을 주다","Please accept our sincere apologies if the rescheduled delivery inconveniences your team.","배송 일정이 변경되어 귀사 팀에 불편을 끼쳤다면 너그러이 양해해 달라."]]
     ],
     [
       "independently",
@@ -27621,10 +27878,11 @@
     ],
     [
       "junior",
-      "하급의, 손아래의; 후배",
+      "하급의, 손아래의; 후배; 연하인 사람",
       "명/형",
       "A junior engineer will assist with the inspection.",
-      "하급 기술자가 검사를 도울 것이다."
+      "하급 기술자가 검사를 도울 것이다.",
+      [["연하인 사람","Although he is her junior by five years, he already manages the entire department.","그는 그녀보다 다섯 살 어리지만 이미 부서 전체를 관리한다."]]
     ],
     [
       "keep to",
@@ -27673,7 +27931,8 @@
       "새다, 누설하다; 누출",
       "동/명",
       "The damaged pipe may leak during the pressure test.",
-      "손상된 관은 압력 시험 중에 샐 수 있다."
+      "손상된 관은 압력 시험 중에 샐 수 있다.",
+      [["누출","A small leak under the sink damaged several boxes in the stockroom.","싱크대 아래의 작은 누출로 창고에 있던 상자 여러 개가 망가졌다."]]
     ],
     [
       "legislation",
@@ -27778,7 +28037,8 @@
       "설명서; 수동의",
       "명/형",
       "The manual includes illustrated instructions for replacing the air filter.",
-      "설명서에는 공기 필터 교체 방법이 그림과 함께 나와 있다."
+      "설명서에는 공기 필터 교체 방법이 그림과 함께 나와 있다.",
+      [["수동의","Older machines require manual adjustment of the temperature control every few hours.","구형 기계는 몇 시간마다 온도 조절 장치를 수동으로 조정해야 한다."]]
     ],
     [
       "manufacturer",
@@ -27799,14 +28059,16 @@
       "덩어리, 대량; 대량의",
       "명/형",
       "A mass of paperwork covered the accountant's desk after lunch.",
-      "점심 후 회계사의 책상이 한 더미의 서류로 덮였다."
+      "점심 후 회계사의 책상이 한 더미의 서류로 덮였다.",
+      [["대량의","Mass production lowered the unit cost of the new desk lamps considerably.","대량 생산 덕분에 새 책상 조명의 단가가 상당히 낮아졌다."]]
     ],
     [
       "mature",
       "성숙한; 성숙하다, 만기가 되다",
       "형/동",
       "The bonds will mature in five years.",
-      "그 채권은 5년 후에 만기가 된다."
+      "그 채권은 5년 후에 만기가 된다.",
+      [["성숙한","Even under heavy pressure, she stayed calm and offered a mature response to the complaint.","심한 압박 속에서도 그녀는 침착함을 유지하며 불만에 성숙한 대응을 보였다."]]
     ],
     [
       "mechanic",
@@ -27890,14 +28152,16 @@
       "여러 개의; 배수",
       "명/형",
       "The director considered multiple options before reserving a new venue.",
-      "이사는 새 행사장을 예약하기 전에 여러 선택지를 검토했다."
+      "이사는 새 행사장을 예약하기 전에 여러 선택지를 검토했다.",
+      [["배수","Each invoice amount must be a multiple of fifty dollars for the discount to apply.","할인을 적용하려면 각 청구서 금액이 50달러의 배수여야 한다."]]
     ],
     [
       "narrow",
       "좁은; 좁히다",
       "형/동",
       "The delivery truck cannot enter this narrow street.",
-      "배송 트럭은 이 좁은 길로 들어갈 수 없다."
+      "배송 트럭은 이 좁은 길로 들어갈 수 없다.",
+      [["좁히다","Management hopes to narrow the gap between sales targets and actual performance this quarter.","경영진은 이번 분기 판매 목표와 실제 실적의 격차를 좁히기를 기대한다."]]
     ],
     [
       "narrow down",
@@ -27918,7 +28182,8 @@
       "소홀히 하다; 방치",
       "동/명",
       "The company must not neglect regular maintenance.",
-      "그 회사는 정기적인 유지 보수를 소홀히 해서는 안 된다."
+      "그 회사는 정기적인 유지 보수를 소홀히 해서는 안 된다.",
+      [["방치","Years of neglect left the parking garage unsafe and forced the owner to close it.","수년간의 방치로 주차장이 안전하지 않게 되어 건물주는 폐쇄할 수밖에 없었다."]]
     ],
     [
       "news outlet",
@@ -27946,7 +28211,8 @@
       "소설; 참신한",
       "명/형",
       "Her latest novel follows a family running a small restaurant.",
-      "그녀의 최신 소설은 작은 식당을 운영하는 가족을 그린다."
+      "그녀의 최신 소설은 작은 식당을 운영하는 가족을 그린다.",
+      [["참신한","A novel scheduling system cut overtime costs without reducing the number of staff members.","참신한 근무 일정 시스템 덕분에 직원 수를 줄이지 않고도 초과 근무 비용이 줄었다."]]
     ],
     [
       "numerous",
@@ -28030,14 +28296,16 @@
       "복장, 장비; 장비를 갖추다",
       "명/동",
       "Choose a professional outfit for your interview with the director.",
-      "이사와의 면접에는 단정한 업무용 복장을 골라라."
+      "이사와의 면접에는 단정한 업무용 복장을 골라라.",
+      [["장비를 갖추다","Before the site inspection, the contractor will outfit every crew member with reflective vests.","현장 점검에 앞서 시공업체는 모든 작업자에게 반사 조끼를 지급할 것이다."]]
     ],
     [
       "outgoing",
       "외향적인; 떠나는",
       "형",
       "The outgoing manager introduced her replacement to the team.",
-      "떠나는 관리자가 팀에 후임자를 소개했다."
+      "떠나는 관리자가 팀에 후임자를 소개했다.",
+      [["외향적인","Her outgoing personality made her the ideal host for the company's annual client reception.","외향적인 성격 덕분에 그녀는 회사의 연례 고객 행사에 이상적인 진행자가 되었다."]]
     ],
     [
       "outing",
@@ -28086,7 +28354,8 @@
       "손바닥; 야자나무",
       "명",
       "She held the small sample in her open palm.",
-      "그녀는 펼친 손바닥에 작은 견본을 올려놓았다."
+      "그녀는 펼친 손바닥에 작은 견본을 올려놓았다.",
+      [["야자나무","Tall palm trees line the long driveway leading to the resort's main entrance.","리조트 정문으로 이어지는 긴 진입로를 따라 키 큰 야자나무가 늘어서 있다."]]
     ],
     [
       "park ranger",
@@ -28135,7 +28404,8 @@
       "허가하다; 허가증",
       "명/동",
       "We agreed to permit visitors to enter the exhibition early.",
-      "우리는 방문객들이 전시장에 일찍 입장하도록 허용하기로 합의했다."
+      "우리는 방문객들이 전시장에 일찍 입장하도록 허용하기로 합의했다.",
+      [["허가증","Parking without a valid permit may result in a fine from the building manager.","유효한 허가증 없이 주차하면 건물 관리인에게서 벌금을 물 수 있다."]]
     ],
     [
       "phase",
@@ -28163,7 +28433,8 @@
       "분명한, 소박한; 평원",
       "형/명",
       "The manager made it plain that safety comes first.",
-      "관리자는 안전이 우선이라는 점을 분명히 했다."
+      "관리자는 안전이 우선이라는 점을 분명히 했다.",
+      [["평원","Herds of cattle once grazed across the wide plain east of the factory.","한때 공장 동쪽의 넓은 평원에서는 소 떼가 풀을 뜯었다."]]
     ],
     [
       "poison",
@@ -28219,7 +28490,8 @@
       "보험료, 추가 요금; 고급의",
       "명/형",
       "Installing a security system may lower your annual insurance premium.",
-      "보안 시스템을 설치하면 연간 보험료가 내려갈 수 있다."
+      "보안 시스템을 설치하면 연간 보험료가 내려갈 수 있다.",
+      [["고급의","Guests who book premium rooms receive complimentary breakfast and daily airport pickup.","프리미엄 객실을 예약한 투숙객은 무료 조식과 매일 공항 픽업 서비스를 받는다."]]
     ],
     [
       "prescription",
@@ -28240,7 +28512,8 @@
       "주요한, 최상의; 전성기",
       "형/명",
       "The store occupies a prime location near the station.",
-      "그 매장은 역 근처의 최상 입지에 자리한다."
+      "그 매장은 역 근처의 최상 입지에 자리한다.",
+      [["전성기","In the prime of his career, he left the bank to start a consulting firm.","그는 경력의 전성기에 은행을 그만두고 컨설팅 회사를 세웠다."]]
     ],
     [
       "probable",
@@ -28391,10 +28664,11 @@
     ],
     [
       "regard",
-      "여기다; 관심, 존중",
+      "여기다; 관심, 존중; 존경",
       "동/명",
       "Clients regard clear communication as essential.",
-      "고객들은 명확한 의사소통을 필수적이라고 여긴다."
+      "고객들은 명확한 의사소통을 필수적이라고 여긴다.",
+      [["존경","She still holds her first mentor in high regard for guiding her through difficult times.","그녀는 어려운 시기에 자신을 이끌어 준 첫 멘토를 지금도 높이 존경한다."]]
     ],
     [
       "regret",
@@ -28408,7 +28682,8 @@
       "상대적인; 친척",
       "형/명",
       "The report compares the relative costs of both options.",
-      "그 보고서는 두 선택지의 상대적인 비용을 비교한다."
+      "그 보고서는 두 선택지의 상대적인 비용을 비교한다.",
+      [["친척","A distant relative in Busan asked him to review the lease before signing it.","부산에 사는 먼 친척이 계약서에 서명하기 전에 검토해 달라고 부탁했다."]]
     ],
     [
       "reliability",
@@ -28422,14 +28697,16 @@
       "안도, 완화, 구호",
       "명",
       "Our team felt relief when the missing shipment arrived.",
-      "우리 팀은 분실된 화물이 도착하자 안도했다."
+      "우리 팀은 분실된 화물이 도착하자 안도했다.",
+      [["완화","The new cooling system provided relief from the intense heat in the packing area.","새 냉방 장치 덕분에 포장 구역의 심한 더위가 누그러졌다."],["구호","Donations from local businesses funded emergency relief for families affected by the spring flood.","지역 업체들의 기부금으로 봄 홍수 피해 가구를 위한 구호가 마련되었다."]]
     ],
     [
       "relieve",
       "완화하다; 교대해 주다",
       "동",
       "Hiring more employees will relieve pressure on the current staff.",
-      "직원을 더 채용하면 기존 직원들의 부담을 덜 수 있다."
+      "직원을 더 채용하면 기존 직원들의 부담을 덜 수 있다.",
+      [["교대해 주다","Another guard will relieve you at the front desk in about twenty minutes.","약 20분 뒤에 다른 경비원이 프런트 데스크에서 당신과 교대해 줄 것이다."]]
     ],
     [
       "relieved",
@@ -28545,10 +28822,11 @@
     ],
     [
       "ruin",
-      "망치다; 파멸, 폐허",
+      "망치다; 파멸, 폐허; 파산, 몰락",
       "동/명",
       "A missing part could ruin the entire display.",
-      "부품 한 개가 없으면 전시 전체를 망칠 수 있다."
+      "부품 한 개가 없으면 전시 전체를 망칠 수 있다.",
+      [["파산, 몰락","Years of careless mismanagement drove the once profitable retail chain to complete financial ruin.","수년간의 부실 경영으로 한때 수익성이 좋던 유통 체인은 완전히 파산했다."]]
     ],
     [
       "rust",
@@ -28625,7 +28903,8 @@
       "확보하다; 안전한",
       "동/형",
       "We intend to secure additional funding for the project.",
-      "우리는 그 사업을 위한 추가 자금을 확보하고자 한다."
+      "우리는 그 사업을 위한 추가 자금을 확보하고자 한다.",
+      [["안전한","Keep your laptop secure by locking it in the cabinet before leaving.","떠나기 전에 노트북을 캐비닛에 잠가 안전하게 보관해라."]]
     ],
     [
       "securely",
@@ -28660,7 +28939,8 @@
       "합의, 정산, 정착",
       "명",
       "Both parties reached a settlement without going to court.",
-      "양측은 법원에 가지 않고 합의에 이르렀다."
+      "양측은 법원에 가지 않고 합의에 이르렀다.",
+      [["정산","The final settlement of the account will be completed after the audit.","계정의 최종 정산은 감사 후에 완료될 것이다."]]
     ],
     [
       "severely",
@@ -28744,7 +29024,8 @@
       "흙, 토양; 더럽히다",
       "명/동",
       "The gardener tested the soil before planting new flowers.",
-      "정원사는 새 꽃을 심기 전에 토양을 검사했다."
+      "정원사는 새 꽃을 심기 전에 토양을 검사했다.",
+      [["더럽히다","Spilled paint soiled the carpet in the lobby, so cleaning crews worked overnight.","쏟아진 페인트가 로비 카펫을 더럽혀서 청소반이 밤새 작업했다."]]
     ],
     [
       "specify",
@@ -28800,7 +29081,8 @@
       "젓다; 동요",
       "명/동",
       "We intend to stir the mixture before pouring it into molds.",
-      "우리는 틀에 붓기 전에 혼합물을 젓고자 한다."
+      "우리는 틀에 붓기 전에 혼합물을 젓고자 한다.",
+      [["동요","The director's sudden resignation caused quite a stir among the sales team.","이사의 갑작스러운 사임은 영업팀 사이에 적잖은 동요를 일으켰다."]]
     ],
     [
       "strictly",
@@ -28849,7 +29131,8 @@
       "대신하다; 대체물",
       "명/동",
       "We would like to substitute recycled paper for the original material.",
-      "우리는 원래 재료 대신 재활용 종이를 쓰고 싶다."
+      "우리는 원래 재료 대신 재활용 종이를 쓰고 싶다.",
+      [["대체물","Since fresh basil was unavailable, the chef used dried herbs as a substitute.","신선한 바질이 없어서 요리사는 말린 허브를 대체물로 사용했다."]]
     ],
     [
       "sufficiently",
@@ -28870,7 +29153,8 @@
       "우수한; 상사",
       "형/명",
       "The newer model offers superior performance with lower energy consumption.",
-      "더 새로운 모델은 에너지를 덜 쓰면서 우수한 성능을 제공한다."
+      "더 새로운 모델은 에너지를 덜 쓰면서 우수한 성능을 제공한다.",
+      [["상사","Report the safety violation to your immediate superior before the shift ends.","교대가 끝나기 전에 안전 위반 사항을 직속 상사에게 보고해라."]]
     ],
     [
       "supervise",
@@ -29150,7 +29434,8 @@
       "진공청소기로 청소하다; 진공",
       "명/동",
       "We agreed to vacuum the meeting room before the visitors arrive.",
-      "우리는 방문객들이 오기 전에 회의실을 진공청소기로 청소하기로 합의했다."
+      "우리는 방문객들이 오기 전에 회의실을 진공청소기로 청소하기로 합의했다.",
+      [["진공","The sealed container creates a vacuum that keeps the coffee beans fresh longer.","밀봉 용기가 진공을 만들어 커피 원두를 더 오래 신선하게 보관해 준다."]]
     ],
     [
       "variation",
@@ -29178,7 +29463,8 @@
       "임금; 전쟁 등을 벌이다",
       "명/동",
       "The starting wage for warehouse assistants increased this year.",
-      "창고 보조 직원들의 초임이 올해 올랐다."
+      "창고 보조 직원들의 초임이 올해 올랐다.",
+      [["전쟁 등을 벌이다","Company lawyers waged a lengthy legal battle against suppliers who sold counterfeit goods online.","회사 변호사들은 온라인에서 위조품을 판 공급업체들을 상대로 오랜 법적 소송을 벌였다."]]
     ],
     [
       "waist",
@@ -29710,7 +29996,8 @@
       "전체적으로; 도주 중인",
       "부",
       "The survey reflects the views of the community at large.",
-      "그 설문은 지역 사회 전체의 의견을 반영한다."
+      "그 설문은 지역 사회 전체의 의견을 반영한다.",
+      [["도주 중인","Police warned residents that the suspect remained at large near the industrial park.","경찰은 용의자가 산업 단지 근처에서 여전히 도주 중이라고 주민들에게 경고했다."]]
     ],
     [
       "at the discretion of",
@@ -29920,7 +30207,8 @@
       "물론, 얼마든지; 어떤 수단으로든",
       "부",
       "By all means, use the meeting room if it is available.",
-      "회의실이 비어 있다면 얼마든지 이용하라."
+      "회의실이 비어 있다면 얼마든지 이용하라.",
+      [["어떤 수단으로든","Board members insisted on recovering the missing funds by all means available.","이사회는 가용한 모든 수단을 동원해 사라진 자금을 회수해야 한다고 주장했다."]]
     ],
     [
       "by no means",
@@ -30085,10 +30373,11 @@
     ],
     [
       "coil",
-      "똘똘 감다; 고리",
+      "똘똘 감다; 고리; 감아 놓은 타래",
       "명/동",
       "We intend to coil the cable before storing it.",
-      "우리는 보관하기 전에 케이블을 말고자 한다."
+      "우리는 보관하기 전에 케이블을 말고자 한다.",
+      [["감아 놓은 타래","A coil of steel wire sat beside the loading dock waiting for pickup.","철사 한 타래가 하역장 옆에 놓인 채 수거를 기다리고 있었다."]]
     ],
     [
       "collateral",
@@ -30428,10 +30717,11 @@
     ],
     [
       "cultivation",
-      "경작, 재배; 함양",
+      "경작, 재배; 함양; 형성, 증진",
       "명",
       "The course covers cultivation of herbs for commercial kitchens.",
-      "그 강좌는 상업용 주방을 위한 허브 재배를 다룬다."
+      "그 강좌는 상업용 주방을 위한 허브 재배를 다룬다.",
+      [["형성, 증진","This seminar focuses on the cultivation of trust between managers and new employees.","이 세미나는 관리자와 신입 직원 사이에 신뢰를 쌓는 데 초점을 맞춘다."]]
     ],
     [
       "curb",
@@ -30522,7 +30812,8 @@
       "공기를 빼다; 물가를 낮추다, 통화를 수축시키다",
       "동",
       "We decided to deflate the tires before recycling them.",
-      "우리는 재활용하기 전에 타이어의 공기를 빼기로 했다."
+      "우리는 재활용하기 전에 타이어의 공기를 빼기로 했다.",
+      [["물가를 낮추다, 통화를 수축시키다","Rising inflation forced the central bank to deflate the economy through higher interest rates.","치솟는 인플레이션 때문에 중앙은행은 금리를 올려 경제를 수축시켜야 했다."]]
     ],
     [
       "degrade",
@@ -30697,7 +30988,8 @@
       "지시적인; 지시, 명령",
       "형/명",
       "The supervisor adopted a more directive approach to training.",
-      "감독자는 교육에 더욱 지시적인 접근 방식을 택했다."
+      "감독자는 교육에 더욱 지시적인 접근 방식을 택했다.",
+      [["지시, 명령","A new directive from headquarters requires every staff member to complete safety training by Friday.","본사에서 내려온 새 지시에 따라 모든 직원은 금요일까지 안전 교육을 이수해야 한다."]]
     ],
     [
       "disapproval",
@@ -30732,7 +31024,8 @@
       "구별하다; 차별하다",
       "동",
       "We would like to discriminate between urgent and routine requests.",
-      "우리는 긴급한 요청과 일상적인 요청을 구별하고 싶다."
+      "우리는 긴급한 요청과 일상적인 요청을 구별하고 싶다.",
+      [["차별하다","Under federal law, employers may not discriminate against applicants based on age or national origin.","연방법에 따라 고용주는 나이나 출신 국가를 이유로 지원자를 차별해서는 안 된다."]]
     ],
     [
       "disguise",
@@ -30788,14 +31081,16 @@
       "흩어지게 하다, 사라지다; 낭비하다",
       "동",
       "The morning sun helped dissipate the fog.",
-      "아침 햇살이 안개를 걷히게 했다."
+      "아침 햇살이 안개를 걷히게 했다.",
+      [["낭비하다","Constant meetings, the manager warned, would dissipate the team's limited energy and focus.","관리자는 잦은 회의가 팀의 한정된 에너지와 집중력을 낭비하게 만들 것이라고 경고했다."]]
     ],
     [
       "distill",
       "증류하다; 요점을 추려 내다",
       "동",
       "We intend to distill the findings into a short summary.",
-      "우리는 조사 결과를 짧은 요약으로 추려 내고자 한다."
+      "우리는 조사 결과를 짧은 요약으로 추려 내고자 한다.",
+      [["증류하다","This plant distills seawater into clean drinking water for nearby coastal villages.","이 공장은 바닷물을 증류해 인근 해안 마을에 깨끗한 식수를 공급한다."]]
     ],
     [
       "distinguished",
@@ -31026,7 +31321,8 @@
       "호위하다; 호위대",
       "명/동",
       "We would like to escort the visitors to the meeting room.",
-      "우리는 방문객들을 회의실로 안내하고 싶다."
+      "우리는 방문객들을 회의실로 안내하고 싶다.",
+      [["호위대","An armed escort accompanied the shipment from the port to the distribution center.","무장 호위대가 항구에서 유통 센터까지 화물을 호위했다."]]
     ],
     [
       "excel",
@@ -31110,7 +31406,8 @@
       "~의 반대쪽을 향하다; ~에게서 고개를 돌리다",
       "동",
       "The desks face away from the windows.",
-      "책상들은 창문 반대쪽을 향해 있다."
+      "책상들은 창문 반대쪽을 향해 있다.",
+      [["~에게서 고개를 돌리다","During the video call, he would face away from the screen whenever questions arose.","화상 회의 중에 그는 질문이 나올 때마다 화면에서 고개를 돌리곤 했다."]]
     ],
     [
       "facilitator",
@@ -31215,7 +31512,8 @@
       "떼지어 가다, 모이다; 무리, 떼",
       "동/명",
       "Visitors flock to the town during the annual festival.",
-      "연례 축제 기간이면 방문객들이 그 마을로 몰려든다."
+      "연례 축제 기간이면 방문객들이 그 마을로 몰려든다.",
+      [["무리, 떼","A noisy flock of geese landed on the golf course beside the hotel.","호텔 옆 골프장에 거위 떼가 내려앉았다."]]
     ],
     [
       "foil",
@@ -31607,7 +31905,8 @@
       "의지, 목적; 열심인",
       "명",
       "His letter expressed a clear intent to purchase the vacant warehouse.",
-      "그의 편지는 비어 있는 창고를 매입하려는 분명한 의지를 나타냈다."
+      "그의 편지는 비어 있는 창고를 매입하려는 분명한 의지를 나타냈다.",
+      [["열심인","She was so intent on finishing the quarterly report that she skipped lunch.","그녀는 분기 보고서를 끝내는 데 너무 열심인 나머지 점심을 거렀다."]]
     ],
     [
       "intently",
@@ -31782,7 +32081,8 @@
       "느긋한, 여유 있는; 천천히",
       "형/부",
       "We enjoyed a leisurely breakfast before attending the afternoon business conference.",
-      "우리는 오후 업무 회의에 참석하기 전에 여유 있는 아침 식사를 즐겼다."
+      "우리는 오후 업무 회의에 참석하기 전에 여유 있는 아침 식사를 즐겼다.",
+      [["천천히","After the conference ended, they walked leisurely through the old market district near the harbor.","회의가 끝난 뒤 그들은 항구 근처의 오래된 시장 거리를 천천히 걸었다."]]
     ],
     [
       "life preserver",
@@ -31950,7 +32250,8 @@
       "적당한; 완화하다, 사회를 보다",
       "동/형",
       "The restaurant charges moderate prices despite its location in an expensive neighborhood.",
-      "그 식당은 물가가 비싼 지역에 있지만 적당한 가격을 받는다."
+      "그 식당은 물가가 비싼 지역에 있지만 적당한 가격을 받는다.",
+      [["사회를 보다","A skilled facilitator moderated the annual panel discussion on remote work policies.","능숙한 진행자가 원격 근무 정책에 관한 연례 패널 토론의 사회를 보았다."]]
     ],
     [
       "moderate a meeting",
@@ -31971,7 +32272,8 @@
       "겸손한; 크지 않은",
       "형",
       "Despite receiving several industry awards, the designer remained modest about her achievements.",
-      "그 디자이너는 여러 업계 상을 받았지만 자신의 성과에 대해 겸손했다."
+      "그 디자이너는 여러 업계 상을 받았지만 자신의 성과에 대해 겸손했다.",
+      [["크지 않은","Despite modest sales in the first quarter, the startup expects steady growth this year.","1분기 매출이 크지 않았지만 그 스타트업은 올해 꾸준한 성장을 기대한다."]]
     ],
     [
       "momentum",
@@ -32377,7 +32679,8 @@
       "정기 간행물; 주기적인",
       "명/형",
       "This medical periodical publishes research summaries that busy practitioners can read quickly.",
-      "이 의학 정기 간행물은 바쁜 의료인들이 빠르게 읽을 수 있는 연구 요약을 싣는다."
+      "이 의학 정기 간행물은 바쁜 의료인들이 빠르게 읽을 수 있는 연구 요약을 싣는다.",
+      [["주기적인","Periodical inspections of the elevators help technicians identify worn parts before they cause failures.","정기적인 엘리베이터 점검은 마모된 부품이 고장을 일으키기 전에 기술자가 발견하도록 돕는다."]]
     ],
     [
       "petition",
@@ -32559,7 +32862,8 @@
       "우세하다, 우선 적용되다; 널리 퍼지다",
       "동",
       "The original agreement will prevail if the parties cannot agree.",
-      "양측이 합의하지 못하면 원래 계약이 우선 적용된다."
+      "양측이 합의하지 못하면 원래 계약이 우선 적용된다.",
+      [["널리 퍼지다","A sense of optimism prevailed across the office after the merger was announced.","합병이 발표된 뒤 사무실 전체에 낙관적인 분위기가 널리 퍼졌다."]]
     ],
     [
       "privilege",
@@ -32755,7 +33059,8 @@
       "제안하다; 앞당기다",
       "동",
       "We agreed to put forward a practical solution.",
-      "우리는 실용적인 해결책을 제안하기로 합의했다."
+      "우리는 실용적인 해결책을 제안하기로 합의했다.",
+      [["앞당기다","Organizers agreed to put forward the launch date by two weeks to avoid the holiday.","주최 측은 연휴를 피하려고 출시일을 2주 앞당기는 데 합의했다."]]
     ],
     [
       "put in for",
@@ -33420,7 +33725,8 @@
       "비탈; 경사지다",
       "명/동",
       "Rainwater collects at the bottom of the slope behind the warehouse.",
-      "창고 뒤 비탈의 아래쪽에 빗물이 모인다."
+      "창고 뒤 비탈의 아래쪽에 빗물이 모인다.",
+      [["경사지다","Behind the guest house, the garden slopes gently down toward the river.","게스트하우스 뒤편의 정원은 강 쪽으로 완만하게 경사져 있다."]]
     ],
     [
       "soak up",
@@ -33560,7 +33866,8 @@
       "끈(줄)으로 묶다; 끈, 띠",
       "명/동",
       "We intend to strap the boxes securely to the pallet.",
-      "우리는 상자들을 팔레트에 끈으로 단단히 묶고자 한다."
+      "우리는 상자들을 팔레트에 끈으로 단단히 묶고자 한다.",
+      [["끈, 띠","One strap on the laptop bag broke during the long flight to Chicago.","시카고로 가는 긴 비행 중에 노트북 가방의 끈 하나가 끊어졌다."]]
     ],
     [
       "strategically",
@@ -33644,7 +33951,8 @@
       "반납하다, 양도하다; 항복하다",
       "동",
       "We would like to surrender our access cards before leaving the company.",
-      "우리는 퇴사 전에 출입 카드를 반납하고 싶다."
+      "우리는 퇴사 전에 출입 카드를 반납하고 싶다.",
+      [["항복하다","Rather than surrender to the competitor, the small firm redesigned its entire product line.","그 작은 회사는 경쟁사에 항복하는 대신 제품 라인 전체를 다시 설계했다."]]
     ],
     [
       "suspend",
@@ -34113,7 +34421,8 @@
       "모험; (위험을 무릅쓰고) 가다",
       "명/동",
       "Opening a restaurant overseas was a risky venture for the inexperienced owners.",
-      "경험이 부족한 소유주들에게 해외에서 식당을 여는 것은 위험한 모험이었다."
+      "경험이 부족한 소유주들에게 해외에서 식당을 여는 것은 위험한 모험이었다.",
+      [["(위험을 무릅쓰고) 가다","Few employees venture into the basement storage room because it is poorly lit.","지하 창고는 조명이 어두워서 들어가 보는 직원이 거의 없다."]]
     ],
     [
       "vessel",
@@ -34295,7 +34604,8 @@
       "추상적인; 요약",
       "명/형",
       "Concrete examples helped the trainees understand the abstract ideas in the leadership course.",
-      "구체적인 사례들은 교육생들이 지도력 과정의 추상적인 개념들을 이해하는 데 도움이 되었다."
+      "구체적인 사례들은 교육생들이 지도력 과정의 추상적인 개념들을 이해하는 데 도움이 되었다.",
+      [["요약","Each conference paper must include an abstract of no more than two hundred words.","모든 학회 논문에는 200단어를 넘지 않는 요약을 반드시 포함해야 한다."]]
     ],
     [
       "absurd",
@@ -34372,7 +34682,8 @@
       "접착제; 접착성의",
       "명/형",
       "Apply the adhesive evenly to both surfaces.",
-      "접착제를 양쪽 표면에 고르게 발라라."
+      "접착제를 양쪽 표면에 고르게 발라라.",
+      [["접착성의","Select an adhesive tape strong enough to hold the labels on frozen packages during shipment.","배송 중 냉동 포장재에서 라벨이 떨어지지 않도록 접착력이 강한 테이프를 골라라."]]
     ],
     [
       "adjoining",
@@ -34428,7 +34739,8 @@
       "제휴하다; 계열사",
       "명/동",
       "We agreed to affiliate our institute with the regional university.",
-      "우리는 우리 기관을 지역 대학과 제휴시키기로 합의했다."
+      "우리는 우리 기관을 지역 대학과 제휴시키기로 합의했다.",
+      [["계열사","Our European affiliate will handle all customer inquiries while the main office relocates.","본사가 이전하는 동안 모든 고객 문의는 유럽 계열사가 처리할 것이다."]]
     ],
     [
       "agitate",
@@ -34442,7 +34754,8 @@
       "외계인, 외국인; 낯선",
       "명",
       "In the film, an alien arrives seeking cooperation rather than conflict with humans.",
-      "그 영화에서는 외계인이 인간과의 충돌이 아니라 협력을 구하려고 찾아온다."
+      "그 영화에서는 외계인이 인간과의 충돌이 아니라 협력을 구하려고 찾아온다.",
+      [["낯선","For many new hires, the company's informal review system feels alien at first.","신입 사원들에게 회사의 비공식 평가 방식은 처음에 낯설게 느껴진다."]]
     ],
     [
       "align",
@@ -34509,10 +34822,11 @@
     ],
     [
       "appendix",
-      "부록; 맹장",
+      "부록; 맹장; 충수",
       "명",
       "Detailed specifications for each machine are listed in the appendix to this manual.",
-      "각 기계의 상세 사양은 이 설명서의 부록에 나와 있다."
+      "각 기계의 상세 사양은 이 설명서의 부록에 나와 있다.",
+      [["충수","Doctors removed his appendix on Tuesday, and he will miss the regional sales meeting.","의사들이 화요일에 그의 충수를 제거해 그는 지역 영업 회의에 참석하지 못할 것이다."]]
     ],
     [
       "appraise",
@@ -34600,10 +34914,11 @@
     ],
     [
       "attribute",
-      "~의 결과로 보다, ~의 탓으로 돌리다; 속성",
+      "~의 결과로 보다, ~의 탓으로 돌리다; 속성; 특징",
       "동/명",
       "We would like to attribute the improved results to staff training.",
-      "우리는 개선된 실적을 직원 교육의 결과로 보고 싶다."
+      "우리는 개선된 실적을 직원 교육의 결과로 보고 싶다.",
+      [["특징","Before listing the house, the agent noted every attribute that might attract young families.","집을 매물로 내놓기 전에 중개인은 젊은 가족들의 관심을 끌 만한 특징을 모두 적어 두었다."]]
     ],
     [
       "autobiography",
@@ -34638,7 +34953,8 @@
       "저음, 베이스 악기; 농어",
       "명",
       "The sound engineer reduced the bass to make the announcer's voice clearer.",
-      "음향 기술자는 아나운서의 목소리를 더 선명하게 들리도록 저음을 줄였다."
+      "음향 기술자는 아나운서의 목소리를 더 선명하게 들리도록 저음을 줄였다.",
+      [["농어","Grilled bass with seasonal vegetables is the most popular dish at the lakeside restaurant.","호숫가 식당에서 가장 인기 있는 요리는 제철 채소를 곁들인 농어구이다."]]
     ],
     [
       "be outfitted with",
@@ -34680,7 +34996,8 @@
       "채권, 유대; 접착하다",
       "명/동",
       "The company issued a bond to finance construction of its new manufacturing plant.",
-      "회사는 새 제조 공장 건설에 필요한 자금을 마련하려고 채권을 발행했다."
+      "회사는 새 제조 공장 건설에 필요한 자금을 마련하려고 채권을 발행했다.",
+      [["접착하다","Workers used a special resin to bond the new panels to the lobby wall.","작업자들은 특수 수지를 써서 새 패널을 로비 벽에 접착했다."]]
     ],
     [
       "breathtaking",
@@ -34694,7 +35011,8 @@
       "번식하다; 품종",
       "동/명",
       "The farm breeds horses for local riding schools.",
-      "그 농장은 지역 승마 학교에 공급할 말을 번식시킨다."
+      "그 농장은 지역 승마 학교에 공급할 말을 번식시킨다.",
+      [["품종","This breed of sheep produces wool that local textile mills pay well for.","이 품종의 양은 지역 섬유 공장이 값을 잘 쳐주는 양모를 생산한다."]]
     ],
     [
       "bribery",
@@ -34750,7 +35068,8 @@
       "터지다; 갑작스러운 분출",
       "동/명",
       "A water pipe burst during the cold night.",
-      "추운 밤에 수도관이 터졌다."
+      "추운 밤에 수도관이 터졌다.",
+      [["갑작스러운 분출","A sudden burst of steam from the boiler forced everyone to leave the basement.","보일러에서 갑자기 증기가 분출하는 바람에 모두 지하실을 떠나야 했다."]]
     ],
     [
       "buyout",
@@ -34799,7 +35118,8 @@
       "시멘트; 관계를 굳히다",
       "명/동",
       "Mix the cement with water before repairing the damaged steps.",
-      "손상된 계단을 보수하기 전에 시멘트에 물을 섞어라."
+      "손상된 계단을 보수하기 전에 시멘트에 물을 섞어라.",
+      [["관계를 굳히다","The joint training weekend helped cement the partnership between the two logistics firms.","합동 연수 주말 행사는 두 물류 회사의 제휴 관계를 굳히는 데 도움이 되었다."]]
     ],
     [
       "ceramic",
@@ -34827,7 +35147,8 @@
       "연대기; 기록하다",
       "명/동",
       "This illustrated chronicle follows the company's growth over fifty years.",
-      "삽화가 있는 이 연대기는 회사의 50년간 성장을 다룬다."
+      "삽화가 있는 이 연대기는 회사의 50년간 성장을 다룬다.",
+      [["기록하다","A freelance photographer spent three years chronicling the factory's shift to automated production.","한 프리랜서 사진작가는 그 공장이 자동화 생산으로 전환하는 과정을 삼 년간 기록했다."]]
     ],
     [
       "circuit",
@@ -34932,7 +35253,8 @@
       "지휘자, 차장; 전도체",
       "명",
       "The conductor raised her baton, and the orchestra fell silent.",
-      "지휘자가 지휘봉을 들자 관현악단이 조용해졌다."
+      "지휘자가 지휘봉을 들자 관현악단이 조용해졌다.",
+      [["전도체","Copper remains the most reliable conductor for wiring inside older office buildings.","구리는 오래된 사무용 건물 내부 배선에 가장 믿을 만한 전도체로 남아 있다."]]
     ],
     [
       "confectioner",
@@ -35044,7 +35366,8 @@
       "~에 달린; 파견단",
       "형/명",
       "The launch date is contingent on final approval.",
-      "출시일은 최종 승인 여부에 달려 있다."
+      "출시일은 최종 승인 여부에 달려 있다.",
+      [["파견단","A delegation of twelve managers joined the Korean contingent at the trade fair in Berlin.","관리자 열두 명으로 구성된 대표단이 베를린 무역 박람회에서 한국 파견단에 합류했다."]]
     ],
     [
       "continual",
@@ -35058,7 +35381,8 @@
       "확신; 유죄 판결",
       "명",
       "She expressed her conviction that fair wages improve employee loyalty.",
-      "그녀는 공정한 임금이 직원의 충성도를 높인다는 확신을 밝혔다."
+      "그녀는 공정한 임금이 직원의 충성도를 높인다는 확신을 밝혔다.",
+      [["유죄 판결","After his conviction, the former accountant agreed to cooperate with the fraud investigation.","유죄 판결을 받은 뒤 전 회계사는 사기 수사에 협조하기로 했다."]]
     ],
     [
       "corresponding",
@@ -35163,7 +35487,8 @@
       "보관, 관리; 양육권",
       "명",
       "The original documents remain in the lawyer's custody until closing.",
-      "원본 서류는 거래가 마무리될 때까지 변호사가 보관한다."
+      "원본 서류는 거래가 마무리될 때까지 변호사가 보관한다.",
+      [["양육권","The court granted the father custody of both children after a lengthy hearing.","법원은 오랜 심리 끝에 두 자녀의 양육권을 아버지에게 주었다."]]
     ],
     [
       "damages",
@@ -35247,7 +35572,8 @@
       "행위; 증서",
       "명",
       "His generous deed encouraged other employees to support the food drive.",
-      "그의 너그러운 행위는 다른 직원들도 식품 기부 운동에 동참하도록 이끌었다."
+      "그의 너그러운 행위는 다른 직원들도 식품 기부 운동에 동참하도록 이끌었다.",
+      [["증서","Buyers must sign the deed in front of a notary before the office closes.","매수자는 사무소가 문을 닫기 전에 공증인 앞에서 증서에 서명해야 한다."]]
     ],
     [
       "deem",
@@ -35261,7 +35587,8 @@
       "미루다; 판단을 맡기다",
       "동",
       "We agreed to defer the decision until the inspection is complete.",
-      "우리는 점검이 끝날 때까지 결정을 미루기로 합의했다."
+      "우리는 점검이 끝날 때까지 결정을 미루기로 합의했다.",
+      [["판단을 맡기다","On hiring matters, our branch manager usually defers to the regional director's judgment.","채용 문제에 관해서는 우리 지점장이 보통 지역 본부장의 판단에 맡긴다."]]
     ],
     [
       "defy",
@@ -35289,7 +35616,8 @@
       "납부가 연체된; 비행의",
       "형",
       "The company contacted customers with delinquent accounts.",
-      "그 회사는 대금이 연체된 고객들에게 연락했다."
+      "그 회사는 대금이 연체된 고객들에게 연락했다.",
+      [["비행의","The city opened a workshop aimed at helping delinquent teenagers find part-time work.","시는 비행 청소년들이 아르바이트 자리를 찾도록 돕는 워크숍을 열었다."]]
     ],
     [
       "dense",
@@ -35450,7 +35778,8 @@
       "분쟁; 이의를 제기하다",
       "명/동",
       "The delivery dispute was settled after both companies reviewed the receipts.",
-      "두 회사가 영수증을 검토한 뒤 배송 분쟁이 해결되었다."
+      "두 회사가 영수증을 검토한 뒤 배송 분쟁이 해결되었다.",
+      [["이의를 제기하다","Several homeowners plan to dispute the new property tax assessment at next month's hearing.","여러 주택 소유자가 다음 달 청문회에서 새 재산세 평가에 이의를 제기할 계획이다."]]
     ],
     [
       "dissertation",
@@ -35527,7 +35856,8 @@
       "복제하다; 사본; 중복된",
       "명/동/형",
       "We would like to duplicate the documents before mailing them.",
-      "우리는 발송 전에 서류들을 복사하고 싶다."
+      "우리는 발송 전에 서류들을 복사하고 싶다.",
+      [["사본","Keep a duplicate of every signed contract in the locked cabinet near reception.","서명된 계약서마다 사본 한 부를 접수처 근처 잠금장치가 있는 보관함에 보관해라."],["중복된","Staff deleted duplicate entries from the customer database to speed up weekly reports.","직원들은 주간 보고서 작성을 빠르게 하려고 고객 데이터베이스에서 중복된 항목을 삭제했다."]]
     ],
     [
       "durability",
@@ -35667,7 +35997,8 @@
       "실행하다, 집행하다; 계약을 체결하다",
       "동",
       "We decided to execute the agreement after the final review.",
-      "우리는 최종 검토 후에 계약을 체결하기로 했다."
+      "우리는 최종 검토 후에 계약을 체결하기로 했다.",
+      [["실행하다, 집행하다","Once the board approves the plan, managers will execute it within two months.","이사회가 계획을 승인하면 관리자들은 두 달 안에 그것을 실행할 것이다."]]
     ],
     [
       "exemption",
@@ -35681,7 +36012,8 @@
       "지치게 하다, 소진하다; 배기가스",
       "동/명",
       "Long delays can exhaust both passengers and staff.",
-      "긴 지연은 승객과 직원 모두를 지치게 할 수 있다."
+      "긴 지연은 승객과 직원 모두를 지치게 할 수 있다.",
+      [["배기가스","Mechanics installed a filter that removes harmful exhaust from the workshop air.","정비사들은 작업장 공기에서 유해한 배기가스를 걸러 내는 필터를 설치했다."]]
     ],
     [
       "exotic",
@@ -35730,14 +36062,16 @@
       "적절한; 부속품, 가봉",
       "형/명",
       "The retirement dinner was a fitting tribute to her long service.",
-      "은퇴 기념 만찬은 그녀의 오랜 근속에 걸맞은 적절한 감사 행사였다."
+      "은퇴 기념 만찬은 그녀의 오랜 근속에 걸맞은 적절한 감사 행사였다.",
+      [["부속품","The plumber replaced several brass fittings under the kitchen sink before testing for leaks.","배관공은 누수를 확인하기 전에 싱크대 아래의 놋쇠 부속품 몇 개를 교체했다."]]
     ],
     [
       "flier",
       "전단지; 비행기 이용객",
       "명",
       "A colorful flier advertised free cooking lessons at the community center.",
-      "화려한 전단지는 주민 센터의 무료 요리 강좌를 홍보했다."
+      "화려한 전단지는 주민 센터의 무료 요리 강좌를 홍보했다.",
+      [["비행기 이용객","Frequent fliers receive free lounge access after collecting a certain number of miles.","자주 비행기를 이용하는 승객은 일정 마일리지를 모으면 무료 라운지 이용권을 받는다."]]
     ],
     [
       "flip",
@@ -35839,10 +36173,11 @@
     ],
     [
       "fulfillment",
-      "이행, 충족; 주문 처리",
+      "이행, 충족; 주문 처리; 성취감, 만족감",
       "명",
       "The warehouse handles order fulfillment for several small online retailers.",
-      "그 창고는 여러 소규모 온라인 소매업체의 주문 처리를 담당한다."
+      "그 창고는 여러 소규모 온라인 소매업체의 주문 처리를 담당한다.",
+      [["성취감, 만족감","Completing the mentorship program gave her a lasting sense of personal and professional fulfillment.","멘토링 프로그램을 마친 그녀는 개인적으로도 직업적으로도 오래 지속되는 성취감을 얻었다."]]
     ],
     [
       "furnace",
@@ -35919,7 +36254,8 @@
       "번거로운 일; 귀찮게 하다",
       "명/동",
       "Booking online saves customers the hassle of waiting at the ticket office.",
-      "온라인 예약은 고객들이 매표소에서 기다리는 번거로움을 덜어 준다."
+      "온라인 예약은 고객들이 매표소에서 기다리는 번거로움을 덜어 준다.",
+      [["귀찮게 하다","Please stop hassling the receptionist about the room rate and send your complaint in writing.","객실 요금에 대해 접수 직원을 귀찮게 하지 말고 불만 사항을 서면으로 보내라."]]
     ],
     [
       "hatred",
@@ -35961,7 +36297,8 @@
       "소지자, 보유자; 받침대",
       "명",
       "Each ticket holder may bring one guest to the reception.",
-      "각 입장권 소지자는 연회에 손님 한 명을 데려올 수 있다."
+      "각 입장권 소지자는 연회에 손님 한 명을 데려올 수 있다.",
+      [["받침대","A wooden holder on each desk keeps the tablet upright during video calls.","각 책상 위의 나무 받침대는 화상 통화 중에 태블릿을 세워 둔다."]]
     ],
     [
       "hostile",
@@ -36129,7 +36466,8 @@
       "숙박하다, 정식으로 제기하다; 산장",
       "명/동",
       "We intend to lodge a formal complaint about the delay.",
-      "우리는 지연에 대해 정식으로 항의하고자 한다."
+      "우리는 지연에 대해 정식으로 항의하고자 한다.",
+      [["산장","Rangers reopened the mountain lodge after repairing the roof damaged by winter storms.","관리원들은 겨울 폭풍에 망가진 지붕을 고친 뒤 산장을 다시 열었다."]]
     ],
     [
       "long-awaited",
@@ -36199,14 +36537,16 @@
       "주택 담보 대출; 저당 잡히다",
       "명/동",
       "They obtained a mortgage to purchase an apartment near their workplace.",
-      "그들은 직장 근처 아파트를 사려고 주택 담보 대출을 받았다."
+      "그들은 직장 근처 아파트를 사려고 주택 담보 대출을 받았다.",
+      [["저당 잡히다","They mortgaged the warehouse to raise cash for a second production line.","그들은 두 번째 생산 라인에 필요한 자금을 마련하려고 창고를 담보로 대출받았다."]]
     ],
     [
       "mute",
       "무음으로 하다; 말이 없는",
       "동/형",
       "We agreed to mute the microphones before the break.",
-      "우리는 휴식 시간 전에 마이크를 음소거하기로 합의했다."
+      "우리는 휴식 시간 전에 마이크를 음소거하기로 합의했다.",
+      [["말이 없는","He sat mute through the entire negotiation, letting his lawyer answer every question.","그는 협상 내내 말없이 앉아 있었고, 변호사가 모든 질문에 답하게 두었다."]]
     ],
     [
       "mutually",
@@ -36388,7 +36728,8 @@
       "제안, 홍보 설명; 던지다",
       "명",
       "Our sales pitch focused on reducing maintenance costs for clients.",
-      "우리의 판매 홍보 설명은 고객의 유지 보수 비용 절감에 초점을 맞췄다."
+      "우리의 판매 홍보 설명은 고객의 유지 보수 비용 절감에 초점을 맞췄다.",
+      [["던지다","Before the charity game, the mayor pitched the first ball to the catcher as spectators cheered.","자선 경기 시작 전 관중들이 환호하는 가운데 시장이 포수를 향해 시구했다."]]
     ],
     [
       "pitcher",
@@ -36409,7 +36750,8 @@
       "줄거리, 작은 땅; 계획하다",
       "명/동",
       "The film's plot follows two colleagues competing for the same promotion.",
-      "영화의 줄거리는 같은 승진 자리를 놓고 경쟁하는 두 동료를 다룬다."
+      "영화의 줄거리는 같은 승진 자리를 놓고 경쟁하는 두 동료를 다룬다.",
+      [["계획하다","Managers plotted a gradual expansion into Southeast Asia over the next three years.","경영진은 앞으로 삼 년에 걸쳐 동남아시아로 점진적으로 확장할 계획을 세웠다."]]
     ],
     [
       "plumbing",
@@ -36756,10 +37098,11 @@
     ],
     [
       "RSVP",
-      "참석 여부를 회신하다; 회신 요청",
+      "참석 여부를 회신하다; 회신 요청; 참석 여부 회신",
       "동/명",
       "Please RSVP by Friday so we can arrange enough seating.",
-      "충분한 좌석을 준비할 수 있도록 금요일까지 참석 여부를 회신해 주어라."
+      "충분한 좌석을 준비할 수 있도록 금요일까지 참석 여부를 회신해 주어라.",
+      [["참석 여부 회신","The invitation clearly says that an RSVP is required by the tenth of May.","초대장에는 5월 10일까지 회신을 보내야 한다고 분명히 적혀 있다."]]
     ],
     [
       "run through",
@@ -36906,7 +37249,8 @@
       "유일한; 발바닥, 밑창",
       "형/명",
       "The director has sole responsibility for approving the budget.",
-      "이사는 예산 승인에 대한 유일한 책임을 진다."
+      "이사는 예산 승인에 대한 유일한 책임을 진다.",
+      [["밑창","Thick rubber soles protect workers' feet from sharp metal scraps on the factory floor.","두꺼운 고무 밑창은 공장 바닥의 날카로운 금속 조각으로부터 작업자의 발을 보호한다."]]
     ],
     [
       "soothe",
@@ -36941,7 +37285,8 @@
       "불꽃, 계기; 촉발하다",
       "명/동",
       "A spark from the damaged cable briefly illuminated the dark workshop.",
-      "손상된 전선에서 나온 불꽃이 어두운 작업장을 잠깐 밝혔다."
+      "손상된 전선에서 나온 불꽃이 어두운 작업장을 잠깐 밝혔다.",
+      [["촉발하다","A single complaint on social media sparked a nationwide debate about delivery safety.","소셜 미디어에 올라온 불만 하나가 배송 안전에 관한 전국적인 논쟁을 촉발했다."]]
     ],
     [
       "specialization",
@@ -36983,14 +37328,16 @@
       "바느질하다; 한 땀",
       "명/동",
       "We decided to stitch the logo onto the uniforms.",
-      "우리는 제복에 로고를 바느질해 붙이기로 했다."
+      "우리는 제복에 로고를 바느질해 붙이기로 했다.",
+      [["한 땀","One loose stitch on the sleeve made the whole jacket look poorly finished.","소매에 풀린 바늘땀 하나 때문에 재킷 전체가 마감이 엉성해 보였다."]]
     ],
     [
       "strain",
       "부담, 긴장; 무리를 주다",
       "명/동",
       "The unexpected repairs put a strain on our limited budget.",
-      "예상하지 못한 수리는 우리의 한정된 예산에 부담을 주었다."
+      "예상하지 못한 수리는 우리의 한정된 예산에 부담을 주었다.",
+      [["무리를 주다","Working twelve-hour shifts for a month strained the patience of the entire nursing staff.","한 달 동안 12시간 교대 근무가 이어지자 간호 직원 모두의 인내심이 한계에 이르렀다."]]
     ],
     [
       "stub",
@@ -37067,7 +37414,8 @@
       "확실한 일; 물론이지",
       "명/감",
       "Sure thing, I can send the estimate this afternoon.",
-      "물론이죠. 오늘 오후에 견적서를 보낼 수 있다."
+      "물론이죠. 오늘 오후에 견적서를 보낼 수 있다.",
+      [["확실한 일","A steady paycheck is no sure thing for freelancers in the competitive design market.","경쟁이 치열한 디자인 시장에서 프리랜서에게 안정적인 급여는 확실한 일이 아니다."]]
     ],
     [
       "suspense",
@@ -37151,7 +37499,8 @@
       "증표, 교환권; 상징적인",
       "명/형",
       "Please accept this gift as a token of our appreciation.",
-      "감사의 증표로 이 선물을 받아 주어라."
+      "감사의 증표로 이 선물을 받아 주어라.",
+      [["상징적인","Management offered a token bonus instead of the substantial raise employees had repeatedly requested.","경영진은 직원들이 거듭 요구한 큰 폭의 임금 인상 대신 상징적인 보너스를 주었다."]]
     ],
     [
       "top-notch",
@@ -37186,7 +37535,8 @@
       "전송, 전파; 변속기",
       "명",
       "The new system enables secure transmission of documents between regional offices.",
-      "새 시스템은 지역 사무소 간의 안전한 문서 전송을 가능하게 한다."
+      "새 시스템은 지역 사무소 간의 안전한 문서 전송을 가능하게 한다.",
+      [["변속기","The mechanic warned that the truck's transmission would fail without an expensive repair.","정비사는 값비싼 수리를 하지 않으면 트럭의 변속기가 고장 날 것이라고 경고했다."]]
     ],
     [
       "treadmill",
@@ -37221,7 +37571,8 @@
       "비틀다; 꼬임, 예상 밖의 전개",
       "동",
       "We intend to twist the handle to open the cabinet.",
-      "우리는 손잡이를 돌려 보관함을 열고자 한다."
+      "우리는 손잡이를 돌려 보관함을 열고자 한다.",
+      [["예상 밖의 전개","In an unexpected twist, the retiring director announced that she would stay another year.","예상과 달리 은퇴를 앞둔 이사는 한 해 더 일하겠다고 밝혔다."]]
     ],
     [
       "ultimate",
@@ -37298,7 +37649,8 @@
       "촉구하다; 강한 욕구",
       "명/동",
       "We agreed to urge participants to confirm their attendance.",
-      "우리는 참가자들에게 참석 확인을 촉구하기로 합의했다."
+      "우리는 참가자들에게 참석 확인을 촉구하기로 합의했다.",
+      [["강한 욕구","She fought a strong urge to check her phone while presenting the quarterly results.","그녀는 분기 실적을 발표하는 동안 휴대전화를 확인하고 싶은 강한 욕구를 참았다."]]
     ],
     [
       "utilities",
@@ -37319,7 +37671,8 @@
       "통풍구; 감정을 발산하다",
       "명/동",
       "Dust accumulated around the vent above the conference room door.",
-      "회의실 문 위 통풍구 주변에 먼지가 쌓였다."
+      "회의실 문 위 통풍구 주변에 먼지가 쌓였다.",
+      [["감정을 발산하다","Frustrated passengers vented their anger at the gate agent, who had no control over delays.","화가 난 승객들은 지연 상황을 해결할 권한이 없는 탑승구 직원에게 화를 쏟아 냈다."]]
     ],
     [
       "ventilate",
@@ -37648,7 +38001,8 @@
       "똑바로 선; 세우다",
       "형/동",
       "The company plans to erect a new warehouse.",
-      "그 회사는 새 창고를 세울 계획이다."
+      "그 회사는 새 창고를 세울 계획이다.",
+      [["똑바로 선","Beside the entrance, the guard stood erect while checking every visitor's identification badge.","출입구 옆에서 경비원은 모든 방문객의 신분증을 확인하며 똑바로 서 있었다."]]
     ],
     [
       "evoke",
@@ -37694,10 +38048,11 @@
     ],
     [
       "expatriate",
-      "국적을 상실한 사람; 고국을 떠나다",
+      "국적을 상실한 사람; 고국을 떠나다; 국외 거주자",
       "명/동",
       "She chose to expatriate when her partner accepted a permanent overseas assignment.",
-      "그녀는 배우자가 해외 장기 근무를 수락하자 고국을 떠나기로 했다."
+      "그녀는 배우자가 해외 장기 근무를 수락하자 고국을 떠나기로 했다.",
+      [["국외 거주자","The club offers language classes and legal advice to expatriates settling in the city.","그 클럽은 도시에 정착한 국외 거주자들에게 언어 수업과 법률 상담을 제공한다."]]
     ],
     [
       "expectancy",
@@ -38268,10 +38623,11 @@
     ],
     [
       "overhaul",
-      "점검, 정비; 철저히 조사하다",
+      "점검, 정비; 철저히 조사하다; 전면 개편하다",
       "명/동",
       "The aging elevator needs a complete overhaul before it can reopen.",
-      "노후한 승강기를 다시 운행하려면 전면적인 정비가 필요하다."
+      "노후한 승강기를 다시 운행하려면 전면적인 정비가 필요하다.",
+      [["전면 개편하다","Management will overhaul the expense reporting system after auditors identified several weaknesses in its controls.","감사관들이 내부 통제의 여러 취약점을 확인함에 따라 경영진은 경비 보고 체계를 전면 개편할 것이다."]]
     ],
     [
       "oversight",
@@ -38478,10 +38834,11 @@
     ],
     [
       "put forth",
-      "제시하다, 내놓다; 뻗다",
+      "제시하다, 내놓다; 뻗다; 새잎·싹을 내다",
       "동",
       "We intend to put forth a revised proposal.",
-      "우리는 수정된 제안을 제시하고자 한다."
+      "우리는 수정된 제안을 제시하고자 한다.",
+      [["새잎·싹을 내다","Warm spring rain caused the apple trees to put forth new leaves within a week.","따뜻한 봄비가 내린 뒤 사과나무에서 일주일 만에 새잎이 돋았다."]]
     ],
     [
       "rashly",
@@ -39069,7 +39426,8 @@
       "빈 공간; 텅 빈",
       "명",
       "The artist filled the void between the sculptures with soft lighting.",
-      "예술가는 조각품 사이의 빈 공간을 은은한 조명으로 채웠다."
+      "예술가는 조각품 사이의 빈 공간을 은은한 조명으로 채웠다.",
+      [["텅 빈","After the tenants moved out, the apartment looked strangely void of furniture and color.","세입자들이 이사 간 뒤 아파트는 가구도 색감도 없이 이상하리만치 텅 비어 보였다."]]
     ],
     [
       "volatile",
@@ -39468,7 +39826,8 @@
       "가볍게 튕기다; 영화",
       "명/동",
       "We agreed to flick the switch to start the display.",
-      "우리는 스위치를 가볍게 눌러 전시 장치를 작동시키기로 합의했다."
+      "우리는 스위치를 가볍게 눌러 전시 장치를 작동시키기로 합의했다.",
+      [["영화","Employees voted to watch a comedy flick during the office's monthly movie night.","직원들은 매달 열리는 사내 영화 상영회에서 코미디 영화를 보기로 의견을 모았다."]]
     ],
     [
       "foothill",
@@ -39587,7 +39946,8 @@
       "지연, 방해; 강도 행위",
       "명",
       "A holdup at customs delayed the arrival of our exhibition equipment.",
-      "통관 지연으로 전시 장비의 도착이 늦어졌다."
+      "통관 지연으로 전시 장비의 도착이 늦어졌다.",
+      [["강도 행위","A holdup at the downtown branch forced the bank to close early on Friday.","도심 지점에서 강도 사건이 발생해 은행은 금요일에 일찍 문을 닫아야 했다."]]
     ],
     [
       "horrendous",
@@ -39643,7 +40003,8 @@
       "찍다, 새기다; 자국",
       "동",
       "We intend to imprint our logo on the packaging.",
-      "우리는 포장에 회사 로고를 찍고자 한다."
+      "우리는 포장에 회사 로고를 찍고자 한다.",
+      [["자국","Inspectors noticed a deep imprint left by the forklift on the warehouse floor.","점검관들은 창고 바닥에 지게차가 남긴 깊은 자국을 발견했다."]]
     ],
     [
       "improvise",
@@ -39801,10 +40162,11 @@
     ],
     [
       "lure",
-      "유인하다; 매력, 미끼",
+      "유인하다; 매력, 미끼; 유인책",
       "동/명",
       "The brochure aims to lure visitors to the island.",
-      "그 안내 책자는 방문객들을 섬으로 끌어들이려 한다."
+      "그 안내 책자는 방문객들을 섬으로 끌어들이려 한다.",
+      [["유인책","Free shipping proved an effective lure for first-time online shoppers last quarter.","지난 분기에는 무료 배송이 온라인 쇼핑몰을 처음 이용하는 고객을 끌어들이는 데 효과적이었다."]]
     ],
     [
       "lust",
@@ -39839,7 +40201,8 @@
       "권한, 명령; 의무화하다",
       "명/동",
       "The new regulation will mandate annual safety inspections.",
-      "새 규정은 연례 안전 검사를 의무화할 것이다."
+      "새 규정은 연례 안전 검사를 의무화할 것이다.",
+      [["권한","Shareholders gave the new director a clear mandate to cut operating costs.","주주들은 새 이사에게 운영 비용을 줄일 명확한 권한을 부여했다."]]
     ],
     [
       "manuscript",
@@ -39993,7 +40356,8 @@
       "해마다 계속되는; 다년생 식물",
       "명/형",
       "Parking remains a perennial concern for businesses in the historic district.",
-      "주차 문제는 역사 지구의 업체들에게 해마다 계속되는 걱정거리이다."
+      "주차 문제는 역사 지구의 업체들에게 해마다 계속되는 걱정거리이다.",
+      [["다년생 식물","Gardeners planted hardy perennials along the walkway because these plants return each spring.","정원사들은 해마다 봄에 다시 자라는 내한성 다년생 식물을 산책로를 따라 심었다."]]
     ],
     [
       "persistence",
@@ -40042,7 +40406,8 @@
       "석고, 회반죽; 석고를 바르다",
       "명/동",
       "Workers applied fresh plaster to the cracked walls before repainting them.",
-      "작업자들은 금이 간 벽을 다시 칠하기 전에 새 회반죽을 발랐다."
+      "작업자들은 금이 간 벽을 다시 칠하기 전에 새 회반죽을 발랐다.",
+      [["석고를 바르다","Crews will plaster the damaged ceiling before the tenant moves into the office.","인부들은 세입자가 사무실로 들어오기 전에 손상된 천장에 석고를 바를 것이다."]]
     ],
     [
       "playwright",
@@ -40056,7 +40421,8 @@
       "소인; 소인을 찍다",
       "명/동",
       "The postmark confirmed that the application had been mailed before the deadline.",
-      "소인은 신청서가 마감일 전에 발송되었음을 확인해 주었다."
+      "소인은 신청서가 마감일 전에 발송되었음을 확인해 주었다.",
+      [["소인을 찍다","Clerks postmark every envelope at the counter so the mailing date is recorded.","직원들은 발송 날짜가 기록되도록 창구에서 모든 봉투에 소인을 찍는다."]]
     ],
     [
       "postsecondary",
@@ -40077,7 +40443,8 @@
       "최고의, 주요한; 수상",
       "명/형",
       "The city hopes to become the region's premier destination for business conferences.",
-      "시는 지역 최고의 업무 회의 개최지가 되기를 바란다."
+      "시는 지역 최고의 업무 회의 개최지가 되기를 바란다.",
+      [["수상","Delegates met the premier after the trade summit to discuss export quotas.","대표단은 수출 쿼터를 논의하려고 무역 정상 회의가 끝난 뒤 수상과 만났다."]]
     ],
     [
       "preselect",
@@ -40098,7 +40465,8 @@
       "행사 진행, 법적 절차; 회의록",
       "명",
       "Copies of the conference proceedings will be available to all registered participants.",
-      "회의록 사본은 등록한 모든 참가자에게 제공될 예정이다."
+      "회의록 사본은 등록한 모든 참가자에게 제공될 예정이다.",
+      [["법적 절차","Construction work was halted while legal proceedings over the land boundary continued in court.","토지 경계를 둘러싼 법적 절차가 법정에서 계속되는 동안 공사는 중단되었다."]]
     ],
     [
       "procession",
@@ -40182,7 +40550,8 @@
       "격노; 맹렬히 계속되다",
       "명/동",
       "The passenger's rage subsided after the airline located his missing suitcase.",
-      "항공사가 잃어버린 여행 가방을 찾자 승객의 격노가 가라앉았다."
+      "항공사가 잃어버린 여행 가방을 찾자 승객의 격노가 가라앉았다.",
+      [["맹렬히 계속되다","Wildfires raged across the hills for days, forcing the resort to evacuate guests.","산불이 며칠째 언덕 일대에서 맹렬히 번져 리조트는 투숙객을 대피시켜야 했다."]]
     ],
     [
       "rapids",
@@ -40245,7 +40614,8 @@
       "삼가다; 후렴",
       "명/동",
       "We intend to refrain from using unnecessary packaging.",
-      "우리는 불필요한 포장재의 사용을 삼가고자 한다."
+      "우리는 불필요한 포장재의 사용을 삼가고자 한다.",
+      [["후렴","A catchy refrain from the new ad echoed through every elevator in the building.","새 광고의 중독성 있는 후렴이 건물의 모든 엘리베이터에 울려 퍼졌다."]]
     ],
     [
       "renounce",
@@ -40357,7 +40727,8 @@
       "제재, 승인; 승인하다",
       "명/동",
       "The trade sanction prevented the company from exporting machinery to that country.",
-      "무역 제재 때문에 회사는 그 나라에 기계를 수출하지 못했다."
+      "무역 제재 때문에 회사는 그 나라에 기계를 수출하지 못했다.",
+      [["승인하다","Directors agreed to sanction the merger only after a full audit of both firms.","이사들은 두 회사에 대한 전면 감사 후에만 합병을 승인하기로 했다."]]
     ],
     [
       "seductive",
@@ -40434,7 +40805,8 @@
       "길을 벗어나다; 길을 잃은",
       "동/형",
       "The trail is clearly marked so visitors do not stray.",
-      "방문객들이 길을 벗어나지 않도록 산책로에 표시가 잘 되어 있다."
+      "방문객들이 길을 벗어나지 않도록 산책로에 표시가 잘 되어 있다.",
+      [["길을 잃은","A stray dog wandered into the hotel lobby and was gently led outside.","길을 잃은 개 한 마리가 호텔 로비로 들어왔다가 조심스럽게 밖으로 안내되었다."]]
     ],
     [
       "stringent",
@@ -40539,7 +40911,8 @@
       "사업, 과업; 약속",
       "명",
       "Restoring the abandoned station was a major undertaking for the community.",
-      "버려진 역을 복원하는 것은 지역사회에 큰 과업이었다."
+      "버려진 역을 복원하는 것은 지역사회에 큰 과업이었다.",
+      [["약속","Management gave a written undertaking that no jobs would be cut this year.","경영진은 올해 일자리를 줄이지 않겠다는 서면 약속을 했다."]]
     ],
     [
       "undue",
@@ -40581,7 +40954,8 @@
       "말하다; 완전한",
       "동/형",
       "The visitor did not utter a word during the presentation.",
-      "그 방문객은 발표 중에 한마디도 하지 않았다."
+      "그 방문객은 발표 중에 한마디도 하지 않았다.",
+      [["완전한","A sudden delay from the vendor caused utter confusion among conference organizers and speakers.","업체의 갑작스러운 지연으로 회의 주최자들과 연사들은 극심한 혼란에 빠졌다."]]
     ],
     [
       "vandalize",
@@ -40602,7 +40976,8 @@
       "수의사; 철저히 심사하다",
       "명/동",
       "A local vet examined the injured dog before recommending further treatment.",
-      "지역 수의사는 다친 개를 진찰한 뒤 추가 치료를 권했다."
+      "지역 수의사는 다친 개를 진찰한 뒤 추가 치료를 권했다.",
+      [["철저히 심사하다","Recruiters carefully vet every candidate's references before scheduling a second interview with the team.","채용 담당자들은 팀과의 2차 면접을 잡기 전에 모든 지원자의 추천인 정보를 철저히 검증한다."]]
     ],
     [
       "viciously",
@@ -40623,7 +40998,8 @@
       "소재, 행방; 어디쯤에",
       "명",
       "Staff contacted nearby hotels to establish the missing guest's whereabouts.",
-      "직원들은 사라진 손님의 행방을 확인하려고 인근 호텔들에 연락했다."
+      "직원들은 사라진 손님의 행방을 확인하려고 인근 호텔들에 연락했다.",
+      [["어디쯤에","Passengers often ask whereabouts in the terminal the shuttle to the long-term lot departs.","승객들은 장기 주차장으로 가는 셔틀이 터미널 어디쯤에서 출발하는지 자주 묻는다."]]
     ],
     [
       "wit",
