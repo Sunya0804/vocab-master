@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v31-polish';
+const CACHE_VERSION = 'vocab-master-shell-v32-index-fresh';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = [1, 2, 3, 4, 5, 6, 7].map(part => `questions/toeic-part${part}.json`);
@@ -75,6 +75,11 @@ self.addEventListener('fetch', event => {
         if (response.ok) await cache.put(key, response.clone()).catch(() => {});
         return response;
       })();
+      // The package index decides which wordbooks exist and its format changed once, so prefer the network for it.
+      if (relative === 'packages/index.json') {
+        try { const response = await network; if (response.ok) return response; } catch (_) {}
+        return await cache.match(key) || await network;
+      }
       // Serve cached learning data immediately; refresh for next time.
       event.waitUntil(network.catch(() => {}));
       return await cache.match(key) || await network;

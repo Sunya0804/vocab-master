@@ -367,6 +367,12 @@
       if (!response.ok) throw new Error('Package index unavailable');
       const entries = await response.json();
       if (!Array.isArray(entries)) throw new Error('Invalid package index');
+      // A stale cached index from before lazy loading lists bare file names; load those packages whole.
+      if (entries.length && entries.every(entry => typeof entry === 'string')) {
+        const pkgs = await Promise.all(entries.filter(file => /^[\w.-]+\.json$/.test(file))
+          .map(file => fetch(`./packages/${file}`).then(r => r.ok ? r.json() : null).catch(() => null)));
+        builtins = pkgs.filter(pkg => pkg && validPackage(pkg));
+      } else
       // Only names and languages here; render() fetches a package's words when a screen needs them.
       builtins = entries.filter(entry => isObject(entry) && typeof entry.file === 'string' && /^[\w.-]+\.json$/.test(entry.file)
         && typeof entry.id === 'string' && entry.id && typeof entry.name === 'string' && entry.name.trim()
