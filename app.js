@@ -42,26 +42,27 @@
       else if (page === 'exam') html = parts[1] === 'mock' ? renderMock(Number(parts[2]), parts[3]) : parts[1] ? renderExamPage(Number(parts[1]), parts[2] || 'set') : renderExamHome();
       else if (['day','cards','quiz','cloze','listen'].includes(page)) {
         const pkg = findPackage(parts[1]);
-        const day = Number(parts[2]);
-        if (!pkg || !Number.isInteger(day) || day < 0 || !Core.chunkDays(pkg.words)[day]) {
+        // Unit key: a Day number or "t<n>" for a topic (Core.studyUnit).
+        const day = parts[2], unit = pkg && Core.studyUnit(pkg, day);
+        if (!unit) {
           if (listening) { haltListening(); listening = null; }
           html = empty('학습할 Day를 찾을 수 없어요', '단어장에서 Day를 다시 선택해 주세요.');
         }
         else if (page === 'listen') {
           selectedPackage = pkg.id;
           if (!listening || listening.route !== location.hash) {
-            listening = {route:location.hash, pkgId:pkg.id, words:Core.chunkDays(pkg.words)[day], index:0, playing:false, finished:false, notice:'', status:'재생을 누르면 첫 단어부터 들어요.'};
+            listening = {route:location.hash, pkgId:pkg.id, words:unit.words, index:0, playing:false, finished:false, notice:'', status:'재생을 누르면 첫 단어부터 들어요.'};
           }
-          html = renderListen(pkg, day);
+          html = renderListen(pkg, day, unit);
         }
         else if (page === 'day') {
           selectedPackage = pkg.id;
-          html = renderDay(pkg, day);
+          html = renderDay(pkg, day, unit);
         }
         else {
           if (!session || session.route !== location.hash) {
             // Cloze scores stay out of the Day's quiz best record.
-            startSession(page, dayItems(pkg, day), {route:location.hash, mode:parts[3] === 'ko2en' ? 'ko2en' : 'en2ko', returnHash:dayHash(pkg.id, day), label:`Day ${String(day + 1).padStart(2, '0')}`, dayKey:page === 'cloze' ? null : `${pkg.id}:${day}`});
+            startSession(page, unit.words.map(word => ({pkgId:pkg.id, word})), {route:location.hash, mode:parts[3] === 'ko2en' ? 'ko2en' : 'en2ko', returnHash:dayHash(pkg.id, day), label:unit.label, dayKey:page === 'cloze' ? null : `${pkg.id}:${day}`});
             return;
           }
           html = renderSession();
@@ -125,6 +126,10 @@
       selectedLevels[pkg.id] = levels[index] ?? null;
       persist({saveSelection:true}); render();
       main.querySelector(`[data-action="filter-level"][data-level="${index}"]`)?.focus({preventScroll:true});
+    }
+    else if (action === 'home-view') {
+      topicView = button.dataset.view === 'topic'; render();
+      main.querySelector(`[data-action="home-view"][data-view="${button.dataset.view}"]`)?.focus({preventScroll:true});
     }
     else if (action === 'pick-language') {
       // Returns to the wordbook last opened in that language; its first wordbook otherwise (or if that one was deleted).
@@ -198,7 +203,7 @@
       main.querySelectorAll('[data-meaning]').forEach(element => { element.hidden = meaningsHidden; });
     } else if (target.dataset.action === 'known') {
       const pkg = findPackage(target.dataset.pkg);
-      const word = Core.chunkDays(pkg.words)[Number(target.dataset.day)][Number(target.dataset.index)];
+      const word = Core.studyUnit(pkg, target.dataset.day).words[Number(target.dataset.index)];
       if (target.checked) state.known[Core.wordId(pkg.id, word[0])] = true;
       else delete state.known[Core.wordId(pkg.id, word[0])];
       persist(); updateNavigation('home');

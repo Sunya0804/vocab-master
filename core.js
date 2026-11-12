@@ -81,6 +81,25 @@
     return names;
   }
 
+  // A study unit is a Day ("3") or a topic ("t2" = pkg.topics[2], whose words are headwords looked up in pkg.words).
+  function studyUnit(pkg, key) {
+    var match = /^(t?)(\d+)$/.exec(String(key));
+    if (!match) return null;
+    var index = Number(match[2]);
+    if (!match[1]) {
+      var day = chunkDays(pkg.words)[index];
+      return day ? { words: day, label: 'Day ' + String(index + 1).padStart(2, '0') } : null;
+    }
+    var topic = Array.isArray(pkg.topics) ? pkg.topics[index] : null;
+    if (!topic || typeof topic.name !== 'string' || !Array.isArray(topic.words)) return null;
+    var byHeadword = new Map();
+    pkg.words.forEach(function (word) { if (!byHeadword.has(word[0])) byHeadword.set(word[0], word); });
+    var words = topic.words.map(function (headword) { return byHeadword.get(headword); }).filter(Boolean);
+    // A long topic is split into several entries with the same name; number them in the label.
+    var same = pkg.topics.filter(function (item) { return item && item.name === topic.name; });
+    return words.length ? { words: words, label: same.length > 1 ? topic.name + ' ' + (same.indexOf(topic) + 1) : topic.name } : null;
+  }
+
   function wordId(pkgId, word) {
     return pkgId + ':' + canonicalWord(pkgId, Array.isArray(word) ? word[0] : word);
   }
@@ -607,6 +626,7 @@
     examStats: examStats,
     chunkDays: chunkDays,
     dayLevels: dayLevels,
+    studyUnit: studyUnit,
     wordId: wordId,
     shuffle: shuffle,
     makeChoices: makeChoices,

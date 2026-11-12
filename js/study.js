@@ -1,5 +1,7 @@
 /* Study screens: home, word list, Day, cards, multiple-choice quiz, example cloze and wrong-answer notes. */
   'use strict';
+  // The home list shows the wordbook's topics instead of Days (only when it has topics).
+  let topicView = false;
   function renderHome() {
     const all = packages();
     const pkg = findPackage(selectedPackage) || all[0];
@@ -15,13 +17,26 @@
     const nextDay = visibleDays.find(({index}) => !state.progress[`${pkg.id}:${index}`]?.studied)?.index;
     const continueDay = nextDay ?? visibleDays[0]?.index;
     const languages = [...new Set(all.map(item => languageName(item.id)))], language = languageName(pkg.id);
+    const topics = (pkg.topics || []).map((topic, index) => ({key:`t${index}`, name:topic?.name, unit:Core.studyUnit(pkg, `t${index}`)})).filter(topic => topic.unit);
+    const byTopic = topicView && topics.length > 0;
+    const viewSwitch = topics.length ? `<div class="language-switch view-switch" role="group" aria-label="학습 방식 선택"><button class="segment" data-action="home-view" data-view="day" aria-pressed="${!byTopic}">Day별</button><button class="segment" data-action="home-view" data-view="topic" aria-pressed="${byTopic}">주제별</button></div>` : '';
+    if (byTopic) return `${intro('', pkg.name, `${new Set(topics.map(topic => topic.name)).size}개 주제 · 상황별 단어`)}
+      <div class="home-controls">${languages.length > 1 ? `<div class="language-switch" role="group" aria-label="언어 선택">${languages.map(name => `<button class="segment" data-action="pick-language" data-language="${escape(name)}" aria-pressed="${name === language}">${escape(name)}</button>`).join('')}</div>` : ''}
+      <label class="package-picker"><span class="field-label">지금 학습할 ${escape(language)} 단어장</span><select id="package-select" aria-label="${escape(language)} 단어장 선택">${all.filter(item => languageName(item.id) === language).map(item => `<option value="${escape(item.id)}" ${item.id === pkg.id ? 'selected' : ''}>${escape(item.name)}</option>`).join('')}</select></label></div>
+      ${viewSwitch}<div class="section-heading"><h2>주제별 학습</h2><small>학습 완료 ${topics.filter(topic => state.progress[`${pkg.id}:${topic.key}`]?.studied).length} / ${topics.length}</small></div>
+      <div class="day-list">${topics.map((topic, position) => {
+        const {words, label} = topic.unit, count = words.filter(word => isKnown(pkg.id, word)).length, progress = state.progress[`${pkg.id}:${topic.key}`];
+        const heading = position === 0 || topics[position - 1].name !== topic.name ? `<h3 class="level-heading">${escape(topic.name)}</h3>` : '';
+        const part = label === topic.name ? '' : label.slice(topic.name.length + 1);
+        return `${heading}<a class="day-card" href="${dayHash(pkg.id, topic.key)}" aria-label="${escape(label)}, ${words.length}단어, 아는 단어 ${count}개, ${progress?.studied ? '학습 완료' : '학습 미완료'}, ${progress?.best != null ? `퀴즈 최고 ${progress.best}점` : '퀴즈 기록 없음'}"><span class="day-number"><small>Part</small>${escape(String(part || 1).padStart(2, '0'))}</span><div><div class="day-title"><strong>${escape(words.slice(0, 3).map(word => word[0]).join(' · '))}</strong></div>${meter(count, words.length, '', true, true)}<div class="day-meta"><span>아는 단어 ${count} / ${words.length}</span><span class="score-pill">${progress?.best != null ? `최고 ${progress.best}점` : progress?.studied ? '학습 완료' : ''}</span></div></div><span class="chevron" aria-hidden="true">${icon('chevron-right')}</span></a>`;
+      }).join('')}</div>`;
     return `${intro('', pkg.name, `${days.length} Days · 하루 20단어`)}
       ${!navigator.onLine ? '<p class="offline-banner">오프라인 학습 중 · 기록은 이 기기에 저장돼요.</p>' : ''}
       <div class="home-controls">${languages.length > 1 ? `<div class="language-switch" role="group" aria-label="언어 선택">${languages.map(name => `<button class="segment" data-action="pick-language" data-language="${escape(name)}" aria-pressed="${name === language}">${escape(name)}</button>`).join('')}</div>` : ''}
       <label class="package-picker"><span class="field-label">지금 학습할 ${escape(language)} 단어장</span><select id="package-select" aria-label="${escape(language)} 단어장 선택">${all.filter(item => languageName(item.id) === language).map(item => `<option value="${escape(item.id)}" ${item.id === pkg.id ? 'selected' : ''}>${escape(item.name)}</option>`).join('')}</select></label>
       ${levels.length ? `<div class="level-filter" role="group" aria-label="난이도 레벨 선택"><button class="level-chip" data-action="filter-level" data-level="-1" aria-pressed="${selectedLevel === null}">전체</button>${levels.map((name, index) => `<button class="level-chip" data-action="filter-level" data-level="${index}" aria-pressed="${selectedLevel === name}">${escape(name)}</button>`).join('')}</div>` : ''}</div>
       ${visibleDays.length ? `<section class="hero" aria-label="오늘의 Day 카드"><div class="hero-heading"><h2>오늘의 Day ${String(continueDay + 1).padStart(2, '0')}</h2><span>${days[continueDay].length}단어</span></div><ul class="hero-words">${days[continueDay].slice(0, 3).map(word => `<li><strong lang="${escape(packageLang(pkg.id))}" title="${escape(word[0])}">${escape(word[0])}</strong><span title="${escape(word[1])}">${escape(word[1])}</span></li>`).join('')}</ul><div class="hero-meta"><span>아는 단어</span><span>${days[continueDay].filter(word => isKnown(pkg.id, word)).length} / ${days[continueDay].length}</span></div>${meter(days[continueDay].filter(word => isKnown(pkg.id, word)).length, days[continueDay].length, '아는 단어 비율', false, true)}<a class="button-link primary full continue-learning" href="${dayHash(pkg.id, continueDay)}">${nextDay === undefined ? '다시 학습' : '이어서 학습'} ${icon('arrow-right')}</a></section>` : ''}
-      <div class="section-heading"><h2>${selectedLevel === null ? 'Day별 학습' : escape(selectedLevel)}</h2><small>학습 완료 ${completed} / ${visibleDays.length} Days</small></div>
+      ${viewSwitch}<div class="section-heading"><h2>${selectedLevel === null ? 'Day별 학습' : escape(selectedLevel)}</h2><small>학습 완료 ${completed} / ${visibleDays.length} Days</small></div>
       <div class="day-list">${visibleDays.map(({words, index}, position) => {
         const count = words.filter(word => isKnown(pkg.id, word)).length;
         const progress = state.progress[`${pkg.id}:${index}`];
@@ -31,18 +46,15 @@
       }).join('')}</div>`;
   }
 
-  function renderDay(pkg, day) {
-    const words = Core.chunkDays(pkg.words)[day];
-    if (!words) return empty('해당 Day를 찾을 수 없어요', '단어장에서 학습할 Day를 선택해 주세요.');
+  // day: unit key from the route (Day number or "t<n>" topic); unit: Core.studyUnit(pkg, day).
+  function renderDay(pkg, day, unit = Core.studyUnit(pkg, day)) {
+    if (!unit) return empty('해당 Day를 찾을 수 없어요', '단어장에서 학습할 Day를 선택해 주세요.');
+    const {words, label} = unit;
     const clozeCount = words.filter(word => clozeFor({pkgId:pkg.id, word})).length;
-    return `${back('#/home')}${intro(pkg.name, `Day ${String(day + 1).padStart(2, '0')}`, `${words.length}개 단어 · 카드 · 퀴즈 · 예문 빈칸 · 듣기`)}
-      <div class="stack"><button class="primary" data-action="start-cards" data-pkg="${escape(pkg.id)}" data-day="${day}">카드 학습 시작 ${icon('arrow-right')}</button><div class="button-row"><button data-action="start-quiz" data-pkg="${escape(pkg.id)}" data-day="${day}" data-mode="en2ko">퀴즈 ${languageShort(pkg.id)} ${icon('arrow-right')} 한</button><button data-action="start-quiz" data-pkg="${escape(pkg.id)}" data-day="${day}" data-mode="ko2en">퀴즈 한 ${icon('arrow-right')} ${languageShort(pkg.id)}</button></div><button class="secondary" data-action="start-cloze" data-pkg="${escape(pkg.id)}" data-day="${day}" ${!clozeCount ? 'disabled' : ''}>예문 빈칸${clozeCount && clozeCount < words.length ? ` · ${clozeCount}문제` : ''} ${icon('arrow-right')}</button>${!clozeCount ? '<p class="session-note">예문에서 단어를 찾지 못해 예문 빈칸 문제를 만들 수 없어요.</p>' : ''}<button class="secondary" data-action="start-listen" data-pkg="${escape(pkg.id)}" data-day="${day}" aria-label="Day ${day + 1} 듣기" ${!supportsSpeech ? 'disabled' : ''}>${icon('headphones')} 듣기</button>${!supportsSpeech ? '<p class="session-note">이 브라우저는 음성 합성을 지원하지 않아요.</p>' : ''}</div>
+    return `${back('#/home')}${intro(pkg.name, label, `${words.length}개 단어 · 카드 · 퀴즈 · 예문 빈칸 · 듣기`)}
+      <div class="stack"><button class="primary" data-action="start-cards" data-pkg="${escape(pkg.id)}" data-day="${day}">카드 학습 시작 ${icon('arrow-right')}</button><div class="button-row"><button data-action="start-quiz" data-pkg="${escape(pkg.id)}" data-day="${day}" data-mode="en2ko">퀴즈 ${languageShort(pkg.id)} ${icon('arrow-right')} 한</button><button data-action="start-quiz" data-pkg="${escape(pkg.id)}" data-day="${day}" data-mode="ko2en">퀴즈 한 ${icon('arrow-right')} ${languageShort(pkg.id)}</button></div><button class="secondary" data-action="start-cloze" data-pkg="${escape(pkg.id)}" data-day="${day}" ${!clozeCount ? 'disabled' : ''}>예문 빈칸${clozeCount && clozeCount < words.length ? ` · ${clozeCount}문제` : ''} ${icon('arrow-right')}</button>${!clozeCount ? '<p class="session-note">예문에서 단어를 찾지 못해 예문 빈칸 문제를 만들 수 없어요.</p>' : ''}<button class="secondary" data-action="start-listen" data-pkg="${escape(pkg.id)}" data-day="${day}" aria-label="${escape(label)} 듣기" ${!supportsSpeech ? 'disabled' : ''}>${icon('headphones')} 듣기</button>${!supportsSpeech ? '<p class="session-note">이 브라우저는 음성 합성을 지원하지 않아요.</p>' : ''}</div>
       <div class="section-heading"><h2>오늘의 단어 <span class="pill">${words.length}</span></h2><label class="toggle-label"><input id="hide-meanings" type="checkbox" ${meaningsHidden ? 'checked' : ''}> 뜻 가리기</label></div>
       <ul class="word-list">${words.map((word, index) => `<li class="word-row"><div class="word-content">${wordHTML(word, meaningsHidden, true, pkg.id)}</div>${speaker(word[0], pkg.id)}<label class="check-label"><input type="checkbox" data-action="known" data-pkg="${escape(pkg.id)}" data-day="${day}" data-index="${index}" aria-label="${escape(word[0])} 알아요" ${isKnown(pkg.id, word) ? 'checked' : ''}></label></li>`).join('')}</ul>`;
-  }
-
-  function dayItems(pkg, day) {
-    return (Core.chunkDays(pkg.words)[day] || []).map(word => ({pkgId:pkg.id, word}));
   }
 
   function startSession(type, items, options = {}) {

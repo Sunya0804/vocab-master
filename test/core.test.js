@@ -67,6 +67,27 @@ test('chunkDays preserves order, handles partial/empty days and copies arrays', 
   }
 });
 
+test('studyUnit resolves Day numbers and topic keys, numbering split topics', () => {
+  const words = Array.from({ length: 25 }, (_, index) => ['word' + index, '뜻' + index]);
+  const pkg = { words, topics: [{ name: '여행', words: ['word3', 'missing', 'word1'] }, { name: '식당', words: ['word24'] }, { name: '여행', words: ['word5'] }, { name: '빈 주제', words: ['missing'] }] };
+  assert.deepEqual(Core.studyUnit(pkg, '1'), { words: words.slice(20), label: 'Day 02' });
+  assert.deepEqual(Core.studyUnit(pkg, 't0'), { words: [words[3], words[1]], label: '여행 1' });
+  assert.deepEqual(Core.studyUnit(pkg, 't1'), { words: [words[24]], label: '식당' });
+  assert.equal(Core.studyUnit(pkg, 't2').label, '여행 2');
+  for (const key of ['2', 't3', 't9', '-1', '1.5', 'x', '']) assert.equal(Core.studyUnit(pkg, key), null, key);
+  assert.equal(Core.studyUnit({ words }, 't0'), null);
+});
+
+test('TOEIC topics only reference existing headwords, each at most once', () => {
+  const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'packages', 'toeic.json'), 'utf8'));
+  const headwords = new Set(pkg.words.map(word => word[0]));
+  const used = pkg.topics.flatMap(topic => topic.words);
+  assert.ok(pkg.topics.length > 0);
+  assert.ok(used.every(word => headwords.has(word)));
+  assert.equal(new Set(used).size, used.length);
+  assert.ok(pkg.topics.every(topic => topic.words.length >= 1 && topic.words.length <= 20));
+});
+
 test('dayLevels covers current Suneung Days in contiguous declared level order', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '../packages/suneung.json'), 'utf8'));
   const snapshot = JSON.stringify(pkg);
