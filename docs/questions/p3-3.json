@@ -1,0 +1,1827 @@
+[
+  {
+    "id": "p3-3-001",
+    "difficulty": 1,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "We have twenty company jackets left from the old sales uniform. The fabric is still in good condition. Could we give them to the clothing donation center?"
+      },
+      {
+        "s": "M",
+        "t": "Yes, but the embroidered company names need to come off first. We do not want the jackets mistaken for current staff uniforms."
+      },
+      {
+        "s": "W",
+        "t": "The alteration shop can remove the stitching without damaging the lining. They offered to do the whole batch by Wednesday."
+      },
+      {
+        "s": "M",
+        "t": "That would be useful. Have you checked whether the center accepts work jackets?"
+      },
+      {
+        "s": "W",
+        "t": "I called this morning, and they do, as long as the jackets are clean."
+      },
+      {
+        "s": "M",
+        "t": "Then I’ll arrange cleaning after the alteration work and contact the center about collection."
+      }
+    ],
+    "scriptKo": [
+      "예전 영업 유니폼 재킷이 20벌 남았어요. 원단은 아직 상태가 좋아요. 의류 기부 센터에 줘도 될까요?",
+      "네, 하지만 수놓은 회사 이름부터 제거해야 해요. 현재 직원 유니폼으로 오인되면 안 되니까요.",
+      "수선점에서 안감을 손상시키지 않고 자수를 제거할 수 있대요. 수요일까지 전량 작업해 주겠다고 했어요.",
+      "좋겠네요. 센터가 작업용 재킷을 받는지도 확인했나요?",
+      "오늘 아침에 전화했는데, 깨끗하면 받는대요.",
+      "그럼 수선 후 세탁을 준비하고 센터에 수거를 문의할게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "topic",
+        "q": "What are the speakers discussing?",
+        "choices": [
+          "Donating unused uniforms",
+          "Ordering new company jackets",
+          "Hiring a sales representative",
+          "Opening an alteration shop"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "화자들은 무엇에 대해 이야기하는가?",
+          "choices": [
+            "사용하지 않는 유니폼 기부",
+            "새 회사 재킷 주문",
+            "영업 담당자 채용",
+            "수선점 개업"
+          ]
+        },
+        "explain": "첫 발화에서 남은 옛 유니폼을 기부할지 논의한다. 새 유니폼을 주문하는 대화가 아니다."
+      },
+      {
+        "type": "reason",
+        "q": "Why must the company names be removed?",
+        "choices": [
+          "The donation center has changed its name.",
+          "The lining cannot be cleaned with stitching attached.",
+          "The jackets should not identify wearers as employees.",
+          "The alteration shop needs space for larger labels."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "회사 이름을 제거해야 하는 이유는 무엇인가?",
+          "choices": [
+            "기부 센터가 이름을 바꾸어서",
+            "자수가 있으면 안감을 세탁할 수 없어서",
+            "착용자가 직원으로 보이면 안 되어서",
+            "수선점이 더 큰 표시를 붙일 공간이 필요해서"
+          ]
+        },
+        "explain": "남자는 현재 직원 유니폼으로 착각하지 않도록 회사명을 제거해야 한다고 설명한다. 안감 손상 없이 작업할 수 있다는 말도 나온다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man arrange after the jackets are altered?",
+        "choices": [
+          "A uniform design contest",
+          "A cleaning service",
+          "A visit from the sales team",
+          "A replacement lining order"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "재킷을 수선한 뒤 남자는 무엇을 준비할 것인가?",
+          "choices": [
+            "유니폼 디자인 공모전",
+            "세탁 서비스",
+            "영업팀 방문",
+            "교체용 안감 주문"
+          ]
+        },
+        "explain": "마지막 발화에서 수선 작업 후 세탁을 준비하겠다고 한다. 수선점은 이미 정해져 있어 새 안감을 주문하는 것은 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-002",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "The supplier’s confirmation shows five cartons of drinking glasses for our staff dining room. I entered sixty in the order screen, so I expected sixty cartons."
+      },
+      {
+        "s": "W",
+        "t": "The screen counts individual glasses. Each carton contains twelve, which is why the confirmation lists five cartons."
+      },
+      {
+        "s": "M",
+        "t": "Then the shipment will be much smaller than I intended. We need enough for all six dining stations."
+      },
+      {
+        "s": "W",
+        "t": "How many glasses did you actually want at each station?"
+      },
+      {
+        "s": "M",
+        "t": "One hundred and twenty. I used our old spreadsheet, where quantities meant cartons, without checking the new screen."
+      },
+      {
+        "s": "W",
+        "t": "The order has not been packed yet. I’ll ask the supplier to revise the total to seven hundred and twenty individual glasses."
+      }
+    ],
+    "scriptKo": [
+      "공급업체 확인서에 직원 식당용 유리잔이 다섯 상자라고 나와요. 주문 화면에 60을 입력했으니 60상자를 예상했어요.",
+      "화면은 유리잔 낱개 수를 세요. 상자당 12개라서 확인서에는 다섯 상자로 나오는 거예요.",
+      "그럼 의도한 것보다 배송량이 훨씬 적겠네요. 식사 구역 여섯 곳에 쓸 만큼 필요해요.",
+      "구역마다 유리잔을 실제로 몇 개씩 두려 했나요?",
+      "120개요. 수량이 상자 수를 뜻했던 예전 스프레드시트를 쓰면서 새 화면을 확인하지 않았어요.",
+      "아직 포장 전이에요. 공급업체에 총수량을 낱개 720개로 수정해 달라고 할게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "reason",
+        "q": "What caused the ordering problem?",
+        "choices": [
+          "A carton was damaged during delivery.",
+          "The dining room canceled a reservation.",
+          "The supplier packed the wrong type of glass.",
+          "The man misunderstood the unit used for quantities."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "주문 문제의 원인은 무엇인가?",
+          "choices": [
+            "배송 중 상자가 손상되었다.",
+            "식당이 예약을 취소했다.",
+            "공급업체가 다른 종류의 잔을 포장했다.",
+            "남자가 수량에 사용된 단위를 잘못 이해했다."
+          ]
+        },
+        "explain": "주문 화면은 낱개 단위인데 남자가 상자 단위로 이해했다. 아직 포장 전이므로 포장 실수나 배송 손상이 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "How many dining stations need glasses?",
+        "choices": [
+          "Five",
+          "Six",
+          "Twelve",
+          "Sixty"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "유리잔이 필요한 식사 구역은 몇 곳인가?",
+          "choices": [
+            "다섯 곳",
+            "여섯 곳",
+            "열두 곳",
+            "예순 곳"
+          ]
+        },
+        "explain": "남자가 여섯 구역 모두에 쓸 양이 필요하다고 말한다. 5는 확인서의 상자 수다."
+      },
+      {
+        "type": "next",
+        "q": "What will the woman do next?",
+        "choices": [
+          "Revise the dining room layout",
+          "Inspect the delivered cartons",
+          "Request a larger order quantity",
+          "Replace the supplier’s packing equipment"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "여자는 다음에 무엇을 할 것인가?",
+          "choices": [
+            "식당 배치를 수정한다.",
+            "배송된 상자를 검사한다.",
+            "주문 수량 증가를 요청한다.",
+            "공급업체 포장 장비를 교체한다."
+          ]
+        },
+        "explain": "마지막 발화에서 공급업체에 낱개 720개로 변경을 요청하겠다고 한다. 아직 배송된 상자는 없다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-003",
+    "difficulty": 3,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "The closed path around our display conveyor measures one hundred centimeters. Which stock strip should I order to make the belt?"
+      },
+      {
+        "s": "M",
+        "t": "We join the ends by overlapping them ten centimeters. Add that amount to the measured path when you choose the cut length from this list."
+      },
+      {
+        "s": "W",
+        "t": "Understood. Can we run the conveyor as soon as the ends are bonded?"
+      },
+      {
+        "s": "M",
+        "t": "No. The adhesive needs four hours to set before the belt moves. Starting early could weaken the joint."
+      },
+      {
+        "s": "W",
+        "t": "The display remains closed until tomorrow, so we have plenty of time. I’ll order the correct strip now."
+      },
+      {
+        "s": "M",
+        "t": "While you do that, I’ll mark the overlap area on our practice piece so the assembly team can see where the ends meet."
+      }
+    ],
+    "scriptKo": [
+      "전시용 컨베이어의 닫힌 경로 길이는 100센티미터예요. 벨트를 만들려면 어느 규격 띠를 주문해야 하죠?",
+      "끝부분을 10센티미터 겹쳐서 이어요. 목록에서 절단 길이를 고를 때 측정한 경로 길이에 그만큼 더하세요.",
+      "알겠어요. 양 끝을 접착하면 바로 컨베이어를 돌릴 수 있나요?",
+      "아니요. 벨트가 움직이기 전에 접착제가 굳는 데 네 시간이 필요해요. 일찍 시작하면 이음매가 약해질 수 있어요.",
+      "전시는 내일까지 닫혀 있으니 시간은 충분해요. 지금 맞는 띠를 주문할게요.",
+      "그동안 저는 조립팀이 양 끝이 만나는 곳을 볼 수 있도록 연습용 조각에 겹치는 부분을 표시할게요."
+    ],
+    "graphic": {
+      "title": "Belt Stock",
+      "titleKo": "벨트 규격",
+      "rows": [
+        [
+          "Stock",
+          "Cut length"
+        ],
+        [
+          "R1",
+          "100 cm"
+        ],
+        [
+          "R2",
+          "110 cm"
+        ],
+        [
+          "R3",
+          "120 cm"
+        ],
+        [
+          "R4",
+          "130 cm"
+        ]
+      ]
+    },
+    "questions": [
+      {
+        "type": "graphic",
+        "q": "Look at the graphic. Which stock strip should the woman order?",
+        "choices": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "시각 자료를 보라. 여자는 어느 규격 띠를 주문해야 하는가?",
+          "choices": [
+            "R1",
+            "R2",
+            "R3",
+            "R4"
+          ]
+        },
+        "explain": "경로 100cm에 겹침 10cm를 더한 절단 길이 110cm가 필요하며 표의 R2에 해당한다. R1은 겹침 여유가 없다."
+      },
+      {
+        "type": "reason",
+        "q": "Why must the speakers delay running the conveyor?",
+        "choices": [
+          "The bonding material needs time to harden.",
+          "The display area is occupied by visitors.",
+          "The assembly team has ordered another machine.",
+          "The measured path is too short."
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "화자들이 컨베이어 가동을 늦춰야 하는 이유는 무엇인가?",
+          "choices": [
+            "접착 재료가 굳을 시간이 필요하다.",
+            "관람객이 전시 공간을 사용하고 있다.",
+            "조립팀이 다른 기계를 주문했다.",
+            "측정된 경로가 너무 짧다."
+          ]
+        },
+        "explain": "네 번째 발화에서 접착제가 굳는 데 네 시간이 필요하다고 설명한다. 전시는 닫혀 있어 관람객 때문이 아니다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man do next?",
+        "choices": [
+          "Open the display to visitors",
+          "Shorten the conveyor frame",
+          "Contact the stock supplier",
+          "Indicate the joining area on a sample"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "남자는 다음에 무엇을 할 것인가?",
+          "choices": [
+            "전시를 관람객에게 개방한다.",
+            "컨베이어 틀을 짧게 만든다.",
+            "규격 띠 공급업체에 연락한다.",
+            "견본에 연결 부위를 표시한다."
+          ]
+        },
+        "explain": "마지막 발화에서 연습용 조각의 겹침 영역을 표시하겠다고 한다. 주문은 여자가 맡는다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-004",
+    "difficulty": 3,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "I’ve recorded the first section of our company’s audio product guide. The words are clear, but the editor asked for a different rhythm."
+      },
+      {
+        "s": "W",
+        "t": "You move straight from one section into the next. I need a few silent seconds where I can cut the recording and insert the section announcements."
+      },
+      {
+        "s": "M",
+        "t": "I was trying to keep the total running time short. Should I read the sentences faster?"
+      },
+      {
+        "s": "W",
+        "t": "Give me some breathing room."
+      },
+      {
+        "s": "M",
+        "t": "All right. I’ll leave a pause after each section heading instead of speeding up the words."
+      },
+      {
+        "s": "W",
+        "t": "That will help. Keep the sentence pace you used; it is easy to follow."
+      },
+      {
+        "s": "M",
+        "t": "Would you like another complete recording?"
+      },
+      {
+        "s": "W",
+        "t": "Just redo the first two sections as a trial. We can check the gaps before recording the rest."
+      }
+    ],
+    "scriptKo": [
+      "우리 회사 오디오 제품 안내서의 첫 부분을 녹음했어요. 말은 명확한데 편집자가 다른 리듬을 요청했어요.",
+      "한 부분에서 곧바로 다음 부분으로 넘어가네요. 녹음을 자르고 구간 안내를 넣을 수 있게 몇 초씩 조용한 틈이 필요해요.",
+      "전체 재생 시간을 짧게 하려 했어요. 문장을 더 빨리 읽을까요?",
+      "숨 돌릴 여유를 좀 주세요.",
+      "알겠어요. 말을 빠르게 하는 대신 각 구간 제목 뒤에 잠깐 멈출게요.",
+      "도움이 되겠어요. 문장 읽는 속도는 지금처럼 유지하세요. 따라가기 좋아요.",
+      "전체를 다시 녹음할까요?",
+      "시험 삼아 처음 두 부분만 다시 해 주세요. 나머지를 녹음하기 전에 공백을 확인할 수 있어요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "speaker",
+        "q": "What is the woman most likely responsible for?",
+        "choices": [
+          "Selling audio equipment",
+          "Writing product warranties",
+          "Editing recorded material",
+          "Scheduling factory maintenance"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "여자는 무엇을 담당할 가능성이 가장 높은가?",
+          "choices": [
+            "음향 장비 판매",
+            "제품 보증서 작성",
+            "녹음 자료 편집",
+            "공장 정비 일정 수립"
+          ]
+        },
+        "explain": "여자는 녹음을 잘라 안내를 삽입할 여백이 필요하다고 말하므로 편집 담당자다. 장비 판매에 관한 대화가 아니다."
+      },
+      {
+        "type": "intention",
+        "q": "Why does the woman say, \"Give me some breathing room.\"?",
+        "choices": [
+          "To request a larger recording booth",
+          "To ask for a longer lunch break",
+          "To reduce the number of product sections",
+          "To obtain pauses for inserting recorded announcements"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "여자는 왜 “숨 돌릴 여유를 좀 주세요.”라고 말하는가?",
+          "choices": [
+            "더 큰 녹음실을 요청하려고",
+            "점심시간을 늘려 달라고 하려고",
+            "제품 구간 수를 줄이려고",
+            "녹음된 안내를 삽입할 공백을 확보하려고"
+          ]
+        },
+        "explain": "앞서 편집과 구간 안내 삽입을 위한 침묵이 필요하다고 설명했다. 공간이나 휴식 시간이 아닌 녹음 속 여백을 요청한다."
+      },
+      {
+        "type": "suggest",
+        "q": "What does the woman ask the man to do?",
+        "choices": [
+          "Record a small portion again",
+          "Speak more quickly throughout",
+          "Remove all section headings",
+          "Send the guide directly to customers"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "여자는 남자에게 무엇을 요청하는가?",
+          "choices": [
+            "작은 부분을 다시 녹음한다.",
+            "전체를 더 빨리 말한다.",
+            "구간 제목을 모두 없앤다.",
+            "안내서를 고객에게 바로 보낸다."
+          ]
+        },
+        "explain": "마지막에 처음 두 부분만 시험 삼아 다시 녹음해 달라고 한다. 문장 읽는 속도는 유지하라고 했다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-005",
+    "difficulty": 1,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "I’m buying this desk clock as a retirement gift for a colleague. Could you include a receipt that does not show the price?"
+      },
+      {
+        "s": "W",
+        "t": "Certainly. We can print a gift receipt. Your colleague can use it to exchange the clock within thirty days."
+      },
+      {
+        "s": "M",
+        "t": "If she chooses something less expensive, will she receive the difference in cash?"
+      },
+      {
+        "s": "W",
+        "t": "We put any remaining value on a store credit card. Cash refunds require the original payment receipt and the card used for the purchase."
+      },
+      {
+        "s": "M",
+        "t": "That is fine. Please put the gift receipt inside the box and give the original receipt to me."
+      },
+      {
+        "s": "W",
+        "t": "Of course. I’ll also remove the price sticker before wrapping the box."
+      }
+    ],
+    "scriptKo": [
+      "동료의 퇴직 선물로 이 탁상시계를 사려 해요. 가격이 안 나오는 영수증을 넣어 주실 수 있나요?",
+      "물론이죠. 선물용 영수증을 출력할 수 있어요. 동료분이 그 영수증으로 30일 안에 시계를 교환할 수 있어요.",
+      "더 저렴한 것을 고르면 차액을 현금으로 받나요?",
+      "남는 금액은 매장에서 사용할 수 있는 환불 크레딧 카드에 넣어 드려요. 현금 환불은 최초 결제 영수증과 구매 때 쓴 카드가 필요해요.",
+      "괜찮아요. 선물용 영수증은 상자 안에 넣고 원래 영수증은 저에게 주세요.",
+      "네. 포장하기 전에 가격표도 떼어 드릴게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Why is the man buying a clock?",
+        "choices": [
+          "To replace a damaged office clock",
+          "To celebrate a colleague’s retirement",
+          "To display prices in a store",
+          "To complete a customer’s exchange"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "남자는 왜 시계를 사는가?",
+          "choices": [
+            "고장 난 사무실 시계를 교체하려고",
+            "동료의 퇴직을 기념하려고",
+            "매장에 가격을 표시하려고",
+            "고객의 교환을 처리하려고"
+          ]
+        },
+        "explain": "첫 발화에서 동료 퇴직 선물이라고 했다. 교환은 실제 구매 목적이 아닌 이후의 가능성을 묻는 내용이다."
+      },
+      {
+        "type": "detail",
+        "q": "How is unused value handled after an exchange with a gift receipt?",
+        "choices": [
+          "It is paid in cash.",
+          "It is returned to the colleague’s bank.",
+          "It is added to a store credit card.",
+          "It is deducted from the wrapping charge."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "선물 영수증으로 교환한 뒤 남은 금액은 어떻게 처리되는가?",
+          "choices": [
+            "현금으로 지급된다.",
+            "동료의 은행 계좌로 반환된다.",
+            "매장 전용 환불 크레딧 카드에 넣는다.",
+            "포장비에서 차감한다."
+          ]
+        },
+        "explain": "여자는 교환 차액을 이후 매장 구매에 쓸 수 있는 크레딧으로 돌려준다고 한다. 포인트 적립이나 현금 지급이 아니며 현금 환불에는 다른 증빙이 필요하다."
+      },
+      {
+        "type": "next",
+        "q": "What will the woman remove before wrapping the gift?",
+        "choices": [
+          "A price label",
+          "The clock’s battery",
+          "The gift receipt",
+          "The store credit card"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "여자는 선물을 포장하기 전에 무엇을 제거할 것인가?",
+          "choices": [
+            "가격표",
+            "시계 배터리",
+            "선물용 영수증",
+            "매장 전용 환불 크레딧 카드"
+          ]
+        },
+        "explain": "마지막 발화에서 포장 전 가격 스티커를 떼겠다고 한다. 선물 영수증은 상자 안에 넣기로 했다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-006",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "One bidder for our cleaning contract has asked whether window washing is included. The tender document mentions interior cleaning but says nothing about windows."
+      },
+      {
+        "s": "W",
+        "t": "I wrote the service description. Windows are outside the contract, but that omission could affect everyone’s price."
+      },
+      {
+        "s": "M2",
+        "t": "Then we should send the clarification to all invited bidders, not just the company that asked."
+      },
+      {
+        "s": "M",
+        "t": "Should I identify the company in the message? Some bidders might want to discuss the question with them."
+      },
+      {
+        "s": "W",
+        "t": "No. Share the question and our answer without naming the source. There is no need for bidders to contact one another."
+      },
+      {
+        "s": "M2",
+        "t": "I’ll prepare a short notice for the tender portal."
+      },
+      {
+        "s": "M",
+        "t": "Send me the draft first. I’ll compare it with the service description before you publish it."
+      }
+    ],
+    "scriptKo": [
+      "청소 계약 입찰업체 하나가 창문 청소도 포함되는지 물었어요. 입찰 문서에는 실내 청소만 있고 창문 이야기는 없어요.",
+      "제가 서비스 설명을 썼어요. 창문은 계약 범위 밖이지만 그 누락이 모든 업체의 가격에 영향을 줄 수 있겠네요.",
+      "그럼 질문한 회사뿐 아니라 초청한 모든 입찰업체에 설명을 보내야겠어요.",
+      "메시지에 질문한 회사를 밝혀야 하나요? 다른 업체가 그 회사와 질문을 논의하고 싶어 할 수도 있잖아요.",
+      "아니요. 출처를 밝히지 말고 질문과 답변만 공유하세요. 업체끼리 연락할 필요는 없어요.",
+      "입찰 포털에 올릴 짧은 공지를 준비할게요.",
+      "먼저 초안을 저에게 보내세요. 게시 전에 서비스 설명과 비교해 볼게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "topic",
+        "q": "What are the speakers mainly discussing?",
+        "choices": [
+          "Extending a cleaning contract",
+          "Replacing damaged office windows",
+          "Interviewing cleaning employees",
+          "Clarifying the scope of a bidding opportunity"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "화자들이 주로 논의하는 것은 무엇인가?",
+          "choices": [
+            "청소 계약 연장",
+            "손상된 사무실 창문 교체",
+            "청소 직원 면접",
+            "입찰 대상 업무 범위 명확화"
+          ]
+        },
+        "explain": "창문 청소 포함 여부를 모든 입찰업체에 어떻게 알릴지 논의한다. 계약 연장이나 직원 채용이 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "What should be omitted from the notice?",
+        "choices": [
+          "The identity of the bidder who raised the question",
+          "The answer about window washing",
+          "The question concerning the service scope",
+          "The fact that windows are excluded"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "공지에서 무엇을 빼야 하는가?",
+          "choices": [
+            "질문한 입찰업체의 신원",
+            "창문 청소에 관한 답변",
+            "서비스 범위에 관한 질문",
+            "창문이 제외된다는 사실"
+          ]
+        },
+        "explain": "여자는 질문과 답변을 공유하되 질문한 업체는 밝히지 말라고 한다. 범위에 관한 답변은 공지의 핵심이다."
+      },
+      {
+        "type": "next",
+        "q": "What must happen before the notice is published?",
+        "choices": [
+          "All bidders must agree on one price.",
+          "The source company must contact its competitors.",
+          "The draft must be checked against the service description.",
+          "The window washing must be completed."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "공지를 게시하기 전에 무엇을 해야 하는가?",
+          "choices": [
+            "모든 업체가 하나의 가격에 합의한다.",
+            "질문한 회사가 경쟁사에 연락한다.",
+            "초안을 서비스 설명과 대조한다.",
+            "창문 청소를 완료한다."
+          ]
+        },
+        "explain": "첫 번째 남자가 마지막 발화에서 초안을 서비스 설명과 비교한 후 게시하자고 한다. 업체 간 가격 합의는 요청하지 않았다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-007",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "The fruit drink from our new cafeteria dispenser tastes much stronger than the sample we approved. Could the mixing program be wrong?"
+      },
+      {
+        "s": "M",
+        "t": "It could. We used the correct concentrate, but the machine still has the setting from our previous supplier."
+      },
+      {
+        "s": "W",
+        "t": "The new supplier also recommends chilled water. We used water straight from the storage tank during the test."
+      },
+      {
+        "s": "M",
+        "t": "I’ll connect the chilled supply before we run another batch. Do you have the approved mixing instructions?"
+      },
+      {
+        "s": "W",
+        "t": "Yes. The approved sample was made with two liters of concentrate and eight liters of water."
+      },
+      {
+        "s": "M",
+        "t": "Then choose the program on this chart with that same proportion. The machine will keep the ratio when we dispense smaller amounts."
+      }
+    ],
+    "scriptKo": [
+      "새 구내식당 음료 기계에서 나온 과일 음료가 승인했던 견본보다 훨씬 진해요. 혼합 프로그램이 잘못됐을까요?",
+      "그럴 수 있어요. 농축액은 맞게 썼지만 기계에는 이전 공급업체 설정이 남아 있어요.",
+      "새 공급업체는 차가운 물도 권장해요. 시험 때는 저장 탱크의 물을 그대로 썼어요.",
+      "다시 만들기 전에 냉수 공급 장치를 연결할게요. 승인된 혼합 지침이 있나요?",
+      "네. 승인된 견본은 농축액 2리터와 물 8리터로 만들었어요.",
+      "그럼 이 표에서 같은 비율의 프로그램을 고르세요. 적은 양을 뽑을 때도 기계가 비율을 유지할 거예요."
+    ],
+    "graphic": {
+      "title": "Mixing Programs",
+      "titleKo": "혼합 프로그램",
+      "rows": [
+        [
+          "Program",
+          "Concentrate : Water"
+        ],
+        [
+          "P1",
+          "1 : 3"
+        ],
+        [
+          "P2",
+          "1 : 4"
+        ],
+        [
+          "P3",
+          "1 : 5"
+        ],
+        [
+          "P4",
+          "1 : 6"
+        ]
+      ]
+    },
+    "questions": [
+      {
+        "type": "reason",
+        "q": "Why do the speakers suspect the dispenser setting?",
+        "choices": [
+          "The concentrate has passed its expiry date.",
+          "It was configured for a former supplier’s product.",
+          "The storage tank contains no water.",
+          "The cafeteria has stopped serving fruit drinks."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "화자들은 왜 음료 기계 설정을 의심하는가?",
+          "choices": [
+            "농축액의 유통기한이 지났기 때문에",
+            "이전 공급업체 제품에 맞춰져 있었기 때문에",
+            "저장 탱크에 물이 없기 때문에",
+            "구내식당이 과일 음료 판매를 중단했기 때문에"
+          ]
+        },
+        "explain": "남자는 농축액은 맞지만 기계 설정이 이전 공급업체 기준이라고 설명한다. 농축액 기한이나 물 부족은 언급하지 않는다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man connect before the next test?",
+        "choices": [
+          "A larger concentrate container",
+          "The old supplier’s dispenser",
+          "A payment terminal",
+          "A cold-water source"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "다음 시험 전에 남자는 무엇을 연결할 것인가?",
+          "choices": [
+            "더 큰 농축액 통",
+            "이전 공급업체의 음료 기계",
+            "결제 단말기",
+            "냉수 공급원"
+          ]
+        },
+        "explain": "네 번째 발화에서 chilled supply를 연결하겠다고 한다. 결제 장치나 기계 자체를 바꾸는 것은 아니다."
+      },
+      {
+        "type": "graphic",
+        "q": "Look at the graphic. Which program matches the approved mixture?",
+        "choices": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "시각 자료를 보라. 어느 프로그램이 승인된 혼합 비율과 맞는가?",
+          "choices": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        "explain": "승인된 견본의 농축액 2리터 대 물 8리터는 1:4이므로 표의 P2다. 너무 진했던 기계 시험이 아니라 승인 견본의 배합을 기준으로 삼는다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-008",
+    "difficulty": 1,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "I lost my employee access card on the way to work. I have checked my bag twice, but it is definitely not there."
+      },
+      {
+        "s": "M",
+        "t": "I’ll deactivate it immediately. Please show me another form of identification so I can issue a temporary pass."
+      },
+      {
+        "s": "W",
+        "t": "Here is my driving license. Will the temporary pass open the laboratory door as well as the main entrance?"
+      },
+      {
+        "s": "M",
+        "t": "No, only the main entrance. Your supervisor can let you into the laboratory after confirming your name on the staff list."
+      },
+      {
+        "s": "W",
+        "t": "All right. I’ll call her before I go upstairs."
+      },
+      {
+        "s": "M",
+        "t": "The replacement card should be ready tomorrow. If you find the old one, bring it here rather than trying to use it."
+      }
+    ],
+    "scriptKo": [
+      "출근길에 직원 출입 카드를 잃어버렸어요. 가방을 두 번 확인했는데 정말 없어요.",
+      "즉시 사용을 정지할게요. 임시 출입증을 발급할 수 있도록 다른 신분증을 보여 주세요.",
+      "운전면허증이에요. 임시 출입증으로 정문뿐 아니라 실험실 문도 열 수 있나요?",
+      "아니요, 정문만 돼요. 상사가 직원 명단에서 이름을 확인한 후 실험실에 들여보내 줄 수 있어요.",
+      "알겠어요. 위층에 가기 전에 상사에게 전화할게요.",
+      "교체 카드는 내일 준비될 거예요. 옛 카드를 찾으면 사용하려 하지 말고 여기로 가져오세요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "reason",
+        "q": "Why is the woman speaking with the man?",
+        "choices": [
+          "She cannot find her access card.",
+          "She wants to renew her driving license.",
+          "She needs directions to the laboratory.",
+          "She is applying for a supervisor position."
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "여자는 왜 남자와 이야기하는가?",
+          "choices": [
+            "출입 카드를 찾을 수 없어서",
+            "운전면허증을 갱신하려고",
+            "실험실로 가는 길을 알아야 해서",
+            "관리자 직책에 지원하려고"
+          ]
+        },
+        "explain": "첫 발화에서 출입 카드를 분실했다고 말한다. 면허증은 임시 출입증 발급용 신원 확인 수단이다."
+      },
+      {
+        "type": "detail",
+        "q": "What can the temporary pass open?",
+        "choices": [
+          "Every laboratory door",
+          "The supervisor’s private office",
+          "Only the building’s main entrance",
+          "The card-printing room"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "임시 출입증으로 무엇을 열 수 있는가?",
+          "choices": [
+            "모든 실험실 문",
+            "상사의 개인 사무실",
+            "건물의 정문만",
+            "카드 인쇄실"
+          ]
+        },
+        "explain": "남자는 임시 출입증이 정문에만 사용된다고 한다. 실험실에는 상사의 별도 확인을 거쳐 들어간다."
+      },
+      {
+        "type": "suggest",
+        "q": "What should the woman do if she finds the old card?",
+        "choices": [
+          "Activate it through the staff website",
+          "Give it to another employee",
+          "Use it until tomorrow",
+          "Return it to the man’s office"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "옛 카드를 찾으면 여자는 무엇을 해야 하는가?",
+          "choices": [
+            "직원 웹사이트에서 활성화한다.",
+            "다른 직원에게 준다.",
+            "내일까지 사용한다.",
+            "남자의 사무실에 반납한다."
+          ]
+        },
+        "explain": "끝에서 찾은 옛 카드를 여기로 가져오라고 한다. 이미 비활성화하므로 다시 사용하라는 뜻이 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-009",
+    "difficulty": 3,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "Our office lease ends in June, but the agreement lets us stay for up to three extra months at the current rent. We have not used that option."
+      },
+      {
+        "s": "M",
+        "t": "We still have that card."
+      },
+      {
+        "s": "W",
+        "t": "Yes. It means we can inspect the new office carefully instead of signing its lease this week just to avoid having nowhere to work."
+      },
+      {
+        "s": "M",
+        "t": "What is still uncertain about the new space? The photographs looked promising."
+      },
+      {
+        "s": "W",
+        "t": "The floor plan does not show whether the meeting room has its own ventilation. Our technical team needs to inspect it."
+      },
+      {
+        "s": "M",
+        "t": "Then I’ll arrange that visit. Meanwhile, could you ask our current landlord how much notice is needed to use the extension?"
+      }
+    ],
+    "scriptKo": [
+      "사무실 임대가 6월에 끝나지만 계약상 현재 임대료로 최대 3개월 더 머물 수 있어요. 아직 그 선택권은 쓰지 않았어요.",
+      "우리에게는 아직 그 카드가 있네요.",
+      "네. 일할 곳이 없어질까 봐 이번 주에 서명하는 대신 새 사무실을 꼼꼼히 살펴볼 수 있다는 뜻이에요.",
+      "새 공간에서 아직 불확실한 점은 무엇인가요? 사진은 좋아 보였어요.",
+      "평면도에 회의실 독립 환기 장치 유무가 안 나와요. 기술팀이 점검해야 해요.",
+      "그럼 제가 방문을 잡을게요. 그동안 현재 건물주에게 연장 선택권을 쓰려면 얼마나 미리 알려야 하는지 물어봐 주실래요?"
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "intention",
+        "q": "Why does the man say, \"We still have that card.\"?",
+        "choices": [
+          "To note an option to renegotiate the current rent",
+          "To note an option to extend the existing tenancy",
+          "To note an option to reserve the new premises",
+          "To note an option to cancel a signed lease"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "남자는 왜 “우리에게는 아직 그 카드가 있네요.”라고 말하는가?",
+          "choices": [
+            "현 임대료를 재협상할 선택권이 있음을 짚으려고",
+            "기존 임대를 연장할 선택권이 있음을 짚으려고",
+            "새 공간을 예약할 선택권이 있음을 짚으려고",
+            "서명한 임대 계약을 취소할 선택권이 있음을 짚으려고"
+          ]
+        },
+        "explain": "직전 발화의 현재 임대료로 최대 3개월 더 머무는 미사용 권리를 가리킨다. 네 보기 모두 남은 선택권을 뜻하지만 대본이 인정한 것은 현 임대 연장뿐이며 임대료 재협상이나 새 공간 예약은 언급하지 않는다."
+      },
+      {
+        "type": "detail",
+        "q": "What needs to be checked at the new office?",
+        "choices": [
+          "The reception desk’s color",
+          "The photographs of the exterior",
+          "The meeting room’s air supply",
+          "The current landlord’s address"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "새 사무실에서 무엇을 확인해야 하는가?",
+          "choices": [
+            "접수대 색상",
+            "외관 사진",
+            "회의실 환기 설비",
+            "현재 건물주의 주소"
+          ]
+        },
+        "explain": "여자는 평면도에서 회의실 자체 환기를 확인할 수 없어 현장 점검이 필요하다고 한다. 사진의 색상을 평가하려는 것이 아니다."
+      },
+      {
+        "type": "suggest",
+        "q": "What does the man ask the woman to find out?",
+        "choices": [
+          "The notice period for extending the current lease",
+          "The price of new office photographs",
+          "The technical team’s lunch preference",
+          "The number of company payment cards"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "남자는 여자에게 무엇을 알아보라고 요청하는가?",
+          "choices": [
+            "현재 임대 연장에 필요한 사전 통보 기간",
+            "새 사무실 사진 촬영 가격",
+            "기술팀의 점심 선호",
+            "회사 결제 카드 수"
+          ]
+        },
+        "explain": "마지막에 현재 건물주에게 연장 시 필요한 통보 기간을 물어 달라고 한다. 새 공간 방문은 남자가 준비한다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-010",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "Our showroom customer needs a fabric panel without any joins. The offcuts in our stockroom are too short individually, so we need to use a full roll."
+      },
+      {
+        "s": "W",
+        "t": "I have the roll inventory here. How much continuous fabric does the panel require?"
+      },
+      {
+        "s": "M",
+        "t": "Twelve meters, including the finishing allowance. Choose the shortest roll that provides enough material; we want to leave the longer rolls for larger jobs."
+      },
+      {
+        "s": "W",
+        "t": "I’ll identify the roll on this list and keep it aside. Should the cutting team start today?"
+      },
+      {
+        "s": "M",
+        "t": "Wait until the customer approves the color in daylight. The showroom lighting makes this fabric look slightly darker."
+      },
+      {
+        "s": "W",
+        "t": "Then I’ll send a small swatch to the customer first and request approval before releasing the roll for cutting."
+      }
+    ],
+    "scriptKo": [
+      "전시장 고객이 이음매 없는 천 패널을 원해요. 창고의 자투리는 각각 너무 짧아서 온전한 롤을 써야 해요.",
+      "롤 재고표가 있어요. 패널에 연속된 천이 얼마나 필요한가요?",
+      "마감 여유를 포함해 12미터요. 필요한 양을 확보할 수 있는 가장 짧은 롤을 고르세요. 긴 롤은 더 큰 작업에 남겨 두려고 해요.",
+      "이 목록에서 롤을 찾아 따로 보관할게요. 재단팀이 오늘 시작해도 될까요?",
+      "고객이 자연광에서 색상을 승인할 때까지 기다리세요. 전시장 조명에서는 이 천이 조금 더 어둡게 보여요.",
+      "그럼 먼저 고객에게 작은 천 견본을 보내고, 롤을 재단에 넘기기 전에 승인을 요청할게요."
+    ],
+    "graphic": {
+      "title": "Fabric Roll Inventory",
+      "titleKo": "천 롤 재고",
+      "rows": [
+        [
+          "Roll",
+          "Continuous length"
+        ],
+        [
+          "F1",
+          "9 m"
+        ],
+        [
+          "F2",
+          "11 m"
+        ],
+        [
+          "F3",
+          "14 m"
+        ],
+        [
+          "F4",
+          "18 m"
+        ]
+      ]
+    },
+    "questions": [
+      {
+        "type": "reason",
+        "q": "Why can the existing offcuts not be used?",
+        "choices": [
+          "The customer has rejected their color.",
+          "They have already been sent to the showroom.",
+          "The finishing allowance has been removed.",
+          "No piece is long enough for a seamless panel."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "기존 자투리를 사용할 수 없는 이유는 무엇인가?",
+          "choices": [
+            "고객이 그 색상을 거절했다.",
+            "이미 전시장으로 발송했다.",
+            "마감 여유분이 제거되었다.",
+            "이음매 없는 패널에 충분히 긴 조각이 없다."
+          ]
+        },
+        "explain": "첫 발화에서 고객은 이음매 없는 패널을 원하지만 자투리는 각각 짧다고 한다. 색상은 아직 승인 전이지 이미 거절된 것이 아니다."
+      },
+      {
+        "type": "graphic",
+        "q": "Look at the graphic. Which roll should the woman set aside?",
+        "choices": [
+          "F1",
+          "F2",
+          "F3",
+          "F4"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "시각 자료를 보라. 여자는 어느 롤을 따로 보관해야 하는가?",
+          "choices": [
+            "F1",
+            "F2",
+            "F3",
+            "F4"
+          ]
+        },
+        "explain": "대화의 조건은 12m 이상을 제공하는 가장 짧은 롤이다. 표에서 14m인 F3가 맞으며, F4도 길이는 충분하지만 최소 길이 조건을 충족하지 않는다."
+      },
+      {
+        "type": "next",
+        "q": "What will the woman do before allowing the fabric to be cut?",
+        "choices": [
+          "Change the lighting in the showroom",
+          "Send a color sample for the customer’s approval",
+          "Order additional fabric for every larger job",
+          "Ask the customer to accept a joined panel"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "재단을 허용하기 전에 여자는 무엇을 할 것인가?",
+          "choices": [
+            "전시장 조명을 바꾼다.",
+            "고객 승인을 위해 색상 견본을 보낸다.",
+            "모든 대형 작업용 천을 추가 주문한다.",
+            "고객에게 이음매 있는 패널을 수락해 달라고 한다."
+          ]
+        },
+        "explain": "마지막 발화에서 작은 천 견본을 보내 고객 승인을 먼저 받겠다고 한다. 전시장 조명은 색상이 달라 보이는 이유이며 교체 작업을 맡은 것은 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-011",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "I need help preparing the documents for six free pump samples going overseas. I’ll be on a distributor call while Accounts sends the production costs."
+      },
+      {
+        "s": "W",
+        "t": "I can coordinate the paperwork while you are on the call. Have you already entered the delivery address and the pump descriptions?"
+      },
+      {
+        "s": "M",
+        "t": "Yes. Those sections are complete, and the carrier has confirmed our express reservation for this afternoon."
+      },
+      {
+        "s": "W2",
+        "t": "I’ll collect the cost figures from Accounts. We are using those figures for the declared value, as agreed with the carrier."
+      },
+      {
+        "s": "W",
+        "t": "Good. I’ll check the completed sections and keep the form ready for the figures. The existing express booking needs no change."
+      },
+      {
+        "s": "W2",
+        "t": "I’ll send the costs to you both as soon as Accounts finishes."
+      },
+      {
+        "s": "M",
+        "t": "Thanks. After my call, I’ll enter the figures and finish the form."
+      },
+      {
+        "s": "W",
+        "t": "Then I’ll pass the completed documents to the collection desk."
+      }
+    ],
+    "scriptKo": [
+      "해외로 보내는 무료 펌프 견본 여섯 개의 서류 준비를 도와주세요. 회계팀이 생산원가를 보내는 동안 저는 유통업체와 통화할 거예요.",
+      "통화하는 동안 제가 서류를 조율할 수 있어요. 배송 주소와 펌프 설명은 이미 입력했나요?",
+      "네. 그 부분은 완성했고 운송업체가 오늘 오후 특급 예약도 확인했어요.",
+      "제가 회계팀에서 원가 자료를 받을게요. 운송업체와 합의한 대로 그 금액을 신고 가치에 쓸 거예요.",
+      "좋아요. 저는 완성된 부분을 확인하고 금액을 넣을 수 있게 양식을 준비해 둘게요. 기존 특급 예약은 바꿀 필요 없어요.",
+      "회계팀이 마치는 대로 두 분께 원가를 보낼게요.",
+      "고마워요. 통화 후 제가 금액을 입력하고 양식을 완성할게요.",
+      "그러면 제가 완성된 서류를 수거 담당 창구에 넘길게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "reason",
+        "q": "Why does the man ask his colleagues to help?",
+        "choices": [
+          "The carrier has canceled the collection.",
+          "The distributor has rejected the pump descriptions.",
+          "The shipment must be changed to ordinary mail.",
+          "Another business conversation will occupy him during document preparation."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "남자는 왜 동료들에게 도움을 요청하는가?",
+          "choices": [
+            "운송업체가 수거를 취소했기 때문에",
+            "유통업체가 펌프 설명을 거절했기 때문에",
+            "배송을 일반 우편으로 바꿔야 하기 때문에",
+            "서류 준비 중 다른 업무 통화가 있기 때문에"
+          ]
+        },
+        "explain": "첫 발화에서 회계 자료가 오는 동안 유통업체와 통화한다고 하므로 업무를 나누려는 요청이다. 신고 기준을 잘못 이해했거나 운송 예약이 취소된 상황은 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "What arrangement has already been confirmed?",
+        "choices": [
+          "Payment from the sample recipient",
+          "An express shipment later that day",
+          "A request to omit the pump descriptions",
+          "A change to the distributor’s delivery address"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "이미 확인된 것은 무엇인가?",
+          "choices": [
+            "견본 수령인의 대금 지급",
+            "당일 늦은 시간의 특급 배송",
+            "펌프 설명 생략 요청",
+            "유통업체 배송 주소 변경"
+          ]
+        },
+        "explain": "세 번째 발화에서 오늘 오후 특급 예약이 확인되었다고 말하며 기존 예약은 유지한다. 견본은 무료이므로 수령인의 결제 확인이 아니다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man do after his call?",
+        "choices": [
+          "Ask the distributor to pay for the pumps",
+          "Change the express service to ordinary mail",
+          "Complete the shipping documentation",
+          "Remove the samples from the shipment"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "통화 후 남자는 무엇을 할 것인가?",
+          "choices": [
+            "유통업체에 펌프 대금을 내라고 한다.",
+            "특급을 일반 우편으로 바꾼다.",
+            "배송 서류를 완성한다.",
+            "배송 물품에서 견본을 뺀다."
+          ]
+        },
+        "explain": "일곱 번째 발화에서 남자는 통화 후 원가를 입력하고 양식을 완성하겠다고 한다. 수거 창구에 서류를 넘기는 역할은 여자가 맡는다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-012",
+    "difficulty": 1,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "Could your grounds team collect the grass clippings outside our office today? The lawn was cut yesterday, and we need a clear route to the outdoor meeting tables."
+      },
+      {
+        "s": "M",
+        "t": "We can help with that. Are the clippings causing a problem along the whole lawn or just the area near the tables?"
+      },
+      {
+        "s": "W",
+        "t": "Just that area. Our visitors walk across it to reach the tables, and the clippings stick to their shoes."
+      },
+      {
+        "s": "M",
+        "t": "Then I’ll assign someone to that section. Is there a time when the work needs to be finished?"
+      },
+      {
+        "s": "W",
+        "t": "Before two, please. We have clients coming for an outdoor discussion then."
+      },
+      {
+        "s": "M",
+        "t": "I’ll send a team member over before lunch to rake that section."
+      }
+    ],
+    "scriptKo": [
+      "오늘 조경팀이 사무실 바깥의 풀 조각을 수거해 줄 수 있나요? 어제 잔디를 깎았는데 야외 회의 탁자로 가는 길을 깔끔하게 해야 해요.",
+      "도와드릴 수 있어요. 잔디밭 전체의 풀 조각이 문제인가요, 아니면 탁자 근처 구역만 그런가요?",
+      "그 구역만요. 방문객들이 탁자로 가려고 그곳을 가로지르는데 풀 조각이 신발에 붙어요.",
+      "그럼 그 구역에 직원을 배정할게요. 언제까지 작업을 마쳐야 하나요?",
+      "2시 전에 부탁해요. 그때 야외 협의를 하러 고객들이 와요.",
+      "점심 전에 팀원 한 명을 보내 그 구역을 갈퀴로 정리할게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "speaker",
+        "q": "What service does the man most likely provide?",
+        "choices": [
+          "Grounds maintenance",
+          "Office catering",
+          "Shoe repairs",
+          "Meeting interpretation"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "남자는 어떤 서비스를 제공할 가능성이 가장 높은가?",
+          "choices": [
+            "조경 관리",
+            "사무실 음식 공급",
+            "신발 수선",
+            "회의 통역"
+          ]
+        },
+        "explain": "여자가 조경팀의 풀 수거를 요청하고 남자는 해당 구역에 직원을 배정하므로 조경 관리업자다. 회의 음식이나 통역 서비스를 제공하는 대화가 아니다."
+      },
+      {
+        "type": "reason",
+        "q": "Why does the woman want the clippings collected?",
+        "choices": [
+          "They prevent the mower from working.",
+          "They cover the indoor meeting tables.",
+          "They have damaged the collection bag.",
+          "They attach to visitors’ footwear."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "여자는 왜 풀 조각을 수거하기를 원하는가?",
+          "choices": [
+            "잔디깎이가 작동하지 못하게 해서",
+            "실내 회의 탁자를 덮어서",
+            "수거 주머니를 손상시켜서",
+            "방문객의 신발에 붙어서"
+          ]
+        },
+        "explain": "여자는 방문객들이 잔디밭을 지날 때 신발에 풀 조각이 붙는다고 한다. 기계 고장은 원인이 아니다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man arrange before lunch?",
+        "choices": [
+          "Delivery of new meeting tables",
+          "Removal of grass clippings",
+          "A meeting with visiting clients",
+          "Replacement of the office lawn"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "남자는 점심 전에 무엇을 준비할 것인가?",
+          "choices": [
+            "새 회의 탁자 배송",
+            "풀 조각 제거",
+            "방문 고객과의 회의",
+            "사무실 잔디 교체"
+          ]
+        },
+        "explain": "마지막에 직원 한 명을 보내 해당 구역을 갈퀴로 정리하겠다고 한다. 잔디 전체를 교체하는 작업은 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-013",
+    "difficulty": 3,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "The advertisement for our new desk heater says “made entirely here.” We assemble it at this factory, but the heating elements come from our overseas partner."
+      },
+      {
+        "s": "W",
+        "t": "Then that wording goes further than the facts. Our assembly location is local, but not every component is."
+      },
+      {
+        "s": "M",
+        "t": "The sales team wanted to emphasize the jobs created at this plant. Can we preserve that message?"
+      },
+      {
+        "s": "W",
+        "t": "Yes. Say “assembled at our local plant” and describe the assembly team’s work. That supports the employment message without claiming a local origin for every part."
+      },
+      {
+        "s": "M",
+        "t": "I’ll revise the headline and send it to Sales for review."
+      },
+      {
+        "s": "W",
+        "t": "Good. We need the factual wording approved before the campaign goes out."
+      },
+      {
+        "s": "M",
+        "t": "The designer also suggested photographing the heater against a different background. Should we arrange that today?"
+      },
+      {
+        "s": "W",
+        "t": "That can wait."
+      }
+    ],
+    "scriptKo": [
+      "새 책상용 히터 광고에 ‘전부 이곳에서 만든다’고 되어 있어요. 이 공장에서 조립하지만 발열 부품은 해외 협력업체에서 와요.",
+      "그럼 사실보다 넓게 주장하는 문구네요. 조립 장소는 현지지만 모든 부품이 그런 것은 아니에요.",
+      "영업팀은 이 공장에서 생긴 일자리를 강조하고 싶어 했어요. 그 메시지는 유지할 수 있을까요?",
+      "네. ‘현지 공장에서 조립’이라고 쓰고 조립팀의 업무를 설명하세요. 모든 부품이 현지산이라고 주장하지 않으면서 고용 메시지를 뒷받침해요.",
+      "제목을 고쳐 영업팀에 검토를 보낼게요.",
+      "좋아요. 캠페인을 내보내기 전에 사실에 맞는 문구를 승인받아야 해요.",
+      "디자이너가 히터 사진 배경도 바꾸자고 했어요. 오늘 그 촬영을 준비할까요?",
+      "그건 나중에 해도 돼요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "inference",
+        "q": "What is indicated about the heater’s production?",
+        "choices": [
+          "All manufacturing occurs abroad.",
+          "Some components are supplied from another country.",
+          "The local assembly plant has closed.",
+          "The sales team manufactures the heating elements."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "히터 생산에 관해 알 수 있는 것은 무엇인가?",
+          "choices": [
+            "모든 제조 공정이 해외에서 이루어진다.",
+            "일부 부품이 다른 나라에서 공급된다.",
+            "현지 조립 공장이 문을 닫았다.",
+            "영업팀이 발열 부품을 제조한다."
+          ]
+        },
+        "explain": "첫 발화에서 발열 부품은 해외 협력업체에서 온다고 한다. 조립은 현지 공장에서 하므로 전 공정이 해외라는 보기는 틀리다."
+      },
+      {
+        "type": "suggest",
+        "q": "What does the woman suggest emphasizing?",
+        "choices": [
+          "The origin of every individual component",
+          "The overseas partner’s advertising budget",
+          "The local assembly operation",
+          "The designer’s preferred photo background"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "여자는 무엇을 강조하라고 제안하는가?",
+          "choices": [
+            "각 부품의 원산지",
+            "해외 협력업체의 광고 예산",
+            "현지 조립 작업",
+            "디자이너가 선호하는 사진 배경"
+          ]
+        },
+        "explain": "여자는 현지 공장에서 조립한다는 표현과 조립팀 업무를 제안한다. 모든 부품을 현지산으로 표현하는 것은 바로잡아야 한다."
+      },
+      {
+        "type": "intention",
+        "q": "Why does the woman say, \"That can wait.\"?",
+        "choices": [
+          "To postpone obtaining approval for the wording",
+          "To delay reviewing the revised headline",
+          "To defer describing the assembly team’s work",
+          "To put off arranging a new product photograph"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "여자는 왜 “그건 나중에 해도 돼요.”라고 말하는가?",
+          "choices": [
+            "문구 승인 받기를 미루려고",
+            "수정 제목 검토를 늦추려고",
+            "조립팀 업무 설명을 뒤로 미루려고",
+            "새 제품 사진 촬영 준비를 미루려고"
+          ]
+        },
+        "explain": "바로 앞의 배경을 바꾸어 촬영할지 묻는 질문에 대한 답이다. 사실에 맞는 문구 승인은 앞서 우선 진행해야 한다고 강조했다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-014",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "M",
+        "t": "My fifth work anniversary is in March. Which row of this table determines my extra leave for the year that began in January?"
+      },
+      {
+        "s": "W",
+        "t": "Use completed service on January first. You had completed four years then, so do not count the anniversary that is still ahead."
+      },
+      {
+        "s": "W2",
+        "t": "Can unused extra days be carried into the following year? Our team has a busy autumn."
+      },
+      {
+        "s": "W",
+        "t": "No. These additional days expire in December. They are separate from ordinary annual leave, which has different carryover rules."
+      },
+      {
+        "s": "M",
+        "t": "I would prefer to use mine in July, before our autumn projects begin."
+      },
+      {
+        "s": "W2",
+        "t": "Let’s check the team calendar first. We need someone available for the weekly customer calls."
+      },
+      {
+        "s": "M",
+        "t": "I’ll compare the July dates with the call rota this afternoon."
+      },
+      {
+        "s": "W",
+        "t": "Once you have suitable dates, submit the request through the leave system."
+      }
+    ],
+    "scriptKo": [
+      "3월이면 입사 5주년이에요. 1월에 시작한 올해 추가 휴가를 정할 때 이 표의 어느 행을 쓰나요?",
+      "1월 1일까지 채운 근속연수를 쓰세요. 그때는 4년을 채웠으니 아직 오지 않은 입사 기념일은 세지 마세요.",
+      "남은 추가 휴가는 다음 해로 이월할 수 있나요? 우리 팀은 가을에 바빠요.",
+      "아니요. 이 추가 휴가는 12월에 만료돼요. 이월 규칙이 다른 일반 연차와는 별개예요.",
+      "가을 프로젝트가 시작되기 전인 7월에 제 휴가를 쓰고 싶어요.",
+      "먼저 팀 달력을 확인하죠. 주간 고객 통화를 맡을 사람이 있어야 해요.",
+      "오늘 오후에 7월 날짜를 통화 당번표와 비교할게요.",
+      "적절한 날짜를 찾으면 휴가 시스템으로 신청하세요."
+    ],
+    "graphic": {
+      "title": "Extra Leave by Completed Service",
+      "titleKo": "완료 근속연수별 추가 휴가",
+      "rows": [
+        [
+          "Completed years",
+          "Extra days"
+        ],
+        [
+          "1–2",
+          "1"
+        ],
+        [
+          "3–4",
+          "2"
+        ],
+        [
+          "5–7",
+          "3"
+        ],
+        [
+          "8 or more",
+          "4"
+        ]
+      ]
+    },
+    "questions": [
+      {
+        "type": "graphic",
+        "q": "Look at the graphic. How many extra days does the man receive?",
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "시각 자료를 보라. 남자는 추가 휴가를 며칠 받는가?",
+          "choices": [
+            "하루",
+            "이틀",
+            "사흘",
+            "나흘"
+          ]
+        },
+        "explain": "1월 1일 기준 완료한 근속은 4년이므로 표의 3~4년 구간에 해당하여 이틀이다. 곧 맞을 5주년을 미리 계산하면 안 된다."
+      },
+      {
+        "type": "detail",
+        "q": "What happens to unused extra days in December?",
+        "choices": [
+          "They are added to the following year’s allowance.",
+          "They become ordinary annual leave.",
+          "They can no longer be used.",
+          "They are exchanged for customer-call shifts."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "12월에 사용하지 않은 추가 휴가는 어떻게 되는가?",
+          "choices": [
+            "다음 해 휴가에 더해진다.",
+            "일반 연차로 바뀐다.",
+            "더는 사용할 수 없게 된다.",
+            "고객 통화 근무와 교환된다."
+          ]
+        },
+        "explain": "여자는 추가 휴가가 12월에 만료되고 이월되지 않는다고 설명한다. 일반 연차의 별도 규칙과 혼동하면 안 된다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man do this afternoon?",
+        "choices": [
+          "Check possible dates against work coverage",
+          "Begin the autumn customer project",
+          "Change the annual leave policy",
+          "Submit every team member’s leave request"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "남자는 오늘 오후에 무엇을 할 것인가?",
+          "choices": [
+            "가능한 날짜를 업무 대체 일정과 대조한다.",
+            "가을 고객 프로젝트를 시작한다.",
+            "연차 정책을 바꾼다.",
+            "모든 팀원의 휴가 신청을 제출한다."
+          ]
+        },
+        "explain": "남자는 7월 날짜와 고객 통화 당번표를 비교하겠다고 한다. 시스템 신청은 적절한 날짜를 찾은 다음 단계다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-015",
+    "difficulty": 3,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "Our supplier gives an annual rebate when qualifying goods reach ten thousand dollars. The statement shows twelve thousand dollars in goods billed, plus five hundred in delivery charges. Have we qualified?"
+      },
+      {
+        "s": "M",
+        "t": "We need to subtract returned goods first. We sent back two thousand five hundred dollars’ worth during this same rebate year. Delivery charges never count toward the threshold."
+      },
+      {
+        "s": "W",
+        "t": "So the billed total alone does not settle it. Would placing another order today be enough?"
+      },
+      {
+        "s": "M",
+        "t": "Only goods delivered and accepted by the year’s end count. An order still waiting at the supplier does not."
+      },
+      {
+        "s": "W",
+        "t": "I’ll check whether we actually need any more stock before ordering just for the rebate."
+      },
+      {
+        "s": "M",
+        "t": "Good idea. I’ll calculate the amount still needed from the billed goods and the returns, leaving delivery charges out."
+      }
+    ],
+    "scriptKo": [
+      "공급업체가 인정되는 물품 금액이 1만 달러에 이르면 연간 환급을 줘요. 명세서에 청구된 물품 1만 2천 달러와 배송비 500달러가 있어요. 자격을 갖췄나요?",
+      "먼저 반품을 빼야 해요. 같은 환급 연도에 2천 5백 달러어치를 돌려보냈어요. 배송비는 기준 금액에 절대 포함되지 않아요.",
+      "그럼 청구 총액만으로는 결정할 수 없네요. 오늘 주문을 하나 더 넣으면 충분할까요?",
+      "연말까지 배송되고 인수된 물품만 인정돼요. 공급업체에 대기 중인 주문은 안 돼요.",
+      "환급 때문에 주문하기 전에 재고가 정말 더 필요한지 확인할게요.",
+      "좋아요. 배송비를 빼고 청구 물품과 반품을 기준으로 아직 필요한 금액을 계산할게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "topic",
+        "q": "What are the speakers trying to determine?",
+        "choices": [
+          "Whether a supplier’s rebate requirement has been met",
+          "Whether the delivery company has raised its prices",
+          "Whether all returned goods should be reordered",
+          "Whether the supplier can extend the financial year"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "화자들은 무엇을 판단하려 하는가?",
+          "choices": [
+            "공급업체의 환급 요건을 충족했는지",
+            "배송업체가 가격을 올렸는지",
+            "반품한 물품을 모두 재주문해야 하는지",
+            "공급업체가 회계연도를 연장할 수 있는지"
+          ]
+        },
+        "explain": "첫 발화에서 연간 환급 기준에 도달했는지 묻고 이후 인정 금액을 따진다. 배송료 인상이나 연도 연장이 주제가 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "Which purchases count toward the supplier’s annual threshold?",
+        "choices": [
+          "All orders placed before the year ends",
+          "Goods still awaiting dispatch at the supplier",
+          "Items received and approved before the annual cutoff",
+          "Delivery services paid for during the year"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "어떤 구매가 공급업체의 연간 기준에 포함되는가?",
+          "choices": [
+            "연말 전에 접수한 모든 주문",
+            "공급업체에서 발송을 기다리는 물품",
+            "연간 마감 전에 수령하고 승인한 물품",
+            "해당 연도에 대금을 낸 배송 서비스"
+          ]
+        },
+        "explain": "네 번째 발화의 delivered and accepted를 received and approved로 바꿔 말한 것이다. 연간 마감 전에 인수를 마쳐야 하며, 주문만 접수하거나 배송비를 지불한 것은 인정되지 않는다."
+      },
+      {
+        "type": "inference",
+        "q": "How much more in qualifying goods is needed to reach the threshold?",
+        "choices": [
+          "$0",
+          "$500",
+          "$2,000",
+          "$2,500"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "기준에 도달하려면 인정되는 물품이 얼마 더 필요한가?",
+          "choices": [
+            "0달러",
+            "500달러",
+            "2천 달러",
+            "2천 5백 달러"
+          ]
+        },
+        "explain": "청구 물품 12,000달러에서 반품 2,500달러를 빼면 9,500달러라 10,000달러까지 500달러가 부족하다. 배송비는 포함되지 않는다."
+      }
+    ]
+  },
+  {
+    "id": "p3-3-016",
+    "difficulty": 2,
+    "talkType": "conversation",
+    "script": [
+      {
+        "s": "W",
+        "t": "You offered either a forty-hour or a thirty-hour week for the analyst role. Could we compare the two arrangements before I choose one?"
+      },
+      {
+        "s": "M",
+        "t": "Certainly. The duties are the same, and both options use the same hourly rate. Their annual salaries differ because the number of paid hours differs."
+      },
+      {
+        "s": "W",
+        "t": "The thirty-hour option would leave me three afternoons for my course. I have checked the lower annual amount, and it fits my budget."
+      },
+      {
+        "s": "M",
+        "t": "That schedule would work for the team. Shall we prepare the offer on that basis?"
+      },
+      {
+        "s": "W",
+        "t": "Yes, I’ll take it. Please include the full-time equivalent as well, with the weekly hours clearly shown beside both amounts."
+      },
+      {
+        "s": "M",
+        "t": "I’ll send that offer this afternoon so you can check the details before signing."
+      }
+    ],
+    "scriptKo": [
+      "분석가 직무에 주 40시간이나 30시간을 제안하셨죠. 하나를 고르기 전에 두 근무안을 비교할 수 있을까요?",
+      "물론이죠. 직무는 같고 두 안의 시간당 급여도 같아요. 유급 시간 수가 다르기 때문에 연간 급여는 달라요.",
+      "30시간 안을 고르면 수업을 위해 오후 세 번을 비울 수 있어요. 더 낮은 연간 금액을 확인했는데 제 예산에 맞아요.",
+      "그 일정이면 팀에도 괜찮아요. 그 기준으로 제안서를 준비할까요?",
+      "네, 그걸 선택할게요. 전일제 환산 금액도 넣고 두 금액 옆에 주간 근무 시간을 명확히 표시해 주세요.",
+      "서명 전에 내용을 확인할 수 있도록 오늘 오후에 그 제안서를 보낼게요."
+    ],
+    "graphic": null,
+    "questions": [
+      {
+        "type": "topic",
+        "q": "What are the speakers discussing?",
+        "choices": [
+          "A change in the analyst’s responsibilities",
+          "A reduction in the hourly pay rate",
+          "An error in the interview schedule",
+          "Choosing between two weekly working arrangements"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "화자들은 무엇에 대해 이야기하는가?",
+          "choices": [
+            "분석가의 직무 책임 변경",
+            "시간당 급여 삭감",
+            "면접 일정 오류",
+            "두 주간 근무안 중 하나 선택"
+          ]
+        },
+        "explain": "여자는 처음부터 40시간과 30시간 두 안을 비교한 뒤 수업 일정과 예산에 맞는 30시간 안을 선택한다. 잘못된 급여액이나 면접 일정을 정정하는 대화가 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "What is identical in both proposed arrangements?",
+        "choices": [
+          "The payment for each hour worked",
+          "The total number of paid hours",
+          "The annual amount paid to the woman",
+          "The woman’s weekly working hours"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "제안된 두 근무안에서 동일한 것은 무엇인가?",
+          "choices": [
+            "근무 시간당 지급액",
+            "전체 유급 시간 수",
+            "여자에게 지급되는 연간 금액",
+            "여자의 주간 근무 시간"
+          ]
+        },
+        "explain": "남자는 두 안이 동일한 시간당 급여를 적용한다고 설명한다. 여자의 실제 주간 시간은 40시간과 30시간으로 다르고 그에 따라 연간 지급액도 다르다."
+      },
+      {
+        "type": "next",
+        "q": "What will the man send to the woman?",
+        "choices": [
+          "A new advertisement for another role",
+          "An invoice for the salary difference",
+          "A schedule with additional weekly hours",
+          "An offer showing hours alongside the salary amounts"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "남자는 여자에게 무엇을 보낼 것인가?",
+          "choices": [
+            "다른 직무의 새 채용 광고",
+            "급여 차액 청구서",
+            "주간 근무 시간이 추가된 일정",
+            "급여 금액 옆에 시간이 표시된 제안서"
+          ]
+        },
+        "explain": "마지막 두 발화에서 두 금액 옆에 주간 시간을 표시한 제안서를 보내기로 한다. 선택된 근무 시간을 늘리거나 다른 직무를 제안하는 것은 아니다."
+      }
+    ]
+  }
+]

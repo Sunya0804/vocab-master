@@ -82,6 +82,28 @@
         "explain": "기사는 옥상 벌통의 첫 수확과 직원들의 역할·판매 계획을 소개한다. 전문 양봉가는 이미 수확을 감독하므로 모집 공고가 아니다."
       },
       {
+        "type": "inference",
+        "q": "Who most likely met Ms. Vel while she helped prepare the first batch?",
+        "choices": [
+          "Irena Sol",
+          "Pavo Renn",
+          "Miro Tann",
+          "Leda Voss"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "벨 씨가 첫 물량 준비를 돕는 동안 만났을 가능성이 가장 큰 사람은 누구인가?",
+          "choices": [
+            "이레나 솔",
+            "파보 렌",
+            "미로 탄",
+            "레다 보스"
+          ]
+        },
+        "explain": "편지는 라벨 그림 담당자와 이야기했다고 하며 기사에서 그 역할은 파보 렌이다. 레다 보스는 무게 측정과 밀봉을 담당한다.",
+        "crossRef": true
+      },
+      {
         "type": "detail",
         "q": "How will income from honey sales be used?",
         "choices": [
@@ -103,26 +125,25 @@
         "explain": "기사 첫 문단에서 판매 수입을 내년 벌통 유지 관리에 사용한다고 한다. 접수처 전시 준비와는 별개의 용도다."
       },
       {
-        "type": "inference",
-        "q": "Who most likely spoke with Ms. Vel about the jar designs?",
+        "type": "detail",
+        "q": "What does Ms. Vel ask the editor to do?",
         "choices": [
-          "Pavo Renn",
-          "Irena Sol",
-          "Miro Tann",
-          "Leda Voss"
+          "Exclude pictures containing identifiable coworkers",
+          "Delay opening the honey counter",
+          "Obtain new weighing equipment",
+          "Move the display to the rooftop"
         ],
         "answer": 0,
         "ko": {
-          "q": "병 디자인에 관해 벨 씨와 이야기한 사람은 누구인가?",
+          "q": "벨 씨는 편집자에게 무엇을 요청하는가?",
           "choices": [
-            "파보 렌",
-            "이레나 솔",
-            "미로 탄",
-            "레다 보스"
+            "동료를 알아볼 수 있는 사진은 제외한다",
+            "꿀 판매대 개장을 연기한다",
+            "새 무게 측정 장비를 구한다",
+            "전시를 옥상으로 옮긴다"
           ]
         },
-        "explain": "편지는 라벨 그림 담당자와 이야기했다고 하며 기사에서 그 역할은 파보 렌이다. 레다 보스는 무게 측정과 밀봉을 담당한다.",
-        "crossRef": true
+        "explain": "편지는 동료들의 게재 동의가 없어 병 사진만 인쇄해 달라고 요청한다. 판매대 개장 연기를 요청하지 않는다."
       },
       {
         "type": "detail",
@@ -145,27 +166,6 @@
         },
         "explain": "편지의 전시용 꿀은 빗물 탱크 옆 벌통에서 수확했고 기사에서 그 위치는 클로버다. 듄은 배송장 쪽에 있다.",
         "crossRef": true
-      },
-      {
-        "type": "detail",
-        "q": "What does Ms. Vel ask the editor to do?",
-        "choices": [
-          "Delay opening the honey counter",
-          "Use photographs that show only the jars",
-          "Obtain new weighing equipment",
-          "Move the display to the rooftop"
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "벨 씨는 편집자에게 무엇을 요청하는가?",
-          "choices": [
-            "꿀 판매대 개장을 연기한다",
-            "병만 나온 사진을 사용한다",
-            "새 무게 측정 장비를 구한다",
-            "전시를 옥상으로 옮긴다"
-          ]
-        },
-        "explain": "편지는 동료들의 게재 동의가 없어 병 사진만 인쇄해 달라고 요청한다. 판매대 개장 연기를 요청하지 않는다."
       }
     ]
   },
@@ -179,7 +179,7 @@
         "title": "Living plants for working spaces",
         "heading": [],
         "body": [
-          "Selmari Interior Gardens maintains plants in offices without requiring employees to become gardeners. Our monthly visits include leaf cleaning, soil checks, and replacement of plants that fail under the agreed care conditions. Customers own the decorative containers, while the plants remain ours. A first inspection is free and does not commit a business to a service agreement.",
+          "Selmari Interior Gardens maintains plants in offices without requiring employees to become gardeners. Our monthly visits include leaf cleaning, soil checks, and replacement of plants that fail under the agreed care conditions. Customers own the decorative containers, while the plants remain ours. At the start of a contract, we label each container and agree on a watering record with the office coordinator.",
           "We offer four packages. Linden covers small plants receiving direct daylight. Rowan covers small plants in rooms lit entirely by lamps. Aspen is for trees taller than two meters, and Willow is for outdoor containers. A small plant means any plant no more than one meter tall. Each package includes a concise care card showing what employees should do between visits. The same technician normally returns each month, so customers need not explain the room layout repeatedly.",
           "Our inspection areas are assigned by district: Ivo Senn handles Brindle, Mara Delt handles Corsen, Tavi Pell handles Ulden, and Nela Varn handles Soreth. Appointments can be arranged online. Please mention stairs or other obstacles when booking, since inspection equipment is carried by hand. Container purchases and weekend visits are quoted separately."
         ]
@@ -205,8 +205,8 @@
         "title": "업무 공간을 위한 살아 있는 식물",
         "heading": [],
         "body": [
-          "셀마리 실내 정원은 직원들이 원예사가 될 필요 없이 사무실 식물을 관리해 드립니다. 월별 방문에는 잎 청소, 흙 점검, 합의된 관리 조건에서도 잘 자라지 못한 식물의 교체가 포함됩니다. 장식용 화분은 고객 소유이고 식물은 당사 소유입니다. 최초 점검은 무료이며 서비스 계약 의무가 없습니다.",
-          "네 가지 상품이 있습니다. 린든는 직사광선을 받는 작은 식물용이고, 로언는 전등만으로 밝히는 방의 작은 식물용입니다. 애스펀은 높이 2미터가 넘는 나무용이며 윌로는 실외 화분용입니다. 작은 식물은 높이가 1미터 이하인 식물을 뜻합니다. 모든 상품에는 방문 사이에 직원들이 할 일을 알려 주는 간결한 관리 카드가 포함됩니다. 보통 같은 기술자가 매달 방문하므로 고객이 방 배치를 거듭 설명할 필요가 없습니다.",
+          "셀마리 실내 정원은 직원들이 원예사가 될 필요 없이 사무실 식물을 관리해 드립니다. 월별 방문에는 잎 청소, 흙 점검, 합의된 관리 조건에서도 잘 자라지 못한 식물의 교체가 포함됩니다. 장식용 화분은 고객 소유이고 식물은 당사 소유입니다. 계약을 시작하면 각 화분에 표지를 붙이고 사무실 담당자와 물주기 기록 방식을 정합니다.",
+          "네 가지 상품이 있습니다. 린든은 직사광선을 받는 작은 식물용이고, 로언은 전등만으로 밝히는 방의 작은 식물용입니다. 애스펀은 높이 2미터가 넘는 나무용이며 윌로는 실외 화분용입니다. 작은 식물은 높이가 1미터 이하인 식물을 뜻합니다. 모든 상품에는 방문 사이에 직원들이 할 일을 알려 주는 간결한 관리 카드가 포함됩니다. 보통 같은 기술자가 매달 방문하므로 고객이 방 배치를 거듭 설명할 필요가 없습니다.",
           "점검 구역은 지역별로 배정됩니다. 이보 센은 브린들, 마라 델트는 코르센, 타비 펠은 울든, 넬라 반은 소레스를 담당합니다. 온라인 예약이 가능합니다. 점검 장비를 손으로 운반하므로 예약할 때 계단이나 다른 장애물을 알려 주십시오. 화분 구입과 주말 방문 비용은 별도 견적입니다."
         ]
       },
@@ -227,43 +227,22 @@
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What does the advertisement promote?",
-        "choices": [
-          "Decorative containers made by office workers",
-          "Training for professional gardeners",
-          "Regular maintenance of workplace plants",
-          "Rental of outdoor inspection equipment"
-        ],
-        "answer": 2,
-        "ko": {
-          "q": "광고는 무엇을 홍보하는가?",
-          "choices": [
-            "사무실 직원이 만든 장식용 화분",
-            "전문 원예사 교육",
-            "직장 식물의 정기 관리",
-            "야외 점검 장비 대여"
-          ]
-        },
-        "explain": "월별 방문을 통해 식물을 관리하는 서비스 광고다. 화분은 고객이 소유하며 직원용 전문 원예 교육을 판매하지 않는다."
-      },
-      {
         "type": "synonym",
         "q": "In paragraph 2 of the advertisement, the word \"concise\" is closest in meaning to",
         "choices": [
-          "brief",
+          "temporary",
           "frequent",
           "decorative",
-          "temporary"
+          "brief"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "광고 두 번째 문단의 concise와 의미가 가장 가까운 것은 무엇인가?",
           "choices": [
-            "간결한",
+            "일시적인",
             "빈번한",
             "장식용의",
-            "일시적인"
+            "간결한"
           ]
         },
         "explain": "직원에게 필요한 관리 내용을 짧게 제시하는 카드이므로 concise는 brief에 가깝다. 매달 방문한다는 설명이 카드 자체가 빈번하다는 뜻은 아니다.",
@@ -273,47 +252,68 @@
         }
       },
       {
-        "type": "inference",
-        "q": "Which package is appropriate for Talvemi Accounts?",
+        "type": "purpose",
+        "q": "What does the advertisement promote?",
         "choices": [
-          "Aspen",
-          "Linden",
-          "Willow",
-          "Rowan"
+          "Regular maintenance of workplace plants",
+          "Training for professional gardeners",
+          "Decorative containers made by office workers",
+          "Rental of outdoor inspection equipment"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
-          "q": "탈베미 회계팀에 적합한 상품은 무엇인가?",
+          "q": "광고는 무엇을 홍보하는가?",
           "choices": [
-            "애스펀",
-            "린든",
-            "윌로",
-            "로언"
+            "직장 식물의 정기 관리",
+            "전문 원예사 교육",
+            "사무실 직원이 만든 장식용 화분",
+            "야외 점검 장비 대여"
           ]
         },
-        "explain": "메일은 1미터 이하 식물이 창문 없이 전등만 켜는 방에 있다고 하며 광고에서 그 조건은 로언다. 린든는 직접 햇빛을 받는 식물용이다.",
-        "crossRef": true
+        "explain": "월별 방문을 통해 식물을 관리하는 서비스 광고다. 화분은 고객이 소유하며 직원용 전문 원예 교육을 판매하지 않는다."
       },
       {
         "type": "inference",
         "q": "Who will most likely inspect the workroom?",
         "choices": [
           "Tavi Pell",
-          "Ivo Senn",
           "Nela Varn",
+          "Ivo Senn",
           "Mara Delt"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "작업실을 점검할 가능성이 가장 큰 사람은 누구인가?",
           "choices": [
             "타비 펠",
-            "이보 센",
             "넬라 반",
+            "이보 센",
             "마라 델트"
           ]
         },
         "explain": "메일의 사무실은 브린들에 있고 광고는 브린들 담당자를 이보 센으로 지정한다. 타비 펠은 울든 담당이다.",
+        "crossRef": true
+      },
+      {
+        "type": "inference",
+        "q": "Which package is appropriate for Talvemi Accounts?",
+        "choices": [
+          "Aspen",
+          "Linden",
+          "Rowan",
+          "Willow"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "탈베미 회계팀에 적합한 상품은 무엇인가?",
+          "choices": [
+            "애스펀",
+            "린든",
+            "로언",
+            "윌로"
+          ]
+        },
+        "explain": "메일은 1미터 이하 식물이 창문 없이 전등만 켜는 방에 있다고 하며 광고에서 그 조건은 로언이다. 린든은 직접 햇빛을 받는 식물용이다.",
         "crossRef": true
       },
       {
@@ -356,11 +356,13 @@
       },
       {
         "type": "form",
-        "title": "Optical shop receipt",
+        "title": "Employee expense claim with optical receipt",
         "heading": [
-          "Kelvori Optics",
-          "Customer: Dena Orl",
-          "Employer: Varneli Machine Works"
+          "Submitted by: Dena Orl",
+          "Employer: Varneli Machine Works",
+          "Receipt issuer: Kelvori Optics",
+          "Portal submission: June 1, 2027",
+          "Supervisor eligibility approval: June 1, 2027"
         ],
         "table": [
           [
@@ -389,7 +391,7 @@
           ]
         ],
         "body": [
-          "Examination: April 12, 2027. Payment: May 3, 2027. Glasses collected: May 7, 2027. Employee claim submitted: June 1, 2027. Supervisor confirmation of eligibility: approved June 1, 2027.",
+          "Dates copied from the optical receipt — Examination: April 12, 2027. Payment: May 3, 2027. Glasses collected: May 7, 2027. The shop’s collection and care notes are reproduced below.",
           "The customer tried on the completed glasses at collection. The temples were adjusted to prevent movement when the customer looked downward, and the customer confirmed that both lenses provided a clear view. A hard case and a cleaning cloth were supplied at no extra charge.",
           "For routine cleaning, use the supplied cloth and the mild solution recommended in the enclosed leaflet. Return to the shop if the frame becomes loose; employees at the plant should not attempt to bend the temples themselves. The shop keeps the original prescription on file, and a copy was included in the customer’s envelope."
         ]
@@ -406,11 +408,13 @@
         ]
       },
       {
-        "title": "안경점 영수증",
+        "title": "안경점 영수증을 첨부한 직원 비용 청구서",
         "heading": [
-          "켈보리 안경원",
-          "고객: 데나 오를",
-          "고용주: 바르넬리 기계제작"
+          "제출자: 데나 오를",
+          "고용주: 바르넬리 기계제작",
+          "영수증 발행처: 켈보리 안경원",
+          "포털 제출: 2027년 6월 1일",
+          "상사 지원 자격 승인: 2027년 6월 1일"
         ],
         "table": [
           [
@@ -439,7 +443,7 @@
           ]
         ],
         "body": [
-          "검사: 2027년 4월 12일. 결제: 2027년 5월 3일. 안경 수령: 2027년 5월 7일. 직원 청구 제출: 2027년 6월 1일. 상사의 지원 자격 확인: 2027년 6월 1일 승인.",
+          "안경점 영수증에서 옮긴 날짜 — 검사: 2027년 4월 12일. 결제: 2027년 5월 3일. 안경 수령: 2027년 5월 7일. 아래에는 매장의 수령 및 관리 안내를 그대로 옮겼다.",
           "고객은 수령 시 완성 안경을 착용해 보았다. 아래를 볼 때 안경이 움직이지 않도록 안경다리를 조절했으며 고객은 두 렌즈 모두 시야가 선명하다고 확인했다. 단단한 케이스와 세척용 천을 무료로 제공했다.",
           "일상적인 세척에는 제공된 천과 동봉 안내문에서 권장한 순한 용액을 사용한다. 안경테가 헐거워지면 매장으로 가져와야 하며 공장 직원이 직접 안경다리를 구부려서는 안 된다. 매장은 처방전 원본을 보관하고 고객 봉투에 사본을 넣었다."
         ]
@@ -452,17 +456,17 @@
         "choices": [
           "How to perform an eye examination",
           "Why the optical shop is relocating",
-          "How safety frames are manufactured",
-          "Which eyewear expenses an employer will pay"
+          "Which eyewear expenses an employer will pay",
+          "How safety frames are manufactured"
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "공지의 주된 설명 대상은 무엇인가?",
           "choices": [
             "시력 검사 방법",
             "안경점 이전 이유",
-            "안전안경테 제조 방법",
-            "고용주가 지급할 안경 비용"
+            "고용주가 지급할 안경 비용",
+            "안전안경테 제조 방법"
           ]
         },
         "explain": "공지는 회사의 도수 안전안경 환급 범위와 절차를 설명한다. 검사 방법이나 제조 공정 안내가 아니다."
@@ -472,18 +476,18 @@
         "q": "Who confirms that an employee’s work qualifies for the benefit?",
         "choices": [
           "An optical shop assistant",
-          "The employee’s supervisor",
+          "A Finance receptionist",
           "A cleaning-solution supplier",
-          "A Finance receptionist"
+          "The employee’s supervisor"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "직원의 업무가 지원 대상임을 누가 확인하는가?",
           "choices": [
             "안경점 직원",
-            "직원의 상사",
+            "재무팀 접수 담당자",
             "세척액 공급업체",
-            "재무팀 접수 담당자"
+            "직원의 상사"
           ]
         },
         "explain": "공지 마지막 문단에서 포털 청구 시 상사가 담당 업무를 확인한다고 한다. 안경점은 처방 문의를 담당한다."
@@ -493,43 +497,21 @@
         "q": "How much should Ms. Orl receive under the program?",
         "choices": [
           "$200",
-          "$175",
           "$140",
+          "$175",
           "$165"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "오를 씨는 제도에 따라 얼마를 환급받아야 하는가?",
           "choices": [
             "200달러",
-            "175달러",
             "140달러",
+            "175달러",
             "165달러"
           ]
         },
         "explain": "공지의 지원 대상인 안경테 60달러와 렌즈 80달러를 영수증에서 합하면 140달러다. 200달러에는 직원 부담인 검사와 코팅 비용도 포함된다.",
-        "crossRef": true
-      },
-      {
-        "type": "detail",
-        "q": "What is the earliest date Ms. Orl may request another pair?",
-        "choices": [
-          "May 7, 2028",
-          "April 12, 2028",
-          "June 1, 2028",
-          "May 3, 2028"
-        ],
-        "answer": 0,
-        "ko": {
-          "q": "오를 씨가 다음 안경을 요청할 수 있는 가장 이른 날짜는 언제인가?",
-          "choices": [
-            "2028년 5월 7일",
-            "2028년 4월 12일",
-            "2028년 6월 1일",
-            "2028년 5월 3일"
-          ]
-        },
-        "explain": "공지는 수령일부터 12개월 후를 기준으로 하고 영수증의 수령일은 2027년 5월 7일이다. 결제일이나 검사일부터 계산하지 않는다.",
         "crossRef": true
       },
       {
@@ -552,6 +534,28 @@
           ]
         },
         "explain": "영수증 메모는 아래를 볼 때 움직이지 않도록 안경다리를 조절했다고 한다. 케이스는 무료로 제공했다."
+      },
+      {
+        "type": "detail",
+        "q": "What is the earliest date Ms. Orl may request another pair?",
+        "choices": [
+          "April 12, 2028",
+          "May 7, 2028",
+          "June 1, 2028",
+          "May 3, 2028"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "오를 씨가 다음 안경을 요청할 수 있는 가장 이른 날짜는 언제인가?",
+          "choices": [
+            "2028년 4월 12일",
+            "2028년 5월 7일",
+            "2028년 6월 1일",
+            "2028년 5월 3일"
+          ]
+        },
+        "explain": "공지는 수령일부터 12개월 후를 기준으로 하고 영수증의 수령일은 2027년 5월 7일이다. 결제일이나 검사일부터 계산하지 않는다.",
+        "crossRef": true
       }
     ]
   },
@@ -561,177 +565,159 @@
     "setType": "double",
     "passages": [
       {
-        "type": "letter",
-        "title": "Embroidery proof arrangements",
-        "heading": [
-          "To: Elva Norr, Velsani Hotel",
-          "From: Rovin Pell, Tarmeli Stitchworks",
-          "Date: October 2"
-        ],
+        "type": "advertisement",
+        "title": "A clear voice for your company telephone",
+        "heading": [],
         "body": [
-          "Dear Ms. Norr,",
-          "We have completed four standard arrangements for your hotel emblem. Arc places the emblem horizontally on the left chest; Beam places it horizontally on the cuff. Crest uses the left chest with the emblem turned vertically, while Drift combines a vertical emblem with a cuff position. These names describe placement and direction only, not garment size or thread color.",
-          "One physical proof is supplied before a production run. Please compare it with the approved sketch and return both together if a change is needed. Turning an emblem requires a new stitch file and costs $40. Moving it to another position without turning it costs $20. A thread-color change alone costs $10. Repeating an unchanged proof is free. These are proof charges, separate from the cost of embroidering the garments.",
-          "We cannot judge direction from a photograph taken at an angle, so the physical sample remains important. Once the proof is signed, we retain it beside the machine during production. Your finished shirts will be packed by size, with a count sheet inside each carton.",
-          "Yours sincerely,",
-          "Rovin Pell"
+          "Velmira Audio produces recorded greetings for business telephone systems. A booking includes a live recording session, separate sound files for the main greeting and departmental menus, and a written copy of the final script. Customers can join the session from their own offices. The producer pauses between sections so participants can hear a phrase again before moving on. A pronunciation list may be sent in advance for unfamiliar product names.",
+          "The completed files are delivered three working days after the customer uploads the approved script. Count from the following day; our working days are Monday through Friday, and there are no closures during October. A recording appointment can take place before approval, but the delivery clock starts with the approved upload. Customers receive a private download link that remains available for thirty days.",
+          "Our small production team stays with a project throughout the booking. Mina Trel schedules sessions, and Oren Vesk handles invoicing. During recording, Salma Dinn directs the speaker while Pavo Nerr adjusts sound levels and removes unwanted background noise. We can supply a short test file before the finished package. Customers should try it on their own telephone equipment, since office systems can reproduce the same recording differently."
         ]
       },
       {
-        "type": "email",
-        "title": "Sample comparison",
+        "type": "review",
+        "title": "Customer review: Reldavi Engineering",
         "heading": [
-          "To: Rovin Pell",
-          "From: Elva Norr",
-          "Date: October 5",
-          "Subject: Shirt proof"
+          "Posted by: Elva Norr, Office Coordinator",
+          "Date: October 14"
         ],
         "body": [
-          "The shirt delivered this morning has our emblem on the left chest, with its long edge running from the shoulder toward the waist. In the approved sketch, that edge runs across the chest, parallel to the floor. The marked position on the sketch is also the left chest. Both the sample and the sketch use dark-green thread.",
-          "I placed the shirt and the sketch in the return envelope provided. The courier collected the envelope at three this afternoon. Our housekeeping manager also tried the shirt on and found the sleeve length satisfactory; her comments are on a separate sheet in the envelope.",
-          "The initial production quantity remains seventy-two shirts. Our storeroom has six empty shelves ready for the delivery, and the size list sent last week is still current. I will be away on Thursday, but my colleague Sera Dinn can answer questions about that list."
+          "Our reception team recorded a new greeting with Velmira last Monday. During the test, a low hum was audible whenever our narrator paused. I spoke directly with the person responsible for removing background noise, and the next test sounded clear. We kept the narrator and wording unchanged.",
+          "We uploaded our approved script on Tuesday, October 12. Our office manager checked the company account on Thursday afternoon; the download link had not yet appeared. The greeting is for a new service desk, so several colleagues are waiting to install it on their extension menus.",
+          "The live session was easy to follow, although we had to repeat one product name. I would advise other customers to send their pronunciation notes before recording. We had put ours in an internal folder instead of sending them to the studio."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "자수 견본 제작 안내",
-        "heading": [
-          "수신: 엘바 노르, 벨사니 호텔",
-          "발신: 로빈 펠, 타르멜리 자수",
-          "날짜: 10월 2일"
-        ],
+        "title": "회사 전화에 어울리는 또렷한 목소리",
+        "heading": [],
         "body": [
-          "노르 씨께,",
-          "호텔 문양의 표준 배치 네 가지를 준비했습니다. 아크는 왼쪽 가슴에 가로 방향, 빔은 소매 끝에 가로 방향으로 문양을 놓습니다. 크레스트는 왼쪽 가슴에 세로 방향으로 놓고, 드리프트는 소매 끝에 세로 방향으로 놓습니다. 이름은 위치와 방향만 나타내며 옷 크기나 실 색깔을 나타내지 않습니다.",
-          "생산 전에 실물 견본 하나를 제공합니다. 승인된 도안과 비교하고 변경이 필요하면 둘을 함께 반송해 주십시오. 문양을 회전하면 새 자수 파일이 필요하며 40달러입니다. 회전 없이 위치만 옮기면 20달러입니다. 실 색깔만 바꾸면 10달러이고 동일 견본을 다시 만들면 무료입니다. 이 견본 비용은 옷에 자수를 넣는 비용과 별도입니다.",
-          "비스듬히 찍은 사진으로 방향을 판단할 수 없어 실물 견본이 중요합니다. 견본에 서명하면 생산 중 기계 옆에 보관합니다. 완성 셔츠는 크기별로 포장하며 상자마다 수량표를 넣습니다.",
-          "감사합니다.",
-          "로빈 펠"
+          "벨미라 오디오는 기업 전화 시스템용 안내 녹음을 제작합니다. 예약에는 실시간 녹음, 대표 안내와 부서별 메뉴의 개별 음성 파일, 최종 대본의 문서 사본이 포함됩니다. 고객은 자신의 사무실에서 녹음에 참여할 수 있습니다. 제작자는 각 부분 사이에 멈추어 참여자가 다음으로 넘어가기 전에 구절을 다시 들을 수 있게 합니다. 낯선 제품명은 발음 목록을 미리 보낼 수 있습니다.",
+          "고객이 승인된 대본을 업로드한 뒤 영업일 기준 3일 후에 완성 파일을 전달합니다. 다음 날부터 계산하며 영업일은 월요일부터 금요일까지이고 10월에는 휴무가 없습니다. 녹음 예약은 승인 전에 진행할 수 있지만 납기 계산은 승인 대본 업로드부터 시작됩니다. 고객에게는 30일 동안 사용할 수 있는 비공개 다운로드 링크를 제공합니다.",
+          "소규모 제작팀이 예약 과정 내내 같은 프로젝트를 담당합니다. 미나 트렐은 녹음 일정을 잡고 오렌 베스크는 청구서를 처리합니다. 녹음 중 살마 딘은 화자의 발화를 지도하고 파보 네르는 음량을 조절하며 불필요한 배경 소음을 제거합니다. 완성본 전에 짧은 시험 파일을 제공할 수 있습니다. 사무실 시스템에 따라 같은 녹음도 다르게 재생될 수 있으므로 고객은 자신의 전화 장비에서 시험해야 합니다."
         ]
       },
       {
-        "title": "견본 비교",
+        "title": "고객 후기: 렐다비 엔지니어링",
         "heading": [
-          "수신: 로빈 펠",
-          "발신: 엘바 노르",
-          "날짜: 10월 5일",
-          "제목: 셔츠 견본"
+          "작성자: 엘바 노르, 사무실 담당자",
+          "날짜: 10월 14일"
         ],
         "body": [
-          "오늘 아침 도착한 셔츠는 왼쪽 가슴의 문양 긴 변이 어깨에서 허리 쪽으로 뻗어 있습니다. 승인된 도안에서는 그 변이 바닥과 평행하게 가슴을 가로지릅니다. 도안의 표시 위치도 왼쪽 가슴입니다. 견본과 도안 모두 진녹색 실을 사용합니다.",
-          "셔츠와 도안을 제공된 반송 봉투에 넣었습니다. 배송 기사가 오늘 오후 3시에 가져갔습니다. 객실 관리 책임자도 셔츠를 입어 보고 소매 길이가 적절하다고 했으며 봉투 안 별지에 의견을 적었습니다.",
-          "최초 생산 수량은 여전히 72벌입니다. 창고에는 배송품을 놓을 빈 선반 여섯 개가 준비되어 있으며 지난주 보낸 크기 목록도 그대로입니다. 목요일에는 제가 자리를 비우지만 동료 세라 딘이 그 목록에 관한 질문에 답할 수 있습니다."
+          "접수팀은 지난 월요일 벨미라와 새 안내를 녹음했습니다. 시험 중 화자가 멈출 때마다 낮은 웅웅거리는 소리가 들렸습니다. 저는 배경 소음 제거 담당자와 직접 이야기했고 다음 시험본은 깨끗하게 들렸습니다. 화자와 문구는 그대로 유지했습니다.",
+          "승인된 대본을 10월 12일 화요일에 업로드했습니다. 사무실 관리자가 목요일 오후 회사 계정을 확인했을 때 다운로드 링크는 아직 없었습니다. 새 서비스 창구용 안내여서 여러 동료가 자신의 내선 메뉴에 설치하려고 기다리고 있습니다.",
+          "실시간 녹음은 따라가기 쉬웠지만 제품명 하나를 반복해야 했습니다. 다른 고객에게는 녹음 전에 발음 메모를 보내라고 권하고 싶습니다. 저희는 메모를 스튜디오에 보내는 대신 내부 폴더에 넣어 두었습니다."
         ]
       }
     ],
     "questions": [
       {
         "type": "purpose",
-        "q": "Why did Mr. Pell write the letter?",
+        "q": "What service does the advertisement offer?",
         "choices": [
-          "To explain how garment proofs will be handled",
-          "To request changes to the hotel’s size list",
-          "To advertise replacement housekeeping uniforms",
-          "To confirm that a full shipment has left the factory"
+          "Producing telephone greetings for businesses",
+          "Installing office telephone hardware",
+          "Training reception staff to handle complaints",
+          "Providing a live answering service"
         ],
         "answer": 0,
         "ko": {
-          "q": "펠 씨는 왜 편지를 썼는가?",
+          "q": "광고는 어떤 서비스를 제공하는가?",
           "choices": [
-            "의류 견본 처리 방식을 설명한다",
-            "호텔의 크기 목록 변경을 요청한다",
-            "교체용 객실 관리 유니폼을 광고한다",
-            "전체 배송품이 공장을 출발했음을 확인한다"
+            "기업용 전화 안내 녹음을 제작한다",
+            "사무실 전화 장비를 설치한다",
+            "접수 직원에게 불만 처리 교육을 한다",
+            "실시간 전화 응대 서비스를 제공한다"
           ]
         },
-        "explain": "편지는 자수 배치와 견본 확인·변경 비용 및 생산 절차를 안내한다. 완제품 발송 확인은 아니다."
-      },
-      {
-        "type": "detail",
-        "q": "Why does Tarmeli Stitchworks require a physical sample?",
-        "choices": [
-          "It cannot read the hotel’s size list",
-          "It needs to determine the thread supplier",
-          "Angled photographs can make orientation unclear",
-          "The hotel has not approved any sketch"
-        ],
-        "answer": 2,
-        "ko": {
-          "q": "타르멜리 자수가 실물 견본을 요구하는 이유는 무엇인가?",
-          "choices": [
-            "호텔의 크기 목록을 읽을 수 없어서다",
-            "실 공급업체를 알아야 해서다",
-            "비스듬한 사진은 방향을 불명확하게 만들 수 있어서다",
-            "호텔이 어떤 도안도 승인하지 않아서다"
-          ]
-        },
-        "explain": "편지에서 비스듬한 사진만으로 문양 방향을 판단할 수 없다고 설명한다. 승인 도안은 메일에서도 존재가 확인된다."
+        "explain": "광고는 대본과 부서별 음성 파일을 포함한 안내 녹음 제작을 홍보한다. 전화 장비 설치나 실시간 응대 서비스는 아니다."
       },
       {
         "type": "inference",
-        "q": "Which arrangement appears on the shirt Ms. Norr received?",
+        "q": "Who most likely spoke directly with Ms. Norr after the first test?",
         "choices": [
-          "Beam",
-          "Crest",
-          "Arc",
-          "Drift"
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "노르 씨가 받은 셔츠에는 어떤 배치가 나타나는가?",
-          "choices": [
-            "빔",
-            "크레스트",
-            "아크",
-            "드리프트"
-          ]
-        },
-        "explain": "메일의 왼쪽 가슴·어깨에서 허리로 향하는 세로 문양을 편지의 배치 설명과 연결하면 크레스트다. 아크는 같은 위치지만 가로 방향이다.",
-        "crossRef": true
-      },
-      {
-        "type": "detail",
-        "q": "What proof charge applies to making the sample match the approved sketch?",
-        "choices": [
-          "$10",
-          "$20",
-          "$0",
-          "$40"
-        ],
-        "answer": 3,
-        "ko": {
-          "q": "견본을 승인 도안과 일치시키는 데 적용되는 견본 비용은 얼마인가?",
-          "choices": [
-            "10달러",
-            "20달러",
-            "0달러",
-            "40달러"
-          ]
-        },
-        "explain": "메일상 위치와 색깔은 같고 문양 방향만 다르므로 편지의 회전 비용 40달러가 적용된다. 20달러는 회전 없이 위치만 바꾸는 경우다.",
-        "crossRef": true
-      },
-      {
-        "type": "detail",
-        "q": "What did the housekeeping manager find satisfactory?",
-        "choices": [
-          "The direction of the emblem",
-          "The number of storage shelves",
-          "The length of the sleeves",
-          "The delivery date"
+          "Salma Dinn",
+          "Oren Vesk",
+          "Pavo Nerr",
+          "Mina Trel"
         ],
         "answer": 2,
         "ko": {
-          "q": "객실 관리 책임자는 무엇이 적절하다고 판단했는가?",
+          "q": "첫 시험 후 노르 씨와 직접 이야기했을 가능성이 가장 큰 사람은 누구인가?",
           "choices": [
-            "문양 방향",
-            "보관 선반 수",
-            "소매 길이",
-            "배송일"
+            "살마 딘",
+            "오렌 베스크",
+            "파보 네르",
+            "미나 트렐"
           ]
         },
-        "explain": "메일은 책임자가 입어 본 뒤 소매 길이가 적절하다고 판단했다고 한다. 문양 방향에 대한 승인 의견은 아니다."
+        "explain": "후기에서 노르 씨는 배경 소음 제거 담당자와 이야기했다. 광고에서 그 역할은 파보 네르이며 살마 딘은 화자를 지도한다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "Why are customers asked to try a test file at their offices?",
+        "choices": [
+          "To check how their equipment reproduces the sound",
+          "To calculate the number of departmental menus",
+          "To choose the studio recording date",
+          "To extend access to the download link"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "고객이 사무실에서 시험 파일을 재생해야 하는 이유는 무엇인가?",
+          "choices": [
+            "자신의 장비에서 소리가 어떻게 재생되는지 확인한다",
+            "부서별 메뉴 수를 계산한다",
+            "스튜디오 녹음 날짜를 정한다",
+            "다운로드 링크 이용 기간을 연장한다"
+          ]
+        },
+        "explain": "광고 마지막 문단은 같은 녹음도 사무실 시스템에 따라 다르게 재생될 수 있다고 설명한다. 링크 이용 기간과는 무관하다."
+      },
+      {
+        "type": "detail",
+        "q": "On what date should Reldavi Engineering receive the completed files?",
+        "choices": [
+          "October 14",
+          "October 13",
+          "October 18",
+          "October 15"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "렐다비 엔지니어링은 언제 완성 파일을 받아야 하는가?",
+          "choices": [
+            "10월 14일",
+            "10월 13일",
+            "10월 18일",
+            "10월 15일"
+          ]
+        },
+        "explain": "후기의 화요일 12일 업로드와 광고의 다음 날부터 영업일 3일 조건을 연결하면 수·목·금인 15일이다. 목요일에 링크가 없었다는 사실만으로 지연이라고 볼 수 없다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "What would Ms. Norr do differently for a future recording?",
+        "choices": [
+          "Choose a different narrator",
+          "Rewrite every departmental greeting",
+          "Ask colleagues to install new telephones",
+          "Send pronunciation guidance to the studio beforehand"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "노르 씨는 다음 녹음에서 무엇을 다르게 하겠는가?",
+          "choices": [
+            "다른 화자를 고른다",
+            "모든 부서별 안내 문구를 다시 쓴다",
+            "동료들에게 새 전화를 설치하도록 요청한다",
+            "발음 안내를 미리 스튜디오에 보낸다"
+          ]
+        },
+        "explain": "후기 마지막 문단에서 발음 메모를 내부 폴더에만 두었다며 미리 보내라고 권한다. 화자는 바꾸지 않았다고 한다."
       }
     ]
   },
@@ -741,244 +727,240 @@
     "setType": "triple",
     "passages": [
       {
-        "type": "memo",
-        "title": "Paint-booth filter follow-up",
+        "type": "email",
+        "title": "Planning the filter trial",
         "heading": [
-          "To: Finishing Department",
-          "From: Tenera Voss, Maintenance Planning",
-          "Date: June 6"
+          "To: Tenera Voss, Finishing Department",
+          "From: Orin Kelm, Instrument Workshop",
+          "Date: June 6",
+          "Subject: On-site filter test"
         ],
         "body": [
-          "Our spray booths draw air through filters that gradually fill with paint particles. The pressure difference across a filter helps us decide when to inspect or replace it. A higher reading means that air is meeting more resistance. Use the corrected pressure value, in pascals, when choosing an action; an instrument adjustment can change the category even when the filter itself has not changed.",
-          "For a corrected value below 80, keep the booth on its regular monthly inspection cycle. From 80 through 109, arrange another reading in one week. From 110 through 139, repeat the measurement within two days. At 140 or above, replace the filter before the booth is used again. These four responses apply to every booth in the department. Do not defer a required replacement merely because the surface of a filter looks clean.",
-          "This trial concerns filter resistance only. The usual checks on lighting, protective equipment, and paint storage remain separate. Maintenance will review the trial after six weeks, using both the readings and the amount of production time affected. Readings should be taken with the same fan setting each time. Record the booth name and the time beside every measurement so that later reviewers can compare conditions accurately."
+          "Thank you for offering the Cedar spray booth for our trial. We will fit a temporary sensor and measure the airflow while the booth is empty. The visit takes ninety minutes from the booked starting time, including installation and removal of our equipment. We bring the sensor, but your replacement filter must already be at the plant when we arrive. We cannot test with the old filter because its condition would make comparisons unreliable.",
+          "After our equipment has been removed, your staff must run the booth empty for another thirty minutes before painting can resume. The entire visit and this additional period must fit inside the time for which Production releases the booth. We cannot shorten either period or leave the equipment installed overnight. Please defer booking until the delivery timing and the production release have both been checked.",
+          "The attached schedule shows our remaining appointments this week. Each appointment has the same duration and the same technician. Confirm one by telephone, then send the booth access instructions by e-mail. The technician will report to Reception with a portable case; no loading vehicle is needed. We will send the airflow report the next morning."
         ]
       },
       {
         "type": "form",
-        "title": "Morning pressure log",
+        "title": "Workshop appointment openings",
         "heading": [
-          "Finishing Department",
-          "Recorded June 8 at 08:00",
-          "Instrument: portable meter"
+          "Week beginning June 7",
+          "Prepared by: Instrument Workshop"
         ],
         "table": [
           [
-            "Booth",
-            "Displayed pressure"
+            "Day",
+            "Starting time"
           ],
           [
-            "Ash",
-            "90 Pa"
+            "Tuesday, June 8",
+            "10:00"
           ],
           [
-            "Birch",
-            "125 Pa"
+            "Wednesday, June 9",
+            "13:00"
           ],
           [
-            "Cedar",
-            "155 Pa"
+            "Thursday, June 10",
+            "11:00"
           ],
           [
-            "Juniper",
-            "170 Pa"
+            "Friday, June 11",
+            "09:00"
           ]
         ],
         "body": [
-          "All four readings were taken with the same portable meter before production began. Each booth door was closed, and the fan was running at its normal setting. The operator copied the numbers directly from the display and made no numerical adjustment.",
-          "No filters were changed between the readings. The fixed indicators normally mounted on the booths had been removed for cleaning, which is why the portable instrument was used. The completed sheet was sent to Maintenance with the meter."
+          "These are unreserved starting times for visits to the finishing plant. Travel time has already been allowed for, and the technician will be ready to begin at the listed time. The schedule contains no afternoon opening on Thursday and no second opening on Friday.",
+          "A confirmed appointment will be removed from this list. Cancellations must be reported directly to the workshop office so that the technician can be reassigned. The office opens at eight each weekday and retains a copy of the access instructions with the booking."
         ]
       },
       {
-        "type": "email",
-        "title": "Instrument check completed",
+        "type": "memo",
+        "title": "Cedar booth availability",
         "heading": [
-          "To: Tenera Voss",
-          "From: Orin Kelm, Instrument Workshop",
-          "Date: June 8",
-          "Subject: Portable meter"
+          "From: Tenera Voss",
+          "Date: June 7"
         ],
         "body": [
-          "We checked the meter delivered with this morning’s sheet against our reference instrument. Throughout the range used for the four measurements, its display was twenty pascals higher than the actual pressure difference. The error was stable rather than intermittent. The reference instrument passed its own check immediately before we made the comparison.",
-          "The portable meter has now been adjusted and is back in its case. A new label gives today’s workshop date. The original sheet remains attached, with the operator’s figures unchanged. No further production readings have been taken since the instrument arrived here.",
-          "A replacement carrying strap is also enclosed. The old strap had a torn seam, although the meter casing and connecting tubes showed no damage."
+          "The filter supplier has confirmed delivery of our replacement on Wednesday at 16:00. Stores will check the package immediately and hold it beside Cedar. The old filter remains in use until the trial. The supplier has no earlier shipment available.",
+          "Production can release Cedar from 10:00 until 14:00 on Thursday, or from 08:00 until 10:00 on Friday. At the end of either interval the booth must be ready for painting. There are no other release periods this week, and the next week’s production plan has not yet been issued.",
+          "Reception has received the visitor’s name. I placed a new carrying strap in the visitor cupboard after noticing that the workshop’s old one had a split seam. The replacement is labeled for collection during the visit."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "도장 부스 필터 후속 점검",
+        "title": "필터 시험 계획",
         "heading": [
-          "수신: 마감 공정 부서",
-          "발신: 테네라 보스, 정비 계획팀",
-          "날짜: 6월 6일"
+          "수신: 테네라 보스, 마감 부서",
+          "발신: 오린 켈름, 계기 작업실",
+          "날짜: 6월 6일",
+          "제목: 현장 필터 시험"
         ],
         "body": [
-          "분사 부스는 페인트 입자가 점차 쌓이는 필터를 통해 공기를 빨아들인다. 필터 양쪽의 압력 차이로 점검이나 교체 시점을 판단한다. 수치가 높을수록 공기가 더 큰 저항을 받는다는 뜻이다. 필터 자체가 변하지 않아도 계기 보정으로 분류가 달라질 수 있으므로 조치는 파스칼 단위의 보정된 압력값으로 결정해야 한다.",
-          "보정값이 80 미만이면 기존의 월간 점검 주기를 유지한다. 80~109이면 일주일 뒤 다시 측정한다. 110~139이면 이틀 안에 재측정한다. 140 이상이면 부스를 다시 사용하기 전에 필터를 교체한다. 네 조치는 모든 부스에 적용된다. 필터 표면이 깨끗해 보인다는 이유만으로 필요한 교체를 미루지 않는다.",
-          "이번 시범 운영은 필터 저항만 다룬다. 조명, 보호 장비, 도료 보관에 관한 기존 점검은 별도이다. 정비팀은 수치와 생산 시간에 미친 영향을 이용해 6주 후 시범 운영을 검토한다. 매번 같은 송풍기 설정으로 측정해야 한다. 이후 검토자가 조건을 정확하게 비교하도록 각 측정값 옆에 부스 이름과 시각을 기록한다."
+          "시험을 위해 시더 도장 부스를 제공해 주셔서 감사합니다. 임시 센서를 설치하고 빈 부스의 공기 흐름을 측정하겠습니다. 장비 설치와 철거를 포함해 예약 시작 시각부터 90분이 걸립니다. 센서는 가져가지만 도착할 때 교체용 필터가 이미 공장에 있어야 합니다. 기존 필터는 상태 때문에 비교 결과의 신뢰성이 떨어지므로 사용할 수 없습니다.",
+          "장비를 철거한 후 직원들이 부스를 30분 더 빈 상태로 가동해야 도장을 재개할 수 있습니다. 방문 전체와 이 추가 시간이 모두 생산팀이 부스를 내주는 시간 안에 들어가야 합니다. 어느 시간도 줄일 수 없고 장비를 밤새 두고 갈 수도 없습니다. 배송 시점과 생산팀의 사용 허용 시간을 모두 확인할 때까지 예약을 미뤄 주십시오.",
+          "첨부 일정은 이번 주 남은 예약 시간입니다. 모든 예약은 소요 시간과 기술자가 같습니다. 전화로 하나를 확정한 뒤 부스 출입 안내를 이메일로 보내 주십시오. 기술자는 휴대용 케이스를 들고 접수처를 방문하며 화물 차량은 필요 없습니다. 공기 흐름 보고서는 다음 날 아침 보내겠습니다."
         ]
       },
       {
-        "title": "아침 압력 기록표",
+        "title": "작업실 예약 가능 시간",
         "heading": [
-          "마감 공정 부서",
-          "6월 8일 08:00 기록",
-          "계기: 휴대용 측정기"
+          "6월 7일 시작 주간",
+          "작성: 계기 작업실"
         ],
         "table": [
           [
-            "부스",
-            "표시 압력"
+            "요일",
+            "시작 시각"
           ],
           [
-            "애시",
-            "90Pa"
+            "6월 8일 화요일",
+            "10:00"
           ],
           [
-            "버치",
-            "125Pa"
+            "6월 9일 수요일",
+            "13:00"
           ],
           [
-            "시더",
-            "155Pa"
+            "6월 10일 목요일",
+            "11:00"
           ],
           [
-            "주니퍼",
-            "170Pa"
+            "6월 11일 금요일",
+            "09:00"
           ]
         ],
         "body": [
-          "생산 시작 전 같은 휴대용 측정기로 네 수치를 모두 측정했다. 각 부스 문은 닫혀 있었으며 송풍기는 정상 설정으로 작동했다. 작업자는 표시 수치를 그대로 옮겼고 수치 보정은 하지 않았다.",
-          "측정 사이에 필터를 교체하지 않았다. 부스의 고정 표시기를 청소하려고 떼어 놓아 휴대용 계기를 사용했다. 완성 기록표를 계기와 함께 정비팀에 보냈다."
+          "마감 공장 방문을 위해 아직 예약되지 않은 시작 시각이다. 이동 시간은 이미 반영했으며 기술자는 표시된 시각에 시작할 준비가 된다. 목요일 오후 시간이나 금요일의 두 번째 시간은 없다.",
+          "확정된 예약은 목록에서 삭제한다. 기술자를 다른 작업에 배정할 수 있도록 취소는 작업실 사무실에 직접 알려야 한다. 사무실은 평일 8시에 열며 예약 자료와 함께 출입 안내 사본을 보관한다."
         ]
       },
       {
-        "title": "계기 점검 완료",
+        "title": "시더 부스 사용 가능 시간",
         "heading": [
-          "수신: 테네라 보스",
-          "발신: 오린 켈름, 계기 작업실",
-          "날짜: 6월 8일",
-          "제목: 휴대용 측정기"
+          "작성: 테네라 보스",
+          "날짜: 6월 7일"
         ],
         "body": [
-          "오늘 아침 기록표와 함께 온 측정기를 기준 계기와 비교했습니다. 네 측정에 사용한 범위 전체에서 표시값이 실제 압력 차이보다 20파스칼 높았습니다. 오차는 간헐적이지 않고 일정했습니다. 비교 직전 기준 계기 자체의 점검도 통과했습니다.",
-          "휴대용 측정기는 이제 조정하여 케이스에 넣었습니다. 새 라벨에 오늘 작업실 날짜를 표시했습니다. 원래 기록표는 작업자의 수치를 바꾸지 않은 채 첨부되어 있습니다. 계기가 이곳에 온 뒤 추가 생산 측정은 없었습니다.",
-          "교체용 운반 끈도 동봉합니다. 계기 외함과 연결관은 손상이 없었지만 기존 끈의 솔기가 찢어져 있었습니다."
+          "필터 공급업체가 교체품을 수요일 16시에 배송한다고 확인했다. 자재팀이 즉시 포장을 확인하고 시더 옆에 보관할 예정이다. 시험 전까지 기존 필터를 사용한다. 공급업체는 더 이른 배송을 제공할 수 없다.",
+          "생산팀은 목요일 10시부터 14시까지 또는 금요일 8시부터 10시까지 시더를 내줄 수 있다. 각 시간대가 끝나면 도장할 준비가 되어 있어야 한다. 이번 주에 다른 사용 가능 시간은 없고 다음 주 생산 계획은 아직 나오지 않았다.",
+          "접수처는 방문자의 이름을 받았다. 작업실의 기존 운반 끈에 솔기가 터진 것을 보고 방문자 수납장에 새 끈을 넣었다. 방문 중 가져갈 수 있도록 교체품에 표지를 붙였다."
         ]
       }
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What is the purpose of the memo?",
-        "choices": [
-          "To introduce a new paint supplier",
-          "To explain how filter readings determine follow-up work",
-          "To announce closure of the finishing department",
-          "To change the rules for storing protective equipment"
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "메모의 목적은 무엇인가?",
-          "choices": [
-            "새 도료 공급업체를 소개한다",
-            "필터 측정값에 따른 후속 작업을 설명한다",
-            "마감 부서 폐쇄를 알린다",
-            "보호 장비 보관 규칙을 바꾼다"
-          ]
-        },
-        "explain": "메모는 보정된 압력값 구간별로 점검·교체 조치를 정한다. 도료 보관 등 다른 점검은 별개라고 명시한다."
-      },
-      {
         "type": "synonym",
-        "q": "In paragraph 2 of the memo, the word \"defer\" is closest in meaning to",
+        "q": "In paragraph 2 of the e-mail, the word \"defer\" is closest in meaning to",
         "choices": [
-          "postpone",
           "record",
+          "postpone",
           "justify",
           "request"
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
-          "q": "메모 두 번째 문단의 defer와 의미가 가장 가까운 것은 무엇인가?",
+          "q": "이메일 두 번째 문단의 defer와 의미가 가장 가까운 것은 무엇인가?",
           "choices": [
-            "미루다",
             "기록하다",
+            "미루다",
             "정당화하다",
             "요청하다"
           ]
         },
-        "explain": "필요한 교체를 외관만 보고 늦추지 말라는 뜻이므로 postpone이 맞다. 교체 내용을 기록하지 말라는 의미가 아니다.",
+        "explain": "배송과 부스 사용 시간을 확인할 때까지 예약을 늦추라는 뜻이므로 postpone이다. 예약을 기록하라는 뜻은 아니다.",
         "ref": {
           "passage": 0,
           "paragraph": 1
         }
       },
       {
-        "type": "inference",
-        "q": "Which booth needs a new filter before further operation?",
+        "type": "purpose",
+        "q": "Why did Mr. Kelm send the e-mail?",
         "choices": [
-          "Cedar",
-          "Ash",
-          "Juniper",
-          "Birch"
+          "To arrange the conditions for an on-site trial",
+          "To request a refund for a damaged filter",
+          "To cancel a paint delivery",
+          "To recruit a new production technician"
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
-          "q": "추가 가동 전에 새 필터가 필요한 부스는 어느 것인가?",
+          "q": "켈름 씨가 이메일을 보낸 이유는 무엇인가?",
           "choices": [
-            "시더",
-            "애시",
-            "주니퍼",
-            "버치"
+            "현장 시험에 필요한 조건을 조율한다",
+            "손상된 필터의 환불을 요청한다",
+            "도료 배송을 취소한다",
+            "새 생산 기술자를 채용한다"
           ]
         },
-        "explain": "기록표에서 주니퍼는 170이며 메일의 오차 20을 빼면 150이다. 메모의 140 이상 교체 조건을 충족하며 시더는 보정 후 135여서 다르다.",
-        "crossRef": true
+        "explain": "메일은 시험 소요 시간과 준비물, 예약 절차를 안내한다. 필터 환불이나 도료 배송 취소는 요청하지 않는다."
       },
       {
         "type": "inference",
-        "q": "What is the appropriate next step for Cedar?",
+        "q": "Which appointment can Ms. Voss confirm for Cedar?",
         "choices": [
-          "Keep its monthly inspection date",
-          "Replace its filter immediately",
-          "Measure it again in one week",
-          "Check its pressure again within two days"
+          "Tuesday at 10:00",
+          "Wednesday at 13:00",
+          "Friday at 09:00",
+          "Thursday at 11:00"
         ],
         "answer": 3,
         "ko": {
-          "q": "시더에 적절한 다음 조치는 무엇인가?",
+          "q": "보스 씨가 시더를 위해 확정할 수 있는 예약은 무엇인가?",
           "choices": [
-            "월간 점검일을 유지한다",
-            "필터를 즉시 교체한다",
-            "일주일 후 다시 측정한다",
-            "이틀 안에 압력을 다시 확인한다"
+            "화요일 10시",
+            "수요일 13시",
+            "금요일 9시",
+            "목요일 11시"
           ]
         },
-        "explain": "시더의 표시값 155에서 메일의 과대 표시분 20을 빼면 135이고 메모는 110~139에 이틀 내 재측정을 지정한다. 보정 전 수치로 즉시 교체를 고르면 안 된다.",
+        "explain": "메일상 시험과 빈 부스 가동에 총 2시간이 필요하고 메모상 필터는 수요일 16시에 온다. 표의 목요일 11시는 13시에 끝나 사용 허용 시간 안에 들지만 금요일 9시는 11시에 끝나 늦다.",
         "crossRef": true
       },
       {
         "type": "detail",
-        "q": "What was wrong with the meter’s strap?",
+        "q": "Why did Ms. Voss leave a replacement strap for the visitor?",
         "choices": [
-          "Some stitching had split",
-          "Its label showed the wrong date",
-          "It was too short for the case",
-          "Paint had blocked its fastening"
+          "The visitor had lost the equipment case",
+          "The stitching on the old one had come apart",
+          "The existing strap lacked a name label",
+          "The supplier sent the wrong size"
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
-          "q": "측정기의 끈에는 어떤 문제가 있었는가?",
+          "q": "보스 씨가 방문자에게 교체용 끈을 준비한 이유는 무엇인가?",
           "choices": [
-            "바느질 부분이 찢어졌다",
-            "라벨 날짜가 틀렸다",
-            "케이스에 쓰기에 너무 짧았다",
-            "페인트가 잠금장치를 막았다"
+            "방문자가 장비 케이스를 잃어버렸다",
+            "기존 끈의 봉제 부분이 터졌다",
+            "기존 끈에 이름표가 없었다",
+            "공급업체가 잘못된 크기를 보냈다"
           ]
         },
-        "explain": "마지막 메일은 기존 운반 끈의 솔기가 찢어졌다고 한다. 새 날짜 라벨은 계기에 붙인 것으로 끈 고장 원인이 아니다."
+        "explain": "메모는 기존 끈의 솔기가 터져 새 끈을 준비했다고 한다. 장비 케이스 분실은 언급하지 않는다."
+      },
+      {
+        "type": "detail",
+        "q": "At what time can painting first resume after the available visit to Cedar?",
+        "choices": [
+          "12:30",
+          "13:30",
+          "13:00",
+          "14:00"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "시더의 가능한 방문 작업 후 도장을 가장 일찍 재개할 수 있는 시각은 언제인가?",
+          "choices": [
+            "12시 30분",
+            "13시 30분",
+            "13시",
+            "14시"
+          ]
+        },
+        "explain": "배송·생산 조건에 맞는 표의 목요일 11시 예약에서 90분 시험과 30분 빈 부스 가동을 더하면 13시다. 12시 30분에는 추가 가동 시간이 끝나지 않는다.",
+        "crossRef": true
       }
     ]
   },
@@ -1142,17 +1124,17 @@
         "choices": [
           "How shops can advertise older titles",
           "How delivery prices are calculated",
-          "How to remove writing from used books",
-          "How book condition affects a wholesale transaction"
+          "How book condition affects a wholesale transaction",
+          "How to remove writing from used books"
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "웹페이지의 주된 내용은 무엇인가?",
           "choices": [
             "서점이 오래된 제목을 광고하는 방법",
             "배송 가격 계산 방법",
-            "중고책의 필기를 지우는 방법",
-            "책 상태가 도매 거래에 미치는 영향"
+            "책 상태가 도매 거래에 미치는 영향",
+            "중고책의 필기를 지우는 방법"
           ]
         },
         "explain": "등급 정의와 상태가 다른 경우의 환급·반송을 설명한다. 검토 전 메모를 지우는 것은 오히려 금지한다."
@@ -1179,20 +1161,41 @@
         "explain": "웹페이지는 사진 검토 전에 메모 삭제나 페이지 교체를 하지 말라고 한다. 판매 서가에 놓는 절차는 요구하지 않는다."
       },
       {
-        "type": "inference",
-        "q": "Which title should be classified as Annotated?",
+        "type": "detail",
+        "q": "What does the dispatch record say about the carton colors?",
         "choices": [
-          "Garden Letters",
-          "Aster Atlas",
-          "Village Kitchens",
-          "Bridge Calculations"
+          "They show the age of the books",
+          "They are temporary identifiers for the current order",
+          "They determine the delivery charge",
+          "They will remain attached to each title permanently"
         ],
         "answer": 1,
         "ko": {
+          "q": "출고 기록은 상자 색에 관해 무엇이라고 하는가?",
+          "choices": [
+            "책의 연식을 나타낸다",
+            "현재 주문을 위한 임시 식별 표시다",
+            "배송 요금을 결정한다",
+            "각 제목에 영구적으로 붙는다"
+          ]
+        },
+        "explain": "출고표 메모는 색이 이번 배송 묶음만 구분하며 이후 같은 제목에 다시 쓰일 보장은 없다고 한다. 등급이나 배송비를 나타내지 않는다."
+      },
+      {
+        "type": "inference",
+        "q": "Which title should be classified as Annotated?",
+        "choices": [
+          "Aster Atlas",
+          "Garden Letters",
+          "Village Kitchens",
+          "Bridge Calculations"
+        ],
+        "answer": 0,
+        "ko": {
           "q": "어느 제목을 애너테이티드로 분류해야 하는가?",
           "choices": [
-            "정원 편지",
             "애스터 지도책",
+            "정원 편지",
             "마을의 부엌",
             "교량 계산"
           ]
@@ -1204,44 +1207,23 @@
         "type": "detail",
         "q": "What total credit follows from the reported condition of the delivery?",
         "choices": [
-          "$92",
-          "$80",
-          "$12",
-          "$140"
+          "$96",
+          "$88",
+          "$84",
+          "$92"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "보고된 배송 도서 상태에 따른 총 환급액은 얼마인가?",
           "choices": [
-            "92달러",
-            "80달러",
-            "12달러",
-            "140달러"
+            "96달러",
+            "88달러",
+            "84달러",
+            "92달러"
           ]
         },
         "explain": "빨간 상자 60달러의 20퍼센트인 12달러와 페이지가 빠진 파란 상자 80달러 전액을 합하면 92달러다. 초록·금색 상자는 환급 대상 차이가 없다.",
         "crossRef": true
-      },
-      {
-        "type": "detail",
-        "q": "What does the dispatch record say about the carton colors?",
-        "choices": [
-          "They show the age of the books",
-          "They apply only to this shipment’s packing groups",
-          "They determine the delivery charge",
-          "They will remain attached to each title permanently"
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "출고 기록은 상자 색에 관해 무엇이라고 하는가?",
-          "choices": [
-            "책의 연식을 나타낸다",
-            "이번 배송의 포장 묶음에만 적용된다",
-            "배송 요금을 결정한다",
-            "각 제목에 영구적으로 붙는다"
-          ]
-        },
-        "explain": "출고표 메모는 색이 이번 배송 묶음만 구분하며 이후 같은 제목에 다시 쓰일 보장은 없다고 한다. 등급이나 배송비를 나타내지 않는다."
       }
     ]
   },
@@ -1438,27 +1420,6 @@
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What is the notice mainly intended to describe?",
-        "choices": [
-          "How suppliers should prepare invoices",
-          "How to request a larger account balance",
-          "How a bank checks business payments against company records",
-          "How to select an authorized company signer"
-        ],
-        "answer": 2,
-        "ko": {
-          "q": "공지의 주된 설명 대상은 무엇인가?",
-          "choices": [
-            "공급업체의 청구서 작성 방법",
-            "계좌 잔액 증액 요청 방법",
-            "은행이 기업 지급을 회사 기록과 대조하는 방법",
-            "회사 서명 권한자 선정 방법"
-          ]
-        },
-        "explain": "발행 파일과 제시 수표를 비교하여 지급 여부를 판단하는 서비스 설명이다. 청구서 작성이나 서명자 선정 방법이 아니다."
-      },
-      {
         "type": "detail",
         "q": "What must an administrator use to amend the issued-check file?",
         "choices": [
@@ -1480,47 +1441,68 @@
         "explain": "공지 마지막 문단은 보안 포털로 정정하도록 하며 전화만으로는 수정할 수 없다고 한다."
       },
       {
-        "type": "inference",
-        "q": "Which supplier’s presented check can be released without a file correction?",
+        "type": "purpose",
+        "q": "What is the notice mainly intended to describe?",
         "choices": [
-          "Kelora Paper",
-          "Tormeli Glass",
-          "Ervona Freight",
-          "Senvira Tools"
-        ],
-        "answer": 0,
-        "ko": {
-          "q": "파일 정정 없이 지급할 수 있는 제시 수표의 공급업체는 어디인가?",
-          "choices": [
-            "켈로라 제지",
-            "토르멜리 유리",
-            "에르보나 운송",
-            "센비라 공구"
-          ]
-        },
-        "explain": "두 표에서 켈로라의 차이는 대문자·쉼표뿐이며 공지는 이를 무시한다. 토르멜리는 단어가 다르고 에르보나는 무효 처리됐으며 센비라는 발행 파일에 없다.",
-        "crossRef": true
-      },
-      {
-        "type": "inference",
-        "q": "Why does the Navelin Parts item require review?",
-        "choices": [
-          "Its check number is absent from the issued file",
-          "The presented amount differs from the amount recorded by the company",
-          "Its payee name contains a different business word",
-          "The company has reported the check as void"
+          "How suppliers should prepare invoices",
+          "How a bank checks business payments against company records",
+          "How to request a larger account balance",
+          "How to select an authorized company signer"
         ],
         "answer": 1,
         "ko": {
-          "q": "나벨린 부품 항목을 검토해야 하는 이유는 무엇인가?",
+          "q": "공지의 주된 설명 대상은 무엇인가?",
           "choices": [
-            "수표 번호가 발행 파일에 없다",
-            "제시 금액이 회사 기록 금액과 다르다",
-            "수취인 이름의 사업 관련 단어가 다르다",
-            "회사가 수표를 무효로 신고했다"
+            "공급업체의 청구서 작성 방법",
+            "은행이 기업 지급을 회사 기록과 대조하는 방법",
+            "계좌 잔액 증액 요청 방법",
+            "회사 서명 권한자 선정 방법"
           ]
         },
-        "explain": "발행 파일은 850달러인데 제시 보고서는 805달러다. 이름 변경은 토르멜리, 무효 신고는 에르보나 항목이다.",
+        "explain": "발행 파일과 제시 수표를 비교하여 지급 여부를 판단하는 서비스 설명이다. 청구서 작성이나 서명자 선정 방법이 아니다."
+      },
+      {
+        "type": "inference",
+        "q": "What can be concluded about the Kelora Paper item?",
+        "choices": [
+          "It can proceed with the issued file unchanged",
+          "Its recorded payment amount needs correction",
+          "Its payee wording needs amendment in the file",
+          "It needs a new entry in the issued file"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "켈로라 페이퍼 항목에 관해 무엇을 알 수 있는가?",
+          "choices": [
+            "발행 파일을 바꾸지 않고 처리할 수 있다",
+            "기록된 지급액을 수정해야 한다",
+            "파일의 수취인 명칭을 수정해야 한다",
+            "발행 파일에 새 항목이 필요하다"
+          ]
+        },
+        "explain": "두 표의 4821은 금액과 수취인 단어가 같고 대문자·쉼표만 다르다. 공지는 그 차이를 무시하므로 수정 없이 처리할 수 있으며 다른 보기의 수정 사유는 해당하지 않는다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "Which pair of amounts relates to the Navelin Parts item in the two records?",
+        "choices": [
+          "$850 issued and $805 presented",
+          "$805 issued and $850 presented",
+          "$850 issued and $850 presented",
+          "$805 issued and $805 presented"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "두 기록에서 나벨린 부품 항목에 해당하는 금액 쌍은 무엇인가?",
+          "choices": [
+            "발행 850달러, 제시 805달러",
+            "발행 805달러, 제시 850달러",
+            "발행 850달러, 제시 850달러",
+            "발행 805달러, 제시 805달러"
+          ]
+        },
+        "explain": "발행 파일의 4822는 850달러이고 제시 보고서의 같은 항목은 805달러다. 한 표만으로는 반대쪽 금액을 확인할 수 없다.",
         "crossRef": true
       },
       {
@@ -1552,71 +1534,33 @@
     "setType": "triple",
     "passages": [
       {
-        "type": "webpage",
-        "title": "Sealed bidding at Norvessa Machinery Sales",
-        "heading": [],
+        "type": "email",
+        "title": "Workshop equipment order",
+        "heading": [
+          "To: Elva Senn, Talmeri Workshop Services",
+          "From: Rovin Delt, Norvessa Equipment",
+          "Date: November 15",
+          "Subject: Your purchase"
+        ],
         "body": [
-          "Our sealed-bid sale allows a buyer to state a maximum price without attending a live auction. The maximum is the buyer’s ceiling, not necessarily the amount eventually paid. For each lot, the highest submitted maximum wins only if it reaches the seller’s reserve. If it falls below the reserve, the lot remains unsold. Reserve amounts are supplied by the seller before bidding closes and cannot be changed afterward.",
-          "For a sold lot, the price is the greater of the reserve or twenty dollars above the second-highest maximum, but never more than the winning maximum. The sale office calculates this price after all bids have been opened. The seller receives the sale price less a ten-percent commission. There is no commission on an unsold lot, and this sale has no additional seller charges.",
-          "Buyers inspect machines during the advertised viewing period. Descriptions report observable condition but do not include a promise about future performance. Electrical testing is permitted only with a sale technician present. Written bids are held securely until the closing time; staff cannot tell a bidder what another person has offered. Winning buyers receive a collection appointment after their payment has cleared. Sellers receive a separate statement listing each completed sale, its commission, and the resulting payment. Unsold equipment appears on the same statement with no sale price entered."
+          "Thank you for buying three reconditioned machines for your new workshop. Each machine comes with its removable power lead and the accessories listed on the inspection card. If an included accessory is absent when you unpack a machine, we will send it separately at no charge. Please quote the lot number, since the warehouse files its inspection photographs under that number.",
+          "You may return a machine within five working days for a credit of its listed purchase price. The initial invoice includes delivery. We credit that delivery charge after the inspection period if the total purchase price of the machines you keep is at least $1,000. A machine returned during that period is excluded from this total. The separately requested demonstration is charged even if an item is returned; our instructor has already completed that visit.",
+          "Please record the condition of each machine before putting it into regular use. Return collections are arranged by our office, and the driver will sign your copy of the collection sheet. We retain the original inspection cards here but provide copies with the machines. The sales office can also supply a digital copy if the paper card is lost."
         ]
       },
       {
         "type": "form",
-        "title": "Opened bid summary",
+        "title": "Initial invoice",
         "heading": [
-          "Sale closed: November 18 at 16:00",
-          "Amounts are maximum bids"
+          "Norvessa Equipment → Talmeri Workshop Services",
+          "Issued: November 16",
+          "Amounts in dollars"
         ],
         "table": [
           [
-            "Lot",
-            "Highest maximum",
-            "Second-highest maximum"
-          ],
-          [
-            "16",
-            "$180",
-            "$140"
-          ],
-          [
-            "27",
-            "$520",
-            "$440"
-          ],
-          [
-            "31",
-            "$360",
-            "$300"
-          ],
-          [
-            "42",
-            "$700",
-            "$600"
-          ]
-        ],
-        "body": [
-          "The clerk found two valid bids for each lot. No bidder withdrew a bid, and no equal highest amounts were recorded. The figures were entered after the sealed envelopes had been opened in the presence of two staff members.",
-          "This sheet contains bidding amounts only. The machine descriptions and seller instructions are held on the separate consignment record. All four lots belong to the same seller."
-        ]
-      },
-      {
-        "type": "form",
-        "title": "Seller’s consignment record",
-        "heading": [
-          "Seller: Talmeri Workshop Services",
-          "Record accepted before bidding opened"
-        ],
-        "table": [
-          [
-            "Lot",
-            "Machine",
-            "Reserve"
-          ],
-          [
-            "16",
-            "Bench drill",
-            "$200"
+            "Lot or service",
+            "Description",
+            "Charge"
           ],
           [
             "27",
@@ -1632,78 +1576,71 @@
             "42",
             "Panel saw",
             "$650"
+          ],
+          [
+            "Service",
+            "On-site demonstration",
+            "$40"
+          ],
+          [
+            "Delivery",
+            "Transport to workshop",
+            "$80"
+          ],
+          [
+            "Total",
+            "Amount paid",
+            "$1,530"
           ]
         ],
         "body": [
-          "The seller replaced these machines after changing its product range. Each machine was photographed before transport to the sale hall. The photographs include the maker’s plate and the accessories packed with the machine, allowing staff to identify the equipment at collection.",
-          "The seller supplied a loading trolley for use during the collection week. The trolley is not included in any lot. It will be returned to the seller on November 24, after the final collection appointments. Any unsold machines will be collected by the seller’s own vehicle on that same date."
+          "Payment was received by bank transfer before dispatch. The three machines traveled on one vehicle, with a separate inspection-card envelope attached to each item. The driver obtained a signature for the number of packages delivered.",
+          "This invoice shows the initial charges before the buyer’s inspection period ends. Any subsequent credit will identify the original invoice date and the affected lot or service. A replacement accessory sent under the sales agreement will have its own packing note."
+        ]
+      },
+      {
+        "type": "email",
+        "title": "Unpacking observations",
+        "heading": [
+          "To: Rovin Delt",
+          "From: Elva Senn",
+          "Date: November 18",
+          "Subject: Equipment received"
+        ],
+        "body": [
+          "We unpacked all three machines yesterday. The power lead for lot 27 was absent from its accessory envelope; the inspection card and the other listed fittings were present. Lot 42 had a complete set of accessories, and its first test was satisfactory. We have retained both machines in the workshop.",
+          "Lot 31 was too wide for the space beside our extraction unit. Your driver collected it this morning, and I have the signed collection sheet. It had only been used for the initial test. The demonstration given before delivery was useful, especially the explanation of the guards.",
+          "The loading trolley belongs to our workshop and was loaned to your driver for the return journey. He will bring it back on November 24. Our stores assistant will be here all day to receive it. I have placed the remaining inspection cards in the equipment folder beside the maintenance desk."
         ]
       }
     ],
     "passagesKo": [
       {
-        "title": "노르베사 기계 판매의 봉인 입찰",
-        "heading": [],
+        "title": "작업장 장비 주문",
+        "heading": [
+          "수신: 엘바 센, 탈메리 작업장 서비스",
+          "발신: 로빈 델트, 노르베사 장비",
+          "날짜: 11월 15일",
+          "제목: 구매 건"
+        ],
         "body": [
-          "봉인 입찰에서는 현장 경매에 참석하지 않고 최대 구매 가격을 제시할 수 있다. 최대액은 구매자의 상한이지 반드시 실제 지급액은 아니다. 각 품목의 최고 제시액이 판매자의 최저 허용가에 도달해야 낙찰된다. 최저 허용가보다 낮으면 미판매로 남는다. 판매자는 입찰 마감 전에 최저 허용가를 제공하며 이후 바꿀 수 없다.",
-          "판매 품목의 가격은 최저 허용가와 두 번째로 높은 제시액에 20달러를 더한 값 중 큰 금액이지만 최고 제시액을 넘지 않는다. 판매 사무소가 모든 입찰을 개봉한 뒤 계산한다. 판매자는 판매 가격에서 10퍼센트 수수료를 뺀 금액을 받는다. 미판매 품목에는 수수료가 없고 이번 판매에는 다른 판매자 비용도 없다.",
-          "구매자는 공지된 관람 기간에 기계를 점검한다. 설명은 관찰 가능한 상태를 나타내지만 향후 성능을 보장하지 않는다. 판매 기술자가 있을 때만 전기 시험을 할 수 있다. 서면 입찰은 마감까지 안전하게 보관하며 직원이 다른 사람의 제시액을 알려 줄 수 없다. 낙찰자는 대금 결제가 완료된 뒤 수령 시간을 배정받는다. 판매자는 각 판매 완료 품목의 가격, 수수료, 최종 지급액을 적은 별도 명세서를 받는다. 미판매 장비는 같은 명세서에 판매 가격 없이 표시된다."
+          "새 작업장용 재정비 기계 세 대를 구매해 주셔서 감사합니다. 각 기계에는 분리형 전원선과 점검 카드에 기재된 부속품이 포함됩니다. 개봉할 때 포함된 부속품이 없으면 무료로 별도 발송합니다. 창고에서 해당 번호로 점검 사진을 보관하므로 품목 번호를 알려 주십시오.",
+          "영업일 5일 이내에 기계를 반품하면 표시된 구매 가격만큼 환급합니다. 최초 청구서에는 배송비가 포함됩니다. 보유하는 기계의 구매 가격 합계가 1,000달러 이상이면 점검 기간 후 배송비를 환급합니다. 그 기간에 반품한 기계는 합계에서 제외합니다. 별도로 요청한 시연은 기계를 반품해도 비용을 부과하며 강사는 이미 방문을 마쳤습니다.",
+          "정상 사용을 시작하기 전에 각 기계의 상태를 기록해 주십시오. 반품 수거는 당사 사무실에서 주선하며 기사가 고객의 수거 확인서 사본에 서명합니다. 점검 카드 원본은 당사에서 보관하지만 기계와 함께 사본을 제공합니다. 종이 카드를 잃어버리면 영업 사무실에서 디지털 사본도 제공할 수 있습니다."
         ]
       },
       {
-        "title": "개봉 입찰 요약",
+        "title": "최초 청구서",
         "heading": [
-          "판매 마감: 11월 18일 16:00",
-          "금액은 최대 입찰가다"
+          "노르베사 장비 → 탈메리 작업장 서비스",
+          "발행: 11월 16일",
+          "금액 단위: 달러"
         ],
         "table": [
           [
-            "품목",
-            "최고 제시액",
-            "차순위 제시액"
-          ],
-          [
-            "16",
-            "180달러",
-            "140달러"
-          ],
-          [
-            "27",
-            "520달러",
-            "440달러"
-          ],
-          [
-            "31",
-            "360달러",
-            "300달러"
-          ],
-          [
-            "42",
-            "700달러",
-            "600달러"
-          ]
-        ],
-        "body": [
-          "각 품목에 유효 입찰이 두 건 있었다. 철회된 입찰도 최고액 동률도 없었다. 직원 두 명이 지켜보는 가운데 봉투를 개봉한 뒤 수치를 입력했다.",
-          "이 표에는 입찰 금액만 있다. 기계 설명과 판매자 지시는 별도 위탁 기록에 보관한다. 네 품목 모두 같은 판매자 소유다."
-        ]
-      },
-      {
-        "title": "판매자 위탁 기록",
-        "heading": [
-          "판매자: 탈메리 작업장 서비스",
-          "입찰 시작 전 접수한 기록"
-        ],
-        "table": [
-          [
-            "품목",
-            "기계",
-            "최저 허용가"
-          ],
-          [
-            "16",
-            "탁상 드릴",
-            "200달러"
+            "품목 또는 서비스",
+            "설명",
+            "요금"
           ],
           [
             "27",
@@ -1712,132 +1649,161 @@
           ],
           [
             "31",
-            "벨트 연마기",
+            "벨트 샌더",
             "280달러"
           ],
           [
             "42",
-            "판재 톱",
+            "패널 톱",
             "650달러"
+          ],
+          [
+            "서비스",
+            "현장 시연",
+            "40달러"
+          ],
+          [
+            "배송",
+            "작업장 운송",
+            "80달러"
+          ],
+          [
+            "합계",
+            "결제 금액",
+            "1,530달러"
           ]
         ],
         "body": [
-          "판매자는 제품군을 바꾼 뒤 이 기계들을 교체했다. 각 기계는 판매장 운송 전에 촬영했다. 사진에는 기계 식별판과 함께 포장한 부속품도 나와 있어 수령 시 장비를 확인할 수 있다.",
-          "판매자는 수령 주간에 사용할 적재용 카트를 제공했다. 카트는 어떤 판매 품목에도 포함되지 않는다. 최종 수령 일정이 끝난 뒤 11월 24일 판매자에게 반환한다. 미판매 기계도 같은 날 판매자의 차량으로 가져간다."
+          "발송 전에 계좌이체로 대금을 받았다. 기계 세 대는 한 차량으로 운송했고 각 기계에 별도의 점검 카드 봉투를 부착했다. 기사는 배송한 포장물 수량에 대한 서명을 받았다.",
+          "이 청구서는 구매자의 점검 기간이 끝나기 전 최초 요금을 나타낸다. 이후 환급에는 원래 청구서 날짜와 해당 품목 또는 서비스를 명시한다. 판매 계약에 따라 보내는 교체 부속품에는 별도의 포장 명세서를 첨부한다."
+        ]
+      },
+      {
+        "title": "개봉 후 확인 내용",
+        "heading": [
+          "수신: 로빈 델트",
+          "발신: 엘바 센",
+          "날짜: 11월 18일",
+          "제목: 받은 장비"
+        ],
+        "body": [
+          "어제 기계 세 대를 모두 개봉했습니다. 27번 품목의 부속품 봉투에는 전원선이 없었고 점검 카드와 나머지 부속품은 있었습니다. 42번 품목은 부속품이 모두 있었고 첫 시험도 만족스러웠습니다. 두 기계 모두 작업장에 보유하고 있습니다.",
+          "31번 품목은 집진 장치 옆 공간에 놓기에는 너무 넓었습니다. 귀사 기사가 오늘 아침 수거했으며 서명된 수거 확인서를 가지고 있습니다. 최초 시험에만 사용한 상태였습니다. 배송 전에 받은 시연은 특히 보호 덮개 설명이 유용했습니다.",
+          "운반 카트는 저희 작업장 소유이며 반품 운송을 위해 귀사 기사에게 빌려주었습니다. 기사는 11월 24일 돌려줄 예정입니다. 자재 보조 직원이 그날 종일 수령을 위해 머무를 것입니다. 남은 점검 카드는 정비 책상 옆 장비 폴더에 넣었습니다."
         ]
       }
     ],
     "questions": [
       {
         "type": "purpose",
-        "q": "What does the webpage explain?",
+        "q": "What is the main purpose of Mr. Delt’s e-mail?",
         "choices": [
-          "How offers are converted into machinery sale prices",
-          "How sellers should photograph electrical equipment",
-          "How to change a reserve after bids are opened",
-          "How to rent loading equipment for a workshop"
+          "To explain the terms accompanying an equipment purchase",
+          "To advertise a public machinery auction",
+          "To request payment for a missing inspection card",
+          "To schedule a second demonstration"
         ],
         "answer": 0,
         "ko": {
-          "q": "웹페이지는 무엇을 설명하는가?",
+          "q": "델트 씨 이메일의 주된 목적은 무엇인가?",
           "choices": [
-            "입찰 제시액을 기계 판매 가격으로 결정하는 방법",
-            "판매자가 전기 장비를 촬영하는 방법",
-            "입찰 개봉 후 최저 허용가를 바꾸는 방법",
-            "작업장용 적재 장비 대여 방법"
+            "장비 구매에 적용되는 조건을 설명한다",
+            "공개 기계 경매를 홍보한다",
+            "분실한 점검 카드의 대금을 요청한다",
+            "두 번째 시연 일정을 잡는다"
           ]
         },
-        "explain": "웹페이지는 최고 제시액·최저 허용가·차순위액으로 낙찰 가격을 결정하는 방식을 설명한다. 최저 허용가는 마감 후 바꿀 수 없다."
-      },
-      {
-        "type": "synonym",
-        "q": "In paragraph 1 of the webpage, the word \"ceiling\" is closest in meaning to",
-        "choices": [
-          "profit",
-          "limit",
-          "deadline",
-          "deposit"
-        ],
-        "answer": 1,
-        "ko": {
-          "q": "웹페이지 첫 문단의 ceiling과 의미가 가장 가까운 것은 무엇인가?",
-          "choices": [
-            "이익",
-            "한도",
-            "마감 시각",
-            "보증금"
-          ]
-        },
-        "explain": "최대로 낼 금액의 상한을 뜻하므로 limit이 맞다. 실제 지급액이나 보증금을 뜻하지 않는다.",
-        "ref": {
-          "passage": 0,
-          "paragraph": 0
-        }
+        "explain": "메일은 부속품, 반품, 배송비 환급 조건을 설명한다. 경매나 추가 시연 예약 안내가 아니다."
       },
       {
         "type": "inference",
-        "q": "Which machine will remain unsold?",
+        "q": "For which machine should Norvessa send an accessory?",
         "choices": [
+          "All three machines",
           "The panel saw",
-          "The small lathe",
           "The belt sander",
-          "The bench drill"
+          "The small lathe"
         ],
         "answer": 3,
         "ko": {
-          "q": "어느 기계가 미판매로 남는가?",
+          "q": "노르베사는 어느 기계를 위해 부속품을 보내야 하는가?",
           "choices": [
-            "판재 톱",
-            "소형 선반",
-            "벨트 연마기",
-            "탁상 드릴"
+            "기계 세 대 모두",
+            "패널 톱",
+            "벨트 샌더",
+            "소형 선반"
           ]
         },
-        "explain": "탁상 드릴은 위탁 기록상 최저 200달러인데 입찰표의 최고액은 180달러여서 웹페이지의 판매 요건에 미달한다. 다른 세 기계는 최고액이 최저 허용가 이상이다.",
+        "explain": "첫 메일은 누락된 기본 부속품을 무료 발송한다고 하고 마지막 메일은 27번의 전원선이 없었다고 한다. 청구서에서 27번은 소형 선반이며 반품한 샌더와는 다르다.",
         "crossRef": true
       },
       {
-        "type": "detail",
-        "q": "How much will the seller receive for the small lathe?",
+        "type": "synonym",
+        "q": "In paragraph 3 of Mr. Delt’s e-mail, the word \"retain\" is closest in meaning to",
         "choices": [
-          "$468",
-          "$414",
-          "$432",
-          "$480"
+          "compare",
+          "keep",
+          "repair",
+          "replace"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "델트 씨 이메일 세 번째 문단의 retain과 의미가 가장 가까운 것은 무엇인가?",
+          "choices": [
+            "비교하다",
+            "보관하다",
+            "수리하다",
+            "교체하다"
+          ]
+        },
+        "explain": "점검 카드 원본은 회사에 두고 사본을 제공한다는 문맥이므로 keep이다. 원본을 교체한다는 뜻은 아니다.",
+        "ref": {
+          "passage": 0,
+          "paragraph": 2
+        }
+      },
+      {
+        "type": "detail",
+        "q": "What will happen on November 24?",
+        "choices": [
+          "The supplier will give its first demonstration",
+          "The buyer will recover equipment lent for the return trip",
+          "All three machines will be returned",
+          "The initial invoice will be paid"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "11월 24일에 무슨 일이 일어나는가?",
+          "choices": [
+            "공급업체가 첫 시연을 한다",
+            "구매자가 반품 운송에 빌려준 장비를 돌려받는다",
+            "기계 세 대를 모두 반품한다",
+            "최초 청구서 대금을 결제한다"
+          ]
+        },
+        "explain": "마지막 메일에서 반품 운송용으로 빌려준 카트를 24일에 돌려받는다고 한다. 시연과 최초 결제는 이미 완료됐다."
+      },
+      {
+        "type": "detail",
+        "q": "What total credit is due after Ms. Senn’s inspection?",
+        "choices": [
+          "$280",
+          "$320",
+          "$360",
+          "$400"
         ],
         "answer": 2,
         "ko": {
-          "q": "판매자는 소형 선반에 대해 얼마를 받는가?",
+          "q": "센 씨의 점검 후 받아야 할 환급 합계는 얼마인가?",
           "choices": [
-            "468달러",
-            "414달러",
-            "432달러",
-            "480달러"
+            "280달러",
+            "320달러",
+            "360달러",
+            "400달러"
           ]
         },
-        "explain": "선반의 차순위 440달러에 20달러를 더한 460달러보다 최저가 480달러가 높아 판매가는 480달러이며 수수료 10퍼센트 공제 후 432달러다. 최고 제시액 520달러가 곧 판매가는 아니다.",
+        "explain": "반품한 31번은 280달러이고 보유한 27·42번 합계는 1,130달러라 배송비 80달러도 환급된다. 총 360달러이며 이미 제공한 시연 40달러는 환급되지 않는다.",
         "crossRef": true
-      },
-      {
-        "type": "detail",
-        "q": "What is scheduled for November 24?",
-        "choices": [
-          "The opening of the sealed bids",
-          "A change to the machinery reserve amounts",
-          "The first electrical inspection",
-          "The return of the seller’s loading trolley"
-        ],
-        "answer": 3,
-        "ko": {
-          "q": "11월 24일에는 무엇이 예정되어 있는가?",
-          "choices": [
-            "봉인 입찰 개봉",
-            "기계 최저 허용가 변경",
-            "첫 전기 점검",
-            "판매자 적재용 카트 반환"
-          ]
-        },
-        "explain": "위탁 기록 마지막 문단은 수령 일정 후 그날 카트를 판매자에게 반환한다고 한다. 입찰 마감은 11월 18일이다."
       }
     ]
   },
@@ -1853,7 +1819,7 @@
         "body": [
           "At Yelmora Parts Distribution, a route trial is examining how far employees walk while gathering items for customer orders. Managers had previously compared the total distance recorded by each team’s cart. That comparison favored teams with fewer orders, even when they took a longer route for each one. The new report therefore divides order-picking distance by the number of completed orders. A smaller result represents less walking for the same amount of completed work.",
           "The carts are also used to replenish the supply of empty packing boxes before picking begins. This preliminary journey is not part of order picking and must be removed from the counter total. The trial does not compare the speed at which people walk. It concentrates on the sequence in which storage locations are visited, so employees are not encouraged to hurry.",
-          "Four teams have completed a first run. Their route supervisors will exchange observations before the next run, but each team will retain its own staffing. The company is particularly interested in routes that avoid revisiting an aisle after leaving it. Managers have asked for written notes about unexpected obstacles, since a short route on paper may be awkward when another cart is unloading."
+          "Four teams have completed a first run. Their route supervisors will exchange observations before the next run, but each team will retain its own staffing. The company is particularly interested in routes that avoid revisiting an aisle after leaving it. Managers have asked the route supervisors for written notes about unexpected obstacles, since a short route on paper may be awkward when another cart is unloading."
         ]
       },
       {
@@ -1923,7 +1889,7 @@
         "body": [
           "옐모라 부품 유통은 고객 주문 상품을 모으는 동안 직원들이 얼마나 걷는지 경로 시험으로 살펴보고 있다. 예전에는 팀별 카트 총이동 거리를 비교했다. 그러면 주문당 경로가 길어도 주문 건수가 적은 팀이 유리했다. 새 보고서는 주문 상품 수집 거리를 완료 주문 수로 나눈다. 결과가 작을수록 같은 양의 완료 업무에 필요한 이동이 적다.",
           "카트는 상품 수집 전에 빈 포장 상자를 보충하는 데도 쓴다. 이 사전 이동은 주문 상품 수집에 포함되지 않아 계기 총거리에서 빼야 한다. 시험은 걷는 속도를 비교하지 않는다. 보관 위치를 방문하는 순서에 초점을 맞추므로 직원에게 서두르라고 요구하지 않는다.",
-          "네 팀이 첫 시행을 마쳤다. 다음 시행 전 경로 감독자들이 관찰 내용을 교환하되 각 팀 인원은 유지한다. 회사는 한번 나온 통로에 다시 들어가지 않는 경로에 특히 관심이 있다. 다른 카트가 하역 중이면 종이상의 짧은 경로도 불편할 수 있으므로 관리자들은 예상 밖 장애물에 관한 메모를 요청했다."
+          "네 팀이 첫 시행을 마쳤다. 다음 시행 전 경로 감독자들이 관찰 내용을 교환하되 각 팀 인원은 유지한다. 회사는 한번 나온 통로에 다시 들어가지 않는 경로에 특히 관심이 있다. 다른 카트가 하역 중이면 종이상의 짧은 경로도 불편할 수 있으므로 관리자들은 경로 감독자들에게 예상 밖 장애물에 관한 메모를 요청했다."
         ]
       },
       {
@@ -2028,21 +1994,42 @@
         "explain": "기사는 예상하지 못한 장애물에 관한 서면 메모를 요청했다고 한다. 개인의 보행 속도 평가는 목적이 아니다."
       },
       {
+        "type": "detail",
+        "q": "What happened to the empty pallets?",
+        "choices": [
+          "They blocked the central aisle throughout the day",
+          "They were loaded onto every picking cart",
+          "They were included in the reserve-store trip",
+          "They were taken away before the afternoon discussion"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "빈 팔레트는 어떻게 되었는가?",
+          "choices": [
+            "하루 종일 중앙 통로를 막았다",
+            "모든 수집 카트에 실었다",
+            "예비 창고 이동에 포함했다",
+            "오후 토론 전에 치웠다"
+          ]
+        },
+        "explain": "메일 마지막 문단은 오후 의견 교환 전에 팔레트를 치웠다고 한다. 오전에도 통로를 완전히 막지는 않았다."
+      },
+      {
         "type": "inference",
         "q": "Which team achieved the least walking per completed order?",
         "choices": [
-          "Vale",
-          "Fenn",
           "Dune",
+          "Fenn",
+          "Vale",
           "Larch"
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "완료 주문 한 건당 이동이 가장 적었던 팀은 어디인가?",
           "choices": [
-            "베일",
-            "펜",
             "듄",
+            "펜",
+            "베일",
             "라치"
           ]
         },
@@ -2050,47 +2037,26 @@
         "crossRef": true
       },
       {
-        "type": "inference",
-        "q": "Which team’s route was tried by Fenn during the second run?",
-        "choices": [
-          "Vale’s",
-          "Larch’s",
-          "Fenn’s original route",
-          "Dune’s"
-        ],
-        "answer": 3,
-        "ko": {
-          "q": "두 번째 시행에서 펜이 시도한 경로는 어느 팀의 것인가?",
-          "choices": [
-            "베일의 경로",
-            "라치의 경로",
-            "펜의 원래 경로",
-            "듄의 경로"
-          ]
-        },
-        "explain": "메일은 펜이 소라 멜른의 메모를 따랐다고 하고 표에서 소라 멜른은 듄 감독자다. 첫 시행에서 가장 효율적이었던 베일의 경로라는 뜻은 아니다.",
-        "crossRef": true
-      },
-      {
         "type": "detail",
-        "q": "What happened to the empty pallets?",
+        "q": "How much order-picking distance per order did the team whose route Fenn later tried record in the first run?",
         "choices": [
-          "They were taken away before the afternoon discussion",
-          "They were loaded onto every picking cart",
-          "They were included in the reserve-store trip",
-          "They blocked the central aisle throughout the day"
+          "20 meters",
+          "18 meters",
+          "23.125 meters",
+          "25 meters"
         ],
         "answer": 0,
         "ko": {
-          "q": "빈 팔레트는 어떻게 되었는가?",
+          "q": "펜이 나중에 따라 해 본 경로의 원래 팀은 첫 시행에서 주문당 피킹 이동 거리가 얼마였는가?",
           "choices": [
-            "오후 토론 전에 치웠다",
-            "모든 수집 카트에 실었다",
-            "예비 창고 이동에 포함했다",
-            "하루 종일 중앙 통로를 막았다"
+            "20미터",
+            "18미터",
+            "23.125미터",
+            "25미터"
           ]
         },
-        "explain": "메일 마지막 문단은 오후 의견 교환 전에 팔레트를 치웠다고 한다. 오전에도 통로를 완전히 막지는 않았다."
+        "explain": "메일의 소라 멜른을 표의 듄과 연결하고 기사의 주문당 피킹 거리 방식에 따라 (3,700−500)÷160을 계산하면 20미터다. 23.125는 사전 이동을 빼지 않은 값이다.",
+        "crossRef": true
       }
     ]
   },
@@ -2123,22 +2089,22 @@
             "Attempts made"
           ],
           [
-            "Cedar",
+            "Delta",
             "H",
             "1"
           ],
           [
-            "Willow",
+            "Kilo",
             "T",
             "3"
           ],
           [
-            "Ash",
+            "Lima",
             "A",
             "1"
           ],
           [
-            "Birch",
+            "Tango",
             "T",
             "2"
           ]
@@ -2156,7 +2122,7 @@
           "Date: December 6"
         ],
         "body": [
-          "The four customer contacts in the pilot have separate aliases. Junel Orr is listed as Cedar, Pelina Venn as Willow, Taren Doss as Ash, and Sorin Mell as Birch. Each contact supplied the address directly to our team when agreeing to take part in the trial. The matching file remains in the restricted customer folder.",
+          "The four customer contacts in the pilot have separate aliases. Junel Orr is listed as Delta, Pelina Venn as Kilo, Taren Doss as Lima, and Sorin Mell as Tango. Each contact supplied the address directly to our team when agreeing to take part in the trial. The matching file remains in the restricted customer folder.",
           "The same bulletin version was used for all four addresses. It contains the winter range, a product-size guide, and a short explanation of how to request samples. Our sales manager has asked the designer for a plain-text version to accompany future editions. That version is not yet available.",
           "No replacement addresses have been received since the pilot began. The contact list was checked against the original consent forms this morning, and no transcription differences were found."
         ]
@@ -2185,22 +2151,22 @@
             "시도 횟수"
           ],
           [
-            "시더",
+            "델타",
             "H",
             "1"
           ],
           [
-            "윌로",
+            "킬로",
             "T",
             "3"
           ],
           [
-            "애시",
+            "리마",
             "A",
             "1"
           ],
           [
-            "버치",
+            "탱고",
             "T",
             "2"
           ]
@@ -2217,7 +2183,7 @@
           "날짜: 12월 6일"
         ],
         "body": [
-          "시범 참가 고객 담당자 네 명은 별개의 별칭이 있다. 주넬 오르는 시더, 펠리나 벤은 윌로, 타렌 도스는 애시, 소린 멜은 버치로 표시한다. 각 담당자는 시험 참여에 동의할 때 우리 팀에 직접 주소를 제공했다. 대응 파일은 접근이 제한된 고객 폴더에 있다.",
+          "시범 참가 고객 담당자 네 명은 별개의 별칭이 있다. 주넬 오르는 델타, 펠리나 벤은 킬로, 타렌 도스는 리마, 소린 멜은 탱고로 표시한다. 각 담당자는 시험 참여에 동의할 때 우리 팀에 직접 주소를 제공했다. 대응 파일은 접근이 제한된 고객 폴더에 있다.",
           "네 주소 모두에 같은 소식지 버전을 사용했다. 겨울 제품군, 제품 크기 안내, 샘플 요청 방법을 간단히 설명한 내용이다. 영업 관리자는 향후 판과 함께 제공할 일반 텍스트 버전을 디자이너에게 요청했다. 그 버전은 아직 없다.",
           "시범 운영 시작 이후 대체 주소를 받은 적이 없다. 오늘 아침 최초 동의서와 연락처 목록을 대조했으며 옮겨 적는 과정의 차이는 발견하지 못했다."
         ]
@@ -2225,89 +2191,67 @@
     ],
     "questions": [
       {
-        "type": "purpose",
-        "q": "What is the main purpose of the notice?",
-        "choices": [
-          "To announce new winter product prices",
-          "To invite customers to join a sales event",
-          "To explain how to write a plain-text bulletin",
-          "To explain the meaning and handling of delivery outcomes"
-        ],
-        "answer": 3,
-        "ko": {
-          "q": "공지의 주된 목적은 무엇인가?",
-          "choices": [
-            "겨울 제품의 새 가격을 알린다",
-            "고객을 판매 행사에 초대한다",
-            "일반 텍스트 소식지 작성 방법을 설명한다",
-            "전달 결과의 의미와 처리 방식을 설명한다"
-          ]
-        },
-        "explain": "공지는 결과 문자와 횟수에 따른 제외·재시도·일시 중지를 설명한다. 소식지 편집 방법 안내가 아니다."
-      },
-      {
         "type": "detail",
         "q": "What does an A result establish?",
         "choices": [
-          "The receiving server accepted the message",
+          "The customer supplied a replacement address",
           "The customer opened a product link",
           "The customer placed an order",
-          "The customer supplied a replacement address"
+          "The message reached the destination mail server"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "결과 A가 입증하는 것은 무엇인가?",
           "choices": [
-            "수신 서버가 메시지를 받아들였다",
+            "고객이 대체 주소를 제공했다",
             "고객이 제품 링크를 열었다",
             "고객이 주문했다",
-            "고객이 대체 주소를 제공했다"
+            "메시지가 목적지 메일 서버에 도달했다"
           ]
         },
         "explain": "공지에서 A는 서버 수신만 나타내며 열람이나 읽음을 증명하지 않는다고 한다. 주문 여부도 기술 보고서에 없다."
       },
       {
-        "type": "inference",
-        "q": "Whose address has been removed from future sends pending a replacement?",
+        "type": "purpose",
+        "q": "What is the main purpose of the notice?",
         "choices": [
-          "Taren Doss’s",
-          "Sorin Mell’s",
-          "Junel Orr’s",
-          "Pelina Venn’s"
+          "To explain the meaning and handling of delivery outcomes",
+          "To invite customers to join a sales event",
+          "To explain how to write a plain-text bulletin",
+          "To announce new winter product prices"
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
-          "q": "대체 주소가 제공될 때까지 향후 발송에서 제외된 주소의 소유자는 누구인가?",
+          "q": "공지의 주된 목적은 무엇인가?",
           "choices": [
-            "타렌 도스",
-            "소린 멜",
-            "주넬 오르",
-            "펠리나 벤"
+            "전달 결과의 의미와 처리 방식을 설명한다",
+            "고객을 판매 행사에 초대한다",
+            "일반 텍스트 소식지 작성 방법을 설명한다",
+            "겨울 제품의 새 가격을 알린다"
           ]
         },
-        "explain": "공지상 H는 대체 주소 전까지 제외되며 보고서의 H는 시더이고 메모에서 시더는 주넬 오르다. 윌로는 T 세 번으로 일시 중지이지 주소 없음에 따른 제외가 아니다.",
-        "crossRef": true
+        "explain": "공지는 결과 문자와 횟수에 따른 제외·재시도·일시 중지를 설명한다. 소식지 편집 방법 안내가 아니다."
       },
       {
         "type": "inference",
-        "q": "Who is scheduled to receive another automatic delivery attempt?",
+        "q": "What should the customer team do about Junel Orr’s entry?",
         "choices": [
-          "Pelina Venn",
-          "Sorin Mell",
-          "Taren Doss",
-          "Junel Orr"
+          "Leave it for the next automatic retry",
+          "Obtain another address before future sends",
+          "Treat the delivery as successful",
+          "Keep the address and arrange manual follow-up after temporary failures"
         ],
         "answer": 1,
         "ko": {
-          "q": "자동 전달 재시도가 예정된 사람은 누구인가?",
+          "q": "고객팀은 주넬 오르의 항목에 대해 어떻게 해야 하는가?",
           "choices": [
-            "펠리나 벤",
-            "소린 멜",
-            "타렌 도스",
-            "주넬 오르"
+            "다음 자동 재시도까지 둔다",
+            "앞으로 보내기 전에 다른 주소를 구한다",
+            "전송 성공으로 처리한다",
+            "주소를 유지하고 일시 오류에 대한 수동 후속 조치를 준비한다"
           ]
         },
-        "explain": "공지상 T가 세 번 미만이면 재시도하며 보고서의 버치는 T 두 번이고 메모에서 소린 멜에 해당한다. 윌로의 펠리나 벤은 이미 세 번 시도했다.",
+        "explain": "메모에서 주넬은 델타, 보고서에서 델타는 H이며 공지는 존재하지 않는 주소를 대체 주소가 올 때까지 제외한다고 한다. T 반복 실패에 따른 수동 후속 조치와 구별해야 한다.",
         "crossRef": true
       },
       {
@@ -2316,20 +2260,42 @@
         "choices": [
           "A new alias for every customer",
           "A second consent form from each contact",
-          "A text-only version of future bulletins",
-          "An immediate change to all product sizes"
+          "An immediate change to all product sizes",
+          "A text-only version of future bulletins"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "영업 관리자가 요청한 것은 무엇인가?",
           "choices": [
             "모든 고객의 새 별칭",
             "각 담당자의 두 번째 동의서",
-            "향후 소식지의 텍스트 전용 버전",
-            "모든 제품 크기의 즉각적인 변경"
+            "모든 제품 크기의 즉각적인 변경",
+            "향후 소식지의 텍스트 전용 버전"
           ]
         },
         "explain": "마지막 메모는 향후 판에 덧붙일 일반 텍스트 버전을 디자이너에게 요청했다고 한다. 새 동의서 요청은 없다."
+      },
+      {
+        "type": "inference",
+        "q": "What will happen next for Sorin Mell’s entry?",
+        "choices": [
+          "It will be paused for manual follow-up",
+          "It will remain excluded until a new address is supplied",
+          "The system will try sending again",
+          "It will be recorded as a successful delivery"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "소린 멜의 항목은 다음에 어떻게 처리되는가?",
+          "choices": [
+            "수동 후속 조치를 위해 일시 중지된다",
+            "새 주소를 받을 때까지 제외 상태로 남는다",
+            "시스템이 다시 전송을 시도한다",
+            "전송 성공으로 기록된다"
+          ]
+        },
+        "explain": "메모에서 소린은 탱고이고 보고서상 T 두 번이다. 공지의 세 번 미만 재시도 규칙에 따라 다시 보내며 킬로의 세 번 실패와 다르다.",
+        "crossRef": true
       }
     ]
   }
