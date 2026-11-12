@@ -5401,6 +5401,1086 @@
       "answer": 0,
       "ko": "안경사는 견본 선글라스의 착용감을 개선하기 위해 코받침을 조정했다.",
       "explain": "the와 of 사이에는 편안함을 뜻하는 명사 comfort가 필요하다. comfortable은 형용사여서 단독으로 명사 역할을 하지 못한다."
+    },
+    {
+      "id": "p5-361",
+      "type": "vocab",
+      "difficulty": 1,
+      "q": "Before attaching the shipping pouch, ------- the protective paper from its adhesive backing.",
+      "choices": [
+        "peel",
+        "stir",
+        "weave",
+        "drain"
+      ],
+      "answer": 0,
+      "ko": "배송용 서류 주머니를 붙이기 전에 접착 뒷면에서 보호지를 벗겨 내야 한다.",
+      "explain": "접착면의 보호지를 벗겨 내는 동사는 peel이다. drain은 액체를 빼내는 동작이므로 종이 제거에 맞지 않는다."
+    },
+    {
+      "id": "p5-362",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The tailor recorded the ------- of each sleeve before cutting fabric for the hotel musicians' jackets.",
+      "choices": [
+        "lengthen",
+        "lengthy",
+        "length",
+        "lengthily"
+      ],
+      "answer": 2,
+      "ko": "재단사는 호텔 연주자들의 재킷용 천을 자르기 전에 각 소매의 길이를 기록했다.",
+      "explain": "관사 the 뒤에서 of each sleeve의 수식을 받는 명사 length가 필요하다. lengthen은 길게 만들다는 동사다."
+    },
+    {
+      "id": "p5-363",
+      "type": "verb",
+      "difficulty": 2,
+      "q": "A collection of ceramic tiles recovered from the company's original factory ------- displayed in the executive dining room.",
+      "choices": [
+        "are",
+        "have",
+        "is",
+        "were"
+      ],
+      "answer": 2,
+      "ko": "회사의 옛 공장에서 수거한 도자기 타일 모음이 임원 식당에 전시되어 있다.",
+      "explain": "주어의 중심은 복수 tiles가 아니라 단수 collection이므로 is가 맞다. are와 were는 복수 주어에 쓰는 형태다."
+    },
+    {
+      "id": "p5-364",
+      "type": "prep-conj",
+      "difficulty": 1,
+      "q": "The beverage company divided the region ------- three independent sales agencies, giving each a different territory.",
+      "choices": [
+        "onto",
+        "among",
+        "toward",
+        "beside"
+      ],
+      "answer": 1,
+      "ko": "음료 회사는 세 독립 판매 대리점에 지역을 나누어 주어 각각 다른 영업 구역을 맡겼다.",
+      "explain": "여러 대리점에 지역을 배분하므로 among이 맞다. toward는 방향을 나타낼 뿐 배분 대상을 연결하지 못한다."
+    },
+    {
+      "id": "p5-365",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "Because it has neither received nor sent funds for five years, the company's bank account has been classified as -------.",
+      "choices": [
+        "overdrawn",
+        "joint",
+        "secured",
+        "dormant"
+      ],
+      "answer": 3,
+      "ko": "5년 동안 입출금이 전혀 없었기 때문에 회사의 은행 계좌는 휴면 계좌로 분류되었다.",
+      "explain": "오랫동안 거래가 없어서 분류되는 계좌 상태는 dormant(휴면)다. overdrawn은 잔액보다 더 많이 인출한 상태, joint는 여러 명의 공동 명의, secured는 담보가 있는 상태로, 모두 거래가 없다는 이유로 정해지지 않는다."
+    },
+    {
+      "id": "p5-366",
+      "type": "pos",
+      "difficulty": 2,
+      "q": "A dated sketch proved ------- in settling the disagreement over who first proposed the package's unusual shape.",
+      "choices": [
+        "decide",
+        "decisively",
+        "decision",
+        "decisive"
+      ],
+      "answer": 3,
+      "ko": "날짜가 적힌 스케치는 누가 포장의 독특한 모양을 처음 제안했는지에 관한 분쟁을 해결하는 데 결정적이었다.",
+      "explain": "proved 뒤에서 주어인 스케치의 역할을 설명하는 형용사 decisive가 맞다. decisively는 부사여서 이 보어 자리에 올 수 없다."
+    },
+    {
+      "id": "p5-367",
+      "type": "pronoun",
+      "difficulty": 1,
+      "q": "Ms. Elna Perin checked the spelling of ------- name on the embossed desk plate before accepting it.",
+      "choices": [
+        "she",
+        "herself",
+        "her",
+        "hers"
+      ],
+      "answer": 2,
+      "ko": "엘나 페린 씨는 양각으로 새긴 책상 명패를 받기 전에 자신의 이름 철자를 확인했다.",
+      "explain": "명사 name 앞에는 소유격 her가 필요하다. hers는 명사를 뒤에 붙이지 않는 소유대명사다."
+    },
+    {
+      "id": "p5-368",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "The upper ------- of the cabinet door has come loose, causing the door to sag when opened.",
+      "choices": [
+        "hinge",
+        "shelf",
+        "drawer",
+        "handle"
+      ],
+      "answer": 0,
+      "ko": "캐비닛 문의 위쪽 경첩이 헐거워져 문을 열면 처진다.",
+      "explain": "문을 본체에 연결하고 회전하도록 지지하는 부품은 hinge다. handle은 손으로 잡는 부분이므로 문을 지지하는 역할과 다르다."
+    },
+    {
+      "id": "p5-369",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "------- the temporary fence may appear sturdy, it is intended to mark the work area rather than support heavy objects.",
+      "choices": [
+        "Despite",
+        "Although",
+        "During",
+        "Because of"
+      ],
+      "answer": 1,
+      "ko": "임시 울타리는 튼튼해 보여도 무거운 물건을 받치기 위한 것이 아니라 작업 구역을 표시하기 위한 것이다.",
+      "explain": "주어와 동사가 있는 절을 이끌면서 외관과 용도의 대조를 나타내므로 Although가 맞다. Despite 뒤에는 이와 같은 완전한 절을 직접 쓸 수 없다."
+    },
+    {
+      "id": "p5-370",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The publishing association updates its directory of literary agents -------, releasing a new edition every April.",
+      "choices": [
+        "annual",
+        "annualize",
+        "annually",
+        "annualization"
+      ],
+      "answer": 2,
+      "ko": "출판 협회는 문학 에이전트 명부를 매년 갱신하여 4월마다 새 판을 발행한다.",
+      "explain": "updates를 수식하며 매년이라는 빈도를 나타내는 부사 annually가 맞다. annual은 형용사여서 이 동사를 수식하지 못한다."
+    },
+    {
+      "id": "p5-371",
+      "type": "verb",
+      "difficulty": 1,
+      "q": "The optical laboratory plans ------- a second microscope specifically for examining scratches on spectacle lenses.",
+      "choices": [
+        "purchasing",
+        "to purchase",
+        "purchased",
+        "purchase"
+      ],
+      "answer": 1,
+      "ko": "광학 연구실은 안경 렌즈의 흠집 검사에 사용할 두 번째 현미경을 구입할 계획이다.",
+      "explain": "plan은 앞으로 하려는 행동을 to부정사로 연결하므로 to purchase가 맞다. purchasing은 plans의 목적어로 이 구조에 쓰지 않는다."
+    },
+    {
+      "id": "p5-372",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "After the storm destroyed the kiosk, the contractor managed to ------- several undamaged metal panels for use in its replacement.",
+      "choices": [
+        "salvage",
+        "forfeit",
+        "corrode",
+        "discard"
+      ],
+      "answer": 0,
+      "ko": "폭풍으로 매점이 파괴된 후 시공업체는 손상되지 않은 금속 패널 몇 개를 건져 새 매점에 사용할 수 있었다.",
+      "explain": "파손 현장에서 쓸 수 있는 자재를 건져 재사용하는 것은 salvage다. discard는 버리다라는 뜻이므로 새 매점에 쓰려고 자재를 확보하는 행동과 반대다."
+    },
+    {
+      "id": "p5-373",
+      "type": "relative",
+      "difficulty": 2,
+      "q": "The silversmith ------- pendants appeared in the fashion supplement supplies the jewelry sold in the hotel's boutique.",
+      "choices": [
+        "whom",
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": 3,
+      "ko": "제작한 펜던트가 패션 별책에 실린 은세공사는 호텔 부티크에서 판매하는 장신구를 공급한다.",
+      "explain": "silversmith와 명사 pendants 사이의 소유 관계를 나타내므로 whose가 맞다. who는 관계절의 주어로 쓰지만 여기서는 pendants가 주어다."
+    },
+    {
+      "id": "p5-374",
+      "type": "pos",
+      "difficulty": 3,
+      "q": "Although a few leather cases are still made by hand, production at the recently expanded workshop is ------- mechanized.",
+      "choices": [
+        "predominantly",
+        "predominant",
+        "predominate",
+        "predominance"
+      ],
+      "answer": 0,
+      "ko": "가죽 케이스 몇 종류는 여전히 수작업으로 만들지만 최근 확장한 작업장의 생산은 대부분 기계화되어 있다.",
+      "explain": "mechanized의 정도를 한정하는 부사 predominantly가 필요하다. predominance는 우세함을 뜻하는 명사로 분사를 수식하지 못한다."
+    },
+    {
+      "id": "p5-375",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "The cleaner contains ------- particles that scrub away baked-on food but can also scratch a polished metal surface.",
+      "choices": [
+        "fragrant",
+        "elastic",
+        "abrasive",
+        "edible"
+      ],
+      "answer": 2,
+      "ko": "이 세정제에는 눌어붙은 음식물을 문질러 제거하지만 광택 낸 금속 표면에 흠집을 낼 수도 있는 연마성 입자가 들어 있다.",
+      "explain": "마찰로 오염을 벗겨 내면서 표면을 긁을 수 있는 성질은 abrasive다. elastic은 탄성을 뜻하므로 연마 작용을 설명하지 못한다."
+    },
+    {
+      "id": "p5-376",
+      "type": "prep-conj",
+      "difficulty": 1,
+      "q": "The department store's escalators will remain stationary ------- the scheduled electrical shutdown on Sunday morning.",
+      "choices": [
+        "while",
+        "during",
+        "although",
+        "because"
+      ],
+      "answer": 1,
+      "ko": "백화점 에스컬레이터는 일요일 오전 예정된 정전 작업 동안 멈춰 있을 것이다.",
+      "explain": "명사구 the scheduled electrical shutdown을 연결하여 그 기간 동안을 나타내는 during이 맞다. while은 이 자리에서 완전한 절을 이끌어야 한다."
+    },
+    {
+      "id": "p5-377",
+      "type": "pos",
+      "difficulty": 2,
+      "q": "A sudden ------- in engine speed during the road test led the mechanic to examine the fuel supply.",
+      "choices": [
+        "fluctuate",
+        "fluctuating",
+        "fluctuation",
+        "fluctuates"
+      ],
+      "answer": 2,
+      "ko": "주행 시험 중 엔진 회전수가 갑자기 변동하자 정비사는 연료 공급 상태를 살폈다.",
+      "explain": "A sudden 뒤에서 주어의 중심이 되는 명사 fluctuation이 필요하다. fluctuating은 여기서 관사와 형용사를 받는 명사 형태가 아니다."
+    },
+    {
+      "id": "p5-378",
+      "type": "verb",
+      "difficulty": 3,
+      "q": "The sound engineer has requested that the ventilation fan ------- switched off throughout the recording of the whispered dialogue.",
+      "choices": [
+        "remains",
+        "remaining",
+        "remained",
+        "remain"
+      ],
+      "answer": 3,
+      "ko": "음향 기사는 속삭이는 대사를 녹음하는 내내 환기 팬을 끈 상태로 유지해 달라고 요청했다.",
+      "explain": "요청을 나타내는 has requested that 뒤에서는 주어가 단수여도 동사원형 remain을 쓴다. remains는 일반적인 현재 사실 서술에 쓰는 형태다."
+    },
+    {
+      "id": "p5-379",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "The board will ------- the proceeds of the parking-lot sale for pension contributions, making them unavailable for other expenses.",
+      "choices": [
+        "earmark",
+        "disperse",
+        "liquidate",
+        "reimburse"
+      ],
+      "answer": 0,
+      "ko": "이사회는 주차장 매각 대금을 연금 납입금으로 지정하여 다른 비용에 사용할 수 없게 할 것이다.",
+      "explain": "자금을 특정 목적에만 쓰도록 지정하는 동사는 earmark다. disperse는 널리 분산한다는 뜻이며 용도를 한정하지 않는다."
+    },
+    {
+      "id": "p5-380",
+      "type": "pronoun",
+      "difficulty": 2,
+      "q": "The first layer of lacquer has dried, but the instrument maker will apply ------- before polishing the wooden flute.",
+      "choices": [
+        "other",
+        "each",
+        "another",
+        "every"
+      ],
+      "answer": 2,
+      "ko": "첫 번째 래커 도포층은 말랐지만 악기 제작자는 목제 플루트를 닦기 전에 한 층 더 바를 것이다.",
+      "explain": "이미 언급한 layer 한 개를 추가한다는 뜻으로 명사 없이 쓰는 another가 맞다. other는 이 자리에서 단수 명사를 대신하여 홀로 쓰지 않는다."
+    },
+    {
+      "id": "p5-381",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The costume department's new fitting room is ------- enough for performers to try on wide hoop skirts.",
+      "choices": [
+        "space",
+        "spaciously",
+        "spaciousness",
+        "spacious"
+      ],
+      "answer": 3,
+      "ko": "의상 부서의 새 탈의실은 공연자들이 폭이 넓은 후프 스커트를 입어 볼 만큼 넓다.",
+      "explain": "is 뒤에서 방의 상태를 설명하고 enough의 수식을 받는 형용사 spacious가 맞다. spaciousness는 공간의 넓음을 뜻하는 명사다."
+    },
+    {
+      "id": "p5-382",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "The translation prize is open to published authors irrespective ------- the language in which they originally wrote.",
+      "choices": [
+        "with",
+        "of",
+        "from",
+        "by"
+      ],
+      "answer": 1,
+      "ko": "이 번역상은 원래 어떤 언어로 글을 썼는지와 관계없이 출간 경력이 있는 작가에게 열려 있다.",
+      "explain": "~에 관계없이를 뜻하는 표현은 irrespective of다. irrespective with나 irrespective from으로 연결하지 않는다."
+    },
+    {
+      "id": "p5-383",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "The studio returns ------- scripts unopened because its editors consider only manuscripts they have specifically requested.",
+      "choices": [
+        "revised",
+        "abridged",
+        "unsolicited",
+        "annotated"
+      ],
+      "answer": 2,
+      "ko": "이 스튜디오는 편집자가 직접 요청한 원고만 검토하므로 요청하지 않은 대본은 열어 보지 않고 돌려보낸다.",
+      "explain": "요청하지 않았는데 보내온 원고는 unsolicited script다. revised는 수정 여부를 나타낼 뿐 요청받았는지와는 관계가 없다."
+    },
+    {
+      "id": "p5-384",
+      "type": "verb",
+      "difficulty": 1,
+      "q": "The manufacturer lets prospective buyers ------- the folding canoe in a shallow pool beside its showroom.",
+      "choices": [
+        "try",
+        "to try",
+        "trying",
+        "tried"
+      ],
+      "answer": 0,
+      "ko": "제조업체는 잠재 구매자가 전시장 옆 얕은 수영장에서 접이식 카누를 시험해 보게 한다.",
+      "explain": "let 뒤에는 목적어와 동사원형이 오므로 try가 맞다. to try는 let의 이 목적격 보어 구조에 쓰지 않는다."
+    },
+    {
+      "id": "p5-385",
+      "type": "vocab",
+      "difficulty": 1,
+      "q": "Tie a tight ------- in the cord after passing it through the tag so that the tag cannot slide off.",
+      "choices": [
+        "crease",
+        "dent",
+        "stain",
+        "knot"
+      ],
+      "answer": 3,
+      "ko": "꼬리표에 끈을 통과시킨 뒤 꼬리표가 빠지지 않도록 매듭을 단단히 묶어야 한다.",
+      "explain": "끈을 묶어 만드는 것은 knot다. crease는 접힌 자국으로 끈을 고정하는 매듭이 아니다."
+    },
+    {
+      "id": "p5-386",
+      "type": "pos",
+      "difficulty": 3,
+      "q": "To the ------- of the night crew, whose members had expected to finish early, a second truck arrived just before closing.",
+      "choices": [
+        "disappoint",
+        "disappointing",
+        "disappointingly",
+        "disappointment"
+      ],
+      "answer": 3,
+      "ko": "일찍 일을 마칠 것으로 예상했던 야간조 직원들에게는 실망스럽게도 마감 직전에 두 번째 트럭이 도착했다.",
+      "explain": "to the disappointment of는 ~가 실망스럽게도라는 표현으로 명사 disappointment가 필요하다. disappointing은 실망을 주는 대상을 꾸미는 형용사다."
+    },
+    {
+      "id": "p5-387",
+      "type": "prep-conj",
+      "difficulty": 3,
+      "q": "The association speaks for its members only ------- their interests coincide; it takes no position when individual members seek incompatible outcomes.",
+      "choices": [
+        "insofar as",
+        "as though",
+        "even though",
+        "as soon as"
+      ],
+      "answer": 0,
+      "ko": "협회는 회원들의 이해관계가 일치하는 범위에서만 그들을 대변하며, 개별 회원들이 양립할 수 없는 결과를 원할 때에는 입장을 취하지 않는다.",
+      "explain": "대변하는 범위를 이해관계가 일치하는 정도로 한정하므로 insofar as가 맞다. as soon as는 시점을 나타내어 뒤의 대변 범위 설명과 맞지 않는다."
+    },
+    {
+      "id": "p5-388",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "Restaurant staff ------- the clean trays in a single vertical pile, with the largest tray at the bottom.",
+      "choices": [
+        "scatter",
+        "stack",
+        "suspend",
+        "tilt"
+      ],
+      "answer": 1,
+      "ko": "음식점 직원들은 가장 큰 쟁반을 맨 아래에 두고 깨끗한 쟁반을 한 무더기로 차곡차곡 쌓는다.",
+      "explain": "물건을 위아래로 포개어 쌓는 동사는 stack이다. scatter는 흩어 놓는 것으로 한 무더기를 만든다는 내용과 반대다."
+    },
+    {
+      "id": "p5-389",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The warehouse company's insurance policy defines storm damage -------, covering several kinds of wind-related loss.",
+      "choices": [
+        "broad",
+        "breadth",
+        "broaden",
+        "broadly"
+      ],
+      "answer": 3,
+      "ko": "창고 회사의 보험 약관은 폭풍 피해를 폭넓게 정의하여 바람과 관련된 여러 종류의 손실을 보장한다.",
+      "explain": "동사 defines가 이루어지는 방식을 수식하는 부사 broadly가 맞다. broad는 형용사이므로 defines를 직접 수식하지 못한다."
+    },
+    {
+      "id": "p5-390",
+      "type": "verb",
+      "difficulty": 2,
+      "q": "The mineral samples have yet ------- any evidence of commercially useful deposits beneath the proposed site.",
+      "choices": [
+        "yielding",
+        "yielded",
+        "to yield",
+        "yield"
+      ],
+      "answer": 2,
+      "ko": "광물 시료에서는 아직 예정 부지 아래에 상업적으로 활용할 만한 광상이 있다는 증거가 나오지 않았다.",
+      "explain": "have yet to do는 아직 ~하지 않았다는 뜻이므로 to yield가 맞다. yielded를 쓰면 yet가 있는 이 긍정형 구조로 의도한 미완료 의미를 만들 수 없다."
+    },
+    {
+      "id": "p5-391",
+      "type": "pronoun",
+      "difficulty": 2,
+      "q": "If the brass screw supplied with the replacement clock face is too short, the repair kit contains a longer -------.",
+      "choices": [
+        "it",
+        "one",
+        "each",
+        "another"
+      ],
+      "answer": 1,
+      "ko": "교체용 시계 문자판과 함께 제공된 황동 나사가 너무 짧으면 수리 키트에 더 긴 것이 들어 있다.",
+      "explain": "이미 언급한 가산명사 screw를 형용사 longer 뒤에서 대신하는 대명사는 one이다. it은 a longer의 수식을 받는 방식으로 쓰지 않는다."
+    },
+    {
+      "id": "p5-392",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "With new applications arriving faster than officers could examine them, the permit office developed a substantial ------- of unprocessed cases.",
+      "choices": [
+        "surplus",
+        "quota",
+        "backlog",
+        "turnover"
+      ],
+      "answer": 2,
+      "ko": "담당자들의 심사 속도보다 새 신청서가 더 빨리 들어오면서 허가 사무소에는 처리하지 못한 건이 상당히 밀렸다.",
+      "explain": "아직 처리하지 못해 쌓인 업무는 backlog다. quota는 미리 정한 할당량이므로 처리 지연으로 쌓인 건수를 뜻하지 않는다."
+    },
+    {
+      "id": "p5-393",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "The cinema has received several suggestions with regard ------- adding spoken descriptions to its film screenings.",
+      "choices": [
+        "for",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 3,
+      "ko": "영화관은 영화 상영에 음성 해설을 추가하는 것과 관련해 여러 제안을 받았다.",
+      "explain": "~에 관하여라는 고정 표현은 with regard to다. with regard for는 이 문장에서 쓰는 관련 주제의 도입 표현이 아니다."
+    },
+    {
+      "id": "p5-394",
+      "type": "pos",
+      "difficulty": 2,
+      "q": "For a company that rents out camping equipment, ------- matters more than the latest fashion when choosing tent fabrics.",
+      "choices": [
+        "affordability",
+        "affordably",
+        "affordable",
+        "afford"
+      ],
+      "answer": 0,
+      "ko": "캠핑 장비 대여 회사가 텐트 원단을 선택할 때는 최신 유행보다 가격 부담이 적은지가 더 중요하다.",
+      "explain": "동사 matters의 주어로 성질을 나타내는 명사 affordability가 맞다. affordable은 가격을 감당할 수 있는 대상을 꾸미는 형용사다."
+    },
+    {
+      "id": "p5-395",
+      "type": "verb",
+      "difficulty": 3,
+      "q": "The laboratory's reference thermometer is believed ------- incorrectly before it was used in last month's comparison tests.",
+      "choices": [
+        "to calibrate",
+        "to have calibrated",
+        "to be calibrating",
+        "to have been calibrated"
+      ],
+      "answer": 3,
+      "ko": "연구실의 기준 온도계는 지난달 비교 시험에 사용되기 전에 잘못 교정된 것으로 여겨진다.",
+      "explain": "온도계가 교정받는 대상이고 그 일이 현재의 판단보다 앞서므로 완료 수동 부정사 to have been calibrated가 맞다. to have calibrated는 온도계가 직접 교정했다는 능동 의미다."
+    },
+    {
+      "id": "p5-396",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "A ------- section in the copier's waste container allows technicians to see the toner level without opening it.",
+      "choices": [
+        "transparent",
+        "porous",
+        "magnetic",
+        "reflective"
+      ],
+      "answer": 0,
+      "ko": "복사기 폐토너통의 투명한 부분 덕분에 기술자는 통을 열지 않고도 토너가 얼마나 찼는지 볼 수 있다.",
+      "explain": "통 안을 투과하여 볼 수 있게 하는 성질은 transparent다. reflective는 빛을 반사하는 성질로 내부를 보이게 한다는 뜻이 아니다."
+    },
+    {
+      "id": "p5-397",
+      "type": "relative",
+      "difficulty": 3,
+      "q": "The photographer may use ------- of the three camera angles best reveals the depth of the carved lettering.",
+      "choices": [
+        "what",
+        "whichever",
+        "that",
+        "whose"
+      ],
+      "answer": 1,
+      "ko": "사진작가는 세 촬영 각도 중 조각한 글자의 깊이를 가장 잘 드러내는 각도를 어느 것이든 사용할 수 있다.",
+      "explain": "한정된 세 각도 중 조건에 맞는 어느 것이든을 뜻하는 whichever가 맞다. what은 of the three camera angles와 결합하여 이 선택 관계를 만들지 못한다."
+    },
+    {
+      "id": "p5-398",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The two software extensions are ------- exclusive; installing either one automatically disables the other.",
+      "choices": [
+        "mutuality",
+        "mutual",
+        "mutually",
+        "mutualize"
+      ],
+      "answer": 2,
+      "ko": "이 두 소프트웨어 확장 기능은 상호 배타적이어서 어느 하나를 설치하면 다른 하나가 자동으로 비활성화된다.",
+      "explain": "형용사 exclusive를 수식하는 부사 mutually가 맞다. mutual은 형용사라 이 자리에서 다른 형용사를 수식할 수 없다."
+    },
+    {
+      "id": "p5-399",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "Splitting one large purchase into smaller invoices to evade the approval limit would ------- the company's spending controls.",
+      "choices": [
+        "reinforce",
+        "administer",
+        "document",
+        "circumvent"
+      ],
+      "answer": 3,
+      "ko": "승인 한도를 피하려고 큰 구매 건을 작은 송장들로 나누는 행위는 회사의 지출 통제를 우회하는 것이다.",
+      "explain": "규제를 직접 지키지 않고 편법으로 피하는 것은 circumvent다. administer는 통제를 시행하거나 관리한다는 뜻으로 회피 행위와 다르다."
+    },
+    {
+      "id": "p5-400",
+      "type": "prep-conj",
+      "difficulty": 1,
+      "q": "Payment for the young-plant order must reach the nursery ------- May 8 at the latest if the plants are to be reserved.",
+      "choices": [
+        "by",
+        "in",
+        "throughout",
+        "during"
+      ],
+      "answer": 0,
+      "ko": "식물을 확보하려면 어린 식물 주문 대금이 늦어도 5월 8일까지 묘목장에 도착해야 한다.",
+      "explain": "at the latest와 함께 마감 시점을 나타내므로 by가 맞다. during은 기간 중을 나타내며 특정일까지의 납부 기한을 뜻하지 않는다."
+    },
+    {
+      "id": "p5-401",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "Before the courier bicycle is returned to service, use the pump to ------- both tires to the pressure marked on their sidewalls.",
+      "choices": [
+        "inflate",
+        "rotate",
+        "detach",
+        "align"
+      ],
+      "answer": 0,
+      "ko": "배송용 자전거를 다시 운행하기 전에 펌프로 두 타이어를 옆면에 표시된 압력까지 부풀려야 한다.",
+      "explain": "펌프로 공기를 넣어 지정 압력까지 부풀리는 동사는 inflate다. rotate는 회전시키거나 위치를 바꾸는 것으로 공기압을 높이지 않는다."
+    },
+    {
+      "id": "p5-402",
+      "type": "pos",
+      "difficulty": 2,
+      "q": "Even under the emergency lighting, the painted numerals on the valve handles remained clearly -------.",
+      "choices": [
+        "legible",
+        "legibly",
+        "legibility",
+        "illegibility"
+      ],
+      "answer": 0,
+      "ko": "비상조명 아래에서도 밸브 손잡이에 칠한 숫자는 뚜렷하게 읽을 수 있었다.",
+      "explain": "remained 뒤에서 numerals의 상태를 설명하는 형용사 legible이 맞다. legibly는 부사여서 이 보어 자리에 쓸 수 없다."
+    },
+    {
+      "id": "p5-403",
+      "type": "verb",
+      "difficulty": 2,
+      "q": "Two-thirds of the souvenir cups delivered to the museum shop ------- missing their matching saucers when the cartons were opened.",
+      "choices": [
+        "was",
+        "were",
+        "has been",
+        "is"
+      ],
+      "answer": 1,
+      "ko": "상자를 열었을 때 박물관 매점에 배송된 기념품 컵의 3분의 2에는 짝이 되는 받침이 없었다.",
+      "explain": "분수 주어 뒤의 대상이 복수 cups이고 과거 개봉 시점의 상태이므로 were가 맞다. was와 is는 단수 주어에 쓰는 형태다."
+    },
+    {
+      "id": "p5-404",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "The curator criticized the ------- restoration plan because it treated each damaged wall separately without considering the building as a whole.",
+      "choices": [
+        "comprehensive",
+        "piecemeal",
+        "irreversible",
+        "preliminary"
+      ],
+      "answer": 1,
+      "ko": "학예사는 건물 전체를 고려하지 않고 손상된 벽을 각각 별도로 다루는 단편적인 복원 계획을 비판했다.",
+      "explain": "전체를 통합하지 않고 부분마다 따로 처리하는 방식은 piecemeal이다. preliminary는 예비 단계라는 뜻으로 전체 조율이 없다는 비판의 핵심을 나타내지 않는다."
+    },
+    {
+      "id": "p5-405",
+      "type": "pronoun",
+      "difficulty": 3,
+      "q": "The dimensions of the miniature stage must be exactly one-tenth of ------- of the full-size stage it represents.",
+      "choices": [
+        "these",
+        "that",
+        "them",
+        "those"
+      ],
+      "answer": 3,
+      "ko": "축소 무대의 치수는 그것이 나타내는 실제 크기 무대 치수의 정확히 10분의 1이어야 한다.",
+      "explain": "비교 대상인 복수 명사 dimensions를 대신하여 뒤의 of구로 한정되는 those가 맞다. that은 단수 명사를 대신하므로 dimensions와 맞지 않는다."
+    },
+    {
+      "id": "p5-406",
+      "type": "pos",
+      "difficulty": 3,
+      "q": "What the editor had ------- removed while updating the exhibition website turned out to be the only page containing the sculptor's biography.",
+      "choices": [
+        "mistaken",
+        "mistake",
+        "mistakenly",
+        "mistakes"
+      ],
+      "answer": 2,
+      "ko": "편집자가 전시 웹사이트를 갱신하다가 실수로 삭제한 것은 조각가의 약력이 담긴 유일한 페이지로 드러났다.",
+      "explain": "긴 주어인 What절 안에서 removed를 수식하는 부사 mistakenly가 맞다. mistaken은 형용사·분사이므로 had와 removed 사이에서 동작을 수식하지 못한다."
+    },
+    {
+      "id": "p5-407",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "In the catalog, the repaired watch is pictured ------- an unrestored example so readers can compare the two directly.",
+      "choices": [
+        "alongside",
+        "throughout",
+        "until",
+        "despite"
+      ],
+      "answer": 0,
+      "ko": "독자가 두 시계를 직접 비교할 수 있도록 목록에는 수리한 시계를 복원하지 않은 시계 바로 옆에 찍은 사진이 실려 있다.",
+      "explain": "두 물건을 나란히 보여 주는 위치 관계는 alongside가 맞다. throughout는 기간이나 공간 전체에 걸친 범위를 나타내어 이 배치와 맞지 않는다."
+    },
+    {
+      "id": "p5-408",
+      "type": "vocab",
+      "difficulty": 1,
+      "q": "Please keep the ------- between the theater's rows of seats clear so that ushers can guide late arrivals to their places.",
+      "choices": [
+        "ceiling",
+        "curtain",
+        "balcony",
+        "aisle"
+      ],
+      "answer": 3,
+      "ko": "안내원이 늦게 온 관객을 자리로 안내할 수 있도록 극장 좌석 열 사이의 통로를 비워 두어야 한다.",
+      "explain": "좌석 열 사이로 사람들이 다니는 길은 aisle이다. balcony는 위층 좌석 구역으로 좌석 열 사이 통로가 아니다."
+    },
+    {
+      "id": "p5-409",
+      "type": "verb",
+      "difficulty": 2,
+      "q": "The sales director believes the rural market is worth -------, even though reaching customers there will require a different distribution strategy.",
+      "choices": [
+        "explore",
+        "exploring",
+        "to explore",
+        "explored"
+      ],
+      "answer": 1,
+      "ko": "영업 이사는 농촌 고객에게 접근하려면 다른 유통 전략이 필요하지만 그 시장을 살펴볼 가치가 있다고 생각한다.",
+      "explain": "be worth 뒤에는 행동을 나타내는 동명사가 오므로 exploring이 맞다. to explore는 worth와 이 구조로 연결하지 않는다."
+    },
+    {
+      "id": "p5-410",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "Spare brushes for the floor polisher are ------- available from the distributor, so the cleaning firm keeps only a small stock.",
+      "choices": [
+        "ready",
+        "readiness",
+        "readily",
+        "readies"
+      ],
+      "answer": 2,
+      "ko": "바닥 광택기용 여분 솔은 유통업체에서 쉽게 구할 수 있으므로 청소 회사는 적은 양만 보유한다.",
+      "explain": "형용사 available을 수식하여 쉽게 구할 수 있음을 나타내는 부사는 readily다. readiness는 준비 상태라는 명사다."
+    },
+    {
+      "id": "p5-411",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "The retailer installed conspicuous security cameras as a ------- to theft, hoping their visibility would discourage potential offenders.",
+      "choices": [
+        "deterrent",
+        "concession",
+        "remedy",
+        "tribute"
+      ],
+      "answer": 0,
+      "ko": "소매업체는 잠재 절도범이 눈에 띄는 카메라를 보고 단념하기를 바라며 절도 억제용으로 보안 카메라를 설치했다.",
+      "explain": "행동을 미리 단념하게 만드는 억제 수단은 deterrent다. remedy는 이미 발생한 문제를 시정하는 수단으로, 사전 억제라는 목적과 다르다."
+    },
+    {
+      "id": "p5-412",
+      "type": "prep-conj",
+      "difficulty": 3,
+      "q": "------- carefully a projection is prepared, it remains an estimate rather than a guarantee of future demand.",
+      "choices": [
+        "Although",
+        "Therefore",
+        "Despite",
+        "However"
+      ],
+      "answer": 3,
+      "ko": "예측을 아무리 신중하게 작성하더라도 미래 수요를 보장하는 것이 아니라 추정치에 불과하다.",
+      "explain": "however 뒤에 부사와 주어·동사를 두면 아무리 ~하더라도라는 양보절이 된다. Although는 carefully a projection is prepared처럼 부사를 절 앞으로 도치하는 이 구조를 만들지 못한다."
+    },
+    {
+      "id": "p5-413",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "To fit the large loom through the narrow workshop door, the movers must ------- it into separate sections.",
+      "choices": [
+        "compress",
+        "dismantle",
+        "duplicate",
+        "fasten"
+      ],
+      "answer": 1,
+      "ko": "큰 베틀을 좁은 작업장 문으로 통과시키려면 운반 담당자들이 이를 여러 부분으로 분해해야 한다.",
+      "explain": "장치를 여러 부분으로 해체하는 동사는 dismantle이다. compress는 눌러 부피를 줄이는 것으로 구성 부분을 떼어 내는 작업이 아니다."
+    },
+    {
+      "id": "p5-414",
+      "type": "pos",
+      "difficulty": 2,
+      "q": "Using an evaluator with no connection to any contestant helps preserve the ------- of the product-design competition.",
+      "choices": [
+        "impartially",
+        "impartial",
+        "partial",
+        "impartiality"
+      ],
+      "answer": 3,
+      "ko": "어느 참가자와도 관련이 없는 평가자를 쓰면 제품 디자인 대회의 공정성을 지키는 데 도움이 된다.",
+      "explain": "preserve의 목적어로 관사 the 뒤에 명사 impartiality가 필요하다. impartial은 공정한 사람이나 판단을 꾸미는 형용사다."
+    },
+    {
+      "id": "p5-415",
+      "type": "relative",
+      "difficulty": 2,
+      "q": "The test identified the temperature at ------- the plastic casing begins to lose its shape.",
+      "choices": [
+        "which",
+        "where",
+        "that",
+        "what"
+      ],
+      "answer": 0,
+      "ko": "시험을 통해 플라스틱 외장이 형태를 잃기 시작하는 온도를 알아냈다.",
+      "explain": "선행사 temperature를 받고 앞의 전치사 at의 목적어가 되는 관계대명사는 which다. that은 전치사를 바로 앞에 두는 관계절에서 쓸 수 없다."
+    },
+    {
+      "id": "p5-416",
+      "type": "verb",
+      "difficulty": 2,
+      "q": "Ms. Rina Volen remembers ------- the safe before lunch because she distinctly recalls hearing its lock click.",
+      "choices": [
+        "to close",
+        "close",
+        "closing",
+        "closed"
+      ],
+      "answer": 2,
+      "ko": "리나 볼렌 씨는 자물쇠가 잠기는 소리를 뚜렷하게 기억하기 때문에 점심 전에 금고를 닫았던 것을 기억한다.",
+      "explain": "이미 한 행동을 기억하는 remember 뒤에는 동명사 closing이 맞다. to close는 앞으로 닫아야 할 일을 잊지 않는다는 뜻으로, 과거의 소리 기억과 다르다."
+    },
+    {
+      "id": "p5-417",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The sports club records ------- at each lunchtime exercise class to determine whether an additional instructor is needed.",
+      "choices": [
+        "attend",
+        "attendance",
+        "attendant",
+        "attended"
+      ],
+      "answer": 1,
+      "ko": "스포츠 클럽은 강사를 추가로 배치해야 하는지 판단하려고 점심시간 운동 수업마다 출석을 기록한다.",
+      "explain": "records의 목적어로 출석을 뜻하는 명사 attendance가 맞다. attendant는 시중드는 사람을 뜻하며 이 문장의 출석 집계 의미와 맞지 않는다."
+    },
+    {
+      "id": "p5-418",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "The partners considered an equal division of the expenses ------- because each company had used exactly half of the shared workspace.",
+      "choices": [
+        "excessive",
+        "equitable",
+        "provisional",
+        "accidental"
+      ],
+      "answer": 1,
+      "ko": "두 회사가 공유 작업 공간을 정확히 절반씩 사용했으므로 동업자들은 비용을 똑같이 나누는 것이 공평하다고 여겼다.",
+      "explain": "사용 비율과 비용 부담이 일치하여 공정하다는 뜻이므로 equitable이 맞다. provisional은 잠정적이라는 뜻으로 공평한 배분의 근거를 설명하지 못한다."
+    },
+    {
+      "id": "p5-419",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "The illustrator may retain the sample books ------- she returns them whenever the publisher requests them.",
+      "choices": [
+        "in spite of",
+        "because of",
+        "as well as",
+        "provided that"
+      ],
+      "answer": 3,
+      "ko": "삽화가는 출판사가 요청할 때마다 돌려준다는 조건으로 견본 도서를 보관할 수 있다.",
+      "explain": "주어와 동사가 있는 절을 이끌며 보관 허용의 조건을 나타내는 provided that이 맞다. in spite of 뒤에 이 완전한 절을 직접 쓸 수 없다."
+    },
+    {
+      "id": "p5-420",
+      "type": "pronoun",
+      "difficulty": 2,
+      "q": "The company has ordered five demonstration robots, but only ------- have arrived; the supplier is still assembling the rest.",
+      "choices": [
+        "several",
+        "much",
+        "every",
+        "either"
+      ],
+      "answer": 0,
+      "ko": "회사는 시연용 로봇 다섯 대를 주문했지만 몇 대만 도착했고 공급업체가 나머지를 아직 조립 중이다.",
+      "explain": "여러 대의 로봇을 대신하면서 복수 동사 have와 연결되는 several이 맞다. either는 두 대상 중 하나를 뜻하며 여기서는 수량과 동사 형태 모두 맞지 않는다."
+    },
+    {
+      "id": "p5-421",
+      "type": "vocab",
+      "difficulty": 1,
+      "q": "The clerk used a ------- to fasten the three sheets with a small metal wire bent through the paper.",
+      "choices": [
+        "stapler",
+        "folder",
+        "stamp",
+        "cutter"
+      ],
+      "answer": 0,
+      "ko": "사무원은 스테이플러로 작은 철심을 종이에 관통시켜 구부리는 방식으로 세 장을 묶었다.",
+      "explain": "철심으로 여러 장의 종이를 고정하는 도구는 stapler다. folder는 종이를 넣어 보관하는 물건이며 철심으로 묶는 도구가 아니다."
+    },
+    {
+      "id": "p5-422",
+      "type": "pos",
+      "difficulty": 2,
+      "q": "Before ordering bulk supplies, the print shop checks each ink's ------- with the rubber rollers used in its presses.",
+      "choices": [
+        "compatible",
+        "compatibly",
+        "compatibility",
+        "incompatible"
+      ],
+      "answer": 2,
+      "ko": "인쇄소는 소모품을 대량 주문하기 전에 각 잉크가 인쇄기의 고무 롤러와 호환되는지 확인한다.",
+      "explain": "소유격 each ink's 뒤에서 checks의 목적어가 되는 명사 compatibility가 맞다. compatible은 형용사이므로 이 자리에 단독으로 올 수 없다."
+    },
+    {
+      "id": "p5-423",
+      "type": "verb",
+      "difficulty": 3,
+      "q": "When the quarry manager joined the company in 2018, the old pit ------- idle for a decade; extraction resumed only after her arrival.",
+      "choices": [
+        "has lain",
+        "had lain",
+        "will lie",
+        "is lying"
+      ],
+      "answer": 1,
+      "ko": "채석장 관리자가 2018년 회사에 들어왔을 때 옛 채굴장은 10년째 쓰이지 않고 있었으며, 그녀가 온 뒤에야 채굴이 재개되었다.",
+      "explain": "2018년의 과거 시점까지 이어진 휴지 상태이므로 lie의 과거완료 had lain이 맞다. has lain은 현재를 기준으로 하므로 명시된 과거 기준과 맞지 않는다."
+    },
+    {
+      "id": "p5-424",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "As ------- July 1, the gallery will accept contactless payments for catalog purchases at both of its sales counters.",
+      "choices": [
+        "for",
+        "by",
+        "of",
+        "in"
+      ],
+      "answer": 2,
+      "ko": "7월 1일부터 미술관은 두 판매대 모두에서 도록 구입에 비접촉식 결제를 받을 것이다.",
+      "explain": "새로운 시행 시점을 나타내는 표현은 as of다. as by나 as in은 이와 같은 시행일 표현을 만들지 못한다."
+    },
+    {
+      "id": "p5-425",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "The lack of a load-bearing foundation would ------- adding another floor, so the architect ruled out any upward expansion.",
+      "choices": [
+        "facilitate",
+        "preclude",
+        "anticipate",
+        "prolong"
+      ],
+      "answer": 1,
+      "ko": "하중을 지탱할 기초가 없으면 층을 추가할 수 없으므로 건축가는 위로 증축하는 방안을 배제했다.",
+      "explain": "어떤 일을 불가능하게 하거나 막는 동사는 preclude다. prolong은 기간을 늘린다는 뜻으로 증축 가능성 자체를 배제하는 근거가 되지 않는다."
+    },
+    {
+      "id": "p5-426",
+      "type": "comparison",
+      "difficulty": 2,
+      "q": "The larger compressor uses twice as ------- electricity as the smaller unit when both run for the same length of time.",
+      "choices": [
+        "many",
+        "more",
+        "most",
+        "much"
+      ],
+      "answer": 3,
+      "ko": "같은 시간 동안 가동할 때 큰 압축기는 작은 장치보다 전기를 두 배 많이 사용한다.",
+      "explain": "불가산명사 electricity의 양을 as ~ as로 비교하므로 much가 맞다. many는 셀 수 있는 복수 명사와 함께 쓴다."
+    },
+    {
+      "id": "p5-427",
+      "type": "pos",
+      "difficulty": 1,
+      "q": "The custom shoemaking service became ------- after its owner reduced material waste and increased the number of repeat customers.",
+      "choices": [
+        "profitably",
+        "profit",
+        "profitable",
+        "profitability"
+      ],
+      "answer": 2,
+      "ko": "맞춤 구두 제작 서비스는 운영자가 자재 낭비를 줄이고 재구매 고객을 늘린 뒤 수익을 내게 되었다.",
+      "explain": "became 뒤에서 서비스의 상태를 설명하는 형용사 profitable이 맞다. profitably는 부사이므로 이 보어 자리에 올 수 없다."
+    },
+    {
+      "id": "p5-428",
+      "type": "vocab",
+      "difficulty": 2,
+      "q": "The bakery uses ------- salt crystals on the pretzels because finer grains would disappear into the moist surface.",
+      "choices": [
+        "coarse",
+        "liquid",
+        "soluble",
+        "seasonal"
+      ],
+      "answer": 0,
+      "ko": "고운 알갱이는 촉촉한 표면에 녹아 없어지므로 제과점은 프레첼에 굵은 소금 결정을 사용한다.",
+      "explain": "고운 입자와 대비되는 굵은 결정은 coarse로 표현한다. soluble은 녹는 성질이며 알갱이 크기의 대비를 나타내지 않는다."
+    },
+    {
+      "id": "p5-429",
+      "type": "prep-conj",
+      "difficulty": 2,
+      "q": "A company representative stayed at the test facility ------- the entire endurance trial, from the initial setup to the final shutdown.",
+      "choices": [
+        "toward",
+        "throughout",
+        "beneath",
+        "outside"
+      ],
+      "answer": 1,
+      "ko": "회사 대표자는 최초 설치부터 마지막 정지까지 내구성 시험 내내 시험 시설에 머물렀다.",
+      "explain": "기간의 시작부터 끝까지 계속됨을 나타내는 throughout가 맞다. toward는 방향이나 접근을 나타내며 기간 전체를 뜻하지 않는다."
+    },
+    {
+      "id": "p5-430",
+      "type": "verb",
+      "difficulty": 2,
+      "q": "With the thread from all six reels now ------- onto separate bobbins, the textile mill can begin checking it for uneven thickness.",
+      "choices": [
+        "wind",
+        "winding",
+        "to wind",
+        "wound"
+      ],
+      "answer": 3,
+      "ko": "이제 릴 여섯 개의 실을 각각의 실패에 모두 감았으므로 방직 공장은 실의 굵기가 고르지 않은지 검사하기 시작할 수 있다.",
+      "explain": "실이 감긴 상태를 나타내는 with+목적어+과거분사 구조이므로 wound가 맞다. winding은 능동 진행 형태여서 감기는 대상의 상태를 나타내지 못한다."
+    },
+    {
+      "id": "p5-431",
+      "type": "comparison",
+      "difficulty": 3,
+      "q": "------- the independent distributor to close its regional depot, our company would need a different route to those customers.",
+      "choices": [
+        "Had",
+        "Were",
+        "Should",
+        "Did"
+      ],
+      "answer": 1,
+      "ko": "독립 유통업체가 지역 물류 거점을 폐쇄한다면 우리 회사는 그 고객들에게 접근할 다른 경로가 필요할 것이다.",
+      "explain": "If the distributor were to close에서 if를 생략하면 Were the distributor to close로 도치한다. Should를 쓰는 조건절 도치에서는 to 없이 동사원형 close가 와야 한다."
+    },
+    {
+      "id": "p5-432",
+      "type": "vocab",
+      "difficulty": 3,
+      "q": "Under the ------- arrangement, each trade association allows the other's members to attend its networking events at the member rate.",
+      "choices": [
+        "unilateral",
+        "exclusive",
+        "reciprocal",
+        "compulsory"
+      ],
+      "answer": 2,
+      "ko": "상호 협약에 따라 각 무역 협회는 상대 협회 회원들이 회원 요금으로 자사의 교류 행사에 참석하도록 허용한다.",
+      "explain": "양쪽이 서로 같은 혜택을 제공하는 관계는 reciprocal이다. unilateral은 한쪽에서만 이루어지는 것을 뜻하므로 양방향 혜택과 반대다."
     }
   ]
 }
