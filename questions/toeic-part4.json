@@ -5922,6 +5922,1111 @@
           "explain": "시험 이용료를 구매 가격에서 공제한다고 한다. 추가 기계나 세척액의 무료 제공은 언급하지 않는다."
         }
       ]
+    },
+    {
+      "id": "p4-053",
+      "difficulty": 1,
+      "talkType": "telephone",
+      "script": [
+        {
+          "s": "W",
+          "t": "Hello, Mr. Neral, this is Sira from Doventi Stamp Repair about the company seal you brought to our workshop."
+        },
+        {
+          "s": "W",
+          "t": "The metal plate is undamaged, but the spring inside the handle has weakened, which explains why the impression was faint."
+        },
+        {
+          "s": "W",
+          "t": "We can replace that spring while keeping your existing plate, so you will not need to submit your company artwork again."
+        },
+        {
+          "s": "W",
+          "t": "The repair will cost thirty dollars, and your assistant has already authorized that amount by telephone."
+        },
+        {
+          "s": "W",
+          "t": "Please bring an example of the paper your office normally uses when you collect the seal on Friday."
+        },
+        {
+          "s": "W",
+          "t": "We will try the repaired seal on that paper before you leave, since thicker sheets may require a different pressure adjustment."
+        }
+      ],
+      "scriptKo": [
+        "네랄 씨, 맡기신 회사 직인에 관해 도벤티 도장 수리의 시라입니다.",
+        "금속판은 손상되지 않았지만 손잡이 안 스프링이 약해져 인영이 흐렸던 것입니다.",
+        "기존 판을 유지하고 스프링만 교체할 수 있으므로 회사 도안을 다시 제출할 필요가 없습니다.",
+        "수리비는 30달러이며 비서분이 이미 전화로 그 금액을 승인했습니다.",
+        "금요일에 직인을 찾아가실 때 사무실에서 평소 쓰는 종이 견본을 가져와 주십시오.",
+        "두꺼운 종이는 압력 조절이 달라질 수 있어 떠나시기 전에 그 종이에 수리한 직인을 시험하겠습니다."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "topic",
+          "q": "What is the message about?",
+          "choices": [
+            "Repairing a company seal",
+            "Ordering office stationery",
+            "Approving a new company design",
+            "Changing a collection date"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "메시지는 무엇에 관한 것인가?",
+            "choices": [
+              "회사 직인 수리",
+              "사무용 문구 주문",
+              "새 회사 도안 승인",
+              "수령 날짜 변경"
+            ]
+          },
+          "explain": "맡긴 직인의 스프링 문제와 수리를 안내한다. 도안을 새로 승인받는 연락은 아니다."
+        },
+        {
+          "type": "detail",
+          "q": "What will be replaced?",
+          "choices": [
+            "A metal plate",
+            "A paper tray",
+            "A weakened spring",
+            "A company logo"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "무엇을 교체하는가?",
+            "choices": [
+              "금속판",
+              "용지 받침",
+              "약해진 스프링",
+              "회사 로고"
+            ]
+          },
+          "explain": "손잡이 속 스프링만 교체하고 금속판은 유지한다고 한다."
+        },
+        {
+          "type": "suggest",
+          "q": "What should the listener bring?",
+          "choices": [
+            "An example of office paper",
+            "A copy of the artwork",
+            "A written price estimate",
+            "An authorization from his assistant"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "청자는 무엇을 가져와야 하는가?",
+            "choices": [
+              "사무실 종이 견본",
+              "도안 사본",
+              "서면 견적서",
+              "비서의 승인서"
+            ]
+          },
+          "explain": "수령할 때 평소 쓰는 종이를 가져와 시험해 달라고 한다. 비서는 이미 비용을 승인했다."
+        }
+      ]
+    },
+    {
+      "id": "p4-054",
+      "difficulty": 1,
+      "talkType": "announcement",
+      "script": [
+        {
+          "s": "M",
+          "t": "This message is for staff receiving chilled samples at the Peravin food research office."
+        },
+        {
+          "s": "M",
+          "t": "The reusable cooling packs inside the delivery boxes should now go into the blue tub beside the receiving desk instead of the general waste bin."
+        },
+        {
+          "s": "M",
+          "t": "Our supplier will collect the packs every Wednesday and prepare them for another delivery, which will reduce the number of new packs we need."
+        },
+        {
+          "s": "M",
+          "t": "Please leave the packs sealed, even when the contents have become completely liquid, and wipe any food from the outside."
+        },
+        {
+          "s": "M",
+          "t": "Empty cardboard boxes should still be flattened and placed in the usual paper collection area."
+        },
+        {
+          "s": "M",
+          "t": "The blue tub has wheels, so keep the narrow passage beside it clear for the collection driver."
+        }
+      ],
+      "scriptKo": [
+        "페라빈 식품 연구 사무실에서 냉장 견본을 받는 직원에게 안내합니다.",
+        "배송 상자 안의 재사용 냉각 팩은 이제 일반 쓰레기통 대신 입고 데스크 옆 파란 통에 넣어 주십시오.",
+        "공급업체가 매주 수요일 수거해 다음 배송을 준비하므로 새로 필요한 팩 수가 줄어듭니다.",
+        "내용물이 완전히 녹았어도 팩을 개봉하지 말고 겉에 묻은 음식만 닦아 주십시오.",
+        "빈 종이 상자는 계속 납작하게 접어 기존 종이 수거 장소에 놓아야 합니다.",
+        "파란 통에는 바퀴가 있으므로 수거 기사를 위해 옆의 좁은 통로를 비워 두십시오."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "topic",
+          "q": "What change is being announced?",
+          "choices": [
+            "A different supplier for food samples",
+            "A collection system for cooling packs",
+            "A new location for the research office",
+            "A revised cardboard delivery schedule"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "어떤 변경을 알리는가?",
+            "choices": [
+              "식품 견본 공급업체 변경",
+              "냉각 팩 수거 체계",
+              "연구 사무실의 새 위치",
+              "종이 상자 배송 일정 변경"
+            ]
+          },
+          "explain": "냉각 팩을 따로 모아 공급업체가 회수하는 방식의 도입이다. 공급업체 교체는 아니다."
+        },
+        {
+          "type": "detail",
+          "q": "What should employees avoid doing?",
+          "choices": [
+            "Folding cardboard boxes",
+            "Opening the cooling packs",
+            "Cleaning the outside of packs",
+            "Using the paper collection area"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "직원은 어떤 행동을 피해야 하는가?",
+            "choices": [
+              "종이 상자를 접는다",
+              "냉각 팩을 개봉한다",
+              "팩의 겉면을 닦는다",
+              "종이 수거 구역을 이용한다"
+            ]
+          },
+          "explain": "내용물이 녹아도 밀봉 상태를 유지하라고 한다. 겉면 청소는 요청한 일이다."
+        },
+        {
+          "type": "reason",
+          "q": "Why must the passage remain clear?",
+          "choices": [
+            "It is used for food testing",
+            "The boxes need time to dry",
+            "New desks will be installed",
+            "A wheeled container must pass through"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "통로를 비워 두어야 하는 이유는 무엇인가?",
+            "choices": [
+              "식품 시험에 사용해서다",
+              "상자가 마를 시간이 필요해서다",
+              "새 책상을 설치해서다",
+              "바퀴 달린 통이 지나가야 해서다"
+            ]
+          },
+          "explain": "수거 기사가 바퀴 달린 통을 이동할 수 있게 하려는 것이다. 상자 건조 장소가 아니다."
+        }
+      ]
+    },
+    {
+      "id": "p4-055",
+      "difficulty": 3,
+      "talkType": "meeting",
+      "script": [
+        {
+          "s": "W",
+          "t": "Before we approve the training pack for our sales advisers, I want to discuss one comment from the customer interviews."
+        },
+        {
+          "s": "W",
+          "t": "A customer described our quotation as a puzzle, even though every individual charge was correctly calculated."
+        },
+        {
+          "s": "W",
+          "t": "Several of you suggested removing that comment because it sounds unfavorable, but that is worth keeping."
+        },
+        {
+          "s": "W",
+          "t": "In the workshop, advisers will rearrange the information so a buyer can see the total without searching across three pages."
+        },
+        {
+          "s": "W",
+          "t": "We will use an invented company name and change the amounts, while preserving the layout that caused the difficulty."
+        },
+        {
+          "s": "W",
+          "t": "Please prepare two alternative layouts for tomorrow, and we will ask colleagues outside Sales to compare them without being told which version we prefer."
+        }
+      ],
+      "scriptKo": [
+        "영업 상담원 교육 자료를 승인하기 전에 고객 인터뷰 의견 하나를 논의하겠습니다.",
+        "항목별 금액 계산은 모두 맞았는데 한 고객은 견적서를 퍼즐 같다고 했습니다.",
+        "부정적으로 들린다며 빼자는 의견이 있었지만, 그건 남겨 둘 가치가 있습니다.",
+        "워크숍에서는 구매자가 세 페이지를 뒤지지 않고 총액을 볼 수 있도록 정보를 재배치합니다.",
+        "가상 회사명과 다른 금액을 쓰되 혼란을 일으킨 배치는 유지하겠습니다.",
+        "내일까지 대안 배치 두 개를 준비하면 선호하는 안을 알려 주지 않고 영업팀 외 동료들에게 비교를 부탁하겠습니다."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What troubled the customer?",
+          "choices": [
+            "An incorrect total",
+            "An unfamiliar company name",
+            "Information that was difficult to follow",
+            "An overdue training session"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "고객은 무엇 때문에 어려움을 겪었는가?",
+            "choices": [
+              "틀린 총액",
+              "낯선 회사명",
+              "따라가기 어려운 정보 구성",
+              "지연된 교육"
+            ]
+          },
+          "explain": "금액은 맞았지만 견적서가 퍼즐 같았다는 말은 정보 구성이 어렵다는 뜻이다."
+        },
+        {
+          "type": "intention",
+          "q": "What does the woman mean by \"that is worth keeping\"?",
+          "choices": [
+            "The criticism provides a useful teaching example",
+            "The original prices should remain unchanged",
+            "The customer should receive another quotation",
+            "The workshop should retain its original date"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "여자가 “that is worth keeping”이라고 한 의도는 무엇인가?",
+            "choices": [
+              "비판이 유용한 교육 사례가 된다",
+              "원래 가격을 그대로 두어야 한다",
+              "고객에게 견적서를 다시 보내야 한다",
+              "워크숍 날짜를 유지해야 한다"
+            ]
+          },
+          "explain": "비판을 삭제하지 않고 견적서 재배치 연습에 쓰려는 맥락이다. 금액은 바꾼다고 한다."
+        },
+        {
+          "type": "next",
+          "q": "Who will compare the proposed layouts?",
+          "choices": [
+            "The interviewed customer",
+            "The company’s suppliers",
+            "Employees from outside the sales team",
+            "The original quotation designers"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "누가 제안된 배치를 비교하는가?",
+            "choices": [
+              "인터뷰한 고객",
+              "회사 공급업체",
+              "영업팀 밖의 직원",
+              "원래 견적서 설계자"
+            ]
+          },
+          "explain": "선호안을 모르는 다른 부서 동료에게 비교를 요청한다. 고객에게 재평가를 부탁하는 것이 아니다."
+        }
+      ]
+    },
+    {
+      "id": "p4-056",
+      "difficulty": 2,
+      "talkType": "advertisement",
+      "script": [
+        {
+          "s": "M",
+          "t": "Large glass walls can make a reception area bright, but birds may mistake reflections of nearby trees for an open route."
+        },
+        {
+          "s": "M",
+          "t": "Fervani Window Marking applies a patterned film to the outside of commercial windows, helping birds recognize the surface without covering the whole view."
+        },
+        {
+          "s": "M",
+          "t": "Our installer first examines which panes reflect vegetation and photographs them from several angles at ground level."
+        },
+        {
+          "s": "M",
+          "t": "The proposal identifies individual panes, so customers can begin with the affected section instead of treating every window in the building."
+        },
+        {
+          "s": "M",
+          "t": "Installation is arranged outside reception hours, and the film can be removed later without replacing the glass."
+        },
+        {
+          "s": "M",
+          "t": "For an initial estimate, send us the width and height of each pane you are concerned about, along with one photograph of the building frontage."
+        }
+      ],
+      "scriptKo": [
+        "넓은 유리벽은 접수 공간을 밝게 하지만 새가 주변 나무의 반사를 열린 통로로 착각할 수 있습니다.",
+        "페르바니 유리 표시는 상업용 창문 바깥에 무늬 필름을 붙여 시야 전체를 가리지 않고 새가 표면을 알아보도록 돕습니다.",
+        "설치 담당자가 먼저 어떤 유리에 식물이 비치는지 살피고 지상 여러 각도에서 사진을 찍습니다.",
+        "제안서는 개별 유리를 지정하므로 건물 전체가 아니라 문제가 있는 부분부터 시공할 수 있습니다.",
+        "접수처 운영 시간 외에 설치하며 나중에 유리를 교체하지 않고 필름을 제거할 수 있습니다.",
+        "초기 견적을 위해 걱정되는 각 유리의 너비와 높이, 건물 정면 사진 한 장을 보내 주십시오."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "topic",
+          "q": "What is the service designed to do?",
+          "choices": [
+            "Replace damaged reception windows",
+            "Reduce birds’ collisions with glass",
+            "Remove trees beside office buildings",
+            "Make interior lighting more economical"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "서비스의 목적은 무엇인가?",
+            "choices": [
+              "손상된 접수처 창문을 교체한다",
+              "새가 유리에 부딪치는 일을 줄인다",
+              "사무실 옆 나무를 제거한다",
+              "실내 조명 비용을 줄인다"
+            ]
+          },
+          "explain": "새가 반사를 통로로 오인하지 않도록 창문을 표시하는 서비스다. 나무 제거는 아니다."
+        },
+        {
+          "type": "detail",
+          "q": "What flexibility does the company offer?",
+          "choices": [
+            "Customers may choose only problem windows",
+            "Customers may install replacement glass themselves",
+            "Reception may remain open during installation",
+            "The pattern may change automatically each day"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "회사는 어떤 선택의 여지를 제공하는가?",
+            "choices": [
+              "문제가 있는 창문만 선택할 수 있다",
+              "고객이 교체 유리를 직접 설치할 수 있다",
+              "설치 중 접수처를 운영할 수 있다",
+              "무늬가 매일 자동 변경될 수 있다"
+            ]
+          },
+          "explain": "개별 유리를 지정해 일부 구역부터 시공할 수 있다. 설치는 접수처 운영 시간 밖에 한다."
+        },
+        {
+          "type": "suggest",
+          "q": "What should prospective customers provide?",
+          "choices": [
+            "A list of tree species",
+            "A copy of their lighting bill",
+            "Window dimensions and an exterior photograph",
+            "Their preferred replacement glass supplier"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "잠재 고객은 무엇을 제공해야 하는가?",
+            "choices": [
+              "나무 종류 목록",
+              "조명 요금 청구서",
+              "창문 치수와 외관 사진",
+              "선호하는 교체 유리 공급업체"
+            ]
+          },
+          "explain": "마지막에 너비·높이와 건물 정면 사진을 요청한다. 전기 요금 자료는 필요 없다."
+        }
+      ]
+    },
+    {
+      "id": "p4-057",
+      "difficulty": 3,
+      "talkType": "broadcast",
+      "script": [
+        {
+          "s": "W",
+          "t": "Tonight our business feature visits the instrument maker that sold equal numbers at home and overseas in last year’s regional production survey."
+        },
+        {
+          "s": "W",
+          "t": "You can find all four participating firms in the table accompanying this program on our website."
+        },
+        {
+          "s": "W",
+          "t": "The featured company makes wooden whistles, and it entered the export market after a traveling music teacher demonstrated its products at several schools abroad."
+        },
+        {
+          "s": "W",
+          "t": "Instead of opening foreign shops, the company sends small orders directly to teaching groups, with repair parts packed alongside each shipment."
+        },
+        {
+          "s": "W",
+          "t": "Its founder says that keeping the whistles playable matters more than encouraging customers to replace them every year."
+        },
+        {
+          "s": "W",
+          "t": "After the break, we will hear a teacher compare an old instrument with a recently repaired one, and listeners may send questions through our program page."
+        }
+      ],
+      "scriptKo": [
+        "오늘 밤 기업 특집은 지난해 지역 생산 조사에서 국내와 해외에 같은 수량을 판매한 악기 제조사를 찾아갑니다.",
+        "조사에 참여한 네 업체 모두를 웹사이트의 프로그램 표에서 볼 수 있습니다.",
+        "소개할 회사는 나무 피리를 만들며, 순회 음악 교사가 해외 여러 학교에서 제품을 시연한 뒤 수출 시장에 진출했습니다.",
+        "해외 매장 대신 교육 단체에 소량 주문을 직접 보내며 매 배송에 수리 부품을 함께 넣습니다.",
+        "설립자는 매년 새 제품을 사게 하기보다 피리를 계속 연주할 수 있게 하는 것이 중요하다고 말합니다.",
+        "광고 후 교사가 오래된 악기와 최근 수리한 악기를 비교하는 소리를 들려 드리며 프로그램 페이지로 질문을 보낼 수 있습니다."
+      ],
+      "graphic": {
+        "title": "Annual Instrument Sales",
+        "titleKo": "연간 악기 판매량",
+        "rows": [
+          [
+            "Company",
+            "Domestic",
+            "Export"
+          ],
+          [
+            "Orvelin",
+            "400",
+            "200"
+          ],
+          [
+            "Neradi",
+            "250",
+            "500"
+          ],
+          [
+            "Solveta",
+            "600",
+            "300"
+          ],
+          [
+            "Kelmori",
+            "300",
+            "300"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "type": "graphic",
+          "q": "Look at the graphic. Which company is featured?",
+          "choices": [
+            "Orvelin",
+            "Neradi",
+            "Solveta",
+            "Kelmori"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "표를 보라. 어느 회사를 소개하는가?",
+            "choices": [
+              "오르벨린",
+              "네라디",
+              "솔베타",
+              "켈모리"
+            ]
+          },
+          "explain": "대본은 국내·해외 판매 수량이 같다고 하며 표에서 300·300인 켈모리가 해당한다. 총판매량이 가장 큰 업체를 고르는 문제가 아니다."
+        },
+        {
+          "type": "reason",
+          "q": "What helped the company reach foreign customers?",
+          "choices": [
+            "A teacher’s demonstrations",
+            "A chain of company shops",
+            "A government repair program",
+            "A radio advertising campaign"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "회사가 해외 고객을 확보하는 데 무엇이 도움이 되었는가?",
+            "choices": [
+              "교사의 시연",
+              "직영 매장망",
+              "정부 수리 사업",
+              "라디오 광고"
+            ]
+          },
+          "explain": "해외 학교에서 제품을 시연한 교사가 계기였다. 해외 매장은 열지 않았다."
+        },
+        {
+          "type": "next",
+          "q": "What will listeners hear after the break?",
+          "choices": [
+            "A report on factory employment",
+            "A comparison of two instruments",
+            "An interview with a shop designer",
+            "Instructions for placing an export order"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "광고 후 청자는 무엇을 듣는가?",
+            "choices": [
+              "공장 고용 보고",
+              "악기 두 개의 비교",
+              "매장 설계자 인터뷰",
+              "수출 주문 방법"
+            ]
+          },
+          "explain": "오래된 악기와 수리한 악기를 교사가 비교한다. 주문 절차 안내가 아니다."
+        }
+      ]
+    },
+    {
+      "id": "p4-058",
+      "difficulty": 1,
+      "talkType": "tour",
+      "script": [
+        {
+          "s": "M",
+          "t": "Welcome to the twisting room at Lendori Rope Works, where thin strands become the stronger ropes used by our commercial customers."
+        },
+        {
+          "s": "M",
+          "t": "The machine on your left turns three separate strands together, while the moving carriage keeps the tension even along the finished rope."
+        },
+        {
+          "s": "M",
+          "t": "Different colors in those strands help our staff identify the product without attaching a paper label to every length."
+        },
+        {
+          "s": "M",
+          "t": "You may take photographs from behind this rail, but please keep camera straps away from the opening in the barrier."
+        },
+        {
+          "s": "M",
+          "t": "At the next station, a worker will cut a short sample and show how the ends are secured to prevent them from coming apart."
+        },
+        {
+          "s": "M",
+          "t": "Before we move there, put on the hearing protectors hanging beside the door, because that part of the workshop is considerably louder."
+        }
+      ],
+      "scriptKo": [
+        "가느다란 가닥을 상업 고객용의 더 튼튼한 밧줄로 만드는 렌도리 로프 공장의 꼬임실에 오신 것을 환영합니다.",
+        "왼쪽 기계가 세 가닥을 함께 꼬고 이동 장치가 완성되는 밧줄 전체의 장력을 고르게 유지합니다.",
+        "가닥의 서로 다른 색은 길이마다 종이표를 달지 않고 제품을 구분하는 데 도움이 됩니다.",
+        "난간 뒤에서 사진을 찍어도 되지만 카메라 끈이 방벽의 구멍 가까이 가지 않게 해 주십시오.",
+        "다음 작업대에서는 직원이 짧은 견본을 자르고 끝이 풀리지 않게 고정하는 방법을 보여 줍니다.",
+        "그곳은 훨씬 시끄러우므로 이동 전에 문 옆의 청력 보호구를 착용해 주십시오."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "speaker",
+          "q": "Where are the listeners?",
+          "choices": [
+            "At a camera store",
+            "At a textile exhibition",
+            "At a rope factory",
+            "At a shipping office"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "청자들은 어디에 있는가?",
+            "choices": [
+              "카메라 매장",
+              "직물 전시회",
+              "밧줄 공장",
+              "배송 사무소"
+            ]
+          },
+          "explain": "밧줄을 만드는 기계와 작업 과정을 안내하는 공장 견학이다."
+        },
+        {
+          "type": "reason",
+          "q": "Why are different strand colors used?",
+          "choices": [
+            "To make products easier to identify",
+            "To match customers’ office walls",
+            "To show where ropes should be cut",
+            "To indicate the age of the machinery"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "가닥 색을 다르게 쓰는 이유는 무엇인가?",
+            "choices": [
+              "제품을 쉽게 구분하려고",
+              "고객 사무실 벽과 맞추려고",
+              "밧줄 절단 위치를 표시하려고",
+              "기계의 연식을 나타내려고"
+            ]
+          },
+          "explain": "색으로 제품을 식별해 개별 종이표의 필요를 줄인다. 절단 위치 표시는 아니다."
+        },
+        {
+          "type": "suggest",
+          "q": "What should listeners do before moving on?",
+          "choices": [
+            "Return their cameras",
+            "Collect paper labels",
+            "Wear hearing protection",
+            "Cut a rope sample"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "이동 전에 청자들은 무엇을 해야 하는가?",
+            "choices": [
+              "카메라를 반납한다",
+              "종이표를 모은다",
+              "청력 보호구를 착용한다",
+              "밧줄 견본을 자른다"
+            ]
+          },
+          "explain": "더 시끄러운 다음 구역으로 가기 전에 보호구를 쓰라고 한다. 절단은 직원이 시연한다."
+        }
+      ]
+    },
+    {
+      "id": "p4-059",
+      "difficulty": 3,
+      "talkType": "speech",
+      "script": [
+        {
+          "s": "W",
+          "t": "When two equally well-supported estimates of potential buyers differ, I tell our new business planners, I'll take the smaller number."
+        },
+        {
+          "s": "W",
+          "t": "A proposal should survive a cautious sales forecast rather than depend on reaching every person who expresses interest."
+        },
+        {
+          "s": "W",
+          "t": "In this exercise, you have the same rental cost and staffing budget, but two different estimates of how many customers will actually buy."
+        },
+        {
+          "s": "W",
+          "t": "Use the lower estimate first and calculate whether the planned income would cover those fixed expenses."
+        },
+        {
+          "s": "W",
+          "t": "If it does, repeat the calculation with the higher estimate and describe the extra income as an opportunity, not a promise."
+        },
+        {
+          "s": "W",
+          "t": "You will present both calculations to another group, whose members will question your assumptions before you decide whether to recommend the project."
+        }
+      ],
+      "scriptKo": [
+        "근거가 똑같이 탄탄한 잠재 구매자 추정치 두 개가 다르면 저는 신규 사업 기획자들에게 더 작은 숫자를 택하겠다고 말합니다.",
+        "제안은 관심을 보인 모든 사람에게 판매하는 데 의존하기보다 신중한 매출 전망 아래에서도 성립해야 합니다.",
+        "이번 연습에서는 임차료와 인건비 예산은 같지만 실제 구매 고객 수 추정치가 두 가지입니다.",
+        "먼저 낮은 추정치로 계획 수입이 고정 지출을 충당하는지 계산하십시오.",
+        "가능하다면 높은 추정치로 다시 계산하되 추가 수입은 약속이 아니라 기회라고 설명하십시오.",
+        "사업 추천 여부를 정하기 전에 다른 조에 두 계산을 발표하며 그 조는 여러분의 가정을 질문합니다."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "intention",
+          "q": "Why does the woman say, \"I'll take the smaller number\"?",
+          "choices": [
+            "To limit the number of workshop groups",
+            "To reduce the planned staffing budget",
+            "To request a discount on rent",
+            "To test a proposal using cautious demand assumptions"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "여자가 “I’ll take the smaller number”라고 말한 이유는 무엇인가?",
+            "choices": [
+              "워크숍 조 수를 제한하려고",
+              "계획 인건비를 줄이려고",
+              "임차료 할인을 요청하려고",
+              "신중한 수요 가정으로 제안을 검토하려고"
+            ]
+          },
+          "explain": "구매 고객 수를 보수적으로 잡아도 사업이 성립하는지 보려는 것이다. 임차료와 인건비는 고정되어 있다."
+        },
+        {
+          "type": "detail",
+          "q": "How should the additional projected income be described?",
+          "choices": [
+            "As a guaranteed payment",
+            "As a possible benefit",
+            "As a staffing expense",
+            "As a fixed rental charge"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "추가 예상 수입은 어떻게 설명해야 하는가?",
+            "choices": [
+              "보장된 지급액",
+              "실현 가능한 이익",
+              "인력 지출",
+              "고정 임차료"
+            ]
+          },
+          "explain": "높은 추정치에서 생기는 추가 수입은 약속이 아니라 기회라고 설명하라고 한다."
+        },
+        {
+          "type": "next",
+          "q": "What will participants do with their calculations?",
+          "choices": [
+            "Submit them to a property owner",
+            "Use them to set new rental prices",
+            "Send them to potential customers",
+            "Discuss them with another group"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "참가자는 계산 결과로 무엇을 하는가?",
+            "choices": [
+              "건물 소유주에게 제출한다",
+              "새 임차료 책정에 사용한다",
+              "잠재 고객에게 보낸다",
+              "다른 조와 논의한다"
+            ]
+          },
+          "explain": "다른 조에 두 계산을 제시하고 가정을 검토받는다. 고객에게 수입을 약속하는 단계가 아니다."
+        }
+      ]
+    },
+    {
+      "id": "p4-060",
+      "difficulty": 2,
+      "talkType": "telephone",
+      "script": [
+        {
+          "s": "M",
+          "t": "Hello, Ms. Orel, this is Javin from Mervadi Ice Hall about your company's introductory curling session next Friday."
+        },
+        {
+          "s": "M",
+          "t": "Your booking form gives the names of all twelve employees, but we still need their shoe sizes to prepare the slip-on gripping soles."
+        },
+        {
+          "s": "M",
+          "t": "Participants will wear their own clean, flat shoes under that equipment, so there is no separate boot rental to arrange."
+        },
+        {
+          "s": "M",
+          "t": "The instructor will begin with a demonstration off the ice, then divide the group into two teams for a short practice game."
+        },
+        {
+          "s": "M",
+          "t": "We have reserved the upstairs lounge for your lunch afterward, although your company will need to bring its own food."
+        },
+        {
+          "s": "M",
+          "t": "Please send the missing sizes by Wednesday and remind everyone to arrive fifteen minutes early so we can fit the equipment before the demonstration."
+        }
+      ],
+      "scriptKo": [
+        "오렐 씨, 다음 주 금요일 회사의 컬링 입문 수업에 관해 메르바디 아이스홀의 자빈입니다.",
+        "예약 양식에는 직원 열두 명 이름이 모두 있지만 덧신형 미끄럼 방지 밑창을 준비하려면 신발 크기가 더 필요합니다.",
+        "장비 안에는 깨끗하고 평평한 본인 신발을 신으므로 별도로 부츠를 빌릴 필요는 없습니다.",
+        "강사가 빙판 밖에서 시연한 뒤 두 팀으로 나눠 짧은 연습 경기를 진행합니다.",
+        "이후 점심을 위해 위층 휴게실을 예약했지만 음식은 회사에서 직접 가져와야 합니다.",
+        "수요일까지 빠진 크기를 보내고 시연 전 장비를 맞출 수 있도록 모두 15분 일찍 오라고 알려 주십시오."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "reason",
+          "q": "Why does the man need more information?",
+          "choices": [
+            "To decide how many employees will attend",
+            "To prepare equipment in the appropriate sizes",
+            "To select food for the company lunch",
+            "To divide the booking between two dates"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "남자는 왜 추가 정보가 필요한가?",
+            "choices": [
+              "참가 직원 수를 결정하려고",
+              "맞는 크기의 장비를 준비하려고",
+              "회사 점심 음식을 고르려고",
+              "예약을 두 날짜로 나누려고"
+            ]
+          },
+          "explain": "이름과 인원은 있지만 밑창 크기를 정할 신발 치수가 없다. 음식은 회사가 가져온다."
+        },
+        {
+          "type": "detail",
+          "q": "What must the company supply?",
+          "choices": [
+            "Rental boots",
+            "An instructor for the practice game",
+            "Food for the lunch",
+            "A room for the demonstration"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "회사가 제공해야 하는 것은 무엇인가?",
+            "choices": [
+              "대여용 부츠",
+              "연습 경기 강사",
+              "점심 음식",
+              "시연 장소"
+            ]
+          },
+          "explain": "휴게실은 예약했지만 점심 음식은 회사에서 가져와야 한다. 부츠 대여는 필요 없다."
+        },
+        {
+          "type": "suggest",
+          "q": "What should participants do on the day?",
+          "choices": [
+            "Bring their own curling stones",
+            "Meet directly on the ice",
+            "Arrive before the scheduled starting time",
+            "Eat lunch before the demonstration"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "참가자는 당일 무엇을 해야 하는가?",
+            "choices": [
+              "자신의 컬링 스톤을 가져온다",
+              "빙판에서 바로 만난다",
+              "예정 시작 시각보다 일찍 온다",
+              "시연 전에 점심을 먹는다"
+            ]
+          },
+          "explain": "장비를 맞추도록 15분 일찍 오라고 한다. 점심은 활동 후다."
+        }
+      ]
+    },
+    {
+      "id": "p4-061",
+      "difficulty": 2,
+      "talkType": "announcement",
+      "script": [
+        {
+          "s": "W",
+          "t": "This is a reminder for employees sending document envelopes through the Veldaro office courier account this afternoon."
+        },
+        {
+          "s": "W",
+          "t": "A large customer mailing is using most of our usual collection bags, so the receiving desk has opened a second packing table near the stationery cupboard."
+        },
+        {
+          "s": "W",
+          "t": "You may use either table, but weigh each sealed envelope before completing its collection form."
+        },
+        {
+          "s": "W",
+          "t": "The destination guide classifies tomorrow’s distributor documents as zone three, regardless of which department prepares them."
+        },
+        {
+          "s": "W",
+          "t": "Use the courier sheet to find today’s final handover time for that zone, and allow yourself enough time to bring the envelopes downstairs."
+        },
+        {
+          "s": "W",
+          "t": "The driver collects from Reception rather than from the packing tables, and Reception cannot accept an envelope after the listed cutoff even if the vehicle is still outside."
+        }
+      ],
+      "scriptKo": [
+        "오늘 오후 벨다로 사무실 배송 계정으로 서류 봉투를 보내는 직원에게 안내합니다.",
+        "대규모 고객 우편 발송에 평소 수거 가방 대부분을 사용해 입고 데스크가 문구 수납장 옆에 두 번째 포장대를 열었습니다.",
+        "어느 포장대를 써도 되지만 봉투를 밀봉한 뒤 무게를 재고 수거 양식을 작성하십시오.",
+        "목적지 안내에 따르면 내일 배달할 유통업체 서류는 준비 부서와 관계없이 3구역입니다.",
+        "배송표에서 해당 구역의 오늘 최종 인계 시각을 찾아 아래층으로 가져갈 시간을 확보하십시오.",
+        "기사는 포장대가 아니라 접수처에서 수거하며 차량이 밖에 있어도 표시된 마감 후에는 접수처가 봉투를 받을 수 없습니다."
+      ],
+      "graphic": {
+        "title": "Courier Handover Cutoffs",
+        "titleKo": "배송 인계 마감",
+        "rows": [
+          [
+            "Destination zone",
+            "Final handover"
+          ],
+          [
+            "1",
+            "15:20"
+          ],
+          [
+            "2",
+            "16:00"
+          ],
+          [
+            "3",
+            "16:40"
+          ],
+          [
+            "4",
+            "14:10"
+          ]
+        ]
+      },
+      "questions": [
+        {
+          "type": "reason",
+          "q": "Why has another packing table been opened?",
+          "choices": [
+            "The courier vehicle is being repaired",
+            "Reception is moving upstairs",
+            "The stationery cupboard is being replaced",
+            "An unusually large mailing is being prepared"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "포장대를 하나 더 연 이유는 무엇인가?",
+            "choices": [
+              "배송 차량을 수리해서",
+              "접수처가 위층으로 옮겨서",
+              "문구 수납장을 교체해서",
+              "평소보다 많은 우편물을 준비해서"
+            ]
+          },
+          "explain": "대규모 고객 발송 때문에 추가 포장대를 마련했다. 차량 고장 때문이 아니다."
+        },
+        {
+          "type": "detail",
+          "q": "What must employees do before filling out the form?",
+          "choices": [
+            "Ask the distributor to choose a zone",
+            "Measure the weight of the closed envelope",
+            "Move the packing table to Reception",
+            "Wait until the driver arrives"
+          ],
+          "answer": 1,
+          "ko": {
+            "q": "양식을 작성하기 전에 직원은 무엇을 해야 하는가?",
+            "choices": [
+              "유통업체에 구역 선택을 요청한다",
+              "봉한 봉투의 무게를 잰다",
+              "포장대를 접수처로 옮긴다",
+              "기사가 올 때까지 기다린다"
+            ]
+          },
+          "explain": "밀봉한 봉투를 먼저 달라고 한다. 도착할 때까지 기다리라는 지시는 없다."
+        },
+        {
+          "type": "graphic",
+          "q": "Look at the graphic. When is the distributor mailing due at Reception?",
+          "choices": [
+            "14:10",
+            "15:20",
+            "16:00",
+            "16:40"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "표를 보라. 유통업체 우편물은 언제까지 접수처에 내야 하는가?",
+            "choices": [
+              "14시 10분",
+              "15시 20분",
+              "16시",
+              "16시 40분"
+            ]
+          },
+          "explain": "대본은 3구역이라고 하고 표의 3구역 인계 마감은 16시 40분이다. 준비 부서로 시간을 고르면 안 된다."
+        }
+      ]
+    },
+    {
+      "id": "p4-062",
+      "difficulty": 2,
+      "talkType": "meeting",
+      "script": [
+        {
+          "s": "M",
+          "t": "Our new sample showroom has received positive comments from the employees who tried it, especially about the adjustable shelves and clear aisle signs."
+        },
+        {
+          "s": "M",
+          "t": "We still need to see how visitors unfamiliar with our products use the space, so next week we will invite six customers to choose samples without a guide."
+        },
+        {
+          "s": "M",
+          "t": "Two observers will note where they hesitate, but they should not explain the shelf labels unless a visitor asks for help."
+        },
+        {
+          "s": "M",
+          "t": "The publicity team has prepared an announcement for every customer on our mailing list and would like to send it tomorrow."
+        },
+        {
+          "s": "M",
+          "t": "Let's keep that envelope closed."
+        },
+        {
+          "s": "M",
+          "t": "We can decide on the public announcement after the trial, when we know whether the room needs changes that would make an immediate opening inconvenient."
+        }
+      ],
+      "scriptKo": [
+        "새 견본 전시실을 시험한 직원들은 특히 조절식 선반과 명확한 통로 표지를 좋게 평가했습니다.",
+        "제품을 잘 모르는 방문객의 이용 방식을 봐야 하므로 다음 주 고객 여섯 명을 초대해 안내자 없이 견본을 고르게 하겠습니다.",
+        "관찰자 두 명이 어디서 망설이는지 기록하되 방문객이 도움을 요청하지 않으면 선반 표지를 설명해서는 안 됩니다.",
+        "홍보팀은 모든 고객에게 보낼 안내문을 준비했고 내일 발송하려고 합니다.",
+        "그 봉투는 닫아 둡시다.",
+        "바로 개장하기 곤란하게 만드는 수정이 필요한지 알게 되는 시험 후에 대외 공지를 결정할 수 있습니다."
+      ],
+      "graphic": null,
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Who will take part in next week’s trial?",
+          "choices": [
+            "The company’s shelving suppliers",
+            "All employees on the mailing list",
+            "Two publicity designers",
+            "A small group of customers"
+          ],
+          "answer": 3,
+          "ko": {
+            "q": "다음 주 시험에는 누가 참여하는가?",
+            "choices": [
+              "회사 선반 공급업체",
+              "메일 목록의 전 직원",
+              "홍보 디자이너 두 명",
+              "소수의 고객"
+            ]
+          },
+          "explain": "직원 평가 후 고객 여섯 명을 초대한다. 관찰자 두 명과 시험 참가자는 다르다."
+        },
+        {
+          "type": "suggest",
+          "q": "What should observers avoid doing without a request?",
+          "choices": [
+            "Recording where visitors hesitate",
+            "Choosing samples for the publicity team",
+            "Explaining the shelf labels",
+            "Inviting customers to the showroom"
+          ],
+          "answer": 2,
+          "ko": {
+            "q": "관찰자는 요청 없이 어떤 일을 해서는 안 되는가?",
+            "choices": [
+              "방문객이 망설이는 곳을 기록한다",
+              "홍보팀의 견본을 고른다",
+              "선반 표지를 설명한다",
+              "고객을 전시실에 초대한다"
+            ]
+          },
+          "explain": "자발적 이용을 보기 위해 도움 요청 전에는 표지를 설명하지 않는다. 망설이는 지점은 기록해야 한다."
+        },
+        {
+          "type": "intention",
+          "q": "What does the man mean by \"Let's keep that envelope closed\"?",
+          "choices": [
+            "Delay sending the public announcement",
+            "Hold back invitations to the customer trial",
+            "Postpone sending an order for replacement shelves",
+            "Wait before mailing feedback forms to employees"
+          ],
+          "answer": 0,
+          "ko": {
+            "q": "남자가 “Let’s keep that envelope closed”라고 한 의도는 무엇인가?",
+            "choices": [
+              "대외 안내 발송을 미룬다.",
+              "고객 시험 초대장 발송을 보류한다.",
+              "교체용 선반 주문서 발송을 늦춘다.",
+              "직원에게 의견 조사 양식을 보내기 전에 기다린다."
+            ]
+          },
+          "explain": "홍보팀이 내일 보내려는 전체 고객 대상 안내를 시험 후까지 보류하자는 (A)이다. 시험 참가자 초대나 선반 주문, 직원 설문 발송을 미루는 것이 아니며, 인용문만으로는 어떤 발송을 보류하는지 정할 수 없다."
+        }
+      ]
     }
   ]
 }
