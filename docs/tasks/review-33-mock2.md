@@ -9,3 +9,4 @@
 
 ## 추가 (총괄)
 - 작성자 B2 → `docs/mock/m-p7m-2.json`(G가 씀): Part 7 이중·삼중. **crossRef 전부 A만/B(·C)만/질문만 3단계 풀이**, 결과 표 필수. 결과 `docs/reviews/review-33-m-p7m-2.md`.
+- 작성자 F → `docs/mock/m-p5-2.json`(B2가 씀): Part 5 150문항, 보기 4개 대입. 결과 `docs/reviews/review-33-m-p5-2.md`.
