@@ -78,14 +78,16 @@ test('studyUnit resolves Day numbers and topic keys, numbering split topics', ()
   assert.equal(Core.studyUnit({ words }, 't0'), null);
 });
 
-test('TOEIC topics only reference existing headwords, each at most once', () => {
-  const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'packages', 'toeic.json'), 'utf8'));
+for (const file of ['toeic', 'german-a1', 'german-a2', 'german-b1', 'german-b2', 'german-c1', 'german-c2']) test(`${file} topics only reference existing headwords, each at most once`, () => {
+  const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'packages', `${file}.json`), 'utf8'));
   const headwords = new Set(pkg.words.map(word => word[0]));
   const used = pkg.topics.flatMap(topic => topic.words);
   assert.ok(pkg.topics.length > 0);
   assert.ok(used.every(word => headwords.has(word)));
   assert.equal(new Set(used).size, used.length);
   assert.ok(pkg.topics.every(topic => topic.words.length >= 1 && topic.words.length <= 20));
+  // German books group every word by topic.
+  if (file.startsWith('german')) assert.equal(used.length, pkg.words.length);
 });
 
 test('dayLevels covers current Suneung Days in contiguous declared level order', () => {

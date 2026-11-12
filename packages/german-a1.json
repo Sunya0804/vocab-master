@@ -5,6 +5,5168 @@
   "lang": "de-DE",
   "languageName": "독일어",
   "cefr": "A1",
+  "wordInfo": {
+    "ab": {
+      "cefr": "A1"
+    },
+    "aber": {
+      "cefr": "A1"
+    },
+    "abfahren": {
+      "cefr": "A1"
+    },
+    "die Abfahrt": {
+      "article": "die",
+      "plural": [
+        "Abfahrten"
+      ],
+      "cefr": "A1"
+    },
+    "abgeben": {
+      "cefr": "A1"
+    },
+    "abholen": {
+      "cefr": "A1"
+    },
+    "der Absender": {
+      "article": "der",
+      "plural": [
+        "Absender"
+      ],
+      "cefr": "A1"
+    },
+    "Achtung!": {
+      "cefr": "A1"
+    },
+    "die Adresse": {
+      "article": "die",
+      "plural": [
+        "Adressen"
+      ],
+      "cefr": "A1"
+    },
+    "all-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "allein": {
+      "cefr": "A1"
+    },
+    "also": {
+      "cefr": "A1"
+    },
+    "alt": {
+      "cefr": "A1"
+    },
+    "das Alter": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "an": {
+      "cefr": "A1"
+    },
+    "anbieten": {
+      "cefr": "A1"
+    },
+    "das Angebot": {
+      "article": "das",
+      "plural": [
+        "Angebote"
+      ],
+      "cefr": "A1"
+    },
+    "ander-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "anfangen": {
+      "cefr": "A1"
+    },
+    "der Anfang": {
+      "article": "der",
+      "plural": [
+        "Anfänge"
+      ],
+      "cefr": "A1"
+    },
+    "anklicken": {
+      "cefr": "A1"
+    },
+    "ankommen": {
+      "cefr": "A1"
+    },
+    "die Ankunft": {
+      "article": "die",
+      "plural": [
+        "Ankünfte"
+      ],
+      "cefr": "A1"
+    },
+    "ankreuzen": {
+      "cefr": "A1"
+    },
+    "anmachen": {
+      "cefr": "A1"
+    },
+    "anmelden": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Anmeldung": {
+      "article": "die",
+      "plural": [
+        "Anmeldungen"
+      ],
+      "cefr": "A1"
+    },
+    "die Anrede": {
+      "article": "die",
+      "plural": [
+        "Anreden"
+      ],
+      "cefr": "A1"
+    },
+    "anrufen": {
+      "cefr": "A1"
+    },
+    "der Anruf": {
+      "article": "der",
+      "plural": [
+        "Anrufe"
+      ],
+      "cefr": "A1"
+    },
+    "der Anrufbeantworter": {
+      "article": "der",
+      "plural": [
+        "Anrufbeantworter"
+      ],
+      "cefr": "A1"
+    },
+    "die Ansage": {
+      "article": "die",
+      "plural": [
+        "Ansagen"
+      ],
+      "cefr": "A1"
+    },
+    "der Anschluss": {
+      "article": "der",
+      "plural": [
+        "Anschlüsse"
+      ],
+      "cefr": "A1"
+    },
+    "an sein": {
+      "cefr": "A1"
+    },
+    "antworten": {
+      "cefr": "A1"
+    },
+    "die Antwort": {
+      "article": "die",
+      "plural": [
+        "Antworten"
+      ],
+      "cefr": "A1"
+    },
+    "die Anzeige": {
+      "article": "die",
+      "plural": [
+        "Anzeigen"
+      ],
+      "cefr": "A1"
+    },
+    "anziehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "das Apartment": {
+      "article": "das",
+      "plural": [
+        "Apartments"
+      ],
+      "cefr": "A1"
+    },
+    "der Apfel": {
+      "article": "der",
+      "plural": [
+        "Äpfel"
+      ],
+      "cefr": "A1"
+    },
+    "der Appetit": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "arbeiten": {
+      "cefr": "A1"
+    },
+    "die Arbeit": {
+      "article": "die",
+      "plural": [
+        "Arbeiten"
+      ],
+      "cefr": "A1"
+    },
+    "arbeitslos": {
+      "cefr": "A1"
+    },
+    "der Arbeitsplatz": {
+      "article": "der",
+      "plural": [
+        "Arbeitsplätze"
+      ],
+      "cefr": "A1"
+    },
+    "der Arm": {
+      "article": "der",
+      "plural": [
+        "Arme"
+      ],
+      "cefr": "A1"
+    },
+    "der Arzt": {
+      "article": "der",
+      "plural": [
+        "Ärzte"
+      ],
+      "cefr": "A1"
+    },
+    "auch": {
+      "cefr": "A1"
+    },
+    "auf": {
+      "cefr": "A1"
+    },
+    "die Aufgabe": {
+      "article": "die",
+      "plural": [
+        "Aufgaben"
+      ],
+      "cefr": "A1"
+    },
+    "aufhören": {
+      "cefr": "A1"
+    },
+    "auf sein": {
+      "cefr": "A1"
+    },
+    "aufstehen": {
+      "cefr": "A1"
+    },
+    "der Aufzug": {
+      "article": "der",
+      "plural": [
+        "Aufzüge"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "das Auge": {
+      "article": "das",
+      "plural": [
+        "Augen"
+      ],
+      "cefr": "A1"
+    },
+    "aus": {
+      "cefr": "A1"
+    },
+    "der Ausflug": {
+      "article": "der",
+      "plural": [
+        "Ausflüge"
+      ],
+      "cefr": "A1"
+    },
+    "ausfüllen": {
+      "cefr": "A1"
+    },
+    "der Ausgang": {
+      "article": "der",
+      "plural": [
+        "Ausgänge"
+      ],
+      "cefr": "A1"
+    },
+    "die Auskunft": {
+      "article": "die",
+      "plural": [
+        "Auskünfte"
+      ],
+      "cefr": "A1"
+    },
+    "das Ausland": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "der Ausländer": {
+      "article": "der",
+      "plural": [
+        "Ausländer"
+      ],
+      "cefr": "A1"
+    },
+    "ausländisch": {
+      "cefr": "A1"
+    },
+    "ausmachen": {
+      "cefr": "A1"
+    },
+    "die Aussage": {
+      "article": "die",
+      "plural": [
+        "Aussagen"
+      ],
+      "cefr": "A1"
+    },
+    "aussehen": {
+      "cefr": "A1"
+    },
+    "aus sein": {
+      "cefr": "A1"
+    },
+    "aussteigen": {
+      "cefr": "A1"
+    },
+    "der Ausweis": {
+      "article": "der",
+      "plural": [
+        "Ausweise"
+      ],
+      "cefr": "A1"
+    },
+    "ausziehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "das Auto": {
+      "article": "das",
+      "plural": [
+        "Autos"
+      ],
+      "cefr": "A1"
+    },
+    "die Autobahn": {
+      "article": "die",
+      "plural": [
+        "Autobahnen"
+      ],
+      "cefr": "A1"
+    },
+    "der Automat": {
+      "article": "der",
+      "plural": [
+        "Automaten"
+      ],
+      "cefr": "A1"
+    },
+    "automatisch": {
+      "cefr": "A1"
+    },
+    "das Baby": {
+      "article": "das",
+      "plural": [
+        "Babys"
+      ],
+      "cefr": "A1"
+    },
+    "die Bäckerei": {
+      "article": "die",
+      "plural": [
+        "Bäckereien"
+      ],
+      "cefr": "A1"
+    },
+    "das Bad": {
+      "article": "das",
+      "plural": [
+        "Bäder"
+      ],
+      "cefr": "A1"
+    },
+    "baden": {
+      "cefr": "A1"
+    },
+    "die Bahn": {
+      "article": "die",
+      "plural": [
+        "Bahnen"
+      ],
+      "cefr": "A1"
+    },
+    "der Bahnhof": {
+      "article": "der",
+      "plural": [
+        "Bahnhöfe"
+      ],
+      "cefr": "A1"
+    },
+    "der Bahnsteig": {
+      "article": "der",
+      "plural": [
+        "Bahnsteige"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "bald": {
+      "cefr": "A1"
+    },
+    "der Balkon": {
+      "article": "der",
+      "plural": [
+        "Balkone"
+      ],
+      "cefr": "A1"
+    },
+    "die Banane": {
+      "article": "die",
+      "plural": [
+        "Bananen"
+      ],
+      "cefr": "A1"
+    },
+    "die Bank": {
+      "article": "die",
+      "plural": [
+        "Banken",
+        "Bänke"
+      ],
+      "usage": "은행의 복수는 Banken, 벤치의 복수는 Bänke입니다.",
+      "cefr": "A1"
+    },
+    "bar": {
+      "cefr": "A1"
+    },
+    "der Bauch": {
+      "article": "der",
+      "plural": [
+        "Bäuche"
+      ],
+      "cefr": "A1"
+    },
+    "der Baum": {
+      "article": "der",
+      "plural": [
+        "Bäume"
+      ],
+      "cefr": "A1"
+    },
+    "der Beamte": {
+      "article": "der",
+      "plural": [
+        "Beamten"
+      ],
+      "cefr": "A1"
+    },
+    "bedeuten": {
+      "cefr": "A1"
+    },
+    "beginnen": {
+      "cefr": "A1"
+    },
+    "bei": {
+      "cefr": "A1"
+    },
+    "beide": {
+      "cefr": "A1"
+    },
+    "das Bein": {
+      "article": "das",
+      "plural": [
+        "Beine"
+      ],
+      "cefr": "A1"
+    },
+    "das Beispiel": {
+      "article": "das",
+      "plural": [
+        "Beispiele"
+      ],
+      "cefr": "A1"
+    },
+    "zum Beispiel": {
+      "cefr": "A1"
+    },
+    "z. B.": {
+      "cefr": "A1"
+    },
+    "bekannt": {
+      "cefr": "A1"
+    },
+    "der Bekannte": {
+      "article": "der",
+      "plural": [
+        "Bekannten"
+      ],
+      "cefr": "A1"
+    },
+    "die Bekannte": {
+      "article": "die",
+      "plural": [
+        "Bekannten"
+      ],
+      "cefr": "A1"
+    },
+    "bekommen": {
+      "cefr": "A1"
+    },
+    "benutzen": {
+      "cefr": "A1"
+    },
+    "der Beruf": {
+      "article": "der",
+      "plural": [
+        "Berufe"
+      ],
+      "cefr": "A1"
+    },
+    "besetzt": {
+      "cefr": "A1"
+    },
+    "besichtigen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "besser": {
+      "cefr": "A1"
+    },
+    "best-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "bestellen": {
+      "cefr": "A1"
+    },
+    "besuchen": {
+      "cefr": "A1"
+    },
+    "das Bett": {
+      "article": "das",
+      "plural": [
+        "Betten"
+      ],
+      "cefr": "A1"
+    },
+    "bezahlen": {
+      "cefr": "A1"
+    },
+    "das Bier": {
+      "article": "das",
+      "plural": [
+        "Biere"
+      ],
+      "cefr": "A1"
+    },
+    "das Bild": {
+      "article": "das",
+      "plural": [
+        "Bilder"
+      ],
+      "cefr": "A1"
+    },
+    "billig": {
+      "cefr": "A1"
+    },
+    "die Birne": {
+      "article": "die",
+      "plural": [
+        "Birnen"
+      ],
+      "cefr": "A1"
+    },
+    "bis": {
+      "cefr": "A1"
+    },
+    "bisschen": {
+      "cefr": "A1"
+    },
+    "bitte": {
+      "cefr": "A1"
+    },
+    "die Bitte": {
+      "article": "die",
+      "plural": [
+        "Bitten"
+      ],
+      "cefr": "A1"
+    },
+    "bitten": {
+      "cefr": "A1"
+    },
+    "bitter": {
+      "cefr": "A1"
+    },
+    "bleiben": {
+      "cefr": "A1"
+    },
+    "der Bleistift": {
+      "article": "der",
+      "plural": [
+        "Bleistifte"
+      ],
+      "cefr": "A1"
+    },
+    "der Blick": {
+      "article": "der",
+      "plural": [
+        "Blicke"
+      ],
+      "cefr": "A1"
+    },
+    "die Blume": {
+      "article": "die",
+      "plural": [
+        "Blumen"
+      ],
+      "cefr": "A1"
+    },
+    "der Bogen": {
+      "article": "der",
+      "plural": [
+        "Bögen"
+      ],
+      "cefr": "A1"
+    },
+    "böse": {
+      "cefr": "A1"
+    },
+    "brauchen": {
+      "cefr": "A1"
+    },
+    "breit": {
+      "cefr": "A1"
+    },
+    "der Brief": {
+      "article": "der",
+      "plural": [
+        "Briefe"
+      ],
+      "cefr": "A1"
+    },
+    "die Briefmarke": {
+      "article": "die",
+      "plural": [
+        "Briefmarken"
+      ],
+      "cefr": "A1"
+    },
+    "bringen": {
+      "cefr": "A1"
+    },
+    "das Brot": {
+      "article": "das",
+      "plural": [
+        "Brote"
+      ],
+      "cefr": "A1"
+    },
+    "das Brötchen": {
+      "article": "das",
+      "plural": [
+        "Brötchen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "D"
+      ]
+    },
+    "der Bruder": {
+      "article": "der",
+      "plural": [
+        "Brüder"
+      ],
+      "cefr": "A1"
+    },
+    "das Buch": {
+      "article": "das",
+      "plural": [
+        "Bücher"
+      ],
+      "cefr": "A1"
+    },
+    "der Buchstabe": {
+      "article": "der",
+      "plural": [
+        "Buchstaben"
+      ],
+      "cefr": "A1"
+    },
+    "buchstabieren": {
+      "cefr": "A1"
+    },
+    "der Bus": {
+      "article": "der",
+      "plural": [
+        "Busse"
+      ],
+      "cefr": "A1"
+    },
+    "die Butter": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "das Café": {
+      "article": "das",
+      "plural": [
+        "Cafés"
+      ],
+      "cefr": "A1"
+    },
+    "die CD": {
+      "article": "die",
+      "plural": [
+        "CDs"
+      ],
+      "cefr": "A1"
+    },
+    "der Chef": {
+      "article": "der",
+      "plural": [
+        "Chefs"
+      ],
+      "cefr": "A1"
+    },
+    "circa": {
+      "cefr": "A1"
+    },
+    "ca.": {
+      "cefr": "A1"
+    },
+    "der Computer": {
+      "article": "der",
+      "plural": [
+        "Computer"
+      ],
+      "cefr": "A1"
+    },
+    "da": {
+      "cefr": "A1"
+    },
+    "die Dame": {
+      "article": "die",
+      "plural": [
+        "Damen"
+      ],
+      "cefr": "A1"
+    },
+    "daneben": {
+      "cefr": "A1"
+    },
+    "danken": {
+      "cefr": "A1"
+    },
+    "der Dank": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "danke": {
+      "cefr": "A1"
+    },
+    "dann": {
+      "cefr": "A1"
+    },
+    "das Datum": {
+      "article": "das",
+      "plural": [
+        "Daten"
+      ],
+      "cefr": "A1"
+    },
+    "dauern": {
+      "cefr": "A1"
+    },
+    "dein-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "denn": {
+      "cefr": "A1"
+    },
+    "der": {
+      "cefr": "A1"
+    },
+    "die": {
+      "cefr": "A1"
+    },
+    "das": {
+      "cefr": "A1"
+    },
+    "dich": {
+      "cefr": "A1"
+    },
+    "dies-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "dir": {
+      "cefr": "A1"
+    },
+    "die Disco": {
+      "article": "die",
+      "plural": [
+        "Discos"
+      ],
+      "cefr": "A1"
+    },
+    "der Doktor": {
+      "article": "der",
+      "plural": [
+        "Doktoren"
+      ],
+      "cefr": "A1"
+    },
+    "das Doppelzimmer": {
+      "article": "das",
+      "plural": [
+        "Doppelzimmer"
+      ],
+      "cefr": "A1"
+    },
+    "das Dorf": {
+      "article": "das",
+      "plural": [
+        "Dörfer"
+      ],
+      "cefr": "A1"
+    },
+    "dort": {
+      "cefr": "A1"
+    },
+    "draußen": {
+      "cefr": "A1"
+    },
+    "drucken": {
+      "cefr": "A1"
+    },
+    "der Drucker": {
+      "article": "der",
+      "plural": [
+        "Drucker"
+      ],
+      "cefr": "A1"
+    },
+    "drücken": {
+      "cefr": "A1"
+    },
+    "durch": {
+      "cefr": "A1"
+    },
+    "die Durchsage": {
+      "article": "die",
+      "plural": [
+        "Durchsagen"
+      ],
+      "cefr": "A1"
+    },
+    "dürfen": {
+      "cefr": "A1"
+    },
+    "der Durst": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "duschen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Dusche": {
+      "article": "die",
+      "plural": [
+        "Duschen"
+      ],
+      "cefr": "A1"
+    },
+    "die Ecke": {
+      "article": "die",
+      "plural": [
+        "Ecken"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "CH",
+        "D"
+      ]
+    },
+    "die Ehefrau": {
+      "article": "die",
+      "plural": [
+        "Ehefrauen"
+      ],
+      "cefr": "A1"
+    },
+    "der Ehemann": {
+      "article": "der",
+      "plural": [
+        "Ehemänner"
+      ],
+      "cefr": "A1"
+    },
+    "das Ei": {
+      "article": "das",
+      "plural": [
+        "Eier"
+      ],
+      "cefr": "A1"
+    },
+    "eilig": {
+      "cefr": "A1"
+    },
+    "ein-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "einfach": {
+      "cefr": "A1"
+    },
+    "der Eingang": {
+      "article": "der",
+      "plural": [
+        "Eingänge"
+      ],
+      "cefr": "A1"
+    },
+    "einkaufen": {
+      "cefr": "A1"
+    },
+    "einladen": {
+      "cefr": "A1"
+    },
+    "die Einladung": {
+      "article": "die",
+      "plural": [
+        "Einladungen"
+      ],
+      "cefr": "A1"
+    },
+    "einmal": {
+      "cefr": "A1"
+    },
+    "einsteigen": {
+      "cefr": "A1"
+    },
+    "der Eintritt": {
+      "article": "der",
+      "plural": [
+        "Eintritte"
+      ],
+      "cefr": "A1"
+    },
+    "das Einzelzimmer": {
+      "article": "das",
+      "plural": [
+        "Einzelzimmer"
+      ],
+      "cefr": "A1"
+    },
+    "die Eltern": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "die E-Mail": {
+      "article": "die",
+      "plural": [
+        "E-Mails"
+      ],
+      "cefr": "A1"
+    },
+    "der Empfänger": {
+      "article": "der",
+      "plural": [
+        "Empfänger"
+      ],
+      "cefr": "A1"
+    },
+    "empfehlen": {
+      "cefr": "A1"
+    },
+    "enden": {
+      "cefr": "A1"
+    },
+    "das Ende": {
+      "article": "das",
+      "plural": [
+        "Enden"
+      ],
+      "cefr": "A1"
+    },
+    "entschuldigen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Entschuldigung": {
+      "article": "die",
+      "plural": [
+        "Entschuldigungen"
+      ],
+      "cefr": "A1"
+    },
+    "er": {
+      "cefr": "A1"
+    },
+    "das Ergebnis": {
+      "article": "das",
+      "plural": [
+        "Ergebnisse"
+      ],
+      "cefr": "A1"
+    },
+    "erklären": {
+      "cefr": "A1"
+    },
+    "erlauben": {
+      "cefr": "A1"
+    },
+    "der Erwachsene": {
+      "article": "der",
+      "plural": [
+        "Erwachsenen"
+      ],
+      "cefr": "A1"
+    },
+    "erzählen": {
+      "cefr": "A1"
+    },
+    "es": {
+      "cefr": "A1"
+    },
+    "essen": {
+      "cefr": "A1"
+    },
+    "das Essen": {
+      "article": "das",
+      "plural": [
+        "Essen"
+      ],
+      "cefr": "A1"
+    },
+    "euer": {
+      "cefr": "A1"
+    },
+    "fahren": {
+      "cefr": "A1"
+    },
+    "der Fahrer": {
+      "article": "der",
+      "plural": [
+        "Fahrer"
+      ],
+      "cefr": "A1"
+    },
+    "die Fahrkarte": {
+      "article": "die",
+      "plural": [
+        "Fahrkarten"
+      ],
+      "cefr": "A1"
+    },
+    "das Fahrrad": {
+      "article": "das",
+      "plural": [
+        "Fahrräder"
+      ],
+      "cefr": "A1"
+    },
+    "falsch": {
+      "cefr": "A1"
+    },
+    "die Familie": {
+      "article": "die",
+      "plural": [
+        "Familien"
+      ],
+      "cefr": "A1"
+    },
+    "der Familienname": {
+      "article": "der",
+      "plural": [
+        "Familiennamen"
+      ],
+      "cefr": "A1"
+    },
+    "der Familienstand": {
+      "article": "der",
+      "plural": [
+        "Familienstände"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "die Farbe": {
+      "article": "die",
+      "plural": [
+        "Farben"
+      ],
+      "cefr": "A1"
+    },
+    "das Fax": {
+      "article": "das",
+      "plural": [
+        "Faxe"
+      ],
+      "cefr": "A1"
+    },
+    "Feier-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "feiern": {
+      "cefr": "A1"
+    },
+    "fehlen": {
+      "cefr": "A1"
+    },
+    "der Fehler": {
+      "article": "der",
+      "plural": [
+        "Fehler"
+      ],
+      "cefr": "A1"
+    },
+    "fernsehen": {
+      "cefr": "A1"
+    },
+    "fertig": {
+      "cefr": "A1"
+    },
+    "das Feuer": {
+      "article": "das",
+      "plural": [
+        "Feuer"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Fieber": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "der Film": {
+      "article": "der",
+      "plural": [
+        "Filme"
+      ],
+      "cefr": "A1"
+    },
+    "finden": {
+      "cefr": "A1"
+    },
+    "die Firma": {
+      "article": "die",
+      "plural": [
+        "Firmen"
+      ],
+      "cefr": "A1"
+    },
+    "der Fisch": {
+      "article": "der",
+      "plural": [
+        "Fische"
+      ],
+      "cefr": "A1"
+    },
+    "die Flasche": {
+      "article": "die",
+      "plural": [
+        "Flaschen"
+      ],
+      "cefr": "A1"
+    },
+    "das Fleisch": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "fliegen": {
+      "cefr": "A1"
+    },
+    "abfliegen": {
+      "cefr": "A1"
+    },
+    "der Abflug": {
+      "article": "der",
+      "plural": [
+        "Abflüge"
+      ],
+      "cefr": "A1"
+    },
+    "der Flughafen": {
+      "article": "der",
+      "plural": [
+        "Flughäfen"
+      ],
+      "cefr": "A1"
+    },
+    "das Flugzeug": {
+      "article": "das",
+      "plural": [
+        "Flugzeuge"
+      ],
+      "cefr": "A1"
+    },
+    "das Formular": {
+      "article": "das",
+      "plural": [
+        "Formulare"
+      ],
+      "cefr": "A1"
+    },
+    "das Foto": {
+      "article": "das",
+      "plural": [
+        "Fotos"
+      ],
+      "cefr": "A1"
+    },
+    "fragen": {
+      "cefr": "A1"
+    },
+    "die Frage": {
+      "article": "die",
+      "plural": [
+        "Fragen"
+      ],
+      "cefr": "A1"
+    },
+    "die Frau": {
+      "article": "die",
+      "plural": [
+        "Frauen"
+      ],
+      "cefr": "A1"
+    },
+    "frei": {
+      "cefr": "A1"
+    },
+    "die Freizeit": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "fremd": {
+      "cefr": "A1"
+    },
+    "freuen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "der Freund": {
+      "article": "der",
+      "plural": [
+        "Freunde"
+      ],
+      "cefr": "A1"
+    },
+    "früher": {
+      "cefr": "A1"
+    },
+    "frühstücken": {
+      "cefr": "A1"
+    },
+    "das Frühstück": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Führung": {
+      "article": "die",
+      "plural": [
+        "Führungen"
+      ],
+      "cefr": "A1"
+    },
+    "für": {
+      "cefr": "A1"
+    },
+    "der Fuß": {
+      "article": "der",
+      "plural": [
+        "Füße"
+      ],
+      "cefr": "A1"
+    },
+    "der Fußball": {
+      "article": "der",
+      "plural": [
+        "Fußbälle"
+      ],
+      "cefr": "A1"
+    },
+    "der Garten": {
+      "article": "der",
+      "plural": [
+        "Gärten"
+      ],
+      "cefr": "A1"
+    },
+    "der Gast": {
+      "article": "der",
+      "plural": [
+        "Gäste"
+      ],
+      "cefr": "A1"
+    },
+    "geben": {
+      "cefr": "A1"
+    },
+    "geboren": {
+      "cefr": "A1"
+    },
+    "das Geburtsjahr": {
+      "article": "das",
+      "plural": [
+        "Geburtsjahre"
+      ],
+      "cefr": "A1"
+    },
+    "der Geburtsort": {
+      "article": "der",
+      "plural": [
+        "Geburtsorte"
+      ],
+      "cefr": "A1"
+    },
+    "der Geburtstag": {
+      "article": "der",
+      "plural": [
+        "Geburtstage"
+      ],
+      "cefr": "A1"
+    },
+    "gefallen": {
+      "cefr": "A1"
+    },
+    "gegen": {
+      "cefr": "A1"
+    },
+    "gehen": {
+      "cefr": "A1"
+    },
+    "gehören": {
+      "cefr": "A1"
+    },
+    "das Geld": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "das Gemüse": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "das Gepäck": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "gerade": {
+      "cefr": "A1"
+    },
+    "geradeaus": {
+      "cefr": "A1"
+    },
+    "gern": {
+      "cefr": "A1"
+    },
+    "gerne": {
+      "cefr": "A1"
+    },
+    "das Geschäft": {
+      "article": "das",
+      "plural": [
+        "Geschäfte"
+      ],
+      "cefr": "A1"
+    },
+    "das Geschenk": {
+      "article": "das",
+      "plural": [
+        "Geschenke"
+      ],
+      "cefr": "A1"
+    },
+    "die Geschwister": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "das Gespräch": {
+      "article": "das",
+      "plural": [
+        "Gespräche"
+      ],
+      "cefr": "A1"
+    },
+    "gestern": {
+      "cefr": "A1"
+    },
+    "gestorben": {
+      "cefr": "A1"
+    },
+    "das Getränk": {
+      "article": "das",
+      "plural": [
+        "Getränke"
+      ],
+      "cefr": "A1"
+    },
+    "das Gewicht": {
+      "article": "das",
+      "plural": [
+        "Gewichte"
+      ],
+      "cefr": "A1"
+    },
+    "gewinnen": {
+      "cefr": "A1"
+    },
+    "das Glas": {
+      "article": "das",
+      "plural": [
+        "Gläser"
+      ],
+      "cefr": "A1"
+    },
+    "glauben": {
+      "cefr": "A1"
+    },
+    "gleich": {
+      "cefr": "A1"
+    },
+    "das Gleis": {
+      "article": "das",
+      "plural": [
+        "Gleise"
+      ],
+      "cefr": "A1"
+    },
+    "das Glück": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "glücklich": {
+      "cefr": "A1"
+    },
+    "der Glückwunsch": {
+      "article": "der",
+      "plural": [
+        "Glückwünsche"
+      ],
+      "cefr": "A1"
+    },
+    "der Grad": {
+      "article": "der",
+      "plural": [
+        "Grad"
+      ],
+      "cefr": "A1"
+    },
+    "gratulieren": {
+      "cefr": "A1"
+    },
+    "grillen": {
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "groß": {
+      "cefr": "A1"
+    },
+    "die Größe": {
+      "article": "die",
+      "plural": [
+        "Größen"
+      ],
+      "cefr": "A1"
+    },
+    "die Großeltern": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "die Großmutter": {
+      "article": "die",
+      "plural": [
+        "Großmütter"
+      ],
+      "cefr": "A1"
+    },
+    "der Großvater": {
+      "article": "der",
+      "plural": [
+        "Großväter"
+      ],
+      "cefr": "A1"
+    },
+    "die Gruppe": {
+      "article": "die",
+      "plural": [
+        "Gruppen"
+      ],
+      "cefr": "A1"
+    },
+    "der Gruß": {
+      "article": "der",
+      "plural": [
+        "Grüße"
+      ],
+      "cefr": "A1"
+    },
+    "gültig": {
+      "cefr": "A1"
+    },
+    "günstig": {
+      "cefr": "A1"
+    },
+    "gut": {
+      "cefr": "A1"
+    },
+    "das Haar": {
+      "article": "das",
+      "plural": [
+        "Haare"
+      ],
+      "cefr": "A1"
+    },
+    "haben": {
+      "cefr": "A1"
+    },
+    "das Hähnchen": {
+      "article": "das",
+      "plural": [
+        "Hähnchen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "D"
+      ]
+    },
+    "die Halbpension": {
+      "article": "die",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "die Halle": {
+      "article": "die",
+      "plural": [
+        "Hallen"
+      ],
+      "cefr": "A1"
+    },
+    "hallo": {
+      "cefr": "A1"
+    },
+    "halten": {
+      "cefr": "A1"
+    },
+    "die Haltestelle": {
+      "article": "die",
+      "plural": [
+        "Haltestellen"
+      ],
+      "cefr": "A1"
+    },
+    "die Hand": {
+      "article": "die",
+      "plural": [
+        "Hände"
+      ],
+      "cefr": "A1"
+    },
+    "das Handy": {
+      "article": "das",
+      "plural": [
+        "Handys"
+      ],
+      "cefr": "A1"
+    },
+    "das Haus": {
+      "article": "das",
+      "plural": [
+        "Häuser"
+      ],
+      "cefr": "A1"
+    },
+    "die Hausaufgabe": {
+      "article": "die",
+      "plural": [
+        "Hausaufgaben"
+      ],
+      "cefr": "A1"
+    },
+    "die Hausfrau": {
+      "article": "die",
+      "plural": [
+        "Hausfrauen"
+      ],
+      "cefr": "A1"
+    },
+    "der Hausmann": {
+      "article": "der",
+      "plural": [
+        "Hausmänner"
+      ],
+      "cefr": "A1"
+    },
+    "die Heimat": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "heiraten": {
+      "cefr": "A1"
+    },
+    "heißen": {
+      "cefr": "A1"
+    },
+    "helfen": {
+      "cefr": "A1"
+    },
+    "hell": {
+      "cefr": "A1"
+    },
+    "der Herd": {
+      "article": "der",
+      "plural": [
+        "Herde"
+      ],
+      "cefr": "A1"
+    },
+    "der Herr": {
+      "article": "der",
+      "plural": [
+        "Herren"
+      ],
+      "cefr": "A1"
+    },
+    "herzlich": {
+      "cefr": "A1"
+    },
+    "heute": {
+      "cefr": "A1"
+    },
+    "hier": {
+      "cefr": "A1"
+    },
+    "die Hilfe": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "hinten": {
+      "cefr": "A1"
+    },
+    "das Hobby": {
+      "article": "das",
+      "plural": [
+        "Hobbys"
+      ],
+      "cefr": "A1"
+    },
+    "hoch": {
+      "cefr": "A1"
+    },
+    "die Hochzeit": {
+      "article": "die",
+      "plural": [
+        "Hochzeiten"
+      ],
+      "cefr": "A1"
+    },
+    "holen": {
+      "cefr": "A1"
+    },
+    "hören": {
+      "cefr": "A1"
+    },
+    "das Hotel": {
+      "article": "das",
+      "plural": [
+        "Hotels"
+      ],
+      "cefr": "A1"
+    },
+    "der Hund": {
+      "article": "der",
+      "plural": [
+        "Hunde"
+      ],
+      "cefr": "A1"
+    },
+    "der Hunger": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "ich": {
+      "cefr": "A1"
+    },
+    "ihr / Ihr": {
+      "cefr": "A1"
+    },
+    "ihm": {
+      "cefr": "A1"
+    },
+    "ihn": {
+      "cefr": "A1"
+    },
+    "immer": {
+      "cefr": "A1"
+    },
+    "in": {
+      "cefr": "A1"
+    },
+    "die Information": {
+      "article": "die",
+      "plural": [
+        "Informationen"
+      ],
+      "cefr": "A1"
+    },
+    "international": {
+      "cefr": "A1"
+    },
+    "das Internet": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "ja": {
+      "cefr": "A1"
+    },
+    "die Jacke": {
+      "article": "die",
+      "plural": [
+        "Jacken"
+      ],
+      "cefr": "A1"
+    },
+    "jed-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "jetzt": {
+      "cefr": "A1"
+    },
+    "der Job": {
+      "article": "der",
+      "plural": [
+        "Jobs"
+      ],
+      "cefr": "A1"
+    },
+    "der Jugendliche": {
+      "article": "der",
+      "plural": [
+        "Jugendlichen"
+      ],
+      "cefr": "A1"
+    },
+    "jung": {
+      "cefr": "A1"
+    },
+    "der Junge": {
+      "article": "der",
+      "plural": [
+        "Jungen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "D"
+      ]
+    },
+    "der Kaffee": {
+      "article": "der",
+      "plural": [
+        "Kaffees"
+      ],
+      "cefr": "A1"
+    },
+    "kaputt": {
+      "cefr": "A1"
+    },
+    "die Karte": {
+      "article": "die",
+      "plural": [
+        "Karten"
+      ],
+      "cefr": "A1"
+    },
+    "die Kreditkarte": {
+      "article": "die",
+      "plural": [
+        "Kreditkarten"
+      ],
+      "cefr": "A1"
+    },
+    "die Kartoffel": {
+      "article": "die",
+      "plural": [
+        "Kartoffeln"
+      ],
+      "cefr": "A1"
+    },
+    "die Kasse": {
+      "article": "die",
+      "plural": [
+        "Kassen"
+      ],
+      "cefr": "A1"
+    },
+    "kaufen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "kein": {
+      "cefr": "A1"
+    },
+    "kennen": {
+      "cefr": "A1"
+    },
+    "kennenlernen": {
+      "cefr": "A1"
+    },
+    "das Kind": {
+      "article": "das",
+      "plural": [
+        "Kinder"
+      ],
+      "cefr": "A1"
+    },
+    "der Kindergarten": {
+      "article": "der",
+      "plural": [
+        "Kindergärten"
+      ],
+      "cefr": "A1"
+    },
+    "das Kino": {
+      "article": "das",
+      "plural": [
+        "Kinos"
+      ],
+      "cefr": "A1"
+    },
+    "der Kiosk": {
+      "article": "der",
+      "plural": [
+        "Kioske"
+      ],
+      "cefr": "A1"
+    },
+    "klar": {
+      "cefr": "A1"
+    },
+    "die Klasse": {
+      "article": "die",
+      "plural": [
+        "Klassen"
+      ],
+      "cefr": "A1"
+    },
+    "die Kleidung": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "klein": {
+      "cefr": "A1"
+    },
+    "kochen": {
+      "cefr": "A1"
+    },
+    "der Koffer": {
+      "article": "der",
+      "plural": [
+        "Koffer"
+      ],
+      "cefr": "A1"
+    },
+    "der Kollege": {
+      "article": "der",
+      "plural": [
+        "Kollegen"
+      ],
+      "cefr": "A1"
+    },
+    "kommen": {
+      "cefr": "A1"
+    },
+    "können": {
+      "cefr": "A1"
+    },
+    "das Konto": {
+      "article": "das",
+      "plural": [
+        "Konten"
+      ],
+      "cefr": "A1"
+    },
+    "der Kopf": {
+      "article": "der",
+      "plural": [
+        "Köpfe"
+      ],
+      "cefr": "A1"
+    },
+    "kosten": {
+      "cefr": "A1",
+      "regions": [
+        "A"
+      ]
+    },
+    "krank": {
+      "cefr": "A1"
+    },
+    "kriegen": {
+      "cefr": "A1"
+    },
+    "die Küche": {
+      "article": "die",
+      "plural": [
+        "Küchen"
+      ],
+      "cefr": "A1"
+    },
+    "der Kuchen": {
+      "article": "der",
+      "plural": [
+        "Kuchen"
+      ],
+      "cefr": "A1"
+    },
+    "der Kugelschreiber": {
+      "article": "der",
+      "plural": [
+        "Kugelschreiber"
+      ],
+      "cefr": "A1"
+    },
+    "der Kühlschrank": {
+      "article": "der",
+      "plural": [
+        "Kühlschränke"
+      ],
+      "cefr": "A1"
+    },
+    "kulturell": {
+      "cefr": "A1"
+    },
+    "kümmern": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "der Kunde": {
+      "article": "der",
+      "plural": [
+        "Kunden"
+      ],
+      "cefr": "A1"
+    },
+    "der Kurs": {
+      "article": "der",
+      "plural": [
+        "Kurse"
+      ],
+      "cefr": "A1"
+    },
+    "kurz": {
+      "cefr": "A1"
+    },
+    "lachen": {
+      "cefr": "A1"
+    },
+    "der Laden": {
+      "article": "der",
+      "plural": [
+        "Läden"
+      ],
+      "cefr": "A1"
+    },
+    "das Land": {
+      "article": "das",
+      "plural": [
+        "Länder"
+      ],
+      "cefr": "A1"
+    },
+    "lang": {
+      "cefr": "A1"
+    },
+    "lange": {
+      "cefr": "A1"
+    },
+    "langsam": {
+      "cefr": "A1"
+    },
+    "laufen": {
+      "cefr": "A1"
+    },
+    "laut": {
+      "cefr": "A1"
+    },
+    "leben": {
+      "cefr": "A1"
+    },
+    "das Leben": {
+      "article": "das",
+      "plural": [
+        "Leben"
+      ],
+      "cefr": "A1"
+    },
+    "die Lebensmittel": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "ledig": {
+      "cefr": "A1"
+    },
+    "legen": {
+      "cefr": "A1"
+    },
+    "der Lehrer": {
+      "article": "der",
+      "plural": [
+        "Lehrer"
+      ],
+      "cefr": "A1"
+    },
+    "leicht": {
+      "cefr": "A1"
+    },
+    "leider": {
+      "cefr": "A1"
+    },
+    "leise": {
+      "cefr": "A1"
+    },
+    "lernen": {
+      "cefr": "A1"
+    },
+    "lesen": {
+      "cefr": "A1"
+    },
+    "letzt-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "die Leute": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "das Licht": {
+      "article": "das",
+      "plural": [
+        "Lichter"
+      ],
+      "cefr": "A1"
+    },
+    "lieb-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "lieben": {
+      "cefr": "A1"
+    },
+    "lieber": {
+      "cefr": "A1"
+    },
+    "Lieblings-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "das Lied": {
+      "article": "das",
+      "plural": [
+        "Lieder"
+      ],
+      "cefr": "A1"
+    },
+    "liegen": {
+      "cefr": "A1"
+    },
+    "links": {
+      "cefr": "A1"
+    },
+    "der Lkw": {
+      "article": "der",
+      "plural": [
+        "Lkws"
+      ],
+      "cefr": "A1"
+    },
+    "das Lokal": {
+      "article": "das",
+      "plural": [
+        "Lokale"
+      ],
+      "cefr": "A1"
+    },
+    "die Lösung": {
+      "article": "die",
+      "plural": [
+        "Lösungen"
+      ],
+      "cefr": "A1"
+    },
+    "lustig": {
+      "cefr": "A1"
+    },
+    "machen": {
+      "cefr": "A1"
+    },
+    "das Mädchen": {
+      "article": "das",
+      "plural": [
+        "Mädchen"
+      ],
+      "cefr": "A1"
+    },
+    "man": {
+      "cefr": "A1"
+    },
+    "der Mann": {
+      "article": "der",
+      "plural": [
+        "Männer"
+      ],
+      "cefr": "A1"
+    },
+    "männlich": {
+      "cefr": "A1"
+    },
+    "die Maschine": {
+      "article": "die",
+      "plural": [
+        "Maschinen"
+      ],
+      "cefr": "A1"
+    },
+    "das Meer": {
+      "article": "das",
+      "plural": [
+        "Meere"
+      ],
+      "cefr": "A1"
+    },
+    "mehr": {
+      "cefr": "A1"
+    },
+    "mein": {
+      "cefr": "A1"
+    },
+    "meist-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "der Mensch": {
+      "article": "der",
+      "plural": [
+        "Menschen"
+      ],
+      "cefr": "A1"
+    },
+    "mieten": {
+      "cefr": "A1"
+    },
+    "die Miete": {
+      "article": "die",
+      "plural": [
+        "Mieten"
+      ],
+      "cefr": "A1"
+    },
+    "die Milch": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "mit": {
+      "cefr": "A1"
+    },
+    "mitbringen": {
+      "cefr": "A1"
+    },
+    "mitkommen": {
+      "cefr": "A1"
+    },
+    "mitmachen": {
+      "cefr": "A1"
+    },
+    "mitnehmen": {
+      "cefr": "A1"
+    },
+    "die Mitte": {
+      "article": "die",
+      "plural": [
+        "Mitten"
+      ],
+      "cefr": "A1"
+    },
+    "die Möbel": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "möchten": {
+      "usage": "mögen의 접속법 2식으로 정중한 희망을 나타냅니다.",
+      "cefr": "A1"
+    },
+    "mögen": {
+      "cefr": "A1"
+    },
+    "möglich": {
+      "cefr": "A1"
+    },
+    "der Moment": {
+      "article": "der",
+      "plural": [
+        "Momente"
+      ],
+      "cefr": "A1"
+    },
+    "morgen": {
+      "cefr": "A1"
+    },
+    "müde": {
+      "cefr": "A1"
+    },
+    "der Mund": {
+      "article": "der",
+      "plural": [
+        "Münder"
+      ],
+      "cefr": "A1"
+    },
+    "müssen": {
+      "cefr": "A1"
+    },
+    "die Mutter": {
+      "article": "die",
+      "plural": [
+        "Mütter"
+      ],
+      "cefr": "A1"
+    },
+    "nach": {
+      "cefr": "A1"
+    },
+    "nächst-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "der Name": {
+      "article": "der",
+      "plural": [
+        "Namen"
+      ],
+      "cefr": "A1"
+    },
+    "nehmen": {
+      "cefr": "A1"
+    },
+    "nein": {
+      "cefr": "A1"
+    },
+    "neu": {
+      "cefr": "A1"
+    },
+    "nicht": {
+      "cefr": "A1"
+    },
+    "nichts": {
+      "cefr": "A1"
+    },
+    "nie": {
+      "cefr": "A1"
+    },
+    "noch": {
+      "cefr": "A1"
+    },
+    "normal": {
+      "cefr": "A1"
+    },
+    "die Nummer": {
+      "article": "die",
+      "plural": [
+        "Nummern"
+      ],
+      "cefr": "A1"
+    },
+    "nur": {
+      "cefr": "A1"
+    },
+    "oben": {
+      "cefr": "A1"
+    },
+    "das Obst": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "oder": {
+      "cefr": "A1"
+    },
+    "öffnen": {
+      "cefr": "A1"
+    },
+    "geöffnet": {
+      "cefr": "A1"
+    },
+    "oft": {
+      "cefr": "A1"
+    },
+    "ohne": {
+      "cefr": "A1"
+    },
+    "das Öl": {
+      "article": "das",
+      "plural": [
+        "Öle"
+      ],
+      "cefr": "A1"
+    },
+    "die Oma": {
+      "article": "die",
+      "plural": [
+        "Omas"
+      ],
+      "cefr": "A1"
+    },
+    "der Opa": {
+      "article": "der",
+      "plural": [
+        "Opas"
+      ],
+      "cefr": "A1"
+    },
+    "die Ordnung": {
+      "article": "die",
+      "plural": [
+        "Ordnungen"
+      ],
+      "cefr": "A1"
+    },
+    "der Ort": {
+      "article": "der",
+      "plural": [
+        "Orte"
+      ],
+      "cefr": "A1"
+    },
+    "das Papier": {
+      "article": "das",
+      "plural": [
+        "Papiere"
+      ],
+      "cefr": "A1"
+    },
+    "die Papiere": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "der Partner": {
+      "article": "der",
+      "plural": [
+        "Partner"
+      ],
+      "cefr": "A1"
+    },
+    "die Partnerin": {
+      "article": "die",
+      "plural": [
+        "Partnerinnen"
+      ],
+      "cefr": "A1"
+    },
+    "die Party": {
+      "article": "die",
+      "plural": [
+        "Partys"
+      ],
+      "cefr": "A1"
+    },
+    "der Pass": {
+      "article": "der",
+      "plural": [
+        "Pässe"
+      ],
+      "cefr": "A1"
+    },
+    "die Pause": {
+      "article": "die",
+      "plural": [
+        "Pausen"
+      ],
+      "cefr": "A1"
+    },
+    "der Plan": {
+      "article": "der",
+      "plural": [
+        "Pläne"
+      ],
+      "cefr": "A1"
+    },
+    "der Platz": {
+      "article": "der",
+      "plural": [
+        "Plätze"
+      ],
+      "cefr": "A1"
+    },
+    "die Polizei": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Pommes frites": {
+      "article": "die",
+      "pluralOnly": true,
+      "cefr": "A1"
+    },
+    "die Post": {
+      "article": "die",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Postleitzahl": {
+      "article": "die",
+      "plural": [
+        "Postleitzahlen"
+      ],
+      "cefr": "A1"
+    },
+    "das Praktikum": {
+      "article": "das",
+      "plural": [
+        "Praktika"
+      ],
+      "cefr": "A1"
+    },
+    "die Praxis": {
+      "article": "die",
+      "plural": [
+        "Praxen"
+      ],
+      "cefr": "A1"
+    },
+    "der Preis": {
+      "article": "der",
+      "plural": [
+        "Preise"
+      ],
+      "cefr": "A1"
+    },
+    "das Problem": {
+      "article": "das",
+      "plural": [
+        "Probleme"
+      ],
+      "cefr": "A1"
+    },
+    "der Prospekt": {
+      "article": "der",
+      "plural": [
+        "Prospekte"
+      ],
+      "cefr": "A1"
+    },
+    "die Prüfung": {
+      "article": "die",
+      "plural": [
+        "Prüfungen"
+      ],
+      "cefr": "A1"
+    },
+    "pünktlich": {
+      "cefr": "A1"
+    },
+    "Rad fahren": {
+      "cefr": "A1"
+    },
+    "rauchen": {
+      "cefr": "A1"
+    },
+    "der Raum": {
+      "article": "der",
+      "plural": [
+        "Räume"
+      ],
+      "cefr": "A1"
+    },
+    "die Rechnung": {
+      "article": "die",
+      "plural": [
+        "Rechnungen"
+      ],
+      "cefr": "A1"
+    },
+    "rechts": {
+      "cefr": "A1"
+    },
+    "regnen": {
+      "cefr": "A1"
+    },
+    "der Regen": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "der Reis": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "reisen": {
+      "cefr": "A1"
+    },
+    "die Reise": {
+      "article": "die",
+      "plural": [
+        "Reisen"
+      ],
+      "cefr": "A1"
+    },
+    "das Reisebüro": {
+      "article": "das",
+      "plural": [
+        "Reisebüros"
+      ],
+      "cefr": "A1"
+    },
+    "der Reiseführer": {
+      "article": "der",
+      "plural": [
+        "Reiseführer"
+      ],
+      "cefr": "A1"
+    },
+    "reparieren": {
+      "cefr": "A1"
+    },
+    "die Reparatur": {
+      "article": "die",
+      "plural": [
+        "Reparaturen"
+      ],
+      "cefr": "A1"
+    },
+    "das Restaurant": {
+      "article": "das",
+      "plural": [
+        "Restaurants"
+      ],
+      "cefr": "A1"
+    },
+    "die Rezeption": {
+      "article": "die",
+      "plural": [
+        "Rezeptionen"
+      ],
+      "cefr": "A1"
+    },
+    "richtig": {
+      "cefr": "A1"
+    },
+    "riechen": {
+      "cefr": "A1"
+    },
+    "ruhig": {
+      "cefr": "A1"
+    },
+    "der Saft": {
+      "article": "der",
+      "plural": [
+        "Säfte"
+      ],
+      "cefr": "A1"
+    },
+    "sagen": {
+      "cefr": "A1"
+    },
+    "der Salat": {
+      "article": "der",
+      "plural": [
+        "Salate"
+      ],
+      "cefr": "A1"
+    },
+    "das Salz": {
+      "article": "das",
+      "plural": [
+        "Salze"
+      ],
+      "cefr": "A1"
+    },
+    "der Satz": {
+      "article": "der",
+      "plural": [
+        "Sätze"
+      ],
+      "cefr": "A1"
+    },
+    "die S-Bahn": {
+      "article": "die",
+      "plural": [
+        "S-Bahnen"
+      ],
+      "cefr": "A1"
+    },
+    "der Schalter": {
+      "article": "der",
+      "plural": [
+        "Schalter"
+      ],
+      "cefr": "A1"
+    },
+    "scheinen": {
+      "cefr": "A1"
+    },
+    "schicken": {
+      "cefr": "A1"
+    },
+    "das Schild": {
+      "article": "das",
+      "plural": [
+        "Schilder"
+      ],
+      "cefr": "A1"
+    },
+    "der Schinken": {
+      "article": "der",
+      "plural": [
+        "Schinken"
+      ],
+      "cefr": "A1"
+    },
+    "schlafen": {
+      "cefr": "A1"
+    },
+    "schlecht": {
+      "cefr": "A1"
+    },
+    "schließen": {
+      "cefr": "A1"
+    },
+    "geschlossen": {
+      "cefr": "A1"
+    },
+    "der Schluss": {
+      "article": "der",
+      "plural": [
+        "Schlüsse"
+      ],
+      "cefr": "A1"
+    },
+    "der Schlüssel": {
+      "article": "der",
+      "plural": [
+        "Schlüssel"
+      ],
+      "cefr": "A1"
+    },
+    "schmecken": {
+      "cefr": "A1"
+    },
+    "schnell": {
+      "cefr": "A1"
+    },
+    "schon": {
+      "cefr": "A1"
+    },
+    "schön": {
+      "cefr": "A1"
+    },
+    "der Schrank": {
+      "article": "der",
+      "plural": [
+        "Schränke"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "CH",
+        "D"
+      ]
+    },
+    "schreiben": {
+      "cefr": "A1"
+    },
+    "der Schuh": {
+      "article": "der",
+      "plural": [
+        "Schuhe"
+      ],
+      "cefr": "A1"
+    },
+    "die Schule": {
+      "article": "die",
+      "plural": [
+        "Schulen"
+      ],
+      "cefr": "A1"
+    },
+    "der Schüler": {
+      "article": "der",
+      "plural": [
+        "Schüler"
+      ],
+      "cefr": "A1"
+    },
+    "schwer": {
+      "cefr": "A1"
+    },
+    "die Schwester": {
+      "article": "die",
+      "plural": [
+        "Schwestern"
+      ],
+      "cefr": "A1"
+    },
+    "schwimmen": {
+      "cefr": "A1"
+    },
+    "das Schwimmbad": {
+      "article": "das",
+      "plural": [
+        "Schwimmbäder"
+      ],
+      "cefr": "A1"
+    },
+    "der See": {
+      "article": "der",
+      "plural": [
+        "Seen"
+      ],
+      "cefr": "A1"
+    },
+    "sehen": {
+      "cefr": "A1"
+    },
+    "die Sehenswürdigkeit": {
+      "article": "die",
+      "plural": [
+        "Sehenswürdigkeiten"
+      ],
+      "cefr": "A1"
+    },
+    "sehr": {
+      "cefr": "A1"
+    },
+    "sein": {
+      "cefr": "A1"
+    },
+    "weg sein": {
+      "cefr": "A1"
+    },
+    "zu sein": {
+      "cefr": "A1"
+    },
+    "seit": {
+      "cefr": "A1"
+    },
+    "selbstständig": {
+      "cefr": "A1"
+    },
+    "sich": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "sie / Sie": {
+      "cefr": "A1"
+    },
+    "sitzen": {
+      "cefr": "A1"
+    },
+    "so": {
+      "cefr": "A1"
+    },
+    "das Sofa": {
+      "article": "das",
+      "plural": [
+        "Sofas"
+      ],
+      "cefr": "A1"
+    },
+    "sofort": {
+      "cefr": "A1"
+    },
+    "der Sohn": {
+      "article": "der",
+      "plural": [
+        "Söhne"
+      ],
+      "cefr": "A1"
+    },
+    "sollen": {
+      "cefr": "A1"
+    },
+    "die Sonne": {
+      "article": "die",
+      "plural": [
+        "Sonnen"
+      ],
+      "cefr": "A1"
+    },
+    "spät": {
+      "cefr": "A1"
+    },
+    "später": {
+      "cefr": "A1"
+    },
+    "die Speisekarte": {
+      "article": "die",
+      "plural": [
+        "Speisekarten"
+      ],
+      "cefr": "A1"
+    },
+    "spielen": {
+      "cefr": "A1"
+    },
+    "der Sport": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "die Sprache": {
+      "article": "die",
+      "plural": [
+        "Sprachen"
+      ],
+      "cefr": "A1"
+    },
+    "sprechen": {
+      "cefr": "A1"
+    },
+    "die Stadt": {
+      "article": "die",
+      "plural": [
+        "Städte"
+      ],
+      "cefr": "A1"
+    },
+    "stehen": {
+      "cefr": "A1"
+    },
+    "die Stelle": {
+      "article": "die",
+      "plural": [
+        "Stellen"
+      ],
+      "cefr": "A1"
+    },
+    "stellen": {
+      "cefr": "A1"
+    },
+    "der Stock": {
+      "article": "der",
+      "plural": [
+        "Stockwerke",
+        "Stöcke"
+      ],
+      "cefr": "A1"
+    },
+    "die Straße": {
+      "article": "die",
+      "plural": [
+        "Straßen"
+      ],
+      "cefr": "A1"
+    },
+    "die Straßenbahn": {
+      "article": "die",
+      "plural": [
+        "Straßenbahnen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "studieren": {
+      "cefr": "A1"
+    },
+    "das Studium": {
+      "article": "das",
+      "plural": [
+        "Studien"
+      ],
+      "cefr": "A1"
+    },
+    "der Student": {
+      "article": "der",
+      "plural": [
+        "Studenten"
+      ],
+      "cefr": "A1"
+    },
+    "die Stunde": {
+      "article": "die",
+      "plural": [
+        "Stunden"
+      ],
+      "cefr": "A1"
+    },
+    "suchen": {
+      "cefr": "A1"
+    },
+    "tanzen": {
+      "cefr": "A1"
+    },
+    "die Tasche": {
+      "article": "die",
+      "plural": [
+        "Taschen"
+      ],
+      "cefr": "A1"
+    },
+    "das Taxi": {
+      "article": "das",
+      "plural": [
+        "Taxis"
+      ],
+      "cefr": "A1"
+    },
+    "der Tee": {
+      "article": "der",
+      "plural": [
+        "Tees"
+      ],
+      "cefr": "A1"
+    },
+    "der Teil": {
+      "article": "der",
+      "plural": [
+        "Teile"
+      ],
+      "cefr": "A1"
+    },
+    "telefonieren": {
+      "cefr": "A1"
+    },
+    "das Telefon": {
+      "article": "das",
+      "plural": [
+        "Telefone"
+      ],
+      "cefr": "A1"
+    },
+    "der Termin": {
+      "article": "der",
+      "plural": [
+        "Termine"
+      ],
+      "cefr": "A1"
+    },
+    "der Test": {
+      "article": "der",
+      "plural": [
+        "Tests"
+      ],
+      "cefr": "A1"
+    },
+    "teuer": {
+      "cefr": "A1"
+    },
+    "der Text": {
+      "article": "der",
+      "plural": [
+        "Texte"
+      ],
+      "cefr": "A1"
+    },
+    "das Thema": {
+      "article": "das",
+      "plural": [
+        "Themen"
+      ],
+      "cefr": "A1"
+    },
+    "das Ticket": {
+      "article": "das",
+      "plural": [
+        "Tickets"
+      ],
+      "cefr": "A1"
+    },
+    "der Tisch": {
+      "article": "der",
+      "plural": [
+        "Tische"
+      ],
+      "cefr": "A1"
+    },
+    "die Tochter": {
+      "article": "die",
+      "plural": [
+        "Töchter"
+      ],
+      "cefr": "A1"
+    },
+    "die Toilette": {
+      "article": "die",
+      "plural": [
+        "Toiletten"
+      ],
+      "cefr": "A1"
+    },
+    "die Tomate": {
+      "article": "die",
+      "plural": [
+        "Tomaten"
+      ],
+      "cefr": "A1"
+    },
+    "tot": {
+      "cefr": "A1"
+    },
+    "treffen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Treppe": {
+      "article": "die",
+      "plural": [
+        "Treppen"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "CH",
+        "D"
+      ]
+    },
+    "trinken": {
+      "cefr": "A1"
+    },
+    "tschüss": {
+      "cefr": "A1"
+    },
+    "tun": {
+      "cefr": "A1"
+    },
+    "über": {
+      "cefr": "A1"
+    },
+    "übernachten": {
+      "cefr": "A1"
+    },
+    "überweisen": {
+      "cefr": "A1"
+    },
+    "die Uhr": {
+      "article": "die",
+      "plural": [
+        "Uhren"
+      ],
+      "cefr": "A1"
+    },
+    "um": {
+      "cefr": "A1"
+    },
+    "umziehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "und": {
+      "cefr": "A1"
+    },
+    "unser-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "unten": {
+      "cefr": "A1"
+    },
+    "unter": {
+      "cefr": "A1"
+    },
+    "der Unterricht": {
+      "article": "der",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "unterschreiben": {
+      "cefr": "A1"
+    },
+    "die Unterschrift": {
+      "article": "die",
+      "plural": [
+        "Unterschriften"
+      ],
+      "cefr": "A1"
+    },
+    "der Urlaub": {
+      "article": "der",
+      "plural": [
+        "Urlaube"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "der Vater": {
+      "article": "der",
+      "plural": [
+        "Väter"
+      ],
+      "cefr": "A1"
+    },
+    "verboten": {
+      "cefr": "A1"
+    },
+    "verdienen": {
+      "cefr": "A1"
+    },
+    "der Verein": {
+      "article": "der",
+      "plural": [
+        "Vereine"
+      ],
+      "cefr": "A1"
+    },
+    "verheiratet": {
+      "cefr": "A1"
+    },
+    "verkaufen": {
+      "cefr": "A1"
+    },
+    "der Verkäufer": {
+      "article": "der",
+      "plural": [
+        "Verkäufer"
+      ],
+      "cefr": "A1"
+    },
+    "vermieten": {
+      "cefr": "A1"
+    },
+    "der Vermieter": {
+      "article": "der",
+      "plural": [
+        "Vermieter"
+      ],
+      "cefr": "A1"
+    },
+    "verstehen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "der Verwandte": {
+      "article": "der",
+      "plural": [
+        "Verwandten"
+      ],
+      "cefr": "A1"
+    },
+    "viel": {
+      "cefr": "A1"
+    },
+    "vielleicht": {
+      "cefr": "A1"
+    },
+    "von": {
+      "cefr": "A1"
+    },
+    "vor": {
+      "cefr": "A1"
+    },
+    "der Vorname": {
+      "article": "der",
+      "plural": [
+        "Vornamen"
+      ],
+      "cefr": "A1"
+    },
+    "die Vorsicht": {
+      "article": "die",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "vorstellen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "die Vorwahl": {
+      "article": "die",
+      "plural": [
+        "Vorwahlen"
+      ],
+      "cefr": "A1"
+    },
+    "wandern": {
+      "cefr": "A1"
+    },
+    "wann": {
+      "cefr": "A1"
+    },
+    "warten": {
+      "cefr": "A1"
+    },
+    "warum": {
+      "cefr": "A1"
+    },
+    "was": {
+      "cefr": "A1"
+    },
+    "was für ein": {
+      "cefr": "A1"
+    },
+    "waschen": {
+      "cefr": "A1",
+      "reflexive": true
+    },
+    "das Wasser": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "weh tun": {
+      "cefr": "A1"
+    },
+    "weiblich": {
+      "cefr": "A1"
+    },
+    "der Wein": {
+      "article": "der",
+      "plural": [
+        "Weine"
+      ],
+      "cefr": "A1"
+    },
+    "weit": {
+      "cefr": "A1"
+    },
+    "weiter": {
+      "cefr": "A1"
+    },
+    "welch-": {
+      "cefr": "A1",
+      "boundForm": true
+    },
+    "die Welt": {
+      "article": "die",
+      "plural": [
+        "Welten"
+      ],
+      "cefr": "A1"
+    },
+    "wenig": {
+      "cefr": "A1"
+    },
+    "wer": {
+      "cefr": "A1"
+    },
+    "werden": {
+      "cefr": "A1"
+    },
+    "das Wetter": {
+      "article": "das",
+      "singularOnly": true,
+      "cefr": "A1"
+    },
+    "wichtig": {
+      "cefr": "A1"
+    },
+    "wie": {
+      "cefr": "A1"
+    },
+    "wiederholen": {
+      "cefr": "A1"
+    },
+    "das Wiederhören": {
+      "article": "das",
+      "plural": [
+        "Wiederhören"
+      ],
+      "cefr": "A1"
+    },
+    "das Wiedersehen": {
+      "article": "das",
+      "plural": [
+        "Wiedersehen"
+      ],
+      "cefr": "A1"
+    },
+    "wie viel": {
+      "cefr": "A1"
+    },
+    "willkommen": {
+      "cefr": "A1"
+    },
+    "der Wind": {
+      "article": "der",
+      "plural": [
+        "Winde"
+      ],
+      "cefr": "A1"
+    },
+    "wir": {
+      "cefr": "A1"
+    },
+    "wissen": {
+      "cefr": "A1"
+    },
+    "wo": {
+      "cefr": "A1"
+    },
+    "woher": {
+      "cefr": "A1"
+    },
+    "wohin": {
+      "cefr": "A1"
+    },
+    "wohnen": {
+      "cefr": "A1"
+    },
+    "die Wohnung": {
+      "article": "die",
+      "plural": [
+        "Wohnungen"
+      ],
+      "cefr": "A1"
+    },
+    "wollen": {
+      "cefr": "A1"
+    },
+    "das Wort": {
+      "article": "das",
+      "plural": [
+        "Wörter",
+        "Worte"
+      ],
+      "cefr": "A1"
+    },
+    "wunderbar": {
+      "cefr": "A1"
+    },
+    "zahlen": {
+      "cefr": "A1"
+    },
+    "die Zeit": {
+      "article": "die",
+      "plural": [
+        "Zeiten"
+      ],
+      "cefr": "A1"
+    },
+    "zurzeit": {
+      "cefr": "A1"
+    },
+    "die Zeitung": {
+      "article": "die",
+      "plural": [
+        "Zeitungen"
+      ],
+      "cefr": "A1"
+    },
+    "die Zigarette": {
+      "article": "die",
+      "plural": [
+        "Zigaretten"
+      ],
+      "cefr": "A1"
+    },
+    "das Zimmer": {
+      "article": "das",
+      "plural": [
+        "Zimmer"
+      ],
+      "cefr": "A1"
+    },
+    "der Zoll": {
+      "article": "der",
+      "plural": [
+        "Zölle"
+      ],
+      "cefr": "A1"
+    },
+    "zu": {
+      "cefr": "A1"
+    },
+    "zufrieden": {
+      "cefr": "A1"
+    },
+    "der Zug": {
+      "article": "der",
+      "plural": [
+        "Züge"
+      ],
+      "cefr": "A1"
+    },
+    "zurück": {
+      "cefr": "A1"
+    },
+    "zusammen": {
+      "cefr": "A1"
+    },
+    "zwischen": {
+      "cefr": "A1"
+    },
+    "halb": {
+      "cefr": "A1"
+    },
+    "das Viertel": {
+      "article": "das",
+      "plural": [
+        "Viertel"
+      ],
+      "cefr": "A1",
+      "regions": [
+        "A",
+        "D"
+      ]
+    },
+    "eins": {
+      "cefr": "A1"
+    },
+    "zwei": {
+      "cefr": "A1"
+    },
+    "drei": {
+      "cefr": "A1"
+    },
+    "vier": {
+      "cefr": "A1"
+    },
+    "fünf": {
+      "cefr": "A1"
+    },
+    "sechs": {
+      "cefr": "A1"
+    },
+    "sieben": {
+      "cefr": "A1"
+    },
+    "acht": {
+      "cefr": "A1"
+    },
+    "neun": {
+      "cefr": "A1"
+    },
+    "zehn": {
+      "cefr": "A1"
+    },
+    "elf": {
+      "cefr": "A1"
+    },
+    "zwölf": {
+      "cefr": "A1"
+    },
+    "dreizehn": {
+      "cefr": "A1"
+    },
+    "vierzehn": {
+      "cefr": "A1"
+    },
+    "fünfzehn": {
+      "cefr": "A1"
+    },
+    "sechzehn": {
+      "cefr": "A1"
+    },
+    "siebzehn": {
+      "cefr": "A1"
+    },
+    "achtzehn": {
+      "cefr": "A1"
+    },
+    "neunzehn": {
+      "cefr": "A1"
+    },
+    "zwanzig": {
+      "cefr": "A1"
+    },
+    "einundzwanzig": {
+      "cefr": "A1"
+    },
+    "dreißig": {
+      "cefr": "A1"
+    },
+    "vierzig": {
+      "cefr": "A1"
+    },
+    "fünfzig": {
+      "cefr": "A1"
+    },
+    "sechzig": {
+      "cefr": "A1"
+    },
+    "siebzig": {
+      "cefr": "A1"
+    },
+    "achtzig": {
+      "cefr": "A1"
+    },
+    "neunzig": {
+      "cefr": "A1"
+    },
+    "hundert": {
+      "cefr": "A1"
+    },
+    "hunderteins": {
+      "cefr": "A1"
+    },
+    "zweihundert": {
+      "cefr": "A1"
+    },
+    "tausend": {
+      "cefr": "A1"
+    },
+    "die Million": {
+      "article": "die",
+      "plural": [
+        "Millionen"
+      ],
+      "cefr": "A1"
+    },
+    "erste": {
+      "cefr": "A1"
+    },
+    "zweite": {
+      "cefr": "A1"
+    },
+    "dritte": {
+      "cefr": "A1"
+    },
+    "vierte": {
+      "cefr": "A1"
+    },
+    "die Milliarde": {
+      "article": "die",
+      "plural": [
+        "Milliarden"
+      ],
+      "cefr": "A1"
+    },
+    "der Tag": {
+      "article": "der",
+      "plural": [
+        "Tage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Morgen": {
+      "article": "der",
+      "plural": [
+        "Morgen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Vormittag": {
+      "article": "der",
+      "plural": [
+        "Vormittage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Mittag": {
+      "article": "der",
+      "plural": [
+        "Mittage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Nachmittag": {
+      "article": "der",
+      "plural": [
+        "Nachmittage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Abend": {
+      "article": "der",
+      "plural": [
+        "Abende"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Nacht": {
+      "article": "die",
+      "plural": [
+        "Nächte"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Januar": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Februar": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der März": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der April": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Mai": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Juni": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Juli": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der August": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der September": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Oktober": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der November": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Dezember": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "die Sekunde": {
+      "article": "die",
+      "plural": [
+        "Sekunden"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Minute": {
+      "article": "die",
+      "plural": [
+        "Minuten"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Woche": {
+      "article": "die",
+      "plural": [
+        "Wochen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Jahr": {
+      "article": "das",
+      "plural": [
+        "Jahre"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Wochentag": {
+      "article": "der",
+      "plural": [
+        "Wochentage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Sonntag": {
+      "article": "der",
+      "plural": [
+        "Sonntage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Montag": {
+      "article": "der",
+      "plural": [
+        "Montage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Dienstag": {
+      "article": "der",
+      "plural": [
+        "Dienstage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Mittwoch": {
+      "article": "der",
+      "plural": [
+        "Mittwoche"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Donnerstag": {
+      "article": "der",
+      "plural": [
+        "Donnerstage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Freitag": {
+      "article": "der",
+      "plural": [
+        "Freitage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Samstag": {
+      "article": "der",
+      "plural": [
+        "Samstage"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Wochenende": {
+      "article": "das",
+      "plural": [
+        "Wochenenden"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "am Wochenende": {
+      "cefr": "A1"
+    },
+    "der Sonnabend": {
+      "article": "der",
+      "plural": [
+        "Sonnabende"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Frühling": {
+      "article": "der",
+      "plural": [
+        "Frühlinge"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "das Frühjahr": {
+      "article": "das",
+      "plural": [
+        "Frühjahre"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Sommer": {
+      "article": "der",
+      "plural": [
+        "Sommer"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Herbst": {
+      "article": "der",
+      "plural": [
+        "Herbste"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "der Winter": {
+      "article": "der",
+      "plural": [
+        "Winter"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "schwarz": {
+      "cefr": "A1"
+    },
+    "grau": {
+      "cefr": "A1"
+    },
+    "blau": {
+      "cefr": "A1"
+    },
+    "grün": {
+      "cefr": "A1"
+    },
+    "weiß": {
+      "cefr": "A1"
+    },
+    "rot": {
+      "cefr": "A1"
+    },
+    "gelb": {
+      "cefr": "A1"
+    },
+    "braun": {
+      "cefr": "A1"
+    },
+    "der Norden": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Süden": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Westen": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Osten": {
+      "article": "der",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Euro": {
+      "article": "der",
+      "plural": [
+        "Euro",
+        "Euros"
+      ],
+      "cefr": "A1"
+    },
+    "der Cent": {
+      "article": "der",
+      "plural": [
+        "Cent",
+        "Cents"
+      ],
+      "usage": "숫자 뒤의 화폐 단위는 보통 Cent로 씁니다.",
+      "cefr": "A1"
+    },
+    "der Meter": {
+      "article": "der",
+      "plural": [
+        "Meter"
+      ],
+      "cefr": "A1"
+    },
+    "der Zentimeter": {
+      "article": "der",
+      "plural": [
+        "Zentimeter"
+      ],
+      "cefr": "A1"
+    },
+    "der Kilometer": {
+      "article": "der",
+      "plural": [
+        "Kilometer"
+      ],
+      "cefr": "A1"
+    },
+    "das Prozent": {
+      "article": "das",
+      "plural": [
+        "Prozente"
+      ],
+      "cefr": "A1"
+    },
+    "der Liter": {
+      "article": "der",
+      "plural": [
+        "Liter"
+      ],
+      "cefr": "A1"
+    },
+    "das Gramm": {
+      "article": "das",
+      "plural": [
+        "Gramm"
+      ],
+      "cefr": "A1"
+    },
+    "das Kilogramm": {
+      "article": "das",
+      "plural": [
+        "Kilogramm"
+      ],
+      "cefr": "A1"
+    },
+    "der Quadratmeter": {
+      "article": "der",
+      "plural": [
+        "Quadratmeter"
+      ],
+      "cefr": "A1"
+    },
+    "das Pfund": {
+      "article": "das",
+      "plural": [
+        "Pfund"
+      ],
+      "cefr": "A1"
+    },
+    "Deutschland": {
+      "cefr": "A1"
+    },
+    "der Deutsche": {
+      "article": "der",
+      "plural": [
+        "Deutschen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Deutsche": {
+      "article": "die",
+      "plural": [
+        "Deutschen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "Deutsch / deutsch": {
+      "cefr": "A1"
+    },
+    "Europa": {
+      "cefr": "A1"
+    },
+    "der Europäer": {
+      "article": "der",
+      "plural": [
+        "Europäer"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Europäerin": {
+      "article": "die",
+      "plural": [
+        "Europäerinnen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "europäisch": {
+      "cefr": "A1"
+    },
+    "die Türkei": {
+      "article": "die",
+      "pluralNote": "자료에 복수형 미표기",
+      "cefr": "A1"
+    },
+    "der Türke": {
+      "article": "der",
+      "plural": [
+        "Türken"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "die Türkin": {
+      "article": "die",
+      "plural": [
+        "Türkinnen"
+      ],
+      "grammarSource": "editorial",
+      "cefr": "A1"
+    },
+    "Türkisch / türkisch": {
+      "cefr": "A1"
+    },
+    "Finnland": {
+      "cefr": "A1"
+    },
+    "der Finne": {
+      "article": "der",
+      "plural": [
+        "Finnen"
+      ],
+      "cefr": "A1"
+    },
+    "die Finnin": {
+      "article": "die",
+      "plural": [
+        "Finninnen"
+      ],
+      "cefr": "A1"
+    },
+    "Finnisch / finnisch": {
+      "cefr": "A1"
+    },
+    "Mexiko": {
+      "cefr": "A1"
+    },
+    "der Mexikaner": {
+      "article": "der",
+      "plural": [
+        "Mexikaner"
+      ],
+      "cefr": "A1"
+    },
+    "die Mexikanerin": {
+      "article": "die",
+      "plural": [
+        "Mexikanerinnen"
+      ],
+      "cefr": "A1"
+    },
+    "mexikanisch": {
+      "cefr": "A1"
+    },
+    "du": {
+      "cefr": "A1"
+    },
+    "mich": {
+      "cefr": "A1"
+    },
+    "mir": {
+      "cefr": "A1"
+    },
+    "uns": {
+      "cefr": "A1"
+    },
+    "euch": {
+      "cefr": "A1"
+    },
+    "ihnen / Ihnen": {
+      "cefr": "A1"
+    }
+  },
+  "topics": [
+    {
+      "name": "사람·가족·관계",
+      "words": [
+        "das Alter",
+        "der Ausländer",
+        "das Baby",
+        "der Bekannte",
+        "die Bekannte",
+        "besuchen",
+        "der Bruder",
+        "die Dame",
+        "die Ehefrau",
+        "der Ehemann",
+        "einladen",
+        "die Einladung",
+        "die Eltern",
+        "der Erwachsene",
+        "die Familie",
+        "der Familienname",
+        "der Familienstand",
+        "die Frau",
+        "der Freund",
+        "der Gast"
+      ]
+    },
+    {
+      "name": "사람·가족·관계",
+      "words": [
+        "geboren",
+        "die Geschwister",
+        "die Großeltern",
+        "die Großmutter",
+        "der Großvater",
+        "die Gruppe",
+        "die Hausfrau",
+        "der Hausmann",
+        "heiraten",
+        "der Herr",
+        "die Hochzeit",
+        "der Jugendliche",
+        "der Junge",
+        "kennen",
+        "kennenlernen",
+        "das Kind",
+        "ledig",
+        "die Leute",
+        "das Mädchen",
+        "der Mann"
+      ]
+    },
+    {
+      "name": "사람·가족·관계",
+      "words": [
+        "der Mensch",
+        "die Mutter",
+        "der Name",
+        "die Oma",
+        "der Opa",
+        "der Partner",
+        "die Partnerin",
+        "die Schwester",
+        "der Sohn",
+        "die Tochter",
+        "treffen",
+        "der Vater",
+        "verheiratet",
+        "der Verwandte",
+        "der Vorname",
+        "vorstellen",
+        "das Wiedersehen",
+        "der Deutsche",
+        "die Deutsche",
+        "der Europäer"
+      ]
+    },
+    {
+      "name": "사람·가족·관계",
+      "words": [
+        "die Europäerin",
+        "der Türke",
+        "die Türkin",
+        "der Finne",
+        "die Finnin",
+        "der Mexikaner",
+        "die Mexikanerin"
+      ]
+    },
+    {
+      "name": "몸·건강",
+      "words": [
+        "der Arm",
+        "der Arzt",
+        "das Auge",
+        "baden",
+        "der Bauch",
+        "das Bein",
+        "der Doktor",
+        "duschen",
+        "das Fieber",
+        "der Fuß",
+        "gestorben",
+        "das Haar",
+        "die Hand",
+        "der Kopf",
+        "krank",
+        "müde",
+        "der Mund",
+        "die Praxis",
+        "rauchen",
+        "schlafen"
+      ]
+    },
+    {
+      "name": "몸·건강",
+      "words": [
+        "weh tun",
+        "die Zigarette"
+      ]
+    },
+    {
+      "name": "집·주거",
+      "words": [
+        "der Aufzug",
+        "das Bad",
+        "der Balkon",
+        "das Bett",
+        "die Dusche",
+        "der Garten",
+        "das Haus",
+        "der Herd",
+        "die Küche",
+        "der Kühlschrank",
+        "das Licht",
+        "mieten",
+        "die Miete",
+        "die Möbel",
+        "der Raum",
+        "der Schlüssel",
+        "der Schrank",
+        "das Sofa",
+        "der Stock",
+        "der Tisch"
+      ]
+    },
+    {
+      "name": "집·주거",
+      "words": [
+        "die Toilette",
+        "die Treppe",
+        "umziehen",
+        "vermieten",
+        "der Vermieter",
+        "wohnen",
+        "die Wohnung",
+        "das Zimmer"
+      ]
+    },
+    {
+      "name": "음식·식사",
+      "words": [
+        "der Apfel",
+        "der Appetit",
+        "die Bäckerei",
+        "die Banane",
+        "bestellen",
+        "das Bier",
+        "die Birne",
+        "bitter",
+        "das Brot",
+        "das Brötchen",
+        "die Butter",
+        "das Café",
+        "der Durst",
+        "das Ei",
+        "essen",
+        "das Essen",
+        "die Flasche",
+        "das Fleisch",
+        "frühstücken",
+        "das Frühstück"
+      ]
+    },
+    {
+      "name": "음식·식사",
+      "words": [
+        "das Gemüse",
+        "das Getränk",
+        "das Glas",
+        "grillen",
+        "das Hähnchen",
+        "der Hunger",
+        "der Kaffee",
+        "die Kartoffel",
+        "kochen",
+        "der Kuchen",
+        "die Lebensmittel",
+        "das Lokal",
+        "die Milch",
+        "das Obst",
+        "das Öl",
+        "die Pommes frites",
+        "der Reis",
+        "das Restaurant",
+        "der Saft",
+        "der Salat"
+      ]
+    },
+    {
+      "name": "음식·식사",
+      "words": [
+        "das Salz",
+        "der Schinken",
+        "schmecken",
+        "die Speisekarte",
+        "der Tee",
+        "die Tomate",
+        "trinken",
+        "das Wasser",
+        "der Wein"
+      ]
+    },
+    {
+      "name": "쇼핑·돈",
+      "words": [
+        "das Angebot",
+        "anziehen",
+        "der Automat",
+        "die Bank",
+        "bar",
+        "bezahlen",
+        "billig",
+        "einkaufen",
+        "das Geld",
+        "das Geschäft",
+        "das Geschenk",
+        "günstig",
+        "die Jacke",
+        "die Kreditkarte",
+        "die Kasse",
+        "kaufen",
+        "der Kiosk",
+        "die Kleidung",
+        "das Konto",
+        "kosten"
+      ]
+    },
+    {
+      "name": "쇼핑·돈",
+      "words": [
+        "der Kunde",
+        "der Laden",
+        "der Preis",
+        "die Rechnung",
+        "der Schuh",
+        "die Tasche",
+        "teuer",
+        "überweisen",
+        "verdienen",
+        "verkaufen",
+        "zahlen",
+        "der Euro",
+        "der Cent"
+      ]
+    },
+    {
+      "name": "일·직업",
+      "words": [
+        "arbeiten",
+        "die Arbeit",
+        "arbeitslos",
+        "der Arbeitsplatz",
+        "der Beruf",
+        "der Chef",
+        "die Firma",
+        "der Job",
+        "der Kollege",
+        "die Maschine",
+        "das Praktikum",
+        "selbstständig",
+        "der Verkäufer"
+      ]
+    },
+    {
+      "name": "학교·교육·언어",
+      "words": [
+        "anmelden",
+        "die Anmeldung",
+        "die Aufgabe",
+        "bedeuten",
+        "das Beispiel",
+        "der Bleistift",
+        "der Bogen",
+        "das Buch",
+        "der Buchstabe",
+        "buchstabieren",
+        "erklären",
+        "die Hausaufgabe",
+        "heißen",
+        "der Kindergarten",
+        "die Klasse",
+        "der Kugelschreiber",
+        "der Kurs",
+        "der Lehrer",
+        "lernen",
+        "lesen"
+      ]
+    },
+    {
+      "name": "학교·교육·언어",
+      "words": [
+        "die Lösung",
+        "das Papier",
+        "die Prüfung",
+        "der Satz",
+        "schreiben",
+        "die Schule",
+        "der Schüler",
+        "die Sprache",
+        "studieren",
+        "das Studium",
+        "der Student",
+        "der Test",
+        "der Text",
+        "das Thema",
+        "der Unterricht",
+        "wiederholen",
+        "das Wort",
+        "Deutsch / deutsch",
+        "Türkisch / türkisch",
+        "Finnisch / finnisch"
+      ]
+    },
+    {
+      "name": "여가·문화·스포츠",
+      "words": [
+        "besichtigen",
+        "das Bild",
+        "die CD",
+        "die Disco",
+        "der Eintritt",
+        "feiern",
+        "der Film",
+        "das Foto",
+        "die Freizeit",
+        "die Führung",
+        "der Fußball",
+        "gewinnen",
+        "das Hobby",
+        "das Kino",
+        "kulturell",
+        "das Lied",
+        "die Party",
+        "Rad fahren",
+        "schwimmen",
+        "das Schwimmbad"
+      ]
+    },
+    {
+      "name": "여가·문화·스포츠",
+      "words": [
+        "spielen",
+        "der Sport",
+        "tanzen",
+        "der Verein",
+        "wandern"
+      ]
+    },
+    {
+      "name": "여행·교통",
+      "words": [
+        "abfahren",
+        "die Abfahrt",
+        "abholen",
+        "ankommen",
+        "die Ankunft",
+        "der Anschluss",
+        "das Apartment",
+        "der Ausflug",
+        "aussteigen",
+        "das Auto",
+        "die Autobahn",
+        "die Bahn",
+        "der Bahnhof",
+        "der Bahnsteig",
+        "der Bus",
+        "das Doppelzimmer",
+        "einsteigen",
+        "das Einzelzimmer",
+        "fahren",
+        "der Fahrer"
+      ]
+    },
+    {
+      "name": "여행·교통",
+      "words": [
+        "die Fahrkarte",
+        "das Fahrrad",
+        "fliegen",
+        "abfliegen",
+        "der Abflug",
+        "der Flughafen",
+        "das Flugzeug",
+        "das Gepäck",
+        "das Gleis",
+        "die Halbpension",
+        "die Haltestelle",
+        "das Hotel",
+        "der Koffer",
+        "der Lkw",
+        "der Pass",
+        "reisen",
+        "die Reise",
+        "das Reisebüro",
+        "der Reiseführer",
+        "die Rezeption"
+      ]
+    },
+    {
+      "name": "여행·교통",
+      "words": [
+        "die S-Bahn",
+        "die Sehenswürdigkeit",
+        "die Straßenbahn",
+        "das Taxi",
+        "das Ticket",
+        "übernachten",
+        "der Urlaub",
+        "der Zoll",
+        "der Zug"
+      ]
+    },
+    {
+      "name": "도시·장소·방향",
+      "words": [
+        "die Adresse",
+        "der Ausgang",
+        "das Ausland",
+        "daneben",
+        "das Dorf",
+        "dort",
+        "draußen",
+        "die Ecke",
+        "der Eingang",
+        "der Geburtsort",
+        "geradeaus",
+        "die Halle",
+        "die Heimat",
+        "hier",
+        "hinten",
+        "die Karte",
+        "das Land",
+        "links",
+        "die Mitte",
+        "oben"
+      ]
+    },
+    {
+      "name": "도시·장소·방향",
+      "words": [
+        "der Ort",
+        "der Platz",
+        "rechts",
+        "das Schild",
+        "die Stadt",
+        "die Stelle",
+        "die Straße",
+        "unten",
+        "weit",
+        "die Welt",
+        "zurück",
+        "der Norden",
+        "der Süden",
+        "der Westen",
+        "der Osten",
+        "Deutschland",
+        "Europa",
+        "die Türkei",
+        "Finnland",
+        "Mexiko"
+      ]
+    },
+    {
+      "name": "자연·날씨·환경",
+      "words": [
+        "der Baum",
+        "die Blume",
+        "das Feuer",
+        "der Fisch",
+        "der Grad",
+        "der Hund",
+        "das Meer",
+        "regnen",
+        "der Regen",
+        "scheinen",
+        "der See",
+        "die Sonne",
+        "das Wetter",
+        "der Wind"
+      ]
+    },
+    {
+      "name": "시간·날짜",
+      "words": [
+        "der Anfang",
+        "bald",
+        "das Datum",
+        "dauern",
+        "einmal",
+        "das Ende",
+        "Feier-",
+        "früher",
+        "das Geburtsjahr",
+        "der Geburtstag",
+        "gerade",
+        "gestern",
+        "heute",
+        "immer",
+        "jetzt",
+        "lange",
+        "letzt-",
+        "der Moment",
+        "morgen",
+        "nie"
+      ]
+    },
+    {
+      "name": "시간·날짜",
+      "words": [
+        "noch",
+        "oft",
+        "die Pause",
+        "pünktlich",
+        "schon",
+        "sofort",
+        "spät",
+        "später",
+        "die Stunde",
+        "der Termin",
+        "die Uhr",
+        "die Zeit",
+        "zurzeit",
+        "der Tag",
+        "der Morgen",
+        "der Vormittag",
+        "der Mittag",
+        "der Nachmittag",
+        "der Abend",
+        "die Nacht"
+      ]
+    },
+    {
+      "name": "시간·날짜",
+      "words": [
+        "der Januar",
+        "der Februar",
+        "der März",
+        "der April",
+        "der Mai",
+        "der Juni",
+        "der Juli",
+        "der August",
+        "der September",
+        "der Oktober",
+        "der November",
+        "der Dezember",
+        "die Sekunde",
+        "die Minute",
+        "die Woche",
+        "das Jahr",
+        "der Wochentag",
+        "der Sonntag",
+        "der Montag",
+        "der Dienstag"
+      ]
+    },
+    {
+      "name": "시간·날짜",
+      "words": [
+        "der Mittwoch",
+        "der Donnerstag",
+        "der Freitag",
+        "der Samstag",
+        "das Wochenende",
+        "am Wochenende",
+        "der Sonnabend",
+        "der Frühling",
+        "das Frühjahr",
+        "der Sommer",
+        "der Herbst",
+        "der Winter"
+      ]
+    },
+    {
+      "name": "통신·미디어",
+      "words": [
+        "der Absender",
+        "anklicken",
+        "die Anrede",
+        "anrufen",
+        "der Anruf",
+        "der Anrufbeantworter",
+        "die Ansage",
+        "antworten",
+        "die Antwort",
+        "die Anzeige",
+        "die Auskunft",
+        "die Bitte",
+        "bitten",
+        "der Brief",
+        "die Briefmarke",
+        "der Computer",
+        "danken",
+        "drucken",
+        "der Drucker",
+        "die Durchsage"
+      ]
+    },
+    {
+      "name": "통신·미디어",
+      "words": [
+        "die E-Mail",
+        "der Empfänger",
+        "entschuldigen",
+        "die Entschuldigung",
+        "erzählen",
+        "das Fax",
+        "fernsehen",
+        "fragen",
+        "die Frage",
+        "das Gespräch",
+        "der Glückwunsch",
+        "gratulieren",
+        "der Gruß",
+        "das Handy",
+        "die Information",
+        "das Internet",
+        "die Post",
+        "die Postleitzahl",
+        "der Prospekt",
+        "sagen"
+      ]
+    },
+    {
+      "name": "통신·미디어",
+      "words": [
+        "schicken",
+        "sprechen",
+        "telefonieren",
+        "das Telefon",
+        "die Vorwahl",
+        "das Wiederhören",
+        "die Zeitung"
+      ]
+    },
+    {
+      "name": "사회·관공서·정치",
+      "words": [
+        "die Aussage",
+        "der Ausweis",
+        "der Beamte",
+        "das Formular",
+        "die Papiere",
+        "die Polizei",
+        "der Schalter",
+        "unterschreiben",
+        "die Unterschrift"
+      ]
+    },
+    {
+      "name": "감정·성격·생각",
+      "words": [
+        "böse",
+        "der Dank",
+        "freuen",
+        "gefallen",
+        "gern",
+        "gerne",
+        "glauben",
+        "das Glück",
+        "glücklich",
+        "herzlich",
+        "lachen",
+        "leider",
+        "lieb-",
+        "lieben",
+        "lieber",
+        "Lieblings-",
+        "lustig",
+        "mögen",
+        "der Plan",
+        "verstehen"
+      ]
+    },
+    {
+      "name": "감정·성격·생각",
+      "words": [
+        "wissen",
+        "zufrieden"
+      ]
+    },
+    {
+      "name": "일상 동작",
+      "words": [
+        "abgeben",
+        "anbieten",
+        "anfangen",
+        "ankreuzen",
+        "anmachen",
+        "aufhören",
+        "aufstehen",
+        "ausfüllen",
+        "ausmachen",
+        "aussehen",
+        "ausziehen",
+        "beginnen",
+        "bekommen",
+        "benutzen",
+        "bleiben",
+        "der Blick",
+        "brauchen",
+        "bringen",
+        "drücken",
+        "empfehlen"
+      ]
+    },
+    {
+      "name": "일상 동작",
+      "words": [
+        "enden",
+        "erlauben",
+        "fehlen",
+        "finden",
+        "geben",
+        "gehen",
+        "gehören",
+        "haben",
+        "halten",
+        "helfen",
+        "die Hilfe",
+        "holen",
+        "hören",
+        "kommen",
+        "kriegen",
+        "kümmern",
+        "laufen",
+        "leben",
+        "legen",
+        "liegen"
+      ]
+    },
+    {
+      "name": "일상 동작",
+      "words": [
+        "machen",
+        "mitbringen",
+        "mitkommen",
+        "mitmachen",
+        "mitnehmen",
+        "nehmen",
+        "öffnen",
+        "reparieren",
+        "die Reparatur",
+        "riechen",
+        "schließen",
+        "sehen",
+        "sitzen",
+        "stehen",
+        "stellen",
+        "suchen",
+        "tun",
+        "warten",
+        "waschen"
+      ]
+    },
+    {
+      "name": "성질·상태",
+      "words": [
+        "allein",
+        "alt",
+        "an sein",
+        "auf sein",
+        "ausländisch",
+        "aus sein",
+        "automatisch",
+        "bekannt",
+        "besetzt",
+        "besser",
+        "best-",
+        "breit",
+        "eilig",
+        "einfach",
+        "das Ergebnis",
+        "falsch",
+        "die Farbe",
+        "der Fehler",
+        "fertig",
+        "frei"
+      ]
+    },
+    {
+      "name": "성질·상태",
+      "words": [
+        "fremd",
+        "das Gewicht",
+        "gleich",
+        "groß",
+        "die Größe",
+        "gültig",
+        "gut",
+        "hell",
+        "hoch",
+        "international",
+        "jung",
+        "kaputt",
+        "klar",
+        "klein",
+        "kurz",
+        "lang",
+        "langsam",
+        "laut",
+        "das Leben",
+        "leicht"
+      ]
+    },
+    {
+      "name": "성질·상태",
+      "words": [
+        "leise",
+        "männlich",
+        "möglich",
+        "nächst-",
+        "neu",
+        "normal",
+        "geöffnet",
+        "die Ordnung",
+        "das Problem",
+        "richtig",
+        "ruhig",
+        "schlecht",
+        "geschlossen",
+        "der Schluss",
+        "schnell",
+        "schön",
+        "schwer",
+        "sehr",
+        "weg sein",
+        "zu sein"
+      ]
+    },
+    {
+      "name": "성질·상태",
+      "words": [
+        "so",
+        "der Teil",
+        "tot",
+        "verboten",
+        "vielleicht",
+        "die Vorsicht",
+        "weiblich",
+        "weiter",
+        "wichtig",
+        "wunderbar",
+        "zusammen",
+        "schwarz",
+        "grau",
+        "blau",
+        "grün",
+        "weiß",
+        "rot",
+        "gelb",
+        "braun",
+        "europäisch"
+      ]
+    },
+    {
+      "name": "성질·상태",
+      "words": [
+        "mexikanisch"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "ab",
+        "aber",
+        "Achtung!",
+        "all-",
+        "also",
+        "an",
+        "ander-",
+        "auch",
+        "auf",
+        "aus",
+        "bei",
+        "beide",
+        "zum Beispiel",
+        "z. B.",
+        "bis",
+        "bisschen",
+        "bitte",
+        "circa",
+        "ca.",
+        "da"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "danke",
+        "dann",
+        "dein-",
+        "denn",
+        "der",
+        "die",
+        "das",
+        "dich",
+        "dies-",
+        "dir",
+        "durch",
+        "dürfen",
+        "ein-",
+        "er",
+        "es",
+        "euer",
+        "für",
+        "gegen",
+        "hallo",
+        "ich"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "ihr / Ihr",
+        "ihm",
+        "ihn",
+        "in",
+        "ja",
+        "jed-",
+        "kein",
+        "können",
+        "man",
+        "mehr",
+        "mein",
+        "meist-",
+        "mit",
+        "möchten",
+        "müssen",
+        "nach",
+        "nein",
+        "nicht",
+        "nichts",
+        "die Nummer"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "nur",
+        "oder",
+        "ohne",
+        "sein",
+        "seit",
+        "sich",
+        "sie / Sie",
+        "sollen",
+        "tschüss",
+        "über",
+        "um",
+        "und",
+        "unser-",
+        "unter",
+        "viel",
+        "von",
+        "vor",
+        "wann",
+        "warum",
+        "was"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "was für ein",
+        "welch-",
+        "wenig",
+        "wer",
+        "werden",
+        "wie",
+        "wie viel",
+        "willkommen",
+        "wir",
+        "wo",
+        "woher",
+        "wohin",
+        "wollen",
+        "zu",
+        "zwischen",
+        "halb",
+        "das Viertel",
+        "eins",
+        "zwei",
+        "drei"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "vier",
+        "fünf",
+        "sechs",
+        "sieben",
+        "acht",
+        "neun",
+        "zehn",
+        "elf",
+        "zwölf",
+        "dreizehn",
+        "vierzehn",
+        "fünfzehn",
+        "sechzehn",
+        "siebzehn",
+        "achtzehn",
+        "neunzehn",
+        "zwanzig",
+        "einundzwanzig",
+        "dreißig",
+        "vierzig"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "fünfzig",
+        "sechzig",
+        "siebzig",
+        "achtzig",
+        "neunzig",
+        "hundert",
+        "hunderteins",
+        "zweihundert",
+        "tausend",
+        "die Million",
+        "erste",
+        "zweite",
+        "dritte",
+        "vierte",
+        "die Milliarde",
+        "der Meter",
+        "der Zentimeter",
+        "der Kilometer",
+        "das Prozent",
+        "der Liter"
+      ]
+    },
+    {
+      "name": "기능어·수",
+      "words": [
+        "das Gramm",
+        "das Kilogramm",
+        "der Quadratmeter",
+        "das Pfund",
+        "du",
+        "mich",
+        "mir",
+        "uns",
+        "euch",
+        "ihnen / Ihnen"
+      ]
+    }
+  ],
   "words": [
     [
       "ab",
@@ -5746,4095 +10908,5 @@
       "Ich helfe ihnen beim Umzug.",
       "나는 그들이 이사하는 것을 돕는다."
     ]
-  ],
-  "wordInfo": {
-    "ab": {
-      "cefr": "A1"
-    },
-    "aber": {
-      "cefr": "A1"
-    },
-    "abfahren": {
-      "cefr": "A1"
-    },
-    "die Abfahrt": {
-      "article": "die",
-      "plural": [
-        "Abfahrten"
-      ],
-      "cefr": "A1"
-    },
-    "abgeben": {
-      "cefr": "A1"
-    },
-    "abholen": {
-      "cefr": "A1"
-    },
-    "der Absender": {
-      "article": "der",
-      "plural": [
-        "Absender"
-      ],
-      "cefr": "A1"
-    },
-    "Achtung!": {
-      "cefr": "A1"
-    },
-    "die Adresse": {
-      "article": "die",
-      "plural": [
-        "Adressen"
-      ],
-      "cefr": "A1"
-    },
-    "all-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "allein": {
-      "cefr": "A1"
-    },
-    "also": {
-      "cefr": "A1"
-    },
-    "alt": {
-      "cefr": "A1"
-    },
-    "das Alter": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "an": {
-      "cefr": "A1"
-    },
-    "anbieten": {
-      "cefr": "A1"
-    },
-    "das Angebot": {
-      "article": "das",
-      "plural": [
-        "Angebote"
-      ],
-      "cefr": "A1"
-    },
-    "ander-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "anfangen": {
-      "cefr": "A1"
-    },
-    "der Anfang": {
-      "article": "der",
-      "plural": [
-        "Anfänge"
-      ],
-      "cefr": "A1"
-    },
-    "anklicken": {
-      "cefr": "A1"
-    },
-    "ankommen": {
-      "cefr": "A1"
-    },
-    "die Ankunft": {
-      "article": "die",
-      "plural": [
-        "Ankünfte"
-      ],
-      "cefr": "A1"
-    },
-    "ankreuzen": {
-      "cefr": "A1"
-    },
-    "anmachen": {
-      "cefr": "A1"
-    },
-    "anmelden": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "die Anmeldung": {
-      "article": "die",
-      "plural": [
-        "Anmeldungen"
-      ],
-      "cefr": "A1"
-    },
-    "die Anrede": {
-      "article": "die",
-      "plural": [
-        "Anreden"
-      ],
-      "cefr": "A1"
-    },
-    "anrufen": {
-      "cefr": "A1"
-    },
-    "der Anruf": {
-      "article": "der",
-      "plural": [
-        "Anrufe"
-      ],
-      "cefr": "A1"
-    },
-    "der Anrufbeantworter": {
-      "article": "der",
-      "plural": [
-        "Anrufbeantworter"
-      ],
-      "cefr": "A1"
-    },
-    "die Ansage": {
-      "article": "die",
-      "plural": [
-        "Ansagen"
-      ],
-      "cefr": "A1"
-    },
-    "der Anschluss": {
-      "article": "der",
-      "plural": [
-        "Anschlüsse"
-      ],
-      "cefr": "A1"
-    },
-    "an sein": {
-      "cefr": "A1"
-    },
-    "antworten": {
-      "cefr": "A1"
-    },
-    "die Antwort": {
-      "article": "die",
-      "plural": [
-        "Antworten"
-      ],
-      "cefr": "A1"
-    },
-    "die Anzeige": {
-      "article": "die",
-      "plural": [
-        "Anzeigen"
-      ],
-      "cefr": "A1"
-    },
-    "anziehen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "das Apartment": {
-      "article": "das",
-      "plural": [
-        "Apartments"
-      ],
-      "cefr": "A1"
-    },
-    "der Apfel": {
-      "article": "der",
-      "plural": [
-        "Äpfel"
-      ],
-      "cefr": "A1"
-    },
-    "der Appetit": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "arbeiten": {
-      "cefr": "A1"
-    },
-    "die Arbeit": {
-      "article": "die",
-      "plural": [
-        "Arbeiten"
-      ],
-      "cefr": "A1"
-    },
-    "arbeitslos": {
-      "cefr": "A1"
-    },
-    "der Arbeitsplatz": {
-      "article": "der",
-      "plural": [
-        "Arbeitsplätze"
-      ],
-      "cefr": "A1"
-    },
-    "der Arm": {
-      "article": "der",
-      "plural": [
-        "Arme"
-      ],
-      "cefr": "A1"
-    },
-    "der Arzt": {
-      "article": "der",
-      "plural": [
-        "Ärzte"
-      ],
-      "cefr": "A1"
-    },
-    "auch": {
-      "cefr": "A1"
-    },
-    "auf": {
-      "cefr": "A1"
-    },
-    "die Aufgabe": {
-      "article": "die",
-      "plural": [
-        "Aufgaben"
-      ],
-      "cefr": "A1"
-    },
-    "aufhören": {
-      "cefr": "A1"
-    },
-    "auf sein": {
-      "cefr": "A1"
-    },
-    "aufstehen": {
-      "cefr": "A1"
-    },
-    "der Aufzug": {
-      "article": "der",
-      "plural": [
-        "Aufzüge"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "das Auge": {
-      "article": "das",
-      "plural": [
-        "Augen"
-      ],
-      "cefr": "A1"
-    },
-    "aus": {
-      "cefr": "A1"
-    },
-    "der Ausflug": {
-      "article": "der",
-      "plural": [
-        "Ausflüge"
-      ],
-      "cefr": "A1"
-    },
-    "ausfüllen": {
-      "cefr": "A1"
-    },
-    "der Ausgang": {
-      "article": "der",
-      "plural": [
-        "Ausgänge"
-      ],
-      "cefr": "A1"
-    },
-    "die Auskunft": {
-      "article": "die",
-      "plural": [
-        "Auskünfte"
-      ],
-      "cefr": "A1"
-    },
-    "das Ausland": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "der Ausländer": {
-      "article": "der",
-      "plural": [
-        "Ausländer"
-      ],
-      "cefr": "A1"
-    },
-    "ausländisch": {
-      "cefr": "A1"
-    },
-    "ausmachen": {
-      "cefr": "A1"
-    },
-    "die Aussage": {
-      "article": "die",
-      "plural": [
-        "Aussagen"
-      ],
-      "cefr": "A1"
-    },
-    "aussehen": {
-      "cefr": "A1"
-    },
-    "aus sein": {
-      "cefr": "A1"
-    },
-    "aussteigen": {
-      "cefr": "A1"
-    },
-    "der Ausweis": {
-      "article": "der",
-      "plural": [
-        "Ausweise"
-      ],
-      "cefr": "A1"
-    },
-    "ausziehen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "das Auto": {
-      "article": "das",
-      "plural": [
-        "Autos"
-      ],
-      "cefr": "A1"
-    },
-    "die Autobahn": {
-      "article": "die",
-      "plural": [
-        "Autobahnen"
-      ],
-      "cefr": "A1"
-    },
-    "der Automat": {
-      "article": "der",
-      "plural": [
-        "Automaten"
-      ],
-      "cefr": "A1"
-    },
-    "automatisch": {
-      "cefr": "A1"
-    },
-    "das Baby": {
-      "article": "das",
-      "plural": [
-        "Babys"
-      ],
-      "cefr": "A1"
-    },
-    "die Bäckerei": {
-      "article": "die",
-      "plural": [
-        "Bäckereien"
-      ],
-      "cefr": "A1"
-    },
-    "das Bad": {
-      "article": "das",
-      "plural": [
-        "Bäder"
-      ],
-      "cefr": "A1"
-    },
-    "baden": {
-      "cefr": "A1"
-    },
-    "die Bahn": {
-      "article": "die",
-      "plural": [
-        "Bahnen"
-      ],
-      "cefr": "A1"
-    },
-    "der Bahnhof": {
-      "article": "der",
-      "plural": [
-        "Bahnhöfe"
-      ],
-      "cefr": "A1"
-    },
-    "der Bahnsteig": {
-      "article": "der",
-      "plural": [
-        "Bahnsteige"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "bald": {
-      "cefr": "A1"
-    },
-    "der Balkon": {
-      "article": "der",
-      "plural": [
-        "Balkone"
-      ],
-      "cefr": "A1"
-    },
-    "die Banane": {
-      "article": "die",
-      "plural": [
-        "Bananen"
-      ],
-      "cefr": "A1"
-    },
-    "die Bank": {
-      "article": "die",
-      "plural": [
-        "Banken",
-        "Bänke"
-      ],
-      "usage": "은행의 복수는 Banken, 벤치의 복수는 Bänke입니다.",
-      "cefr": "A1"
-    },
-    "bar": {
-      "cefr": "A1"
-    },
-    "der Bauch": {
-      "article": "der",
-      "plural": [
-        "Bäuche"
-      ],
-      "cefr": "A1"
-    },
-    "der Baum": {
-      "article": "der",
-      "plural": [
-        "Bäume"
-      ],
-      "cefr": "A1"
-    },
-    "der Beamte": {
-      "article": "der",
-      "plural": [
-        "Beamten"
-      ],
-      "cefr": "A1"
-    },
-    "bedeuten": {
-      "cefr": "A1"
-    },
-    "beginnen": {
-      "cefr": "A1"
-    },
-    "bei": {
-      "cefr": "A1"
-    },
-    "beide": {
-      "cefr": "A1"
-    },
-    "das Bein": {
-      "article": "das",
-      "plural": [
-        "Beine"
-      ],
-      "cefr": "A1"
-    },
-    "das Beispiel": {
-      "article": "das",
-      "plural": [
-        "Beispiele"
-      ],
-      "cefr": "A1"
-    },
-    "zum Beispiel": {
-      "cefr": "A1"
-    },
-    "z. B.": {
-      "cefr": "A1"
-    },
-    "bekannt": {
-      "cefr": "A1"
-    },
-    "der Bekannte": {
-      "article": "der",
-      "plural": [
-        "Bekannten"
-      ],
-      "cefr": "A1"
-    },
-    "die Bekannte": {
-      "article": "die",
-      "plural": [
-        "Bekannten"
-      ],
-      "cefr": "A1"
-    },
-    "bekommen": {
-      "cefr": "A1"
-    },
-    "benutzen": {
-      "cefr": "A1"
-    },
-    "der Beruf": {
-      "article": "der",
-      "plural": [
-        "Berufe"
-      ],
-      "cefr": "A1"
-    },
-    "besetzt": {
-      "cefr": "A1"
-    },
-    "besichtigen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "besser": {
-      "cefr": "A1"
-    },
-    "best-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "bestellen": {
-      "cefr": "A1"
-    },
-    "besuchen": {
-      "cefr": "A1"
-    },
-    "das Bett": {
-      "article": "das",
-      "plural": [
-        "Betten"
-      ],
-      "cefr": "A1"
-    },
-    "bezahlen": {
-      "cefr": "A1"
-    },
-    "das Bier": {
-      "article": "das",
-      "plural": [
-        "Biere"
-      ],
-      "cefr": "A1"
-    },
-    "das Bild": {
-      "article": "das",
-      "plural": [
-        "Bilder"
-      ],
-      "cefr": "A1"
-    },
-    "billig": {
-      "cefr": "A1"
-    },
-    "die Birne": {
-      "article": "die",
-      "plural": [
-        "Birnen"
-      ],
-      "cefr": "A1"
-    },
-    "bis": {
-      "cefr": "A1"
-    },
-    "bisschen": {
-      "cefr": "A1"
-    },
-    "bitte": {
-      "cefr": "A1"
-    },
-    "die Bitte": {
-      "article": "die",
-      "plural": [
-        "Bitten"
-      ],
-      "cefr": "A1"
-    },
-    "bitten": {
-      "cefr": "A1"
-    },
-    "bitter": {
-      "cefr": "A1"
-    },
-    "bleiben": {
-      "cefr": "A1"
-    },
-    "der Bleistift": {
-      "article": "der",
-      "plural": [
-        "Bleistifte"
-      ],
-      "cefr": "A1"
-    },
-    "der Blick": {
-      "article": "der",
-      "plural": [
-        "Blicke"
-      ],
-      "cefr": "A1"
-    },
-    "die Blume": {
-      "article": "die",
-      "plural": [
-        "Blumen"
-      ],
-      "cefr": "A1"
-    },
-    "der Bogen": {
-      "article": "der",
-      "plural": [
-        "Bögen"
-      ],
-      "cefr": "A1"
-    },
-    "böse": {
-      "cefr": "A1"
-    },
-    "brauchen": {
-      "cefr": "A1"
-    },
-    "breit": {
-      "cefr": "A1"
-    },
-    "der Brief": {
-      "article": "der",
-      "plural": [
-        "Briefe"
-      ],
-      "cefr": "A1"
-    },
-    "die Briefmarke": {
-      "article": "die",
-      "plural": [
-        "Briefmarken"
-      ],
-      "cefr": "A1"
-    },
-    "bringen": {
-      "cefr": "A1"
-    },
-    "das Brot": {
-      "article": "das",
-      "plural": [
-        "Brote"
-      ],
-      "cefr": "A1"
-    },
-    "das Brötchen": {
-      "article": "das",
-      "plural": [
-        "Brötchen"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "D"
-      ]
-    },
-    "der Bruder": {
-      "article": "der",
-      "plural": [
-        "Brüder"
-      ],
-      "cefr": "A1"
-    },
-    "das Buch": {
-      "article": "das",
-      "plural": [
-        "Bücher"
-      ],
-      "cefr": "A1"
-    },
-    "der Buchstabe": {
-      "article": "der",
-      "plural": [
-        "Buchstaben"
-      ],
-      "cefr": "A1"
-    },
-    "buchstabieren": {
-      "cefr": "A1"
-    },
-    "der Bus": {
-      "article": "der",
-      "plural": [
-        "Busse"
-      ],
-      "cefr": "A1"
-    },
-    "die Butter": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "das Café": {
-      "article": "das",
-      "plural": [
-        "Cafés"
-      ],
-      "cefr": "A1"
-    },
-    "die CD": {
-      "article": "die",
-      "plural": [
-        "CDs"
-      ],
-      "cefr": "A1"
-    },
-    "der Chef": {
-      "article": "der",
-      "plural": [
-        "Chefs"
-      ],
-      "cefr": "A1"
-    },
-    "circa": {
-      "cefr": "A1"
-    },
-    "ca.": {
-      "cefr": "A1"
-    },
-    "der Computer": {
-      "article": "der",
-      "plural": [
-        "Computer"
-      ],
-      "cefr": "A1"
-    },
-    "da": {
-      "cefr": "A1"
-    },
-    "die Dame": {
-      "article": "die",
-      "plural": [
-        "Damen"
-      ],
-      "cefr": "A1"
-    },
-    "daneben": {
-      "cefr": "A1"
-    },
-    "danken": {
-      "cefr": "A1"
-    },
-    "der Dank": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "danke": {
-      "cefr": "A1"
-    },
-    "dann": {
-      "cefr": "A1"
-    },
-    "das Datum": {
-      "article": "das",
-      "plural": [
-        "Daten"
-      ],
-      "cefr": "A1"
-    },
-    "dauern": {
-      "cefr": "A1"
-    },
-    "dein-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "denn": {
-      "cefr": "A1"
-    },
-    "der": {
-      "cefr": "A1"
-    },
-    "die": {
-      "cefr": "A1"
-    },
-    "das": {
-      "cefr": "A1"
-    },
-    "dich": {
-      "cefr": "A1"
-    },
-    "dies-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "dir": {
-      "cefr": "A1"
-    },
-    "die Disco": {
-      "article": "die",
-      "plural": [
-        "Discos"
-      ],
-      "cefr": "A1"
-    },
-    "der Doktor": {
-      "article": "der",
-      "plural": [
-        "Doktoren"
-      ],
-      "cefr": "A1"
-    },
-    "das Doppelzimmer": {
-      "article": "das",
-      "plural": [
-        "Doppelzimmer"
-      ],
-      "cefr": "A1"
-    },
-    "das Dorf": {
-      "article": "das",
-      "plural": [
-        "Dörfer"
-      ],
-      "cefr": "A1"
-    },
-    "dort": {
-      "cefr": "A1"
-    },
-    "draußen": {
-      "cefr": "A1"
-    },
-    "drucken": {
-      "cefr": "A1"
-    },
-    "der Drucker": {
-      "article": "der",
-      "plural": [
-        "Drucker"
-      ],
-      "cefr": "A1"
-    },
-    "drücken": {
-      "cefr": "A1"
-    },
-    "durch": {
-      "cefr": "A1"
-    },
-    "die Durchsage": {
-      "article": "die",
-      "plural": [
-        "Durchsagen"
-      ],
-      "cefr": "A1"
-    },
-    "dürfen": {
-      "cefr": "A1"
-    },
-    "der Durst": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "duschen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "die Dusche": {
-      "article": "die",
-      "plural": [
-        "Duschen"
-      ],
-      "cefr": "A1"
-    },
-    "die Ecke": {
-      "article": "die",
-      "plural": [
-        "Ecken"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "CH",
-        "D"
-      ]
-    },
-    "die Ehefrau": {
-      "article": "die",
-      "plural": [
-        "Ehefrauen"
-      ],
-      "cefr": "A1"
-    },
-    "der Ehemann": {
-      "article": "der",
-      "plural": [
-        "Ehemänner"
-      ],
-      "cefr": "A1"
-    },
-    "das Ei": {
-      "article": "das",
-      "plural": [
-        "Eier"
-      ],
-      "cefr": "A1"
-    },
-    "eilig": {
-      "cefr": "A1"
-    },
-    "ein-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "einfach": {
-      "cefr": "A1"
-    },
-    "der Eingang": {
-      "article": "der",
-      "plural": [
-        "Eingänge"
-      ],
-      "cefr": "A1"
-    },
-    "einkaufen": {
-      "cefr": "A1"
-    },
-    "einladen": {
-      "cefr": "A1"
-    },
-    "die Einladung": {
-      "article": "die",
-      "plural": [
-        "Einladungen"
-      ],
-      "cefr": "A1"
-    },
-    "einmal": {
-      "cefr": "A1"
-    },
-    "einsteigen": {
-      "cefr": "A1"
-    },
-    "der Eintritt": {
-      "article": "der",
-      "plural": [
-        "Eintritte"
-      ],
-      "cefr": "A1"
-    },
-    "das Einzelzimmer": {
-      "article": "das",
-      "plural": [
-        "Einzelzimmer"
-      ],
-      "cefr": "A1"
-    },
-    "die Eltern": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "die E-Mail": {
-      "article": "die",
-      "plural": [
-        "E-Mails"
-      ],
-      "cefr": "A1"
-    },
-    "der Empfänger": {
-      "article": "der",
-      "plural": [
-        "Empfänger"
-      ],
-      "cefr": "A1"
-    },
-    "empfehlen": {
-      "cefr": "A1"
-    },
-    "enden": {
-      "cefr": "A1"
-    },
-    "das Ende": {
-      "article": "das",
-      "plural": [
-        "Enden"
-      ],
-      "cefr": "A1"
-    },
-    "entschuldigen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "die Entschuldigung": {
-      "article": "die",
-      "plural": [
-        "Entschuldigungen"
-      ],
-      "cefr": "A1"
-    },
-    "er": {
-      "cefr": "A1"
-    },
-    "das Ergebnis": {
-      "article": "das",
-      "plural": [
-        "Ergebnisse"
-      ],
-      "cefr": "A1"
-    },
-    "erklären": {
-      "cefr": "A1"
-    },
-    "erlauben": {
-      "cefr": "A1"
-    },
-    "der Erwachsene": {
-      "article": "der",
-      "plural": [
-        "Erwachsenen"
-      ],
-      "cefr": "A1"
-    },
-    "erzählen": {
-      "cefr": "A1"
-    },
-    "es": {
-      "cefr": "A1"
-    },
-    "essen": {
-      "cefr": "A1"
-    },
-    "das Essen": {
-      "article": "das",
-      "plural": [
-        "Essen"
-      ],
-      "cefr": "A1"
-    },
-    "euer": {
-      "cefr": "A1"
-    },
-    "fahren": {
-      "cefr": "A1"
-    },
-    "der Fahrer": {
-      "article": "der",
-      "plural": [
-        "Fahrer"
-      ],
-      "cefr": "A1"
-    },
-    "die Fahrkarte": {
-      "article": "die",
-      "plural": [
-        "Fahrkarten"
-      ],
-      "cefr": "A1"
-    },
-    "das Fahrrad": {
-      "article": "das",
-      "plural": [
-        "Fahrräder"
-      ],
-      "cefr": "A1"
-    },
-    "falsch": {
-      "cefr": "A1"
-    },
-    "die Familie": {
-      "article": "die",
-      "plural": [
-        "Familien"
-      ],
-      "cefr": "A1"
-    },
-    "der Familienname": {
-      "article": "der",
-      "plural": [
-        "Familiennamen"
-      ],
-      "cefr": "A1"
-    },
-    "der Familienstand": {
-      "article": "der",
-      "plural": [
-        "Familienstände"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "die Farbe": {
-      "article": "die",
-      "plural": [
-        "Farben"
-      ],
-      "cefr": "A1"
-    },
-    "das Fax": {
-      "article": "das",
-      "plural": [
-        "Faxe"
-      ],
-      "cefr": "A1"
-    },
-    "Feier-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "feiern": {
-      "cefr": "A1"
-    },
-    "fehlen": {
-      "cefr": "A1"
-    },
-    "der Fehler": {
-      "article": "der",
-      "plural": [
-        "Fehler"
-      ],
-      "cefr": "A1"
-    },
-    "fernsehen": {
-      "cefr": "A1"
-    },
-    "fertig": {
-      "cefr": "A1"
-    },
-    "das Feuer": {
-      "article": "das",
-      "plural": [
-        "Feuer"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "das Fieber": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "der Film": {
-      "article": "der",
-      "plural": [
-        "Filme"
-      ],
-      "cefr": "A1"
-    },
-    "finden": {
-      "cefr": "A1"
-    },
-    "die Firma": {
-      "article": "die",
-      "plural": [
-        "Firmen"
-      ],
-      "cefr": "A1"
-    },
-    "der Fisch": {
-      "article": "der",
-      "plural": [
-        "Fische"
-      ],
-      "cefr": "A1"
-    },
-    "die Flasche": {
-      "article": "die",
-      "plural": [
-        "Flaschen"
-      ],
-      "cefr": "A1"
-    },
-    "das Fleisch": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "fliegen": {
-      "cefr": "A1"
-    },
-    "abfliegen": {
-      "cefr": "A1"
-    },
-    "der Abflug": {
-      "article": "der",
-      "plural": [
-        "Abflüge"
-      ],
-      "cefr": "A1"
-    },
-    "der Flughafen": {
-      "article": "der",
-      "plural": [
-        "Flughäfen"
-      ],
-      "cefr": "A1"
-    },
-    "das Flugzeug": {
-      "article": "das",
-      "plural": [
-        "Flugzeuge"
-      ],
-      "cefr": "A1"
-    },
-    "das Formular": {
-      "article": "das",
-      "plural": [
-        "Formulare"
-      ],
-      "cefr": "A1"
-    },
-    "das Foto": {
-      "article": "das",
-      "plural": [
-        "Fotos"
-      ],
-      "cefr": "A1"
-    },
-    "fragen": {
-      "cefr": "A1"
-    },
-    "die Frage": {
-      "article": "die",
-      "plural": [
-        "Fragen"
-      ],
-      "cefr": "A1"
-    },
-    "die Frau": {
-      "article": "die",
-      "plural": [
-        "Frauen"
-      ],
-      "cefr": "A1"
-    },
-    "frei": {
-      "cefr": "A1"
-    },
-    "die Freizeit": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "fremd": {
-      "cefr": "A1"
-    },
-    "freuen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "der Freund": {
-      "article": "der",
-      "plural": [
-        "Freunde"
-      ],
-      "cefr": "A1"
-    },
-    "früher": {
-      "cefr": "A1"
-    },
-    "frühstücken": {
-      "cefr": "A1"
-    },
-    "das Frühstück": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "die Führung": {
-      "article": "die",
-      "plural": [
-        "Führungen"
-      ],
-      "cefr": "A1"
-    },
-    "für": {
-      "cefr": "A1"
-    },
-    "der Fuß": {
-      "article": "der",
-      "plural": [
-        "Füße"
-      ],
-      "cefr": "A1"
-    },
-    "der Fußball": {
-      "article": "der",
-      "plural": [
-        "Fußbälle"
-      ],
-      "cefr": "A1"
-    },
-    "der Garten": {
-      "article": "der",
-      "plural": [
-        "Gärten"
-      ],
-      "cefr": "A1"
-    },
-    "der Gast": {
-      "article": "der",
-      "plural": [
-        "Gäste"
-      ],
-      "cefr": "A1"
-    },
-    "geben": {
-      "cefr": "A1"
-    },
-    "geboren": {
-      "cefr": "A1"
-    },
-    "das Geburtsjahr": {
-      "article": "das",
-      "plural": [
-        "Geburtsjahre"
-      ],
-      "cefr": "A1"
-    },
-    "der Geburtsort": {
-      "article": "der",
-      "plural": [
-        "Geburtsorte"
-      ],
-      "cefr": "A1"
-    },
-    "der Geburtstag": {
-      "article": "der",
-      "plural": [
-        "Geburtstage"
-      ],
-      "cefr": "A1"
-    },
-    "gefallen": {
-      "cefr": "A1"
-    },
-    "gegen": {
-      "cefr": "A1"
-    },
-    "gehen": {
-      "cefr": "A1"
-    },
-    "gehören": {
-      "cefr": "A1"
-    },
-    "das Geld": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "das Gemüse": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "das Gepäck": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "gerade": {
-      "cefr": "A1"
-    },
-    "geradeaus": {
-      "cefr": "A1"
-    },
-    "gern": {
-      "cefr": "A1"
-    },
-    "gerne": {
-      "cefr": "A1"
-    },
-    "das Geschäft": {
-      "article": "das",
-      "plural": [
-        "Geschäfte"
-      ],
-      "cefr": "A1"
-    },
-    "das Geschenk": {
-      "article": "das",
-      "plural": [
-        "Geschenke"
-      ],
-      "cefr": "A1"
-    },
-    "die Geschwister": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "das Gespräch": {
-      "article": "das",
-      "plural": [
-        "Gespräche"
-      ],
-      "cefr": "A1"
-    },
-    "gestern": {
-      "cefr": "A1"
-    },
-    "gestorben": {
-      "cefr": "A1"
-    },
-    "das Getränk": {
-      "article": "das",
-      "plural": [
-        "Getränke"
-      ],
-      "cefr": "A1"
-    },
-    "das Gewicht": {
-      "article": "das",
-      "plural": [
-        "Gewichte"
-      ],
-      "cefr": "A1"
-    },
-    "gewinnen": {
-      "cefr": "A1"
-    },
-    "das Glas": {
-      "article": "das",
-      "plural": [
-        "Gläser"
-      ],
-      "cefr": "A1"
-    },
-    "glauben": {
-      "cefr": "A1"
-    },
-    "gleich": {
-      "cefr": "A1"
-    },
-    "das Gleis": {
-      "article": "das",
-      "plural": [
-        "Gleise"
-      ],
-      "cefr": "A1"
-    },
-    "das Glück": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "glücklich": {
-      "cefr": "A1"
-    },
-    "der Glückwunsch": {
-      "article": "der",
-      "plural": [
-        "Glückwünsche"
-      ],
-      "cefr": "A1"
-    },
-    "der Grad": {
-      "article": "der",
-      "plural": [
-        "Grad"
-      ],
-      "cefr": "A1"
-    },
-    "gratulieren": {
-      "cefr": "A1"
-    },
-    "grillen": {
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "groß": {
-      "cefr": "A1"
-    },
-    "die Größe": {
-      "article": "die",
-      "plural": [
-        "Größen"
-      ],
-      "cefr": "A1"
-    },
-    "die Großeltern": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "die Großmutter": {
-      "article": "die",
-      "plural": [
-        "Großmütter"
-      ],
-      "cefr": "A1"
-    },
-    "der Großvater": {
-      "article": "der",
-      "plural": [
-        "Großväter"
-      ],
-      "cefr": "A1"
-    },
-    "die Gruppe": {
-      "article": "die",
-      "plural": [
-        "Gruppen"
-      ],
-      "cefr": "A1"
-    },
-    "der Gruß": {
-      "article": "der",
-      "plural": [
-        "Grüße"
-      ],
-      "cefr": "A1"
-    },
-    "gültig": {
-      "cefr": "A1"
-    },
-    "günstig": {
-      "cefr": "A1"
-    },
-    "gut": {
-      "cefr": "A1"
-    },
-    "das Haar": {
-      "article": "das",
-      "plural": [
-        "Haare"
-      ],
-      "cefr": "A1"
-    },
-    "haben": {
-      "cefr": "A1"
-    },
-    "das Hähnchen": {
-      "article": "das",
-      "plural": [
-        "Hähnchen"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "D"
-      ]
-    },
-    "die Halbpension": {
-      "article": "die",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "die Halle": {
-      "article": "die",
-      "plural": [
-        "Hallen"
-      ],
-      "cefr": "A1"
-    },
-    "hallo": {
-      "cefr": "A1"
-    },
-    "halten": {
-      "cefr": "A1"
-    },
-    "die Haltestelle": {
-      "article": "die",
-      "plural": [
-        "Haltestellen"
-      ],
-      "cefr": "A1"
-    },
-    "die Hand": {
-      "article": "die",
-      "plural": [
-        "Hände"
-      ],
-      "cefr": "A1"
-    },
-    "das Handy": {
-      "article": "das",
-      "plural": [
-        "Handys"
-      ],
-      "cefr": "A1"
-    },
-    "das Haus": {
-      "article": "das",
-      "plural": [
-        "Häuser"
-      ],
-      "cefr": "A1"
-    },
-    "die Hausaufgabe": {
-      "article": "die",
-      "plural": [
-        "Hausaufgaben"
-      ],
-      "cefr": "A1"
-    },
-    "die Hausfrau": {
-      "article": "die",
-      "plural": [
-        "Hausfrauen"
-      ],
-      "cefr": "A1"
-    },
-    "der Hausmann": {
-      "article": "der",
-      "plural": [
-        "Hausmänner"
-      ],
-      "cefr": "A1"
-    },
-    "die Heimat": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "heiraten": {
-      "cefr": "A1"
-    },
-    "heißen": {
-      "cefr": "A1"
-    },
-    "helfen": {
-      "cefr": "A1"
-    },
-    "hell": {
-      "cefr": "A1"
-    },
-    "der Herd": {
-      "article": "der",
-      "plural": [
-        "Herde"
-      ],
-      "cefr": "A1"
-    },
-    "der Herr": {
-      "article": "der",
-      "plural": [
-        "Herren"
-      ],
-      "cefr": "A1"
-    },
-    "herzlich": {
-      "cefr": "A1"
-    },
-    "heute": {
-      "cefr": "A1"
-    },
-    "hier": {
-      "cefr": "A1"
-    },
-    "die Hilfe": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "hinten": {
-      "cefr": "A1"
-    },
-    "das Hobby": {
-      "article": "das",
-      "plural": [
-        "Hobbys"
-      ],
-      "cefr": "A1"
-    },
-    "hoch": {
-      "cefr": "A1"
-    },
-    "die Hochzeit": {
-      "article": "die",
-      "plural": [
-        "Hochzeiten"
-      ],
-      "cefr": "A1"
-    },
-    "holen": {
-      "cefr": "A1"
-    },
-    "hören": {
-      "cefr": "A1"
-    },
-    "das Hotel": {
-      "article": "das",
-      "plural": [
-        "Hotels"
-      ],
-      "cefr": "A1"
-    },
-    "der Hund": {
-      "article": "der",
-      "plural": [
-        "Hunde"
-      ],
-      "cefr": "A1"
-    },
-    "der Hunger": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "ich": {
-      "cefr": "A1"
-    },
-    "ihr / Ihr": {
-      "cefr": "A1"
-    },
-    "ihm": {
-      "cefr": "A1"
-    },
-    "ihn": {
-      "cefr": "A1"
-    },
-    "immer": {
-      "cefr": "A1"
-    },
-    "in": {
-      "cefr": "A1"
-    },
-    "die Information": {
-      "article": "die",
-      "plural": [
-        "Informationen"
-      ],
-      "cefr": "A1"
-    },
-    "international": {
-      "cefr": "A1"
-    },
-    "das Internet": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "ja": {
-      "cefr": "A1"
-    },
-    "die Jacke": {
-      "article": "die",
-      "plural": [
-        "Jacken"
-      ],
-      "cefr": "A1"
-    },
-    "jed-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "jetzt": {
-      "cefr": "A1"
-    },
-    "der Job": {
-      "article": "der",
-      "plural": [
-        "Jobs"
-      ],
-      "cefr": "A1"
-    },
-    "der Jugendliche": {
-      "article": "der",
-      "plural": [
-        "Jugendlichen"
-      ],
-      "cefr": "A1"
-    },
-    "jung": {
-      "cefr": "A1"
-    },
-    "der Junge": {
-      "article": "der",
-      "plural": [
-        "Jungen"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "D"
-      ]
-    },
-    "der Kaffee": {
-      "article": "der",
-      "plural": [
-        "Kaffees"
-      ],
-      "cefr": "A1"
-    },
-    "kaputt": {
-      "cefr": "A1"
-    },
-    "die Karte": {
-      "article": "die",
-      "plural": [
-        "Karten"
-      ],
-      "cefr": "A1"
-    },
-    "die Kreditkarte": {
-      "article": "die",
-      "plural": [
-        "Kreditkarten"
-      ],
-      "cefr": "A1"
-    },
-    "die Kartoffel": {
-      "article": "die",
-      "plural": [
-        "Kartoffeln"
-      ],
-      "cefr": "A1"
-    },
-    "die Kasse": {
-      "article": "die",
-      "plural": [
-        "Kassen"
-      ],
-      "cefr": "A1"
-    },
-    "kaufen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "kein": {
-      "cefr": "A1"
-    },
-    "kennen": {
-      "cefr": "A1"
-    },
-    "kennenlernen": {
-      "cefr": "A1"
-    },
-    "das Kind": {
-      "article": "das",
-      "plural": [
-        "Kinder"
-      ],
-      "cefr": "A1"
-    },
-    "der Kindergarten": {
-      "article": "der",
-      "plural": [
-        "Kindergärten"
-      ],
-      "cefr": "A1"
-    },
-    "das Kino": {
-      "article": "das",
-      "plural": [
-        "Kinos"
-      ],
-      "cefr": "A1"
-    },
-    "der Kiosk": {
-      "article": "der",
-      "plural": [
-        "Kioske"
-      ],
-      "cefr": "A1"
-    },
-    "klar": {
-      "cefr": "A1"
-    },
-    "die Klasse": {
-      "article": "die",
-      "plural": [
-        "Klassen"
-      ],
-      "cefr": "A1"
-    },
-    "die Kleidung": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "klein": {
-      "cefr": "A1"
-    },
-    "kochen": {
-      "cefr": "A1"
-    },
-    "der Koffer": {
-      "article": "der",
-      "plural": [
-        "Koffer"
-      ],
-      "cefr": "A1"
-    },
-    "der Kollege": {
-      "article": "der",
-      "plural": [
-        "Kollegen"
-      ],
-      "cefr": "A1"
-    },
-    "kommen": {
-      "cefr": "A1"
-    },
-    "können": {
-      "cefr": "A1"
-    },
-    "das Konto": {
-      "article": "das",
-      "plural": [
-        "Konten"
-      ],
-      "cefr": "A1"
-    },
-    "der Kopf": {
-      "article": "der",
-      "plural": [
-        "Köpfe"
-      ],
-      "cefr": "A1"
-    },
-    "kosten": {
-      "cefr": "A1",
-      "regions": [
-        "A"
-      ]
-    },
-    "krank": {
-      "cefr": "A1"
-    },
-    "kriegen": {
-      "cefr": "A1"
-    },
-    "die Küche": {
-      "article": "die",
-      "plural": [
-        "Küchen"
-      ],
-      "cefr": "A1"
-    },
-    "der Kuchen": {
-      "article": "der",
-      "plural": [
-        "Kuchen"
-      ],
-      "cefr": "A1"
-    },
-    "der Kugelschreiber": {
-      "article": "der",
-      "plural": [
-        "Kugelschreiber"
-      ],
-      "cefr": "A1"
-    },
-    "der Kühlschrank": {
-      "article": "der",
-      "plural": [
-        "Kühlschränke"
-      ],
-      "cefr": "A1"
-    },
-    "kulturell": {
-      "cefr": "A1"
-    },
-    "kümmern": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "der Kunde": {
-      "article": "der",
-      "plural": [
-        "Kunden"
-      ],
-      "cefr": "A1"
-    },
-    "der Kurs": {
-      "article": "der",
-      "plural": [
-        "Kurse"
-      ],
-      "cefr": "A1"
-    },
-    "kurz": {
-      "cefr": "A1"
-    },
-    "lachen": {
-      "cefr": "A1"
-    },
-    "der Laden": {
-      "article": "der",
-      "plural": [
-        "Läden"
-      ],
-      "cefr": "A1"
-    },
-    "das Land": {
-      "article": "das",
-      "plural": [
-        "Länder"
-      ],
-      "cefr": "A1"
-    },
-    "lang": {
-      "cefr": "A1"
-    },
-    "lange": {
-      "cefr": "A1"
-    },
-    "langsam": {
-      "cefr": "A1"
-    },
-    "laufen": {
-      "cefr": "A1"
-    },
-    "laut": {
-      "cefr": "A1"
-    },
-    "leben": {
-      "cefr": "A1"
-    },
-    "das Leben": {
-      "article": "das",
-      "plural": [
-        "Leben"
-      ],
-      "cefr": "A1"
-    },
-    "die Lebensmittel": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "ledig": {
-      "cefr": "A1"
-    },
-    "legen": {
-      "cefr": "A1"
-    },
-    "der Lehrer": {
-      "article": "der",
-      "plural": [
-        "Lehrer"
-      ],
-      "cefr": "A1"
-    },
-    "leicht": {
-      "cefr": "A1"
-    },
-    "leider": {
-      "cefr": "A1"
-    },
-    "leise": {
-      "cefr": "A1"
-    },
-    "lernen": {
-      "cefr": "A1"
-    },
-    "lesen": {
-      "cefr": "A1"
-    },
-    "letzt-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "die Leute": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "das Licht": {
-      "article": "das",
-      "plural": [
-        "Lichter"
-      ],
-      "cefr": "A1"
-    },
-    "lieb-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "lieben": {
-      "cefr": "A1"
-    },
-    "lieber": {
-      "cefr": "A1"
-    },
-    "Lieblings-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "das Lied": {
-      "article": "das",
-      "plural": [
-        "Lieder"
-      ],
-      "cefr": "A1"
-    },
-    "liegen": {
-      "cefr": "A1"
-    },
-    "links": {
-      "cefr": "A1"
-    },
-    "der Lkw": {
-      "article": "der",
-      "plural": [
-        "Lkws"
-      ],
-      "cefr": "A1"
-    },
-    "das Lokal": {
-      "article": "das",
-      "plural": [
-        "Lokale"
-      ],
-      "cefr": "A1"
-    },
-    "die Lösung": {
-      "article": "die",
-      "plural": [
-        "Lösungen"
-      ],
-      "cefr": "A1"
-    },
-    "lustig": {
-      "cefr": "A1"
-    },
-    "machen": {
-      "cefr": "A1"
-    },
-    "das Mädchen": {
-      "article": "das",
-      "plural": [
-        "Mädchen"
-      ],
-      "cefr": "A1"
-    },
-    "man": {
-      "cefr": "A1"
-    },
-    "der Mann": {
-      "article": "der",
-      "plural": [
-        "Männer"
-      ],
-      "cefr": "A1"
-    },
-    "männlich": {
-      "cefr": "A1"
-    },
-    "die Maschine": {
-      "article": "die",
-      "plural": [
-        "Maschinen"
-      ],
-      "cefr": "A1"
-    },
-    "das Meer": {
-      "article": "das",
-      "plural": [
-        "Meere"
-      ],
-      "cefr": "A1"
-    },
-    "mehr": {
-      "cefr": "A1"
-    },
-    "mein": {
-      "cefr": "A1"
-    },
-    "meist-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "der Mensch": {
-      "article": "der",
-      "plural": [
-        "Menschen"
-      ],
-      "cefr": "A1"
-    },
-    "mieten": {
-      "cefr": "A1"
-    },
-    "die Miete": {
-      "article": "die",
-      "plural": [
-        "Mieten"
-      ],
-      "cefr": "A1"
-    },
-    "die Milch": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "mit": {
-      "cefr": "A1"
-    },
-    "mitbringen": {
-      "cefr": "A1"
-    },
-    "mitkommen": {
-      "cefr": "A1"
-    },
-    "mitmachen": {
-      "cefr": "A1"
-    },
-    "mitnehmen": {
-      "cefr": "A1"
-    },
-    "die Mitte": {
-      "article": "die",
-      "plural": [
-        "Mitten"
-      ],
-      "cefr": "A1"
-    },
-    "die Möbel": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "möchten": {
-      "usage": "mögen의 접속법 2식으로 정중한 희망을 나타냅니다.",
-      "cefr": "A1"
-    },
-    "mögen": {
-      "cefr": "A1"
-    },
-    "möglich": {
-      "cefr": "A1"
-    },
-    "der Moment": {
-      "article": "der",
-      "plural": [
-        "Momente"
-      ],
-      "cefr": "A1"
-    },
-    "morgen": {
-      "cefr": "A1"
-    },
-    "müde": {
-      "cefr": "A1"
-    },
-    "der Mund": {
-      "article": "der",
-      "plural": [
-        "Münder"
-      ],
-      "cefr": "A1"
-    },
-    "müssen": {
-      "cefr": "A1"
-    },
-    "die Mutter": {
-      "article": "die",
-      "plural": [
-        "Mütter"
-      ],
-      "cefr": "A1"
-    },
-    "nach": {
-      "cefr": "A1"
-    },
-    "nächst-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "der Name": {
-      "article": "der",
-      "plural": [
-        "Namen"
-      ],
-      "cefr": "A1"
-    },
-    "nehmen": {
-      "cefr": "A1"
-    },
-    "nein": {
-      "cefr": "A1"
-    },
-    "neu": {
-      "cefr": "A1"
-    },
-    "nicht": {
-      "cefr": "A1"
-    },
-    "nichts": {
-      "cefr": "A1"
-    },
-    "nie": {
-      "cefr": "A1"
-    },
-    "noch": {
-      "cefr": "A1"
-    },
-    "normal": {
-      "cefr": "A1"
-    },
-    "die Nummer": {
-      "article": "die",
-      "plural": [
-        "Nummern"
-      ],
-      "cefr": "A1"
-    },
-    "nur": {
-      "cefr": "A1"
-    },
-    "oben": {
-      "cefr": "A1"
-    },
-    "das Obst": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "oder": {
-      "cefr": "A1"
-    },
-    "öffnen": {
-      "cefr": "A1"
-    },
-    "geöffnet": {
-      "cefr": "A1"
-    },
-    "oft": {
-      "cefr": "A1"
-    },
-    "ohne": {
-      "cefr": "A1"
-    },
-    "das Öl": {
-      "article": "das",
-      "plural": [
-        "Öle"
-      ],
-      "cefr": "A1"
-    },
-    "die Oma": {
-      "article": "die",
-      "plural": [
-        "Omas"
-      ],
-      "cefr": "A1"
-    },
-    "der Opa": {
-      "article": "der",
-      "plural": [
-        "Opas"
-      ],
-      "cefr": "A1"
-    },
-    "die Ordnung": {
-      "article": "die",
-      "plural": [
-        "Ordnungen"
-      ],
-      "cefr": "A1"
-    },
-    "der Ort": {
-      "article": "der",
-      "plural": [
-        "Orte"
-      ],
-      "cefr": "A1"
-    },
-    "das Papier": {
-      "article": "das",
-      "plural": [
-        "Papiere"
-      ],
-      "cefr": "A1"
-    },
-    "die Papiere": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "der Partner": {
-      "article": "der",
-      "plural": [
-        "Partner"
-      ],
-      "cefr": "A1"
-    },
-    "die Partnerin": {
-      "article": "die",
-      "plural": [
-        "Partnerinnen"
-      ],
-      "cefr": "A1"
-    },
-    "die Party": {
-      "article": "die",
-      "plural": [
-        "Partys"
-      ],
-      "cefr": "A1"
-    },
-    "der Pass": {
-      "article": "der",
-      "plural": [
-        "Pässe"
-      ],
-      "cefr": "A1"
-    },
-    "die Pause": {
-      "article": "die",
-      "plural": [
-        "Pausen"
-      ],
-      "cefr": "A1"
-    },
-    "der Plan": {
-      "article": "der",
-      "plural": [
-        "Pläne"
-      ],
-      "cefr": "A1"
-    },
-    "der Platz": {
-      "article": "der",
-      "plural": [
-        "Plätze"
-      ],
-      "cefr": "A1"
-    },
-    "die Polizei": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "die Pommes frites": {
-      "article": "die",
-      "pluralOnly": true,
-      "cefr": "A1"
-    },
-    "die Post": {
-      "article": "die",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "die Postleitzahl": {
-      "article": "die",
-      "plural": [
-        "Postleitzahlen"
-      ],
-      "cefr": "A1"
-    },
-    "das Praktikum": {
-      "article": "das",
-      "plural": [
-        "Praktika"
-      ],
-      "cefr": "A1"
-    },
-    "die Praxis": {
-      "article": "die",
-      "plural": [
-        "Praxen"
-      ],
-      "cefr": "A1"
-    },
-    "der Preis": {
-      "article": "der",
-      "plural": [
-        "Preise"
-      ],
-      "cefr": "A1"
-    },
-    "das Problem": {
-      "article": "das",
-      "plural": [
-        "Probleme"
-      ],
-      "cefr": "A1"
-    },
-    "der Prospekt": {
-      "article": "der",
-      "plural": [
-        "Prospekte"
-      ],
-      "cefr": "A1"
-    },
-    "die Prüfung": {
-      "article": "die",
-      "plural": [
-        "Prüfungen"
-      ],
-      "cefr": "A1"
-    },
-    "pünktlich": {
-      "cefr": "A1"
-    },
-    "Rad fahren": {
-      "cefr": "A1"
-    },
-    "rauchen": {
-      "cefr": "A1"
-    },
-    "der Raum": {
-      "article": "der",
-      "plural": [
-        "Räume"
-      ],
-      "cefr": "A1"
-    },
-    "die Rechnung": {
-      "article": "die",
-      "plural": [
-        "Rechnungen"
-      ],
-      "cefr": "A1"
-    },
-    "rechts": {
-      "cefr": "A1"
-    },
-    "regnen": {
-      "cefr": "A1"
-    },
-    "der Regen": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "der Reis": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "reisen": {
-      "cefr": "A1"
-    },
-    "die Reise": {
-      "article": "die",
-      "plural": [
-        "Reisen"
-      ],
-      "cefr": "A1"
-    },
-    "das Reisebüro": {
-      "article": "das",
-      "plural": [
-        "Reisebüros"
-      ],
-      "cefr": "A1"
-    },
-    "der Reiseführer": {
-      "article": "der",
-      "plural": [
-        "Reiseführer"
-      ],
-      "cefr": "A1"
-    },
-    "reparieren": {
-      "cefr": "A1"
-    },
-    "die Reparatur": {
-      "article": "die",
-      "plural": [
-        "Reparaturen"
-      ],
-      "cefr": "A1"
-    },
-    "das Restaurant": {
-      "article": "das",
-      "plural": [
-        "Restaurants"
-      ],
-      "cefr": "A1"
-    },
-    "die Rezeption": {
-      "article": "die",
-      "plural": [
-        "Rezeptionen"
-      ],
-      "cefr": "A1"
-    },
-    "richtig": {
-      "cefr": "A1"
-    },
-    "riechen": {
-      "cefr": "A1"
-    },
-    "ruhig": {
-      "cefr": "A1"
-    },
-    "der Saft": {
-      "article": "der",
-      "plural": [
-        "Säfte"
-      ],
-      "cefr": "A1"
-    },
-    "sagen": {
-      "cefr": "A1"
-    },
-    "der Salat": {
-      "article": "der",
-      "plural": [
-        "Salate"
-      ],
-      "cefr": "A1"
-    },
-    "das Salz": {
-      "article": "das",
-      "plural": [
-        "Salze"
-      ],
-      "cefr": "A1"
-    },
-    "der Satz": {
-      "article": "der",
-      "plural": [
-        "Sätze"
-      ],
-      "cefr": "A1"
-    },
-    "die S-Bahn": {
-      "article": "die",
-      "plural": [
-        "S-Bahnen"
-      ],
-      "cefr": "A1"
-    },
-    "der Schalter": {
-      "article": "der",
-      "plural": [
-        "Schalter"
-      ],
-      "cefr": "A1"
-    },
-    "scheinen": {
-      "cefr": "A1"
-    },
-    "schicken": {
-      "cefr": "A1"
-    },
-    "das Schild": {
-      "article": "das",
-      "plural": [
-        "Schilder"
-      ],
-      "cefr": "A1"
-    },
-    "der Schinken": {
-      "article": "der",
-      "plural": [
-        "Schinken"
-      ],
-      "cefr": "A1"
-    },
-    "schlafen": {
-      "cefr": "A1"
-    },
-    "schlecht": {
-      "cefr": "A1"
-    },
-    "schließen": {
-      "cefr": "A1"
-    },
-    "geschlossen": {
-      "cefr": "A1"
-    },
-    "der Schluss": {
-      "article": "der",
-      "plural": [
-        "Schlüsse"
-      ],
-      "cefr": "A1"
-    },
-    "der Schlüssel": {
-      "article": "der",
-      "plural": [
-        "Schlüssel"
-      ],
-      "cefr": "A1"
-    },
-    "schmecken": {
-      "cefr": "A1"
-    },
-    "schnell": {
-      "cefr": "A1"
-    },
-    "schon": {
-      "cefr": "A1"
-    },
-    "schön": {
-      "cefr": "A1"
-    },
-    "der Schrank": {
-      "article": "der",
-      "plural": [
-        "Schränke"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "CH",
-        "D"
-      ]
-    },
-    "schreiben": {
-      "cefr": "A1"
-    },
-    "der Schuh": {
-      "article": "der",
-      "plural": [
-        "Schuhe"
-      ],
-      "cefr": "A1"
-    },
-    "die Schule": {
-      "article": "die",
-      "plural": [
-        "Schulen"
-      ],
-      "cefr": "A1"
-    },
-    "der Schüler": {
-      "article": "der",
-      "plural": [
-        "Schüler"
-      ],
-      "cefr": "A1"
-    },
-    "schwer": {
-      "cefr": "A1"
-    },
-    "die Schwester": {
-      "article": "die",
-      "plural": [
-        "Schwestern"
-      ],
-      "cefr": "A1"
-    },
-    "schwimmen": {
-      "cefr": "A1"
-    },
-    "das Schwimmbad": {
-      "article": "das",
-      "plural": [
-        "Schwimmbäder"
-      ],
-      "cefr": "A1"
-    },
-    "der See": {
-      "article": "der",
-      "plural": [
-        "Seen"
-      ],
-      "cefr": "A1"
-    },
-    "sehen": {
-      "cefr": "A1"
-    },
-    "die Sehenswürdigkeit": {
-      "article": "die",
-      "plural": [
-        "Sehenswürdigkeiten"
-      ],
-      "cefr": "A1"
-    },
-    "sehr": {
-      "cefr": "A1"
-    },
-    "sein": {
-      "cefr": "A1"
-    },
-    "weg sein": {
-      "cefr": "A1"
-    },
-    "zu sein": {
-      "cefr": "A1"
-    },
-    "seit": {
-      "cefr": "A1"
-    },
-    "selbstständig": {
-      "cefr": "A1"
-    },
-    "sich": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "sie / Sie": {
-      "cefr": "A1"
-    },
-    "sitzen": {
-      "cefr": "A1"
-    },
-    "so": {
-      "cefr": "A1"
-    },
-    "das Sofa": {
-      "article": "das",
-      "plural": [
-        "Sofas"
-      ],
-      "cefr": "A1"
-    },
-    "sofort": {
-      "cefr": "A1"
-    },
-    "der Sohn": {
-      "article": "der",
-      "plural": [
-        "Söhne"
-      ],
-      "cefr": "A1"
-    },
-    "sollen": {
-      "cefr": "A1"
-    },
-    "die Sonne": {
-      "article": "die",
-      "plural": [
-        "Sonnen"
-      ],
-      "cefr": "A1"
-    },
-    "spät": {
-      "cefr": "A1"
-    },
-    "später": {
-      "cefr": "A1"
-    },
-    "die Speisekarte": {
-      "article": "die",
-      "plural": [
-        "Speisekarten"
-      ],
-      "cefr": "A1"
-    },
-    "spielen": {
-      "cefr": "A1"
-    },
-    "der Sport": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "die Sprache": {
-      "article": "die",
-      "plural": [
-        "Sprachen"
-      ],
-      "cefr": "A1"
-    },
-    "sprechen": {
-      "cefr": "A1"
-    },
-    "die Stadt": {
-      "article": "die",
-      "plural": [
-        "Städte"
-      ],
-      "cefr": "A1"
-    },
-    "stehen": {
-      "cefr": "A1"
-    },
-    "die Stelle": {
-      "article": "die",
-      "plural": [
-        "Stellen"
-      ],
-      "cefr": "A1"
-    },
-    "stellen": {
-      "cefr": "A1"
-    },
-    "der Stock": {
-      "article": "der",
-      "plural": [
-        "Stockwerke",
-        "Stöcke"
-      ],
-      "cefr": "A1"
-    },
-    "die Straße": {
-      "article": "die",
-      "plural": [
-        "Straßen"
-      ],
-      "cefr": "A1"
-    },
-    "die Straßenbahn": {
-      "article": "die",
-      "plural": [
-        "Straßenbahnen"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "studieren": {
-      "cefr": "A1"
-    },
-    "das Studium": {
-      "article": "das",
-      "plural": [
-        "Studien"
-      ],
-      "cefr": "A1"
-    },
-    "der Student": {
-      "article": "der",
-      "plural": [
-        "Studenten"
-      ],
-      "cefr": "A1"
-    },
-    "die Stunde": {
-      "article": "die",
-      "plural": [
-        "Stunden"
-      ],
-      "cefr": "A1"
-    },
-    "suchen": {
-      "cefr": "A1"
-    },
-    "tanzen": {
-      "cefr": "A1"
-    },
-    "die Tasche": {
-      "article": "die",
-      "plural": [
-        "Taschen"
-      ],
-      "cefr": "A1"
-    },
-    "das Taxi": {
-      "article": "das",
-      "plural": [
-        "Taxis"
-      ],
-      "cefr": "A1"
-    },
-    "der Tee": {
-      "article": "der",
-      "plural": [
-        "Tees"
-      ],
-      "cefr": "A1"
-    },
-    "der Teil": {
-      "article": "der",
-      "plural": [
-        "Teile"
-      ],
-      "cefr": "A1"
-    },
-    "telefonieren": {
-      "cefr": "A1"
-    },
-    "das Telefon": {
-      "article": "das",
-      "plural": [
-        "Telefone"
-      ],
-      "cefr": "A1"
-    },
-    "der Termin": {
-      "article": "der",
-      "plural": [
-        "Termine"
-      ],
-      "cefr": "A1"
-    },
-    "der Test": {
-      "article": "der",
-      "plural": [
-        "Tests"
-      ],
-      "cefr": "A1"
-    },
-    "teuer": {
-      "cefr": "A1"
-    },
-    "der Text": {
-      "article": "der",
-      "plural": [
-        "Texte"
-      ],
-      "cefr": "A1"
-    },
-    "das Thema": {
-      "article": "das",
-      "plural": [
-        "Themen"
-      ],
-      "cefr": "A1"
-    },
-    "das Ticket": {
-      "article": "das",
-      "plural": [
-        "Tickets"
-      ],
-      "cefr": "A1"
-    },
-    "der Tisch": {
-      "article": "der",
-      "plural": [
-        "Tische"
-      ],
-      "cefr": "A1"
-    },
-    "die Tochter": {
-      "article": "die",
-      "plural": [
-        "Töchter"
-      ],
-      "cefr": "A1"
-    },
-    "die Toilette": {
-      "article": "die",
-      "plural": [
-        "Toiletten"
-      ],
-      "cefr": "A1"
-    },
-    "die Tomate": {
-      "article": "die",
-      "plural": [
-        "Tomaten"
-      ],
-      "cefr": "A1"
-    },
-    "tot": {
-      "cefr": "A1"
-    },
-    "treffen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "die Treppe": {
-      "article": "die",
-      "plural": [
-        "Treppen"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "CH",
-        "D"
-      ]
-    },
-    "trinken": {
-      "cefr": "A1"
-    },
-    "tschüss": {
-      "cefr": "A1"
-    },
-    "tun": {
-      "cefr": "A1"
-    },
-    "über": {
-      "cefr": "A1"
-    },
-    "übernachten": {
-      "cefr": "A1"
-    },
-    "überweisen": {
-      "cefr": "A1"
-    },
-    "die Uhr": {
-      "article": "die",
-      "plural": [
-        "Uhren"
-      ],
-      "cefr": "A1"
-    },
-    "um": {
-      "cefr": "A1"
-    },
-    "umziehen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "und": {
-      "cefr": "A1"
-    },
-    "unser-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "unten": {
-      "cefr": "A1"
-    },
-    "unter": {
-      "cefr": "A1"
-    },
-    "der Unterricht": {
-      "article": "der",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "unterschreiben": {
-      "cefr": "A1"
-    },
-    "die Unterschrift": {
-      "article": "die",
-      "plural": [
-        "Unterschriften"
-      ],
-      "cefr": "A1"
-    },
-    "der Urlaub": {
-      "article": "der",
-      "plural": [
-        "Urlaube"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "der Vater": {
-      "article": "der",
-      "plural": [
-        "Väter"
-      ],
-      "cefr": "A1"
-    },
-    "verboten": {
-      "cefr": "A1"
-    },
-    "verdienen": {
-      "cefr": "A1"
-    },
-    "der Verein": {
-      "article": "der",
-      "plural": [
-        "Vereine"
-      ],
-      "cefr": "A1"
-    },
-    "verheiratet": {
-      "cefr": "A1"
-    },
-    "verkaufen": {
-      "cefr": "A1"
-    },
-    "der Verkäufer": {
-      "article": "der",
-      "plural": [
-        "Verkäufer"
-      ],
-      "cefr": "A1"
-    },
-    "vermieten": {
-      "cefr": "A1"
-    },
-    "der Vermieter": {
-      "article": "der",
-      "plural": [
-        "Vermieter"
-      ],
-      "cefr": "A1"
-    },
-    "verstehen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "der Verwandte": {
-      "article": "der",
-      "plural": [
-        "Verwandten"
-      ],
-      "cefr": "A1"
-    },
-    "viel": {
-      "cefr": "A1"
-    },
-    "vielleicht": {
-      "cefr": "A1"
-    },
-    "von": {
-      "cefr": "A1"
-    },
-    "vor": {
-      "cefr": "A1"
-    },
-    "der Vorname": {
-      "article": "der",
-      "plural": [
-        "Vornamen"
-      ],
-      "cefr": "A1"
-    },
-    "die Vorsicht": {
-      "article": "die",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "vorstellen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "die Vorwahl": {
-      "article": "die",
-      "plural": [
-        "Vorwahlen"
-      ],
-      "cefr": "A1"
-    },
-    "wandern": {
-      "cefr": "A1"
-    },
-    "wann": {
-      "cefr": "A1"
-    },
-    "warten": {
-      "cefr": "A1"
-    },
-    "warum": {
-      "cefr": "A1"
-    },
-    "was": {
-      "cefr": "A1"
-    },
-    "was für ein": {
-      "cefr": "A1"
-    },
-    "waschen": {
-      "cefr": "A1",
-      "reflexive": true
-    },
-    "das Wasser": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "weh tun": {
-      "cefr": "A1"
-    },
-    "weiblich": {
-      "cefr": "A1"
-    },
-    "der Wein": {
-      "article": "der",
-      "plural": [
-        "Weine"
-      ],
-      "cefr": "A1"
-    },
-    "weit": {
-      "cefr": "A1"
-    },
-    "weiter": {
-      "cefr": "A1"
-    },
-    "welch-": {
-      "cefr": "A1",
-      "boundForm": true
-    },
-    "die Welt": {
-      "article": "die",
-      "plural": [
-        "Welten"
-      ],
-      "cefr": "A1"
-    },
-    "wenig": {
-      "cefr": "A1"
-    },
-    "wer": {
-      "cefr": "A1"
-    },
-    "werden": {
-      "cefr": "A1"
-    },
-    "das Wetter": {
-      "article": "das",
-      "singularOnly": true,
-      "cefr": "A1"
-    },
-    "wichtig": {
-      "cefr": "A1"
-    },
-    "wie": {
-      "cefr": "A1"
-    },
-    "wiederholen": {
-      "cefr": "A1"
-    },
-    "das Wiederhören": {
-      "article": "das",
-      "plural": [
-        "Wiederhören"
-      ],
-      "cefr": "A1"
-    },
-    "das Wiedersehen": {
-      "article": "das",
-      "plural": [
-        "Wiedersehen"
-      ],
-      "cefr": "A1"
-    },
-    "wie viel": {
-      "cefr": "A1"
-    },
-    "willkommen": {
-      "cefr": "A1"
-    },
-    "der Wind": {
-      "article": "der",
-      "plural": [
-        "Winde"
-      ],
-      "cefr": "A1"
-    },
-    "wir": {
-      "cefr": "A1"
-    },
-    "wissen": {
-      "cefr": "A1"
-    },
-    "wo": {
-      "cefr": "A1"
-    },
-    "woher": {
-      "cefr": "A1"
-    },
-    "wohin": {
-      "cefr": "A1"
-    },
-    "wohnen": {
-      "cefr": "A1"
-    },
-    "die Wohnung": {
-      "article": "die",
-      "plural": [
-        "Wohnungen"
-      ],
-      "cefr": "A1"
-    },
-    "wollen": {
-      "cefr": "A1"
-    },
-    "das Wort": {
-      "article": "das",
-      "plural": [
-        "Wörter",
-        "Worte"
-      ],
-      "cefr": "A1"
-    },
-    "wunderbar": {
-      "cefr": "A1"
-    },
-    "zahlen": {
-      "cefr": "A1"
-    },
-    "die Zeit": {
-      "article": "die",
-      "plural": [
-        "Zeiten"
-      ],
-      "cefr": "A1"
-    },
-    "zurzeit": {
-      "cefr": "A1"
-    },
-    "die Zeitung": {
-      "article": "die",
-      "plural": [
-        "Zeitungen"
-      ],
-      "cefr": "A1"
-    },
-    "die Zigarette": {
-      "article": "die",
-      "plural": [
-        "Zigaretten"
-      ],
-      "cefr": "A1"
-    },
-    "das Zimmer": {
-      "article": "das",
-      "plural": [
-        "Zimmer"
-      ],
-      "cefr": "A1"
-    },
-    "der Zoll": {
-      "article": "der",
-      "plural": [
-        "Zölle"
-      ],
-      "cefr": "A1"
-    },
-    "zu": {
-      "cefr": "A1"
-    },
-    "zufrieden": {
-      "cefr": "A1"
-    },
-    "der Zug": {
-      "article": "der",
-      "plural": [
-        "Züge"
-      ],
-      "cefr": "A1"
-    },
-    "zurück": {
-      "cefr": "A1"
-    },
-    "zusammen": {
-      "cefr": "A1"
-    },
-    "zwischen": {
-      "cefr": "A1"
-    },
-    "halb": {
-      "cefr": "A1"
-    },
-    "das Viertel": {
-      "article": "das",
-      "plural": [
-        "Viertel"
-      ],
-      "cefr": "A1",
-      "regions": [
-        "A",
-        "D"
-      ]
-    },
-    "eins": {
-      "cefr": "A1"
-    },
-    "zwei": {
-      "cefr": "A1"
-    },
-    "drei": {
-      "cefr": "A1"
-    },
-    "vier": {
-      "cefr": "A1"
-    },
-    "fünf": {
-      "cefr": "A1"
-    },
-    "sechs": {
-      "cefr": "A1"
-    },
-    "sieben": {
-      "cefr": "A1"
-    },
-    "acht": {
-      "cefr": "A1"
-    },
-    "neun": {
-      "cefr": "A1"
-    },
-    "zehn": {
-      "cefr": "A1"
-    },
-    "elf": {
-      "cefr": "A1"
-    },
-    "zwölf": {
-      "cefr": "A1"
-    },
-    "dreizehn": {
-      "cefr": "A1"
-    },
-    "vierzehn": {
-      "cefr": "A1"
-    },
-    "fünfzehn": {
-      "cefr": "A1"
-    },
-    "sechzehn": {
-      "cefr": "A1"
-    },
-    "siebzehn": {
-      "cefr": "A1"
-    },
-    "achtzehn": {
-      "cefr": "A1"
-    },
-    "neunzehn": {
-      "cefr": "A1"
-    },
-    "zwanzig": {
-      "cefr": "A1"
-    },
-    "einundzwanzig": {
-      "cefr": "A1"
-    },
-    "dreißig": {
-      "cefr": "A1"
-    },
-    "vierzig": {
-      "cefr": "A1"
-    },
-    "fünfzig": {
-      "cefr": "A1"
-    },
-    "sechzig": {
-      "cefr": "A1"
-    },
-    "siebzig": {
-      "cefr": "A1"
-    },
-    "achtzig": {
-      "cefr": "A1"
-    },
-    "neunzig": {
-      "cefr": "A1"
-    },
-    "hundert": {
-      "cefr": "A1"
-    },
-    "hunderteins": {
-      "cefr": "A1"
-    },
-    "zweihundert": {
-      "cefr": "A1"
-    },
-    "tausend": {
-      "cefr": "A1"
-    },
-    "die Million": {
-      "article": "die",
-      "plural": [
-        "Millionen"
-      ],
-      "cefr": "A1"
-    },
-    "erste": {
-      "cefr": "A1"
-    },
-    "zweite": {
-      "cefr": "A1"
-    },
-    "dritte": {
-      "cefr": "A1"
-    },
-    "vierte": {
-      "cefr": "A1"
-    },
-    "die Milliarde": {
-      "article": "die",
-      "plural": [
-        "Milliarden"
-      ],
-      "cefr": "A1"
-    },
-    "der Tag": {
-      "article": "der",
-      "plural": [
-        "Tage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Morgen": {
-      "article": "der",
-      "plural": [
-        "Morgen"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Vormittag": {
-      "article": "der",
-      "plural": [
-        "Vormittage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Mittag": {
-      "article": "der",
-      "plural": [
-        "Mittage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Nachmittag": {
-      "article": "der",
-      "plural": [
-        "Nachmittage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Abend": {
-      "article": "der",
-      "plural": [
-        "Abende"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "die Nacht": {
-      "article": "die",
-      "plural": [
-        "Nächte"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Januar": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Februar": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der März": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der April": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Mai": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Juni": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Juli": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der August": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der September": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Oktober": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der November": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Dezember": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "die Sekunde": {
-      "article": "die",
-      "plural": [
-        "Sekunden"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "die Minute": {
-      "article": "die",
-      "plural": [
-        "Minuten"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "die Woche": {
-      "article": "die",
-      "plural": [
-        "Wochen"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "das Jahr": {
-      "article": "das",
-      "plural": [
-        "Jahre"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Wochentag": {
-      "article": "der",
-      "plural": [
-        "Wochentage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Sonntag": {
-      "article": "der",
-      "plural": [
-        "Sonntage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Montag": {
-      "article": "der",
-      "plural": [
-        "Montage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Dienstag": {
-      "article": "der",
-      "plural": [
-        "Dienstage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Mittwoch": {
-      "article": "der",
-      "plural": [
-        "Mittwoche"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Donnerstag": {
-      "article": "der",
-      "plural": [
-        "Donnerstage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Freitag": {
-      "article": "der",
-      "plural": [
-        "Freitage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Samstag": {
-      "article": "der",
-      "plural": [
-        "Samstage"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "das Wochenende": {
-      "article": "das",
-      "plural": [
-        "Wochenenden"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "am Wochenende": {
-      "cefr": "A1"
-    },
-    "der Sonnabend": {
-      "article": "der",
-      "plural": [
-        "Sonnabende"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Frühling": {
-      "article": "der",
-      "plural": [
-        "Frühlinge"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "das Frühjahr": {
-      "article": "das",
-      "plural": [
-        "Frühjahre"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Sommer": {
-      "article": "der",
-      "plural": [
-        "Sommer"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Herbst": {
-      "article": "der",
-      "plural": [
-        "Herbste"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "der Winter": {
-      "article": "der",
-      "plural": [
-        "Winter"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "schwarz": {
-      "cefr": "A1"
-    },
-    "grau": {
-      "cefr": "A1"
-    },
-    "blau": {
-      "cefr": "A1"
-    },
-    "grün": {
-      "cefr": "A1"
-    },
-    "weiß": {
-      "cefr": "A1"
-    },
-    "rot": {
-      "cefr": "A1"
-    },
-    "gelb": {
-      "cefr": "A1"
-    },
-    "braun": {
-      "cefr": "A1"
-    },
-    "der Norden": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Süden": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Westen": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Osten": {
-      "article": "der",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Euro": {
-      "article": "der",
-      "plural": [
-        "Euro",
-        "Euros"
-      ],
-      "cefr": "A1"
-    },
-    "der Cent": {
-      "article": "der",
-      "plural": [
-        "Cent",
-        "Cents"
-      ],
-      "usage": "숫자 뒤의 화폐 단위는 보통 Cent로 씁니다.",
-      "cefr": "A1"
-    },
-    "der Meter": {
-      "article": "der",
-      "plural": [
-        "Meter"
-      ],
-      "cefr": "A1"
-    },
-    "der Zentimeter": {
-      "article": "der",
-      "plural": [
-        "Zentimeter"
-      ],
-      "cefr": "A1"
-    },
-    "der Kilometer": {
-      "article": "der",
-      "plural": [
-        "Kilometer"
-      ],
-      "cefr": "A1"
-    },
-    "das Prozent": {
-      "article": "das",
-      "plural": [
-        "Prozente"
-      ],
-      "cefr": "A1"
-    },
-    "der Liter": {
-      "article": "der",
-      "plural": [
-        "Liter"
-      ],
-      "cefr": "A1"
-    },
-    "das Gramm": {
-      "article": "das",
-      "plural": [
-        "Gramm"
-      ],
-      "cefr": "A1"
-    },
-    "das Kilogramm": {
-      "article": "das",
-      "plural": [
-        "Kilogramm"
-      ],
-      "cefr": "A1"
-    },
-    "der Quadratmeter": {
-      "article": "der",
-      "plural": [
-        "Quadratmeter"
-      ],
-      "cefr": "A1"
-    },
-    "das Pfund": {
-      "article": "das",
-      "plural": [
-        "Pfund"
-      ],
-      "cefr": "A1"
-    },
-    "Deutschland": {
-      "cefr": "A1"
-    },
-    "der Deutsche": {
-      "article": "der",
-      "plural": [
-        "Deutschen"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "die Deutsche": {
-      "article": "die",
-      "plural": [
-        "Deutschen"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "Deutsch / deutsch": {
-      "cefr": "A1"
-    },
-    "Europa": {
-      "cefr": "A1"
-    },
-    "der Europäer": {
-      "article": "der",
-      "plural": [
-        "Europäer"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "die Europäerin": {
-      "article": "die",
-      "plural": [
-        "Europäerinnen"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "europäisch": {
-      "cefr": "A1"
-    },
-    "die Türkei": {
-      "article": "die",
-      "pluralNote": "자료에 복수형 미표기",
-      "cefr": "A1"
-    },
-    "der Türke": {
-      "article": "der",
-      "plural": [
-        "Türken"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "die Türkin": {
-      "article": "die",
-      "plural": [
-        "Türkinnen"
-      ],
-      "grammarSource": "editorial",
-      "cefr": "A1"
-    },
-    "Türkisch / türkisch": {
-      "cefr": "A1"
-    },
-    "Finnland": {
-      "cefr": "A1"
-    },
-    "der Finne": {
-      "article": "der",
-      "plural": [
-        "Finnen"
-      ],
-      "cefr": "A1"
-    },
-    "die Finnin": {
-      "article": "die",
-      "plural": [
-        "Finninnen"
-      ],
-      "cefr": "A1"
-    },
-    "Finnisch / finnisch": {
-      "cefr": "A1"
-    },
-    "Mexiko": {
-      "cefr": "A1"
-    },
-    "der Mexikaner": {
-      "article": "der",
-      "plural": [
-        "Mexikaner"
-      ],
-      "cefr": "A1"
-    },
-    "die Mexikanerin": {
-      "article": "die",
-      "plural": [
-        "Mexikanerinnen"
-      ],
-      "cefr": "A1"
-    },
-    "mexikanisch": {
-      "cefr": "A1"
-    },
-    "du": {
-      "cefr": "A1"
-    },
-    "mich": {
-      "cefr": "A1"
-    },
-    "mir": {
-      "cefr": "A1"
-    },
-    "uns": {
-      "cefr": "A1"
-    },
-    "euch": {
-      "cefr": "A1"
-    },
-    "ihnen / Ihnen": {
-      "cefr": "A1"
-    }
-  }
+  ]
 }
