@@ -120,5 +120,12 @@
     "targetForms": "표제어 및 규칙 활용형 검사. arose 및 overcame 등 불규칙 활용을 별도로 확인.",
     "limitations": "난이도는 학습용 편집 판단이며 개별 단어의 체감 난이도에는 차이가 있을 수 있음."
   },
-  "delivery": "packages/index.json 등록은 총괄 검수 후 수행. 이 작업에서 다른 패키지·코드·test/는 수정하지 않음."
+  "delivery": "packages/index.json 등록은 총괄 검수 후 수행. 이 작업에서 다른 패키지·코드·test/는 수정하지 않음.",
+  "senses": {
+    "source": "docs/senses/teps-final.json",
+    "wordCount": 109,
+    "senseCount": 109,
+    "sensesSha256": "22dd92304c2e270e8f6c941e2e88982401ef8cddbfe3d69171ba470d3e7ea582",
+    "hashProjection": "SHA-256 of JSON.stringify of [headword, senses] for words with a 6th field, sorted by normalized headword. Senses missing from ko were appended to ko as \"; sense\"."
+  }
 }

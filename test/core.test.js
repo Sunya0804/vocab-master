@@ -817,13 +817,14 @@ test('mock section score follows the approximate table midpoints, rising, in 5-p
 test('mock state keeps attempts and per-test progress, rejects malformed records', () => {
   const ok = {attempts:[{test:1, at:1, answers:{'1':0, '200':3}, lc:50, rc:61}], progress:{'2':{answers:{'7':2}, section:'rc', unit:3, rcEndsAt:99}}};
   assert.ok(Core.validMockState(ok));
+  assert.ok(Core.validMockState({attempts:[{...ok.attempts[0], test:10}], progress:{'10':ok.progress['2']}}), 'tests 6-10 are valid');
   assert.ok(Core.validMockState({attempts:[], progress:{}}));
   for (const bad of [
-    {attempts:[{...ok.attempts[0], test:6}], progress:{}},
+    {attempts:[{...ok.attempts[0], test:11}], progress:{}},
     {attempts:[{...ok.attempts[0], answers:{'201':0}}], progress:{}},
     {attempts:[{...ok.attempts[0], answers:{'1':4}}], progress:{}},
     {attempts:[{...ok.attempts[0], lc:101}], progress:{}},
-    {attempts:[], progress:{'6':ok.progress['2']}},
+    {attempts:[], progress:{'11':ok.progress['2']}},
     {attempts:[], progress:{'1':{...ok.progress['2'], section:'done'}}},
     {attempts:[], progress:{'1':{...ok.progress['2'], rcEndsAt:undefined}}},
     {attempts:{}, progress:{}}, null

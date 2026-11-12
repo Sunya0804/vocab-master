@@ -89,5 +89,12 @@
     "exampleSentences": "직접 작성. 공개 기출 지문의 문장을 복사하지 않았다.",
     "translations": "직접 작성.",
     "publicMaterialUse": "단어 선정, 빈출도 추정, 난이도 밴드 결정에만 사용했다."
+  },
+  "senses": {
+    "source": "docs/senses/suneung-final.json",
+    "wordCount": 140,
+    "senseCount": 140,
+    "sensesSha256": "c2b337bfbea54545bba0493b3dfbc82526d49a8a9fc78f94e17d616da0d24f71",
+    "hashProjection": "SHA-256 of JSON.stringify of [headword, senses] for words with a 6th field, sorted by normalized headword. Senses missing from ko were appended to ko as \"; sense\"."
   }
 }

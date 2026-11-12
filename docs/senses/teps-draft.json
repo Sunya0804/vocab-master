@@ -1,0 +1,962 @@
+[
+  {
+    "index": 1,
+    "en": "address",
+    "sense": "다루다",
+    "pos": "동",
+    "ex": "In her opening speech at the city council, the mayor promised to address the housing shortage.",
+    "exKo": "시의회 개회 연설에서 시장은 주택 부족 문제를 다루겠다고 약속했다."
+  },
+  {
+    "index": 19,
+    "en": "reach",
+    "sense": "도달하다",
+    "pos": "동",
+    "ex": "After six hours of climbing, the group hopes to reach the summit before sunset.",
+    "exKo": "여섯 시간을 오른 끝에 일행은 해가 지기 전에 정상에 도달하기를 바라고 있다."
+  },
+  {
+    "index": 22,
+    "en": "free",
+    "sense": "자유로운",
+    "pos": "형",
+    "ex": "Researchers are free to publish their findings as long as they cite every source.",
+    "exKo": "연구자들은 모든 출처를 인용하는 한 자신의 연구 결과를 자유롭게 발표할 수 있다."
+  },
+  {
+    "index": 33,
+    "en": "rather",
+    "sense": "오히려",
+    "pos": "부",
+    "ex": "The second experiment did not confirm the theory but rather weakened its main assumption.",
+    "exKo": "두 번째 실험은 그 이론을 뒷받침하지 않고 오히려 핵심 가정을 약화시켰다."
+  },
+  {
+    "index": 63,
+    "en": "most",
+    "sense": "가장",
+    "pos": "부",
+    "ex": "Of all the theories we discussed, this one seems most likely to be correct.",
+    "exKo": "우리가 논의한 모든 이론 가운데 이것이 옳을 가능성이 가장 커 보인다."
+  },
+  {
+    "index": 1987,
+    "en": "brink",
+    "sense": "가장자리",
+    "pos": "명",
+    "ex": "They stopped at the brink of the river to watch the sun set behind the hills.",
+    "exKo": "그들은 언덕 뒤로 해가 지는 것을 보며 강 가장자리에 멈춰 섰다."
+  },
+  {
+    "index": 75,
+    "en": "notice",
+    "sense": "안내문",
+    "pos": "명",
+    "ex": "A notice on the library door said the reading room would close early.",
+    "exKo": "도서관 문에 붙은 안내문에는 열람실이 일찍 문을 닫을 것이라고 적혀 있었다."
+  },
+  {
+    "index": 81,
+    "en": "offer",
+    "sense": "제안하다",
+    "pos": "동",
+    "ex": "The committee will offer a compromise to both sides before the negotiations resume.",
+    "exKo": "위원회는 협상이 다시 시작되기 전에 양측에 타협안을 제안할 것이다."
+  },
+  {
+    "index": 86,
+    "en": "excuse",
+    "sense": "용서하다",
+    "pos": "동",
+    "ex": "Please excuse the noise; the workers are repairing the roof above this room.",
+    "exKo": "소음은 양해해 주기 바란다. 인부들이 이 방 위쪽 지붕을 수리하고 있다."
+  },
+  {
+    "index": 88,
+    "en": "share",
+    "sense": "몫",
+    "pos": "명",
+    "ex": "Each partner received an equal share of the profits from the new campus cafe.",
+    "exKo": "각 동업자는 새 캠퍼스 카페 수익에서 동일한 몫을 받았다."
+  },
+  {
+    "index": 96,
+    "en": "keep",
+    "sense": "유지하다",
+    "pos": "동",
+    "ex": "Museum curators keep the exhibition halls dark to protect the delicate watercolor paintings.",
+    "exKo": "미술관 큐레이터들은 연약한 수채화를 보호하기 위해 전시관을 어둡게 유지한다."
+  },
+  {
+    "index": 97,
+    "en": "lose",
+    "sense": "지다",
+    "pos": "동",
+    "ex": "A single careless mistake can lose a team the championship in the final minutes.",
+    "exKo": "부주의한 실수 하나로 팀이 마지막 몇 분 만에 우승을 내줄 수 있다."
+  },
+  {
+    "index": 105,
+    "en": "close",
+    "sense": "가까운",
+    "pos": "형",
+    "ex": "For a hotel so close to the station, the rooms are surprisingly quiet.",
+    "exKo": "역에 그렇게 가까운 호텔치고는 객실이 놀랄 만큼 조용하다."
+  },
+  {
+    "index": 109,
+    "en": "stop",
+    "sense": "정류장",
+    "pos": "명",
+    "ex": "We waited at the bus stop for nearly twenty minutes in the rain.",
+    "exKo": "우리는 비를 맞으며 버스 정류장에서 이십 분 가까이 기다렸다."
+  },
+  {
+    "index": 122,
+    "en": "miss",
+    "sense": "그리워하다",
+    "pos": "동",
+    "ex": "Many graduates still miss the quiet reading rooms they used almost every day.",
+    "exKo": "많은 졸업생은 거의 매일 이용하던 조용한 열람실을 아직도 그리워한다."
+  },
+  {
+    "index": 127,
+    "en": "spend",
+    "sense": "쓰다",
+    "pos": "동",
+    "ex": "The lab will spend most of its budget on new equipment for the genetics study.",
+    "exKo": "그 연구실은 예산의 대부분을 유전학 연구용 새 장비에 쓸 것이다."
+  },
+  {
+    "index": 134,
+    "en": "value",
+    "sense": "가치",
+    "pos": "명",
+    "ex": "Experts questioned the value of the manuscript long before it was sold.",
+    "exKo": "전문가들은 그 원고가 팔리기 훨씬 전부터 그 가치에 의문을 제기했다."
+  },
+  {
+    "index": 138,
+    "en": "bill",
+    "sense": "지폐",
+    "pos": "명",
+    "ex": "He paid for the coffee with a crumpled ten-dollar bill from his coat pocket.",
+    "exKo": "그는 코트 주머니에서 구겨진 십 달러 지폐를 꺼내 커피 값을 냈다."
+  },
+  {
+    "index": 142,
+    "en": "store",
+    "sense": "상점",
+    "pos": "명",
+    "ex": "Near the station, a small store sells fresh bread and local cheese.",
+    "exKo": "역 근처에서 작은 상점 하나가 갓 구운 빵과 지역 치즈를 판다."
+  },
+  {
+    "index": 146,
+    "en": "fit",
+    "sense": "건강한",
+    "pos": "형",
+    "ex": "Regular swimming keeps her fit enough to hike long trails on weekends.",
+    "exKo": "규칙적인 수영 덕분에 그녀는 주말에 긴 산길을 걸을 만큼 건강하다."
+  },
+  {
+    "index": 151,
+    "en": "working",
+    "sense": "일하는",
+    "pos": "형",
+    "ex": "Working parents in the city often struggle to find affordable childcare near their offices.",
+    "exKo": "도시의 맞벌이 부모들은 사무실 근처에서 값싼 보육 시설을 찾느라 자주 어려움을 겪는다."
+  },
+  {
+    "index": 158,
+    "en": "cool",
+    "sense": "멋진",
+    "pos": "형",
+    "ex": "According to my brother, the design of the new student center looks really cool.",
+    "exKo": "내 동생 말에 따르면 새 학생회관 디자인은 정말 멋져 보인다고 한다."
+  },
+  {
+    "index": 159,
+    "en": "cold",
+    "sense": "감기",
+    "pos": "명",
+    "ex": "Half the class stayed home last week because of a bad cold.",
+    "exKo": "지난주에는 심한 감기 때문에 반 학생 절반이 집에 머물렀다."
+  },
+  {
+    "index": 167,
+    "en": "hard",
+    "sense": "어려운",
+    "pos": "형",
+    "ex": "For most students, the final chemistry question was far too hard to answer.",
+    "exKo": "대부분의 학생에게 마지막 화학 문제는 답하기에 너무 어려웠다."
+  },
+  {
+    "index": 180,
+    "en": "right",
+    "sense": "오른쪽의",
+    "pos": "형",
+    "ex": "The pain started in his right knee after the long hike in the mountains.",
+    "exKo": "산에서 오래 걸은 뒤 그의 오른쪽 무릎에 통증이 시작됐다."
+  },
+  {
+    "index": 184,
+    "en": "clear",
+    "sense": "맑은",
+    "pos": "형",
+    "ex": "So clear was the lake that stones on the bottom seemed close enough to touch.",
+    "exKo": "호수가 그렇게 맑아서 바닥의 돌이 손에 닿을 만큼 가까워 보였다."
+  },
+  {
+    "index": 186,
+    "en": "certain",
+    "sense": "특정한",
+    "pos": "형",
+    "ex": "Certain bacteria can survive in hot springs where other organisms cannot live.",
+    "exKo": "특정 박테리아는 다른 생물이 살 수 없는 온천에서도 살아남을 수 있다."
+  },
+  {
+    "index": 190,
+    "en": "class",
+    "sense": "반",
+    "pos": "명",
+    "ex": "Our class has twenty-eight students, and half of them come from abroad.",
+    "exKo": "우리 반에는 학생이 스물여덟 명 있고, 그중 절반은 외국에서 왔다."
+  },
+  {
+    "index": 191,
+    "en": "lesson",
+    "sense": "교훈",
+    "pos": "명",
+    "ex": "That costly failure taught the young engineer a lesson she never forgot.",
+    "exKo": "그 값비싼 실패는 젊은 기술자에게 결코 잊지 못할 교훈을 남겼다."
+  },
+  {
+    "index": 193,
+    "en": "subject",
+    "sense": "주제",
+    "pos": "명",
+    "ex": "The subject of her lecture was the spread of false information online.",
+    "exKo": "그녀의 강연 주제는 온라인에서의 허위 정보 확산이었다."
+  },
+  {
+    "index": 195,
+    "en": "grade",
+    "sense": "학년",
+    "pos": "명",
+    "ex": "Students in the third grade at this school visit the science museum every spring.",
+    "exKo": "이 학교 3학년 학생들은 해마다 봄에 과학 박물관을 방문한다."
+  },
+  {
+    "index": 204,
+    "en": "review",
+    "sense": "검토",
+    "pos": "명",
+    "ex": "After the accident, a careful review of the safety rules became necessary.",
+    "exKo": "사고 뒤 안전 규정에 대한 면밀한 검토가 필요해졌다."
+  },
+  {
+    "index": 218,
+    "en": "project",
+    "sense": "사업",
+    "pos": "명",
+    "ex": "Local residents opposed the housing project until the city promised new parks.",
+    "exKo": "지역 주민들은 시가 새 공원을 약속할 때까지 그 주택 사업에 반대했다."
+  },
+  {
+    "index": 221,
+    "en": "article",
+    "sense": "논문",
+    "pos": "명",
+    "ex": "Her article on sleep patterns appeared in a respected medical journal last month.",
+    "exKo": "수면 패턴에 관한 그녀의 논문은 지난달 저명한 의학 저널에 실렸다."
+  },
+  {
+    "index": 228,
+    "en": "degree",
+    "sense": "정도",
+    "pos": "명",
+    "ex": "Damage to the bridge depended on the degree of exposure to salt water.",
+    "exKo": "교량의 손상은 바닷물에 노출된 정도에 따라 달라졌다."
+  },
+  {
+    "index": 230,
+    "en": "term",
+    "sense": "용어",
+    "pos": "명",
+    "ex": "In the margin, the editor explained each technical term in a short note.",
+    "exKo": "편집자는 여백에 각 전문 용어를 짧은 주석으로 설명했다."
+  },
+  {
+    "index": 231,
+    "en": "break",
+    "sense": "깨뜨리다",
+    "pos": "동",
+    "ex": "Be careful not to break the glass tubes while you carry them to the lab.",
+    "exKo": "유리관을 실험실로 옮길 때 깨뜨리지 않도록 조심해라."
+  },
+  {
+    "index": 248,
+    "en": "company",
+    "sense": "동행",
+    "pos": "명",
+    "ex": "I enjoy the company of my neighbors when we walk along the river.",
+    "exKo": "나는 이웃들과 강을 따라 걸을 때 그들의 동행이 즐겁다."
+  },
+  {
+    "index": 249,
+    "en": "business",
+    "sense": "업무",
+    "pos": "명",
+    "ex": "She travels to Busan twice a month on business for the trading firm.",
+    "exKo": "그녀는 무역 회사의 업무 때문에 한 달에 두 번 부산으로 간다."
+  },
+  {
+    "index": 250,
+    "en": "meeting",
+    "sense": "만남",
+    "pos": "명",
+    "ex": "Their first meeting happened by chance at a small conference in Vienna.",
+    "exKo": "그들의 첫 만남은 빈의 작은 학회에서 우연히 이루어졌다."
+  },
+  {
+    "index": 258,
+    "en": "form",
+    "sense": "형성하다",
+    "pos": "동",
+    "ex": "Thin layers of ice began to form on the windows of the old bus.",
+    "exKo": "낡은 버스의 창문에 얇은 얼음층이 생기기 시작했다."
+  },
+  {
+    "index": 262,
+    "en": "paper",
+    "sense": "논문",
+    "pos": "명",
+    "ex": "Two independent reviewers read his paper on urban farming before the annual conference.",
+    "exKo": "두 명의 독립 심사자가 연례 학회 전에 도시 농업에 관한 그의 논문을 읽었다."
+  },
+  {
+    "index": 263,
+    "en": "letter",
+    "sense": "글자",
+    "pos": "명",
+    "ex": "Each letter on the old sign was painted by hand in bright red.",
+    "exKo": "낡은 간판의 글자는 하나하나 손으로 선명한 빨간색으로 칠해져 있었다."
+  },
+  {
+    "index": 266,
+    "en": "screen",
+    "sense": "가려내다",
+    "pos": "동",
+    "ex": "Nurses screen every visitor for fever before they enter the nursing home.",
+    "exKo": "간호사들은 요양원에 들어오기 전에 모든 방문자의 발열 여부를 가려낸다."
+  },
+  {
+    "index": 270,
+    "en": "charge",
+    "sense": "요금",
+    "pos": "명",
+    "ex": "For every night a guest parks there, the hotel adds a small charge.",
+    "exKo": "손님이 주차하는 밤마다 그 호텔은 적은 요금을 더한다."
+  },
+  {
+    "index": 272,
+    "en": "power",
+    "sense": "권력",
+    "pos": "명",
+    "ex": "Over the past decade, the power of local officials has shrunk considerably.",
+    "exKo": "지난 10년 동안 지방 공무원의 권력은 상당히 줄었다."
+  },
+  {
+    "index": 298,
+    "en": "medicine",
+    "sense": "의학",
+    "pos": "명",
+    "ex": "She studied medicine for six years before she joined a rural clinic.",
+    "exKo": "그녀는 시골 진료소에 합류하기 전까지 6년 동안 의학을 공부했다."
+  },
+  {
+    "index": 301,
+    "en": "patient",
+    "sense": "참을성 있는",
+    "pos": "형",
+    "ex": "The teacher was patient with the beginners and repeated every step slowly.",
+    "exKo": "그 교사는 초보자들에게 참을성 있게 대하며 모든 단계를 천천히 되풀이했다."
+  },
+  {
+    "index": 305,
+    "en": "treatment",
+    "sense": "대우",
+    "pos": "명",
+    "ex": "Several workers complained about unfair treatment from the new supervisor at the factory.",
+    "exKo": "여러 노동자가 공장의 새 관리자에게서 부당한 대우를 받는다고 불평했다."
+  },
+  {
+    "index": 318,
+    "en": "favor",
+    "sense": "호의",
+    "pos": "명",
+    "ex": "Despite his position, the professor showed no favor to anyone during grading.",
+    "exKo": "자신의 지위에도 불구하고 그 교수는 채점하는 동안 누구에게도 호의를 베풀지 않았다."
+  },
+  {
+    "index": 320,
+    "en": "platform",
+    "sense": "기반",
+    "pos": "명",
+    "ex": "The agreement provided a platform for further talks between the two universities.",
+    "exKo": "그 협정은 두 대학 사이의 추가 논의를 위한 기반을 마련했다."
+  },
+  {
+    "index": 335,
+    "en": "direction",
+    "sense": "지시",
+    "pos": "명",
+    "ex": "Students must read the written directions on the exam sheet before starting any section.",
+    "exKo": "학생들은 어느 부분이든 시작하기 전에 시험지에 적힌 지시를 읽어야 한다."
+  },
+  {
+    "index": 365,
+    "en": "kind",
+    "sense": "종류",
+    "pos": "명",
+    "ex": "This kind of bacteria survives only in extremely cold water near the poles.",
+    "exKo": "이 종류의 박테리아는 극지방 근처의 아주 차가운 물에서만 살아남는다."
+  },
+  {
+    "index": 373,
+    "en": "rent",
+    "sense": "빌리다",
+    "pos": "동",
+    "ex": "Many exchange students rent bicycles instead of paying for monthly bus passes.",
+    "exKo": "많은 교환 학생들이 월 버스 정기권 값을 내는 대신 자전거를 빌린다."
+  },
+  {
+    "index": 399,
+    "en": "view",
+    "sense": "견해",
+    "pos": "명",
+    "ex": "The economist's view on inflation differs sharply from that of the central bank.",
+    "exKo": "인플레이션에 대한 그 경제학자의 견해는 중앙은행의 견해와 크게 다르다."
+  },
+  {
+    "index": 415,
+    "en": "chance",
+    "sense": "가능성",
+    "pos": "명",
+    "ex": "There is little chance that the library will extend its weekend hours this term.",
+    "exKo": "이번 학기에 도서관이 주말 운영 시간을 늘릴 가능성은 거의 없다."
+  },
+  {
+    "index": 422,
+    "en": "process",
+    "sense": "처리하다",
+    "pos": "동",
+    "ex": "The office processes visa applications within ten working days during the busy season.",
+    "exKo": "그 사무실은 성수기에는 비자 신청서를 열흘 안에 처리한다."
+  },
+  {
+    "index": 424,
+    "en": "routine",
+    "sense": "통상적인",
+    "pos": "형",
+    "ex": "The technician performed a routine check of the equipment before the laboratory opened.",
+    "exKo": "그 기사는 실험실이 문을 열기 전에 장비를 통상적으로 점검했다."
+  },
+  {
+    "index": 436,
+    "en": "common",
+    "sense": "공통의",
+    "pos": "형",
+    "ex": "Despite different backgrounds, the two researchers share a common interest in marine biology.",
+    "exKo": "서로 다른 배경에도 불구하고 두 연구자는 해양 생물학에 대한 공통의 관심을 공유한다."
+  },
+  {
+    "index": 444,
+    "en": "major",
+    "sense": "전공",
+    "pos": "명",
+    "ex": "She changed her major from chemistry to economics after taking an introductory statistics course.",
+    "exKo": "그녀는 통계학 입문 수업을 들은 뒤 화학에서 경제학으로 전공을 바꿨다."
+  },
+  {
+    "index": 451,
+    "en": "number",
+    "sense": "번호",
+    "pos": "명",
+    "ex": "Please write your student number at the top of every answer sheet.",
+    "exKo": "모든 답안지 맨 위에 학번을 적어라."
+  },
+  {
+    "index": 452,
+    "en": "total",
+    "sense": "전체의",
+    "pos": "형",
+    "ex": "The total cost of the field trip includes meals, transport, and museum admission.",
+    "exKo": "현장 학습의 총비용에는 식사, 교통, 박물관 입장료가 포함된다."
+  },
+  {
+    "index": 455,
+    "en": "rate",
+    "sense": "비율",
+    "pos": "명",
+    "ex": "The unemployment rate among recent graduates fell slightly in the second quarter.",
+    "exKo": "최근 졸업생의 실업률은 2분기에 소폭 떨어졌다."
+  },
+  {
+    "index": 459,
+    "en": "part",
+    "sense": "역할",
+    "pos": "명",
+    "ex": "Volunteers played an important part in organizing the city's annual science festival.",
+    "exKo": "자원봉사자들은 도시의 연례 과학 축제를 준비하는 데 중요한 역할을 했다."
+  },
+  {
+    "index": 461,
+    "en": "side",
+    "sense": "편",
+    "pos": "명",
+    "ex": "The committee refused to take sides in the dispute between the two departments.",
+    "exKo": "위원회는 두 부서 사이의 분쟁에서 어느 편도 들지 않기로 했다."
+  },
+  {
+    "index": 464,
+    "en": "area",
+    "sense": "면적",
+    "pos": "명",
+    "ex": "The new reading room covers an area of about four hundred square meters.",
+    "exKo": "새 열람실은 약 400제곱미터의 면적을 차지한다."
+  },
+  {
+    "index": 467,
+    "en": "position",
+    "sense": "직책",
+    "pos": "명",
+    "ex": "After three years as a research assistant, he applied for a higher position.",
+    "exKo": "3년 동안 연구 조교로 일한 뒤 그는 더 높은 직책에 지원했다."
+  },
+  {
+    "index": 469,
+    "en": "condition",
+    "sense": "조건",
+    "pos": "명",
+    "ex": "The scholarship is offered on the condition that the student returns to teach.",
+    "exKo": "그 장학금은 학생이 돌아와 가르친다는 조건으로 제공된다."
+  },
+  {
+    "index": 471,
+    "en": "case",
+    "sense": "사건",
+    "pos": "명",
+    "ex": "Detectives reopened the case after a new witness came forward last month.",
+    "exKo": "형사들은 지난달 새 목격자가 나서자 그 사건을 다시 열었다."
+  },
+  {
+    "index": 472,
+    "en": "event",
+    "sense": "사건",
+    "pos": "명",
+    "ex": "Investigators are still trying to determine why the event occurred without warning.",
+    "exKo": "수사관들은 그 사건이 아무 경고 없이 일어난 이유를 아직 밝히려 하고 있다."
+  },
+  {
+    "index": 477,
+    "en": "character",
+    "sense": "성격",
+    "pos": "명",
+    "ex": "Her quiet, patient character made her popular among the younger students in the dormitory.",
+    "exKo": "그녀의 조용하고 인내심 많은 성격 덕분에 기숙사의 어린 학생들에게 인기가 있었다."
+  },
+  {
+    "index": 479,
+    "en": "interest",
+    "sense": "이자",
+    "pos": "명",
+    "ex": "The bank pays interest on savings accounts at the end of each quarter.",
+    "exKo": "그 은행은 분기 말마다 예금 계좌에 이자를 지급한다."
+  },
+  {
+    "index": 481,
+    "en": "care",
+    "sense": "신경 쓰다",
+    "pos": "동",
+    "ex": "Most passengers do not care which airline operates the flight as long as it is on time.",
+    "exKo": "대부분의 승객은 비행기가 제시간에만 뜨면 어느 항공사가 운항하는지는 신경 쓰지 않는다."
+  },
+  {
+    "index": 487,
+    "en": "blame",
+    "sense": "책임",
+    "pos": "명",
+    "ex": "The manager took the blame for the scheduling error, though the system had failed.",
+    "exKo": "시스템이 고장 났음에도 관리자는 일정 오류에 대한 책임을 졌다."
+  },
+  {
+    "index": 489,
+    "en": "argue",
+    "sense": "주장하다",
+    "pos": "동",
+    "ex": "The author argues that early childhood education deserves far more public funding.",
+    "exKo": "그 저자는 유아 교육에 훨씬 더 많은 공적 자금이 투입되어야 한다고 주장한다."
+  },
+  {
+    "index": 498,
+    "en": "digest",
+    "sense": "소화하다",
+    "pos": "동",
+    "ex": "Some people find it difficult to digest dairy products after a long flight.",
+    "exKo": "어떤 사람들은 장거리 비행 후에 유제품을 소화하기 어려워한다."
+  },
+  {
+    "index": 508,
+    "en": "gather",
+    "sense": "모으다",
+    "pos": "동",
+    "ex": "The team spent the summer gathering soil samples from farms across the region.",
+    "exKo": "그 팀은 여름 내내 지역 전역의 농장에서 흙 시료를 모으며 보냈다."
+  },
+  {
+    "index": 510,
+    "en": "arrange",
+    "sense": "배열하다",
+    "pos": "동",
+    "ex": "The librarian arranged the journals on the shelf by year and then by title.",
+    "exKo": "사서는 학술지를 연도별로, 그다음에는 제목별로 서가에 배열했다."
+  },
+  {
+    "index": 540,
+    "en": "weigh",
+    "sense": "따져 보다",
+    "pos": "동",
+    "ex": "Before signing the lease, weigh the monthly cost against the distance from campus.",
+    "exKo": "임대차 계약서에 서명하기 전에 월 비용과 캠퍼스까지의 거리를 따져 보라."
+  },
+  {
+    "index": 571,
+    "en": "refer",
+    "sense": "언급하다",
+    "pos": "동",
+    "ex": "In her lecture, the professor referred to a study published in the 1980s.",
+    "exKo": "강연에서 그 교수는 1980년대에 발표된 한 연구를 언급했다."
+  },
+  {
+    "index": 572,
+    "en": "depend",
+    "sense": "의존하다",
+    "pos": "동",
+    "ex": "Rural clinics depend heavily on volunteer doctors during the winter holiday season.",
+    "exKo": "시골 진료소는 겨울 방학 기간에 자원 의사들에게 크게 의존한다."
+  },
+  {
+    "index": 588,
+    "en": "spoil",
+    "sense": "망치다",
+    "pos": "동",
+    "ex": "A single careless comment can spoil the atmosphere of a small seminar group.",
+    "exKo": "부주의한 말 한마디가 작은 세미나 모임의 분위기를 망칠 수 있다."
+  },
+  {
+    "index": 590,
+    "en": "treat",
+    "sense": "치료하다",
+    "pos": "동",
+    "ex": "Doctors treated the injured hiker for a broken ankle at the mountain clinic.",
+    "exKo": "의사들은 산속 진료소에서 부상당한 등산객의 발목 골절을 치료했다."
+  },
+  {
+    "index": 605,
+    "en": "apply",
+    "sense": "적용하다",
+    "pos": "동",
+    "ex": "The new safety rules apply to every laboratory that handles chemical waste.",
+    "exKo": "새 안전 규칙은 화학 폐기물을 다루는 모든 실험실에 적용된다."
+  },
+  {
+    "index": 622,
+    "en": "decent",
+    "sense": "예의 바른",
+    "pos": "형",
+    "ex": "He was decent enough to apologize for arriving late to the interview.",
+    "exKo": "그는 면접에 늦게 도착한 것을 사과할 만큼 예의가 바른 사람이었다."
+  },
+  {
+    "index": 632,
+    "en": "due",
+    "sense": "예정된",
+    "pos": "형",
+    "ex": "The committee's final report is due to be released early next week.",
+    "exKo": "위원회의 최종 보고서는 다음 주 초에 발표될 예정이다."
+  },
+  {
+    "index": 653,
+    "en": "natural",
+    "sense": "자연스러운",
+    "pos": "형",
+    "ex": "Her Korean sounds natural because she lived in Seoul for several years.",
+    "exKo": "그녀의 한국어는 자연스러운데, 서울에서 몇 년 동안 살았기 때문이다."
+  },
+  {
+    "index": 658,
+    "en": "original",
+    "sense": "독창적인",
+    "pos": "형",
+    "ex": "The designer's original approach to packaging won praise at the trade fair.",
+    "exKo": "그 디자이너의 독창적인 포장 방식은 무역 박람회에서 찬사를 받았다."
+  },
+  {
+    "index": 659,
+    "en": "physical",
+    "sense": "물리적인",
+    "pos": "형",
+    "ex": "Researchers built a physical model of the bridge to test how it moves.",
+    "exKo": "연구자들은 다리가 어떻게 움직이는지 시험하기 위해 물리적인 모형을 만들었다."
+  },
+  {
+    "index": 696,
+    "en": "apparently",
+    "sense": "겉보기에는",
+    "pos": "부",
+    "ex": "The old building is apparently sound, though inspectors have not examined the foundation.",
+    "exKo": "그 오래된 건물은 겉보기에는 튼튼하지만, 점검관들은 기초를 아직 조사하지 않았다."
+  },
+  {
+    "index": 702,
+    "en": "effectively",
+    "sense": "사실상",
+    "pos": "부",
+    "ex": "With the last train cancelled, the town was effectively cut off for the night.",
+    "exKo": "막차가 취소되는 바람에 그 마을은 사실상 밤새 고립되었다."
+  },
+  {
+    "index": 714,
+    "en": "otherwise",
+    "sense": "그 외에는",
+    "pos": "부",
+    "ex": "The apartment is small, but it is otherwise quiet and close to the station.",
+    "exKo": "그 아파트는 작지만 그 외에는 조용하고 역에서 가깝다."
+  },
+  {
+    "index": 1884,
+    "en": "latitude",
+    "sense": "위도",
+    "pos": "명",
+    "ex": "The ship's latitude was recorded every hour so the crew could track its position.",
+    "exKo": "선박의 위도는 매시간 기록되어 선원들이 위치를 추적할 수 있었다."
+  },
+  {
+    "index": 1847,
+    "en": "culprit",
+    "sense": "범인",
+    "pos": "명",
+    "ex": "Police finally arrested the culprit after reviewing security footage from the train station.",
+    "exKo": "경찰은 기차역 보안 영상을 검토한 뒤 마침내 범인을 체포했다."
+  },
+  {
+    "index": 743,
+    "en": "payment",
+    "sense": "지급액",
+    "pos": "명",
+    "ex": "The monthly payment for the loan rose after the interest rate changed.",
+    "exKo": "대출의 월 지급액은 금리가 바뀐 뒤 올랐다."
+  },
+  {
+    "index": 1367,
+    "en": "conviction",
+    "sense": "유죄 판결",
+    "pos": "명",
+    "ex": "The judge overturned the conviction after new DNA evidence was presented in court.",
+    "exKo": "법정에 새로운 DNA 증거가 제시된 뒤 판사는 유죄 판결을 뒤집었다."
+  },
+  {
+    "index": 1388,
+    "en": "equity",
+    "sense": "자기자본",
+    "pos": "명",
+    "ex": "The startup financed its expansion with equity rather than taking on more debt.",
+    "exKo": "그 스타트업은 더 많은 부채를 지는 대신 자기자본으로 확장 자금을 조달했다."
+  },
+  {
+    "index": 1397,
+    "en": "identity",
+    "sense": "신원",
+    "pos": "명",
+    "ex": "The bank asked customers to confirm their identity before opening a new account online.",
+    "exKo": "은행은 온라인으로 새 계좌를 개설하기 전에 고객에게 신원을 확인하라고 요청했다."
+  },
+  {
+    "index": 1407,
+    "en": "liability",
+    "sense": "부채",
+    "pos": "명",
+    "ex": "The auditors found a large liability that the company had never reported to investors.",
+    "exKo": "감사관들은 그 회사가 투자자들에게 한 번도 보고하지 않은 큰 부채를 발견했다."
+  },
+  {
+    "index": 1410,
+    "en": "mandate",
+    "sense": "명령",
+    "pos": "명",
+    "ex": "The governor issued a mandate requiring all public offices to reduce paper use.",
+    "exKo": "주지사는 모든 공공 기관이 종이 사용을 줄이도록 요구하는 명령을 내렸다."
+  },
+  {
+    "index": 1457,
+    "en": "blunt",
+    "sense": "무딘",
+    "pos": "형",
+    "ex": "The kitchen knife had grown so blunt that it could not cut through the ripe tomato.",
+    "exKo": "부엌칼이 너무 무뎌져서 잘 익은 토마토조차 베어 내지 못했다."
+  },
+  {
+    "index": 1458,
+    "en": "bound",
+    "sense": "묶인",
+    "pos": "형",
+    "ex": "The rescued dog's front leg was bound with a clean cloth until the vet arrived.",
+    "exKo": "구조된 개의 앞다리는 수의사가 도착할 때까지 깨끗한 천으로 묶여 있었다."
+  },
+  {
+    "index": 1472,
+    "en": "critical",
+    "sense": "비판적인",
+    "pos": "형",
+    "ex": "The reviewer was unusually critical of the study's methods, questioning every step of the analysis.",
+    "exKo": "그 논평자는 연구 방법에 유난히 비판적이어서 분석의 모든 단계에 의문을 제기했다."
+  },
+  {
+    "index": 1502,
+    "en": "legitimate",
+    "sense": "합법적인",
+    "pos": "형",
+    "ex": "The vendor could not prove that the imported goods were legitimate, so customs held the shipment.",
+    "exKo": "그 상인은 수입품이 합법적이라는 것을 입증하지 못했고, 세관은 화물을 억류했다."
+  },
+  {
+    "index": 1510,
+    "en": "nominal",
+    "sense": "명목상의",
+    "pos": "형",
+    "ex": "He holds the nominal title of director, but the department is actually run by his assistant.",
+    "exKo": "그는 명목상 원장이라는 직함을 갖고 있지만, 부서는 실제로 그의 비서가 운영한다."
+  },
+  {
+    "index": 1520,
+    "en": "profound",
+    "sense": "심오한",
+    "pos": "형",
+    "ex": "The seminar explored the profound questions of consciousness that philosophers have debated for centuries.",
+    "exKo": "그 세미나는 철학자들이 수백 년 동안 논쟁해 온 의식에 관한 심오한 질문들을 다루었다."
+  },
+  {
+    "index": 1531,
+    "en": "rigid",
+    "sense": "엄격한",
+    "pos": "형",
+    "ex": "Our supervisor keeps a rigid schedule and refuses to approve even short extensions for lab reports.",
+    "exKo": "우리 감독관은 엄격한 일정을 고수하며 실험 보고서 마감을 며칠 늦춰 주는 것조차 허락하지 않는다."
+  },
+  {
+    "index": 1538,
+    "en": "tangible",
+    "sense": "만질 수 있는",
+    "pos": "형",
+    "ex": "The museum allows visitors to handle tangible replicas of the ancient tools found at the site.",
+    "exKo": "그 박물관은 관람객이 유적지에서 발굴된 고대 도구의 만질 수 있는 복제품을 직접 다뤄 보도록 허용한다."
+  },
+  {
+    "index": 1556,
+    "en": "owe",
+    "sense": "빚지다",
+    "pos": "동",
+    "ex": "I still owe the library thirty dollars for a book that I lost last semester.",
+    "exKo": "나는 지난 학기에 잃어버린 책 때문에 아직 도서관에 삼십 달러를 빚지고 있다."
+  },
+  {
+    "index": 1591,
+    "en": "tolerate",
+    "sense": "용인하다",
+    "pos": "동",
+    "ex": "The professor will not tolerate phones ringing during lectures, and she asks students to leave.",
+    "exKo": "그 교수는 강의 중에 휴대전화가 울리는 것을 용인하지 않으며, 학생들에게 자리를 떠나라고 한다."
+  },
+  {
+    "index": 1595,
+    "en": "surplus",
+    "sense": "흑자",
+    "pos": "명",
+    "ex": "The city ended the year with a budget surplus and used part of it to repair roads.",
+    "exKo": "그 도시는 한 해를 예산 흑자로 마감했고 그중 일부를 도로 보수에 사용했다."
+  },
+  {
+    "index": 1598,
+    "en": "threshold",
+    "sense": "문턱",
+    "pos": "명",
+    "ex": "She paused at the threshold of the old chapel before stepping into the dim, silent hall.",
+    "exKo": "그녀는 낡은 예배당의 문턱에서 잠시 멈춘 뒤 어둡고 고요한 홀로 들어섰다."
+  },
+  {
+    "index": 1600,
+    "en": "welfare",
+    "sense": "안녕",
+    "pos": "명",
+    "ex": "The counselor asked about the students' emotional welfare as well as their academic progress.",
+    "exKo": "그 상담사는 학생들의 학업 성취뿐 아니라 정서적 안녕에 대해서도 물었다."
+  },
+  {
+    "index": 1605,
+    "en": "margin",
+    "sense": "여백",
+    "pos": "명",
+    "ex": "The editor left a wide margin on each page so students could write their own notes.",
+    "exKo": "편집자는 학생들이 직접 메모를 쓸 수 있도록 각 페이지에 넓은 여백을 남겼다."
+  },
+  {
+    "index": 1607,
+    "en": "patron",
+    "sense": "단골손님",
+    "pos": "명",
+    "ex": "The bakery's oldest patron stops by every morning for the same rye bread and coffee.",
+    "exKo": "그 빵집의 가장 오래된 단골손님은 매일 아침 같은 호밀빵과 커피를 사러 들른다."
+  },
+  {
+    "index": 1615,
+    "en": "rhetoric",
+    "sense": "수사법",
+    "pos": "명",
+    "ex": "Students in the debate club study classical rhetoric to structure arguments more effectively.",
+    "exKo": "토론 동아리 학생들은 논증을 더 효과적으로 구성하기 위해 고전 수사법을 공부한다."
+  },
+  {
+    "index": 1618,
+    "en": "tenure",
+    "sense": "정년 보장",
+    "pos": "명",
+    "ex": "After six years of teaching, she finally received tenure and joined the faculty senate.",
+    "exKo": "육 년 동안 가르친 끝에 그녀는 마침내 정년 보장을 받고 교수회에 합류했다."
+  },
+  {
+    "index": 1767,
+    "en": "formidable",
+    "sense": "경외감을 주는",
+    "pos": "형",
+    "ex": "The young pianist gave a formidable performance that left the judges silent for several seconds.",
+    "exKo": "그 젊은 피아니스트는 심사위원들을 몇 초 동안 침묵하게 만든 경외감을 주는 연주를 선보였다."
+  },
+  {
+    "index": 1799,
+    "en": "opaque",
+    "sense": "이해하기 힘든",
+    "pos": "형",
+    "ex": "The final chapter is so opaque that even graduate students need a commentary to follow it.",
+    "exKo": "마지막 장은 너무 이해하기 힘들어서 대학원생들조차 그것을 따라가려면 해설서가 필요하다."
+  },
+  {
+    "index": 1821,
+    "en": "affinity",
+    "sense": "유사성",
+    "pos": "명",
+    "ex": "Researchers noted a striking affinity between the two languages in their verb endings and word order.",
+    "exKo": "연구자들은 두 언어의 동사 어미와 어순에서 놀라운 유사성을 발견했다."
+  }
+]

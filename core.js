@@ -581,12 +581,12 @@
   function validMockState(value) {
     return isRecord(value) && Array.isArray(value.attempts) && isRecord(value.progress)
       && value.attempts.every(function (attempt) {
-        return isRecord(attempt) && [1, 2, 3, 4, 5].includes(attempt.test) && Number.isFinite(attempt.at) && attempt.at >= 0
+        return isRecord(attempt) && Number.isInteger(attempt.test) && attempt.test >= 1 && attempt.test <= 10 && Number.isFinite(attempt.at) && attempt.at >= 0
           && validMockAnswers(attempt.answers) && [attempt.lc, attempt.rc].every(function (n) { return Number.isInteger(n) && n >= 0 && n <= 100; });
       })
       && Object.keys(value.progress).every(function (test) {
         var p = value.progress[test];
-        return /^[1-5]$/.test(test) && isRecord(p) && validMockAnswers(p.answers) && ['lc', 'rc-intro', 'rc'].includes(p.section)
+        return /^(?:[1-9]|10)$/.test(test) && isRecord(p) && validMockAnswers(p.answers) && ['lc', 'rc-intro', 'rc'].includes(p.section)
           && Number.isInteger(p.unit) && p.unit >= 0 && (p.rcEndsAt === null || Number.isFinite(p.rcEndsAt));
       });
   }

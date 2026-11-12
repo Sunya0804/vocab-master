@@ -30,7 +30,7 @@
 .language-switch .segment{min-height:40px;border:0;border-radius:8px;background:transparent;font-size:14px;color:var(--secondary)}
 .language-switch .segment[aria-pressed=true]{background:var(--raised);color:var(--ink);font-weight:500;box-shadow:0 1px 2px rgb(0 0 0 / 8%)}
 .language-switch .segment:not([aria-pressed=true]):hover{background:transparent;color:var(--ink)}.language-switch .segment[aria-pressed=true]:hover{background:var(--raised)}.level-chip[aria-pressed=true]:hover{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}.level-chip:not([aria-pressed=true]):hover{color:var(--ink)}
-/* Part 1 photo and A-D letter answers; Part 6-7 reading layout: passage above questions, side by side from 900px with separate scrolling. */
+/* Part 1 photo and A-D letter answers; Part 6-7 reading layout: passage above questions, side by side from 760px (unfolded foldable portrait) with separate scrolling. */
 .exam-photo{display:block;width:100%;height:auto;margin-top:16px;border:1px solid var(--line);border-radius:12px;background:var(--raised)}
 .exam-letter-choices.is-four{grid-template-columns:repeat(4,minmax(0,1fr))}
 .exam-reading{display:grid;gap:24px;margin-top:16px}
@@ -60,7 +60,7 @@
 .reading-ko summary{min-height:48px;display:flex;align-items:center;font-weight:500;cursor:pointer}
 .reading-ko .reading-body,.reading-ko .reading-chat li p:last-child{font-size:14px}
 .reading-questions .exam-set-questions{margin-top:0}
-@media(min-width:900px){.app-shell:has(.exam-reading){max-width:1180px}
+@media(min-width:760px){.app-shell:has(.exam-reading){max-width:1180px}
 .exam-reading{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:start}
 /* 380px = header, progress and set heading above the panes (~285px) + fixed bottom nav (~78px) + gap: both panes end above the nav on the first screen. */
 .reading-passage,.reading-questions{position:sticky;top:16px;max-height:max(320px,calc(100dvh - 380px));overflow-y:auto;overscroll-behavior:contain}
@@ -134,4 +134,36 @@ html[data-page] main:has(.exam-reading){max-width:1180px}
 .day-list .level-heading{grid-column:1/-1}
 html:is([data-page=day],[data-page=wrong]) .word-list{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
 html[data-page=day] main>.stack{max-width:720px}
+}
+/* Foldables and tablets (ui-21): an unfolded Galaxy Z Fold is ~840x900 portrait. 700-1023px gets a centred column, 2-up lists and a centred bottom bar; layout is CSS only, so fold/unfold resizes never re-render or reset a session. */
+@media(min-width:700px){
+body{font-size:16px}
+.english{font-size:20px}.study-card .english{font-size:40px}.listen-card .english{font-size:36px}.cloze-word .english{font-size:26px}
+.word-content p,.example-line p,.exam-set-ko,.exam-script p[lang=ko]{font-size:14px}.word-example .example-translation{font-size:13px}
+.exam-set-question>h2,.mock-question-title,.exam-script p{font-size:16px}
+.exam-set-choices .choice{min-height:52px}.level-chip,.mock-tools button{min-height:48px}.omr-bubble{min-width:40px;min-height:40px}.omr-no{min-height:40px}
+/* Wide, short windows: cap the Part 1 photo so the answer buttons stay on the first screen. */
+.exam-photo{width:auto;max-width:100%;max-height:min(440px,42dvh);margin-inline:auto;object-fit:contain}
+}
+@media(min-width:700px) and (max-width:1023px){
+.app-shell,.app-shell:has(.exam-reading){max-width:none;border:0}
+.brand-bar{max-width:960px;margin:0 auto;padding-inline:32px}
+main{max-width:960px;margin:0 auto;padding:24px 32px 120px}
+html:is([data-page=cards],[data-page=quiz],[data-page=cloze],[data-page=listen],[data-page=practice],[data-page=exam-sub],[data-page=settings]) main{max-width:720px}
+html[data-page] main:has(.exam-reading){max-width:1180px}
+html[data-page=day] main>.stack{max-width:720px}
+.bottom-nav{width:min(100%,560px);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0}
+.day-list{grid-template-columns:repeat(2,minmax(0,1fr))}.day-list .level-heading{grid-column:1/-1}
+html:is([data-page=day],[data-page=wrong]) .word-list{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+}
+/* Hinge: where the browser reports two side-by-side segments, put the passage/question split on the fold (main's left edge is --reading-left). Ignored elsewhere. */
+@media(horizontal-viewport-segments:2) and (min-width:700px){
+:root{--reading-left:32px}
+html[data-page] main:has(.exam-reading){max-width:none;margin:0;padding-inline:32px}
+.exam-reading{grid-template-columns:calc(env(viewport-segment-right 0 0) - var(--reading-left) - 16px) minmax(0,1fr);column-gap:calc(env(viewport-segment-left 1 0) - env(viewport-segment-right 0 0) + 32px)}
+}
+@media(horizontal-viewport-segments:2) and (min-width:1024px){:root{--reading-left:264px}}
+/* Stacked segments (hinge across the screen): keep both panes above the fold. */
+@media(vertical-viewport-segments:2) and (min-width:760px){
+.reading-passage,.reading-questions{max-height:max(240px,calc(env(viewport-segment-bottom 0 0) - 32px))}
 }
