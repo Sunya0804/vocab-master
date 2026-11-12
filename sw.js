@@ -1,10 +1,10 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v36-fold-senses';
+const CACHE_VERSION = 'vocab-master-shell-v37-install';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = [1, 2, 3, 4, 5, 6, 7].map(part => `questions/toeic-part${part}.json`);
 const SCOPE = self.registration.scope;
-const APP_SHELL = ['./', './index.html', './style.css', './app.js', './js/shared.js', './js/study.js', './js/listen.js', './js/exam.js', './js/mock.js', './js/settings.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
+const APP_SHELL = ['./', './index.html', './style.css', './app.js', './js/shared.js', './js/study.js', './js/listen.js', './js/exam.js', './js/mock.js', './js/install.js', './js/settings.js', './core.js', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 const reloadRequest = url => new Request(new URL(url, SCOPE).href, {cache:'reload'});
 

@@ -167,3 +167,6 @@ html[data-page] main:has(.exam-reading){max-width:none;margin:0;padding-inline:3
 @media(vertical-viewport-segments:2) and (min-width:760px){
 .reading-passage,.reading-questions{max-height:max(240px,calc(env(viewport-segment-bottom 0 0) - 32px))}
 }
+/* Install banner (js/install.js): sits above the bottom nav on phones, bottom-right on wide screens. */
+.install-banner{position:fixed;z-index:20;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));width:min(calc(100% - 32px),448px);display:grid;gap:12px;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:0 8px 24px rgba(0,0,0,.12)}.install-banner p{font-size:14px;color:var(--ink)}.install-actions{display:flex;gap:8px}.install-actions button{flex:1}
+@media (min-width:1024px){.install-banner{left:auto;right:24px;transform:none;bottom:24px}}
