@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_VERSION = 'vocab-master-shell-v37-install';
+const CACHE_VERSION = 'vocab-master-shell-v38-mock15';
 const PACKAGE_CACHE = 'vocab-master-packages';
 const QUESTION_CACHE = 'vocab-master-questions';
 const QUESTION_FILES = [1, 2, 3, 4, 5, 6, 7].map(part => `questions/toeic-part${part}.json`);
@@ -63,7 +63,7 @@ self.addEventListener('fetch', event => {
   const relative = url.pathname.slice(new URL(SCOPE).pathname.length);
   const isPackage = relative.startsWith('packages/');
   // Part 1 photos, mock tests and their photos are cached once opened, like question files, so they open offline.
-  const isQuestion = QUESTION_FILES.includes(relative) || /^images\/(?:part1|mock)\/[\w.-]+\.webp$/.test(relative) || /^questions\/mock\/mock-(?:[1-9]|10)\.json$/.test(relative);
+  const isQuestion = QUESTION_FILES.includes(relative) || /^images\/(?:part1|mock)\/[\w.-]+\.webp$/.test(relative) || /^questions\/mock\/mock-(?:[1-9]|1[0-5])\.json$/.test(relative);
   const isShell = APP_SHELL.some(asset => asset.slice(2) === relative);
   if (!isPackage && !isQuestion && !isShell && request.mode !== 'navigate') return;
   event.respondWith((async () => {

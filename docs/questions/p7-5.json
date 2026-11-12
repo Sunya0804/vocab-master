@@ -1,0 +1,2147 @@
+[
+  {
+    "id": "p7-5-001",
+    "difficulty": 2,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "text",
+        "title": "Entrance decorations",
+        "lines": [
+          {
+            "time": "10:01 A.M.",
+            "name": "Mina Rovell",
+            "t": "The balloon supplier says our arch needs a metal frame. I assumed the balloons would float above the shop entrance."
+          },
+          {
+            "time": "10:02 A.M.",
+            "name": "Jalen Ossi",
+            "t": "Those balloons will contain ordinary air, not helium. The frame supports the entire arch from the floor."
+          },
+          {
+            "time": "10:03 A.M.",
+            "name": "Mina Rovell",
+            "t": "That changes things. I told the installer we would need hooks in the ceiling."
+          },
+          {
+            "time": "10:04 A.M.",
+            "name": "Jalen Ossi",
+            "t": "The supplier is bringing the frame, so the installer only needs to clear a space beside each doorpost."
+          },
+          {
+            "time": "10:05 A.M.",
+            "name": "Mina Rovell",
+            "t": "I will call him now. Are we keeping the silver balloons?"
+          },
+          {
+            "time": "10:06 A.M.",
+            "name": "Jalen Ossi",
+            "t": "Yes. The colors and the delivery time are unchanged."
+          }
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "입구 장식",
+        "lines": [
+          "미나: 풍선 공급업체에서 아치에 금속 틀이 필요하대요. 저는 풍선이 매장 입구 위에 떠 있을 줄 알았어요.",
+          "제일런: 그 풍선에는 헬륨이 아니라 일반 공기가 들어가요. 틀이 바닥에서 아치 전체를 받쳐요.",
+          "미나: 그러면 얘기가 달라지네요. 설치 담당자에게 천장에 고리가 필요하다고 했거든요.",
+          "제일런: 공급업체가 틀을 가져오니까 설치 담당자는 양쪽 문기둥 옆 공간만 비우면 돼요.",
+          "미나: 지금 전화할게요. 은색 풍선은 그대로 쓰나요?",
+          "제일런: 네. 색상과 배송 시간은 바뀌지 않아요."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "intention",
+        "q": "At 10:03 A.M., what does Ms. Rovell mean by \"That changes things\"?",
+        "choices": [
+          "She must revise the delivery schedule.",
+          "She must change the installation instructions.",
+          "She must select different balloon colors.",
+          "She must find another supplier."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "오전 10시 3분에 로벨 씨가 “그러면 얘기가 달라지네요”라고 한 뜻은 무엇인가?",
+          "choices": [
+            "배송 일정을 수정해야 한다.",
+            "설치 지침을 바꿔야 한다.",
+            "다른 풍선 색을 골라야 한다.",
+            "다른 공급업체를 찾아야 한다."
+          ]
+        },
+        "explain": "공기 풍선은 바닥의 틀로 지지하므로 이미 전달한 천장 고리 지시를 바꿔야 한다. 인용문만으로는 어떤 사항이 바뀌는지 알 수 없고, 색과 배송 시간은 유지된다."
+      },
+      {
+        "type": "detail",
+        "q": "What will the installer be asked to do?",
+        "choices": [
+          "Inflate the balloons with helium",
+          "Attach hooks above the doorway",
+          "Collect the frame from the supplier",
+          "Make room at the sides of the entrance"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "설치 담당자는 무엇을 해 달라는 요청을 받게 되는가?",
+          "choices": [
+            "풍선에 헬륨을 넣는다",
+            "출입문 위에 고리를 단다",
+            "공급업체에서 틀을 가져온다",
+            "입구 양옆에 공간을 마련한다"
+          ]
+        },
+        "explain": "10시 4분 발언의 clear a space beside each doorpost를 입구 양옆 공간 확보로 바꿨다. 틀은 공급업체가 가져온다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-002",
+    "difficulty": 1,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "notice",
+        "title": "Touching objects at the Vellarin Gallery",
+        "body": [
+          "Visitors to our new sculpture exhibition will find small bronze models on the central table. These models were made specifically for handling. You may pick them up and explore their surfaces with your hands. Please leave them on the table when you finish so that other visitors can use them.",
+          "The full-sized works around the walls remain display objects and should not be touched. A model on the central table does not indicate that the matching original is also available for handling. Staff can describe the differences between a model and its original. Cotton gloves are provided for staff moving the original works; visitors do not need gloves to handle the models."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "벨라린 미술관의 작품 만지기",
+        "body": [
+          "새 조각 전시의 관람객은 중앙 탁자에서 작은 청동 모형을 볼 수 있습니다. 이 모형들은 직접 만져 보기 위해 특별히 제작했습니다. 들어 올려 손으로 표면을 살펴보셔도 됩니다. 다른 관람객도 사용할 수 있도록 사용 후에는 탁자 위에 놓아 주십시오.",
+          "벽 주변의 실물 크기 작품들은 전시물이므로 만지지 마십시오. 중앙 탁자에 모형이 있다고 해서 그에 해당하는 원작도 만질 수 있다는 뜻은 아닙니다. 직원이 모형과 원작의 차이를 설명해 드릴 수 있습니다. 면장갑은 원작을 옮기는 직원용이며, 관람객은 모형을 만질 때 장갑이 필요하지 않습니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "What is the main purpose of the notice?",
+        "choices": [
+          "To explain which objects visitors may handle",
+          "To invite visitors to make bronze models",
+          "To announce a change in exhibition hours",
+          "To recruit staff to move sculptures"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "안내문의 주된 목적은 무엇인가?",
+          "choices": [
+            "관람객이 만질 수 있는 물건을 설명한다",
+            "청동 모형 제작에 관람객을 초대한다",
+            "전시 운영 시간 변경을 알린다",
+            "조각상을 옮길 직원을 모집한다"
+          ]
+        },
+        "explain": "중앙 모형은 만져도 되지만 벽 주변 원작은 만지지 말라고 구분한다. 모형 제작 체험을 모집하는 내용은 없다."
+      },
+      {
+        "type": "detail",
+        "q": "What should visitors do after examining a model?",
+        "choices": [
+          "Put it back on the central table",
+          "Carry it to the matching original",
+          "Give their gloves to a staff member",
+          "Place it against a wall"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "모형을 살펴본 후 관람객은 무엇을 해야 하는가?",
+          "choices": [
+            "중앙 탁자에 다시 놓는다",
+            "해당 원작으로 가져간다",
+            "장갑을 직원에게 준다",
+            "벽에 기대어 놓는다"
+          ]
+        },
+        "explain": "첫 문단에서 다음 관람객을 위해 탁자에 남겨 두라고 했다. 원작 근처로 옮기라는 지시는 없다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-003",
+    "difficulty": 1,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "advertisement",
+        "title": "Handwritten envelopes for business invitations",
+        "body": [
+          "Give your next client invitation a personal appearance with Nerella Pen Studio. Our writers address envelopes by hand using your guest list. You choose an ink color and a lettering style from our sample book. The service covers names and addresses on envelopes; we do not write the invitation cards inside them.",
+          "Before the full job begins, we send a photograph of one completed envelope for your approval. Supply five extra envelopes for every hundred guests to allow for practice and corrections. You can collect the finished envelopes at our studio or have them delivered to your office. Postage and mailing are your responsibility. For a price estimate, send the number of guests and the envelope dimensions."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "기업 초대장을 위한 손글씨 봉투",
+        "body": [
+          "네렐라 펜 스튜디오에서 다음 고객 초대장에 정성 어린 인상을 더하십시오. 저희 필경사가 귀하의 명단을 사용해 봉투 주소를 손으로 씁니다. 견본 책자에서 잉크 색과 글씨체를 선택하시면 됩니다. 봉투의 이름과 주소를 쓰는 서비스이며 안에 넣는 초대장 내용은 작성하지 않습니다.",
+          "전체 작업을 시작하기 전에 완성한 봉투 한 장의 사진을 보내 승인을 받습니다. 연습과 수정을 위해 손님 100명당 여분의 봉투 다섯 장을 제공해 주십시오. 완성된 봉투는 스튜디오에서 수령하거나 사무실로 배송받을 수 있습니다. 우편 요금과 우편 발송은 고객의 책임입니다. 견적을 원하시면 손님 수와 봉투 규격을 보내 주십시오."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What does Nerella Pen Studio offer?",
+        "choices": [
+          "Designing invitation cards",
+          "Mailing invitations to guests",
+          "Addressing envelopes by hand",
+          "Printing company letterheads"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "네렐라 펜 스튜디오는 어떤 서비스를 제공하는가?",
+          "choices": [
+            "초대장 카드 디자인",
+            "손님에게 초대장 우편 발송",
+            "봉투 주소 손글씨 작성",
+            "회사 편지지 머리글 인쇄"
+          ]
+        },
+        "explain": "첫 문단에서 봉투에 이름과 주소를 직접 쓴다고 밝혔다. 초대장 카드 내용 작성과 우편 발송은 서비스에 포함되지 않는다."
+      },
+      {
+        "type": "detail",
+        "q": "What will customers receive before the entire order is prepared?",
+        "choices": [
+          "A package of invitation cards",
+          "An image of a finished sample",
+          "A list of postal charges",
+          "A receipt from each guest"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "전체 주문 작업 전에 고객은 무엇을 받게 되는가?",
+          "choices": [
+            "초대장 카드 묶음",
+            "완성된 견본의 이미지",
+            "우편 요금 목록",
+            "각 손님에게 받은 수령증"
+          ]
+        },
+        "explain": "둘째 문단의 완성 봉투 한 장 사진을 finished sample의 이미지로 바꿨다. 우편 요금 명세를 제공한다는 내용은 없다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-004",
+    "difficulty": 1,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "email",
+        "title": "Seed packet opening",
+        "heading": [
+          "To: Leri Vann, Packaging Development",
+          "From: Sena Olt, Meranni Seeds",
+          "Subject: Packet sample"
+        ],
+        "body": [
+          "Thank you for sending the sealed seed-packet samples. The printed planting instructions are clear, and the packets hold the correct quantity. However, pulling at the opening notch tears through the zipper underneath. Customers would then be unable to close the packet after taking out some seeds. Please move the notch closer to the top edge, leaving more material above the zipper.",
+          "We need six revised samples for our staff to try before you produce the full order. Keep the planting instructions and the packet size unchanged. Please send actual sealed packets, not just photographs. We need to tear them open to check whether the zipper remains usable. Production can begin after that test succeeds."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "씨앗 봉투 개봉부",
+        "heading": [
+          "수신: 포장 개발의 레리 반",
+          "발신: 메란니 씨앗의 세나 올트",
+          "제목: 봉투 견본"
+        ],
+        "body": [
+          "밀봉한 씨앗 봉투 견본을 보내 주셔서 감사합니다. 인쇄된 재배 지침은 명확하고 적정량이 들어갑니다. 다만 개봉 홈을 잡아당기면 그 아래의 지퍼까지 찢어집니다. 그러면 고객이 씨앗 일부를 꺼낸 뒤 다시 봉투를 닫을 수 없습니다. 지퍼 위에 재질이 더 남도록 홈을 위쪽 가장자리에 더 가깝게 옮겨 주십시오.",
+          "전체 주문을 생산하기 전에 직원들이 시험할 수정 견본 여섯 개가 필요합니다. 재배 지침과 봉투 크기는 그대로 두십시오. 사진만 보내지 말고 실제 밀봉 봉투를 보내 주십시오. 지퍼를 계속 사용할 수 있는지 확인하려면 뜯어 보아야 합니다. 시험이 성공한 후 생산을 시작할 수 있습니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What change does Ms. Olt request?",
+        "choices": [
+          "Printing shorter planting instructions",
+          "Increasing the packet capacity",
+          "Removing the zipper",
+          "Moving the opening notch toward the upper edge"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "올트 씨는 어떤 변경을 요청하는가?",
+          "choices": [
+            "더 짧은 재배 지침 인쇄",
+            "봉투 용량 확대",
+            "지퍼 제거",
+            "개봉 홈을 위쪽 가장자리로 이동"
+          ]
+        },
+        "explain": "첫 문단에서 홈을 위쪽 가장자리에 가깝게 옮겨 지퍼 위 재질을 더 남기라고 했다. 지퍼는 제거 대상이 아니라 손상되지 않아야 할 부분이다."
+      },
+      {
+        "type": "inference",
+        "q": "Why does Ms. Olt need actual sealed packets?",
+        "choices": [
+          "To verify the printed seed price",
+          "To measure the amount of water needed",
+          "To check that opening does not prevent reclosing",
+          "To photograph a new packet size"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "올트 씨가 실제 밀봉 봉투를 필요로 하는 이유는 무엇인가?",
+          "choices": [
+            "인쇄된 씨앗 가격을 확인하기 위해",
+            "필요한 물의 양을 측정하기 위해",
+            "개봉 후에도 다시 닫을 수 있는지 확인하기 위해",
+            "새 봉투 크기를 촬영하기 위해"
+          ]
+        },
+        "explain": "뜯은 뒤에도 지퍼가 작동하는지 직접 시험해야 하므로 실물이 필요하다. 인쇄 지침과 봉투 크기는 바꾸지 않는다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-005",
+    "difficulty": 1,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "form",
+        "title": "Company time capsule: final contents",
+        "table": [
+          [
+            "Department",
+            "Item"
+          ],
+          [
+            "Production",
+            "First adjustable wrench"
+          ],
+          [
+            "Sales",
+            "Current paper catalog"
+          ],
+          [
+            "People Services",
+            "Staff group photograph"
+          ],
+          [
+            "Design",
+            "Pencil drawing of a new handle"
+          ]
+        ],
+        "heading": [
+          "Prepared by: Anniversary Committee"
+        ],
+        "body": [
+          "The items listed above have been accepted for the capsule marking Orlanni Tools' fiftieth anniversary. The capsule will be sealed at the end of the staff reception on September 18 and opened twenty years later. Each department supplied an object and a short explanation of its connection to the business. The explanations will be enclosed with the objects, so future employees will not have to guess why an item was chosen.",
+          "Before the ceremony, the contents will be displayed in the training room for two days. Visitors may read the explanations but should leave the objects in their trays. The photograph shown in the display will be an extra print; the original print listed above will already be inside its protective sleeve. No food, liquids, or batteries will be placed in the capsule. Department representatives should check the spelling of their names on the explanation cards by September 15. That is the final date for corrections, not the sealing date."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "회사 타임캡슐: 최종 내용물",
+        "table": [
+          [
+            "부서",
+            "물건"
+          ],
+          [
+            "생산부",
+            "최초의 조절식 렌치"
+          ],
+          [
+            "영업부",
+            "현재 종이 카탈로그"
+          ],
+          [
+            "인사부",
+            "직원 단체 사진"
+          ],
+          [
+            "디자인부",
+            "새 손잡이의 연필 도면"
+          ]
+        ],
+        "heading": [
+          "작성: 기념행사 위원회"
+        ],
+        "body": [
+          "위에 기재된 물건들은 오를라니 공구의 창립 50주년 기념 타임캡슐에 넣기로 승인되었습니다. 캡슐은 9월 18일 직원 기념 모임이 끝날 때 봉인하고 20년 후에 개봉합니다. 각 부서는 회사와의 관련성을 짧게 설명한 글과 함께 물건 하나를 제출했습니다. 설명도 물건과 함께 넣으므로 미래 직원들이 선정 이유를 추측할 필요가 없습니다.",
+          "행사 전 이틀 동안 연수실에 내용물을 전시합니다. 관람자는 설명을 읽되 물건은 받침에 그대로 두십시오. 전시하는 사진은 추가 인화본이며, 위에 기재된 원래 인화본은 이미 보호 봉투에 들어 있을 것입니다. 캡슐에는 음식, 액체, 배터리를 넣지 않습니다. 부서 대표자는 9월 15일까지 설명 카드에 있는 자신의 이름 철자를 확인하십시오. 이 날은 봉인일이 아니라 최종 수정일입니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "Why is Orlanni Tools preparing the capsule?",
+        "choices": [
+          "To commemorate a company milestone",
+          "To store tools during a renovation",
+          "To introduce a new product catalog",
+          "To collect employee job applications"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "오를라니 공구는 왜 캡슐을 준비하는가?",
+          "choices": [
+            "회사의 기념할 만한 시점을 기리기 위해",
+            "보수 공사 중 공구를 보관하기 위해",
+            "새 제품 카탈로그를 소개하기 위해",
+            "직원 입사 지원서를 모으기 위해"
+          ]
+        },
+        "explain": "첫 문단의 창립 50주년을 company milestone으로 바꿨다. 제품 카탈로그는 내용물 하나일 뿐 주된 목적이 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "Which department submitted a picture of employees?",
+        "choices": [
+          "Sales",
+          "People Services",
+          "Production",
+          "Design"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "직원들이 찍힌 사진을 제출한 부서는 어디인가?",
+          "choices": [
+            "영업부",
+            "인사부",
+            "생산부",
+            "디자인부"
+          ]
+        },
+        "explain": "표에서 직원 단체 사진은 People Services의 제출물이다. 디자인부도 그림을 냈지만 손잡이 도면이다."
+      },
+      {
+        "type": "detail",
+        "q": "What should representatives complete by September 15?",
+        "choices": [
+          "The removal of the training-room display",
+          "The sealing of the capsule",
+          "A check of names on the cards",
+          "A new group photograph"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "대표자들이 9월 15일까지 마쳐야 할 일은 무엇인가?",
+          "choices": [
+            "연수실 전시 철거",
+            "캡슐 봉인",
+            "카드의 이름 확인",
+            "새 단체 사진 촬영"
+          ]
+        },
+        "explain": "마지막 문단에서 이름 철자의 최종 수정 기한이 15일이라고 했다. 봉인은 18일이다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-006",
+    "difficulty": 2,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "letter",
+        "title": "Unclaimed anniversary prizes",
+        "heading": [
+          "To: Lina Telven, Office Coordinator",
+          "From: Dara Ilven, Drawing Committee",
+          "Date: June 5"
+        ],
+        "body": [
+          "Dear Ms. Telven,",
+          "Our anniversary prize drawing took place at the staff reception last week. Three winning ticket holders were not present when their numbers were called. We have placed photographs of the winning tickets on the internal noticeboard, but we have not posted employees' names. A person claiming a prize must bring the matching ticket to People Services; a photograph of the noticeboard is not proof of ownership.",
+          "Please keep the three prizes in your office until June 12. If any remain unclaimed then, return those prizes to the drawing committee. We will hold a second drawing using only tickets that did not win in the first one. Employees do not need to enter again, and someone who already received a prize cannot receive another. This approach gives everyone else a further chance without changing the outcome for winners who have already collected their prizes.",
+          "I will send you the updated claim list each afternoon so that you can record which prizes are still in your care.",
+          "Regards,\nDara Ilven"
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "미수령 기념 경품",
+        "heading": [
+          "수신: 사무 조정 담당 리나 텔벤",
+          "발신: 추첨 위원회의 다라 일벤",
+          "날짜: 6월 5일"
+        ],
+        "body": [
+          "텔벤 씨께,",
+          "지난주 직원 모임에서 기념 경품 추첨을 진행했습니다. 당첨권 소지자 세 명은 번호를 부를 때 자리에 없었습니다. 내부 게시판에 당첨권 사진을 올렸으나 직원 이름은 게시하지 않았습니다. 경품 수령자는 일치하는 티켓을 인사부에 가져와야 합니다. 게시판 사진은 소유 증명이 아닙니다.",
+          "경품 세 개를 6월 12일까지 사무실에 보관해 주십시오. 그때까지 찾아가지 않은 경품은 추첨 위원회로 돌려주십시오. 첫 추첨에서 당첨되지 않은 티켓만으로 두 번째 추첨을 진행합니다. 직원은 다시 응모할 필요가 없고 이미 경품을 받은 사람은 또 받을 수 없습니다. 이미 수령한 당첨자의 결과는 바꾸지 않으면서 다른 모든 사람에게 추가 기회를 주는 방식입니다.",
+          "아직 보관 중인 경품을 기록할 수 있도록 매일 오후 갱신된 수령 명단을 보내겠습니다.",
+          "감사합니다.\n다라 일벤"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What must an employee present to receive a prize?",
+        "choices": [
+          "A photograph of the noticeboard",
+          "A newly completed entry form",
+          "The actual winning ticket",
+          "A copy of the staff reception program"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "직원이 경품을 받기 위해 제시해야 할 것은 무엇인가?",
+          "choices": [
+            "게시판 사진",
+            "새로 작성한 응모 양식",
+            "실제 당첨 티켓",
+            "직원 모임 순서표 사본"
+          ]
+        },
+        "explain": "첫 본문 문단에서 일치하는 티켓을 가져오라고 했으며 게시판 사진은 인정하지 않는다."
+      },
+      {
+        "type": "inference",
+        "q": "Who can win in the second drawing?",
+        "choices": [
+          "Employees whose winning tickets were lost",
+          "Anyone who enters again before June 12",
+          "Only the three absent ticket holders",
+          "Employees whose tickets were unsuccessful initially"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "두 번째 추첨에서는 누가 당첨될 수 있는가?",
+          "choices": [
+            "당첨 티켓을 잃어버린 직원",
+            "6월 12일 전에 다시 응모한 누구나",
+            "당시 자리에 없던 당첨권 소지자 세 명만",
+            "처음에 당첨되지 않은 티켓을 가진 직원"
+          ]
+        },
+        "explain": "두 번째 추첨은 처음 당첨되지 않은 티켓만 사용한다. 미수령 당첨권을 다시 넣는 것이 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "What will Ms. Telven receive every afternoon?",
+        "choices": [
+          "Photographs of all entrants",
+          "Tickets for the second drawing",
+          "A revised reception program",
+          "Current information about prize collections"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "텔벤 씨는 매일 오후 무엇을 받게 되는가?",
+          "choices": [
+            "모든 응모자의 사진",
+            "두 번째 추첨용 티켓",
+            "수정된 기념 모임 순서표",
+            "최신 경품 수령 정보"
+          ]
+        },
+        "explain": "마지막 본문 문단의 updated claim list를 최신 경품 수령 정보로 바꿨다. 추첨권을 매일 보내는 것이 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-007",
+    "difficulty": 2,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "memo",
+        "title": "Splitting a salary deposit",
+        "heading": [
+          "From: Payroll Services",
+          "To: All employees"
+        ],
+        "body": [
+          "Beginning with the August payroll, employees of Teralni Design may have their salary divided between two bank accounts. This is optional; anyone who makes no request will continue receiving the entire payment in the account currently on file. Both accounts must belong to the employee. Accounts held by family members cannot be used for this service.",
+          "On the request form, specify a fixed amount for the first account. Payroll will send the rest to the second account. A percentage cannot be entered in place of the fixed amount. If a particular month's net salary is smaller than the requested first payment, the entire salary goes to the first account and nothing goes to the second. The unpaid difference is not carried into the following month.",
+          "To begin with the August payment, submit the form by July 20. Changes received after that date take effect in September. You can cancel the split by submitting the same form with the cancellation box selected; a telephone call alone will not change your instructions."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "급여 분할 입금",
+        "heading": [
+          "발신: 급여 서비스팀",
+          "수신: 전 직원"
+        ],
+        "body": [
+          "8월 급여부터 테랄니 디자인 직원은 급여를 은행 계좌 두 개로 나눠 받을 수 있습니다. 선택 사항이므로 신청하지 않으면 현재 등록된 계좌로 전액을 계속 받습니다. 두 계좌 모두 직원 본인 명의여야 하며 가족 명의 계좌는 사용할 수 없습니다.",
+          "신청서에는 첫 번째 계좌에 넣을 고정 금액을 기재하십시오. 급여팀은 나머지를 두 번째 계좌에 입금합니다. 고정 금액 대신 비율을 입력할 수는 없습니다. 특정 월의 실수령 급여가 요청한 첫 번째 입금액보다 적으면 전액이 첫 번째 계좌로 가고 두 번째 계좌에는 입금되지 않습니다. 부족분은 다음 달로 이월하지 않습니다.",
+          "8월 급여부터 적용하려면 7월 20일까지 신청서를 제출하십시오. 이후 접수한 변경은 9월부터 적용됩니다. 동일 양식의 취소란을 선택해 분할 입금을 취소할 수 있습니다. 전화만으로는 지시 내용이 변경되지 않습니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "What does the memo introduce?",
+        "choices": [
+          "A change in the monthly salary amount",
+          "An optional way to distribute salary payments",
+          "A new benefit for employees' families",
+          "A requirement to close old bank accounts"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "이 메모는 무엇을 소개하는가?",
+          "choices": [
+            "월 급여 액수 변경",
+            "급여를 나누어 받는 선택적 방식",
+            "직원 가족을 위한 새 복지",
+            "옛 은행 계좌의 해지 의무"
+          ]
+        },
+        "explain": "급여를 두 계좌에 나눠 받는 선택 제도를 소개한다. 급여 자체를 올리거나 가족에게 지급하는 제도가 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "What happens when net salary is below the fixed amount requested?",
+        "choices": [
+          "The difference is deducted the following month.",
+          "Both accounts receive equal payments.",
+          "Only the first account receives a deposit.",
+          "Payroll postpones the entire payment."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "실수령 급여가 요청한 고정 금액보다 적으면 어떻게 되는가?",
+          "choices": [
+            "차액을 다음 달에 공제한다.",
+            "두 계좌에 같은 금액이 입금된다.",
+            "첫 번째 계좌에만 입금된다.",
+            "급여팀이 전체 지급을 연기한다."
+          ]
+        },
+        "explain": "둘째 문단에서 전액을 첫 계좌로 보내고 둘째 계좌에는 보내지 않는다고 명시했다. 차액도 다음 달로 넘기지 않는다."
+      },
+      {
+        "type": "inference",
+        "q": "An employee submits a new split request on July 24. When will it first apply?",
+        "choices": [
+          "July",
+          "September",
+          "August",
+          "October"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "직원이 7월 24일에 새 분할 신청을 제출한다. 언제 처음 적용되는가?",
+          "choices": [
+            "7월",
+            "9월",
+            "8월",
+            "10월"
+          ]
+        },
+        "explain": "7월 20일 이후 접수분은 9월부터 적용되므로 24일 신청도 해당한다. 8월은 기한 내 접수분에 적용된다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-008",
+    "difficulty": 3,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "article",
+        "title": "An hour with fewer distractions",
+        "body": [
+          "Every Wednesday morning, the Kelrisa Housewares store now turns off its background music and leaves promotional screens on a single still image. The change is part of a trial designed for customers who find competing sounds and moving pictures tiring. [1] The store remains open to everyone, and customers do not need to explain why they prefer shopping during this hour.",
+          "The trial began with a suggestion from a regular customer who enjoyed the products but often left before finishing her shopping. Managers initially considered opening the store earlier for a separate session. [2] They decided instead to use the first hour of normal trading, so the regular staff would be present and public transport would already be running. Lights remain at their usual level because dimming them would make small price labels harder for some visitors to read.",
+          "Employees still greet customers, but they wait for a request before describing a promotion. This restraint is intended to let visitors decide how much conversation they want. [3] Emergency announcements continue as usual, and checkout assistants can call for help when necessary. The aim is to reduce avoidable distractions, not to promise complete silence.",
+          "At the end of six weeks, managers will compare customer comments with the number of completed purchases. [4] They will not judge the trial solely by how many people enter, because the original concern was that some visitors left without finding what they needed."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "방해 요소가 적은 한 시간",
+        "body": [
+          "켈리사 생활용품 매장은 매주 수요일 아침 배경 음악을 끄고 홍보 화면에는 움직이지 않는 이미지 하나만 띄웁니다. 서로 겹치는 소리와 움직이는 화면을 피로하게 느끼는 고객을 위한 시범 운영입니다. [1] 누구나 입장할 수 있고 이 시간을 선호하는 이유를 설명할 필요도 없습니다.",
+          "제품은 좋지만 쇼핑을 마치기 전에 자주 나가게 된다는 단골 고객의 제안으로 시범 운영을 시작했습니다. 관리자들은 처음에는 별도 시간대를 위해 일찍 개점하는 방안을 고려했습니다. [2] 대신 정규 직원이 근무하고 대중교통도 운행하는 정상 영업 첫 한 시간을 택했습니다. 조명을 어둡게 하면 일부 관람객이 작은 가격표를 읽기 어려우므로 조명 수준은 그대로 유지합니다.",
+          "직원들은 여전히 고객에게 인사하지만, 홍보 내용을 설명하기 전에 요청을 기다립니다. 이러한 자제는 고객이 대화를 얼마나 할지 결정하도록 하려는 것입니다. [3] 비상 안내 방송은 평소대로 하고 계산 담당자는 필요할 때 도움을 요청할 수 있습니다. 목표는 완전한 침묵을 약속하는 것이 아니라 피할 수 있는 방해를 줄이는 것입니다.",
+          "6주가 끝나면 관리자들은 고객 의견과 실제 구매 건수를 함께 살펴볼 것입니다. [4] 처음 문제는 일부 방문객이 필요한 것을 찾지 못한 채 떠난다는 것이었으므로 입장객 수만으로 성과를 판단하지 않을 것입니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What is changed during the trial hour?",
+        "choices": [
+          "All lights are dimmed.",
+          "The store opens before public transport starts.",
+          "Customers are admitted by appointment.",
+          "Promotional displays stop showing moving images."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "시범 시간에는 무엇이 바뀌는가?",
+          "choices": [
+            "모든 조명을 어둡게 한다.",
+            "대중교통 운행 전에 개점한다.",
+            "예약한 고객만 받는다.",
+            "홍보 화면에서 움직이는 영상을 멈춘다."
+          ]
+        },
+        "explain": "첫 문단의 single still image는 움직이는 화면을 멈춘다는 뜻이다. 조명은 그대로이고 예약도 필요 없다."
+      },
+      {
+        "type": "synonym",
+        "q": "In paragraph 3, the word \"restraint\" is closest in meaning to",
+        "choices": [
+          "self-control",
+          "delay",
+          "restriction on entry",
+          "physical support"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "3문단의 “restraint”와 뜻이 가장 가까운 것은 무엇인가?",
+          "choices": [
+            "자제",
+            "지연",
+            "입장 제한",
+            "물리적 지지"
+          ]
+        },
+        "explain": "직원이 먼저 홍보 설명을 시작하지 않고 기다리는 태도를 가리키므로 자제다. 고객 입장을 제한한다는 뜻이 아니다.",
+        "ref": {
+          "passage": 0,
+          "paragraph": 2
+        }
+      },
+      {
+        "type": "inference",
+        "q": "Why will managers examine completed purchases?",
+        "choices": [
+          "To see whether visitors can finish their shopping",
+          "To decide whether to reduce checkout staffing",
+          "To set prices for the next promotion",
+          "To compare different public transport routes"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "관리자들이 완료된 구매 건수를 살펴보려는 이유는 무엇인가?",
+          "choices": [
+            "방문객이 쇼핑을 마칠 수 있는지 확인하기 위해",
+            "계산 인력 감축 여부를 결정하기 위해",
+            "다음 판촉 가격을 정하기 위해",
+            "대중교통 노선을 비교하기 위해"
+          ]
+        },
+        "explain": "처음 문제는 방문객이 쇼핑을 마치지 않고 떠난다는 것이므로 실제 구매는 그 문제의 개선 여부를 보여 준다. 단순 입장객 수와 다르다."
+      },
+      {
+        "type": "insertion",
+        "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Together, these two sources should show whether the calmer hour is helping.\"",
+        "choices": [
+          "[1]",
+          "[2]",
+          "[3]",
+          "[4]"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “이 두 자료를 함께 보면 더 차분한 한 시간이 도움이 되는지 알 수 있을 것이다.”",
+          "choices": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ]
+        },
+        "explain": "these two sources는 바로 앞의 고객 의견과 구매 건수다. 다른 위치에는 평가 자료 두 가지가 소개되어 있지 않다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-009",
+    "difficulty": 3,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "chat",
+        "title": "Images for a summer drinks campaign",
+        "lines": [
+          {
+            "time": "2:01 P.M.",
+            "name": "Tera Meln",
+            "t": "We need the photograph of the iced peach drink for next month's café poster. The photographer suggests acrylic cubes because ordinary ice melts under the studio lights."
+          },
+          {
+            "time": "2:03 P.M.",
+            "name": "Oren Valli",
+            "t": "That should keep the arrangement stable. Will the model be drinking from the same glass during the shoot, or only holding it beside the counter?"
+          },
+          {
+            "time": "2:04 P.M.",
+            "name": "Sina Erel",
+            "t": "The first plan includes a close shot of her taking a sip. Acrylic cubes are props, so I would not put them in anything a person will drink."
+          },
+          {
+            "time": "2:06 P.M.",
+            "name": "Tera Meln",
+            "t": "Then we need a second glass. We can use real ice for the sipping shot and keep the prop version for the photograph with no person in it."
+          },
+          {
+            "time": "2:07 P.M.",
+            "name": "Oren Valli",
+            "t": "Please label the bottoms so the two glasses cannot get mixed up. The labels will not be visible in either finished image."
+          },
+          {
+            "time": "2:09 P.M.",
+            "name": "Sina Erel",
+            "t": "I will handle that. The poster also needs room for the price beneath the glass, so ask the photographer to leave more empty space in the frame."
+          },
+          {
+            "time": "2:10 P.M.",
+            "name": "Tera Meln",
+            "t": "That is on my list. I will send all the layout instructions together this afternoon, before the photographer sets up tomorrow."
+          },
+          {
+            "time": "2:12 P.M.",
+            "name": "Oren Valli",
+            "t": "Good. I will bring fresh peaches in the morning. We have already approved the background, so there is no need to select another one."
+          }
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "여름 음료 캠페인 이미지",
+        "lines": [
+          "테라: 다음 달 카페 포스터에 쓸 아이스 복숭아 음료 사진이 필요해요. 일반 얼음은 스튜디오 조명 아래서 녹으니 사진사는 아크릴 조각을 제안했어요.",
+          "오렌: 그러면 배치가 유지되겠네요. 모델이 촬영 중 그 잔으로 마시나요, 아니면 계산대 옆에서 들고만 있나요?",
+          "시나: 첫 계획에는 한 모금 마시는 모습을 가까이 찍는 장면이 있어요. 아크릴 조각은 소품이니까 사람이 마실 음료에는 넣고 싶지 않아요.",
+          "테라: 그러면 잔이 하나 더 필요해요. 마시는 장면에는 진짜 얼음을 쓰고 사람이 없는 사진에는 소품 잔을 유지하면 되겠네요.",
+          "오렌: 두 잔이 섞이지 않게 바닥에 표시해 주세요. 완성 이미지에서는 표시가 보이지 않을 거예요.",
+          "시나: 제가 할게요. 포스터에는 잔 아래에 가격을 넣을 공간도 필요하니 사진사에게 화면 안에 빈 공간을 더 남겨 달라고 해 주세요.",
+          "테라: 그것도 제 목록에 있어요. 사진사가 내일 세팅하기 전에 오늘 오후 배치 지침을 모아 보낼게요.",
+          "오렌: 좋아요. 아침에 신선한 복숭아를 가져올게요. 배경은 이미 승인했으니 새로 고를 필요 없어요."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Why does the photographer suggest acrylic cubes?",
+        "choices": [
+          "They make the drink sweeter.",
+          "They retain their shape during photography.",
+          "They are required in all café posters.",
+          "They help the model drink more easily."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "사진사가 아크릴 조각을 제안한 이유는 무엇인가?",
+          "choices": [
+            "음료를 더 달게 만들기 때문에",
+            "촬영 중 형태를 유지하기 때문에",
+            "모든 카페 포스터에 필수이기 때문에",
+            "모델이 더 쉽게 마시도록 돕기 때문에"
+          ]
+        },
+        "explain": "조명 아래서 일반 얼음이 녹는다는 첫 발언과 배치를 안정적으로 유지한다는 다음 발언을 종합한다. 아크릴은 마시는 장면에 쓰지 않는다."
+      },
+      {
+        "type": "detail",
+        "q": "What does Ms. Erel agree to do?",
+        "choices": [
+          "Choose a new background",
+          "Mark the glasses for identification",
+          "Send the photographer the price list",
+          "Bring the fruit to the studio"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "에렐 씨는 무엇을 하기로 하는가?",
+          "choices": [
+            "새 배경을 고른다",
+            "식별할 수 있게 잔에 표시한다",
+            "사진사에게 가격표를 보낸다",
+            "스튜디오에 과일을 가져온다"
+          ]
+        },
+        "explain": "오렌의 바닥 표시 요청 직후 시나가 I will handle that이라고 수락했다. 과일은 오렌이 가져온다."
+      },
+      {
+        "type": "intention",
+        "q": "At 2:10 P.M., what does Ms. Meln mean by \"That is on my list\"?",
+        "choices": [
+          "She already plans to request space for the price.",
+          "She has recorded which glass contains acrylic cubes.",
+          "She has added peaches to a shopping list.",
+          "She intends to ask for a different background."
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "오후 2시 10분에 멜른 씨가 “그것도 제 목록에 있어요”라고 한 뜻은 무엇인가?",
+          "choices": [
+            "가격을 넣을 공간 요청을 이미 계획하고 있다.",
+            "아크릴 조각이 든 잔을 기록해 두었다.",
+            "장보기 목록에 복숭아를 추가했다.",
+            "다른 배경을 요청할 생각이다."
+          ]
+        },
+        "explain": "직전의 사진 구도에 가격 공간을 남겨 달라는 요청을 가리킨다. 목록이라는 말만으로는 네 업무 중 어느 것인지 결정할 수 없다."
+      },
+      {
+        "type": "inference",
+        "q": "What has already been settled before this discussion ends?",
+        "choices": [
+          "The final price printed on the poster",
+          "The number of glasses to be sold",
+          "The setting behind the photographed drink",
+          "The delivery date for printed posters"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "대화가 끝날 때까지 이미 결정된 것은 무엇인가?",
+          "choices": [
+            "포스터에 인쇄할 최종 가격",
+            "판매할 잔의 수",
+            "촬영 음료 뒤의 배경",
+            "인쇄 포스터 납품일"
+          ]
+        },
+        "explain": "마지막 발언에서 배경을 이미 승인했다고 했다. 가격을 넣을 공간은 논의했지만 가격 자체는 나오지 않았다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-010",
+    "difficulty": 2,
+    "setType": "single",
+    "passages": [
+      {
+        "type": "notice",
+        "title": "New keys without new locks",
+        "heading": [
+          "Alverni House — Building Services"
+        ],
+        "body": [
+          "The locks on the ground-floor offices at Alverni House will be rekeyed next week. Rekeying changes the small internal parts that recognize a key; it does not require replacing the handles or the entire lock. [1] The work is being arranged because several keys from former tenants have not been returned. Once a lock is rekeyed, those old keys will no longer open it.",
+          "The locksmith will visit one office at a time and test the new keys with a tenant representative before leaving. [2] Representatives should try both locking and unlocking the door rather than simply checking that a key fits into the opening. Please keep one person available during your assigned visit. The work should take approximately twenty minutes per office, although doors that do not close smoothly may take longer.",
+          "Each office will receive three new keys in a sealed envelope. Additional copies can be requested through Building Services after the work is complete. [3] Please do not arrange copies independently, as the building keeps a record of how many keys have been issued to each office. You will sign for the envelope only after the keys have been tested.",
+          "Keys for the shared front entrance are unaffected. [4] Tenants should therefore keep those keys and continue using them as usual. Building Services will collect the obsolete office keys separately; do not put them in the ordinary recycling bin."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "자물쇠 교체 없이 새 열쇠로 변경",
+        "heading": [
+          "알베르니 하우스 — 건물 서비스팀"
+        ],
+        "body": [
+          "알베르니 하우스 지상층 사무실의 자물쇠는 다음 주 내부 키 조합을 변경합니다. 열쇠를 인식하는 작은 내부 부품을 바꾸는 작업으로, 손잡이나 자물쇠 전체를 교체할 필요는 없습니다. [1] 이전 임차인의 열쇠 여러 개가 반환되지 않아 작업을 시행합니다. 변경 후에는 그 옛 열쇠로 열 수 없게 됩니다.",
+          "열쇠 기술자는 사무실을 한 곳씩 방문하고 떠나기 전에 임차인 대표와 새 열쇠를 시험합니다. [2] 대표자는 열쇠가 구멍에 들어가는지만 확인하지 말고 잠그기와 열기를 모두 해 보십시오. 지정된 방문 시간에 한 사람이 응대할 수 있게 해 주십시오. 사무실당 약 20분 걸리지만 문이 매끄럽게 닫히지 않으면 더 걸릴 수 있습니다.",
+          "각 사무실은 봉인된 봉투에 담긴 새 열쇠 세 개를 받습니다. 작업 완료 후 건물 서비스팀에 추가 복제를 요청할 수 있습니다. [3] 건물에서는 사무실별 지급 열쇠 수를 기록하므로 개별적으로 복제하지 마십시오. 열쇠 시험 후에만 봉투 수령 서명을 합니다.",
+          "공용 정문 열쇠에는 영향이 없습니다. [4] 따라서 임차인은 그 열쇠를 보관하고 평소처럼 계속 사용하십시오. 건물 서비스팀이 쓸모없어진 사무실 열쇠를 따로 수거할 것이므로 일반 재활용 쓰레기통에 넣지 마십시오."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "Why has the work been arranged?",
+        "choices": [
+          "To replace damaged office door handles",
+          "To increase the number of entrances",
+          "To prevent access using unreturned keys",
+          "To give every tenant a private entrance"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "이 작업을 시행하는 이유는 무엇인가?",
+          "choices": [
+            "손상된 사무실 문손잡이를 교체하기 위해",
+            "출입구 수를 늘리기 위해",
+            "반환되지 않은 열쇠로 출입하는 것을 막기 위해",
+            "모든 임차인에게 전용 출입구를 제공하기 위해"
+          ]
+        },
+        "explain": "첫 문단에서 이전 임차인 열쇠가 회수되지 않았고 변경 후에는 작동하지 않는다고 했다. 손잡이는 교체하지 않는다."
+      },
+      {
+        "type": "detail",
+        "q": "When should a representative sign for the key envelope?",
+        "choices": [
+          "Before the locksmith enters the office",
+          "As soon as three keys are counted",
+          "After ordering extra copies",
+          "After confirming that the keys work"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "대표자는 언제 열쇠 봉투 수령 서명을 해야 하는가?",
+          "choices": [
+            "기술자가 사무실에 들어오기 전",
+            "열쇠 세 개를 세자마자",
+            "추가 복제를 주문한 후",
+            "열쇠가 작동함을 확인한 후"
+          ]
+        },
+        "explain": "셋째 문단에서 시험 후에만 서명한다고 명시했다. 개수 확인만으로는 충분하지 않다."
+      },
+      {
+        "type": "not-true",
+        "q": "What is NOT indicated in the notice?",
+        "choices": [
+          "The shared entrance will receive a new lock.",
+          "A tenant representative must be available.",
+          "Some offices may require more than twenty minutes.",
+          "Building Services keeps key-issuance records."
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "안내문에 명시되지 않은 것은 무엇인가?",
+          "choices": [
+            "공용 출입구에 새 자물쇠를 설치한다.",
+            "임차인 대표가 응대할 수 있어야 한다.",
+            "일부 사무실은 20분 이상 걸릴 수 있다.",
+            "건물 서비스팀이 열쇠 지급 기록을 관리한다."
+          ]
+        },
+        "explain": "공용 정문 열쇠는 영향을 받지 않는다고 했다. 나머지 세 내용은 모두 본문에 명시되어 있다."
+      },
+      {
+        "type": "insertion",
+        "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The visible fittings will therefore look the same after the visit.\"",
+        "choices": [
+          "[1]",
+          "[2]",
+          "[3]",
+          "[4]"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “따라서 방문 작업 후에도 겉으로 보이는 부품의 모습은 그대로일 것이다.”",
+          "choices": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ]
+        },
+        "explain": "손잡이나 자물쇠 전체를 교체하지 않는다는 설명 직후 [1]에서 외관이 같다는 결과가 이어진다. 다른 위치는 열쇠 시험·복제·정문 사용을 다룬다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-011",
+    "difficulty": 2,
+    "setType": "double",
+    "passages": [
+      {
+        "type": "webpage",
+        "title": "Menu translation by entry",
+        "body": [
+          "Ravelli Language Desk translates restaurant menus into the language selected by the customer. We quote by menu entry rather than by the total number of printed words. A dish name and its description together count as one entry. Identical entries repeated on another page are counted only once. A heading, such as Starters, is included without a separate charge. If the description changes, however, the entry is treated as new even when its dish name stays the same.",
+          "The standard rate is $8 per entry. A request for delivery within two working days adds $40 to the complete order, not to each page. Otherwise, delivery takes five working days. Prices include one review by a second translator and a list of questions about any unclear ingredients. We return an editable document; arranging the translated text in the printed menu is a separate task for your designer. Before accepting payment, we confirm the entry count in writing. Please submit the entire menu at once, including any separate lunch page."
+        ]
+      },
+      {
+        "type": "email",
+        "title": "Files for our translation",
+        "heading": [
+          "To: Ravelli Language Desk",
+          "From: Sela Morin, Varnela Dining",
+          "Subject: Menu files"
+        ],
+        "body": [
+          "Dear Ravelli team,",
+          "I have attached the dinner menu and the separate lunch page for Varnela Dining. There are eighteen dish entries on the dinner menu. The lunch page contains six: four repeat dinner entries exactly, and two describe dishes available only at lunch. The lunch page also has two headings that are not used on the dinner pages.",
+          "Our designer needs your finished text in two working days because the printing appointment is already booked. I will be available tomorrow morning to answer questions about the ingredients. Please send your count and quote to me, rather than to the printer. We have not yet transferred any payment. The designer already has the page layout and will place the translated text in it after your work arrives. For now, the restaurant name and street address should stay as they are in the attached file.",
+          "Best regards,\nSela Morin"
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "메뉴 항목별 번역",
+        "body": [
+          "라벨리 언어 서비스는 고객이 선택한 언어로 식당 메뉴를 번역합니다. 인쇄된 전체 단어 수가 아니라 메뉴 항목별로 견적을 냅니다. 요리 이름과 설명을 합해 항목 하나로 셉니다. 다른 페이지에 똑같이 반복된 항목은 한 번만 계산합니다. 전채 요리 같은 제목은 별도 요금 없이 포함됩니다. 다만 설명이 달라지면 요리 이름이 같아도 새 항목으로 처리합니다.",
+          "기본 요금은 항목당 8달러입니다. 영업일 이틀 이내 납품 요청은 페이지당이 아니라 주문 전체에 40달러를 추가합니다. 그 외에는 영업일 닷새가 걸립니다. 다른 번역가의 검토 한 번과 불명확한 재료에 관한 질문 목록이 요금에 포함됩니다. 수정 가능한 문서를 드리며 인쇄 메뉴에 번역을 배치하는 일은 고객 디자이너의 별도 업무입니다. 결제를 받기 전에 항목 수를 서면 확인합니다. 별도 점심 페이지까지 포함한 전체 메뉴를 한 번에 보내 주십시오."
+        ]
+      },
+      {
+        "title": "번역용 파일",
+        "heading": [
+          "수신: 라벨리 언어 서비스",
+          "발신: 바르넬라 다이닝의 셀라 모린",
+          "제목: 메뉴 파일"
+        ],
+        "body": [
+          "라벨리 팀께,",
+          "바르넬라 다이닝의 저녁 메뉴와 별도 점심 페이지를 첨부했습니다. 저녁 메뉴에는 요리 항목 18개가 있습니다. 점심 페이지에는 여섯 개가 있는데 넷은 저녁 항목과 완전히 같고 둘은 점심에만 제공하는 요리입니다. 점심 페이지에는 저녁 페이지에서 쓰지 않는 제목도 두 개 있습니다.",
+          "인쇄 일정이 이미 예약되어 디자이너에게 영업일 이틀 안에 완성 번역이 필요합니다. 내일 오전에는 재료 질문에 답할 수 있습니다. 항목 수와 견적은 인쇄소 대신 제게 보내 주십시오. 아직 결제하지 않았습니다. 디자이너가 이미 페이지 배치를 갖고 있으며 작업물이 도착하면 번역을 배치할 것입니다. 현재로서는 첨부 파일의 식당 이름과 주소를 그대로 유지해 주십시오.",
+          "감사합니다.\n셀라 모린"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What is included in Ravelli's quoted service?",
+        "choices": [
+          "Printing the final menus",
+          "Designing the page layout",
+          "Translating into two languages automatically",
+          "Having another translator check the work"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "라벨리의 견적 서비스에 포함된 것은 무엇인가?",
+          "choices": [
+            "최종 메뉴 인쇄",
+            "페이지 배치 디자인",
+            "자동으로 두 언어로 번역",
+            "다른 번역가의 작업 확인"
+          ]
+        },
+        "explain": "첫 문서 둘째 문단의 review by a second translator를 바꿔 말했다. 인쇄와 배치는 포함하지 않는다."
+      },
+      {
+        "type": "not-true",
+        "q": "Which statement about Ravelli is NOT correct?",
+        "choices": [
+          "A changed description can create a new entry.",
+          "Every heading is charged as an additional entry.",
+          "Customers receive a file they can edit.",
+          "The company confirms counts before taking payment."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "라벨리에 관한 설명 중 옳지 않은 것은 무엇인가?",
+          "choices": [
+            "설명이 바뀌면 새 항목이 될 수 있다.",
+            "모든 제목에 추가 항목 요금을 부과한다.",
+            "고객은 수정 가능한 파일을 받는다.",
+            "결제 전에 항목 수를 확인한다."
+          ]
+        },
+        "explain": "첫 문서에서 제목은 별도 요금 없이 포함한다고 했다. 나머지는 모두 명시된 서비스 조건이다."
+      },
+      {
+        "type": "detail",
+        "q": "How many entries should Ravelli charge Varnela Dining for?",
+        "choices": [
+          "18",
+          "24",
+          "20",
+          "22"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "라벨리는 바르넬라 다이닝에 몇 개 항목의 요금을 청구해야 하는가?",
+          "choices": [
+            "18개",
+            "24개",
+            "20개",
+            "22개"
+          ]
+        },
+        "explain": "웹페이지의 동일 항목 중복 제외·제목 무료 기준을 이메일의 18개와 점심 신규 2개에 적용하면 20개다. 24개는 중복 4개를 포함한 수이며 22개는 제목까지 센 수다.",
+        "crossRef": true
+      },
+      {
+        "type": "inference",
+        "q": "What total price should Ms. Morin expect?",
+        "choices": [
+          "$160",
+          "$200",
+          "$232",
+          "$216"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "모린 씨가 예상해야 할 총액은 얼마인가?",
+          "choices": [
+            "160달러",
+            "200달러",
+            "232달러",
+            "216달러"
+          ]
+        },
+        "explain": "항목 20개에 8달러씩 160달러이고 이메일에서 영업일 이틀을 요청했으므로 주문 전체 긴급 요금 40달러를 더해 200달러다. 216달러는 무료 제목까지 계산한 금액이다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "What does Ms. Morin ask Ravelli to leave unchanged?",
+        "choices": [
+          "The business name and address",
+          "The descriptions of all lunch dishes",
+          "The deadline for printing",
+          "The choice of translation language"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "모린 씨는 라벨리에 무엇을 그대로 두라고 요청하는가?",
+          "choices": [
+            "상호와 주소",
+            "모든 점심 요리 설명",
+            "인쇄 기한",
+            "번역 언어 선택"
+          ]
+        },
+        "explain": "이메일 끝부분에서 restaurant name and street address를 그대로 두라고 했다. 점심 요리 설명 전체를 번역하지 말라는 뜻은 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-012",
+    "difficulty": 2,
+    "setType": "double",
+    "passages": [
+      {
+        "type": "article",
+        "title": "A mural returns to view",
+        "body": [
+          "Workers removing wall panels from the former Narell Foundry have uncovered a painted scene showing the river and the first factory buildings. The discovery came while the current owner, Lethari Furnishings, was preparing the space for a showroom. The company will keep the painting visible behind a clear protective screen rather than cover it again.",
+          "Local historian Elin Voss can date the factory buildings, but she has not yet dated the painting. The business traded as Narell Foundry until the end of 1981 and used the name Narell Metalworks from January 1982 onward. Signs above the main entrance were changed when the new name took effect. The river bridge was rebuilt in 1986. Its earlier shape appears in the mural, although Voss cautions that an artist could have worked from an older photograph.",
+          "The building owner has invited former employees to share photographs showing the painted wall. The goal is to establish when the mural was already present, not simply when the buildings it depicts were constructed. No signature has been found, and the artist remains unidentified. The showroom will open in autumn, with a small panel explaining whatever the research can establish."
+        ]
+      },
+      {
+        "type": "letter",
+        "title": "A photograph from the factory",
+        "heading": [
+          "To: Elin Voss",
+          "From: Mara Tenvin"
+        ],
+        "body": [
+          "Dear Ms. Voss,",
+          "My aunt worked in the factory canteen and kept several photographs taken during staff celebrations. One shows her standing beside the painted river scene now uncovered in the showroom. In the same photograph, the entrance sign is clearly readable as Narell Foundry. The wall and the sign are both in the original print; there is no separate picture pasted into it.",
+          "I do not know the year, and there is nothing written on the back. My aunt remembered the canteen manager taking the photograph, but she never mentioned who painted the wall. I can lend you the original so that you can examine these details. Please return it after making a copy, because it is the only print our family has. I have not posted the picture online or sent it to the newspapers.",
+          "Yours sincerely,\nMara Tenvin"
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "다시 모습을 드러낸 벽화",
+        "body": [
+          "옛 나렐 주조소의 벽 패널을 철거하던 작업자들이 강과 초기 공장 건물을 그린 그림을 발견했습니다. 현 소유주 레타리 가구가 전시장으로 공간을 준비하던 중의 발견입니다. 회사는 다시 덮는 대신 투명 보호판 뒤로 그림을 계속 볼 수 있도록 할 것입니다.",
+          "지역 역사 연구자 엘린 보스는 공장 건물의 연대는 알지만 그림의 연대는 아직 확인하지 못했습니다. 회사는 1981년 말까지 나렐 주조소라는 이름을 사용했고 1982년 1월부터 나렐 금속공업이라는 이름을 썼습니다. 새 이름이 발효될 때 정문 위 간판도 교체했습니다. 강의 다리는 1986년에 재건했습니다. 이전 모습이 벽화에 나오지만 보스는 화가가 옛 사진을 보고 그렸을 수도 있다고 주의를 줍니다.",
+          "건물 소유주는 옛 직원들에게 그림이 있는 벽이 찍힌 사진을 제공해 달라고 요청했습니다. 목적은 그림 속 건물이 언제 건설됐는지가 아니라 벽화가 언제 이미 존재했는지 확인하는 것입니다. 서명이 발견되지 않아 화가는 아직 모릅니다. 전시장은 가을에 열고 조사로 확인한 내용을 설명하는 작은 패널을 설치할 예정입니다."
+        ]
+      },
+      {
+        "title": "공장에서 찍은 사진",
+        "heading": [
+          "수신: 엘린 보스",
+          "발신: 마라 텐빈"
+        ],
+        "body": [
+          "보스 씨께,",
+          "제 이모는 공장 구내식당에서 일했으며 직원 행사 때 찍은 사진 몇 장을 보관했습니다. 한 장에는 지금 전시장에서 발견한 강 풍경 벽화 옆에 이모가 서 있습니다. 같은 사진 속 입구 간판에는 나렐 주조소라는 글자가 선명합니다. 벽과 간판이 모두 원래 인화본에 있으며 별도 사진을 붙인 것은 아닙니다.",
+          "연도는 모르고 뒷면에도 적힌 것이 없습니다. 이모는 구내식당 관리자가 사진을 찍었다고 기억했지만 누가 벽화를 그렸는지는 말한 적이 없습니다. 이 세부 사항을 살펴보실 수 있도록 원본을 빌려드릴 수 있습니다. 가족에게 한 장밖에 없는 인화본이므로 복사한 뒤 돌려주십시오. 온라인에 올리거나 신문사에 보내지는 않았습니다.",
+          "감사합니다.\n마라 텐빈"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "What does the article mainly describe?",
+        "choices": [
+          "The discovery and planned preservation of a wall painting",
+          "The construction of a new river bridge",
+          "The closure of a factory canteen",
+          "The selection of a showroom architect"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "기사는 주로 무엇을 다루는가?",
+          "choices": [
+            "벽화의 발견과 보존 계획",
+            "새 강 다리 건설",
+            "공장 구내식당 폐쇄",
+            "전시장 건축가 선정"
+          ]
+        },
+        "explain": "패널 아래서 벽화를 발견하고 전시장에서 보존하며 연대를 조사하는 내용이다. 다리 재건은 조사 배경 정보다."
+      },
+      {
+        "type": "detail",
+        "q": "Why does Ms. Voss hesitate to date the mural from the bridge alone?",
+        "choices": [
+          "The bridge is not visible in the painting.",
+          "The bridge was rebuilt several times in one year.",
+          "The artist may have used an earlier photograph.",
+          "The building owner has removed the bridge scene."
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "보스 씨가 다리만으로 벽화 연대를 정하기를 주저하는 이유는 무엇인가?",
+          "choices": [
+            "그림에서 다리가 보이지 않아서",
+            "한 해에 다리를 여러 차례 재건해서",
+            "화가가 이전 사진을 이용했을 수 있어서",
+            "건물 소유주가 다리 부분을 지워서"
+          ]
+        },
+        "explain": "기사 둘째 문단에서 실제로 그린 당시의 다리가 아니라 옛 사진을 참고했을 수 있다고 했다."
+      },
+      {
+        "type": "inference",
+        "q": "What does Ms. Tenvin's photograph help establish about the mural?",
+        "choices": [
+          "It was painted after the bridge was rebuilt.",
+          "It was commissioned by Lethari Furnishings.",
+          "It was painted by the canteen manager.",
+          "It was already present before the factory name changed."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "텐빈 씨의 사진은 벽화에 관한 무엇을 확인하는 데 도움이 되는가?",
+          "choices": [
+            "다리 재건 후에 그렸다는 것",
+            "레타리 가구가 제작을 의뢰했다는 것",
+            "구내식당 관리자가 그렸다는 것",
+            "공장 이름이 바뀌기 전에 이미 존재했다는 것"
+          ]
+        },
+        "explain": "편지의 사진에는 벽화와 Narell Foundry 간판이 함께 있고, 기사는 그 이름을 1981년 말까지만 썼다고 설명한다. 관리자라는 정보는 사진을 찍은 사람이지 벽화 화가가 아니다.",
+        "crossRef": true
+      },
+      {
+        "type": "not-true",
+        "q": "What does the letter NOT establish?",
+        "choices": [
+          "Who took the family photograph",
+          "Where Ms. Tenvin's aunt worked",
+          "Whether the original print can be examined",
+          "Who created the wall painting"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "편지가 확인해 주지 않는 것은 무엇인가?",
+          "choices": [
+            "가족 사진을 누가 찍었는지",
+            "텐빈 씨 이모가 어디에서 일했는지",
+            "원본 인화본을 살펴볼 수 있는지",
+            "벽화를 누가 제작했는지"
+          ]
+        },
+        "explain": "편지는 구내식당 관리자가 사진을 찍었고 이모가 구내식당에서 일했다고 밝히지만 벽화 화가는 모른다."
+      },
+      {
+        "type": "detail",
+        "q": "What does Ms. Tenvin request?",
+        "choices": [
+          "Publication of her picture in a newspaper",
+          "The return of her original photograph",
+          "A signed copy of the history panel",
+          "Permission to repaint the entrance sign"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "텐빈 씨는 무엇을 요청하는가?",
+          "choices": [
+            "신문에 자신의 사진 게재",
+            "원본 사진 반환",
+            "서명된 역사 설명판 사본",
+            "입구 간판을 다시 칠할 허가"
+          ]
+        },
+        "explain": "가족에게 유일한 인화본이므로 복사 후 돌려 달라고 했다. 신문 게재 요청은 없다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-013",
+    "difficulty": 3,
+    "setType": "triple",
+    "passages": [
+      {
+        "type": "form",
+        "title": "Launch display cabinets",
+        "table": [
+          [
+            "Cabinet",
+            "Interior width",
+            "Shelf depth"
+          ],
+          [
+            "P",
+            "64 cm",
+            "18 cm"
+          ],
+          [
+            "Q",
+            "76 cm",
+            "22 cm"
+          ],
+          [
+            "R",
+            "58 cm",
+            "28 cm"
+          ],
+          [
+            "S",
+            "90 cm",
+            "16 cm"
+          ]
+        ],
+        "heading": [
+          "West showroom — fixture register"
+        ],
+        "body": [
+          "These four cabinets are available for the boxed-product display in the west showroom. The figures below are clear interior measurements, not the outside dimensions of the furniture. Each cabinet has one display shelf. Products must stand upright in a single row, with the printed front of every carton facing the aisle. Cartons must not be turned sideways to fit a shallower shelf.",
+          "Leave at least four centimeters of empty space between neighboring cartons so customers can grip a carton without moving another one. No extra space is required at the two ends of the row. Products may touch the back of the shelf. The measurements already exclude the space occupied by the door frame. The same price holder fits all four cabinets, and the cabinets have identical lighting. Reserve one complete cabinet for this launch rather than mixing the new product with items from other campaigns."
+        ]
+      },
+      {
+        "type": "form",
+        "title": "Cartons for the spring product range",
+        "table": [
+          [
+            "Product",
+            "Width",
+            "Depth"
+          ],
+          [
+            "Noma",
+            "18 cm",
+            "24 cm"
+          ],
+          [
+            "Veli",
+            "20 cm",
+            "15 cm"
+          ],
+          [
+            "Rona",
+            "16 cm",
+            "20 cm"
+          ],
+          [
+            "Tavi",
+            "14 cm",
+            "17 cm"
+          ]
+        ],
+        "heading": [
+          "Packaging Department — approved retail dimensions"
+        ],
+        "body": [
+          "The dimensions describe the closed retail cartons in their upright position. Width is measured across the printed front, and depth is measured from front to back. The products can be handled safely while boxed; sales staff should keep display units in these cartons during the first week of the launch.",
+          "All four cartons are the same height and fit under the showroom cabinet lights. The names in this table are the retail product names that appear on the boxes. Warehouse shipping cases contain several retail cartons and have different measurements. Please use the retail figures when planning a customer display. A color photograph of each product appears on the front of its carton, while the ingredient and material information is printed on the back."
+        ]
+      },
+      {
+        "type": "email",
+        "title": "West showroom launch",
+        "heading": [
+          "To: West showroom team",
+          "From: Nera Elvi, Product Marketing",
+          "Subject: Launch arrangements"
+        ],
+        "body": [
+          "The first product we will feature is Noma. The stock team has set aside six boxed units for us, and I have asked them to keep the remaining stock in the storeroom. We will fill one of the available cabinets with as many units as its display rules allow. Any units from the six that do not fit will stay behind the sales counter.",
+          "For this first week, every unit will remain in its retail carton. After the week ends, we will move the display to the window and open one sample for customers to examine. I will bring the price card on Monday morning; the photograph on it has already been approved. Please let me know which cabinet to reserve and how many boxed units you can put in it."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "신제품 진열장",
+        "table": [
+          [
+            "진열장",
+            "내부 너비",
+            "선반 깊이"
+          ],
+          [
+            "P",
+            "64 cm",
+            "18 cm"
+          ],
+          [
+            "Q",
+            "76 cm",
+            "22 cm"
+          ],
+          [
+            "R",
+            "58 cm",
+            "28 cm"
+          ],
+          [
+            "S",
+            "90 cm",
+            "16 cm"
+          ]
+        ],
+        "heading": [
+          "서쪽 전시장 — 집기 목록"
+        ],
+        "body": [
+          "서쪽 전시장의 포장 제품 진열에 아래 네 진열장을 사용할 수 있습니다. 수치는 가구 외부가 아니라 실제 사용 가능한 내부 치수입니다. 각 진열장에는 선반이 하나 있습니다. 제품은 한 줄로 세워 놓고 모든 상자의 인쇄된 앞면이 통로를 향해야 합니다. 얕은 선반에 맞추기 위해 상자를 옆으로 돌리면 안 됩니다.",
+          "고객이 다른 상자를 움직이지 않고 하나를 잡을 수 있도록 이웃한 상자 사이에 최소 4센티미터의 빈 공간을 두십시오. 줄의 양 끝에는 추가 공간이 필요하지 않습니다. 제품은 선반 뒷면에 닿아도 됩니다. 치수에는 문틀이 차지하는 공간이 이미 제외되어 있습니다. 같은 가격표 꽂이가 네 진열장에 모두 맞고 조명도 같습니다. 다른 캠페인의 물건과 섞지 말고 이번 출시용으로 진열장 하나 전체를 예약하십시오."
+        ]
+      },
+      {
+        "title": "봄 제품군 상자",
+        "table": [
+          [
+            "제품",
+            "너비",
+            "깊이"
+          ],
+          [
+            "Noma",
+            "18 cm",
+            "24 cm"
+          ],
+          [
+            "Veli",
+            "20 cm",
+            "15 cm"
+          ],
+          [
+            "Rona",
+            "16 cm",
+            "20 cm"
+          ],
+          [
+            "Tavi",
+            "14 cm",
+            "17 cm"
+          ]
+        ],
+        "heading": [
+          "포장부 — 승인된 소매 치수"
+        ],
+        "body": [
+          "치수는 닫힌 소매 상자를 똑바로 세웠을 때의 값입니다. 너비는 인쇄된 앞면을 가로질러 측정하고 깊이는 앞에서 뒤까지 측정합니다. 상자에 든 상태로 제품을 안전하게 다룰 수 있으므로 영업 직원은 출시 첫 주 동안 진열 제품을 상자 안에 두어야 합니다.",
+          "네 상자 모두 높이가 같고 전시장 진열장 조명 아래에 들어갑니다. 표의 이름은 상자에 표시되는 소매 제품명입니다. 창고 운송 상자는 소매 상자 여러 개를 담으며 치수가 다릅니다. 고객용 진열을 계획할 때는 소매 치수를 사용하십시오. 각 상자 앞면에는 제품 컬러 사진이 있고 뒷면에는 성분과 재료 정보가 인쇄되어 있습니다."
+        ]
+      },
+      {
+        "title": "서쪽 전시장 출시",
+        "heading": [
+          "수신: 서쪽 전시장팀",
+          "발신: 제품 마케팅의 네라 엘비",
+          "제목: 출시 준비"
+        ],
+        "body": [
+          "먼저 소개할 제품은 Noma입니다. 재고팀이 포장 제품 여섯 개를 따로 확보했으며 나머지 재고는 창고에 두라고 했습니다. 사용 가능한 진열장 하나에 진열 규칙이 허용하는 만큼 최대한 채울 것입니다. 여섯 개 중 들어가지 않는 물건은 판매대 뒤에 둡니다.",
+          "첫 주에는 모든 제품을 소매 상자에 그대로 둡니다. 한 주가 끝나면 진열을 창가로 옮기고 고객이 살펴볼 견본 하나를 개봉할 것입니다. 가격 카드는 월요일 아침에 가져오겠습니다. 그 사진은 이미 승인되었습니다. 예약할 진열장과 넣을 수 있는 포장 제품 개수를 알려 주십시오."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "Why was the fixture register prepared?",
+        "choices": [
+          "To compare lighting suppliers",
+          "To authorize carton redesigns",
+          "To support planning of a product display",
+          "To calculate warehouse shipping charges"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "집기 목록을 준비한 이유는 무엇인가?",
+          "choices": [
+            "조명 공급업체 비교",
+            "상자 재설계 승인",
+            "제품 진열 계획 지원",
+            "창고 운송 요금 계산"
+          ]
+        },
+        "explain": "진열장의 내부 치수와 배치 규칙을 제공하여 신제품 진열을 계획하게 한다. 운송 상자 치수는 별개라고 둘째 문서에서 구분한다."
+      },
+      {
+        "type": "synonym",
+        "q": "In paragraph 1 of the fixture register, \"clear\" is closest in meaning to",
+        "choices": [
+          "unobstructed",
+          "transparent",
+          "obvious",
+          "removed"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "집기 목록 1문단의 “clear”와 뜻이 가장 가까운 것은 무엇인가?",
+          "choices": [
+            "막힌 부분을 제외한",
+            "투명한",
+            "명백한",
+            "제거된"
+          ]
+        },
+        "explain": "clear interior measurements는 문틀 등을 제외하고 실제 사용 가능한 내부 치수라는 뜻이다. 투명한 재질을 말하는 것이 아니다.",
+        "ref": {
+          "passage": 0,
+          "paragraph": 0
+        }
+      },
+      {
+        "type": "inference",
+        "q": "Which cabinet should be reserved for Ms. Elvi's display?",
+        "choices": [
+          "Q",
+          "R",
+          "S",
+          "P"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "엘비 씨의 진열을 위해 어느 진열장을 예약해야 하는가?",
+          "choices": [
+            "Q",
+            "R",
+            "S",
+            "P"
+          ]
+        },
+        "explain": "메일에서 선택한 Noma는 포장표상 깊이 24cm다. 옆으로 돌릴 수 없으므로 깊이 28cm인 R만 가능하며 Q의 22cm는 부족하다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "What is the maximum number of boxed units that can be displayed for this launch?",
+        "choices": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "이번 출시에서 진열할 수 있는 포장 제품의 최대 개수는 몇 개인가?",
+          "choices": [
+            "4개",
+            "3개",
+            "2개",
+            "1개"
+          ]
+        },
+        "explain": "Noma를 넣을 수 있는 R의 너비는 58cm다. 두 개는 18×2+4=40cm지만 세 개는 18×3+4×2=62cm여서 최대 두 개이며, 여섯 개 확보 수량이 진열 가능 수량은 아니다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "What will happen after the first week?",
+        "choices": [
+          "All six units will be returned to the warehouse.",
+          "A different price-card photograph will be selected.",
+          "The cabinets will receive new lights.",
+          "One product will be removed from its carton for viewing."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "첫 주가 끝나면 무엇을 하는가?",
+          "choices": [
+            "여섯 제품 모두를 창고에 반환한다.",
+            "다른 가격 카드 사진을 선택한다.",
+            "진열장에 새 조명을 단다.",
+            "제품 하나를 상자에서 꺼내 살펴볼 수 있게 한다."
+          ]
+        },
+        "explain": "메일 둘째 문단에서 창가로 옮기고 견본 하나를 개봉한다고 했다. 사진은 이미 승인됐고 바꾼다는 말은 없다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-014",
+    "difficulty": 3,
+    "setType": "triple",
+    "passages": [
+      {
+        "type": "webpage",
+        "title": "Understanding the stock number on our shop page",
+        "body": [
+          "The stock number displayed on the Pelvessa Craft Supply product page is a snapshot. The page obtains the current quantity when you first open it or press Refresh. Leaving the page open does not update that number automatically. An item in a shopping cart is not reserved; another customer can buy it until you complete payment. The checkout screen checks the current stock again before accepting your order.",
+          "Our stock record changes as soon as a sale is completed. Accepted returns are added after staff inspect the goods and confirm that they can be sold again. The product page and checkout screen use the same record, but they may show different quantities if they consult it at different times. A difference does not necessarily indicate a missing delivery or an incorrect return.",
+          "If you are preparing a purchase for your business, save the order confirmation for your accounts team. It lists the quantity you bought and the amount charged. The stock figure you saw earlier is not included on that confirmation."
+        ]
+      },
+      {
+        "type": "form",
+        "title": "Stock events: carved stamp set",
+        "table": [
+          [
+            "Time",
+            "Event",
+            "Quantity"
+          ],
+          [
+            "9:10 A.M.",
+            "Sale completed",
+            "3 sets"
+          ],
+          [
+            "9:15 A.M.",
+            "Return accepted",
+            "2 sets"
+          ],
+          [
+            "9:20 A.M.",
+            "Sale completed",
+            "4 sets"
+          ],
+          [
+            "9:25 A.M.",
+            "Sale completed",
+            "2 sets"
+          ]
+        ],
+        "heading": [
+          "Pelvessa Craft Supply",
+          "Morning transaction extract"
+        ],
+        "body": [
+          "The quantity available at 9:00 A.M. was eight sets. The entries below are all stock-changing events between 9:00 and 9:30 A.M. No deliveries or other adjustments took place in that interval. These are completed transactions rather than open shopping carts. Times are taken from the shop's central clock.",
+          "The two returned sets had unopened inner wrappers. A member of staff inspected them before recording the return at 9:15. The afternoon delivery mentioned in the warehouse calendar had not yet arrived. Staff prepared this extract to help Customer Support compare a visitor's page history with the changing stock record."
+        ]
+      },
+      {
+        "type": "email",
+        "title": "A question about the displayed quantity",
+        "heading": [
+          "To: Customer Support, Pelvessa Craft Supply",
+          "From: Lina Orel, Mavrin Print Workshop",
+          "Subject: Product-page number"
+        ],
+        "body": [
+          "I opened the carved stamp set page at 9:05 this morning and left it open while I compared our workshop's supply list. At 9:18, I pressed Refresh. I did not open the page again or refresh it after that. I then added two sets to my cart and completed the purchase at 9:25. The checkout accepted both sets, and I received a confirmation for two.",
+          "I am not reporting a missing item or asking to cancel. I would simply like to understand why a number can remain on the product page while the stock available for purchase changes. Our accounts assistant has asked me for proof of the amount we paid, so I have saved the confirmation for her. All the times above come from the browser history and the order confirmation, which use the shop's time zone."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "온라인 매장의 재고 숫자 이해하기",
+        "body": [
+          "펠베사 공예용품의 제품 페이지에 표시되는 재고는 특정 시점의 값입니다. 처음 열거나 새로 고침을 누를 때 현재 수량을 가져옵니다. 페이지를 열어 둔다고 자동으로 숫자가 바뀌지는 않습니다. 장바구니에 넣어도 예약되지 않으므로 결제를 마칠 때까지 다른 고객이 살 수 있습니다. 주문 화면은 주문을 받기 전에 현재 재고를 다시 확인합니다.",
+          "판매가 완료되면 재고 기록은 즉시 바뀝니다. 반품은 직원이 검사하여 재판매 가능함을 확인한 뒤 추가합니다. 제품 페이지와 주문 화면은 같은 기록을 사용하지만 서로 다른 시점에 조회하면 수량이 다를 수 있습니다. 차이가 있다고 해서 반드시 배송 누락이나 잘못된 반품을 뜻하는 것은 아닙니다.",
+          "업무용 구매를 한다면 회계팀을 위해 주문 확인서를 저장하십시오. 구입 수량과 청구 금액이 나옵니다. 앞서 보았던 재고 숫자는 그 확인서에 포함되지 않습니다."
+        ]
+      },
+      {
+        "title": "재고 변동: 조각 스탬프 세트",
+        "table": [
+          [
+            "시각",
+            "변동",
+            "수량"
+          ],
+          [
+            "오전 9:10",
+            "판매 완료",
+            "3세트"
+          ],
+          [
+            "오전 9:15",
+            "반품 접수 완료",
+            "2세트"
+          ],
+          [
+            "오전 9:20",
+            "판매 완료",
+            "4세트"
+          ],
+          [
+            "오전 9:25",
+            "판매 완료",
+            "2세트"
+          ]
+        ],
+        "heading": [
+          "펠베사 공예용품",
+          "오전 거래 발췌본"
+        ],
+        "body": [
+          "오전 9시 판매 가능 수량은 여덟 세트였습니다. 아래는 오전 9시부터 9시 30분까지의 모든 재고 변동입니다. 이 시간에는 납품이나 다른 조정이 없었습니다. 열린 장바구니가 아니라 완료된 거래입니다. 시간은 매장 중앙 시계를 기준으로 합니다.",
+          "반품한 두 세트의 내부 포장은 미개봉 상태였습니다. 직원이 검사한 후 9시 15분에 반품을 기록했습니다. 창고 일정에 기재된 오후 납품은 아직 도착하지 않았습니다. 고객지원팀이 방문자의 페이지 이력과 변하는 재고 기록을 비교하도록 직원들이 이 발췌본을 준비했습니다."
+        ]
+      },
+      {
+        "title": "표시 수량에 관한 질문",
+        "heading": [
+          "수신: 펠베사 공예용품 고객지원팀",
+          "발신: 마브린 인쇄 작업장의 리나 오렐",
+          "제목: 제품 페이지 숫자"
+        ],
+        "body": [
+          "오늘 아침 9시 5분에 조각 스탬프 세트 페이지를 열고 작업장 준비물 목록과 비교하는 동안 열어 두었습니다. 9시 18분에 새로 고침을 눌렀습니다. 이후에는 페이지를 다시 열거나 새로 고치지 않았습니다. 그 뒤 두 세트를 장바구니에 넣고 9시 25분에 구매를 마쳤습니다. 주문 화면에서 두 세트가 모두 승인됐고 두 세트의 확인서를 받았습니다.",
+          "물건 누락을 신고하거나 취소를 요청하는 것은 아닙니다. 구매 가능 재고는 변하는데 제품 페이지의 숫자가 그대로 남을 수 있는 이유를 알고 싶을 뿐입니다. 회계 담당자가 결제 금액 증빙을 요청하여 그분을 위해 확인서를 저장했습니다. 위의 모든 시간은 매장 시간대를 쓰는 브라우저 이력과 주문 확인서에서 가져왔습니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "purpose",
+        "q": "What does the webpage mainly explain?",
+        "choices": [
+          "How customers can return opened products",
+          "Why displayed and current stock may differ",
+          "How business buyers can reserve goods without payment",
+          "Why deliveries arrive in the afternoon"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "웹페이지는 주로 무엇을 설명하는가?",
+          "choices": [
+            "개봉 상품 반품 방법",
+            "표시 재고와 현재 재고가 다를 수 있는 이유",
+            "업무 구매자의 미결제 상품 예약 방법",
+            "오후에 납품되는 이유"
+          ]
+        },
+        "explain": "페이지는 조회 시점의 값을 유지하지만 실제 재고는 변하므로 다를 수 있음을 설명한다. 장바구니는 예약 기능이 아니다."
+      },
+      {
+        "type": "detail",
+        "q": "What is indicated about the returned stamp sets?",
+        "choices": [
+          "They came from the afternoon delivery.",
+          "Their inner wrappers had been removed.",
+          "They were added before staff examined them.",
+          "They were checked before reentering the stock record."
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "반품된 스탬프 세트에 관해 알 수 있는 것은 무엇인가?",
+          "choices": [
+            "오후 납품에서 왔다.",
+            "내부 포장을 제거했다.",
+            "검사 전에 재고에 추가했다.",
+            "재고 기록에 다시 넣기 전에 검사했다."
+          ]
+        },
+        "explain": "거래 발췌본에서 직원이 검사 후 9시 15분에 기록했다고 했다. 내부 포장은 미개봉이었다."
+      },
+      {
+        "type": "inference",
+        "q": "What quantity should Ms. Orel's product page have shown after her last refresh?",
+        "choices": [
+          "7 sets",
+          "3 sets",
+          "8 sets",
+          "5 sets"
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "오렐 씨가 마지막으로 새로 고친 뒤 제품 페이지에는 몇 세트가 표시되어야 하는가?",
+          "choices": [
+            "7세트",
+            "3세트",
+            "8세트",
+            "5세트"
+          ]
+        },
+        "explain": "메일의 마지막 새로 고침은 9시 18분이다. 웹페이지의 조회 방식과 거래표를 적용하면 8−3+2=7세트이며 9시 20분 판매는 화면을 자동 변경하지 않는다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "How many sets were available immediately before Ms. Orel completed her purchase?",
+        "choices": [
+          "7",
+          "3",
+          "5",
+          "1"
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "오렐 씨가 구매를 마치기 직전에 몇 세트를 살 수 있었는가?",
+          "choices": [
+            "7세트",
+            "3세트",
+            "5세트",
+            "1세트"
+          ]
+        },
+        "explain": "메일의 결제 시점은 9시 25분이다. 직전 재고는 거래표의 8−3+2−4=3세트이며 1세트는 그녀의 구매 두 세트를 뺀 후의 값이다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "Why did Ms. Orel save the confirmation?",
+        "choices": [
+          "To dispute the number of items received",
+          "To ask for the afternoon delivery schedule",
+          "To provide a colleague with payment evidence",
+          "To reserve additional sets for another workshop"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "오렐 씨가 확인서를 저장한 이유는 무엇인가?",
+          "choices": [
+            "수령 품목 수에 이의를 제기하기 위해",
+            "오후 납품 일정을 문의하기 위해",
+            "동료에게 결제 증빙을 주기 위해",
+            "다른 작업장용 추가 세트를 예약하기 위해"
+          ]
+        },
+        "explain": "메일 둘째 문단에서 회계 담당자의 결제 금액 증빙 요청을 이유로 밝혔다. 취소나 누락 신고는 아니라고 명시한다."
+      }
+    ]
+  },
+  {
+    "id": "p7-5-015",
+    "difficulty": 2,
+    "setType": "triple",
+    "passages": [
+      {
+        "type": "form",
+        "title": "Cargo entry at Selvara Inlet",
+        "table": [
+          [
+            "Entry time",
+            "Water depth"
+          ],
+          [
+            "8:00 A.M.",
+            "3.2 m"
+          ],
+          [
+            "10:00 A.M.",
+            "3.8 m"
+          ],
+          [
+            "12:00 P.M.",
+            "4.2 m"
+          ],
+          [
+            "2:00 P.M.",
+            "4.6 m"
+          ]
+        ],
+        "heading": [
+          "Selvara Inlet Office",
+          "Planning sheet — September 16"
+        ],
+        "body": [
+          "The inlet office issues arrival permissions only for the four entry times shown below. On September 16, the listed depths apply at the channel entrance at those times. A cargo vessel may enter when the water depth is at least 0.6 meter greater than the vessel's loaded draft. Draft means the distance from the water surface to the lowest part of the vessel. Equality with the required minimum is acceptable.",
+          "The trip from the channel entrance to the unloading berth takes twenty minutes. That travel time is separate from unloading time. Permission to enter the channel does not authorize a vessel to begin unloading early while it is still moving. The berth team meets the vessel on arrival. The berth has been reserved for the whole day, so permitted vessels can start unloading immediately after the twenty-minute passage, without an additional waiting period. Return journeys are arranged separately and are not included in this notice."
+        ]
+      },
+      {
+        "type": "letter",
+        "title": "Charter details for the inlet delivery",
+        "heading": [
+          "From: Evan Leri, Charter Operations",
+          "To: Dena Orven, Retail Distribution"
+        ],
+        "body": [
+          "Dear Ms. Orven,",
+          "The vessel you have chartered for September 16 is the Lerna Bell. With the full shipment aboard, its draft will be 3.5 meters. This figure includes the fuel and crew supplies for the journey. It should not be replaced by the smaller empty-vessel figure printed in the general brochure.",
+          "Our berth team has set aside one hundred minutes to unload your shipment. That period begins when the vessel reaches the unloading berth, not when it enters the channel. All cargo will be taken ashore before the paperwork is signed. We have supplied the captain with the current inlet planning sheet, but we have not yet selected an entry time. Please confirm when the loading depot expects the vessel to be ready at the entrance. The empty transport racks will remain at the berth for collection by road the next morning.",
+          "Kind regards,\nEvan Leri"
+        ]
+      },
+      {
+        "type": "email",
+        "title": "Loading depot update",
+        "heading": [
+          "To: Dena Orven",
+          "From: Mila Tess, Loading Depot",
+          "Date: September 16, 8:40 A.M.",
+          "Subject: Vessel ready"
+        ],
+        "body": [
+          "The full shipment is now aboard the Lerna Bell, and the crew has secured the last row of cartons. The depot supervisor expects the vessel to reach the channel entrance at 9:30 A.M. It can wait there for the permitted entry time. No part of the shipment is being left behind, and the vessel is using the fuel quantity specified in the charter letter.",
+          "I have placed the cargo list in the captain's document folder. Please use the earliest entry time that is possible under the inlet office's planning sheet. Our driver will collect the empty racks tomorrow morning rather than this afternoon. He needs the berth number before leaving the depot, so please send that number once the unloading team confirms it. The driver already has the road directions and the collection contact's telephone number."
+        ]
+      }
+    ],
+    "passagesKo": [
+      {
+        "title": "셀바라 수로 화물선 입항",
+        "table": [
+          [
+            "진입 시각",
+            "수심"
+          ],
+          [
+            "오전 8:00",
+            "3.2 m"
+          ],
+          [
+            "오전 10:00",
+            "3.8 m"
+          ],
+          [
+            "오후 12:00",
+            "4.2 m"
+          ],
+          [
+            "오후 2:00",
+            "4.6 m"
+          ]
+        ],
+        "heading": [
+          "셀바라 수로 사무소",
+          "계획표 — 9월 16일"
+        ],
+        "body": [
+          "수로 사무소는 아래 네 입항 시각에만 허가를 발급합니다. 9월 16일에는 그 시각의 수로 입구 수심이 표와 같습니다. 화물선은 수심이 만재 흘수보다 최소 0.6미터 깊을 때 진입할 수 있습니다. 흘수는 수면에서 배의 가장 낮은 부분까지의 거리입니다. 필요한 최솟값과 정확히 같아도 됩니다.",
+          "수로 입구에서 하역 부두까지 이동에는 20분이 걸립니다. 이 이동 시간과 하역 시간은 별개입니다. 수로 진입 허가가 이동 중 미리 하역을 시작할 권한은 아닙니다. 부두팀이 도착한 선박을 맞습니다. 부두를 하루 종일 예약했으므로 허가된 선박은 20분 이동을 마치면 추가 대기 없이 즉시 하역을 시작할 수 있습니다. 돌아가는 항해는 별도로 정하며 이 안내문에 포함되지 않습니다."
+        ]
+      },
+      {
+        "title": "수로 배송 용선 내역",
+        "heading": [
+          "발신: 용선 운영의 에번 레리",
+          "수신: 소매 유통의 데나 오르벤"
+        ],
+        "body": [
+          "오르벤 씨께,",
+          "9월 16일 용선한 배는 레르나 벨입니다. 전체 화물을 실으면 흘수는 3.5미터가 됩니다. 이 수치에는 항해용 연료와 선원 보급품이 포함됩니다. 일반 안내 책자에 인쇄된 더 작은 빈 배의 수치로 대체하면 안 됩니다.",
+          "부두팀은 화물 하역에 100분을 배정했습니다. 수로에 들어갈 때가 아니라 하역 부두에 도착할 때부터 잽니다. 서류에 서명하기 전에 모든 화물을 육지로 내립니다. 선장에게 현재 수로 계획표를 제공했지만 진입 시각은 아직 선택하지 않았습니다. 적재 기지가 언제 수로 입구에 도착할 것으로 예상하는지 확인해 주십시오. 빈 운송 랙은 다음 날 아침 도로 수거 때까지 부두에 둡니다.",
+          "감사합니다.\n에번 레리"
+        ]
+      },
+      {
+        "title": "적재 기지 진행 상황",
+        "heading": [
+          "수신: 데나 오르벤",
+          "발신: 적재 기지의 밀라 테스",
+          "날짜: 9월 16일 오전 8:40",
+          "제목: 선박 준비 완료"
+        ],
+        "body": [
+          "전체 화물을 레르나 벨에 실었으며 선원들이 마지막 상자 줄을 고정했습니다. 기지 감독자는 배가 오전 9시 30분에 수로 입구에 도착할 것으로 예상합니다. 허용된 진입 시간까지 그곳에서 기다릴 수 있습니다. 남겨 두는 화물은 없고 용선 편지에서 지정한 연료량을 사용합니다.",
+          "선장 문서 폴더에 화물 목록을 넣었습니다. 수로 사무소 계획표상 가능한 가장 이른 진입 시각을 이용해 주십시오. 운전자는 오늘 오후가 아니라 내일 아침 빈 랙을 수거합니다. 기지를 떠나기 전에 부두 번호가 필요하므로 하역팀이 확인하면 보내 주십시오. 운전자는 이미 도로 안내와 수거 담당자의 전화번호를 가지고 있습니다."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What does the inlet planning sheet specify?",
+        "choices": [
+          "The time of the vessel's return journey",
+          "The volume of fuel needed for the trip",
+          "The number of cartons in the shipment",
+          "When vessels may begin entering the channel"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "수로 계획표는 무엇을 명시하는가?",
+          "choices": [
+            "배의 귀환 시각",
+            "항해에 필요한 연료량",
+            "배송 상자 수",
+            "배가 수로에 진입하기 시작할 수 있는 시각"
+          ]
+        },
+        "explain": "계획표는 수로 입구 진입 시각과 수심을 제시한다. 귀환 항해는 별도라고 명시한다."
+      },
+      {
+        "type": "detail",
+        "q": "Which draft should Ms. Orven use for planning?",
+        "choices": [
+          "The empty-vessel figure in the brochure",
+          "The depth at the unloading berth",
+          "The figure for the vessel carrying the full shipment",
+          "The distance traveled along the channel"
+        ],
+        "answer": 2,
+        "ko": {
+          "q": "오르벤 씨는 계획에 어떤 흘수를 사용해야 하는가?",
+          "choices": [
+            "책자의 빈 배 수치",
+            "하역 부두 수심",
+            "전체 화물을 실은 배의 수치",
+            "수로를 따라 이동하는 거리"
+          ]
+        },
+        "explain": "용선 편지에서 연료 등을 포함한 만재 흘수 3.5m를 쓰라고 했다. 수심은 물의 깊이로 흘수와 다르다."
+      },
+      {
+        "type": "inference",
+        "q": "What is the earliest entry time available for this delivery?",
+        "choices": [
+          "10:00 A.M.",
+          "12:00 P.M.",
+          "2:00 P.M.",
+          "8:00 A.M."
+        ],
+        "answer": 1,
+        "ko": {
+          "q": "이번 배송에 이용할 수 있는 가장 이른 진입 시각은 언제인가?",
+          "choices": [
+            "오전 10시",
+            "낮 12시",
+            "오후 2시",
+            "오전 8시"
+          ]
+        },
+        "explain": "용선 편지의 만재 흘수 3.5m에 계획표의 여유 0.6m를 더하면 4.1m가 필요하다. 메일상 9시 30분 도착 후, 10시의 3.8m는 부족하고 12시의 4.2m부터 가능하다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "When should unloading finish if the earliest possible entry is used?",
+        "choices": [
+          "2:00 P.M.",
+          "1:40 P.M.",
+          "2:20 P.M.",
+          "12:20 P.M."
+        ],
+        "answer": 0,
+        "ko": {
+          "q": "가능한 가장 이른 시각에 진입하면 하역은 언제 끝나야 하는가?",
+          "choices": [
+            "오후 2시",
+            "오후 1시 40분",
+            "오후 2시 20분",
+            "낮 12시 20분"
+          ]
+        },
+        "explain": "정오 진입에 계획표의 이동 20분과 편지의 하역 100분을 더하면 오후 2시다. 1시 40분은 수로 이동 시간을 빠뜨린 값이다.",
+        "crossRef": true
+      },
+      {
+        "type": "detail",
+        "q": "What information does the depot driver still need?",
+        "choices": [
+          "The road directions",
+          "The collection contact's number",
+          "The cargo-list location",
+          "The berth identification"
+        ],
+        "answer": 3,
+        "ko": {
+          "q": "기지 운전자가 아직 필요한 정보는 무엇인가?",
+          "choices": [
+            "도로 안내",
+            "수거 담당자 전화번호",
+            "화물 목록 위치",
+            "부두 식별 번호"
+          ]
+        },
+        "explain": "마지막 메일에서 운전자에게 부두 번호가 필요하고 도로 안내와 연락처는 이미 있다고 했다."
+      }
+    ]
+  }
+]

@@ -10,7 +10,7 @@ let passed = 0;
 const test = (name, fn) => { fn(); passed++; console.log('ok', name); };
 const COUNTS = {1:6, 2:25, 3:13, 4:10, 5:30, 6:4, 7:15};
 
-const files = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(n => [n, `questions/mock/mock-${n}.json`]).filter(([, file]) => fs.existsSync(path.join(root, file)));
+const files = Array.from({length:15}, (_, i) => i + 1).map(n => [n, `questions/mock/mock-${n}.json`]).filter(([, file]) => fs.existsSync(path.join(root, file)));
 files.push([1, 'test/fixtures/mock-1.json']);
 
 for (const [n, file] of files) test(`${file}: test ${n}, part counts, 200 questions, answers, Part 1 images`, () => {

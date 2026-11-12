@@ -1,0 +1,3252 @@
+[
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why are customers given two separate receipts for this purchase?",
+    "choices": [
+      "One records the refundable bottle deposit.",
+      "The receipt printer uses thermal paper.",
+      "Twice a month, after the sales review."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 구매에는 왜 고객에게 영수증을 따로 두 장 주나요?",
+      "choices": [
+        "한 장에는 환급 가능한 병 보증금이 기록돼요.",
+        "영수증 프린터는 감열지를 써요.",
+        "영업 검토 후 한 달에 두 번이요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "별도 보증금을 기록하기 때문에 두 장이라는 이유를 답해요. 인쇄 방식과 횟수는 영수증 분리의 이유가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-01"
+  },
+  {
+    "type": "request",
+    "difficulty": 1,
+    "q": "Please write the caller's extension beside her name.",
+    "choices": [
+      "Sure, I'll add the four digits.",
+      "The call came from a furniture company.",
+      "The extension cord is under the desk."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "발신자 이름 옆에 내선번호를 적어 주세요.",
+      "choices": [
+        "네, 네 자리 숫자를 덧붙일게요.",
+        "가구 회사에서 온 전화였어요.",
+        "연장선은 책상 아래에 있어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "내선번호를 적겠다고 요청을 수락해요. 발신 회사와 extension을 연장선으로 해석한 응답은 기록 요청에 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-02"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Who supervises the interns during the night shift?",
+    "choices": [
+      "Their internships last eight weeks.",
+      "The senior technician on duty.",
+      "Yes, the night shift ends at six."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "야간 근무 중 인턴은 누가 감독하나요?",
+      "choices": [
+        "인턴 기간은 8주예요.",
+        "당직 선임 기술자예요.",
+        "네, 야간 근무는 여섯 시에 끝나요."
+      ]
+    },
+    "trap": [
+      "wh-mismatch",
+      "yes-no-to-wh"
+    ],
+    "explain": "감독자를 당직 선임 기술자로 답해요. 기간과 근무 종료 시간은 감독 주체가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-03"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Has the union ratified the new agreement?",
+    "choices": [
+      "The members haven't voted on it yet.",
+      "The union office has moved downstairs.",
+      "The agreement is bound in dark blue."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "노조가 새 합의를 비준했나요?",
+      "choices": [
+        "조합원들이 아직 투표하지 않았어요.",
+        "노조 사무실은 아래층으로 옮겼어요.",
+        "합의서는 짙은 파란색으로 제본했어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "아직 조합원 투표 전이라는 사정으로 비준이 끝나지 않았음을 간접 전달해요. 위치와 제본 색은 승인 상태가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-04"
+  },
+  {
+    "type": "statement",
+    "difficulty": 3,
+    "q": "Some buyers expect our downloadable guide to arrive by post.",
+    "choices": [
+      "The post office has a new sign.",
+      "Does the listing clearly identify it as a digital product?",
+      "The guide's cover illustration shows a mountain."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "일부 구매자는 다운로드용 안내서가 우편으로 올 거라고 생각해요.",
+      "choices": [
+        "우체국에 새 간판이 생겼어요.",
+        "상품 설명에 디지털 제품이라고 명확히 나와 있나요?",
+        "안내서 표지 그림에는 산이 나와요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "상품 설명이 오해를 일으키는지 확인하는 질문으로 간접 응답해요. 우체국 간판과 표지 그림은 배송 방식 오해에 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-05"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Where do we advertise vacancies reserved for internal applicants?",
+    "choices": [
+      "The vacancies are in purchasing.",
+      "For employees with at least a year's service.",
+      "On the staff-only careers page."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "사내 지원자만 받는 공석은 어디에 공고하나요?",
+      "choices": [
+        "공석은 구매 부서에 있어요.",
+        "근속 1년 이상인 직원을 위한 거예요.",
+        "직원 전용 채용 페이지에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "공고 매체를 직원 전용 페이지로 답해요. 채용 부서와 지원 자격은 공고를 올릴 곳이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-06"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 2,
+    "q": "Your passport has at least six months left, doesn't it?",
+    "choices": [
+      "The passport photograph has a white background.",
+      "Yes, it remains valid for another year.",
+      "The travel case fits under an airline seat."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "여권 유효기간은 최소 6개월 남아 있죠?",
+      "choices": [
+        "여권 사진 배경은 흰색이에요.",
+        "네, 1년 더 유효해요.",
+        "여행 가방은 항공기 좌석 아래에 들어가요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "1년이 남았다고 긍정하여 유효기간을 확인해요. 사진 배경과 가방 크기는 유효기간이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-07"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "How much would worldwide protection for our logo cost?",
+    "choices": [
+      "The logo has two overlapping circles.",
+      "At the design office across the street.",
+      "Which countries do we actually plan to sell in?"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "우리 로고를 전 세계에서 보호하는 데 얼마가 들까요?",
+      "choices": [
+        "로고에는 겹치는 원 두 개가 있어요.",
+        "길 건너 디자인 사무실에서요.",
+        "실제로 어느 나라에서 판매할 계획인가요?"
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "필요한 보호 범위를 먼저 확인하려고 판매 국가를 되묻는 간접 응답이에요. 로고 모양과 사무실 위치는 비용을 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-08"
+  },
+  {
+    "type": "choice",
+    "difficulty": 2,
+    "q": "Should the display run continuously or only when visitors approach?",
+    "choices": [
+      "The display features three product models.",
+      "The visitors are from our northern branch.",
+      "Only when someone approaches, to conserve power."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "전시는 계속 작동하게 할까요, 방문객이 다가올 때만 작동하게 할까요?",
+      "choices": [
+        "전시에는 제품 모델 세 개가 있어요.",
+        "방문객은 북부 지점에서 와요.",
+        "전력을 아끼게 누가 다가올 때만요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "두 작동 방식 중 접근할 때만 작동하는 것을 선택해요. 전시 품목과 방문객 소속은 작동 방식이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-09"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "What does the R beside this trouser size mean?",
+    "choices": [
+      "The trousers come in navy and charcoal.",
+      "Regular length.",
+      "At the clothing counter on the left."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "이 바지 치수 옆의 R은 무슨 뜻인가요?",
+      "choices": [
+        "바지는 남색과 짙은 회색으로 나와요.",
+        "보통 기장이에요.",
+        "왼쪽 의류 판매대에서요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "치수 옆 기호의 의미를 보통 기장이라고 설명해요. 색상과 판매 위치는 기호 뜻이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-10"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 1,
+    "q": "Can this camera save photographs to two cards simultaneously?",
+    "choices": [
+      "The camera strap is woven nylon.",
+      "Yes, it has a dual-recording mode.",
+      "The photographs show the seaside branch."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "이 카메라는 사진을 카드 두 장에 동시에 저장할 수 있나요?",
+      "choices": [
+        "카메라 끈은 나일론 직조예요.",
+        "네, 동시 이중 저장 모드가 있어요.",
+        "사진에는 해변 지점이 나와요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "이중 저장 모드가 있다고 긍정하여 동시 기록 기능을 답해요. 끈 재질과 사진 내용은 기능 여부가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-11"
+  },
+  {
+    "type": "request",
+    "difficulty": 2,
+    "q": "Could you speak at our investors' luncheon?",
+    "choices": [
+      "I work for your principal competitor.",
+      "The luncheon menu includes a vegetable soup.",
+      "The investors' badges are printed in gray."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "투자자 오찬에서 연설해 주실 수 있나요?",
+      "choices": [
+        "저는 귀사의 주요 경쟁사에서 일해요.",
+        "오찬 메뉴에는 채소 수프가 있어요.",
+        "투자자 명찰은 회색으로 인쇄했어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "경쟁사 소속이라는 사정으로 연설 요청에 간접적으로 어려움을 표시해요. 메뉴와 명찰 색은 수락 여부나 대안이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-12"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "When can we plant the trees beside the loading road?",
+    "choices": [
+      "The city hasn't located the underground cables yet.",
+      "The trees have narrow leaves.",
+      "The loading road is paved with concrete."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "하역 도로 옆에 나무를 언제 심을 수 있나요?",
+      "choices": [
+        "시에서 지하 케이블 위치를 아직 확인하지 않았어요.",
+        "나무 잎은 좁아요.",
+        "하역 도로는 콘크리트로 포장돼 있어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "먼저 확인할 지하 시설 위치가 미확정이라는 간접 응답으로 식재 시작을 유보해요. 잎 모양과 포장 재질은 작업 시작일이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-13"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Who audits the independently operated franchise stores?",
+    "choices": [
+      "The stores order stock separately.",
+      "The audit handbook has a green cover.",
+      "A regional compliance team."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "독립적으로 운영하는 가맹점은 누가 감사하나요?",
+      "choices": [
+        "매장들은 재고를 따로 주문해요.",
+        "감사 지침서는 초록 표지예요.",
+        "지역 준법 점검팀이에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "감사 담당자를 지역 점검팀으로 답해요. 발주 방식과 책 표지는 담당자가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-14"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "The company choir has been invited to perform at the civic celebration.",
+    "choices": [
+      "The choir rehearses in a basement.",
+      "The celebration program has twelve pages.",
+      "What a wonderful recognition of their talent!"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "사내 합창단이 시민 기념행사에 초청받았어요.",
+      "choices": [
+        "합창단은 지하실에서 연습해요.",
+        "기념행사 프로그램은 열두 쪽이에요.",
+        "실력을 정말 멋지게 인정받았네요!"
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "초청 소식에 실력을 인정받았다며 기뻐해요. 연습 장소나 행사 프로그램 분량은 초청 성과에 대한 응답이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-15"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Why are the café cups stored upside down?",
+    "choices": [
+      "The cups have blue handles.",
+      "To keep dust out of them.",
+      "About two dozen on each shelf."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "카페 컵들은 왜 뒤집어 보관하나요?",
+      "choices": [
+        "컵에는 파란 손잡이가 있어요.",
+        "먼지가 들어가지 않게 하려고요.",
+        "선반마다 대략 스물네 개씩이요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "거꾸로 보관하는 목적을 먼지 방지로 답해요. 손잡이 색과 수량은 보관 방향의 이유가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-16"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Have you chosen a brand ambassador?",
+    "choices": [
+      "The brand name is printed vertically.",
+      "The ambassador's residence is near the embassy.",
+      "Our shortlist still has eight names."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "브랜드 홍보대사를 선정했나요?",
+      "choices": [
+        "브랜드 이름은 세로로 인쇄돼 있어요.",
+        "대사의 관저는 대사관 근처에 있어요.",
+        "최종 후보 명단에 아직 여덟 명이 있어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "wrong-subject"
+    ],
+    "explain": "후보를 아직 압축하는 중이라는 간접 응답으로 최종 선정 전임을 알려 줘요. 상표 배치와 외교 대사의 관저는 홍보대사 선정 여부가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-17"
+  },
+  {
+    "type": "choice",
+    "difficulty": 2,
+    "q": "Should we record temperatures every minute or every hour?",
+    "choices": [
+      "We need to detect changes lasting only a few minutes.",
+      "The record sheets are stored in a binder.",
+      "The thermometer has a plastic case."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "온도는 매분 기록할까요, 매시간 기록할까요?",
+      "choices": [
+        "몇 분만 지속되는 변화도 감지해야 해요.",
+        "기록지는 바인더에 보관돼 있어요.",
+        "온도계 외장은 플라스틱이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "짧은 변화를 포착해야 한다는 조건으로 매분 기록을 간접 선택해요. 기록지 보관과 외장은 측정 주기의 답이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-18"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Where does our auditor want the bank confirmation sent?",
+    "choices": [
+      "The bank has a branch in this building.",
+      "Directly to her firm, not to our accounting office.",
+      "The confirmation includes the account balance."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "감사인은 은행 확인서를 어디로 보내 달라고 하나요?",
+      "choices": [
+        "그 은행은 이 건물에 지점이 있어요.",
+        "우리 회계 사무실이 아니라 감사 법인으로 바로요.",
+        "확인서에는 계좌 잔액이 포함돼요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "문서의 수신처를 감사 법인이라고 답해요. 은행 지점 위치는 발송 목적지가 아니며 문서 내용도 목적지를 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-19"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 3,
+    "q": "Didn't we already replace the worn conveyor belt?",
+    "choices": [
+      "The conveyor is beside the loading door.",
+      "That invoice was for the motor.",
+      "The belt is made of reinforced rubber."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "마모된 컨베이어 벨트는 이미 교체하지 않았나요?",
+      "choices": [
+        "컨베이어는 하역문 옆에 있어요.",
+        "그 청구서는 모터에 대한 것이었어요.",
+        "벨트는 보강 고무로 만들었어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "이전에 지불한 대상이 모터였다고 정정하여 벨트 교체 기억에 간접 답해요. 위치와 재질은 교체 이력을 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-20"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "How should we show a range in the sales forecast?",
+    "choices": [
+      "The sales team has five members.",
+      "The forecast file is named after the project.",
+      "Put the lower and upper estimates in separate columns."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "매출 전망에 범위는 어떻게 표시해야 하나요?",
+      "choices": [
+        "영업팀은 다섯 명이에요.",
+        "전망 파일명은 프로젝트 이름을 따랐어요.",
+        "하한과 상한 추정치를 별도 열에 넣으세요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "범위를 표시할 방법을 하한·상한의 분리 제시로 답해요. 팀 규모와 파일 이름은 표시 방법이 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-21"
+  },
+  {
+    "type": "request",
+    "difficulty": 2,
+    "q": "Please italicize the foreign terms in this press release.",
+    "choices": [
+      "The client requires all terms in plain type.",
+      "The release concerns a new export market.",
+      "The foreign-language magazines arrive weekly."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 보도 자료의 외국어 용어는 이탤릭체로 바꿔 주세요.",
+      "choices": [
+        "고객이 모든 용어를 일반 서체로 쓰라고 요구했어요.",
+        "보도 자료는 새 수출 시장에 관한 거예요.",
+        "외국어 잡지는 매주 와요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "일반 서체를 요구한 고객 지침 때문에 이탤릭체 변경에 응하기 어렵다는 간접 응답이에요. 보도 내용과 잡지 배송 주기는 편집 요청의 처리 여부와 무관해요.",
+    "test": 11,
+    "id": "m-p2-11-22"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "What happens to our employee share options if the company is sold?",
+    "choices": [
+      "The share price is displayed near reception.",
+      "The company sells office lighting.",
+      "Have you checked the takeover clause in your award letter?"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "회사가 매각되면 직원 주식매수선택권은 어떻게 되나요?",
+      "choices": [
+        "주가는 접수처 근처에 표시돼 있어요.",
+        "회사는 사무실 조명을 팔아요.",
+        "부여 통지서의 인수 관련 조항을 확인해 보셨나요?"
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "해당 계약 조항을 확인하도록 정보 출처를 알려 주는 간접 응답이에요. 현재 주가의 표시 위치와 회사 제품은 매각 시 권리 처리를 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-23"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Can customers use the app without enabling location tracking?",
+    "choices": [
+      "Yes, they can enter their city manually.",
+      "The app icon resembles a compass.",
+      "The customer lives in a coastal town."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "위치 추적을 켜지 않고도 앱을 쓸 수 있나요?",
+      "choices": [
+        "네, 도시를 직접 입력할 수 있어요.",
+        "앱 아이콘은 나침반 모양이에요.",
+        "그 고객은 해안 마을에 살아요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wrong-subject"
+    ],
+    "explain": "수동 도시 입력이라는 대체 기능과 함께 사용 가능 여부를 긍정한다. 아이콘과 특정 고객 거주지는 앱 권한 요구를 답하지 않아요.",
+    "test": 11,
+    "id": "m-p2-11-24"
+  },
+  {
+    "type": "statement",
+    "difficulty": 3,
+    "q": "The customers' written comments contradict their numerical ratings.",
+    "choices": [
+      "Could the scale labels have been reversed?",
+      "The comments are arranged by submission date.",
+      "The rating form has our logo at the top."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "고객의 서술형 의견과 숫자 평점이 서로 모순돼요.",
+      "choices": [
+        "척도 라벨이 반대로 붙은 건 아닐까요?",
+        "의견은 제출 날짜순으로 정리돼 있어요.",
+        "평가 양식 위에는 회사 로고가 있어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "척도 방향의 오류 가능성을 되물어 불일치 원인을 점검하는 간접 응답이에요. 정렬과 로고는 평가 의미가 뒤집힌 이유가 아니에요.",
+    "test": 11,
+    "id": "m-p2-11-25"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 1,
+    "q": "Does this pen write on wet surfaces?",
+    "choices": [
+      "Yes, it is designed for wet glass.",
+      "A short paragraph will do.",
+      "We close at ten."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 펜은 젖은 표면에도 써지나요?",
+      "choices": [
+        "네, 젖은 유리에 쓰도록 만들어졌어요.",
+        "짧은 문단이면 돼요.",
+        "열 시에 문을 닫아요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "similar-sound"
+    ],
+    "explain": "젖은 유리에 쓰도록 만든 펜이라고 사용 가능 여부를 확인해요. 글의 분량이나 영업 종료 시각은 관련이 없어요.",
+    "test": 12,
+    "id": "m-p2-12-01"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why are the rental umbrellas numbered?",
+    "choices": [
+      "The forecast calls for rain.",
+      "To match each one with its borrowing record.",
+      "There are twenty altogether."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "대여 우산에 왜 번호가 있나요?",
+      "choices": [
+        "예보에 비가 온대요.",
+        "각 우산을 대여 기록과 연결하려고요.",
+        "모두 스무 개예요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "번호의 목적은 대여 기록과의 연결이에요. 비 예보나 수량은 번호를 붙인 이유가 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-02"
+  },
+  {
+    "type": "statement",
+    "difficulty": 3,
+    "q": "Customers keep mistaking the display loaf for real bread.",
+    "choices": [
+      "Perhaps the imitation looks too convincing.",
+      "The loaf costs four dollars to bake.",
+      "Yes, I ordered a sandwich."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "고객들이 진열용 모형 빵을 자꾸 진짜 빵으로 착각해요.",
+      "choices": [
+        "모형이 너무 진짜처럼 보이나 봐요.",
+        "그 빵을 굽는 데 사 달러가 들어요.",
+        "네, 샌드위치를 주문했어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "모형의 사실적인 모습이 원인이라는 간접 응답이에요. 실제 빵의 제조비나 개인의 주문은 모형을 착각하는 상황에 맞지 않아요.",
+    "test": 12,
+    "id": "m-p2-12-03"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Where do we keep the unused wax seals?",
+    "choices": [
+      "In the shallow tin beside the envelopes.",
+      "They leave a circular impression.",
+      "The ceiling was painted yesterday."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "사용하지 않은 봉인용 왁스는 어디에 두나요?",
+      "choices": [
+        "봉투 옆 얕은 깡통에요.",
+        "동그란 자국을 남겨요.",
+        "천장은 어제 칠했어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "similar-sound"
+    ],
+    "explain": "보관 장소를 정확히 알려 줘요. 자국의 모양과 seal과 소리가 비슷한 ceiling은 장소 질문의 답이 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-04"
+  },
+  {
+    "type": "choice",
+    "difficulty": 3,
+    "q": "Should the survey ask for exact ages or age ranges?",
+    "choices": [
+      "The oldest building is downtown.",
+      "We only need to compare broad generations.",
+      "It takes about three minutes."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "설문에서 정확한 나이를 물을까요, 연령대를 물을까요?",
+      "choices": [
+        "가장 오래된 건물은 시내에 있어요.",
+        "대략적인 세대별 비교만 하면 돼요.",
+        "삼 분 정도 걸려요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "세대별 비교만 필요하므로 연령대가 적합하다는 간접 응답이에요. 건물 연식과 설문 소요 시간은 나이를 묻는 방식을 정하지 못해요.",
+    "test": 12,
+    "id": "m-p2-12-05"
+  },
+  {
+    "type": "request",
+    "difficulty": 2,
+    "q": "Please put the individual tool weights on the packing list.",
+    "choices": [
+      "The waiting list is quite long.",
+      "The toolbox belongs to our electrician.",
+      "Our scale is being repaired today."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "포장 명세서에 공구별 무게를 적어 주세요.",
+      "choices": [
+        "대기 명단이 꽤 길어요.",
+        "그 공구함은 우리 전기 기술자 거예요.",
+        "오늘은 저울을 수리 중이에요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "related-word"
+    ],
+    "explain": "저울을 사용할 수 없어 개별 무게를 재서 기재하기 어렵다는 간접 응답이에요. 대기 명단이나 공구함 소유자는 무게 기재 요청과 무관해요.",
+    "test": 12,
+    "id": "m-p2-12-06"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "When can we announce the winning slogan?",
+    "choices": [
+      "The judges are still checking entries for originality.",
+      "On the front of the winning shirt.",
+      "A remarkably short phrase."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "우승 슬로건은 언제 발표할 수 있나요?",
+      "choices": [
+        "심사위원들이 아직 출품작의 독창성을 확인하고 있어요.",
+        "우승한 셔츠의 앞면에요.",
+        "유난히 짧은 문구예요."
+      ]
+    },
+    "trap": [
+      "wh-mismatch",
+      "related-word"
+    ],
+    "explain": "독창성 확인이 끝나지 않아 아직 발표할 수 없다는 간접 응답이에요. 인쇄 위치나 문구 길이는 발표 시점이 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-07"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Can employees exchange unused leave for cash?",
+    "choices": [
+      "Only when their employment ends.",
+      "The exchange rate fell slightly.",
+      "She left by the side door."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "직원들이 쓰지 않은 휴가를 현금으로 바꿀 수 있나요?",
+      "choices": [
+        "퇴사할 때만 가능해요.",
+        "환율이 조금 떨어졌어요.",
+        "그분은 옆문으로 나갔어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "현금 정산이 가능한 조건을 직접 답해요. exchange와 leave의 다른 의미를 이용한 보기는 휴가 정산과 관계없어요.",
+    "test": 12,
+    "id": "m-p2-12-08"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Who operates the revolving stage?",
+    "choices": [
+      "It revolves very slowly.",
+      "The next stage is assembly.",
+      "The technician at the lighting console."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "회전 무대는 누가 조작하나요?",
+      "choices": [
+        "아주 천천히 돌아가요.",
+        "다음 단계는 조립이에요.",
+        "조명 조종석에 있는 기술자예요."
+      ]
+    },
+    "trap": [
+      "wh-mismatch",
+      "repeat-word"
+    ],
+    "explain": "조작 담당자를 알려 줘요. 회전 속도나 제조 단계는 사람을 묻는 질문에 맞지 않아요.",
+    "test": 12,
+    "id": "m-p2-12-09"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 3,
+    "q": "The imported samples are duty-free, aren't they?",
+    "choices": [
+      "Their declared value exceeds the exemption limit.",
+      "Our duty manager is downstairs.",
+      "They came in a padded pouch."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "수입한 견본은 관세가 면제되죠?",
+      "choices": [
+        "신고 가격이 면세 한도를 넘어요.",
+        "당직 책임자는 아래층에 있어요.",
+        "완충재가 든 봉투로 왔어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "면세 한도를 초과한다는 근거로 면제되지 않는다는 간접 응답을 해요. 당직 책임자나 포장 방식은 면세 여부를 답하지 않아요.",
+    "test": 12,
+    "id": "m-p2-12-10"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "How does the embossing machine create raised letters?",
+    "choices": [
+      "We raised the advertising budget.",
+      "It presses the sheet between two shaped plates.",
+      "In alphabetical order, please."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "양각 기계는 어떻게 돌출된 글자를 만드나요?",
+      "choices": [
+        "광고 예산을 올렸어요.",
+        "모양이 있는 판 두 개 사이에 시트를 넣고 눌러요.",
+        "알파벳 순서로 해 주세요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "시트를 눌러 가공하는 원리를 설명해요. 예산 증액이나 글자 정렬 순서는 양각 형성 방법이 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-11"
+  },
+  {
+    "type": "statement",
+    "difficulty": 1,
+    "q": "The new chairperson gave everyone a chance to speak.",
+    "choices": [
+      "The chairs have wooden legs.",
+      "That was a thoughtful way to lead the discussion.",
+      "A language course twice a week."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "새 의장님이 모두에게 발언할 기회를 주셨어요.",
+      "choices": [
+        "의자 다리가 나무로 되어 있어요.",
+        "배려 있게 토론을 이끄셨네요.",
+        "일주일에 두 번 하는 어학 강좌예요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "related-word"
+    ],
+    "explain": "발언 기회를 고르게 준 진행 방식에 호응해요. 의자나 어학 강좌는 토론 진행과 맞지 않아요.",
+    "test": 12,
+    "id": "m-p2-12-12"
+  },
+  {
+    "type": "request",
+    "difficulty": 3,
+    "q": "Could you translate this joke for the overseas advertisement?",
+    "choices": [
+      "The advertisement ran on page eight.",
+      "The humor depends on two English words sounding alike.",
+      "I laughed at his costume."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "해외 광고용으로 이 농담을 번역해 주실 수 있나요?",
+      "choices": [
+        "그 광고는 팔 면에 실렸어요.",
+        "이 유머는 영어 단어 두 개의 소리가 비슷한 데서 나와요.",
+        "그 사람의 의상을 보고 웃었어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "영어 발음에 의존하므로 그대로 번역하기 어렵다는 간접 응답이에요. 광고 게재 면이나 의상에 웃은 경험은 번역 요청과 무관해요.",
+    "test": 12,
+    "id": "m-p2-12-13"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Which part of the sculpture is meant to move?",
+    "choices": [
+      "The movers arrive at noon.",
+      "An exceptionally moving speech.",
+      "Only the suspended metal ring."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "조각품의 어느 부분이 움직이도록 되어 있나요?",
+      "choices": [
+        "이삿짐 운반원이 정오에 와요.",
+        "대단히 감동적인 연설이에요.",
+        "매달린 금속 고리만요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "repeat-word"
+    ],
+    "explain": "움직이는 부품을 특정해요. 이삿짐 운반원이나 감동적이라는 뜻의 moving은 동작 부분이 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-14"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Have we obtained permission to reproduce the historical photograph?",
+    "choices": [
+      "I prefer the photograph in sepia.",
+      "History was my favorite subject.",
+      "The photographer died, and we are tracing the rights holder."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "그 역사 사진을 복제할 허가는 받았나요?",
+      "choices": [
+        "저는 세피아색 사진이 더 좋아요.",
+        "역사는 제가 가장 좋아한 과목이었어요.",
+        "사진가가 사망해서 권리자를 찾고 있어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "권리자를 찾는 중이므로 아직 허가를 못 받았다는 간접 응답이에요. 사진 색 선호나 좋아한 과목은 허가 여부와 무관해요.",
+    "test": 12,
+    "id": "m-p2-12-15"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "What is attached to the visitor badge?",
+    "choices": [
+      "The visitors enjoyed the garden.",
+      "A small emergency instruction card.",
+      "I attended last year."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "방문증에 무엇이 붙어 있나요?",
+      "choices": [
+        "방문객들이 정원을 좋아했어요.",
+        "작은 비상 행동 안내 카드예요.",
+        "저는 작년에 참석했어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "similar-sound"
+    ],
+    "explain": "붙어 있는 물건의 종류를 답해요. 방문객의 감상이나 참석 경험은 부착물에 대한 답이 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-16"
+  },
+  {
+    "type": "choice",
+    "difficulty": 2,
+    "q": "Are the folding screens rented or owned by the venue?",
+    "choices": [
+      "Please fold along the crease.",
+      "The screening starts at seven.",
+      "The venue bought them last winter."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "접이식 칸막이는 대여한 건가요, 행사장 소유인가요?",
+      "choices": [
+        "접힌 선을 따라 접어 주세요.",
+        "상영은 일곱 시에 시작해요.",
+        "행사장에서 지난겨울에 구입했어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "similar-sound"
+    ],
+    "explain": "행사장이 구입했다고 소유 형태를 답해요. 종이 접기나 영화 상영은 칸막이 소유와 무관해요.",
+    "test": 12,
+    "id": "m-p2-12-17"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "How much should we charge for lifetime access?",
+    "choices": [
+      "The battery lasts six hours.",
+      "I charged my phone this morning.",
+      "We have not defined whose lifetime that means."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "평생 이용권 가격을 얼마로 정할까요?",
+      "choices": [
+        "배터리는 여섯 시간 가요.",
+        "오늘 아침에 휴대폰을 충전했어요.",
+        "여기서 누구의 수명을 뜻하는지 아직 정하지 않았어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "평생 이용의 기준부터 정해야 한다는 간접 응답이에요. 배터리 수명이나 충전은 서비스 이용권 가격과 관련 없어요.",
+    "test": 12,
+    "id": "m-p2-12-18"
+  },
+  {
+    "type": "request",
+    "difficulty": 1,
+    "q": "Would you erase the pencil marks from the glass?",
+    "choices": [
+      "The pencil sharpener is electric.",
+      "Mark joined our department in June.",
+      "Sure, I will wipe them off now."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "유리에 남은 연필 자국을 지워 주시겠어요?",
+      "choices": [
+        "그 연필깎이는 전동식이에요.",
+        "마크는 육월에 우리 부서에 합류했어요.",
+        "네, 지금 닦아 낼게요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "similar-sound"
+    ],
+    "explain": "자국을 닦겠다는 명확한 수락이에요. 연필깎이 종류나 Mark라는 직원 이야기는 요청과 관계없어요.",
+    "test": 12,
+    "id": "m-p2-12-19"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why does the shipping form ask for a commodity code?",
+    "choices": [
+      "To identify the category of goods being shipped.",
+      "The code of conduct was revised.",
+      "By overnight express."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "배송 서류에서 왜 품목 코드를 묻나요?",
+      "choices": [
+        "배송되는 물품의 분류를 확인하려고요.",
+        "행동 강령이 개정되었어요.",
+        "익일 특송으로요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "wh-mismatch"
+    ],
+    "explain": "품목 코드의 목적을 설명해요. 행동 강령이나 배송 방식은 그 항목을 요구하는 이유가 아니에요.",
+    "test": 12,
+    "id": "m-p2-12-20"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 2,
+    "q": "Haven't the two sales territories been combined?",
+    "choices": [
+      "The sales figures are higher.",
+      "A combination lock with three digits.",
+      "Yes, they now form a single district."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "두 영업 구역이 통합되지 않았나요?",
+      "choices": [
+        "매출 수치가 더 높아요.",
+        "세 자리 번호 자물쇠예요.",
+        "맞아요, 이제 하나의 구역이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "similar-sound"
+    ],
+    "explain": "하나의 구역이 되었다고 통합 사실을 확인해요. 매출이나 번호 자물쇠는 구역 통합 여부와 무관해요.",
+    "test": 12,
+    "id": "m-p2-12-21"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "Who is eligible for the employee referral bonus?",
+    "choices": [
+      "The bonus was paid in cash.",
+      "Does your candidate already work for one of our subsidiaries?",
+      "A very flattering reference letter."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "직원 추천 보너스는 누가 받을 수 있나요?",
+      "choices": [
+        "보너스는 현금으로 지급되었어요.",
+        "추천하려는 분이 이미 우리 자회사 중 한 곳에서 근무하나요?",
+        "아주 호의적인 추천서예요."
+      ]
+    },
+    "trap": [
+      "wh-mismatch",
+      "related-word"
+    ],
+    "explain": "기존 재직 여부를 확인해 자격을 판단하려는 간접 응답이에요. 지급 방법이나 추천서 평가는 수령 자격을 설명하지 않아요.",
+    "test": 12,
+    "id": "m-p2-12-22"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "The prototype is too heavy to hold with one hand.",
+    "choices": [
+      "He raised his hand to vote.",
+      "Could we replace the solid base with a hollow one?",
+      "The prototype is pictured on page two."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "시제품이 너무 무거워서 한 손으로 들 수 없어요.",
+      "choices": [
+        "그분은 투표하려고 손을 들었어요.",
+        "속이 꽉 찬 받침을 속이 빈 것으로 바꿀 수 있을까요?",
+        "시제품 사진은 2쪽에 있어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "받침의 속을 비우는 해결책을 제안하는 간접 응답이에요. 거수나 사진 위치는 무게 문제에 대응하지 못해요.",
+    "test": 12,
+    "id": "m-p2-12-23"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Where will the company preserve its retired trademarks?",
+    "choices": [
+      "In a separate section of the brand archive.",
+      "The retirement dinner was lovely.",
+      "The marks wash off easily."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "회사는 사용이 종료된 상표를 어디에 보존하나요?",
+      "choices": [
+        "브랜드 기록 보관소의 별도 구역에요.",
+        "퇴직 기념 만찬이 근사했어요.",
+        "그 자국은 쉽게 씻겨요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "상표의 보존 장소를 알려 줘요. 직원 퇴직 행사나 지워지는 자국은 상표 보관과 달라요.",
+    "test": 12,
+    "id": "m-p2-12-24"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Does the hotel automatically assign adjoining rooms to families?",
+    "choices": [
+      "My family owns a small farm.",
+      "You need to request that when booking.",
+      "The room divider slides sideways."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "호텔에서 가족에게 자동으로 나란히 붙은 객실을 배정하나요?",
+      "choices": [
+        "저희 가족은 작은 농장을 운영해요.",
+        "예약할 때 따로 요청해야 해요.",
+        "칸막이는 옆으로 밀려요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "별도 요청이 필요해 자동 배정되지 않는다는 간접 응답이에요. 가족의 사업이나 칸막이 작동은 객실 배정과 관계없어요.",
+    "test": 12,
+    "id": "m-p2-12-25"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "What does the green light on the shredder indicate?",
+    "choices": [
+      "Green is our corporate color.",
+      "The paper was quite interesting.",
+      "That it is ready to accept paper."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "문서 세단기의 초록불은 무엇을 나타내나요?",
+      "choices": [
+        "초록색은 우리 회사의 상징색이에요.",
+        "그 논문은 꽤 흥미로웠어요.",
+        "종이를 넣을 준비가 되었다는 뜻이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "작동 준비 상태를 나타낸다고 답해요. 회사 색상이나 논문 감상은 표시등 의미가 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-01"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "The product name sounds rude in our new export market.",
+    "choices": [
+      "The market sells fresh fruit.",
+      "Our exports increased last quarter.",
+      "We should test a different name with local speakers."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "새 수출 시장에서는 제품명이 무례하게 들린대요.",
+      "choices": [
+        "그 시장에서는 신선한 과일을 팔아요.",
+        "지난 분기에 수출이 늘었어요.",
+        "현지어 사용자에게 다른 이름을 시험해 봐야겠어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "다른 이름의 현지 반응을 확인하자는 간접 응답이에요. 식료품 시장이나 수출 증가는 제품명 문제의 답이 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-02"
+  },
+  {
+    "type": "request",
+    "difficulty": 1,
+    "q": "Please lower the microphone a little.",
+    "choices": [
+      "Certainly, is this height better?",
+      "Her voice is naturally low.",
+      "The price is per microphone."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "마이크를 조금 낮춰 주세요.",
+      "choices": [
+        "네, 이 높이가 더 나은가요?",
+        "그분의 목소리는 원래 낮아요.",
+        "마이크 한 개당 가격이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "마이크 높이를 조절하며 요청을 수락해요. 목소리나 가격은 높이 조절에 대한 답이 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-03"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "Who can authorize using the founder's signature on merchandise?",
+    "choices": [
+      "She signed in blue ink.",
+      "Our licensing adviser is still checking who can grant that permission.",
+      "Our authorized dealers offer repairs."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "상품에 창업자의 서명을 쓰는 것은 누가 허가할 수 있나요?",
+      "choices": [
+        "파란 잉크로 서명하셨어요.",
+        "사용권 담당 자문가가 누가 그 허가를 내줄 수 있는지 아직 확인 중이에요.",
+        "공인 판매점에서 수리를 제공해요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "허가권자를 확인하는 중이라 아직 확정해 말할 수 없다는 간접 응답이에요. 잉크 색이나 판매점 서비스는 허가 주체나 그 확인 경로를 알려 주지 않아요.",
+    "test": 13,
+    "id": "m-p2-13-04"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Is the training allowance taxable?",
+    "choices": [
+      "The taxi fare was reasonable.",
+      "Yes, it appears under taxable income on your statement.",
+      "I allowed thirty minutes for travel."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "교육 수당에는 세금이 붙나요?",
+      "choices": [
+        "택시 요금이 적당했어요.",
+        "네, 명세서의 과세 소득 항목에 나와요.",
+        "이동 시간으로 삼십 분을 잡았어요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "similar-sound"
+    ],
+    "explain": "명세서의 과세 소득 항목으로 과세 여부를 확인해요. taxi와 allowed는 질문의 단어와 비슷하게 들릴 뿐이에요.",
+    "test": 13,
+    "id": "m-p2-13-05"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why is the elevator floor covered with plywood?",
+    "choices": [
+      "To protect it while heavy equipment is moved.",
+      "The elevator holds eight people.",
+      "The wood comes from Canada."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "엘리베이터 바닥을 합판으로 덮은 이유가 뭐예요?",
+      "choices": [
+        "무거운 장비를 옮기는 동안 바닥을 보호하려고요.",
+        "엘리베이터 정원은 여덟 명이에요.",
+        "목재는 캐나다산이에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "바닥 보호라는 목적을 답해요. 승강기 정원과 목재 원산지는 덮개를 깐 이유가 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-06"
+  },
+  {
+    "type": "choice",
+    "difficulty": 3,
+    "q": "Do we calculate commission on sales booked or payments received?",
+    "choices": [
+      "The book received excellent reviews.",
+      "The commission meets on Mondays.",
+      "We cannot reward transactions that customers never pay for."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "수수료를 계약된 매출 기준으로 계산하나요, 수금액 기준으로 계산하나요?",
+      "choices": [
+        "그 책은 좋은 평을 받았어요.",
+        "위원회는 월요일에 회의를 해요.",
+        "고객이 대금을 내지 않은 거래에 보상할 수는 없어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "실제 수금된 거래만 보상해야 하므로 수금액 기준이라는 간접 응답이에요. 책이나 위원회는 booked와 commission의 다른 뜻을 이용했어요.",
+    "test": 13,
+    "id": "m-p2-13-07"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Where are the detachable stroller wheels stored?",
+    "choices": [
+      "A leisurely stroll by the lake.",
+      "In the mesh pocket beneath the seat.",
+      "They rotate freely."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "분리형 유모차 바퀴는 어디에 보관하나요?",
+      "choices": [
+        "호숫가에서 여유롭게 산책하는 거예요.",
+        "좌석 밑 망사 주머니에요.",
+        "부드럽게 돌아가요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "related-word"
+    ],
+    "explain": "보관 위치를 직접 알려 줘요. 산책이나 회전 상태는 장소가 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-08"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 3,
+    "q": "This bid doesn't bind us to a fixed price, does it?",
+    "choices": [
+      "The binder has four rings.",
+      "The clause prohibits any later adjustment.",
+      "The price label is on the bottom."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "이 입찰서는 가격을 고정하도록 구속하지는 않죠?",
+      "choices": [
+        "바인더에는 고리가 네 개 있어요.",
+        "그 조항은 이후의 모든 조정을 금지해요.",
+        "가격표는 바닥에 있어요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "repeat-word"
+    ],
+    "explain": "나중에 조정할 수 없다는 조항으로 가격이 고정됨을 알리는 간접 응답이에요. 바인더나 가격표 위치는 계약상 구속력과 무관해요.",
+    "test": 13,
+    "id": "m-p2-13-09"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "How do you distinguish the two identical laboratory flasks?",
+    "choices": [
+      "They contain the same volume.",
+      "One has a serial number etched underneath.",
+      "Our laboratory opens at nine."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "똑같이 생긴 실험용 플라스크 둘을 어떻게 구별하나요?",
+      "choices": [
+        "들어가는 용량은 같아요.",
+        "하나는 바닥에 일련번호가 새겨져 있어요.",
+        "우리 실험실은 아홉 시에 열어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "구별 가능한 일련번호를 알려 줘요. 같은 용량은 차이를 찾는 단서가 아니며 실험실 운영 시각도 무관해요.",
+    "test": 13,
+    "id": "m-p2-13-10"
+  },
+  {
+    "type": "request",
+    "difficulty": 3,
+    "q": "Could you endorse my application for the specialist credential?",
+    "choices": [
+      "I have never supervised your professional work.",
+      "The application form is printed in landscape format.",
+      "The envelope needs another stamp."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "전문 자격 신청서에 보증해 주실 수 있나요?",
+      "choices": [
+        "저는 당신의 전문 업무를 감독한 적이 없어요.",
+        "신청서는 가로 방향으로 인쇄되어 있어요.",
+        "봉투에 우표가 하나 더 필요해요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "업무를 감독한 경험이 없어 보증하기 어렵다는 간접 응답이에요. 서류의 인쇄 방향이나 우표는 보증 가능 여부와 관계없어요.",
+    "test": 13,
+    "id": "m-p2-13-11"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "When is the daily exchange rate recorded in this ledger?",
+    "choices": [
+      "A handwritten record of every sale.",
+      "The reception desk exchanges coins.",
+      "At the close of business."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "이 장부에는 매일 환율을 언제 기록하나요?",
+      "choices": [
+        "모든 매출의 수기 기록이에요.",
+        "안내 데스크에서 동전을 바꿔 줘요.",
+        "업무 마감 때요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "기록 시점을 답해요. 장부 내용이나 환전 장소는 언제 기록하는지 설명하지 않아요.",
+    "test": 13,
+    "id": "m-p2-13-12"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Will doubling the advertising budget double our audience?",
+    "choices": [
+      "The audience applauded twice.",
+      "Many of the same people will see both campaigns.",
+      "Two advertisements fit on that page."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "광고 예산을 두 배로 늘리면 도달 인원도 두 배가 될까요?",
+      "choices": [
+        "관객들이 두 번 박수를 쳤어요.",
+        "두 캠페인을 모두 보게 되는 사람이 많을 거예요.",
+        "그 페이지에는 광고 두 개가 들어가요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "중복 노출이 생겨 인원이 단순히 두 배가 되지 않는다는 간접 응답이에요. 박수 횟수나 지면 수용량은 도달 인원 증가를 설명하지 않아요.",
+    "test": 13,
+    "id": "m-p2-13-13"
+  },
+  {
+    "type": "statement",
+    "difficulty": 1,
+    "q": "The new receptionist remembers every regular visitor's name.",
+    "choices": [
+      "The visitor center is a landmark.",
+      "She wrote her name in capitals.",
+      "That must make them feel welcome."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "새 안내 직원은 단골 방문객의 이름을 모두 기억해요.",
+      "choices": [
+        "방문자 센터는 명소예요.",
+        "그분은 자기 이름을 대문자로 썼어요.",
+        "방문객들이 환영받는 기분이겠어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "이름을 기억하는 행동의 긍정적 효과에 호응해요. 방문자 센터나 본인 이름 표기는 다른 이야기예요.",
+    "test": 13,
+    "id": "m-p2-13-14"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Which side of the carbon paper faces the original sheet?",
+    "choices": [
+      "The uncoated side faces it.",
+      "The report discusses carbon neutrality.",
+      "We made three original designs."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "먹지의 어느 쪽이 원본 용지를 향하나요?",
+      "choices": [
+        "코팅되지 않은 면이 원본을 향해요.",
+        "그 보고서는 탄소 중립에 관해 다뤄요.",
+        "독창적인 디자인 세 개를 만들었어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "먹지의 방향을 직접 답해요. 탄소 중립이나 독창적 디자인은 carbon과 original의 다른 뜻이에요.",
+    "test": 13,
+    "id": "m-p2-13-15"
+  },
+  {
+    "type": "choice",
+    "difficulty": 2,
+    "q": "Would you like the software license monthly or perpetual?",
+    "choices": [
+      "The software icon is purple.",
+      "A perpetual license suits our long-term needs.",
+      "A monthly staff newsletter."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "소프트웨어 사용권을 월 단위로 하시겠어요, 영구 사용권으로 하시겠어요?",
+      "choices": [
+        "소프트웨어 아이콘은 보라색이에요.",
+        "장기적인 필요에는 영구 사용권이 맞아요.",
+        "월간 직원 소식지예요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "repeat-word"
+    ],
+    "explain": "영구 사용권을 분명히 선택해요. 아이콘 색이나 소식지 발행 주기는 사용권 선택이 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-16"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "How long should we keep unsuccessful applicants' work samples?",
+    "choices": [
+      "The successful candidate starts next week.",
+      "About two hours to produce each sample.",
+      "Did they consent to storage after the recruitment process?"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "불합격 지원자의 작업 견본은 얼마나 오래 보관해야 하나요?",
+      "choices": [
+        "합격자는 다음 주에 출근해요.",
+        "견본 하나 제작에 두 시간 정도요.",
+        "채용 절차가 끝난 뒤에도 보관하는 데 동의했나요?"
+      ]
+    },
+    "trap": [
+      "related-word",
+      "wh-mismatch"
+    ],
+    "explain": "보관 동의 여부를 먼저 확인하는 간접 응답이에요. 합격자 출근일이나 제작 시간은 견본 보관 기간과 달라요.",
+    "test": 13,
+    "id": "m-p2-13-17"
+  },
+  {
+    "type": "request",
+    "difficulty": 2,
+    "q": "Please separate recurring income from one-time gains in the summary.",
+    "choices": [
+      "Those figures are already displayed in separate sections.",
+      "The summary has a recurring typo.",
+      "My income is paid every Friday."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "요약에서 반복 수익과 일회성 이익을 나눠 주세요.",
+      "choices": [
+        "그 수치는 이미 서로 다른 구역에 표시되어 있어요.",
+        "요약에 같은 오타가 반복돼요.",
+        "제 급여는 매주 금요일에 나와요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "wrong-subject"
+    ],
+    "explain": "이미 나누어 표시했다는 완료 상태로 추가 분류가 필요하지 않음을 간접 전달해요. 오타나 개인 급여 주기는 수익 분류 요청과 무관해요.",
+    "test": 13,
+    "id": "m-p2-13-18"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why does the restoration team photograph every paint layer?",
+    "choices": [
+      "The paint dries in an hour.",
+      "To document the sequence of earlier color schemes.",
+      "They took a team photograph outside."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "복원팀은 왜 페인트 층을 모두 촬영하나요?",
+      "choices": [
+        "페인트는 한 시간이면 말라요.",
+        "이전에 사용된 색 구성의 순서를 기록하려고요.",
+        "그 팀은 밖에서 단체 사진을 찍었어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "이전 색상의 순서를 기록한다는 촬영 목적을 설명해요. 건조 시간과 단체 사진은 층별 촬영의 이유가 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-19"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 1,
+    "q": "Can this stapler bind thirty sheets at once?",
+    "choices": [
+      "Thirty sheets of yellow paper.",
+      "The binder is on sale.",
+      "Yes, that is within its capacity."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "이 스테이플러로 서른 장을 한 번에 묶을 수 있나요?",
+      "choices": [
+        "노란 종이 서른 장이에요.",
+        "그 바인더는 할인 중이에요.",
+        "네, 처리 가능한 양이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "기계의 처리 용량 안에 든다고 확인해요. 종이의 색이나 바인더 할인은 제본 가능 여부를 답하지 않아요.",
+    "test": 13,
+    "id": "m-p2-13-20"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 2,
+    "q": "The client hasn't waived the inspection, has she?",
+    "choices": [
+      "No, she still wants to witness it.",
+      "She waved from the platform.",
+      "The inspection report has a blue cover."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "고객이 검사를 면제해 주신 것은 아니죠?",
+      "choices": [
+        "네, 아직 직접 참관하기를 원하세요.",
+        "그분은 승강장에서 손을 흔들었어요.",
+        "검사 보고서 표지는 파란색이에요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "related-word"
+    ],
+    "explain": "여전히 참관하려 한다고 면제하지 않았음을 확인해요. waved와 waived의 발음 유사성이나 표지 색에 주의해야 해요.",
+    "test": 13,
+    "id": "m-p2-13-21"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "Who will own the recordings made during the paid consultation?",
+    "choices": [
+      "We only purchased listening rights, not the recordings themselves.",
+      "The recording lasts forty minutes.",
+      "I paid by bank transfer."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "유료 자문 중 만든 녹음의 소유권은 누구에게 있나요?",
+      "choices": [
+        "우리가 산 것은 청취 권한뿐이지 녹음 자체가 아니에요.",
+        "녹음은 사십 분 길이예요.",
+        "계좌 이체로 지불했어요."
+      ]
+    },
+    "trap": [
+      "wh-mismatch",
+      "related-word"
+    ],
+    "explain": "구매한 것은 청취권뿐이라는 말로 녹음 소유권은 넘어오지 않았음을 알리는 간접 응답이에요. 녹음 길이나 결제 수단은 소유권을 설명하지 않아요.",
+    "test": 13,
+    "id": "m-p2-13-22"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "People can see confidential drawings reflected in that window.",
+    "choices": [
+      "The window frames are aluminum.",
+      "Those drawings use metric units.",
+      "An opaque panel behind the desk would block the reflection."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "저 창문에 비친 기밀 도면이 사람들에게 보여요.",
+      "choices": [
+        "창틀은 알루미늄이에요.",
+        "그 도면은 미터법 단위를 써요.",
+        "책상 뒤에 불투명 판을 두면 반사를 가릴 수 있겠어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "반사를 가리는 방법을 제시하는 간접 응답이에요. 창틀 재질이나 도면의 단위는 노출 문제에 대응하지 못해요.",
+    "test": 13,
+    "id": "m-p2-13-23"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Where should the emergency whistle be worn?",
+    "choices": [
+      "A familiar tune, softly whistled.",
+      "The jacket comes in three sizes.",
+      "On the outside of the life jacket."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "비상용 호루라기는 어디에 착용해야 하나요?",
+      "choices": [
+        "작게 휘파람으로 부르는 익숙한 곡이에요.",
+        "조끼는 세 가지 크기로 나와요.",
+        "구명조끼 바깥쪽에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "착용 위치를 답해요. 휘파람 노래나 조끼 크기는 착용 장소가 아니에요.",
+    "test": 13,
+    "id": "m-p2-13-24"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Can the author withdraw the article after granting exclusive publication rights?",
+    "choices": [
+      "The contract gives the journal sole discretion over withdrawal.",
+      "The journal is printed on recycled paper.",
+      "She withdrew cash at lunchtime."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "독점 출판권을 준 뒤에도 저자가 글을 철회할 수 있나요?",
+      "choices": [
+        "계약상 철회 여부를 결정할 권한은 학술지에만 있어요.",
+        "학술지는 재생지에 인쇄돼요.",
+        "그분은 점심때 현금을 인출했어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "학술지에만 결정권이 있으므로 저자가 임의로 철회할 수 없다는 간접 응답이에요. 종이 재질과 현금 인출은 출판권과 무관해요.",
+    "test": 13,
+    "id": "m-p2-13-25"
+  },
+  {
+    "type": "request",
+    "difficulty": 1,
+    "q": "Please turn the mannequin slightly toward the entrance.",
+    "choices": [
+      "The entrance fee is five dollars.",
+      "She entered the competition yesterday.",
+      "Like this, or a little farther?"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "마네킹을 입구 쪽으로 조금 돌려 주세요.",
+      "choices": [
+        "입장료는 오 달러예요.",
+        "그분은 어제 대회에 참가했어요.",
+        "이렇게요, 아니면 조금 더요?"
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "similar-sound"
+    ],
+    "explain": "방향을 조절하며 정도를 확인해 요청에 응해요. 입장료나 대회 참가는 마네킹 방향과 무관해요.",
+    "test": 14,
+    "id": "m-p2-14-01"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why are the screws packed separately from the wooden parts?",
+    "choices": [
+      "They could scratch the finish during transit.",
+      "The parts were made locally.",
+      "A screwdriver with a red handle."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "왜 나사는 나무 부품과 따로 포장되어 있나요?",
+      "choices": [
+        "운송 중 표면 마감에 흠집을 낼 수 있어서요.",
+        "부품은 현지에서 만들었어요.",
+        "손잡이가 빨간 드라이버예요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "운송 중 손상을 막기 위한 분리 포장임을 설명해요. 생산지나 공구의 생김새는 포장 이유가 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-02"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Can the restaurant claim this dish is entirely locally sourced?",
+    "choices": [
+      "The source of the river is nearby.",
+      "The dish is dishwasher-safe.",
+      "The spice blend contains imported pepper."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "식당에서 이 요리가 전부 지역 식재료로 만들어졌다고 할 수 있나요?",
+      "choices": [
+        "강의 수원지는 근처예요.",
+        "그 접시는 식기세척기에 넣어도 돼요.",
+        "혼합 향신료에 수입 후추가 들어가요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "수입 원료가 있어 전부 지역산이라고 할 수 없다는 간접 응답이에요. 강의 수원이나 접시 세척 가능 여부는 식재료 원산지와 달라요.",
+    "test": 14,
+    "id": "m-p2-14-03"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Who waters the hanging plants above the café counter?",
+    "choices": [
+      "A pot of freshly brewed coffee.",
+      "The opening-shift barista does.",
+      "They hang from steel chains."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "카페 계산대 위에 매달린 식물에는 누가 물을 주나요?",
+      "choices": [
+        "갓 내린 커피 한 주전자예요.",
+        "오픈 근무 바리스타가 해요.",
+        "쇠사슬에 매달려 있어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "물을 주는 담당자를 답해요. 커피나 식물을 매다는 방법은 담당자가 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-04"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "Both teams think the other one is handling the customer refund.",
+    "choices": [
+      "Has anyone actually accepted responsibility in writing?",
+      "The customer paid with exact change.",
+      "The teams wore different colors."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "두 팀 모두 고객 환불을 상대 팀이 처리한다고 생각해요.",
+      "choices": [
+        "어느 쪽이든 서면으로 책임을 맡겠다고 한 적이 있나요?",
+        "고객은 잔돈 없이 딱 맞게 냈어요.",
+        "팀들은 서로 다른 색 옷을 입었어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "책임 수락 기록을 확인해 담당자를 분명히 하려는 간접 응답이에요. 결제 잔돈이나 팀 의상은 업무 책임 문제와 무관해요.",
+    "test": 14,
+    "id": "m-p2-14-05"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "How does the demonstration faucet work without a water supply?",
+    "choices": [
+      "A concealed pump recirculates water from a small tank.",
+      "The demonstration was well attended.",
+      "Our water bill is lower this month."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "시연용 수도꼭지가 급수관 없이 어떻게 작동하나요?",
+      "choices": [
+        "숨겨진 펌프가 작은 탱크의 물을 순환시켜요.",
+        "시연에 사람들이 많이 왔어요.",
+        "이번 달 수도 요금은 더 적어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "자체 물 순환 방식으로 작동 원리를 답해요. 참석자 수나 수도 요금은 작동 방식이 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-06"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 2,
+    "q": "The portable sign isn't weighted down yet, is it?",
+    "choices": [
+      "The sign says no parking.",
+      "I waited beside the entrance.",
+      "No, we still need to fill its base with sand."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "이동식 표지판에 아직 무게를 실어 고정하지 않았죠?",
+      "choices": [
+        "표지판에 주차 금지라고 쓰여 있어요.",
+        "입구 옆에서 기다렸어요.",
+        "네, 아직 받침에 모래를 채워야 해요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "similar-sound"
+    ],
+    "explain": "받침을 채우지 않아 아직 고정하지 않았다고 답해요. 표지 내용이나 기다렸다는 말은 고정 여부와 무관해요.",
+    "test": 14,
+    "id": "m-p2-14-07"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "How many extras should we cast for the station scene?",
+    "choices": [
+      "The cast enjoyed the premiere.",
+      "The station has four platforms.",
+      "Will the camera show the whole platform or just one bench?"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "역 장면에 보조 출연자를 몇 명 배역으로 정할까요?",
+      "choices": [
+        "출연진은 시사회를 즐겼어요.",
+        "그 역에는 승강장이 네 개 있어요.",
+        "카메라에 승강장 전체가 나오나요, 벤치 하나만 나오나요?"
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "화면에 담길 범위를 먼저 확인해야 인원을 정할 수 있다는 간접 응답이에요. 시사회 감상이나 역 전체 승강장 수는 장면에 필요한 인원을 정해 주지 않아요.",
+    "test": 14,
+    "id": "m-p2-14-08"
+  },
+  {
+    "type": "choice",
+    "difficulty": 1,
+    "q": "Would you prefer the business cards rounded or square at the corners?",
+    "choices": [
+      "The square is beside city hall.",
+      "Rounded corners, please.",
+      "My business is growing steadily."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "명함 모서리를 둥글게 할까요, 각지게 할까요?",
+      "choices": [
+        "광장은 시청 옆에 있어요.",
+        "둥근 모서리로 해 주세요.",
+        "제 사업은 꾸준히 성장하고 있어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "모서리 형태를 직접 선택해요. 광장이나 사업 성장은 명함 모양에 대한 답이 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-09"
+  },
+  {
+    "type": "request",
+    "difficulty": 3,
+    "q": "Could you demonstrate the chemical spray here in the showroom?",
+    "choices": [
+      "This space has no extraction ventilation.",
+      "The spray bottle holds half a liter.",
+      "The demonstration kit is orange."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 전시장에서 화학 스프레이를 시연해 주시겠어요?",
+      "choices": [
+        "이 공간에는 배기 환기 시설이 없어요.",
+        "분무기 용량은 반 리터예요.",
+        "시연 도구 세트는 주황색이에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "배기 시설이 없어 이곳에서 시연하기 어렵다는 간접 응답이에요. 용량이나 도구 색은 시연 요청에 대한 수락이나 거절 근거가 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-10"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "When does the morning misting cycle begin in the nursery?",
+    "choices": [
+      "Those seedlings are six weeks old.",
+      "At sunrise each day.",
+      "A cycle path beside the river."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "묘목장의 아침 분무 주기는 언제 시작하나요?",
+      "choices": [
+        "그 묘목은 여섯 주 됐어요.",
+        "매일 해 뜰 때요.",
+        "강 옆 자전거 도로예요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "분무 시작 시점을 답해요. 묘목의 나이나 자전거 도로는 시작 시각이 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-11"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Does the photocopier save the settings between users?",
+    "choices": [
+      "The copies are double-sided.",
+      "I have savings in two banks.",
+      "No, it resets after each user logs out."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "복사기가 사용자 사이에 설정을 유지하나요?",
+      "choices": [
+        "복사물은 양면이에요.",
+        "저는 은행 두 곳에 저축해요.",
+        "아니요, 사용자가 로그아웃할 때마다 초기화돼요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "로그아웃하면 초기화된다고 설정 유지 여부를 직접 답해요. 복사물 형태나 개인 저축은 설정 보존과 관계없어요.",
+    "test": 14,
+    "id": "m-p2-14-12"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "Where should we print the assembly instructions for this flat-pack stool?",
+    "choices": [
+      "The print run is five thousand.",
+      "The purchaser sees the underside only before putting it together.",
+      "The assembly voted unanimously."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "납작하게 포장되는 이 조립식 의자의 조립 설명을 어디에 인쇄할까요?",
+      "choices": [
+        "인쇄 수량은 오천 부예요.",
+        "구매자가 밑면을 보는 건 조립하기 전뿐이에요.",
+        "의회에서 만장일치로 의결했어요."
+      ]
+    },
+    "trap": [
+      "wh-mismatch",
+      "repeat-word"
+    ],
+    "explain": "조립 전 확인할 수 있는 밑면을 설명 위치로 제안하는 간접 응답이에요. 인쇄량이나 의회의 표결은 위치 질문의 답이 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-13"
+  },
+  {
+    "type": "statement",
+    "difficulty": 1,
+    "q": "Our youngest trainee spotted the error before anyone else.",
+    "choices": [
+      "She has an excellent eye for detail.",
+      "The error message is in English.",
+      "The train left on time."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "가장 어린 수습 직원이 누구보다 먼저 오류를 발견했어요.",
+      "choices": [
+        "세부 사항을 정말 잘 보는군요.",
+        "오류 메시지는 영어예요.",
+        "기차는 제시간에 떠났어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "similar-sound"
+    ],
+    "explain": "직원의 관찰력을 칭찬하며 호응해요. 메시지 언어나 train은 오류 발견 능력에 대한 말과 맞지 않아요.",
+    "test": 14,
+    "id": "m-p2-14-14"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "What keeps the loose stones from spilling out of the display?",
+    "choices": [
+      "The stones come in many colors.",
+      "I spilled some coffee this morning.",
+      "A transparent rim around the edge."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "진열된 자갈이 밖으로 쏟아지지 않게 무엇이 막아 주나요?",
+      "choices": [
+        "자갈은 색깔이 다양해요.",
+        "오늘 아침에 커피를 좀 쏟았어요.",
+        "가장자리의 투명한 테두리예요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "쏟아짐을 막는 구조물을 답해요. 자갈 색상이나 커피를 쏟은 경험은 방지 장치가 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-15"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Will this customer deposit count toward our sales target?",
+    "choices": [
+      "The target is printed in bold.",
+      "It remains refundable until the finished unit is accepted.",
+      "The bank deposit slip is pink."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "이 고객 계약금이 매출 목표에 반영되나요?",
+      "choices": [
+        "목표는 굵은 글씨로 인쇄되어 있어요.",
+        "완성품이 인수될 때까지는 환불 가능한 금액이에요.",
+        "은행 입금 전표는 분홍색이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "아직 확정 수익으로 보기 어렵다는 상태를 알려 주는 간접 응답이에요. 목표의 서체나 은행 전표 색은 매출 반영 여부와 무관해요.",
+    "test": 14,
+    "id": "m-p2-14-16"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why is the camera mounted directly above the workbench?",
+    "choices": [
+      "The camera comes with a case.",
+      "To show hand movements without anyone blocking the view.",
+      "The workbench is made of oak."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "카메라를 작업대 바로 위에 설치한 이유가 뭐예요?",
+      "choices": [
+        "카메라에는 케이스가 포함돼요.",
+        "누가 가리지 않고 손동작을 보여 주려고요.",
+        "작업대는 참나무로 만들었어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "촬영 시야를 확보하려는 목적을 설명해요. 구성품이나 작업대 재질은 설치 위치의 이유가 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-17"
+  },
+  {
+    "type": "choice",
+    "difficulty": 3,
+    "q": "Should we choose a fixed layout or movable panels for our exhibition booth?",
+    "choices": [
+      "The fairground opens to visitors at nine.",
+      "Our space changes shape from one trade fair to another.",
+      "The panelists come from three different industries."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "전시 부스는 고정 배치로 할까요, 이동식 패널로 구성할까요?",
+      "choices": [
+        "박람회장은 아홉 시에 관람객에게 개방돼요.",
+        "박람회마다 우리에게 주어지는 공간의 형태가 달라져요.",
+        "토론자들은 서로 다른 세 업계에서 와요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "similar-sound"
+    ],
+    "explain": "박람회마다 공간 형태가 달라진다는 조건으로 재배치 가능한 이동식 패널을 간접 선택해요. 개장 시각과 패널이 아닌 토론자의 업종은 부스 구성 선택과 무관해요.",
+    "test": 14,
+    "id": "m-p2-14-18"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Who collects the used tasting spoons at the food stall?",
+    "choices": [
+      "The soup tastes slightly salty.",
+      "A collection of antique silverware.",
+      "The assistant wearing the striped apron."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "음식 판매대에서 사용한 시식용 숟가락은 누가 수거하나요?",
+      "choices": [
+        "수프가 약간 짜요.",
+        "골동품 은식기 수집품이에요.",
+        "줄무늬 앞치마를 입은 보조 직원이요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "담당자를 식별할 수 있게 답해요. 음식 맛이나 골동품 수집은 수거 담당자가 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-19"
+  },
+  {
+    "type": "request",
+    "difficulty": 2,
+    "q": "Please add a pronunciation guide beside the botanical names.",
+    "choices": [
+      "The garden has several rare plants.",
+      "I'll need to check those with our botanist first.",
+      "She pronounced the ceremony open."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "식물 학명 옆에 발음 안내를 넣어 주세요.",
+      "choices": [
+        "정원에 희귀 식물이 몇 가지 있어요.",
+        "먼저 우리 식물학자에게 그 발음을 확인해야겠어요.",
+        "그분은 행사 개막을 선언했어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "바로 표기하기 전에 전문가에게 확인해야 한다는 선행 조건을 제시하는 간접 응답이에요. 식물의 희귀성이나 개막 선언은 발음 표기 요청을 처리하지 않아요.",
+    "test": 14,
+    "id": "m-p2-14-20"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 3,
+    "q": "These results weren't adjusted for seasonal changes, were they?",
+    "choices": [
+      "You're looking at the raw figures.",
+      "The seasons change gradually.",
+      "The adjustment knob is underneath."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 결과는 계절 변동을 보정한 것이 아니죠?",
+      "choices": [
+        "지금 보시는 건 가공하지 않은 수치예요.",
+        "계절은 서서히 바뀌어요.",
+        "조절 손잡이는 밑에 있어요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "원자료라는 말로 보정하지 않았음을 알리는 간접 응답이에요. 계절에 대한 일반론과 조절 장치는 통계 보정 여부와 달라요.",
+    "test": 14,
+    "id": "m-p2-14-21"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "How are the transparent price holders attached to the shelf?",
+    "choices": [
+      "They snap onto the front lip.",
+      "The prices are transparent to everyone.",
+      "The shelf holds twelve boxes."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "투명 가격표 꽂이를 선반에 어떻게 붙이나요?",
+      "choices": [
+        "앞쪽 턱에 끼워 고정해요.",
+        "가격은 누구에게나 공개되어 있어요.",
+        "선반에는 상자 열두 개가 들어가요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "고정 방식을 직접 답해요. 가격 공개나 선반 용량은 부착 방식이 아니에요.",
+    "test": 14,
+    "id": "m-p2-14-22"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "The weekly production chart hides our short shutdowns.",
+    "choices": [
+      "The chart hangs beside the clock.",
+      "The factory produces door handles.",
+      "A daily breakdown would make those interruptions visible."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "주간 생산 차트에서는 짧은 가동 중단이 드러나지 않아요.",
+      "choices": [
+        "차트는 시계 옆에 걸려 있어요.",
+        "공장은 문손잡이를 생산해요.",
+        "일별로 나누면 그런 중단이 보이겠어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "시간 단위를 세분화하자는 간접 응답으로 문제에 대응해요. 차트 위치나 생산품은 중단을 드러내는 데 답이 되지 않아요.",
+    "test": 14,
+    "id": "m-p2-14-23"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "When can we call this material biodegradable in our brochure?",
+    "choices": [
+      "Under home composting conditions or industrial conditions?",
+      "The brochure folds into three sections.",
+      "The material feels soft."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "홍보물에서 이 소재를 언제 생분해성이라고 표현할 수 있나요?",
+      "choices": [
+        "가정 퇴비화 조건에서요, 아니면 산업 시설 조건에서요?",
+        "홍보물은 세 부분으로 접혀요.",
+        "소재가 부드러워요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "어떤 조건에서 분해되는지 먼저 구분해야 한다는 간접 응답이에요. 접는 형태와 촉감은 그 표현의 사용 조건을 설명하지 않아요.",
+    "test": 14,
+    "id": "m-p2-14-24"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Are replacement corks included with the glass carafes?",
+    "choices": [
+      "Yes, two spare corks come with each set.",
+      "The glasses are sparkling clean.",
+      "The course includes six lessons."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "유리 물병에는 교체용 코르크 마개가 포함되나요?",
+      "choices": [
+        "네, 세트마다 여분 마개 두 개가 들어 있어요.",
+        "유리잔이 반짝반짝 깨끗해요.",
+        "그 강좌에는 수업 여섯 개가 포함돼요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "similar-sound"
+    ],
+    "explain": "세트 구성품에 여분 마개가 있다고 확인해요. 유리잔 청결이나 course는 마개 포함 여부와 무관해요.",
+    "test": 14,
+    "id": "m-p2-14-25"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "Where do performers leave their outdoor shoes?",
+    "choices": [
+      "The performance received good reviews.",
+      "A comfortable pair of walking shoes.",
+      "On the rack outside the rehearsal room."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "공연자들은 밖에서 신던 신발을 어디에 두나요?",
+      "choices": [
+        "공연이 좋은 평가를 받았어요.",
+        "편안한 걷기용 신발 한 켤레예요.",
+        "연습실 밖 신발장에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "신발을 둘 장소를 답해요. 공연 평가나 신발 종류는 보관 장소가 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-01"
+  },
+  {
+    "type": "choice",
+    "difficulty": 2,
+    "q": "Do these storage bags seal with a zipper or a drawstring?",
+    "choices": [
+      "They have a drawstring at the top.",
+      "The zip code has five digits.",
+      "The drawing is in storage."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 보관 주머니는 지퍼로 닫나요, 끈을 조여 닫나요?",
+      "choices": [
+        "윗부분에 조이는 끈이 있어요.",
+        "우편번호는 다섯 자리예요.",
+        "그 그림은 창고에 있어요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "similar-sound"
+    ],
+    "explain": "조임 끈 방식이라고 선택지에 직접 답해요. 우편번호나 보관 중인 그림은 주머니를 닫는 방법이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-02"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "How many survey invitations should we send to obtain two hundred responses?",
+    "choices": [
+      "Two hundred people attended the banquet.",
+      "The invitations are printed on cream paper.",
+      "What response rate did we get last time?"
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "설문 응답 이백 개를 얻으려면 초대를 몇 개 보내야 하나요?",
+      "choices": [
+        "이백 명이 만찬에 참석했어요.",
+        "초대장은 크림색 종이에 인쇄되어 있어요.",
+        "지난번 응답률이 얼마였나요?"
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "필요한 발송 수를 계산하려고 응답률을 확인하는 간접 응답이에요. 만찬 인원이나 종이 색은 설문 발송 수를 정할 근거가 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-03"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 1,
+    "q": "Does the presentation remote have a laser pointer?",
+    "choices": [
+      "The presentation lasted twenty minutes.",
+      "Yes, press the narrow button on the side.",
+      "A remote village in the mountains."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "프레젠테이션 리모컨에 레이저 포인터가 있나요?",
+      "choices": [
+        "발표는 이십 분 동안 진행됐어요.",
+        "네, 옆면의 좁은 버튼을 누르세요.",
+        "산속의 외딴 마을이에요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "포인터 기능을 확인하고 조작법을 알려 줘요. 발표 길이나 remote의 다른 뜻은 기능 유무와 무관해요.",
+    "test": 15,
+    "id": "m-p2-15-04"
+  },
+  {
+    "type": "request",
+    "difficulty": 3,
+    "q": "Could you guarantee that the outdoor mural will never fade?",
+    "choices": [
+      "Even the best pigments change after years of sunlight.",
+      "The mural depicts a coastal town.",
+      "The guarantee is printed in small type."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "야외 벽화가 절대 바래지 않는다고 보장해 주시겠어요?",
+      "choices": [
+        "최상급 안료도 햇빛을 여러 해 받으면 변해요.",
+        "벽화에는 해안 마을이 그려져 있어요.",
+        "보증 문구는 작은 글씨로 인쇄되어 있어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "모든 안료가 장기적으로 변하므로 영구 보장이 어렵다는 간접 응답이에요. 그림 주제나 보증 문구 서체는 보장 가능 여부를 답하지 않아요.",
+    "test": 15,
+    "id": "m-p2-15-05"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Who monitors the noise level during the street performance?",
+    "choices": [
+      "The performance is completely free.",
+      "A sound engineer with a handheld meter.",
+      "The meter accepts only coins."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "거리 공연 중 소음 수준은 누가 확인하나요?",
+      "choices": [
+        "공연은 완전 무료예요.",
+        "휴대용 측정기를 든 음향 기술자예요.",
+        "그 계량기는 동전만 받아요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "소음 측정 담당자를 답해요. 관람료나 동전식 계량기는 담당자 질문과 맞지 않아요.",
+    "test": 15,
+    "id": "m-p2-15-06"
+  },
+  {
+    "type": "statement",
+    "difficulty": 2,
+    "q": "Visitors keep touching the delicate fabric samples.",
+    "choices": [
+      "The visitors arrived in two coaches.",
+      "The fabric comes in navy and beige.",
+      "Let's offer a separate swatch they can handle."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "방문객들이 섬세한 직물 견본을 자꾸 만져요.",
+      "choices": [
+        "방문객들은 버스 두 대로 왔어요.",
+        "직물은 남색과 베이지색으로 나와요.",
+        "직접 만져 볼 수 있는 별도 견본을 제공해요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "체험용 견본을 따로 제공하는 해결책을 제안하는 간접 응답이에요. 교통수단이나 색상은 견본 보호 문제의 답이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-07"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "What does the red cord beside the shower activate?",
+    "choices": [
+      "The shower curtain is washable.",
+      "An assistance alarm at the attendant's desk.",
+      "The red carpet was rolled out."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "샤워기 옆 빨간 줄을 당기면 무엇이 작동하나요?",
+      "choices": [
+        "샤워 커튼은 세탁할 수 있어요.",
+        "관리 직원 데스크의 도움 요청 경보요.",
+        "빨간 카펫을 펼쳤어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "줄과 연결된 경보 기능을 답해요. 커튼 관리나 카펫은 작동되는 장치가 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-08"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 3,
+    "q": "We aren't entitled to exclusivity with this supplier, are we?",
+    "choices": [
+      "The supplier is based overseas.",
+      "They can sell the same design to our competitors.",
+      "An exclusive interview with the director."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "이 공급업체와의 거래에서 우리에게 독점권이 있는 것은 아니죠?",
+      "choices": [
+        "공급업체는 해외에 있어요.",
+        "그 업체는 같은 디자인을 경쟁사에도 팔 수 있어요.",
+        "감독과의 독점 인터뷰예요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "경쟁사 판매가 가능하므로 독점권이 없다는 간접 응답이에요. 소재지나 인터뷰는 공급 계약의 독점 여부와 무관해요.",
+    "test": 15,
+    "id": "m-p2-15-09"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why does the museum use replicas in the traveling exhibition?",
+    "choices": [
+      "The originals cannot tolerate frequent changes in humidity.",
+      "The exhibition travels by truck.",
+      "The gift shop sells miniature replicas."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "박물관은 순회 전시에서 왜 복제품을 사용하나요?",
+      "choices": [
+        "원본은 잦은 습도 변화를 견디지 못해서요.",
+        "전시품은 트럭으로 이동해요.",
+        "기념품점에서 소형 복제품을 팔아요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "원본이 습도 변화를 견디지 못한다는 이유로 복제품 사용을 설명해요. 운송 수단이나 기념품점 상품은 원본을 전시하지 않는 이유가 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-10"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 3,
+    "q": "Should this month's customer complaints be compared directly with last month's?",
+    "choices": [
+      "We changed what counts as a complaint halfway through this month.",
+      "The customers complained about long lines.",
+      "The comparison chart uses blue bars."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이번 달 고객 불만을 지난달 수치와 바로 비교해도 될까요?",
+      "choices": [
+        "이번 달 중간에 불만으로 집계하는 기준을 바꿨어요.",
+        "고객들이 긴 줄에 대해 불평했어요.",
+        "비교 차트는 파란 막대를 써요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "집계 기준이 바뀌어 단순 비교가 어렵다는 간접 응답이에요. 불만 내용이나 차트 색은 비교 가능 여부를 답하지 않아요.",
+    "test": 15,
+    "id": "m-p2-15-11"
+  },
+  {
+    "type": "wh",
+    "difficulty": 1,
+    "q": "When are the auditorium's aisle lights switched off?",
+    "choices": [
+      "The lights are recessed into the floor.",
+      "The aisle is very narrow.",
+      "After the last person has left."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "강당 통로 조명은 언제 끄나요?",
+      "choices": [
+        "조명은 바닥에 매립되어 있어요.",
+        "통로는 아주 좁아요.",
+        "마지막 사람이 나간 뒤에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "끄는 시점을 답해요. 조명 설치 형태나 통로 폭은 시점이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-12"
+  },
+  {
+    "type": "request",
+    "difficulty": 2,
+    "q": "Would you mark the safe lifting points on this machine drawing?",
+    "choices": [
+      "The manufacturer's approved lifting diagram hasn't arrived yet.",
+      "The drawing won first prize.",
+      "The machine runs quietly."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 기계 도면에 안전하게 들어 올릴 지점을 표시해 주시겠어요?",
+      "choices": [
+        "제조업체가 승인한 인양 도면이 아직 도착하지 않았어요.",
+        "그 그림은 일 등을 했어요.",
+        "기계는 조용히 작동해요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "related-word"
+    ],
+    "explain": "확인할 승인 도면이 아직 없어 인양 위치를 표시하기 어렵다는 간접 응답이에요. 그림 수상이나 작동 소음은 인양점 표시 요청과 무관해요.",
+    "test": 15,
+    "id": "m-p2-15-13"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "Which customer testimonials can we include in the new campaign?",
+    "choices": [
+      "The campaign features three colors.",
+      "The testimonial booklet has a matte cover.",
+      "Some people agreed to website use only."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "새 캠페인에 어떤 고객 추천사를 넣을 수 있나요?",
+      "choices": [
+        "캠페인은 세 가지 색을 사용해요.",
+        "추천사 소책자는 무광 표지예요.",
+        "일부 고객은 웹사이트 사용에만 동의했어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "사용 동의 범위를 확인해 선택해야 한다는 간접 응답이에요. 캠페인 색상이나 소책자 표면은 추천사 사용 권한을 알려 주지 않아요.",
+    "test": 15,
+    "id": "m-p2-15-14"
+  },
+  {
+    "type": "statement",
+    "difficulty": 1,
+    "q": "Our repair team restored the clock's original chime.",
+    "choices": [
+      "The team has four members.",
+      "My appointment is at four o'clock.",
+      "It is wonderful to hear that sound again."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "수리팀이 시계의 원래 종소리를 복원했어요.",
+      "choices": [
+        "그 팀에는 네 명이 있어요.",
+        "제 예약은 네 시예요.",
+        "그 소리를 다시 들으니 정말 좋네요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "복원된 소리에 대한 감상으로 호응해요. 팀 인원이나 약속 시각은 복원 성과에 대한 응답이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-15"
+  },
+  {
+    "type": "choice",
+    "difficulty": 3,
+    "q": "Should we measure the carton before or after filling it?",
+    "choices": [
+      "The contents are listed alphabetically.",
+      "Its sides bulge when the contents are inside.",
+      "We filled all the vacancies."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "상자 치수를 내용물을 넣기 전에 잴까요, 넣은 뒤에 잴까요?",
+      "choices": [
+        "내용물은 알파벳 순서로 나와 있어요.",
+        "내용물을 넣으면 옆면이 불룩해져요.",
+        "빈자리를 모두 채용으로 채웠어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "내용물을 넣은 상태에서 크기가 달라지므로 포장 후 측정해야 한다는 간접 응답이에요. 목록 순서와 채용은 상자 측정 시점과 무관해요.",
+    "test": 15,
+    "id": "m-p2-15-16"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "How does the hotel prevent towels from falling off the balcony rail?",
+    "choices": [
+      "The balcony overlooks the sea.",
+      "Guests are asked to use the indoor drying rack.",
+      "The towels are unusually soft."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "호텔에서는 수건이 발코니 난간에서 떨어지는 것을 어떻게 막나요?",
+      "choices": [
+        "발코니에서 바다가 보여요.",
+        "투숙객에게 실내 건조대를 사용하도록 안내해요.",
+        "수건이 유난히 부드러워요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "실내 건조대 사용 안내라는 예방 방법을 답해요. 전망이나 수건 촉감은 낙하 방지 방법이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-17"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Are subtitles available in both official languages?",
+    "choices": [
+      "The officials arrived early.",
+      "The title appears on the first page.",
+      "Yes, viewers can select either language from the menu."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "두 공용어 모두 자막이 제공되나요?",
+      "choices": [
+        "관계자들은 일찍 왔어요.",
+        "제목은 첫 페이지에 나와요.",
+        "네, 메뉴에서 둘 중 하나를 고를 수 있어요."
+      ]
+    },
+    "trap": [
+      "similar-sound",
+      "similar-sound"
+    ],
+    "explain": "두 언어 중 선택 가능하다고 자막 제공을 확인해요. officials와 title은 비슷한 소리를 이용한 오답이에요.",
+    "test": 15,
+    "id": "m-p2-15-18"
+  },
+  {
+    "type": "wh",
+    "difficulty": 3,
+    "q": "Where can the oversized advertising balloon be inflated?",
+    "choices": [
+      "Will it fit through the doors once it is full?",
+      "The advertising agency has expanded.",
+      "The balloon is bright yellow."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "대형 광고 풍선은 어디에서 부풀릴 수 있나요?",
+      "choices": [
+        "공기를 다 넣은 뒤에도 문을 통과할 수 있나요?",
+        "광고 대행사가 확장했어요.",
+        "풍선은 밝은 노란색이에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "팽창 후 이동 가능 여부에 따라 장소를 정해야 한다는 간접 응답이에요. 대행사 확장이나 풍선 색은 작업 장소를 정하는 답이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-19"
+  },
+  {
+    "type": "request",
+    "difficulty": 1,
+    "q": "Please put a felt pad under each metal foot.",
+    "choices": [
+      "Sure, that will protect the floor.",
+      "The fabric felt rough.",
+      "The footpath leads to the park."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "금속 다리마다 밑에 펠트 패드를 붙여 주세요.",
+      "choices": [
+        "네, 그러면 바닥이 보호되겠어요.",
+        "천이 거칠게 느껴졌어요.",
+        "보행로는 공원으로 이어져요."
+      ]
+    },
+    "trap": [
+      "repeat-word",
+      "repeat-word"
+    ],
+    "explain": "바닥 보호 효과에 동의하며 요청을 수락해요. 느꼈다는 뜻의 felt와 footpath는 패드 부착과 무관해요.",
+    "test": 15,
+    "id": "m-p2-15-20"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Why are there two scales on this measuring jug?",
+    "choices": [
+      "One indicates fluid ounces and the other milliliters.",
+      "The jug is dishwasher-safe.",
+      "The kitchen scale needs new batteries."
+    ],
+    "answer": 0,
+    "ko": {
+      "q": "이 계량 물병에는 왜 눈금이 두 가지 있나요?",
+      "choices": [
+        "하나는 액량 온스이고 다른 하나는 밀리리터를 나타내요.",
+        "그 물병은 식기세척기에 넣어도 돼요.",
+        "주방 저울에 새 배터리가 필요해요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "서로 다른 부피 단위 표기라는 이유를 설명해요. 세척 가능 여부나 무게 저울은 눈금 두 가지의 이유가 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-21"
+  },
+  {
+    "type": "negative-tag",
+    "difficulty": 2,
+    "q": "The venue doesn't provide bottled water, does it?",
+    "choices": [
+      "The venue has stone columns.",
+      "The bottle label is blue.",
+      "No, guests fill reusable bottles at the drinking fountain."
+    ],
+    "answer": 2,
+    "ko": {
+      "q": "행사장에서는 생수를 제공하지 않죠?",
+      "choices": [
+        "행사장에는 돌기둥이 있어요.",
+        "물병 라벨은 파란색이에요.",
+        "네, 방문객이 음수대에서 재사용 물병에 채워요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "related-word"
+    ],
+    "explain": "음수대 이용 방식으로 생수 미제공을 확인해요. 기둥이나 라벨 색은 제공 여부와 무관해요.",
+    "test": 15,
+    "id": "m-p2-15-22"
+  },
+  {
+    "type": "statement",
+    "difficulty": 3,
+    "q": "Reviewers gave the same design different scores when the creator's name was visible.",
+    "choices": [
+      "The design uses only two colors.",
+      "Then we should conceal authorship during the next assessment.",
+      "The names are listed alphabetically."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "심사위원들이 창작자 이름이 보이자 같은 디자인에 다른 점수를 주었어요.",
+      "choices": [
+        "디자인에는 색상이 두 개만 쓰였어요.",
+        "그럼 다음 평가에서는 창작자를 공개하지 않아야겠어요.",
+        "이름은 알파벳 순서로 나와 있어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "이름에 따른 평가 영향을 줄이려고 익명 심사를 제안하는 간접 응답이에요. 디자인 색상이나 명단 정렬 순서는 평가 편향에 대한 해결책이 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-23"
+  },
+  {
+    "type": "wh",
+    "difficulty": 2,
+    "q": "Who signs off on the final mix of the radio commercial?",
+    "choices": [
+      "The mixer has six channels.",
+      "The producer responsible for the entire campaign.",
+      "A signature written in green ink."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "라디오 광고의 최종 믹싱본은 누가 승인하나요?",
+      "choices": [
+        "믹서에는 채널이 여섯 개 있어요.",
+        "캠페인 전체를 담당하는 프로듀서예요.",
+        "초록색 잉크로 쓴 서명이에요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "최종 승인 담당자를 답해요. 장비 채널 수나 서명 색은 담당자가 아니에요.",
+    "test": 15,
+    "id": "m-p2-15-24"
+  },
+  {
+    "type": "yesno",
+    "difficulty": 2,
+    "q": "Can one employee submit two ideas to the improvement contest?",
+    "choices": [
+      "The contest poster is bilingual.",
+      "The rules set no limit on entries per person.",
+      "She has been an employee for two years."
+    ],
+    "answer": 1,
+    "ko": {
+      "q": "한 직원이 개선 아이디어 대회에 제안을 두 개 낼 수 있나요?",
+      "choices": [
+        "대회 포스터는 이중 언어로 되어 있어요.",
+        "규칙에 일인당 출품 수 제한이 없어요.",
+        "그분은 입사한 지 이 년 됐어요."
+      ]
+    },
+    "trap": [
+      "related-word",
+      "repeat-word"
+    ],
+    "explain": "일인당 제한이 없어 두 건 제출도 가능하다는 간접 응답이에요. 포스터 언어나 재직 기간은 출품 수 제한을 설명하지 않아요.",
+    "test": 15,
+    "id": "m-p2-15-25"
+  }
+]

@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "p6-3-001",
+    "difficulty": 1,
+    "passageType": "email",
+    "heading": [
+      "To: Packing supervisors",
+      "From: Nera Vilm, Equipment Care",
+      "Date: May 10",
+      "Subject: Packing worktables"
+    ],
+    "paragraphs": [
+      "Several packing worktables rock when an operator places a carton on them. Please {1} the rubber feet rather than putting folded paper under the bases. The replacement feet are supplied in sets of four so that each worktable stands at an even height.",
+      "The supplier made its first visit to our site last Thursday, two days after these worktables were delivered new. Its technician {2} the affected units. She left that afternoon after checking every packing bench, and no further inspection visit is planned.",
+      "For {3}, order one complete set for each unstable worktable. {4} Send the total number required to Equipment Care, and we will combine the requests into one order."
+    ],
+    "headingKo": [
+      "수신: 포장 감독자",
+      "발신: 네라 빌름, 장비 관리",
+      "날짜: 5월 10일",
+      "제목: 포장 작업대"
+    ],
+    "paragraphsKo": [
+      "상자를 올리면 포장용 작업대 몇 대가 흔들립니다. 받침 아래에 접은 종이를 넣는 대신 고무 발을 {1}해 주십시오. 교체용 발은 작업대 높이를 고르게 하기 위해 네 개 한 묶음으로 제공합니다.",
+      "이 작업대들이 새 제품으로 배송된 지 이틀 뒤인 지난 목요일, 공급업체가 처음으로 사업장을 방문했습니다. 기술자가 문제가 있는 장치를 {2}. 모든 포장 작업대를 점검한 뒤 그날 오후 떠났으며 추가 점검 방문 계획은 없습니다.",
+      "{3}을 위해 불안정한 작업대마다 완전한 한 묶음을 주문하십시오. {4} 필요한 총수를 장비 관리팀에 보내면 한 주문으로 취합하겠습니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "vocab",
+        "choices": [
+          "replace",
+          "polish",
+          "borrow",
+          "weigh"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "교체하다",
+            "광택을 내다",
+            "빌리다",
+            "무게를 재다"
+          ]
+        },
+        "explain": "종이로 받치는 대신 새 고무 발을 끼우려는 문맥이므로 replace이다. 무게 측정은 해결책이 아니다."
+      },
+      {
+        "blank": 2,
+        "type": "tense",
+        "choices": [
+          "used to inspect",
+          "inspected",
+          "will inspect",
+          "will be inspecting"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "예전에 점검하곤 했다",
+            "점검했다",
+            "점검할 것이다",
+            "점검하고 있을 것이다"
+          ]
+        },
+        "explain": "새 작업대 배송 직후의 첫 방문에서 끝낸 일회성 점검이므로 inspected이다. used to inspect는 과거의 반복 습관을 전제하며 미래형은 이미 끝난 방문과 맞지 않는다."
+      },
+      {
+        "blank": 3,
+        "type": "pos",
+        "choices": [
+          "consistency",
+          "consistently",
+          "consistent",
+          "consist"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "일관성",
+            "일관되게",
+            "일관된",
+            "이루어지다"
+          ]
+        },
+        "explain": "전치사 for 뒤에 목적을 나타내는 명사 consistency가 필요하다. 형용사 consistent만으로는 목적어가 되지 않는다."
+      },
+      {
+        "blank": 4,
+        "type": "sentence",
+        "choices": [
+          "Move all the worktables before counting the benches.",
+          "Count every carton placed on the worktables today.",
+          "Order one foot for each worktable already inspected.",
+          "Count the unstable worktables, not the individual feet."
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "작업대 수를 세기 전에 모든 작업대를 옮기십시오.",
+            "오늘 작업대에 올린 모든 상자 수를 세십시오.",
+            "이미 점검한 작업대마다 발 하나를 주문하십시오.",
+            "발 하나하나가 아니라 불안정한 작업대 수를 세십시오."
+          ]
+        },
+        "explain": "작업대 한 대에 한 묶음을 주문하고 총수를 보내라는 앞뒤 내용을 연결한다. 발 하나 주문이나 장비 이동은 앞 문단과 어긋난다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-002",
+    "difficulty": 2,
+    "passageType": "notice",
+    "heading": [
+      "A separate route for strong spices"
+    ],
+    "paragraphs": [
+      "The product kitchen will prepare a mild seasoning blend for a new customer this month. {1} The existing grinder will remain available for chili mixtures, while the new one will handle only the mild blend. Both machines are the same size, so their positions will be marked on the worktop. Staff should {2} the marked areas when putting cleaned equipment back. The new grinder arrived at eight this morning, and an electrician {3} it. She started an hour after it arrived and expects to finish at eleven. Until then, please keep the area around the grinder clear.",
+      "The customer has also requested samples without added salt. {4}, the packing team must prepare a separate label identifying those samples. The production quantities have not changed."
+    ],
+    "headingKo": [
+      "향이 강한 향신료의 별도 처리"
+    ],
+    "paragraphsKo": [
+      "제품 개발 주방은 이번 달 새 고객용 순한 조미료 혼합물을 준비합니다. {1} 기존 분쇄기는 고추 혼합물용으로 계속 쓰고 새 분쇄기는 순한 혼합물에만 씁니다. 두 기계 크기가 같아 작업대에 위치를 표시합니다. 직원은 세척한 장비를 되놓을 때 표시 구역을 {2}해야 합니다. 새 분쇄기는 오늘 아침 8시에 도착했고 전기 기사가 그것을 {3}. 기사는 분쇄기가 도착하고 한 시간 뒤 작업을 시작했으며 11시에 끝낼 예정입니다. 그때까지 분쇄기 주변을 비워 두십시오.",
+      "고객은 소금을 넣지 않은 견본도 요청했습니다. {4} 포장팀은 그 견본을 식별할 별도 라벨을 준비해야 합니다. 생산 수량은 바뀌지 않았습니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "sentence",
+        "choices": [
+          "All seasoning production is being moved to another kitchen.",
+          "The mild blend will use the same grinder as chili.",
+          "A second grinder has been purchased to prevent flavor carryover.",
+          "Only the packaging of the chili mixture will change."
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "모든 조미료 생산을 다른 주방으로 옮깁니다.",
+            "순한 혼합물은 고추와 같은 분쇄기를 씁니다.",
+            "향이 옮는 것을 막기 위해 두 번째 분쇄기를 구입했습니다.",
+            "고추 혼합물의 포장만 바뀝니다."
+          ]
+        },
+        "explain": "뒤의 기존·새 분쇄기 분리 사용을 도입하는 문장이다. 같은 기계 사용이나 포장만 변경한다는 설명은 이어지는 내용과 모순된다."
+      },
+      {
+        "blank": 2,
+        "type": "vocab",
+        "choices": [
+          "expand",
+          "erase",
+          "respect",
+          "decorate"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "확장하다",
+            "지우다",
+            "준수하다",
+            "장식하다"
+          ]
+        },
+        "explain": "장비를 구분된 자리에 돌려놓아야 하므로 구역을 준수한다는 respect가 맞다. 표시를 지우면 분리 목적을 해친다."
+      },
+      {
+        "blank": 3,
+        "type": "tense",
+        "choices": [
+          "has installed",
+          "is installing",
+          "had installed",
+          "will install"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "설치했다",
+            "설치하고 있다",
+            "설치해 두었었다",
+            "설치할 것이다"
+          ]
+        },
+        "explain": "기사가 이미 작업을 시작했고 11시에 끝낼 예정이며 그때까지 주변을 비우라고 하므로 지금 설치 중인 is installing이다. 이미 시작한 작업이라 will install은 맞지 않고, 아직 끝나지 않았으므로 has installed도 맞지 않으며, had installed는 기준이 되는 과거 시점이 없다."
+      },
+      {
+        "blank": 4,
+        "type": "connector",
+        "choices": [
+          "Consequently",
+          "For example",
+          "Nevertheless",
+          "Similarly"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "그 결과",
+            "예를 들어",
+            "그럼에도",
+            "마찬가지로"
+          ]
+        },
+        "explain": "별도 무염 견본 요청이 식별 라벨 준비의 원인이므로 Consequently이다. 앞 문장의 예시를 드는 관계가 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-003",
+    "difficulty": 2,
+    "passageType": "article",
+    "heading": [
+      "Bakery puts a signature on each loaf"
+    ],
+    "paragraphs": [
+      "At Torvani Bakery, a thin metal stencil gives each loaf a distinctive flour pattern. Bakers place the stencil over the dough and {1} flour through the openings before lifting it away. The design remains on the surface as the loaf expands in the oven.",
+      "The first stencil had extremely narrow openings. Flour collected inside them instead of reaching the dough. {2}, the designer widened the gaps while keeping the outline of the bakery's symbol. The revised tool was used in a trial last month. The bakers {3} three versions of the pattern. They chose the simplest one at the end of that trial, and it is now used for all signature loaves.",
+      "{4} Customers can therefore recognize the bakery's bread even after the paper wrapping has been removed."
+    ],
+    "headingKo": [
+      "빵마다 고유 무늬를 넣는 제과점"
+    ],
+    "paragraphsKo": [
+      "토르바니 제과점에서는 얇은 금속 형판으로 빵마다 고유한 밀가루 무늬를 만듭니다. 제빵사가 반죽 위에 형판을 놓고 구멍 사이로 밀가루를 {1} 뒤 들어냅니다. 오븐에서 빵이 부풀어도 무늬는 표면에 남습니다.",
+      "첫 형판의 구멍은 매우 좁았습니다. 밀가루가 반죽에 닿는 대신 구멍 안에 쌓였습니다. {2} 설계자는 제과점 상징의 윤곽을 유지하면서 틈을 넓혔습니다. 수정한 도구로 지난달 시험했습니다. 제빵사들은 세 무늬를 {3}. 시험 끝에 가장 단순한 것을 골랐고 이제 모든 대표 빵에 사용합니다.",
+      "{4} 따라서 종이 포장을 벗겨도 고객이 제과점 빵을 알아볼 수 있습니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "vocab",
+        "choices": [
+          "wrap",
+          "fold",
+          "dissolve",
+          "sprinkle"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "싸다",
+            "접다",
+            "녹이다",
+            "뿌리다"
+          ]
+        },
+        "explain": "형판 구멍을 통해 반죽 위에 밀가루를 뿌리므로 sprinkle이다. 밀가루를 접거나 포장하는 동작이 아니다."
+      },
+      {
+        "blank": 2,
+        "type": "connector",
+        "choices": [
+          "As a result",
+          "Instead",
+          "Meanwhile",
+          "For instance"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "그 결과",
+            "그 대신",
+            "그동안",
+            "예를 들어"
+          ]
+        },
+        "explain": "좁은 틈에 밀가루가 막힌 결과 틈을 넓혔다는 인과다. 다른 동시 작업이나 예시가 아니다."
+      },
+      {
+        "blank": 3,
+        "type": "tense",
+        "choices": [
+          "will compare",
+          "have compared",
+          "are comparing",
+          "compared"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "비교할 것이다",
+            "비교해 왔다",
+            "비교하고 있다",
+            "비교했다"
+          ]
+        },
+        "explain": "지난달의 종료된 시험과 그 끝에 선택했다는 후속 사건이 과거 compared를 결정한다. 현재완료는 특정 과거 시험의 서술 시점과 맞지 않는다."
+      },
+      {
+        "blank": 4,
+        "type": "sentence",
+        "choices": [
+          "The identifying mark appears only on the paper wrapping.",
+          "The identifying mark is baked onto the bread itself.",
+          "The bakery has stopped using a mark on its loaves.",
+          "The stencil is now used to cut the wrapping paper."
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "식별 무늬는 종이 포장에만 있습니다.",
+            "식별 무늬가 빵 자체에 구워져 남습니다.",
+            "제과점은 빵에 무늬를 쓰지 않기로 했습니다.",
+            "형판은 이제 포장지를 자르는 데 씁니다."
+          ]
+        },
+        "explain": "포장을 벗겨도 식별된다는 뒷문장의 근거다. 종이에만 표시한다는 보기는 결론과 모순된다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-004",
+    "difficulty": 3,
+    "passageType": "letter",
+    "heading": [
+      "To: Ilva Nerr, Delvani Access Design",
+      "From: Soren Vilm, Narethi Print",
+      "Date: August 9",
+      "Subject: Tactile business cards"
+    ],
+    "paragraphs": [
+      "Thank you for selecting the heavy paper for your tactile business cards. When we discussed the sample at our meeting on Monday, the paper order was already beyond cancellation. Our purchasing team {1} the supplier's offer. The supplier had cut the sheets to size before that meeting began, so replacing the stock would mean paying for a second batch.",
+      "We can still {2} the spacing of the raised dots without changing the paper. {3} Please ask your accessibility consultant to examine that arrangement before we prepare the production plate. The sample uses your current telephone number and office address.",
+      "We will make two test cards with different dot spacing and send {4} in separate envelopes. Please return both cards with your comments so that we can compare the results directly."
+    ],
+    "headingKo": [
+      "수신: 일바 네르, 델바니 접근성 디자인",
+      "발신: 소렌 빌름, 나레티 인쇄",
+      "날짜: 8월 9일",
+      "제목: 촉각 명함"
+    ],
+    "paragraphsKo": [
+      "촉각 명함용 두꺼운 종이를 선택해 주셔서 감사합니다. 월요일 회의에서 견본을 논의할 때 종이 주문은 이미 취소 불가 상태였습니다. 구매팀이 공급업체 제안을 {1}. 회의가 시작되기 전에 공급업체가 이미 종이를 규격에 맞게 재단했기 때문에, 종이를 바꾸려면 두 번째 물량 값을 내야 합니다.",
+      "종이를 바꾸지 않고 돌출 점 간격은 여전히 {2}할 수 있습니다. {3} 생산용 판을 준비하기 전에 접근성 담당자가 그 배열을 살펴보게 해 주십시오. 견본에는 현재 전화번호와 사무실 주소를 씁니다.",
+      "점 간격이 다른 시험 명함 두 장을 만들어 별도 봉투에 {4} 보내겠습니다. 직접 비교할 수 있도록 의견과 함께 두 명함을 모두 돌려보내 주십시오."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "tense",
+        "choices": [
+          "will accept",
+          "had accepted",
+          "accepts",
+          "was accepting"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "수락할 것이다",
+            "이미 수락했다",
+            "수락한다",
+            "수락하고 있었다"
+          ]
+        },
+        "explain": "월요일 회의 전에 주문이 확정됐고 종이까지 잘린 상태이므로 그보다 앞선 수락 had accepted가 맞다. 수락 진행 중이라면 이미 확정된 선행 상황을 설명하지 못한다."
+      },
+      {
+        "blank": 2,
+        "type": "vocab",
+        "choices": [
+          "conceal",
+          "adjust",
+          "advertise",
+          "duplicate"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "감추다",
+            "조절하다",
+            "광고하다",
+            "복제하다"
+          ]
+        },
+        "explain": "종이는 유지하고 점 간격을 바꿀 수 있으므로 adjust이다. 간격을 숨긴다는 뜻은 맞지 않는다."
+      },
+      {
+        "blank": 3,
+        "type": "sentence",
+        "choices": [
+          "The consultant has already approved the production plate.",
+          "The dotted text has been removed from the final design.",
+          "The dotted text will occupy the lower half of the card.",
+          "The paper must be replaced before any spacing can change."
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "담당자가 이미 생산용 판을 승인했습니다.",
+            "점 글자는 최종 도안에서 삭제됐습니다.",
+            "점으로 된 글자는 명함 아래쪽 절반에 배치됩니다.",
+            "간격을 바꾸려면 먼저 종이를 교체해야 합니다."
+          ]
+        },
+        "explain": "뒤의 that arrangement가 가리킬 구체적 배치를 제시한다. 이미 승인했다거나 종이를 바꿔야 한다는 보기는 요청·앞 문장과 충돌한다."
+      },
+      {
+        "blank": 4,
+        "type": "pronoun",
+        "choices": [
+          "them",
+          "theirs",
+          "it",
+          "itself"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "그것들을",
+            "그들의 것",
+            "그것을",
+            "그것 자체를"
+          ]
+        },
+        "explain": "앞의 시험 명함 두 장을 받는 복수 목적격 them이다. 단수 it으로 받을 수 없다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-005",
+    "difficulty": 1,
+    "passageType": "memo",
+    "heading": [
+      "To: Guest-services staff",
+      "From: Lera Noll, Orvani House",
+      "Subject: Pillow requests"
+    ],
+    "paragraphs": [
+      "Guests may now choose between a low pillow and a higher one. The two versions use the same filling, but their different heights {1} different sleeping preferences. Please ask which height the guest wants rather than assuming that a larger pillow is softer.",
+      "The laundry delivered the first batch on Tuesday. At nine that morning, I found uncovered pillows beside the linen cart. Our housekeeping team {2} the removable covers. The staff were pulling each cover over a pillow as I entered, and the job took another hour. A stitched tag on each cover identifies its height.",
+      "Keep the unused pillows on the {3} shelf in the linen room. {4} This will help the evening team find the right version without opening every protective bag."
+    ],
+    "headingKo": [
+      "수신: 고객 서비스 직원",
+      "발신: 레라 놀, 오르바니 하우스",
+      "제목: 베개 요청"
+    ],
+    "paragraphsKo": [
+      "고객은 이제 낮은 베개와 높은 베개 중 선택할 수 있습니다. 충전재는 같지만 높이가 달라 서로 다른 수면 선호에 {1}. 큰 베개가 더 부드럽다고 생각하지 말고 원하는 높이를 물어보십시오.",
+      "세탁소가 화요일 첫 물량을 배송했습니다. 그날 아침 9시에 린넨 카트 옆에서 커버 없는 베개들을 보았습니다. 객실팀이 분리형 커버를 {2}. 제가 들어갈 때 직원들이 베개마다 커버를 씌우고 있었고 작업은 한 시간 더 걸렸습니다. 각 커버의 봉제 표지가 높이를 나타냅니다.",
+      "사용하지 않은 베개는 린넨실의 {3} 선반에 보관하십시오. {4} 그러면 저녁 근무팀이 모든 보호 봉투를 열지 않고 원하는 종류를 찾을 수 있습니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "vocab",
+        "choices": [
+          "cancel",
+          "measure",
+          "suit",
+          "announce"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "취소하다",
+            "측정하다",
+            "맞다",
+            "발표하다"
+          ]
+        },
+        "explain": "높이가 서로 다른 수면 선호에 맞는다는 뜻이므로 suit이다. 높이가 선호를 측정하지는 않는다."
+      },
+      {
+        "blank": 2,
+        "type": "tense",
+        "choices": [
+          "had fitted",
+          "has fitted",
+          "will fit",
+          "was fitting"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "씌워 두었다",
+            "씌웠다",
+            "씌울 것이다",
+            "씌우고 있었다"
+          ]
+        },
+        "explain": "화요일 관찰 시점에 실제로 커버를 씌우고 있었고 이후에도 한 시간 걸려 was fitting이다. 과거완료는 그 시점 전에 끝났다는 뜻이라 맞지 않는다."
+      },
+      {
+        "blank": 3,
+        "type": "pos",
+        "choices": [
+          "designate",
+          "designating",
+          "designation",
+          "designated"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "지정하다",
+            "지정하는",
+            "지정",
+            "지정된"
+          ]
+        },
+        "explain": "선반은 지정하는 주체가 아니라 지정된 대상이므로 designated가 맞다. 명사 designation으로 shelf를 꾸미는 의미가 아니다."
+      },
+      {
+        "blank": 4,
+        "type": "sentence",
+        "choices": [
+          "Mix both heights in the same unmarked stack.",
+          "Remove the height tags before storing the pillows.",
+          "Put the two heights in separate, clearly marked stacks.",
+          "Open every bag before the evening team arrives."
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "두 높이를 표시 없는 같은 더미에 섞으십시오.",
+            "보관 전에 높이 표지를 제거하십시오.",
+            "두 높이를 명확히 표시한 별도 더미로 나누십시오.",
+            "저녁 팀이 오기 전에 봉투를 모두 여십시오."
+          ]
+        },
+        "explain": "봉투를 열지 않고 원하는 높이를 찾는다는 뒤의 목적에 맞는 구분 방법이다. 표지 제거와 혼합 보관은 목적을 해친다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-006",
+    "difficulty": 2,
+    "passageType": "invitation",
+    "heading": [
+      "See the mark under another light"
+    ],
+    "paragraphs": [
+      "Packaging designers are invited to a demonstration at Vorelli Security Inks. {1} Several inks look almost identical in ordinary light but glow in different colors under an ultraviolet lamp, so the display will pair an ordinary photograph of each mark with an illuminated sample.",
+      "Participants will {2} the pairs at a viewing station. The labels will give the ink names and the paper used. {3}, a technician will explain how the printed marks were prepared, adding practical background to the visual comparison.",
+      "The demonstration is a month from today. Our photographer will arrive at nine thirty that morning, ten minutes after setup begins. The demonstration team {4} the sample pairs. The final pair will not be in position until nine fifty, so the photographer can capture the preparation as well as the completed display."
+    ],
+    "headingKo": [
+      "다른 빛 아래에서 표식을 보십시오"
+    ],
+    "paragraphsKo": [
+      "포장 설계자를 보렐리 보안 잉크 시연에 초대합니다. {1} 여러 잉크가 일반 조명에서는 거의 같아 보이지만 자외선 등 아래에서는 서로 다른 색으로 빛나므로 표식의 일반 사진과 조명을 비춘 견본을 짝지어 전시합니다.",
+      "참가자는 관찰대에서 짝을 {2}합니다. 표지에는 잉크 이름과 사용한 종이를 적습니다. {3} 기술자가 인쇄 표식의 준비 과정을 설명해 시각 비교에 실무 배경을 더합니다.",
+      "시연은 오늘로부터 한 달 뒤입니다. 사진사는 그날 아침 준비 시작 10분 뒤인 9시 30분에 옵니다. 시연팀은 견본 짝을 {4}. 마지막 짝은 9시 50분에야 놓이므로 사진사는 완성된 전시뿐 아니라 준비 과정도 촬영할 수 있습니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "sentence",
+        "choices": [
+          "The focus will be the effect of changing the light.",
+          "The company will display samples only in ordinary light.",
+          "Visitors will select inks without viewing any printed samples.",
+          "The demonstration will compare paper prices across suppliers."
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "빛을 바꿨을 때의 효과에 초점을 맞춥니다.",
+            "회사는 일반 조명 아래의 견본만 전시합니다.",
+            "방문객은 인쇄 견본을 보지 않고 잉크를 고릅니다.",
+            "시연에서는 공급업체별 종이 가격을 비교합니다."
+          ]
+        },
+        "explain": "뒤에서 일반 조명과 자외선 아래의 색을 비교하므로 빛의 변화가 주제다. 일반 조명만 사용하거나 견본 없이 고른다는 보기는 전시 방식과 모순된다."
+      },
+      {
+        "blank": 2,
+        "type": "vocab",
+        "choices": [
+          "ship",
+          "stack",
+          "compare",
+          "purchase"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "배송하다",
+            "쌓다",
+            "비교하다",
+            "구매하다"
+          ]
+        },
+        "explain": "같은 표식을 서로 다른 조명에서 본 짝을 비교하므로 compare이다. 견본을 구매하거나 배송하는 행사가 아니다."
+      },
+      {
+        "blank": 3,
+        "type": "connector",
+        "choices": [
+          "In addition",
+          "Instead",
+          "Nevertheless",
+          "Otherwise"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "또한",
+            "대신",
+            "그럼에도",
+            "그렇지 않으면"
+          ]
+        },
+        "explain": "시각 비교에 제작 설명을 추가하므로 In addition이다. 비교를 설명으로 대체하지 않는다."
+      },
+      {
+        "blank": 4,
+        "type": "tense",
+        "choices": [
+          "will have arranged",
+          "will be arranging",
+          "was arranging",
+          "has arranged"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "배치를 마쳤을 것이다",
+            "배치하고 있을 것이다",
+            "배치하고 있었다",
+            "배치했다"
+          ]
+        },
+        "explain": "다음 달 도착 시각은 준비 시작 후이면서 마지막 배치 전이므로 미래진행 will be arranging이다. 미래완료는 그때 이미 끝났다는 뜻이라 뒤의 9시 50분 완료와 맞지 않는다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-007",
+    "difficulty": 3,
+    "passageType": "email",
+    "heading": [
+      "To: Service engineers",
+      "From: Arven Noll, Parts Dispatch",
+      "Date: July 8",
+      "Subject: Protective board packaging"
+    ],
+    "paragraphs": [
+      "Our return packaging changed when the pilot began in February. The dispatch team {1} two layers of protection throughout that period, and the same arrangement remains in use. A sealed inner bag protects the board, while a rigid outer box prevents bending during transport.",
+      "Please {2} both layers when returning a board. A soft mailing envelope is not an acceptable replacement for the rigid box. {3} The cushioning should hold the inner bag in position without putting pressure on any projecting connector.",
+      "Before sealing the outer box, check that the return number appears on its label.",
+      "Keep the board's description {4}; a general phrase such as \"computer part\" does not help the receiving engineer identify the correct repair procedure. The description should name the board model, not the whole machine."
+    ],
+    "headingKo": [
+      "수신: 서비스 기술자",
+      "발신: 아르벤 놀, 부품 발송",
+      "날짜: 7월 8일",
+      "제목: 회로 기판 보호 포장"
+    ],
+    "paragraphsKo": [
+      "2월 시범 사업을 시작하면서 반송 포장이 바뀌었습니다. 발송팀은 그 기간 내내 보호 층 두 개를 {1}며 지금도 같은 구성을 사용합니다. 밀봉된 안쪽 봉투는 기판을 보호하고 단단한 바깥 상자는 운송 중 휘는 것을 막습니다.",
+      "기판을 반송할 때 두 층을 모두 {2}해 주십시오. 부드러운 우편 봉투는 단단한 상자를 대신할 수 없습니다. {3} 완충재는 튀어나온 연결부를 누르지 않으면서 안쪽 봉투를 고정해야 합니다.",
+      "바깥 상자를 밀봉하기 전에 반송 번호가 라벨에 있는지 확인하십시오.",
+      "기판 설명은 {4} 유지하십시오. 컴퓨터 부품 같은 일반 표현으로는 입고 기술자가 수리 방법을 정하기 어렵습니다. 전체 기계가 아니라 기판 모델을 적어야 합니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "tense",
+        "choices": [
+          "used to use",
+          "had used",
+          "will use",
+          "has used"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "예전에 사용하곤 했다",
+            "사용했었다",
+            "사용할 것이다",
+            "사용해 왔다"
+          ]
+        },
+        "explain": "2월부터 현재까지 중단 없이 이어지는 사용을 나타내므로 has used이다. used to use는 과거의 습관을 현재와 대비하며, had used는 기준이 될 과거 시점이 없다."
+      },
+      {
+        "blank": 2,
+        "type": "vocab",
+        "choices": [
+          "flatten",
+          "retain",
+          "advertise",
+          "weigh"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "납작하게 하다",
+            "유지하다",
+            "광고하다",
+            "무게를 재다"
+          ]
+        },
+        "explain": "안쪽 봉투와 바깥 상자를 모두 남겨 사용해야 하므로 retain이다. 상자를 납작하게 하면 보호 목적을 해친다."
+      },
+      {
+        "blank": 3,
+        "type": "sentence",
+        "choices": [
+          "Use the cushioning in a soft envelope instead of the box.",
+          "Put the cushioning outside the box and leave the bag loose.",
+          "Discard the cushioning and the inner bag before sealing the box.",
+          "Place cushioning between the sealed bag and the box walls."
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "상자 대신 부드러운 봉투에 완충재를 넣어 쓰십시오.",
+            "완충재는 상자 밖에 두고 봉투는 고정하지 마십시오.",
+            "상자를 밀봉하기 전에 완충재와 안쪽 봉투를 버리십시오.",
+            "밀봉 봉투와 상자 벽 사이에 완충재를 넣으십시오."
+          ]
+        },
+        "explain": "뒤의 the cushioning을 도입하고 두 겹 포장을 유지한다. 안쪽 봉투 제거나 봉투로 상자를 대체하는 것은 앞 지시와 모순된다."
+      },
+      {
+        "blank": 4,
+        "type": "vocab",
+        "choices": [
+          "tentative",
+          "confidential",
+          "specific",
+          "optional"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "잠정적인",
+            "기밀의",
+            "구체적인",
+            "선택적인"
+          ]
+        },
+        "explain": "일반적인 부품명이 아니라 기판 모델을 적으므로 specific이다. 설명을 선택 사항으로 두라는 뜻은 아니다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-008",
+    "difficulty": 2,
+    "passageType": "webpage",
+    "heading": [
+      "Keep the print, change the language"
+    ],
+    "paragraphs": [
+      "Fendari Menu Sleeves supplies transparent pockets that restaurant staff can attach to an existing menu cover. A translated sheet slides inside each pocket, allowing the restaurant to {1} the language without printing another set of covers. The pockets open along one short edge and close with a narrow adhesive flap.",
+      "A permanent translation printed on the cover would require a replacement whenever the menu changed. {2}, our removable sheets can be updated individually. Customers choose the pocket size after measuring the usable area inside their covers.",
+      "Our first customer trial ended in March. Restaurant staff {3} the pockets through repeated menu changes, and they returned the trial materials at the end of that month. Their comments led us to enlarge the opening. {4} The new opening makes that task easier."
+    ],
+    "headingKo": [
+      "인쇄면은 두고 언어를 바꾸십시오"
+    ],
+    "paragraphsKo": [
+      "펜다리 메뉴 슬리브는 기존 메뉴 표지에 붙이는 투명 주머니를 공급합니다. 번역지를 넣으면 표지를 다시 인쇄하지 않고 언어를 {1}할 수 있습니다. 주머니는 짧은 한 변이 열리고 좁은 접착 덮개로 닫힙니다.",
+      "표지에 번역을 영구 인쇄하면 메뉴가 바뀔 때마다 교체해야 합니다. {2} 분리형 종이는 개별 교체할 수 있습니다. 고객은 표지 안의 사용 가능 면적을 잰 뒤 주머니 크기를 고릅니다.",
+      "첫 고객 시험은 3월에 끝났습니다. 식당 직원이 여러 차례 메뉴를 바꾸며 주머니를 {3}고 그달 말 시험 재료를 돌려주었습니다. 의견에 따라 입구를 넓혔습니다. {4} 새 입구는 그 일을 더 쉽게 합니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "vocab",
+        "choices": [
+          "pronounce",
+          "switch",
+          "translate",
+          "authorize"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "발음하다",
+            "바꾸다",
+            "번역하다",
+            "승인하다"
+          ]
+        },
+        "explain": "이미 번역된 종이를 바꿔 넣어 표시 언어를 전환하므로 switch이다. 주머니 자체가 언어를 번역하지 않는다."
+      },
+      {
+        "blank": 2,
+        "type": "connector",
+        "choices": [
+          "As a result",
+          "For example",
+          "By contrast",
+          "Likewise"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "그 결과",
+            "예를 들어",
+            "반면에",
+            "마찬가지로"
+          ]
+        },
+        "explain": "영구 인쇄의 불편함과 분리형 종이의 장점을 대조한다. 영구 인쇄의 예시가 아니다."
+      },
+      {
+        "blank": 3,
+        "type": "tense",
+        "choices": [
+          "tested",
+          "will test",
+          "have tested",
+          "test"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "시험했다",
+            "시험할 것이다",
+            "시험해 왔다",
+            "시험한다"
+          ]
+        },
+        "explain": "3월에 끝난 시험과 그달 말 반납으로 완료된 과거 tested가 맞다. 현재완료로 현재까지의 활동을 묘사하는 문맥이 아니다."
+      },
+      {
+        "blank": 4,
+        "type": "sentence",
+        "choices": [
+          "Some staff had difficulty sliding fresh sheets into the pockets.",
+          "Most staff asked for the pockets to be permanently sealed.",
+          "The staff found that the covers were already too wide.",
+          "The staff preferred to print translations directly on the covers."
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "일부 직원은 새 종이를 주머니에 넣는 데 어려움을 겪었습니다.",
+            "대부분 주머니를 영구 밀봉해 달라고 했습니다.",
+            "직원들은 표지가 이미 너무 넓다고 보았습니다.",
+            "직원들은 번역을 표지에 직접 인쇄하는 것을 선호했습니다."
+          ]
+        },
+        "explain": "입구를 넓힌 이유와 뒤의 that task를 설명한다. 밀봉 요청은 입구 확장으로 해결되지 않는다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-009",
+    "difficulty": 3,
+    "passageType": "email",
+    "heading": [
+      "To: Archive volunteers",
+      "From: Nali Vesk, Tervadi Business Museum",
+      "Date: November 6",
+      "Subject: Stitching the sample book"
+    ],
+    "paragraphs": [
+      "The old wallpaper sample book will be displayed open, so the replacement binding must remain {1} enough for the pages to lie nearly flat. We are retaining the original paper covers and replacing only the broken stitching. {2} This preserves the marks left by the sales representatives who carried the book.",
+      "Please {3} the loose samples by page number before handing them to the binder. The numbers are written on the back, where visitors will not see them. During yesterday's visit, several pages lay loose beside the sewing frame. The binder {4} a new section. Her needle was passing through the folded sheets as I entered, and the section was not secured until after I left.",
+      "The finished volume will rest on a shallow support. No page should be held down with adhesive tape."
+    ],
+    "headingKo": [
+      "수신: 자료실 자원봉사자",
+      "발신: 날리 베스크, 테르바디 기업 박물관",
+      "날짜: 11월 6일",
+      "제목: 견본집 제본"
+    ],
+    "paragraphsKo": [
+      "오래된 벽지 견본집을 펼쳐 전시하므로 새 제본은 페이지가 거의 평평하게 놓일 만큼 {1}해야 합니다. 원래 종이 표지는 남기고 끊어진 바느질만 교체합니다. {2} 그러면 견본집을 들고 다닌 영업 담당자들의 흔적이 보존됩니다.",
+      "제본사에게 넘기기 전에 떨어진 견본을 페이지 번호대로 {3}하십시오. 번호는 관람객이 보지 못하는 뒤쪽에 있습니다. 어제 방문 때 여러 페이지가 바느질 틀 옆에 떨어져 있었습니다. 제본사는 새 부분을 {4}. 제가 들어갈 때 바늘이 접은 종이를 통과하고 있었으며 제가 떠난 뒤에야 그 부분을 고정했습니다.",
+      "완성된 책은 낮은 받침에 놓습니다. 어떤 페이지도 접착테이프로 눌러 고정해서는 안 됩니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "pos",
+        "choices": [
+          "flexibly",
+          "flexibility",
+          "flexible",
+          "flex"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "유연하게",
+            "유연성",
+            "유연한",
+            "구부리다"
+          ]
+        },
+        "explain": "remain 뒤에서 제본 상태를 나타내는 형용사 flexible이 필요하다. 부사 flexibly는 보어가 아니다."
+      },
+      {
+        "blank": 2,
+        "type": "sentence",
+        "choices": [
+          "New paper covers will be cut to match the originals.",
+          "Even the worn edges of the covers will be left visible.",
+          "The sales representatives will receive newly printed copies.",
+          "All marks on the original paper will be erased."
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "원래 것과 똑같은 새 종이 표지를 재단합니다.",
+            "표지의 닳은 가장자리도 보이게 남깁니다.",
+            "영업 담당자에게 새로 인쇄한 사본을 줍니다.",
+            "원래 종이의 모든 흔적을 지웁니다."
+          ]
+        },
+        "explain": "원래 표지를 남기고 닳은 가장자리까지 보이게 두어야 뒤의 'This preserves the marks'로 이어진다. 새 표지를 재단하는 것은 원래 표지를 남긴다는 앞 문장과 맞지 않고, 흔적 삭제는 뒤 문장과 반대다."
+      },
+      {
+        "blank": 3,
+        "type": "vocab",
+        "choices": [
+          "replace",
+          "arrange",
+          "price",
+          "conceal"
+        ],
+        "answer": 1,
+        "ko": {
+          "choices": [
+            "교체하다",
+            "정렬하다",
+            "가격을 매기다",
+            "감추다"
+          ]
+        },
+        "explain": "떨어진 견본을 페이지 번호 순서로 정리하므로 arrange이다. 견본 자체를 교체하라는 뜻은 아니다."
+      },
+      {
+        "blank": 4,
+        "type": "tense",
+        "choices": [
+          "had stitched",
+          "has stitched",
+          "will stitch",
+          "was stitching"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "바느질을 마쳤었다",
+            "바느질했다",
+            "바느질할 것이다",
+            "바느질하고 있었다"
+          ]
+        },
+        "explain": "도착할 때 바늘이 움직였고 떠난 뒤 고정이 끝나 과거 진행 was stitching이다. had stitched는 방문 전에 끝난 것으로 읽혀 맞지 않는다."
+      }
+    ]
+  },
+  {
+    "id": "p6-3-010",
+    "difficulty": 1,
+    "passageType": "advertisement",
+    "heading": [
+      "A clean edge for your product photographs"
+    ],
+    "paragraphs": [
+      "Photographing small transparent products can be difficult when their edges disappear against the background. At Orevani Product Studio, we adjust the position of narrow light panels to {1} the outline while keeping the center of the object clear. The setup is suitable for glass containers and transparent display pieces.",
+      "Customers may bring several versions of the same product. We keep the camera in a fixed position so that differences in shape can be compared {2}. Each finished image is supplied with the same dimensions and viewing angle. The basic booking includes both a front view and a side view. {3}, customers receive a small reference image showing the lighting arrangement used. {4} This makes it easier to reproduce a similar appearance when another product is photographed later."
+    ],
+    "headingKo": [
+      "제품 사진에 깔끔한 경계를"
+    ],
+    "paragraphsKo": [
+      "작은 투명 제품은 배경에 가장자리가 묻혀 촬영하기 어려울 수 있습니다. 오레바니 제품 스튜디오는 좁은 조명판 위치를 조절해 중앙을 선명하게 유지하면서 윤곽을 {1}합니다. 유리 용기와 투명 진열물에 적합합니다.",
+      "고객은 같은 제품의 여러 형태를 가져올 수 있습니다. 모양 차이를 {2} 비교하도록 카메라 위치를 고정합니다. 완성 이미지는 모두 같은 크기와 관찰 각도로 제공합니다. 기본 예약에는 정면과 측면 사진이 포함됩니다. {3} 고객은 사용한 조명 배치를 보여 주는 작은 참고 이미지도 받습니다. {4} 나중에 다른 제품을 촬영할 때 비슷한 모습을 재현하기 쉬워집니다."
+    ],
+    "questions": [
+      {
+        "blank": 1,
+        "type": "vocab",
+        "choices": [
+          "emphasize",
+          "erase",
+          "measure",
+          "distort"
+        ],
+        "answer": 0,
+        "ko": {
+          "choices": [
+            "강조하다",
+            "지우다",
+            "측정하다",
+            "왜곡하다"
+          ]
+        },
+        "explain": "배경에 묻히는 윤곽을 보이게 하므로 emphasize이다. 윤곽 삭제나 왜곡이 목적이 아니다."
+      },
+      {
+        "blank": 2,
+        "type": "vocab",
+        "choices": [
+          "rarely",
+          "secretly",
+          "briefly",
+          "fairly"
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "드물게",
+            "비밀리에",
+            "짧게",
+            "공정하게"
+          ]
+        },
+        "explain": "같은 위치·크기·각도로 모양 차이를 공정하게 비교하므로 fairly이다. 비교 시간이나 빈도에 관한 내용은 없다."
+      },
+      {
+        "blank": 3,
+        "type": "connector",
+        "choices": [
+          "However",
+          "Instead",
+          "In addition",
+          "Otherwise"
+        ],
+        "answer": 2,
+        "ko": {
+          "choices": [
+            "그러나",
+            "대신",
+            "또한",
+            "그렇지 않으면"
+          ]
+        },
+        "explain": "정면·측면 사진에 참고 이미지도 추가해 제공하므로 In addition이다. 본 사진을 대체하는 것이 아니다."
+      },
+      {
+        "blank": 4,
+        "type": "sentence",
+        "choices": [
+          "Use a different lighting arrangement for each matching photograph.",
+          "Delete the lighting reference before saving the product images.",
+          "Change the camera angle for every version of one product.",
+          "Keep that lighting reference with your product image files."
+        ],
+        "answer": 3,
+        "ko": {
+          "choices": [
+            "서로 맞출 사진마다 다른 조명 배치를 쓰십시오.",
+            "제품 사진을 저장하기 전에 조명 참고 자료를 지우십시오.",
+            "같은 제품의 각 형태마다 카메라 각도를 바꾸십시오.",
+            "그 조명 참고 자료를 제품 이미지 파일과 함께 보관하십시오."
+          ]
+        },
+        "explain": "나중에 유사한 외관을 재현하도록 참고 자료를 보존하라는 연결이다. 삭제하거나 매번 배치를 바꾸면 재현에 도움이 되지 않는다."
+      }
+    ]
+  }
+]
