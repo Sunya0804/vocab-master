@@ -210,17 +210,17 @@
         "type": "speaker",
         "q": "Who is most likely to use the advertised service?",
         "choices": [
-          "A retailer seeking a new perfume supplier",
           "A manager investigating an unpleasant working environment",
+          "A retailer seeking a new perfume supplier",
           "A laboratory purchasing cleaning chemicals",
           "A contractor offering overnight repair work"
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "누가 광고된 서비스를 이용할 가능성이 가장 높은가?",
           "choices": [
-            "새 향수 공급업체를 찾는 소매업자",
             "불쾌한 근무 환경을 조사하려는 관리자",
+            "새 향수 공급업체를 찾는 소매업자",
             "청소용 화학제품을 구매하는 실험실",
             "야간 수리 작업을 제공하는 시공업자"
           ]
@@ -291,17 +291,17 @@
         "choices": [
           "By the number of receipts attached",
           "By the date of the payment run",
-          "By the project selected on the claim",
-          "By the employee's usual office location"
+          "By the employee's usual office location",
+          "By the project selected on the claim"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "출장 경비를 부담할 예산은 어떻게 정해지는가?",
           "choices": [
             "첨부된 영수증 수에 따라",
             "지급일에 따라",
-            "청구서에 선택한 프로젝트에 따라",
-            "직원의 평소 근무지에 따라"
+            "직원의 평소 근무지에 따라",
+            "청구서에 선택한 프로젝트에 따라"
           ]
         },
         "explain": "첫 문단은 프로젝트 코드가 비용 부담 예산을 결정한다고 한다. 영수증 수나 지급일은 예산 배분 기준이 아니다."
@@ -413,18 +413,18 @@
         "q": "What is the purpose of checking the serial numbers?",
         "choices": [
           "To calculate the length of the journey",
-          "To establish ownership of the vehicle",
+          "To link the readings to the correct shipment",
           "To identify the driver who loaded the case",
-          "To link the readings to the correct shipment"
+          "To establish ownership of the vehicle"
         ],
-        "answer": 3,
+        "answer": 1,
         "ko": {
           "q": "일련번호를 확인하는 목적은 무엇인가?",
           "choices": [
             "운송 시간을 계산하려고",
-            "차량 소유권을 확인하려고",
+            "측정값을 올바른 화물과 연결하려고",
             "운송함을 실은 기사를 확인하려고",
-            "측정값을 올바른 화물과 연결하려고"
+            "차량 소유권을 확인하려고"
           ]
         },
         "explain": "둘째 문단에서 번호 일치로 보고서가 해당 운송함의 것임을 확인한다고 한다. 운전자나 차량 소유자를 확인하는 절차가 아니다."
@@ -533,18 +533,18 @@
         "type": "synonym",
         "q": "In paragraph 2, the word \"reverse\" is closest in meaning to",
         "choices": [
-          "repeat",
-          "record",
           "invert",
+          "record",
+          "repeat",
           "approve"
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "둘째 문단에서 “reverse”와 뜻이 가장 가까운 것은 무엇인가?",
           "choices": [
-            "반복하다",
-            "기록하다",
             "뒤집다",
+            "기록하다",
+            "반복하다",
             "승인하다"
           ]
         },
@@ -641,17 +641,17 @@
         "type": "inference",
         "q": "What would a free screening for customers require?",
         "choices": [
-          "Separate authorization for that audience",
           "Removal of all translated subtitles",
+          "Separate authorization for that audience",
           "A technical check by each customer",
           "Purchase of an internal server"
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "고객 대상 무료 상영에는 무엇이 필요한가?",
           "choices": [
-            "그 청중에 대한 별도 허가",
             "번역 자막 전체 삭제",
+            "그 청중에 대한 별도 허가",
             "각 고객의 기술 검토",
             "사내 서버 구입"
           ]
@@ -1024,17 +1024,17 @@
         "q": "How was the repair stock requirement determined?",
         "choices": [
           "From the next sales campaign's target",
-          "From the quantity of systems already in use",
           "From the number of website inquiries",
+          "From the quantity of systems already in use",
           "From the latest adapter's production capacity"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "수리용 재고 필요량은 무엇을 기준으로 정했는가?",
           "choices": [
             "다음 판매 행사의 목표",
-            "이미 사용 중인 시스템 수량",
             "웹사이트 문의 건수",
+            "이미 사용 중인 시스템 수량",
             "최신 어댑터의 생산 능력"
           ]
         },
@@ -1168,17 +1168,17 @@
         "choices": [
           "The branch needs a different receptionist.",
           "The investors have changed the purpose of the call.",
-          "The original sequence of the two appointments is no longer workable.",
-          "The factory can no longer receive any visitors."
+          "The factory can no longer receive any visitors.",
+          "The original sequence of the two appointments is no longer workable."
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "오후 4시 4분에 도벡 씨가 “그렇다면 상황이 달라지네요”라고 한 의도는 무엇인가?",
           "choices": [
             "지사에 다른 안내 직원이 필요하다.",
             "투자자들이 통화 목적을 바꾸었다.",
-            "두 약속의 원래 진행 순서가 더 이상 가능하지 않다.",
-            "공장이 방문객을 더 이상 받을 수 없다."
+            "공장이 방문객을 더 이상 받을 수 없다.",
+            "두 약속의 원래 진행 순서가 더 이상 가능하지 않다."
           ]
         },
         "explain": "현지 시간으로는 통화가 공장 방문보다 늦게 시작된다. 시간대 차이를 확인한 결과 기존의 통화 후 방문 계획을 수정해야 한다는 뜻이다."
@@ -1243,17 +1243,17 @@
         "choices": [
           "Access to image-comparison tools",
           "A replacement for a cloud-obscured capture",
-          "Availability of a sample before subscribing",
-          "A clear image on a customer's chosen date"
+          "A clear image on a customer's chosen date",
+          "Availability of a sample before subscribing"
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "서비스가 보장하지 않는 것은 무엇인가?",
           "choices": [
             "영상 비교 도구 이용",
             "구름에 가린 촬영의 대체 영상",
-            "구독 전 견본 확인",
-            "고객이 선택한 날짜의 맑은 영상"
+            "고객이 선택한 날짜의 맑은 영상",
+            "구독 전 견본 확인"
           ]
         },
         "explain": "둘째 문단에서 영상 확보 여부는 위성 일정과 구름 상태에 달려 있다고 한다. 구름에 가리면 다음 맑은 영상을 추가 요금 없이 제공하지만 특정 날짜의 맑은 영상은 보장하지 않는다."
@@ -1299,17 +1299,17 @@
         "type": "purpose",
         "q": "Why was the email sent?",
         "choices": [
-          "To request changes to a valve design",
           "To verify personal details for an application",
+          "To request changes to a valve design",
           "To announce the outcome of an application",
           "To rank engineers by their contributions"
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "이메일을 보낸 이유는 무엇인가?",
           "choices": [
-            "밸브 설계 변경을 요청하려고",
             "출원용 개인 정보를 확인하려고",
+            "밸브 설계 변경을 요청하려고",
             "출원 결과를 발표하려고",
             "기여도에 따라 기술자 순위를 매기려고"
           ]
@@ -1374,17 +1374,17 @@
         "type": "detail",
         "q": "Why must the original digital file be kept?",
         "choices": [
-          "It contains information needed to authenticate signatures.",
           "It lists the dates of all future deliveries.",
+          "It contains information needed to authenticate signatures.",
           "It confirms that every party has received a paper copy.",
           "It can be edited more easily than a printed copy."
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "원래 디지털 파일을 보관해야 하는 이유는 무엇인가?",
           "choices": [
-            "서명 진위 확인에 필요한 정보를 담고 있기 때문이다.",
             "향후 모든 납품일이 기재되어 있기 때문이다.",
+            "서명 진위 확인에 필요한 정보를 담고 있기 때문이다.",
             "모든 당사자의 종이 사본 수령을 확인하기 때문이다.",
             "인쇄 사본보다 쉽게 편집할 수 있기 때문이다."
           ]
@@ -1495,19 +1495,19 @@
         "type": "detail",
         "q": "What was kept the same across all three versions?",
         "choices": [
-          "The number of visitors",
+          "The page reached after the advertisement",
           "The total registrations",
           "The renewal rate",
-          "The page reached after the advertisement"
+          "The number of visitors"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "세 버전 모두에서 동일하게 유지된 것은 무엇인가?",
           "choices": [
-            "방문자 수",
+            "광고 후 연결된 페이지",
             "총 등록 수",
             "갱신율",
-            "광고 후 연결된 페이지"
+            "방문자 수"
           ]
         },
         "explain": "첫 문단에서 동일한 등록 페이지로 연결된다고 한다. 방문자와 등록 수는 표에서 서로 다르다."
@@ -1622,17 +1622,17 @@
         "choices": [
           "The station closes before the shop opens.",
           "Access passes are issued only to his employees.",
-          "The shop's staff are likely to be busy receiving supplies.",
-          "Saturday visitors are prohibited from redeeming vouchers."
+          "Saturday visitors are prohibited from redeeming vouchers.",
+          "The shop's staff are likely to be busy receiving supplies."
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "글쓴이가 일요일에 자기 팀을 배치하려는 이유는 무엇인가?",
           "choices": [
             "역이 매장 개점 전에 닫기 때문이다.",
             "자기 직원에게만 출입증이 발급되기 때문이다.",
-            "매장 직원들이 물품 수령으로 바쁠 가능성이 높기 때문이다.",
-            "토요일 방문객은 쿠폰을 사용할 수 없기 때문이다."
+            "토요일 방문객은 쿠폰을 사용할 수 없기 때문이다.",
+            "매장 직원들이 물품 수령으로 바쁠 가능성이 높기 때문이다."
           ]
         },
         "explain": "둘째 문단에서 일요일에 매장의 주간 납품 대부분이 도착한다고 설명한다. 매장 인력이 납품 업무를 처리하도록 자체 인력을 배치하는 것으로 추론할 수 있다."
@@ -1958,19 +1958,19 @@
         "type": "detail",
         "q": "Why does Mr. Orrel disclose a potential conflict?",
         "choices": [
-          "He previously supervised one of the applicants.",
+          "He has already scored every candidate.",
           "He has not completed panel training.",
           "He cannot attend tomorrow's meeting.",
-          "He has already scored every candidate."
+          "He previously supervised one of the applicants."
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "오렐이 잠재적 이해관계를 신고한 이유는 무엇인가?",
           "choices": [
-            "지원자 한 명을 이전에 감독했기 때문이다.",
+            "이미 모든 후보를 평가했기 때문이다.",
             "위원 교육을 마치지 않았기 때문이다.",
             "내일 회의에 참석할 수 없기 때문이다.",
-            "이미 모든 후보를 평가했기 때문이다."
+            "지원자 한 명을 이전에 감독했기 때문이다."
           ]
         },
         "explain": "11시 3분에 전 팀원의 연간 평가를 작성했다고 한다. 회의 불참 일정이나 교육 미이수가 문제는 아니다."
@@ -2223,17 +2223,17 @@
         "choices": [
           "The presentation is translated again during breaks.",
           "The recording equipment cannot be paused.",
-          "Participants must remain on their language channels.",
-          "The interpreters are committed for the entire booking."
+          "The interpreters are committed for the entire booking.",
+          "Participants must remain on their language channels."
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "예정된 휴식이 요금에 포함되는 이유는 무엇인가?",
           "choices": [
             "휴식 중 발표를 다시 번역하기 때문이다.",
             "녹음 장비를 멈출 수 없기 때문이다.",
-            "참가자가 언어 채널을 계속 켜야 하기 때문이다.",
-            "예약 전체 시간 동안 통역사가 배정되어 있기 때문이다."
+            "예약 전체 시간 동안 통역사가 배정되어 있기 때문이다.",
+            "참가자가 언어 채널을 계속 켜야 하기 때문이다."
           ]
         },
         "explain": "둘째 문단에서 통역사가 예약 시간 내내 해당 회의에 배정되어 있으므로 예정된 휴식도 요금에 포함된다고 설명한다. 녹음은 사전 합의로 별도 준비한다."
@@ -2277,17 +2277,17 @@
         "choices": [
           "The market's closing price",
           "The beneficiary's address",
-          "Amounts used to purchase shares from salary",
-          "The number of years statements are retained"
+          "The number of years statements are retained",
+          "Amounts used to purchase shares from salary"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "직원은 급여 기록과 무엇을 비교해야 하는가?",
           "choices": [
             "시장의 종가",
             "수익자의 주소",
-            "급여에서 주식 매입에 사용된 금액",
-            "명세서 보관 연수"
+            "명세서 보관 연수",
+            "급여에서 주식 매입에 사용된 금액"
           ]
         },
         "explain": "첫 문단은 급여 공제액의 일치를 확인하라고 한다. 시장 종가는 표시 가치의 기준이며 급여 공제액이 아니다."
@@ -2376,17 +2376,17 @@
         "type": "inference",
         "q": "Why is the literal translation unsuitable?",
         "choices": [
-          "It contains a grammatical error.",
           "It suggests a different market position.",
+          "It contains a grammatical error.",
           "It changes the printed product name.",
           "It is too long for the packaging."
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "직역이 적절하지 않은 이유는 무엇인가?",
           "choices": [
-            "문법 오류가 있다.",
             "다른 시장 이미지를 암시한다.",
+            "문법 오류가 있다.",
             "인쇄된 제품 이름을 바꾼다.",
             "포장에 넣기 너무 길다."
           ]
@@ -2536,18 +2536,18 @@
         "type": "purpose",
         "q": "What does the sender ask suppliers to improve?",
         "choices": [
-          "How manuals are interpreted by assistive reading software",
-          "How quickly illustrations are photographed",
           "How often engineering specifications are revised",
+          "How quickly illustrations are photographed",
+          "How manuals are interpreted by assistive reading software",
           "How product names appear on decorative borders"
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "발신자는 공급업체에 무엇을 개선하도록 요청하는가?",
           "choices": [
-            "보조 읽기 소프트웨어가 설명서를 해석하는 방식",
-            "삽화를 촬영하는 속도",
             "공학 사양 개정 빈도",
+            "삽화를 촬영하는 속도",
+            "보조 읽기 소프트웨어가 설명서를 해석하는 방식",
             "장식 테두리의 제품명 표시"
           ]
         },
@@ -2702,17 +2702,17 @@
         "q": "Which recovery point follows the stated selection rule?",
         "choices": [
           "R3, because it is the most recent verified file",
-          "R1, because the earliest copy is always required",
           "R2, because it is the latest copy preceding the error",
+          "R1, because the earliest copy is always required",
           "Any of the three, because their status is identical"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "명시된 선택 규칙에 맞는 복구 지점은 무엇인가?",
           "choices": [
             "가장 최근 검증 파일인 R3",
-            "항상 가장 오래된 사본이 필요하므로 R1",
             "오류 전 가장 최근 사본인 R2",
+            "항상 가장 오래된 사본이 필요하므로 R1",
             "상태가 같으므로 셋 중 아무것"
           ]
         },
@@ -2828,17 +2828,17 @@
         "choices": [
           "It may be shared if no employee is named.",
           "It may be accepted below the normal value limit.",
-          "It should be treated as an evaluation sample.",
-          "It should be refused and the offer documented."
+          "It should be refused and the offer documented.",
+          "It should be treated as an evaluation sample."
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "현재 입찰 중인 공급업체가 싼 달력을 제안하면 어떻게 해야 하는가?",
           "choices": [
             "직원 이름이 없으면 나눠도 된다.",
             "일반 금액 한도보다 낮으면 받아도 된다.",
-            "평가용 견본으로 처리해야 한다.",
-            "거절하고 제안 사실을 기록해야 한다."
+            "거절하고 제안 사실을 기록해야 한다.",
+            "평가용 견본으로 처리해야 한다."
           ]
         },
         "explain": "입찰 중에는 값과 관계없이 거절하며 첫 문단의 새 규칙에 따라 거절도 기록한다. 일반 시기의 소액 예외가 입찰 기간 제한보다 우선하지 않는다."
@@ -2962,17 +2962,17 @@
         "choices": [
           "Why customers delayed their payments",
           "Why the components division stopped production",
-          "How changing the reporting scope changes the total",
-          "How much cash is currently held by each division"
+          "How much cash is currently held by each division",
+          "How changing the reporting scope changes the total"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "조정 행은 독자가 무엇을 이해하도록 돕는가?",
           "choices": [
             "고객들이 결제를 미룬 이유",
             "부품 사업부의 생산 중단 이유",
-            "보고 범위 변경에 따라 합계가 달라지는 방식",
-            "각 사업부의 현재 현금 보유액"
+            "각 사업부의 현재 현금 보유액",
+            "보고 범위 변경에 따라 합계가 달라지는 방식"
           ]
         },
         "explain": "내부 이전을 따로 보여 사업부 활동 합계에서 그룹 외부 매출로 바뀌는 과정을 설명한다. 현금 보유액이나 결제 지연 분석은 아니다."

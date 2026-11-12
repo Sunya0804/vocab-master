@@ -53,22 +53,22 @@
         "type": "speaker",
         "q": "What department does the woman work in?",
         "choices": [
-          "Accounting.",
           "Human resources.",
+          "Accounting.",
           "Building maintenance.",
           "Reception."
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "여자는 어느 부서에서 일하는가?",
           "choices": [
-            "회계부",
             "인사부",
+            "회계부",
             "시설 관리부",
             "접수처"
           ]
         },
-        "explain": "첫 발언에서 자신의 팀을 human resources라고 밝히므로 (B)가 맞다. 회계는 채용 대상 직무이며 여자는 인사팀의 평가 자료를 준비한다."
+        "explain": "첫 발언에서 자신의 팀을 human resources라고 밝히므로 (A)가 맞다. 회계는 채용 대상 직무이며 여자는 인사팀의 평가 자료를 준비한다."
       },
       {
         "type": "reason",
@@ -194,21 +194,21 @@
         "q": "Look at the graphic. When will the woman attend a workshop?",
         "choices": [
           "At 9:00.",
-          "At 10:15.",
           "At 11:30.",
+          "At 10:15.",
           "At 14:00."
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "시각 자료를 보라. 여자는 언제 연수회에 참석할 것인가?",
           "choices": [
             "9시",
-            "10시 15분",
             "11시 30분",
+            "10시 15분",
             "14시"
           ]
         },
-        "explain": "큰 데이터 표를 더 빠르게 다루고 싶다는 말을 표의 Spreadsheet Shortcuts와 연결하면 10시 15분인 (B)가 맞다. 청구 업무는 이미 익숙하며 고객 약속은 수강 뒤의 일정이다."
+        "explain": "큰 데이터 표를 더 빠르게 다루고 싶다는 말을 표의 Spreadsheet Shortcuts와 연결하면 10시 15분인 (C)가 맞다. 청구 업무는 이미 익숙하며 고객 약속은 수강 뒤의 일정이다."
       },
       {
         "type": "topic",
@@ -298,22 +298,22 @@
         "type": "topic",
         "q": "What are the speakers reviewing?",
         "choices": [
-          "Scheduling a workplace furniture installation.",
-          "Conditions for canceling a furniture order.",
           "A plan to extend office hours.",
+          "Conditions for canceling a furniture order.",
+          "Scheduling a workplace furniture installation.",
           "The design of custom kitchen units."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "화자들은 무엇을 검토하고 있는가?",
           "choices": [
-            "업무 공간의 가구 설치 일정 조정",
-            "가구 주문을 취소하는 조건",
             "업무시간 연장 계획",
+            "가구 주문을 취소하는 조건",
+            "업무 공간의 가구 설치 일정 조정",
             "맞춤 주방 가구의 설계"
           ]
         },
-        "explain": "휴게실을 사용하는 시간과 배송·설치 인력의 근무 시간을 맞추므로 (A)가 맞다. 가구 디자인이나 주문 취소를 논의하지 않는다."
+        "explain": "휴게실을 사용하는 시간과 배송·설치 인력의 근무 시간을 맞추므로 (C)가 맞다. 가구 디자인이나 주문 취소를 논의하지 않는다."
       },
       {
         "type": "intention",
@@ -420,20 +420,20 @@
         "choices": [
           "Replace email software before a company merger.",
           "Assign analysts to different managers.",
-          "Cancel a course for new recruits.",
-          "Prepare staff to use a specialized system."
+          "Prepare staff to use a specialized system.",
+          "Cancel a course for new recruits."
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "화자들은 무엇을 하려고 하는가?",
           "choices": [
             "회사 합병 전에 이메일 소프트웨어를 교체한다.",
             "분석가들을 다른 관리자에게 배정한다.",
-            "신입 직원 교육을 취소한다.",
-            "직원들이 전문 시스템을 사용하도록 준비한다."
+            "직원들이 전문 시스템을 사용하도록 준비한다.",
+            "신입 직원 교육을 취소한다."
           ]
         },
-        "explain": "교육 전 실습 시스템 접속을 준비하므로 software access를 업무 시스템 사용 준비로 바꾼 (D)가 맞다. 이메일은 이미 작동하며 교육을 취소하거나 미루려는 것이 아니다."
+        "explain": "교육 전 실습 시스템 접속을 준비하므로 software access를 업무 시스템 사용 준비로 바꾼 (C)가 맞다. 이메일은 이미 작동하며 교육을 취소하거나 미루려는 것이 아니다."
       },
       {
         "type": "inference",
@@ -533,22 +533,22 @@
         "type": "topic",
         "q": "What are the speakers mainly discussing?",
         "choices": [
-          "Finding a larger venue for a staff meeting.",
-          "Choosing winners for a volunteer award.",
           "Catering for an appreciation lunch.",
+          "Choosing winners for a volunteer award.",
+          "Finding a larger venue for a staff meeting.",
           "Planning a restaurant's public opening."
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "화자들은 주로 무엇에 대해 논의하고 있는가?",
           "choices": [
-            "직원 회의를 위한 더 큰 장소 찾기",
-            "자원봉사상 수상자 선정",
             "감사 오찬의 출장 요리 준비",
+            "자원봉사상 수상자 선정",
+            "직원 회의를 위한 더 큰 장소 찾기",
             "식당의 일반 개점 행사 계획"
           ]
         },
-        "explain": "자원봉사자 점심 모임의 확정 인원과 식사 선택을 업체에 보내려 하므로 (C)가 맞다. 기존 방을 그대로 쓰며 증서는 부수적인 준비물이다."
+        "explain": "자원봉사자 점심 모임의 확정 인원과 식사 선택을 업체에 보내려 하므로 (A)가 맞다. 기존 방을 그대로 쓰며 증서는 부수적인 준비물이다."
       },
       {
         "type": "detail",
@@ -663,22 +663,22 @@
         "type": "graphic",
         "q": "Look at the graphic. What daily meal limit applies to the man's visit?",
         "choices": [
-          "$38.",
+          "$32.",
           "$46.",
           "$42.",
-          "$32."
+          "$38."
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "시각 자료를 보라. 남자의 출장에는 어떤 일일 식비 한도가 적용되는가?",
           "choices": [
-            "38달러",
+            "32달러",
             "46달러",
             "42달러",
-            "32달러"
+            "38달러"
           ]
         },
-        "explain": "대본의 출장지는 Briarford이며 표의 해당 일일 상한은 38달러이므로 (A)가 맞다. 이틀의 금액을 하나로 묶어 한도를 적용해서는 안 된다."
+        "explain": "대본의 출장지는 Briarford이며 표의 해당 일일 상한은 38달러이므로 (D)가 맞다. 이틀의 금액을 하나로 묶어 한도를 적용해서는 안 된다."
       },
       {
         "type": "speaker",
@@ -799,22 +799,22 @@
         "type": "detail",
         "q": "When will the safety briefing begin?",
         "choices": [
-          "At nine o'clock.",
+          "At ten o'clock.",
           "At nine thirty.",
           "At eleven o'clock.",
-          "At ten o'clock."
+          "At nine o'clock."
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "안전 설명회는 언제 시작하는가?",
           "choices": [
-            "9시",
+            "10시",
             "9시 30분",
             "11시",
-            "10시"
+            "9시"
           ]
         },
-        "explain": "여자가 안전 설명회는 ten이라고 직접 알려 주므로 (D)가 맞다. 다른 시각은 대본에서 제시되지 않는다."
+        "explain": "여자가 안전 설명회는 ten이라고 직접 알려 주므로 (A)가 맞다. 다른 시각은 대본에서 제시되지 않는다."
       },
       {
         "type": "suggest",
@@ -936,21 +936,21 @@
         "q": "What will the man do next?",
         "choices": [
           "Ask the visiting client to leave.",
-          "Verify availability before notifying attendees.",
           "Move the sales review to another floor.",
+          "Verify availability before notifying attendees.",
           "Remove several tables from the room."
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "남자는 다음에 무엇을 할 것인가?",
           "choices": [
             "방문 고객에게 떠나 달라고 한다.",
-            "참가자에게 알리기 전에 예약 가능 여부를 확인한다.",
             "영업 검토 회의를 다른 층으로 옮긴다.",
+            "참가자에게 알리기 전에 예약 가능 여부를 확인한다.",
             "방에서 탁자 여러 개를 치운다."
           ]
         },
-        "explain": "11시 15분 예약 가능 여부를 먼저 확인한 뒤 안내를 보내겠다는 순서를 바꿔 말한 (B)가 맞다. 영업팀의 회의 자체를 옮기거나 단축하기로 하지 않았다."
+        "explain": "11시 15분 예약 가능 여부를 먼저 확인한 뒤 안내를 보내겠다는 순서를 바꿔 말한 (C)가 맞다. 영업팀의 회의 자체를 옮기거나 단축하기로 하지 않았다."
       }
     ]
   },
@@ -1296,20 +1296,20 @@
         "choices": [
           "The man's desk, after lunch.",
           "At Eastgate, before Friday.",
-          "At reception, before three o'clock.",
-          "The stationery cabinet, after three."
+          "The stationery cabinet, after three.",
+          "At reception, before three o'clock."
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "상자는 수거를 위해 어디에 언제까지 맡겨야 하는가?",
           "choices": [
             "점심 후 남자의 책상",
             "금요일 전 이스트게이트",
-            "3시 전 접수처",
-            "3시 후 문구류 수납장"
+            "3시 후 문구류 수납장",
+            "3시 전 접수처"
           ]
         },
-        "explain": "여자가 reception before three라고 직접 안내하므로 (C)가 맞다. 수납장은 빈 상자를 가져오는 곳이고 Eastgate는 배송 목적지다."
+        "explain": "여자가 reception before three라고 직접 안내하므로 (D)가 맞다. 수납장은 빈 상자를 가져오는 곳이고 Eastgate는 배송 목적지다."
       },
       {
         "type": "next",
@@ -1533,22 +1533,22 @@
         "type": "speaker",
         "q": "Who most likely is the woman?",
         "choices": [
-          "A staff member seeking education funding.",
-          "A representative selling an evening training program.",
           "A clerk collecting unpaid tuition.",
+          "A representative selling an evening training program.",
+          "A staff member seeking education funding.",
           "An instructor requesting direct payment for teaching."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "여자는 누구이겠는가?",
           "choices": [
-            "교육비 지원을 구하는 직원",
-            "저녁 교육 과정을 판매하는 담당자",
             "미납 수업료를 수금하는 직원",
+            "저녁 교육 과정을 판매하는 담당자",
+            "교육비 지원을 구하는 직원",
             "강의 대금의 직접 지급을 요청하는 강사"
           ]
         },
-        "explain": "업무 관련 강좌에 회사 지원 혜택을 신청하려 하므로 (A)가 맞다. 교육기관의 비용을 받는 사람이 아니라 비용을 내고 환급받으려는 직원이다."
+        "explain": "업무 관련 강좌에 회사 지원 혜택을 신청하려 하므로 (C)가 맞다. 교육기관의 비용을 받는 사람이 아니라 비용을 내고 환급받으려는 직원이다."
       },
       {
         "type": "detail",
@@ -1654,21 +1654,21 @@
         "q": "What are the speakers preparing?",
         "choices": [
           "A supplier selection for new production equipment.",
-          "Invitations to a public product launch.",
           "A photograph for an internal publication.",
+          "Invitations to a public product launch.",
           "Employee access passes for a demonstration."
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "화자들은 무엇을 준비하고 있는가?",
           "choices": [
             "새 생산 장비의 공급업체 선정",
-            "일반 대상 신제품 발표회 초대장",
             "사내 발행물에 실을 사진",
+            "일반 대상 신제품 발표회 초대장",
             "시연 참석용 직원 출입증"
           ]
         },
-        "explain": "직원 소식지에 실을 시연 사진을 준비하므로 (C)가 맞다. 방문객 명찰은 촬영 때 가려야 할 정보이지 새로 발급할 출입증이 아니다."
+        "explain": "직원 소식지에 실을 시연 사진을 준비하므로 (B)가 맞다. 방문객 명찰은 촬영 때 가려야 할 정보이지 새로 발급할 출입증이 아니다."
       },
       {
         "type": "inference",
@@ -1769,21 +1769,21 @@
         "q": "What are the speakers discussing?",
         "choices": [
           "Redesigning an office display board.",
-          "Progress toward a distribution partnership.",
           "Reporting a distributor's canceled order.",
+          "Progress toward a distribution partnership.",
           "Replacing the company's legal adviser."
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "화자들은 무엇에 대해 논의하고 있는가?",
           "choices": [
             "사무실 게시판 재설계",
-            "유통 제휴의 진행 상황",
             "유통업체의 주문 취소 보고",
+            "유통 제휴의 진행 상황",
             "회사 법률 고문 교체"
           ]
         },
-        "explain": "유통업체의 긍정적인 답장과 아직 해결되지 않은 계약 조건을 논의하므로 (B)가 맞다. 해지 조항을 검토하는 것이지 기존 주문이 취소됐다는 내용은 아니다."
+        "explain": "유통업체의 긍정적인 답장과 아직 해결되지 않은 계약 조건을 논의하므로 (C)가 맞다. 해지 조항을 검토하는 것이지 기존 주문이 취소됐다는 내용은 아니다."
       },
       {
         "type": "next",
@@ -1998,22 +1998,22 @@
         "type": "speaker",
         "q": "Who most likely is the man?",
         "choices": [
-          "A consultant advising one of the company's clients.",
+          "The woman's line manager.",
           "A recruiter interviewing applicants for HR.",
           "A representative of a childcare service.",
-          "The woman's line manager."
+          "A consultant advising one of the company's clients."
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "남자는 누구이겠는가?",
           "choices": [
-            "회사 고객에게 조언하는 자문가",
+            "여자의 직속 관리자",
             "인사부 지원자를 면접하는 채용 담당자",
             "보육 서비스 담당자",
-            "여자의 직속 관리자"
+            "회사 고객에게 조언하는 자문가"
           ]
         },
-        "explain": "자신을 팀 책임자라고 밝히고 근무 변경 승인안을 인사부에 가져가려 하므로 (D)가 맞다. 보육 사정은 여자의 요청 이유이며 남자의 직업이 아니다."
+        "explain": "자신을 팀 책임자라고 밝히고 근무 변경 승인안을 인사부에 가져가려 하므로 (A)가 맞다. 보육 사정은 여자의 요청 이유이며 남자의 직업이 아니다."
       },
       {
         "type": "reason",

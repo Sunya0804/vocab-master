@@ -48,22 +48,22 @@
         "type": "speaker",
         "q": "Where does the woman most likely work?",
         "choices": [
-          "At a luggage repair shop.",
+          "At a handbag factory.",
           "At a travel agency.",
           "At a ticket office.",
-          "At a handbag factory."
+          "At a luggage repair shop."
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "여자는 어디에서 일할 가능성이 가장 큰가?",
           "choices": [
-            "여행 가방 수선점에서.",
+            "핸드백 공장에서.",
             "여행사에서.",
             "승차권 판매 사무실에서.",
-            "핸드백 공장에서."
+            "여행 가방 수선점에서."
           ]
         },
-        "explain": "가방 수선점 소속이라고 밝히고 지퍼 수리와 점검 결과를 안내하므로 (A)가 맞다. 여행 가방이 나오지만 여행을 주선하거나 승차권을 파는 업무는 아니다."
+        "explain": "가방 수선점 소속이라고 밝히고 지퍼 수리와 점검 결과를 안내하므로 (D)가 맞다. 여행 가방이 나오지만 여행을 주선하거나 승차권을 파는 업무는 아니다."
       },
       {
         "type": "detail",
@@ -158,22 +158,22 @@
         "type": "topic",
         "q": "What is the announcement mainly about?",
         "choices": [
-          "A new bakery opening.",
           "The relocation of chilled drinks.",
+          "A new bakery opening.",
           "A change in dairy prices.",
           "An expanded delivery service."
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "안내 방송의 주된 내용은 무엇인가?",
           "choices": [
-            "새 제과점의 개점.",
             "냉장 음료 판매 장소의 이동.",
+            "새 제과점의 개점.",
             "유제품 가격의 변경.",
             "확대된 배달 서비스."
           ]
         },
-        "explain": "주스와 냉장 차 음료가 임시로 다른 진열대로 옮겨졌다는 안내이므로 (B)가 맞다. bakery는 새로 개점한 곳이 아니라 임시 판매대의 위치를 알려 주는 단서다."
+        "explain": "주스와 냉장 차 음료가 임시로 다른 진열대로 옮겨졌다는 안내이므로 (A)가 맞다. bakery는 새로 개점한 곳이 아니라 임시 판매대의 위치를 알려 주는 단서다."
       },
       {
         "type": "reason",
@@ -290,21 +290,21 @@
         "q": "Why will the terrace be unavailable?",
         "choices": [
           "Its windows are being replaced.",
-          "Heavy rain is expected.",
+          "The restaurant is short of tables.",
           "A private party has reserved it.",
-          "The restaurant is short of tables."
+          "Heavy rain is expected."
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "테라스를 이용할 수 없는 이유는 무엇인가?",
           "choices": [
             "창문을 교체하고 있다.",
-            "폭우가 예상된다.",
+            "식당에 테이블이 부족하다.",
             "별도의 단체가 예약했다.",
-            "식당에 테이블이 부족하다."
+            "폭우가 예상된다."
           ]
         },
-        "explain": "heavy rain이 예상되어 야외 영업을 하지 않는다고 했으므로 (B)가 맞다. 실내 테이블이 일행 전원을 수용한다고 했으며 테이블 부족은 언급하지 않았다."
+        "explain": "heavy rain이 예상되어 야외 영업을 하지 않는다고 했으므로 (D)가 맞다. 실내 테이블이 일행 전원을 수용한다고 했으며 테이블 부족은 언급하지 않았다."
       },
       {
         "type": "suggest",
@@ -380,20 +380,20 @@
         "choices": [
           "At an airport departure gate.",
           "In a hotel reception lobby.",
-          "At a railway station.",
-          "In a store selling luggage."
+          "In a store selling luggage.",
+          "At a railway station."
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "안내 방송은 어디에서 나오고 있는가?",
           "choices": [
             "공항 출발 탑승구에서.",
             "호텔 접수 로비에서.",
-            "철도역에서.",
-            "여행 가방을 판매하는 매장에서."
+            "여행 가방을 판매하는 매장에서.",
+            "철도역에서."
           ]
         },
-        "explain": "역의 platform three에서 다음 열차의 도착을 알리므로 철도역인 (C)가 맞다. luggage는 수하물 매장이 아니라 열차 이용객의 짐을 말한다."
+        "explain": "역의 platform three에서 다음 열차의 도착을 알리므로 철도역인 (D)가 맞다. luggage는 수하물 매장이 아니라 열차 이용객의 짐을 말한다."
       },
       {
         "type": "detail",
@@ -488,22 +488,22 @@
         "type": "topic",
         "q": "What is being advertised?",
         "choices": [
-          "A shop that refills cleaning products.",
-          "A laundry service collecting household linen.",
           "An industrial company manufacturing reusable plastic bottles.",
+          "A laundry service collecting household linen.",
+          "A shop that refills cleaning products.",
           "A workshop repairing the town's old clock tower."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "무엇을 광고하고 있는가?",
           "choices": [
-            "세제를 리필해 주는 매장.",
-            "가정용 세탁물을 수거하는 세탁 서비스.",
             "다회용 플라스틱병을 제조하는 산업체.",
+            "가정용 세탁물을 수거하는 세탁 서비스.",
+            "세제를 리필해 주는 매장.",
             "마을의 오래된 시계탑을 수리하는 작업장."
           ]
         },
-        "explain": "가져온 용기에 가정용 세제를 필요한 양만 담아 판매하는 refill shop을 광고하므로 (A)가 맞다. clock tower는 매장 위치를 알려 주는 지형지물이지 광고하는 사업이 아니다."
+        "explain": "가져온 용기에 가정용 세제를 필요한 양만 담아 판매하는 refill shop을 광고하므로 (C)가 맞다. clock tower는 매장 위치를 알려 주는 지형지물이지 광고하는 사업이 아니다."
       },
       {
         "type": "detail",
@@ -600,20 +600,20 @@
         "choices": [
           "Changing the store's opening hours.",
           "Moving the manager's office.",
-          "Introducing a cash refund policy.",
-          "Improving communication between service teams."
+          "Improving communication between service teams.",
+          "Introducing a cash refund policy."
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "화자는 주로 무엇을 설명하고 있는가?",
           "choices": [
             "매장 영업시간의 변경.",
             "관리자 사무실의 이전.",
-            "현금 환불 정책의 도입.",
-            "고객 지원팀 사이의 의사소통 개선."
+            "고객 지원팀 사이의 의사소통 개선.",
+            "현금 환불 정책의 도입."
           ]
         },
-        "explain": "고객이 창구마다 같은 설명을 반복하는 문제를 보고 카드와 직원 식별 정보로 해결하려 하므로 지원팀 사이의 의사소통 개선인 (D)가 맞다. 현금 환불은 검토할 개별 업무이지 새 정책을 도입한다는 뜻이 아니다."
+        "explain": "고객이 창구마다 같은 설명을 반복하는 문제를 보고 카드와 직원 식별 정보로 해결하려 하므로 지원팀 사이의 의사소통 개선인 (C)가 맞다. 현금 환불은 검토할 개별 업무이지 새 정책을 도입한다는 뜻이 아니다."
       },
       {
         "type": "suggest",
@@ -958,22 +958,22 @@
         "type": "speaker",
         "q": "Who are the listeners most likely to be?",
         "choices": [
-          "Advertising sales representatives.",
+          "Newly recruited bus operators.",
           "Road construction supervisors.",
           "Passengers requesting changes to the local bus routes.",
-          "Newly recruited bus operators."
+          "Advertising sales representatives."
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "청중은 누구일 가능성이 가장 큰가?",
           "choices": [
-            "광고 영업 담당자들.",
+            "신규 채용된 버스 운전기사들.",
             "도로 공사 감독자들.",
             "지역 버스 노선 변경을 요청하는 승객들.",
-            "신규 채용된 버스 운전기사들."
+            "광고 영업 담당자들."
           ]
         },
-        "explain": "교통업체의 첫 주를 환영하며 지역 노선 운행 자격을 축하하므로 새 버스 기사인 (D)가 맞다. 광고판은 승객을 가리는 시설로 언급될 뿐 광고 판매 교육이 아니다."
+        "explain": "교통업체의 첫 주를 환영하며 지역 노선 운행 자격을 축하하므로 새 버스 기사인 (A)가 맞다. 광고판은 승객을 가리는 시설로 언급될 뿐 광고 판매 교육이 아니다."
       },
       {
         "type": "reason",
@@ -1135,22 +1135,22 @@
         "type": "suggest",
         "q": "What should customers do when they reach their assigned counter?",
         "choices": [
-          "Collect a new trolley tag.",
-          "Leave their mobile phones outside.",
           "Present digital proof of eligibility.",
+          "Leave their mobile phones outside.",
+          "Collect a new trolley tag.",
           "Pay cash at a different counter."
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "고객은 지정된 창구에 도착하면 무엇을 해야 하는가?",
           "choices": [
-            "새 운반 카트 번호표를 받는다.",
-            "휴대전화를 밖에 둔다.",
             "승인받았음을 보여 주는 전자 증빙을 제시한다.",
+            "휴대전화를 밖에 둔다.",
+            "새 운반 카트 번호표를 받는다.",
             "다른 창구에서 현금으로 지불한다."
           ]
         },
-        "explain": "자기 차례에 휴대전화의 승인 이메일을 보여 주라는 말을 digital proof of eligibility로 바꾼 (C)가 맞다. 운반 카트 번호표는 입구에서 지니는 것이지 창구에서 새로 받는 것이 아니다."
+        "explain": "자기 차례에 휴대전화의 승인 이메일을 보여 주라는 말을 digital proof of eligibility로 바꾼 (A)가 맞다. 운반 카트 번호표는 입구에서 지니는 것이지 창구에서 새로 받는 것이 아니다."
       }
     ]
   },
@@ -1240,22 +1240,22 @@
         "type": "next",
         "q": "What will the speaker do next?",
         "choices": [
-          "Verify the delivery volume.",
-          "Revise the pastry team's work hours.",
           "Notify guests that dinner will start earlier.",
+          "Revise the pastry team's work hours.",
+          "Verify the delivery volume.",
           "Ask employees to cover additional shifts."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "화자는 다음에 무엇을 할 것인가?",
           "choices": [
-            "배송 물량을 확인한다.",
-            "제과팀의 근무시간을 바꾼다.",
             "손님에게 저녁 식사 시작이 앞당겨졌다고 알린다.",
+            "제과팀의 근무시간을 바꾼다.",
+            "배송 물량을 확인한다.",
             "직원들에게 추가 근무를 요청한다."
           ]
         },
-        "explain": "화자가 농장에 지금 전화해 상자 수를 확인하겠다고 하므로 (A)가 맞다. 제과팀과 홀의 일정은 그대로 둔다."
+        "explain": "화자가 농장에 지금 전화해 상자 수를 확인하겠다고 하므로 (C)가 맞다. 제과팀과 홀의 일정은 그대로 둔다."
       }
     ]
   },
@@ -1310,20 +1310,20 @@
         "choices": [
           "The relocation of ferry services.",
           "The construction of a covered shopping hall.",
-          "An after-work retail experiment.",
-          "An increase in weekend flower sales."
+          "An increase in weekend flower sales.",
+          "An after-work retail experiment."
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "보도의 주된 내용은 무엇인가?",
           "choices": [
             "여객선 운항 장소의 이전.",
             "지붕이 있는 상업 시설의 건설.",
-            "야간 소매 영업의 시험 운영.",
-            "주말 꽃 판매량의 증가."
+            "주말 꽃 판매량의 증가.",
+            "야간 소매 영업의 시험 운영."
           ]
         },
-        "explain": "목요일에 퇴근하는 통근객을 위해 판매 시간을 늦추는 시험 운영을 after-work retail experiment로 바꾼 (C)가 맞다. 식품관은 기존 시설이며 새로 짓는다는 말은 없다."
+        "explain": "목요일에 퇴근하는 통근객을 위해 판매 시간을 늦추는 시험 운영을 after-work retail experiment로 바꾼 (D)가 맞다. 식품관은 기존 시설이며 새로 짓는다는 말은 없다."
       },
       {
         "type": "reason",

@@ -275,21 +275,21 @@
         "q": "Where did the woman put her umbrella?",
         "choices": [
           "Inside an overhead compartment",
-          "Under her seat",
+          "Behind a service counter",
           "Beside the terminal entrance",
-          "Behind a service counter"
+          "Under her seat"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "여자는 우산을 어디에 두었는가?",
           "choices": [
             "머리 위 짐칸 안",
-            "자기 좌석 밑",
+            "안내 창구 뒤",
             "터미널 입구 옆",
-            "안내 창구 뒤"
+            "자기 좌석 밑"
           ]
         },
-        "explain": "여자가 under my seat라고 하므로 (B)가 정답이다. 창구 뒤는 직원이 발견된 물건을 보관하는 곳이므로 (D)는 시점과 주체가 다르다."
+        "explain": "여자가 under my seat라고 하므로 (D)가 정답이다. 창구 뒤는 직원이 발견된 물건을 보관하는 곳이므로 (B)는 시점과 주체가 다르다."
       },
       {
         "type": "next",
@@ -363,22 +363,22 @@
         "type": "topic",
         "q": "What are the speakers discussing?",
         "choices": [
-          "Scheduled work on an elevator",
+          "A change in lunch service",
           "A missing furniture delivery",
           "New fees for building residents",
-          "A change in lunch service"
+          "Scheduled work on an elevator"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "화자들은 무엇을 논의하고 있는가?",
           "choices": [
-            "예정된 엘리베이터 작업",
+            "점심 서비스 변경",
             "누락된 가구 배송",
             "입주민에게 부과될 새 요금",
-            "점심 서비스 변경"
+            "예정된 엘리베이터 작업"
           ]
         },
-        "explain": "엘리베이터를 잠시 사용할 수 없는 시간과 수리 작업을 설명하므로 (A)가 정답이다. 책장은 아직 배송 전이므로 (B)의 배송 누락은 언급되지 않았다."
+        "explain": "엘리베이터를 잠시 사용할 수 없는 시간과 수리 작업을 설명하므로 (D)가 정답이다. 책장은 아직 배송 전이므로 (B)의 배송 누락은 언급되지 않았다."
       },
       {
         "type": "reason",
@@ -490,21 +490,21 @@
         "q": "What item was missing?",
         "choices": [
           "A bag of apples",
-          "A carton of orange juice",
           "A loaf of sandwich bread",
+          "A carton of orange juice",
           "A printed grocery invoice"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "어떤 물품이 누락되었는가?",
           "choices": [
             "사과 한 봉지",
-            "오렌지 주스 한 팩",
             "샌드위치용 빵 한 덩이",
+            "오렌지 주스 한 팩",
             "인쇄된 식료품 청구서"
           ]
         },
-        "explain": "두 봉투 모두 주스가 없었다고 하므로 (B)가 정답이다. 사과와 빵은 모두 받았다고 명시했으므로 (A)와 (C)는 오답이다."
+        "explain": "두 봉투 모두 주스가 없었다고 하므로 (C)가 정답이다. 사과와 빵은 모두 받았다고 명시했으므로 (A)와 (B)는 오답이다."
       },
       {
         "type": "next",
@@ -617,20 +617,20 @@
         "choices": [
           "Inspect a bicycle at the station",
           "Reserve a different bicycle for her",
-          "Call the other return location",
-          "Direct her to a cash machine"
+          "Direct her to a cash machine",
+          "Call the other return location"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "남자는 다음에 무엇을 할 것인가?",
           "choices": [
             "역에서 자전거를 검사한다",
             "그녀에게 다른 자전거를 예약한다",
-            "다른 반납 지점에 전화한다",
-            "그녀에게 현금 인출기 위치를 안내한다"
+            "그녀에게 현금 인출기 위치를 안내한다",
+            "다른 반납 지점에 전화한다"
           ]
         },
-        "explain": "남자가 카드 결제를 마친 뒤 역 직원에게 전화하겠다고 하므로 다른 반납 지점에 연락하는 (C)가 정답이다. 자전거 검사는 역 직원의 역할이므로 (A)는 주체가 다르다."
+        "explain": "남자가 카드 결제를 마친 뒤 역 직원에게 전화하겠다고 하므로 다른 반납 지점에 연락하는 (D)가 정답이다. 자전거 검사는 역 직원의 역할이므로 (A)는 주체가 다르다."
       }
     ]
   },
@@ -805,21 +805,21 @@
         "q": "Why does a book require manual checkout?",
         "choices": [
           "Her membership has recently expired.",
-          "A printed identifier is damaged.",
           "The machine has lost its power.",
+          "A printed identifier is damaged.",
           "Her borrowing limit has been reached."
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "책 한 권은 왜 수기로 대출 처리해야 하는가?",
           "choices": [
             "회원 자격이 최근 만료되었기 때문에",
-            "인쇄된 식별 표시가 손상되었기 때문에",
             "기계의 전원이 꺼졌기 때문에",
+            "인쇄된 식별 표시가 손상되었기 때문에",
             "대출 한도에 도달했기 때문에"
           ]
         },
-        "explain": "책의 바코드가 벗겨져 기계가 읽지 못하므로 인쇄된 식별표의 손상을 바꿔 말한 (B)가 맞다. 고객의 카드는 다른 책에서 작동했다."
+        "explain": "책의 바코드가 벗겨져 기계가 읽지 못하므로 인쇄된 식별표의 손상을 바꿔 말한 (C)가 맞다. 고객의 카드는 다른 책에서 작동했다."
       },
       {
         "type": "next",
@@ -914,22 +914,22 @@
         "type": "intention",
         "q": "Why does the woman say, \"I can see the clock\"?",
         "choices": [
-          "She needs the collection time confirmed with the customer.",
-          "She needs more labels before the boxes can be folded.",
           "She needs practical assistance assembling the customer's packages.",
+          "She needs more labels before the boxes can be folded.",
+          "She needs the collection time confirmed with the customer.",
           "She needs the customer to approve a later pickup."
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "여자가 “저도 시계는 보여요”라고 말하는 이유는 무엇인가?",
           "choices": [
-            "고객에게 수령 시각을 확인받아야 한다.",
-            "상자를 접기 전에 라벨이 더 필요하다.",
             "고객용 포장 상자를 조립할 실질적인 도움이 필요하다.",
+            "상자를 접기 전에 라벨이 더 필요하다.",
+            "고객에게 수령 시각을 확인받아야 한다.",
             "고객에게 더 늦은 수령 시각을 승인받아야 한다."
           ]
         },
-        "explain": "상자 탭이 빠져 조립에 애를 먹는 중에 시간을 재촉받았으므로 (C)가 맞다. 고객 시각을 다시 묻거나 수령을 미루자는 요청은 없고 남자가 상자 접기를 돕는다."
+        "explain": "상자 탭이 빠져 조립에 애를 먹는 중에 시간을 재촉받았으므로 (A)가 맞다. 고객 시각을 다시 묻거나 수령을 미루자는 요청은 없고 남자가 상자 접기를 돕는다."
       },
       {
         "type": "suggest",
@@ -1045,21 +1045,21 @@
         "q": "What are the speakers mainly discussing?",
         "choices": [
           "Changing an employee's work hours",
-          "Obtaining a monthly travel permit",
+          "Visitor parking arrangements",
           "Moving an appointment to another building",
-          "Visitor parking arrangements"
+          "Obtaining a monthly travel permit"
         ],
-        "answer": 3,
+        "answer": 1,
         "ko": {
           "q": "화자들은 주로 무엇을 논의하고 있는가?",
           "choices": [
             "직원의 근무 시간 변경",
-            "월간 교통 정기권 발급",
+            "방문객 주차 방법 논의",
             "약속 장소를 다른 건물로 변경",
-            "방문객 주차 방법 논의"
+            "월간 교통 정기권 발급"
           ]
         },
-        "explain": "방문객의 주차 시간과 요금 납부 방식을 설명하므로 (D)가 맞다. 직원용 월 정기권을 신청하는 대화가 아니다."
+        "explain": "방문객의 주차 시간과 요금 납부 방식을 설명하므로 (B)가 맞다. 직원용 월 정기권을 신청하는 대화가 아니다."
       },
       {
         "type": "next",
@@ -1176,21 +1176,21 @@
         "q": "What will the woman most likely do next?",
         "choices": [
           "Attend the staff training session",
-          "Enroll in an early product trial",
           "Order a replacement motor online",
+          "Enroll in an early product trial",
           "Ask her family to test accessories"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "여자는 다음에 무엇을 할 가능성이 가장 높은가?",
           "choices": [
             "직원 교육에 참석한다",
-            "이른 시간의 제품 체험에 등록한다",
             "교체용 모터를 온라인으로 주문한다",
+            "이른 시간의 제품 체험에 등록한다",
             "가족에게 부속품을 시험해 달라고 한다"
           ]
         },
-        "explain": "금요일 첫 고객 시연을 온라인으로 신청하겠다고 하므로 이른 제품 체험에 등록하는 (B)가 정답이다. 목요일은 직원 교육이라 고객인 여자가 참석할 수 없어 (A)는 오답이다."
+        "explain": "금요일 첫 고객 시연을 온라인으로 신청하겠다고 하므로 이른 제품 체험에 등록하는 (C)가 정답이다. 목요일은 직원 교육이라 고객인 여자가 참석할 수 없어 (A)는 오답이다."
       }
     ]
   },
@@ -1389,22 +1389,22 @@
         "type": "reason",
         "q": "Why is the woman concerned about the water?",
         "choices": [
-          "Moisture could damage stored merchandise.",
           "The shop must host a plumbing workshop.",
+          "Moisture could damage stored merchandise.",
           "Customers have complained about drinking water.",
           "A scheduled delivery cannot enter the arcade."
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "여자가 물 때문에 걱정하는 이유는 무엇인가?",
           "choices": [
-            "습기가 보관 중인 상품을 손상시킬 수 있기 때문에",
             "매장에서 배관 강습을 열어야 하기 때문에",
+            "습기가 보관 중인 상품을 손상시킬 수 있기 때문에",
             "고객들이 식수에 불만을 제기했기 때문에",
             "예정된 배송이 상가에 들어올 수 없기 때문에"
           ]
         },
-        "explain": "젖은 상자 속 공책이 ruined될 수 있다고 하므로 보관 상품 손상으로 바꿔 말한 (A)가 정답이다. 통로는 기술자 진입을 위해 비우는 것이며 배송 차단 문제는 아니어서 (D)는 오답이다."
+        "explain": "젖은 상자 속 공책이 ruined될 수 있다고 하므로 보관 상품 손상으로 바꿔 말한 (B)가 정답이다. 통로는 기술자 진입을 위해 비우는 것이며 배송 차단 문제는 아니어서 (D)는 오답이다."
       },
       {
         "type": "suggest",
@@ -1715,20 +1715,20 @@
         "choices": [
           "Choosing materials for a new desk",
           "Borrowing a van for a business trip",
-          "Arranging home delivery",
-          "Returning furniture to a different store"
+          "Returning furniture to a different store",
+          "Arranging home delivery"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "화자들은 주로 무엇을 논의하고 있는가?",
           "choices": [
             "새 책상의 재료 선택",
             "출장용 승합차 대여",
-            "자택 배송 준비",
-            "다른 매장으로 가구 반품"
+            "다른 매장으로 가구 반품",
+            "자택 배송 준비"
           ]
         },
-        "explain": "구입한 책상을 직접 가져갈지 배송받을지 정하므로 가구 운송 조율이라는 (C)가 정답이다. 남자가 승합차를 빌리기보다 배송을 원하므로 (B)는 선택한 방식이 아니다."
+        "explain": "구입한 책상을 직접 가져갈지 배송받을지 정하므로 가구 운송 조율이라는 (D)가 정답이다. 남자가 승합차를 빌리기보다 배송을 원하므로 (B)는 선택한 방식이 아니다."
       },
       {
         "type": "detail",
@@ -1865,22 +1865,22 @@
         "type": "intention",
         "q": "Why does the woman say, \"That's not what I signed up for\"?",
         "choices": [
-          "She disputes having authorized a payment.",
+          "She expected a gentler workout.",
           "She wants to instruct an evening course.",
           "She cannot attend any weekend activities.",
-          "She expected a gentler workout."
+          "She disputes having authorized a payment."
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "여자가 “제가 신청한 건 그런 게 아니에요”라고 말하는 이유는 무엇인가?",
           "choices": [
-            "결제 승인 사실을 부인하기 때문에",
+            "더 가벼운 운동을 예상했기 때문에",
             "저녁 강좌를 직접 가르치고 싶기 때문에",
             "주말 활동에 전혀 참석할 수 없기 때문에",
-            "더 가벼운 운동을 예상했기 때문에"
+            "결제 승인 사실을 부인하기 때문에"
           ]
         },
-        "explain": "여자는 운동을 서서히 재개하려 했는데 저녁 반의 고강도 운동을 받았으므로 (D)가 맞다. 회원 자격과 납부 금액은 그대로 유지된다."
+        "explain": "여자는 운동을 서서히 재개하려 했는데 저녁 반의 고강도 운동을 받았으므로 (A)가 맞다. 회원 자격과 납부 금액은 그대로 유지된다."
       }
     ]
   },
@@ -2084,22 +2084,22 @@
         "type": "detail",
         "q": "What went wrong with the woman's order?",
         "choices": [
-          "One purchased treatment was skipped.",
+          "The payment had not reached the workshop.",
           "Several jackets were sent to another customer.",
           "The wrong garment sizes were supplied.",
-          "The payment had not reached the workshop."
+          "One purchased treatment was skipped."
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "여자의 주문에 어떤 문제가 있었는가?",
           "choices": [
-            "구매한 처리 작업 하나가 빠졌다",
+            "작업장에 대금이 입금되지 않았다",
             "재킷 여러 벌을 다른 고객에게 보냈다",
             "잘못된 사이즈의 옷을 제공했다",
-            "작업장에 대금이 입금되지 않았다"
+            "구매한 처리 작업 하나가 빠졌다"
           ]
         },
-        "explain": "구매 상품에는 다림질이 포함되었지만 작업표가 세탁만 지시했으므로 유료 처리 누락이라는 (A)가 정답이다. 옷은 빠짐없이 받았으므로 (B)는 사실과 다르다."
+        "explain": "구매 상품에는 다림질이 포함되었지만 작업표가 세탁만 지시했으므로 유료 처리 누락이라는 (D)가 정답이다. 옷은 빠짐없이 받았으므로 (B)는 사실과 다르다."
       },
       {
         "type": "suggest",
@@ -2200,21 +2200,21 @@
         "q": "What can be inferred about the delivered goods?",
         "choices": [
           "They must be returned before the customer arrives.",
-          "The supplied variety is the requested one.",
           "Their inner bags were opened during transport.",
+          "The supplied variety is the requested one.",
           "They were ordered for a different customer."
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "배송된 물품에 관해 무엇을 추론할 수 있는가?",
           "choices": [
             "고객 도착 전에 반송해야 한다",
-            "공급된 종류가 요청한 종류이다",
             "운송 중 내부 봉투가 개봉되었다",
+            "공급된 종류가 요청한 종류이다",
             "다른 고객을 위해 주문한 것이다"
           ]
         },
-        "explain": "주문은 일반 원두이고 내부 코드가 R17이며 배달 직원이 R17을 일반 블렌드라고 설명하므로 종류가 맞다는 (B)를 추론할 수 있다. 오래된 겉상자 문구만 문제이므로 전량 반송이 필요하다는 (A)는 근거가 없다."
+        "explain": "주문은 일반 원두이고 내부 코드가 R17이며 배달 직원이 R17을 일반 블렌드라고 설명하므로 종류가 맞다는 (C)를 추론할 수 있다. 오래된 겉상자 문구만 문제이므로 전량 반송이 필요하다는 (A)는 근거가 없다."
       },
       {
         "type": "next",

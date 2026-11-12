@@ -44,19 +44,19 @@
         "type": "topic",
         "q": "What are the speakers discussing?",
         "choices": [
-          "Disposing of old computers",
+          "Replacing drawing software",
           "Designing a client office",
           "Purchasing storage shelves",
-          "Replacing drawing software"
+          "Disposing of old computers"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "화자들은 무엇을 논의하는가?",
           "choices": [
-            "오래된 컴퓨터의 처분",
+            "도면 소프트웨어 교체",
             "고객 사무실 설계",
             "보관 선반 구매",
-            "도면 소프트웨어 교체"
+            "오래된 컴퓨터의 처분"
           ]
         },
         "explain": "첫 발언에서 폐기 노트북 수거를 말한다. 고객 도면은 지울 자료이지 새 설계 요청이 아니다."
@@ -150,18 +150,18 @@
         "type": "reason",
         "q": "Why did the practice receipt come out blank?",
         "choices": [
-          "An incorrect price file",
-          "An empty paper compartment",
           "A roll inserted incorrectly",
+          "An empty paper compartment",
+          "An incorrect price file",
           "A damaged register cover"
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "연습용 영수증이 비어 나온 이유는 무엇인가?",
           "choices": [
-            "잘못된 가격 파일",
-            "빈 용지함",
             "잘못 끼운 종이 롤",
+            "빈 용지함",
+            "잘못된 가격 파일",
             "손상된 계산대 덮개"
           ]
         },
@@ -256,19 +256,19 @@
         "type": "speaker",
         "q": "Where is the conversation most likely taking place?",
         "choices": [
-          "At a hotel reception desk",
+          "In a clothing alteration shop",
           "In a shoe factory",
           "At a billing office",
-          "In a clothing alteration shop"
+          "At a hotel reception desk"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "대화는 어디에서 이루어지는가?",
           "choices": [
-            "호텔 접수 데스크",
+            "옷 수선점",
             "신발 공장",
             "청구 업무 사무실",
-            "옷 수선점"
+            "호텔 접수 데스크"
           ]
         },
         "explain": "여자가 바지 길이를 조절하고 표시하려 하므로 수선점이다. 호텔은 주문 고객의 직장이다."
@@ -404,18 +404,18 @@
         "type": "intention",
         "q": "What does the man mean by \"That's all I need\"?",
         "choices": [
-          "Read-only access is sufficient for his task.",
-          "One test computer is sufficient for his task.",
           "Access until Friday is enough for the test.",
+          "One test computer is sufficient for his task.",
+          "Read-only access is sufficient for his task.",
           "The original settings are all he needs."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "남자가 “그거면 충분해요”라고 한 의도는 무엇인가?",
           "choices": [
-            "읽기 전용 권한으로 작업을 할 수 있다.",
-            "시험용 컴퓨터 한 대면 작업에 충분하다.",
             "금요일까지 접근할 수 있으면 시험에 충분하다.",
+            "시험용 컴퓨터 한 대면 작업에 충분하다.",
+            "읽기 전용 권한으로 작업을 할 수 있다.",
             "원래 설정만 있으면 된다."
           ]
         },
@@ -469,18 +469,18 @@
         "q": "What made the demonstration difficult to follow?",
         "choices": [
           "The captions used unfamiliar names.",
-          "The text lagged behind the visuals.",
+          "The screens were shown in reverse.",
           "The presenter spoke too softly.",
-          "The screens were shown in reverse."
+          "The text lagged behind the visuals."
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "시연을 이해하기 어려웠던 이유는 무엇인가?",
           "choices": [
             "자막에 낯선 이름이 나와서",
-            "글이 화면보다 늦게 나와서",
+            "화면을 역순으로 보여 줘서",
             "발표자의 목소리가 작아서",
-            "화면을 역순으로 보여 줘서"
+            "글이 화면보다 늦게 나와서"
           ]
         },
         "explain": "설명 자막이 뜰 때 이미 다음 화면으로 넘어갔다고 한다. 음량을 높여도 지연은 해결되지 않는다."
@@ -702,17 +702,17 @@
         "q": "Why should the report distinguish between two kinds of responses?",
         "choices": [
           "Customers need different email addresses.",
-          "Agents are moving to another office.",
           "The current measure may overstate service speed.",
+          "Agents are moving to another office.",
           "The company is ending automatic messages."
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "보고서에서 두 종류의 답변을 구분해야 하는 이유는 무엇인가?",
           "choices": [
             "고객에게 다른 이메일 주소가 필요해서",
-            "상담원들이 다른 사무실로 옮겨서",
             "현재 지표가 서비스 속도를 과장할 수 있어서",
+            "상담원들이 다른 사무실로 옮겨서",
             "회사가 자동 메시지를 중단해서"
           ]
         },
@@ -812,18 +812,18 @@
         "type": "detail",
         "q": "What benefit was observed on tile?",
         "choices": [
-          "Reduced cart noise",
-          "Lower branch rental costs",
           "Slower outdoor wheel wear",
+          "Lower branch rental costs",
+          "Reduced cart noise",
           "Improved outdoor pavement"
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "타일에서 관찰된 이점은 무엇인가?",
           "choices": [
-            "카트 소음 감소",
-            "지점 임대료 절감",
             "느려진 야외 바퀴 마모",
+            "지점 임대료 절감",
+            "카트 소음 감소",
             "야외 포장 개선"
           ]
         },
@@ -918,19 +918,19 @@
         "type": "detail",
         "q": "Which subscription does the customer want to keep?",
         "choices": [
-          "The publishing department's",
+          "The one registered to the business",
           "The purchasing manager's personal one",
           "The former employee's",
-          "The one registered to the business"
+          "The publishing department's"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "고객이 유지하려는 구독은 무엇인가?",
           "choices": [
-            "출판 부서의 구독",
+            "사업체 이름으로 등록된 구독",
             "구매 관리자 개인 구독",
             "전 직원의 구독",
-            "사업체 이름으로 등록된 구독"
+            "출판 부서의 구독"
           ]
         },
         "explain": "여러 직원이 읽으므로 회사 이름의 구독을 유지한다고 한다. 개인 명의의 것은 해지 대상이다."
@@ -1009,18 +1009,18 @@
         "q": "What are the speakers discussing?",
         "choices": [
           "A customer's delivery address",
-          "A tool-free way to open a product",
+          "The price of assembly equipment",
           "A change in testing staff",
-          "The price of assembly equipment"
+          "A tool-free way to open a product"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "화자들은 무엇을 논의하는가?",
           "choices": [
             "고객 배송 주소",
-            "공구 없이 제품을 여는 방식",
+            "조립 장비 가격",
             "시험 직원 변경",
-            "조립 장비 가격"
+            "공구 없이 제품을 여는 방식"
           ]
         },
         "explain": "고객이 공구 없이 외함을 열도록 걸쇠 설계를 논의한다. 조립 장비 구매가 주제는 아니다."
@@ -1297,17 +1297,17 @@
         "q": "Look at the graphic. Which channel will receive the trial budget?",
         "choices": [
           "Search ads",
-          "Trade directory",
           "Customer newsletter",
+          "Trade directory",
           "Social posts"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "표를 보라. 시험 예산을 받을 채널은 무엇인가?",
           "choices": [
             "검색 광고",
-            "업종 안내 목록",
             "고객 소식지",
+            "업종 안내 목록",
             "소셜 게시물"
           ]
         },
@@ -1412,17 +1412,17 @@
         "q": "Look at the graphic. Which proposal should be evaluated?",
         "choices": [
           "Alven",
-          "Boreli",
           "Cevra",
+          "Boreli",
           "Dunel"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "표를 보라. 평가할 제안은 어느 것인가?",
           "choices": [
             "앨븐",
-            "보렐리",
             "세브라",
+            "보렐리",
             "두넬"
           ]
         },
@@ -1625,17 +1625,17 @@
         "choices": [
           "An incorrect spreadsheet total",
           "An unavailable meeting room",
-          "Repeated sound during a video call",
-          "A delay in sharing a document"
+          "A delay in sharing a document",
+          "Repeated sound during a video call"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "화자들이 해결하려는 문제는 무엇인가?",
           "choices": [
             "잘못된 스프레드시트 합계",
             "사용할 수 없는 회의실",
-            "영상 통화 중 반복되는 소리",
-            "문서 공유 지연"
+            "문서 공유 지연",
+            "영상 통화 중 반복되는 소리"
           ]
         },
         "explain": "첫 발언에서 말할 때 메아리가 들린다고 한다. 스프레드시트의 수치 자체가 틀린 것은 아니다."
@@ -1729,17 +1729,17 @@
         "type": "reason",
         "q": "Why had charging not begun?",
         "choices": [
-          "The card was used too early.",
           "The cable was missing.",
+          "The card was used too early.",
           "The company account had closed.",
           "The monthly bill was unpaid."
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "충전이 시작되지 않은 이유는 무엇인가?",
           "choices": [
-            "카드를 너무 일찍 사용해서",
             "충전선이 없어서",
+            "카드를 너무 일찍 사용해서",
             "회사 계정이 폐쇄돼서",
             "월별 요금이 미납돼서"
           ]
@@ -1835,19 +1835,19 @@
         "type": "topic",
         "q": "What are the speakers reviewing?",
         "choices": [
-          "A canceled weekend assignment",
+          "The way one shift is displayed",
           "A missing hourly rate",
           "A change in her starting time",
-          "The way one shift is displayed"
+          "A canceled weekend assignment"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "화자들은 무엇을 검토하는가?",
           "choices": [
-            "취소된 주말 근무",
+            "한 번의 근무가 표시되는 방식",
             "누락된 시간당 요율",
             "출근 시각 변경",
-            "한 번의 근무가 표시되는 방식"
+            "취소된 주말 근무"
           ]
         },
         "explain": "야간 근무가 두 날짜에 걸쳐 표시되는 급여 예시를 함께 검토한다. 근무를 추가하거나 삭제하려는 것이 아니다."
@@ -1964,17 +1964,17 @@
         "choices": [
           "The service team will handle the assembly.",
           "The pump no longer needs a leaflet.",
-          "The label can accommodate the warranty details.",
-          "The correction can precede mass printing."
+          "The correction can precede mass printing.",
+          "The label can accommodate the warranty details."
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "여자가 “다행이네요”라고 한 이유는 무엇인가?",
           "choices": [
             "서비스팀이 조립을 맡을 것이다.",
             "펌프에 안내문이 더 이상 필요 없다.",
-            "라벨에 보증 내용을 넣을 수 있다.",
-            "대량 인쇄 전에 오류를 고칠 수 있다."
+            "대량 인쇄 전에 오류를 고칠 수 있다.",
+            "라벨에 보증 내용을 넣을 수 있다."
           ]
         },
         "explain": "이미 포장까지 끝났을까 걱정했으나 인쇄 전이라 번호를 고칠 수 있다는 말에 안도한다. 조립이나 안내문의 필요 여부가 달라진 것은 아니다."
@@ -2159,18 +2159,18 @@
         "q": "What are the speakers preparing?",
         "choices": [
           "A driver's route map",
-          "A customer endorsement",
+          "A tracking-system manual",
           "A rural delivery timetable",
-          "A tracking-system manual"
+          "A customer endorsement"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "화자들은 무엇을 준비하는가?",
           "choices": [
             "기사 경로 지도",
-            "고객 추천 문구",
+            "추적 시스템 설명서",
             "농촌 배송 시간표",
-            "추적 시스템 설명서"
+            "고객 추천 문구"
           ]
         },
         "explain": "고객의 평가를 웹사이트 추천 문구로 게시할 준비를 한다. 배송 노선이나 시간표를 만드는 대화는 아니다."
@@ -2370,17 +2370,17 @@
         "type": "topic",
         "q": "What are the speakers discussing?",
         "choices": [
-          "A device's default starting configuration",
           "The cost of replacement batteries",
+          "A device's default starting configuration",
           "A change in product delivery routes",
           "The length of an employee's shift"
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "화자들은 무엇을 논의하는가?",
           "choices": [
-            "기기의 기본 시작 설정",
             "교체 배터리 비용",
+            "기기의 기본 시작 설정",
             "제품 배송 경로 변경",
             "직원 근무 시간 길이"
           ]
@@ -2481,18 +2481,18 @@
         "type": "reason",
         "q": "Why must the handbook's index be rebuilt?",
         "choices": [
-          "The repair procedures were removed.",
-          "The printer changed the paper size.",
           "New pages altered reference locations.",
+          "The printer changed the paper size.",
+          "The repair procedures were removed.",
           "The maintenance diagrams were approved."
         ],
-        "answer": 2,
+        "answer": 0,
         "ko": {
           "q": "안내서 색인을 다시 만들어야 하는 이유는 무엇인가?",
           "choices": [
-            "수리 절차가 삭제돼서",
-            "인쇄업체가 용지 크기를 바꿔서",
             "새 페이지 때문에 참조 위치가 달라져서",
+            "인쇄업체가 용지 크기를 바꿔서",
+            "수리 절차가 삭제돼서",
             "유지관리 도해가 승인돼서"
           ]
         },
@@ -2748,18 +2748,18 @@
         "type": "topic",
         "q": "What are the speakers planning?",
         "choices": [
-          "The packing of coated display panels",
-          "The purchase of a new warehouse",
           "The replacement of a carrier",
+          "The purchase of a new warehouse",
+          "The packing of coated display panels",
           "The design of a customer questionnaire"
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "화자들은 무엇을 계획하는가?",
           "choices": [
-            "착색한 전시판의 포장",
-            "새 창고 구매",
             "운송업체 교체",
+            "새 창고 구매",
+            "착색한 전시판의 포장",
             "고객 설문 설계"
           ]
         },
@@ -2885,18 +2885,18 @@
         "q": "How was the trial organized?",
         "choices": [
           "Each vendor supplied its own text.",
-          "Price determined the test difficulty.",
+          "All vendors reviewed identical material.",
           "The samples contained different error totals.",
-          "All vendors reviewed identical material."
+          "Price determined the test difficulty."
         ],
-        "answer": 3,
+        "answer": 1,
         "ko": {
           "q": "시험은 어떻게 구성되었는가?",
           "choices": [
             "각 업체가 자체 글을 제출했다.",
-            "가격이 시험 난이도를 정했다.",
+            "모든 업체가 같은 자료를 검토했다.",
             "견본마다 오류 수가 달랐다.",
-            "모든 업체가 같은 자료를 검토했다."
+            "가격이 시험 난이도를 정했다."
           ]
         },
         "explain": "남자는 모두 같은 12개 오류가 있는 자료를 썼다고 한다. 업체마다 자료를 달리하지 않았다."

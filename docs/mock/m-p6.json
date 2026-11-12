@@ -142,16 +142,16 @@
         "choices": [
           "conceal",
           "enlarge",
-          "reserve",
-          "confirm"
+          "confirm",
+          "reserve"
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "choices": [
             "감추다",
             "확대하다",
-            "예약하다",
-            "확인하다"
+            "확인하다",
+            "예약하다"
           ]
         },
         "explain": "인치를 밀리미터로 잘못 해석한 견적이므로 계산 전에 단위를 확인하는 confirm이 맞다. enlarge는 치수를 더 크게 만드는 것으로 단위 오류를 해결하지 못한다.",

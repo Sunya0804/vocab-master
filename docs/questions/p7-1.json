@@ -59,17 +59,17 @@
         "type": "purpose",
         "q": "Why does Ms. Venn contact Mr. Dorn?",
         "choices": [
-          "To explain a delivery access problem.",
           "To request changes to a presentation.",
+          "To explain a delivery access problem.",
           "To confirm the location of a client meeting.",
           "To arrange the return of product samples."
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "벤 씨는 왜 돈 씨에게 연락하는가?",
           "choices": [
-            "배송품 수령을 위한 출입 문제를 알리려고",
             "발표 내용 변경을 요청하려고",
+            "배송품 수령을 위한 출입 문제를 알리려고",
             "고객 회의 장소를 확인하려고",
             "제품 견본 반송을 마련하려고"
           ]
@@ -162,17 +162,17 @@
         "choices": [
           "When she receives the attendance list.",
           "After completing three days of production work.",
-          "As soon as she requests an afternoon session.",
-          "Once her account is enabled during training."
+          "Once her account is enabled during training.",
+          "As soon as she requests an afternoon session."
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "콜 씨는 언제 추적 시스템을 사용할 수 있는가?",
           "choices": [
             "참석자 명단을 받으면",
             "생산 업무를 사흘 마치면",
-            "오후 회차를 요청하자마자",
-            "교육 중 계정이 활성화되면"
+            "교육 중 계정이 활성화되면",
+            "오후 회차를 요청하자마자"
           ]
         },
         "explain": "둘째 문단에서 시연 중 계정을 활성화한 뒤 로그인할 수 있다고 한다. 사흘은 명단 확정 기한이며 생산 근무 기간이 아니다."
@@ -209,22 +209,22 @@
         "type": "purpose",
         "q": "What is the main purpose of the notice?",
         "choices": [
-          "To sell unclaimed bicycles.",
           "To explain temporary parking arrangements.",
+          "To sell unclaimed bicycles.",
           "To announce a new garden entrance.",
           "To restrict access to changing rooms."
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "안내문의 주된 목적은 무엇인가?",
           "choices": [
-            "찾아가지 않은 자전거를 판매하려고",
             "임시 주차 방식을 안내하려고",
+            "찾아가지 않은 자전거를 판매하려고",
             "새 정원 입구를 발표하려고",
             "탈의실 출입을 제한하려고"
           ]
         },
-        "explain": "거치대 공사 기간의 대체 장소와 이용 절차를 안내하므로 (B)가 맞다. 탈의실은 이용 범위를 오히려 넓힌다."
+        "explain": "거치대 공사 기간의 대체 장소와 이용 절차를 안내하므로 (A)가 맞다. 탈의실은 이용 범위를 오히려 넓힌다."
       },
       {
         "type": "detail",
@@ -285,17 +285,17 @@
         "choices": [
           "Print labels without connecting to inventory software.",
           "Use only one width of label roll.",
-          "Reuse a saved layout for different label sizes.",
-          "Receive an on-site installation visit."
+          "Receive an on-site installation visit.",
+          "Reuse a saved layout for different label sizes."
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "두 프린터 모델에서 사용자가 할 수 있는 것은 무엇인가?",
           "choices": [
             "재고 관리 소프트웨어에 연결하지 않고 인쇄한다.",
             "한 가지 너비의 라벨 롤만 사용한다.",
-            "저장한 배치를 다른 크기의 라벨에 재사용한다.",
-            "현장 설치 방문을 받는다."
+            "현장 설치 방문을 받는다.",
+            "저장한 배치를 다른 크기의 라벨에 재사용한다."
           ]
         },
         "explain": "첫 문단에서 두 라벨 너비에 같은 저장 양식을 쓸 수 있다고 한다. 상품 정보를 다시 입력할 필요가 없으며 설치 상담은 전화로 진행한다."
@@ -383,19 +383,19 @@
         "type": "inference",
         "q": "Why is Mr. Pell suited to the afternoon session?",
         "choices": [
-          "He arranged the organizers' introductions.",
+          "His work relates to the visitors' technical interests.",
           "He trained the measuring-vessel sales team.",
           "He requested a shorter question period.",
-          "His work relates to the visitors' technical interests."
+          "He arranged the organizers' introductions."
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "펠 씨가 오후 회차에 적합한 이유는 무엇인가?",
           "choices": [
-            "주최 측의 발표자 소개를 준비했기 때문에",
+            "그의 업무가 방문객들의 기술적 관심사와 관련되기 때문에",
             "측정 용기 영업팀을 교육했기 때문에",
             "질의응답 시간 단축을 요청했기 때문에",
-            "그의 업무가 방문객들의 기술적 관심사와 관련되기 때문에"
+            "주최 측의 발표자 소개를 준비했기 때문에"
           ]
         },
         "explain": "2시 3분에 펠이 세척 절차를 개발했다고 하고, 오후 방문객은 유지관리 질문을 원하는 기술자들이므로 그의 경험이 청중의 관심과 맞는다. 영업 직원 교육은 브린이 맡았다."
@@ -485,21 +485,21 @@
         "q": "What must Ms. Neve do to collect the case at six?",
         "choices": [
           "Visit the workshop before noon.",
-          "Pay the shoe shop in cash.",
           "Arrange telephone payment before three.",
+          "Pay the shoe shop in cash.",
           "Ask for another claim slip."
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "니브 씨가 6시에 가방을 찾으려면 무엇을 해야 하는가?",
           "choices": [
             "정오 전에 작업장을 방문한다.",
-            "신발 가게에 현금으로 낸다.",
             "3시 전에 전화로 카드 결제를 한다.",
+            "신발 가게에 현금으로 낸다.",
             "새 보관증을 요청한다."
           ]
         },
-        "explain": "둘째 문단에서 늦은 수령은 3시 전 전화와 선결제가 필요하다고 하므로 (C)가 맞다. 신발 가게는 이미 결제된 물품만 전달한다."
+        "explain": "둘째 문단에서 늦은 수령은 3시 전 전화와 선결제가 필요하다고 하므로 (B)가 맞다. 신발 가게는 이미 결제된 물품만 전달한다."
       }
     ]
   },
@@ -562,22 +562,22 @@
         "type": "detail",
         "q": "How should meeting supplies be identified?",
         "choices": [
-          "With a department label and a shared-use marking.",
+          "With the next meeting's start time.",
           "With the cleaning date alone.",
           "With the kitchen manager's signature.",
-          "With the next meeting's start time."
+          "With a department label and a shared-use marking."
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "회의용 공용 물품은 어떻게 표시해야 하는가?",
           "choices": [
-            "부서명과 공용 표시로",
+            "다음 회의의 시작 시간으로",
             "청소 날짜만으로",
             "주방 관리자의 서명으로",
-            "다음 회의의 시작 시간으로"
+            "부서명과 공용 표시로"
           ]
         },
-        "explain": "둘째 문단에서 부서명과 SHARED를 함께 쓰라고 하므로 (A)가 맞다. 날짜만 표시하는 방식은 안내되지 않았다."
+        "explain": "둘째 문단에서 부서명과 SHARED를 함께 쓰라고 하므로 (D)가 맞다. 날짜만 표시하는 방식은 안내되지 않았다."
       }
     ]
   },
@@ -616,17 +616,17 @@
         "q": "Who is the advertisement primarily intended for?",
         "choices": [
           "Drivers seeking furniture delivery work.",
-          "People needing temporary work furniture.",
           "Customers buying permanent office lighting.",
+          "People needing temporary work furniture.",
           "Decorators offering assembly services."
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "광고의 주된 대상은 누구인가?",
           "choices": [
             "가구 배송 일을 구하는 운전자",
-            "일시적으로 업무용 가구가 필요한 사람",
             "상설 사무실 조명을 구매하는 고객",
+            "일시적으로 업무용 가구가 필요한 사람",
             "조립 서비스를 제공하는 실내 장식업자"
           ]
         },
@@ -795,18 +795,18 @@
         "type": "inference",
         "q": "Why might Ms. Dell accept the reinforced brackets?",
         "choices": [
-          "They could help her team meet its production deadline.",
-          "They cost less than the specified components.",
           "They require a different assembly drawing.",
+          "They cost less than the specified components.",
+          "They could help her team meet its production deadline.",
           "They will reduce the space needed around each fitting."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "델 씨가 보강 브래킷을 받아들일 수 있는 이유는 무엇인가?",
           "choices": [
-            "팀이 생산 마감을 지키는 데 도움이 될 수 있기 때문에",
-            "지정 부품보다 가격이 낮기 때문에",
             "다른 조립 도면이 필요하기 때문에",
+            "지정 부품보다 가격이 낮기 때문에",
+            "팀이 생산 마감을 지키는 데 도움이 될 수 있기 때문에",
             "각 연결 부품 주위에 필요한 공간을 줄이기 때문에"
           ]
         },
@@ -873,22 +873,22 @@
         "type": "detail",
         "q": "Which magazines can the library accept?",
         "choices": [
-          "Only magazines with no pictures.",
+          "Recent issues with complete pages.",
           "All magazines regardless of age.",
           "Only issues used in art classes.",
-          "Recent issues with complete pages."
+          "Only magazines with no pictures."
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "도서관이 받을 수 있는 잡지는 무엇인가?",
           "choices": [
-            "그림이 없는 잡지만",
+            "페이지가 온전한 최근 발행분",
             "발행 시기와 무관한 모든 잡지",
             "미술 수업에 사용한 호만",
-            "페이지가 온전한 최근 발행분"
+            "그림이 없는 잡지만"
           ]
         },
-        "explain": "첫 문단의 최근 5년과 전체 페이지 조건을 바꿔 말한 (D)가 맞다. 오래된 호는 별도 기관에 문의하도록 했다."
+        "explain": "첫 문단의 최근 5년과 전체 페이지 조건을 바꿔 말한 (A)가 맞다. 오래된 호는 별도 기관에 문의하도록 했다."
       },
       {
         "type": "detail",
@@ -1029,21 +1029,21 @@
         "q": "What could prevent an immediate deposit refund?",
         "choices": [
           "Choosing delivery at eight.",
-          "Returning the screen the next morning.",
           "Leaving a microphone accessory behind.",
+          "Returning the screen the next morning.",
           "Using two microphones at once."
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "즉시 보증금을 돌려받지 못하는 원인은 무엇일 수 있는가?",
           "choices": [
             "8시 배송을 선택하는 것",
-            "다음 날 아침 화면을 반납하는 것",
             "마이크 부속품을 빠뜨리는 것",
+            "다음 날 아침 화면을 반납하는 것",
             "마이크 두 개를 동시에 쓰는 것"
           ]
         },
-        "explain": "마지막 문장에서 케이블 누락 시 환급을 미룬다고 하므로 이를 부속품으로 바꾼 (C)가 맞다. 다음 날 10시 전 반납은 정상 조건이다."
+        "explain": "마지막 문장에서 케이블 누락 시 환급을 미룬다고 하므로 이를 부속품으로 바꾼 (B)가 맞다. 다음 날 10시 전 반납은 정상 조건이다."
       }
     ]
   },
@@ -1089,18 +1089,18 @@
         "type": "purpose",
         "q": "Why is the trial being conducted?",
         "choices": [
-          "To establish the staffing needs of a permanent service.",
-          "To decide which regions need additional sales representatives.",
           "To replace the company's ordinary customer help line.",
+          "To decide which regions need additional sales representatives.",
+          "To establish the staffing needs of a permanent service.",
           "To train customer service staff on product compatibility."
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "시범 운영을 하는 이유는 무엇인가?",
           "choices": [
-            "상설 서비스에 필요한 인력을 파악하려고",
-            "영업 담당자를 추가로 배치할 지역을 결정하려고",
             "회사의 일반 고객 상담 전화를 대체하려고",
+            "영업 담당자를 추가로 배치할 지역을 결정하려고",
+            "상설 서비스에 필요한 인력을 파악하려고",
             "고객 서비스 직원에게 제품 호환성을 교육하려고"
           ]
         },
@@ -1210,17 +1210,17 @@
         "q": "Which statement about provisional reservations is NOT true?",
         "choices": [
           "Customer details must be added to retain them.",
-          "They expire after two working days without the required details.",
           "They can be prolonged by replying to a confirmation message.",
+          "They expire after two working days without the required details.",
           "Released times may be booked by other teams."
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "임시 예약에 관한 설명 중 사실이 아닌 것은 무엇인가?",
           "choices": [
             "유지하려면 고객 정보를 추가해야 한다.",
-            "필요한 정보가 없으면 근무일 기준 이틀 후 만료된다.",
             "확인 메시지에 답장하여 연장할 수 있다.",
+            "필요한 정보가 없으면 근무일 기준 이틀 후 만료된다.",
             "풀린 시간은 다른 팀이 예약할 수 있다."
           ]
         },
@@ -1286,18 +1286,18 @@
         "q": "Who would most likely benefit from the course?",
         "choices": [
           "A professional restorer seeking advanced techniques.",
-          "A collector valuing antique furniture.",
+          "An employee responsible for an office's shared furniture.",
           "A furniture supplier training its delivery crews.",
-          "An employee responsible for an office's shared furniture."
+          "A collector valuing antique furniture."
         ],
-        "answer": 3,
+        "answer": 1,
         "ko": {
           "q": "누가 이 과정의 혜택을 가장 많이 받겠는가?",
           "choices": [
             "고급 기법을 배우려는 전문 복원가",
-            "골동품 가구 가치를 평가하는 수집가",
+            "사무실 공용 가구를 관리하는 직원",
             "배송 직원을 교육하려는 가구 공급업체",
-            "사무실 공용 가구를 관리하는 직원"
+            "골동품 가구 가치를 평가하는 수집가"
           ]
         },
         "explain": "첫 문단에서 행정 업무와 함께 사무실 가구를 관리하는 직원을 위한 과정이라고 한다. 의자 이음새와 작은 흠집 같은 일상적인 유지관리 실습이며 골동품 감정이나 배송 직원 교육이 아니다."

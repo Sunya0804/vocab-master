@@ -155,22 +155,22 @@
         "type": "topic",
         "q": "What is the message mainly about?",
         "choices": [
-          "Arrangements for employee photographs",
           "A camera repair appointment",
+          "Arrangements for employee photographs",
           "A clothing catalog order",
           "Payment for a company video"
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "메시지는 주로 무엇에 관한 것인가?",
           "choices": [
-            "직원 사진 촬영 준비",
             "카메라 수리 예약",
+            "직원 사진 촬영 준비",
             "의류 카탈로그 주문",
             "회사 영상 대금"
           ]
         },
-        "explain": "team's portraits와 촬영 시간을 설명하므로 직원 사진 촬영 준비인 (A)가 정답이다. 비용은 이미 지불되어 대금 요청이 아니다."
+        "explain": "team's portraits와 촬영 시간을 설명하므로 직원 사진 촬영 준비인 (B)가 정답이다. 비용은 이미 지불되어 대금 요청이 아니다."
       },
       {
         "type": "suggest",
@@ -310,20 +310,20 @@
         "choices": [
           "Their medical history",
           "Their preferred drink",
-          "Their planned absence time",
-          "Their appointment results"
+          "Their appointment results",
+          "Their planned absence time"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "참가자는 상사에게 무엇을 알려야 하는가?",
           "choices": [
             "자신의 병력",
             "선호하는 음료",
-            "자리를 비울 예정 시간",
-            "예약 결과"
+            "예약 결과",
+            "자리를 비울 예정 시간"
           ]
         },
-        "explain": "when you expect to be away from your desk를 부재 예정 시간으로 요약한 (C)가 정답이다. 건강 관련 질문은 의료진과 개별적으로 다룬다."
+        "explain": "when you expect to be away from your desk를 부재 예정 시간으로 요약한 (D)가 정답이다. 건강 관련 질문은 의료진과 개별적으로 다룬다."
       }
     ]
   },
@@ -378,17 +378,17 @@
         "q": "What is the speaker discussing?",
         "choices": [
           "Hiring exhibition assistants",
-          "Changing software prices",
           "Improving sales presentations",
+          "Changing software prices",
           "Collecting registration fees"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "화자는 무엇을 논의하고 있는가?",
           "choices": [
             "전시회 도우미 채용",
-            "소프트웨어 가격 변경",
             "영업 시연 개선",
+            "소프트웨어 가격 변경",
             "등록비 징수"
           ]
         },
@@ -531,21 +531,21 @@
         "q": "What will the visitors do next?",
         "choices": [
           "Watch a live cooking demonstration",
-          "Listen to a worker's account",
+          "Try operating a conveyor",
           "Select fruit to purchase",
-          "Try operating a conveyor"
+          "Listen to a worker's account"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "방문객들은 다음에 무엇을 할 것인가?",
           "choices": [
             "실시간 조리 시연을 본다",
-            "작업자의 설명을 듣는다",
+            "컨베이어 작동을 체험한다",
             "살 과일을 고른다",
-            "컨베이어 작동을 체험한다"
+            "작업자의 설명을 듣는다"
           ]
         },
-        "explain": "직원의 업무 설명 녹음을 틀겠다고 했으므로 (B)가 정답이다. 생산 구역에 들어가 기계를 작동하는 일정은 없다."
+        "explain": "직원의 업무 설명 녹음을 틀겠다고 했으므로 (D)가 정답이다. 생산 구역에 들어가 기계를 작동하는 일정은 없다."
       }
     ]
   },
@@ -620,19 +620,19 @@
         "type": "intention",
         "q": "Why does the man say, \"That's the one I'll leave alone.\"?",
         "choices": [
-          "The silver section needs no replacement lamps.",
+          "The photograph should be excluded from the approval request.",
           "The amber section should keep its original lamps.",
           "The assistant should select the six replacement fittings.",
-          "The photograph should be excluded from the approval request."
+          "The silver section needs no replacement lamps."
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "화자는 왜 “That's the one I'll leave alone.”라고 말하는가?",
           "choices": [
-            "은 제품 구역의 조명은 교체할 필요가 없다.",
+            "승인 요청에서 사진을 빼야 한다.",
             "호박 구역은 원래 조명을 유지해야 한다.",
             "직원이 교체 조명 여섯 개를 골라야 한다.",
-            "승인 요청에서 사진을 빼야 한다."
+            "은 제품 구역의 조명은 교체할 필요가 없다."
           ]
         },
         "explain": "비교 결과 은 제품은 원래 흰 조명 아래에서 선명하게 보이므로 그 구역의 조명은 유지한다는 뜻이다. 호박 보석 위의 조명 여섯 개만 교체한다. 직원의 질문에 답하는 장면은 아니다."
@@ -711,21 +711,21 @@
         "q": "What is the report mainly about?",
         "choices": [
           "A port construction project",
-          "A way to share transportation costs",
           "An increase in tea production",
+          "A way to share transportation costs",
           "A new musical instrument retailer"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "보도는 주로 무엇에 관한 것인가?",
           "choices": [
             "항구 건설 사업",
-            "운송비를 공동 부담하는 방법",
             "차 생산 증가",
+            "운송비를 공동 부담하는 방법",
             "새 악기 소매업체"
           ]
         },
-        "explain": "여러 수출업체가 컨테이너를 나누어 쓴다는 내용을 (B)로 요약했다. 차와 악기는 이용 기업의 예시일 뿐이다."
+        "explain": "여러 수출업체가 컨테이너를 나누어 쓴다는 내용을 (C)로 요약했다. 차와 악기는 이용 기업의 예시일 뿐이다."
       },
       {
         "type": "detail",
@@ -822,21 +822,21 @@
         "q": "Who are the listeners most likely to be?",
         "choices": [
           "Bank tellers",
-          "Store construction workers",
+          "Sales negotiators",
           "Product photographers",
-          "Sales negotiators"
+          "Store construction workers"
         ],
-        "answer": 3,
+        "answer": 1,
         "ko": {
           "q": "청취자들은 누구일 가능성이 가장 높은가?",
           "choices": [
             "은행 창구 직원",
-            "매장 건설 작업자",
+            "영업 협상 담당자",
             "제품 사진가",
-            "영업 협상 담당자"
+            "매장 건설 작업자"
           ]
         },
-        "explain": "계약 협상에서 고객 요청에 대응하는 법을 배우므로 (D)가 정답이다. 현금 수입이 언급되지만 은행 창구 교육은 아니다."
+        "explain": "계약 협상에서 고객 요청에 대응하는 법을 배우므로 (B)가 정답이다. 현금 수입이 언급되지만 은행 창구 교육은 아니다."
       },
       {
         "type": "suggest",
@@ -1090,17 +1090,17 @@
         "choices": [
           "Identical processing speed",
           "Equal monthly prices",
-          "Detection of all deliberately invalid addresses",
-          "Removal of every duplicate customer"
+          "Removal of every duplicate customer",
+          "Detection of all deliberately invalid addresses"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "네 서비스가 모두 달성한 것은 무엇인가?",
           "choices": [
             "동일한 처리 속도",
             "같은 월별 가격",
-            "의도적으로 넣은 잘못된 주소 전부 탐지",
-            "중복 고객 전부 삭제"
+            "중복 고객 전부 삭제",
+            "의도적으로 넣은 잘못된 주소 전부 탐지"
           ]
         },
         "explain": "모든 서비스가 넣어 둔 잘못된 주소를 전부 탐지했다. 정상 주소에 대한 오탐은 서로 다르다."
@@ -1238,17 +1238,17 @@
         "choices": [
           "Telephone the plant manager",
           "Delete their transport accounts",
-          "Pay the driver an extra fee",
-          "Cancel their booking through the app"
+          "Cancel their booking through the app",
+          "Pay the driver an extra fee"
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "계획이 바뀌면 직원은 무엇을 해야 하는가?",
           "choices": [
             "공장 관리자에게 전화한다",
             "교통 계정을 삭제한다",
-            "기사에게 추가 요금을 낸다",
-            "앱에서 예약을 취소한다"
+            "앱에서 예약을 취소한다",
+            "기사에게 추가 요금을 낸다"
           ]
         },
         "explain": "다른 직원이 자리를 쓸 수 있도록 앱에서 취소하라고 한다. 계정 자체를 지우는 것이 아니다."
@@ -1301,21 +1301,21 @@
         "q": "Why is the man calling?",
         "choices": [
           "To cancel a research project",
-          "To explain an employee award",
+          "To request a valve inspection",
           "To discuss a salary reduction",
-          "To request a valve inspection"
+          "To explain an employee award"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "남자는 왜 전화하고 있는가?",
           "choices": [
             "연구 사업을 취소하기 위해",
-            "직원 포상금을 설명하기 위해",
+            "밸브 점검을 요청하기 위해",
             "급여 삭감을 논의하기 위해",
-            "밸브 점검을 요청하기 위해"
+            "직원 포상금을 설명하기 위해"
           ]
         },
-        "explain": "발명에 대한 award 승인과 지급 절차를 설명하므로 (B)가 정답이다. 시험 예산 삭감은 언급하지 않는다."
+        "explain": "발명에 대한 award 승인과 지급 절차를 설명하므로 (D)가 정답이다. 시험 예산 삭감은 언급하지 않는다."
       },
       {
         "type": "detail",
@@ -1412,21 +1412,21 @@
         "q": "What is the woman helping the listener do?",
         "choices": [
           "Sell unused kitchen appliances",
-          "Apply for a bakery license",
           "Update protection for business assets",
+          "Apply for a bakery license",
           "Claim a refund for defective ovens"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "여자는 청취자가 무엇을 하도록 돕고 있는가?",
           "choices": [
             "쓰지 않는 주방 기기를 판다",
-            "제과점 영업 허가를 신청한다",
             "사업 자산에 대한 보장을 갱신한다",
+            "제과점 영업 허가를 신청한다",
             "불량 오븐의 환불을 청구한다"
           ]
         },
-        "explain": "보험의 현재 장비 대체 비용을 검토하므로 (C)가 정답이다. 고장이나 환불 청구에 대한 연락이 아니다."
+        "explain": "보험의 현재 장비 대체 비용을 검토하므로 (B)가 정답이다. 고장이나 환불 청구에 대한 연락이 아니다."
       },
       {
         "type": "suggest",
@@ -1517,22 +1517,22 @@
         "type": "detail",
         "q": "How are sales bonuses currently determined?",
         "choices": [
-          "By the average time spent answering inquiries",
+          "By the number of new clients secured",
           "By the value of repeat customer purchases",
           "By the length of each representative's employment",
-          "By the number of new clients secured"
+          "By the average time spent answering inquiries"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "현재 영업 보너스는 어떻게 결정되는가?",
           "choices": [
-            "문의 응답에 쓴 평균 시간에 따라",
+            "확보한 신규 고객 수에 따라",
             "기존 고객의 반복 구매 금액에 따라",
             "각 담당자의 근속 기간에 따라",
-            "확보한 신규 고객 수에 따라"
+            "문의 응답에 쓴 평균 시간에 따라"
           ]
         },
-        "explain": "현재는 every account opened에 보상하므로 신규 고객 수에 따른다는 (D)가 정답이다. 재구매 여부는 현행 기준에 포함되지 않는다."
+        "explain": "현재는 every account opened에 보상하므로 신규 고객 수에 따른다는 (A)가 정답이다. 재구매 여부는 현행 기준에 포함되지 않는다."
       },
       {
         "type": "intention",
@@ -1624,17 +1624,17 @@
         "q": "What service does the company offer?",
         "choices": [
           "Rental of studio microphones",
-          "Restoration of recorded audio",
           "Repair of display screens",
+          "Restoration of recorded audio",
           "Training for interview presenters"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "회사는 어떤 서비스를 제공하는가?",
           "choices": [
             "스튜디오 마이크 대여",
-            "녹음 음향 복원",
             "디스플레이 수리",
+            "녹음 음향 복원",
             "인터뷰 진행자 교육"
           ]
         },
@@ -1757,20 +1757,20 @@
         "choices": [
           "Writing a company annual report",
           "Repairing a live broadcast connection",
-          "Challenging an unsupported premise",
-          "Calculating a journalist's expenses"
+          "Calculating a journalist's expenses",
+          "Challenging an unsupported premise"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "참가자는 무엇을 연습할 것인가?",
           "choices": [
             "회사 연간 보고서 작성",
             "생방송 연결 수리",
-            "근거 없는 전제에 대응하기",
-            "기자의 비용 계산"
+            "기자의 비용 계산",
+            "근거 없는 전제에 대응하기"
           ]
         },
-        "explain": "확인되지 않은 숫자를 받아들이지 않고 답하는 연습을 (C)로 바꿔 말했다. 보고서 작성 활동이 아니다."
+        "explain": "확인되지 않은 숫자를 받아들이지 않고 답하는 연습을 (D)로 바꿔 말했다. 보고서 작성 활동이 아니다."
       },
       {
         "type": "intention",
@@ -1845,22 +1845,22 @@
         "type": "topic",
         "q": "What is the report about?",
         "choices": [
-          "Cooperation that reuses industrial warmth",
-          "A plan to replace farm workers",
           "A computer training program",
+          "A plan to replace farm workers",
+          "Cooperation that reuses industrial warmth",
           "Expansion of a gas pipeline"
         ],
-        "answer": 0,
+        "answer": 2,
         "ko": {
           "q": "보도는 무엇에 관한 것인가?",
           "choices": [
-            "산업 폐열을 재사용하는 협력",
-            "농장 근로자 대체 계획",
             "컴퓨터 교육 프로그램",
+            "농장 근로자 대체 계획",
+            "산업 폐열을 재사용하는 협력",
             "가스관 확장"
           ]
         },
-        "explain": "데이터 센터의 열을 온실과 공유하는 협력이므로 (A)가 정답이다. 가스 사용은 오히려 줄어든다."
+        "explain": "데이터 센터의 열을 온실과 공유하는 협력이므로 (C)가 정답이다. 가스 사용은 오히려 줄어든다."
       },
       {
         "type": "detail",
@@ -1998,22 +1998,22 @@
         "type": "suggest",
         "q": "What are visitors invited to do?",
         "choices": [
-          "Place a repeat order",
+          "Compare two pieces of material",
           "Record instrument readings",
           "Approve a production batch",
-          "Compare two pieces of material"
+          "Place a repeat order"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "방문객들은 무엇을 하도록 권유받는가?",
           "choices": [
-            "재주문한다",
+            "두 재료 조각을 비교한다",
             "기기 수치를 기록한다",
             "생산분을 승인한다",
-            "두 재료 조각을 비교한다"
+            "재주문한다"
           ]
         },
-        "explain": "두 squares의 slight difference를 찾아보라는 지시를 (D)로 바꿔 말했다. 방문객에게 실제 생산 승인을 맡기는 것이 아니다."
+        "explain": "두 squares의 slight difference를 찾아보라는 지시를 (A)로 바꿔 말했다. 방문객에게 실제 생산 승인을 맡기는 것이 아니다."
       }
     ]
   },
@@ -2097,22 +2097,22 @@
         "type": "detail",
         "q": "How do the plans differ?",
         "choices": [
-          "The duration of recovery eligibility",
           "The number of authorized employees",
+          "The duration of recovery eligibility",
           "The speed of opening project folders",
           "The method of assigning project numbers"
         ],
-        "answer": 0,
+        "answer": 1,
         "ko": {
           "q": "요금제는 어떤 점이 다른가?",
           "choices": [
-            "복구가 가능한 기간",
             "권한을 가진 직원 수",
+            "복구가 가능한 기간",
             "프로젝트 폴더를 여는 속도",
             "프로젝트 번호 배정 방식"
           ]
         },
-        "explain": "how long deleted files can be recovered를 (A)로 바꿔 말했다. 접근 권한은 달라지지 않는다."
+        "explain": "how long deleted files can be recovered를 (B)로 바꿔 말했다. 접근 권한은 달라지지 않는다."
       },
       {
         "type": "suggest",
@@ -2256,17 +2256,17 @@
         "choices": [
           "To calculate room rental fees",
           "To choose replacement participants",
-          "To support a fair judgment of instruction",
-          "To determine instructors' travel costs"
+          "To determine instructors' travel costs",
+          "To support a fair judgment of instruction"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "평가에 출석률을 포함하는 이유는 무엇인가?",
           "choices": [
             "강의실 대여료 계산",
             "대체 참가자 선정",
-            "교수법의 공정한 평가",
-            "강사 출장비 결정"
+            "강사 출장비 결정",
+            "교수법의 공정한 평가"
           ]
         },
         "explain": "수업에 충분히 참석하지 않은 결과로 교수법을 판단하면 왜곡될 수 있다고 한다. 비용 산정과 무관하다."
@@ -2383,20 +2383,20 @@
         "choices": [
           "Review financing applications",
           "Demonstrate a furniture assembly",
-          "Print additional store maps",
-          "Lead the listeners around the store"
+          "Lead the listeners around the store",
+          "Print additional store maps"
         ],
-        "answer": 3,
+        "answer": 2,
         "ko": {
           "q": "남자는 개점 전에 무엇을 할 것인가?",
           "choices": [
             "금융 신청서를 검토한다",
             "가구 조립을 시연한다",
-            "매장 지도를 추가 인쇄한다",
-            "청취자들에게 매장을 안내한다"
+            "청취자들에게 매장을 안내한다",
+            "매장 지도를 추가 인쇄한다"
           ]
         },
-        "explain": "walk the sales floor with you를 매장 안내로 바꾼 (D)가 정답이다. 조립 시연은 언급하지 않는다."
+        "explain": "walk the sales floor with you를 매장 안내로 바꾼 (C)가 정답이다. 조립 시연은 언급하지 않는다."
       }
     ]
   },
@@ -2445,22 +2445,22 @@
         "type": "topic",
         "q": "What service is being advertised?",
         "choices": [
-          "Office space rental",
           "On-site document destruction",
+          "Office space rental",
           "Digital record restoration",
           "Compliance staff recruitment"
         ],
-        "answer": 1,
+        "answer": 0,
         "ko": {
           "q": "어떤 서비스를 광고하고 있는가?",
           "choices": [
-            "사무실 공간 임대",
             "현장 문서 파쇄",
+            "사무실 공간 임대",
             "디지털 기록 복구",
             "규정 준수 직원 채용"
           ]
         },
-        "explain": "특수 트럭이 사업장에서 문서를 파쇄하는 서비스이므로 (B)가 정답이다. 기록 복구 서비스가 아니다."
+        "explain": "특수 트럭이 사업장에서 문서를 파쇄하는 서비스이므로 (A)가 정답이다. 기록 복구 서비스가 아니다."
       },
       {
         "type": "detail",
@@ -2593,22 +2593,22 @@
         "type": "suggest",
         "q": "What should the listener prepare?",
         "choices": [
-          "Keys and maintenance records",
+          "A receipt for fuel purchases",
           "Cleaning supplies and photographs",
           "A new driver's application",
-          "A receipt for fuel purchases"
+          "Keys and maintenance records"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "청취자는 무엇을 준비해야 하는가?",
           "choices": [
-            "열쇠와 정비 기록",
+            "연료 구매 영수증",
             "청소 용품과 사진",
             "새 운전기사 지원서",
-            "연료 구매 영수증"
+            "열쇠와 정비 기록"
           ]
         },
-        "explain": "both sets of keys와 service booklet을 요청하므로 (A)가 정답이다. 사진은 수거 기사가 촬영한다."
+        "explain": "both sets of keys와 service booklet을 요청하므로 (D)가 정답이다. 사진은 수거 기사가 촬영한다."
       }
     ]
   },
@@ -2684,21 +2684,21 @@
         "q": "What concern has arisen during the trial?",
         "choices": [
           "Employees cannot operate the equipment",
-          "Raw material deliveries are late",
           "The product's appearance is inadequate",
+          "Raw material deliveries are late",
           "The panels exceed the specified size"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "시험 중 어떤 우려가 생겼는가?",
           "choices": [
             "직원이 장비를 작동하지 못한다",
-            "원자재 배송이 늦다",
             "제품 외관이 불충분하다",
+            "원자재 배송이 늦다",
             "패널이 지정 크기를 초과한다"
           ]
         },
-        "explain": "밝은 빛 아래 잔흠집이 보인다는 점을 외관 문제로 바꾼 (C)가 정답이다. 치수 문제는 언급하지 않는다."
+        "explain": "밝은 빛 아래 잔흠집이 보인다는 점을 외관 문제로 바꾼 (B)가 정답이다. 치수 문제는 언급하지 않는다."
       },
       {
         "type": "intention",
@@ -2815,22 +2815,22 @@
         "type": "suggest",
         "q": "Where can listeners check whether they qualify?",
         "choices": [
-          "At an apartment sales office",
+          "On the company's hiring site",
           "On a performance evaluation form",
           "In the factory production log",
-          "On the company's hiring site"
+          "At an apartment sales office"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "청취자는 어디에서 자신의 자격을 확인할 수 있는가?",
           "choices": [
-            "아파트 분양 사무소",
+            "회사의 채용 사이트",
             "성과 평가 양식",
             "공장 생산 기록",
-            "회사의 채용 사이트"
+            "아파트 분양 사무소"
           ]
         },
-        "explain": "recruitment website를 hiring site로 바꾼 (D)가 정답이다. 업무 성과와 지원은 관련이 없다."
+        "explain": "recruitment website를 hiring site로 바꾼 (A)가 정답이다. 업무 성과와 지원은 관련이 없다."
       }
     ]
   },

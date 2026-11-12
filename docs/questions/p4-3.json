@@ -49,18 +49,18 @@
         "q": "Why does the machine need cleaning more frequently?",
         "choices": [
           "More drinks are being prepared",
-          "The water contains more minerals",
+          "A pipe is leaking",
           "The cabinet has been moved",
-          "A pipe is leaking"
+          "The water contains more minerals"
         ],
-        "answer": 1,
+        "answer": 3,
         "ko": {
           "q": "머신을 더 자주 세척해야 하는 이유는 무엇인가?",
           "choices": [
             "음료를 더 많이 만들고 있어서다",
-            "물에 미네랄이 더 많아서다",
+            "수도관이 새어서다",
             "수납장을 옮겨서다",
-            "수도관이 새어서다"
+            "물에 미네랄이 더 많아서다"
           ]
         },
         "explain": "새 물 시료의 미네랄이 설치 당시보다 많다고 설명한다. 음료 수는 비슷하므로 사용량 증가가 원인이 아니다."
@@ -269,18 +269,18 @@
         "q": "What is being discussed?",
         "choices": [
           "A customer photography service",
-          "A protective clothing order",
+          "A product design choice",
           "A new gardening course",
-          "A product design choice"
+          "A protective clothing order"
         ],
-        "answer": 3,
+        "answer": 1,
         "ko": {
           "q": "무엇을 논의하고 있는가?",
           "choices": [
             "고객 사진 촬영 서비스",
-            "보호복 주문",
+            "제품 디자인 선택",
             "새 원예 강좌",
-            "제품 디자인 선택"
+            "보호복 주문"
           ]
         },
         "explain": "정원용 분무기 손잡이 두 안 중 무엇을 생산으로 넘길지 논의한다. 장갑은 시험 참가자의 사용 조건이지 주문 대상이 아니다."
@@ -378,19 +378,19 @@
         "type": "speaker",
         "q": "What kind of business is being advertised?",
         "choices": [
-          "A shoe repair service",
+          "A workplace cleaning service",
           "A hotel recruitment agency",
           "A clothing rental company",
-          "A workplace cleaning service"
+          "A shoe repair service"
         ],
-        "answer": 0,
+        "answer": 3,
         "ko": {
           "q": "광고하는 업체는 어떤 종류인가?",
           "choices": [
-            "신발 수선 서비스",
+            "직장 청소 서비스",
             "호텔 채용 대행사",
             "의류 대여 업체",
-            "직장 청소 서비스"
+            "신발 수선 서비스"
           ]
         },
         "explain": "신발 윗부분을 유지하고 굽·밑창을 수선하는 업체 광고다. 임시 신발도 제공하지 않아 대여 업체가 아니다."
@@ -623,19 +623,19 @@
         "type": "graphic",
         "q": "Look at the graphic. In which room will the tour begin?",
         "choices": [
-          "Room B",
+          "Room C",
           "Room D",
           "Room A",
-          "Room C"
+          "Room B"
         ],
-        "answer": 3,
+        "answer": 0,
         "ko": {
           "q": "시각 자료를 보라. 견학은 어느 방에서 시작하는가?",
           "choices": [
-            "B실",
+            "C실",
             "D실",
             "A실",
-            "C실"
+            "B실"
           ]
         },
         "explain": "대본의 시작 장소는 봉지를 어둠 속에 두는 단계이고 표의 해당 활동은 C실이다. B실은 재배 재료 준비 장소다."
@@ -734,17 +734,17 @@
         "q": "Why has the delivery date changed?",
         "choices": [
           "The workshop has moved to a new address",
-          "The customer requested additional units",
           "Some components must be replaced",
+          "The customer requested additional units",
           "The driver cannot identify the wall brackets"
         ],
-        "answer": 2,
+        "answer": 1,
         "ko": {
           "q": "배송일이 변경된 이유는 무엇인가?",
           "choices": [
             "작업장이 새 주소로 이전해서다",
-            "고객이 추가 장비를 요청해서다",
             "일부 부품을 교체해야 해서다",
+            "고객이 추가 장비를 요청해서다",
             "기사가 벽걸이 거치대를 식별할 수 없어서다"
           ]
         },
@@ -865,17 +865,17 @@
         "q": "What will happen to the cards before another group reviews them?",
         "choices": [
           "They will be sent to the store owner",
-          "They will be placed in a different order",
           "They will be labeled with visitors’ names",
+          "They will be placed in a different order",
           "They will be attached to the entrance door"
         ],
-        "answer": 1,
+        "answer": 2,
         "ko": {
           "q": "다른 그룹의 검토 전에 카드는 어떻게 되는가?",
           "choices": [
             "매장 주인에게 보낸다",
-            "순서를 섞는다",
             "방문객 이름을 붙인다",
+            "순서를 섞는다",
             "입구 문에 붙인다"
           ]
         },
@@ -955,17 +955,17 @@
         "choices": [
           "A restaurant wine-pricing agreement",
           "A new office bottle-delivery service",
-          "A business turning discarded material into products",
-          "A change in regional exhibition fees"
+          "A change in regional exhibition fees",
+          "A business turning discarded material into products"
         ],
-        "answer": 2,
+        "answer": 3,
         "ko": {
           "q": "보도의 주된 내용은 무엇인가?",
           "choices": [
             "식당 와인 가격 협약",
             "새 사무실 물병 배송 서비스",
-            "버린 재료를 제품으로 바꾸는 사업",
-            "지역 전시회 요금 변경"
+            "지역 전시회 요금 변경",
+            "버린 재료를 제품으로 바꾸는 사업"
           ]
         },
         "explain": "와인 코르크를 모아 책상 매트로 만들고 다른 제품도 시험하는 사업이다. 와인의 판매 가격에 관한 보도가 아니다."
