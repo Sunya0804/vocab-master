@@ -201,7 +201,7 @@
         ],
         "body": [
           "Brevin Metals sent an account-change request yesterday. I reached their finance manager through the number in our supplier register, and she confirmed the new details. Her name and the time of our call are in the attached verification record. I have sent that record to you, and no one else has acted on it yet. Lora Pell supervises our payment team, and Tavin Mer handles routine supplier records. Both are in the office today.",
-          "Today's payment list includes Brevin, Calto, Hesk, and Mardo. Hesk sent an account-change request last week; its verification call is booked for tomorrow. Calto and Mardo have made no requests to alter their payment details. Brevin's transfer is still in the system; the supplier requested payment this morning. I will be at a stock review this afternoon and can answer questions on my return. Please leave a note in the accounts log when your part of the process is complete. Brevin can be reached again tomorrow if you have a question about the record."
+          "Today's payment list includes Brevin, Calto, Hesk, and Mardo. Hesk sent an account-change request last week; its verification call is booked for tomorrow. Brevin's transfer is still in the system; the supplier requested payment this morning. I will be at a stock review this afternoon and can answer questions on my return. Please leave a note in the accounts log when your part of the process is complete. Brevin can be reached again tomorrow if you have a question about the record."
         ]
       }
     ],
@@ -225,7 +225,7 @@
         ],
         "body": [
           "브레빈 금속이 어제 계좌 변경을 요청했습니다. 공급업체 명부의 번호로 재무 관리자에게 연락해 새 정보를 확인받았습니다. 첨부 확인 기록에 이름과 통화 시간이 있습니다. 그 기록을 보내 드리며 아직 다른 사람이 처리한 단계는 없습니다. 로라 펠은 지급팀 책임자이고 타빈 메르는 통상 공급업체 기록을 담당합니다. 두 사람 모두 오늘 사무실에 있습니다.",
-          "오늘 지급 목록에는 브레빈, 칼토, 헤스크, 마르도가 있습니다. 헤스크는 지난주 계좌 변경을 요청했고 확인 통화는 내일로 잡혀 있습니다. 칼토와 마르도는 지급 정보를 바꾸어 달라는 요청을 하지 않았습니다. 브레빈 이체는 아직 시스템에 있으며 업체는 오늘 오전 지급을 요청했습니다. 오후 재고 검토 후 질문에 답할 수 있습니다. 담당 절차가 끝나면 회계 기록부에 메모를 남겨 주십시오. 기록에 질문이 있으면 내일 브레빈에 다시 연락할 수 있습니다."
+          "오늘 지급 목록에는 브레빈, 칼토, 헤스크, 마르도가 있습니다. 헤스크는 지난주 계좌 변경을 요청했고 확인 통화는 내일로 잡혀 있습니다. 브레빈 이체는 아직 시스템에 있으며 업체는 오늘 오전 지급을 요청했습니다. 오후 재고 검토 후 질문에 답할 수 있습니다. 담당 절차가 끝나면 회계 기록부에 메모를 남겨 주십시오. 기록에 질문이 있으면 내일 브레빈에 다시 연락할 수 있습니다."
         ]
       }
     ],
@@ -304,8 +304,8 @@
         "choices": [
           "Calto and Mardo only",
           "Calto, Hesk, and Mardo",
-          "Hesk only",
-          "Brevin and Hesk"
+          "Brevin, Calto, and Mardo",
+          "All four, using the details currently on file"
         ],
         "answer": 0,
         "ko": {
@@ -313,11 +313,11 @@
           "choices": [
             "칼토와 마르도만",
             "칼토, 헤스크, 마르도",
-            "헤스크만",
-            "브레빈과 헤스크"
+            "브레빈, 칼토, 마르도",
+            "네 곳 모두, 현재 등록된 계좌 정보로"
           ]
         },
-        "explain": "공지는 계좌 변경이 대기 중인 업체의 지급을 보류하고 다른 업체의 지급은 정상 진행하도록 한다. 이메일에서 브레빈은 확인 기록 전달 후 아직 처리되지 않았고 헤스크는 확인 통화 전이다. 변경 요청이 없는 칼토와 마르도만 지금 지급할 수 있다. 공지만으로는 업체별 현황을, 이메일만으로는 변경 대기 중 지급 처리 규칙을 알 수 없다.",
+        "explain": "공지는 계좌 변경이 대기 중인 업체의 지급을 보류하고(새 정보가 활성화되기 전에는 옛 계좌가 등록돼 있어도 보류), 다른 업체의 지급은 정상 진행하도록 한다. 이메일에서 브레빈은 확인 기록이 노르에게 전달됐을 뿐 아직 누구도 활성화하지 않았고, 헤스크는 확인 통화 전이다. 따라서 두 곳은 보류되고 나머지 칼토와 마르도만 지금 지급할 수 있다(A). B는 헤스크, C는 브레빈을 포함하고, D는 등록된 옛 정보로 네 곳 모두 보내는 것이라 공지의 보류 규칙에 어긋난다. 공지만으로는 오늘 목록의 업체별 현황을, 이메일만으로는 변경 대기 중 지급을 보류해야 하는지를 알 수 없다.",
         "crossRef": true
       },
       {
@@ -1272,7 +1272,7 @@
         "choices": [
           "Every color used in the interior",
           "Someone who can be contacted during the work",
-          "The broadcast’s intended customers",
+          "The neighboring businesses’ customers",
           "The cost of cleaning the unit"
         ],
         "answer": 1,
@@ -1281,7 +1281,7 @@
           "choices": [
             "실내에 쓰는 모든 색",
             "작업 중 연락 가능한 사람",
-            "방송 대상 고객",
+            "이웃 업체의 고객",
             "호실 청소 비용"
           ]
         },
@@ -1292,7 +1292,7 @@
         "q": "What has management deliberately left to the tenant?",
         "choices": [
           "Coordinating the recording interval",
-          "Naming a replacement broadcast customer",
+          "Inviting customers to the Unit 16 briefing",
           "Acknowledging the work notice",
           "Choosing the ceiling’s appearance"
         ],
@@ -1301,7 +1301,7 @@
           "q": "관리실이 의도적으로 입주업체에 맡긴 것은 무엇인가?",
           "choices": [
             "녹화 시간 조정",
-            "대체 방송 고객 지정",
+            "16호 브리핑에 고객 초대",
             "공사 통지 확인",
             "천장 외관 선택"
           ]
@@ -1315,7 +1315,7 @@
           "Moving the July 11 drilling to July 14",
           "Moving the July 10 drilling to July 12",
           "Pausing the July 11 drilling for the briefing and resuming at one",
-          "Moving the July 12 afternoon drilling to nine o'clock that morning"
+          "Wiping the shelves on July 14 after the drilling is finished"
         ],
         "answer": 0,
         "ko": {
@@ -1324,32 +1324,32 @@
             "7월 11일 드릴 작업을 7월 14일로 옮긴다",
             "7월 10일 드릴 작업을 7월 12일로 옮긴다",
             "7월 11일 브리핑 동안 드릴 작업을 멈췄다가 1시에 재개한다",
-            "7월 12일 오후 드릴 작업을 그날 오전 9시로 옮긴다"
+            "드릴 작업이 끝난 뒤 7월 14일에 선반을 닦는다"
           ]
         },
-        "explain": "편지는 드릴 작업 날짜를 7월 10~12일, 시간을 9시~11시 30분과 13시~15시로 정한다. 공지는 기재되지 않은 날짜로 소음 작업을 옮기면 새 통지를 요구한다. A만 승인 날짜 밖인 14일로 옮긴다. B는 승인 기간 안의 이동, C는 지정된 중단 후 재개, D는 같은 날 허용 시간 안의 이동이다. 공지만으로는 승인 날짜·시간을, 편지만으로는 새 통지 제출 규칙을 알 수 없다.",
+        "explain": "편지는 드릴 작업 날짜를 7월 10~12일, 시간을 9시~11시 30분과 13시~15시로 정한다. 공지는 기재되지 않은 날짜로 소음 작업을 옮기면 새 통지를 요구하고, 일상 청소는 통지 대상이 아니라고 한다. A는 소음 작업인 드릴을 승인 날짜 밖인 14일로 옮기므로 새 통지가 필요하다. D도 14일이지만 선반 닦기는 청소라 통지가 필요 없다. B는 승인 기간 안의 이동, C는 승인 날짜 안의 중단 후 허용 시간(1시) 재개다. 공지만으로는 어느 날짜·시간이 승인됐는지를, 편지만으로는 날짜 밖 작업 중 무엇에 새 통지가 필요한지를 알 수 없다.",
         "crossRef": true
       },
       {
         "type": "inference",
         "q": "What may the crew do during the July 10 midday interval?",
         "choices": [
-          "Continue drilling after changing the named contact",
-          "Choose a new ceiling color with management approval",
-          "Extend drilling into the reserved briefing period",
-          "Put labels on the trays without using power tools"
+          "Continue drilling while the named contact stays on site",
+          "Ask management to approve a different ceiling color",
+          "Resume drilling as soon as the briefing finishes early",
+          "Label the storage trays"
         ],
         "answer": 3,
         "ko": {
           "q": "작업팀은 7월 10일 정오 전후의 중단 시간에 무엇을 해도 되는가?",
           "choices": [
-            "담당자 이름을 바꾼 후 드릴 작업을 계속한다",
-            "관리사무소 승인을 받아 천장 색을 새로 고른다",
-            "브리핑 예약 시간까지 드릴 작업을 연장한다",
-            "전동 공구 없이 수납함에 라벨을 붙인다"
+            "지정 담당자가 현장에 있는 동안 드릴 작업을 계속한다",
+            "관리사무소에 다른 천장 색 승인을 요청한다",
+            "브리핑이 일찍 끝나면 바로 드릴 작업을 재개한다",
+            "수납함에 라벨을 붙인다"
           ]
         },
-        "explain": "편지는 중단 시간과 손으로 라벨을 붙이는 작업을 제시하고, 공지는 이웃 호실을 방해하지 않는 조용한 작업을 그 시간에도 허용한다. 따라서 D다."
+        "explain": "편지는 11시 30분~1시를 16호 브리핑 시간으로 비워 두고, 작업 계획에 손으로 하는 라벨 부착이 있다고 한다. 공지는 합의된 중단 시간에도 이웃을 방해하지 않는 조용한 작업은 계속할 수 있다고 하므로 D다. A·C는 확인된 시간(1시부터) 밖의 드릴 작업이고, 공지는 확인이 표시된 시간 밖 작업을 허가하지 않는다고 한다. B는 편지가 천장 색은 관리실이 검토하지 않는 업체 소관이라고 하므로 맞지 않다."
       },
       {
         "type": "synonym",
@@ -2781,22 +2781,22 @@
         "type": "inference",
         "q": "How should seat D13 be handled now?",
         "choices": [
-          "Reassign it to the new designer after disabling its current access",
-          "Renew its subscription before its holder returns",
-          "Keep it assigned for its holder to use after approved leave",
-          "Retain its current assignment for tasks being performed this week"
+          "Reassign it to Calen after disabling its current access",
+          "Release it when the subscription is reviewed at quarter-end",
+          "Keep it with its current holder",
+          "Transfer it to Pera Lin for her current assignments"
         ],
         "answer": 2,
         "ko": {
           "q": "현재 D13 이용권을 어떻게 처리해야 하는가?",
           "choices": [
-            "현재 접근을 해제한 뒤 새 설계자에게 재배정한다",
-            "보유자가 돌아오기 전에 구독을 갱신한다",
-            "승인 휴가 후 보유자가 사용하도록 배정을 유지한다",
-            "이번 주 수행 중인 업무를 위해 현재 배정을 유지한다"
+            "현재 접근을 해제한 뒤 칼렌에게 재배정한다",
+            "분기 말 구독 검토 때 반납한다",
+            "현재 보유자에게 그대로 둔다",
+            "현재 업무용으로 페라 린에게 넘긴다"
           ]
         },
-        "explain": "배정표의 D13은 베라의 이용권이며 이번 분기 대금이 지불되어 있다. 이메일은 베라가 승인 휴가 중이며 다음 주 설계 업무에 복귀한다고 한다. 메모는 단순 비활동만으로 회수하지 말고 복귀 후 필요를 확인하도록 한다.",
+        "explain": "배정표에서 D13은 베라 노스의 이용권이며 21일간 사용 기록이 없다. 메모는 사용 기록이 없다는 것만으로 회수할 수 없고 휴가 중인 직원도 복귀 후 업무가 있을 수 있다고 한다. 이메일은 베라가 승인 휴가 중이며 다음 주 설계 업무에 복귀한다고 하므로 현재 보유자에게 그대로 둔다(C). A: 칼렌에게는 앱이 필요 없는 직무로 옮긴 사밀의 D12가 맞다. B: 베라는 다음 주부터 다시 쓰므로 반납 대상이 아니다. D: 페라는 이미 D11을 쓰고 있다. 배정표만으로는 D13 보유자의 사정을, 이메일만으로는 D13이 누구 것인지를 알 수 없다.",
         "crossRef": true
       },
       {
@@ -4163,22 +4163,22 @@
         "type": "inference",
         "q": "How should X73's origin entries be arranged?",
         "choices": [
-          "Two lines, both identifying the central warehouse",
-          "Two lines, one for Lydora and one for Senwick",
-          "One line combining Lydora and Senwick",
-          "One line for Lydora, following the previous shipment"
+          "Two lines, both naming the central warehouse",
+          "Two lines, one per manufacturing site",
+          "One line covering both batches",
+          "One line, following last month's order"
         ],
         "answer": 1,
         "ko": {
           "q": "X73의 원산지 항목은 어떻게 구성해야 하는가?",
           "choices": [
-            "중앙 창고를 표시하는 두 줄로 작성한다",
-            "리도라와 센윅을 각각 한 줄씩 작성한다",
-            "리도라와 센윅을 한 줄로 통합한다",
-            "이전 출하처럼 리도라 한 줄로 작성한다"
+            "중앙 창고를 표시하는 두 줄",
+            "제조지별로 한 줄씩 두 줄",
+            "두 배치를 묶은 한 줄",
+            "지난달 주문처럼 한 줄"
           ]
         },
-        "explain": "이메일의 현재 두 배치는 서로 다른 공장에서 생산되었고 같은 창고에서 출하된다. 공지는 제조지별 별도 줄을 요구하므로 B다. 이메일만으로는 두 제조지를 한 줄로 합칠지 나눌지 알 수 없다.",
+        "explain": "이메일에서 X73의 두 배치는 리도라 공장(A18)과 센윅 공장(B22)에서 생산되어 같은 중앙 창고에서 출하된다. 공지는 원산지를 제조지 기준으로 정하고, 한 주문에 제조지가 둘이면 줄을 나누라고 하므로 B다. A는 창고를 원산지로 쓰고, C는 두 제조지를 한 줄로 합치며, D는 A18만 있던 지난달 주문을 따른다. 공지만으로는 X73의 제조지가 몇 곳인지를, 이메일만으로는 줄을 나누는 규칙을 알 수 없다.",
         "crossRef": true
       },
       {

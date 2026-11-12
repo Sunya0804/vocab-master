@@ -5683,7 +5683,7 @@
             "choices": [
               "Every color used in the interior",
               "Someone who can be contacted during the work",
-              "The broadcast’s intended customers",
+              "The neighboring businesses’ customers",
               "The cost of cleaning the unit"
             ],
             "answer": 1,
@@ -5692,7 +5692,7 @@
               "choices": [
                 "실내에 쓰는 모든 색",
                 "작업 중 연락 가능한 사람",
-                "방송 대상 고객",
+                "이웃 업체의 고객",
                 "호실 청소 비용"
               ]
             },
@@ -5703,7 +5703,7 @@
             "q": "What has management deliberately left to the tenant?",
             "choices": [
               "Coordinating the recording interval",
-              "Naming a replacement broadcast customer",
+              "Inviting customers to the Unit 16 briefing",
               "Acknowledging the work notice",
               "Choosing the ceiling’s appearance"
             ],
@@ -5712,7 +5712,7 @@
               "q": "관리실이 의도적으로 입주업체에 맡긴 것은 무엇인가?",
               "choices": [
                 "녹화 시간 조정",
-                "대체 방송 고객 지정",
+                "16호 브리핑에 고객 초대",
                 "공사 통지 확인",
                 "천장 외관 선택"
               ]
@@ -5726,7 +5726,7 @@
               "Moving the July 11 drilling to July 14",
               "Moving the July 10 drilling to July 12",
               "Pausing the July 11 drilling for the briefing and resuming at one",
-              "Moving the July 12 afternoon drilling to nine o'clock that morning"
+              "Wiping the shelves on July 14 after the drilling is finished"
             ],
             "answer": 0,
             "ko": {
@@ -5735,32 +5735,32 @@
                 "7월 11일 드릴 작업을 7월 14일로 옮긴다",
                 "7월 10일 드릴 작업을 7월 12일로 옮긴다",
                 "7월 11일 브리핑 동안 드릴 작업을 멈췄다가 1시에 재개한다",
-                "7월 12일 오후 드릴 작업을 그날 오전 9시로 옮긴다"
+                "드릴 작업이 끝난 뒤 7월 14일에 선반을 닦는다"
               ]
             },
-            "explain": "편지는 드릴 작업 날짜를 7월 10~12일, 시간을 9시~11시 30분과 13시~15시로 정한다. 공지는 기재되지 않은 날짜로 소음 작업을 옮기면 새 통지를 요구한다. A만 승인 날짜 밖인 14일로 옮긴다. B는 승인 기간 안의 이동, C는 지정된 중단 후 재개, D는 같은 날 허용 시간 안의 이동이다. 공지만으로는 승인 날짜·시간을, 편지만으로는 새 통지 제출 규칙을 알 수 없다.",
+            "explain": "편지는 드릴 작업 날짜를 7월 10~12일, 시간을 9시~11시 30분과 13시~15시로 정한다. 공지는 기재되지 않은 날짜로 소음 작업을 옮기면 새 통지를 요구하고, 일상 청소는 통지 대상이 아니라고 한다. A는 소음 작업인 드릴을 승인 날짜 밖인 14일로 옮기므로 새 통지가 필요하다. D도 14일이지만 선반 닦기는 청소라 통지가 필요 없다. B는 승인 기간 안의 이동, C는 승인 날짜 안의 중단 후 허용 시간(1시) 재개다. 공지만으로는 어느 날짜·시간이 승인됐는지를, 편지만으로는 날짜 밖 작업 중 무엇에 새 통지가 필요한지를 알 수 없다.",
             "crossRef": true
           },
           {
             "type": "inference",
             "q": "What may the crew do during the July 10 midday interval?",
             "choices": [
-              "Continue drilling after changing the named contact",
-              "Choose a new ceiling color with management approval",
-              "Extend drilling into the reserved briefing period",
-              "Put labels on the trays without using power tools"
+              "Continue drilling while the named contact stays on site",
+              "Ask management to approve a different ceiling color",
+              "Resume drilling as soon as the briefing finishes early",
+              "Label the storage trays"
             ],
             "answer": 3,
             "ko": {
               "q": "작업팀은 7월 10일 정오 전후의 중단 시간에 무엇을 해도 되는가?",
               "choices": [
-                "담당자 이름을 바꾼 후 드릴 작업을 계속한다",
-                "관리사무소 승인을 받아 천장 색을 새로 고른다",
-                "브리핑 예약 시간까지 드릴 작업을 연장한다",
-                "전동 공구 없이 수납함에 라벨을 붙인다"
+                "지정 담당자가 현장에 있는 동안 드릴 작업을 계속한다",
+                "관리사무소에 다른 천장 색 승인을 요청한다",
+                "브리핑이 일찍 끝나면 바로 드릴 작업을 재개한다",
+                "수납함에 라벨을 붙인다"
               ]
             },
-            "explain": "편지는 중단 시간과 손으로 라벨을 붙이는 작업을 제시하고, 공지는 이웃 호실을 방해하지 않는 조용한 작업을 그 시간에도 허용한다. 따라서 D다."
+            "explain": "편지는 11시 30분~1시를 16호 브리핑 시간으로 비워 두고, 작업 계획에 손으로 하는 라벨 부착이 있다고 한다. 공지는 합의된 중단 시간에도 이웃을 방해하지 않는 조용한 작업은 계속할 수 있다고 하므로 D다. A·C는 확인된 시간(1시부터) 밖의 드릴 작업이고, 공지는 확인이 표시된 시간 밖 작업을 허가하지 않는다고 한다. B는 편지가 천장 색은 관리실이 검토하지 않는 업체 소관이라고 하므로 맞지 않다."
           },
           {
             "type": "synonym",

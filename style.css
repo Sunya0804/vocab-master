@@ -110,3 +110,28 @@ button.omr-no{color:var(--primary);text-decoration:underline}
 .word-senses{width:100%;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);text-align:left}.senses-label{font-size:12px;color:var(--muted);margin-bottom:4px}.word-senses ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.sense-meaning{display:inline-block;font-size:12px;line-height:1.5;padding:1px 8px;border-radius:6px;background:var(--raised);color:var(--ink)}.word-senses .word-example{margin-top:4px;padding-top:0;border-top:0}.study-card .word-senses .word-example{padding-top:0}.cloze-sense{font-size:13px;color:var(--secondary)}
 .mock-review-part{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}.mock-review-part>summary{min-height:44px;display:flex;align-items:center;font-weight:500;cursor:pointer}.mock-review-part>.mock-review-unit:first-of-type{margin-top:4px}
 .mock-review-unit .exam-set-ko{margin:0 0 8px}.mock-review-unit p[lang=en]{margin-top:12px}
+/* Wide screens (ui-20): sidebar menu, grid lists and a readable column per screen; under 1024px the phone layout stays. */
+@media(min-width:1024px){
+.app-shell,.app-shell:has(.exam-reading){max-width:none;margin:0;padding-left:232px;border:0}
+.brand-bar{position:fixed;top:0;left:0;z-index:11;width:232px;padding:32px 24px 16px}
+.bottom-nav{top:0;bottom:0;left:0;transform:none;width:232px;grid-template-columns:1fr;grid-auto-rows:min-content;align-content:start;gap:4px;padding:96px 16px 24px;border-top:0;border-right:1px solid var(--line)}
+.bottom-nav a{flex-direction:row;justify-content:flex-start;gap:12px;min-height:48px;padding:0 16px;border-radius:10px;font-size:14px}
+.bottom-nav a:hover{background:var(--raised);color:var(--ink)}
+.bottom-nav a[aria-current=page]{background:var(--raised)}
+.bottom-nav a[aria-current=page]::before{top:12px;left:0;width:3px;height:24px;border-radius:2px}
+main{max-width:1120px;margin:0 auto;padding:40px 48px 64px}
+html:is([data-page=cards],[data-page=quiz],[data-page=cloze],[data-page=listen],[data-page=practice],[data-page=exam-sub],[data-page=settings]) main{max-width:720px}
+html[data-page] main:has(.exam-reading){max-width:1180px}
+.reading-passage,.reading-questions{max-height:max(320px,calc(100dvh - 300px))}
+.home-controls{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin-top:8px}
+.home-controls>*{margin:0}
+.home-controls .language-switch{flex:none;min-width:160px}
+.home-controls .package-picker{flex:0 1 280px}
+.home-controls .level-filter{flex:1 1 440px;min-width:0}.home-controls .level-chip{padding:8px 10px}
+.hero-words{grid-template-columns:repeat(3,minmax(0,1fr))}
+.hero-words li{grid-template-columns:1fr;gap:2px}
+.day-list{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.day-list .level-heading{grid-column:1/-1}
+html:is([data-page=day],[data-page=wrong]) .word-list{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+html[data-page=day] main>.stack{max-width:720px}
+}

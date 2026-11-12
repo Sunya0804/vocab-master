@@ -5526,22 +5526,22 @@
             "type": "inference",
             "q": "How should X73's origin entries be arranged?",
             "choices": [
-              "Two lines, both identifying the central warehouse",
-              "Two lines, one for Lydora and one for Senwick",
-              "One line combining Lydora and Senwick",
-              "One line for Lydora, following the previous shipment"
+              "Two lines, both naming the central warehouse",
+              "Two lines, one per manufacturing site",
+              "One line covering both batches",
+              "One line, following last month's order"
             ],
             "answer": 1,
             "ko": {
               "q": "X73의 원산지 항목은 어떻게 구성해야 하는가?",
               "choices": [
-                "중앙 창고를 표시하는 두 줄로 작성한다",
-                "리도라와 센윅을 각각 한 줄씩 작성한다",
-                "리도라와 센윅을 한 줄로 통합한다",
-                "이전 출하처럼 리도라 한 줄로 작성한다"
+                "중앙 창고를 표시하는 두 줄",
+                "제조지별로 한 줄씩 두 줄",
+                "두 배치를 묶은 한 줄",
+                "지난달 주문처럼 한 줄"
               ]
             },
-            "explain": "이메일의 현재 두 배치는 서로 다른 공장에서 생산되었고 같은 창고에서 출하된다. 공지는 제조지별 별도 줄을 요구하므로 B다. 이메일만으로는 두 제조지를 한 줄로 합칠지 나눌지 알 수 없다.",
+            "explain": "이메일에서 X73의 두 배치는 리도라 공장(A18)과 센윅 공장(B22)에서 생산되어 같은 중앙 창고에서 출하된다. 공지는 원산지를 제조지 기준으로 정하고, 한 주문에 제조지가 둘이면 줄을 나누라고 하므로 B다. A는 창고를 원산지로 쓰고, C는 두 제조지를 한 줄로 합치며, D는 A18만 있던 지난달 주문을 따른다. 공지만으로는 X73의 제조지가 몇 곳인지를, 이메일만으로는 줄을 나누는 규칙을 알 수 없다.",
             "crossRef": true
           },
           {

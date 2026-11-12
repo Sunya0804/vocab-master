@@ -16,6 +16,8 @@
     try {
       const parts = (location.hash || '#/home').slice(2).split('/').map(decodeURIComponent);
       const page = parts[0];
+      // Wide-screen CSS (style.css, min-width:1024px) sizes the main column per screen.
+      document.documentElement.dataset.page = !page ? 'home' : page === 'exam' && parts[1] ? 'exam-sub' : page;
       // Fetch only the built-in packages this screen reads; show the loading state meanwhile.
       const needed = page === 'home' || !page ? [(findPackage(selectedPackage) || packages()[0])?.id]
         : ['day','cards','quiz','cloze','listen'].includes(page) ? [parts[1]]
