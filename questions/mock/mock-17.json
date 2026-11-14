@@ -157,11 +157,11 @@
         "difficulty": 3,
         "photoType": "object",
         "place": "street",
-        "alt": "도로 한쪽 차선에 뚜껑이 열린 맨홀이 있고, 그 주위를 주황색 바리케이드 네 개가 사각형으로 둘러싸고 있다. 맨홀 뚜껑은 바리케이드 안쪽 바닥에 비스듬히 따로 놓여 있다. 막힌 차선은 비어 있고 반대편 차선에만 승용차 두 대가 서 있다. 보도 가장자리에 공구 가방 하나가 놓여 있다. 사람은 없다.",
+        "alt": "도로 한쪽 차선에 뚜껑이 열린 맨홀이 있고, 그 주위를 주황색 바리케이드 네 개가 사각형으로 둘러싸고 있다. 맨홀 뚜껑은 바리케이드 안쪽 바닥에 비스듬히 따로 놓여 있다. 막힌 차선은 비어 있고 옆의 두 차선에 승용차가 한 대씩 지나가고 있다. 보도 가장자리에 공구 가방 하나가 놓여 있다. 사람은 없다.",
         "choices": [
           "Some workers are climbing out of a manhole.",
           "Part of the road has been blocked off with barriers.",
-          "Vehicles are lined up in both lanes.",
+          "A car is parked inside the barriers.",
           "A manhole cover has been put back in place."
         ],
         "answer": 1,
@@ -169,7 +169,7 @@
           "choices": [
             "작업자들이 맨홀에서 올라오고 있다.",
             "도로 일부가 차단물로 막혀 있다.",
-            "두 차선 모두에 차들이 줄지어 서 있다.",
+            "바리케이드 안쪽에 차 한 대가 주차되어 있다.",
             "맨홀 뚜껑이 제자리에 다시 덮여 있다."
           ]
         },
@@ -178,7 +178,7 @@
           "position",
           "position"
         ],
-        "explain": "바리케이드가 맨홀 주위 차선을 막고 있다. 사람은 없고, 차는 반대편 차선에만 있으며 맨홀 뚜껑은 옆에 따로 놓여 있다.",
+        "explain": "바리케이드가 맨홀 주위 차선을 막고 있다. 사람은 없고, 바리케이드 안에는 차가 없으며 맨홀 뚜껑은 옆에 따로 놓여 있다.",
         "id": "m-p1-17-06",
         "test": 17,
         "image": "images/mock/m1-17-6.webp"

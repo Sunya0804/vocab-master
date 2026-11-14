@@ -60,7 +60,6 @@
         "degree",
         "campus",
         "term",
-        "conference",
         "lecture",
         "seminar",
         "workshop",
@@ -131,7 +130,6 @@
         "pleased",
         "excited",
         "bored",
-        "tired",
         "worried",
         "afraid",
         "angry",
@@ -432,6 +430,7 @@
     {
       "name": "건강·의료",
       "words": [
+        "tired",
         "treat",
         "recover",
         "recovery",
@@ -450,13 +449,13 @@
         "diagnosis",
         "therapy",
         "nutrition",
-        "prescribe",
-        "alleviate"
+        "prescribe"
       ]
     },
     {
       "name": "건강·의료",
       "words": [
+        "alleviate",
         "impair",
         "convulse",
         "debilitate",
@@ -921,6 +920,7 @@
         "application",
         "qualification",
         "reference",
+        "conference",
         "coordinator",
         "department",
         "employment",
@@ -929,13 +929,13 @@
         "competent",
         "recruit",
         "workforce",
-        "tenure",
-        "grievance"
+        "tenure"
       ]
     },
     {
       "name": "직업·노동",
       "words": [
+        "grievance",
         "morale",
         "reprimand"
       ]
@@ -949,7 +949,6 @@
         "public",
         "national",
         "international",
-        "noticeboard",
         "population",
         "member",
         "team",

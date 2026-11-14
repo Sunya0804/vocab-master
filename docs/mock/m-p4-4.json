@@ -5141,7 +5141,7 @@
         "q": "When does the current lease end?",
         "choices": [
           "In three years",
-          "At the end of this month",
+          "At the end of this week",
           "In January",
           "At the end of March"
         ],
@@ -5150,12 +5150,12 @@
           "q": "현재 임대는 언제 끝나는가?",
           "choices": [
             "3년 후",
-            "이달 말",
+            "이번 주 말",
             "1월",
             "3월 말"
           ]
         },
-        "explain": "임대가 3월 31일에 끝난다고 했으므로 (D)이다. 이달 말은 답변 기한이다."
+        "explain": "임대가 3월 31일에 끝난다고 했으므로 (D)이다. 3년은 새로 제안된 갱신 기간이고, 이달 말은 결정을 알려 달라는 기한이다."
       },
       {
         "type": "reason",
