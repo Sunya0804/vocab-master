@@ -44,7 +44,7 @@ test('sentence splitting handles multiple sentences without removing punctuation
   assert.deepEqual(Core.lcSentences('Please wait here. Then call me!'), ['Please wait here.','Then call me!']);
 });
 
-const context = vm.createContext({Core, console, setTimeout, clearTimeout, supportsSpeech:true,
+const context = vm.createContext({Core, console, noteActivity(){}, setTimeout, clearTimeout, supportsSpeech:true,
   location:{hash:'#/exam/3/set'}, document:{hidden:false, querySelectorAll:() => [], querySelector:() => null},
   render:() => {}, stopMockAudio:() => {}, haltListening:() => {}, cancelSpeech:() => {},
   escape:s => String(s).replaceAll('<','&lt;'), icon:() => '', back:() => '', intro:() => '', meter:() => '',

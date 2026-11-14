@@ -15,7 +15,7 @@ function application() {
   const typeSelect = {focus:() => { effects.focused = true; }};
   const main = {addEventListener:(name, fn) => { mainEvents[name] = fn; }, focus:() => {},
     querySelector:selector => selector.startsWith('[data-exam-type=') ? typeSelect : null};
-  const context = vm.createContext({Core, console, URL, effects, fixture, main, ready:false, session:null, selectedPackage:'',
+  const context = vm.createContext({Core, console, noteActivity(){}, URL, effects, fixture, main, ready:false, session:null, selectedPackage:'',
     quizTimer:null, history:{}, homePositions:new Map(), restoringHome:false,
     location:{hash:'#/exam'}, supportsSpeech:true, quizAnnouncement:{textContent:''},
     document:{hidden:false, querySelector:() => null, querySelectorAll:() => [],
