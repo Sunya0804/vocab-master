@@ -576,6 +576,73 @@
     return String(text).split(' / ')[0];
   }
 
+  function normalizeSearch(value, german = false) {
+    var text = String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss');
+    if (german) text = text.replace(/\b(?:der|die|das)\s+/g, '');
+    return text.trim().replace(/\s+/g, ' ');
+  }
+
+  function searchWords(packages, query) {
+    if (!String(query || '').trim()) return [];
+    var results = [];
+    packages.forEach(function (pkg) {
+      if (!Array.isArray(pkg.words)) return;
+      // Imported wordbooks have no language tag; a German article in the query
+      // still works there, while explicitly English books keep "die casting" intact.
+      var german = /^de/i.test(pkg.lang || '') || (!pkg.lang && /^(?:der|die|das)\s/i.test(String(query).trim()));
+      var terms = normalizeSearch(query, german).split(' ').filter(Boolean);
+      if (!terms.length) return;
+      pkg.words.forEach(function (word, index) {
+        var fields = word.slice(0, 5).concat(wordSenses(word).flat()).map(function (field) { return normalizeSearch(field, german); }).join(' ');
+        if (terms.every(function (term) { return fields.includes(term); })) {
+          results.push({pkgId:pkg.id, pkgName:pkg.name, day:Math.floor(index / 20), word:word});
+        }
+      });
+    });
+    return results;
+  }
+
+  // Statistics derive from existing persisted records; no new backup schema is needed.
+  function learningStats(state, packages, exam, mock) {
+    var books = packages.map(function (pkg) {
+      var loaded = Array.isArray(pkg.words), totalDays = loaded ? chunkDays(pkg.words).length : null;
+      var studiedDays = loaded ? Array.from({length:totalDays}, function (_, i) { return i; }).filter(function (i) {
+        return !!state.progress[pkg.id + ':' + i]?.studied;
+      }).length : null;
+      var seen = new Set();
+      var known = loaded ? pkg.words.filter(function (word) {
+        var id = wordId(pkg.id, word[0]);
+        if (seen.has(id)) return false;
+        seen.add(id);
+        return !!state.known[id];
+      }).length : null;
+      return {id:pkg.id, name:pkg.name, totalDays:totalDays, studiedDays:studiedDays, known:known};
+    });
+    var parts = Array.from({length:7}, function (_, i) { return {part:i + 1, solved:0, correct:0, accuracy:null}; });
+    Object.entries(exam?.answers || {}).forEach(function (pair) {
+      var match = /^p([1-7])-/.exec(pair[0]), answer = pair[1];
+      if (!match || typeof answer?.correct !== 'boolean') return;
+      var part = parts[Number(match[1]) - 1];
+      part.solved++;
+      if (answer.correct) part.correct++;
+    });
+    parts.forEach(function (part) { if (part.solved) part.accuracy = Math.round(part.correct / part.solved * 100); });
+    // One point per test, using its latest attempt (not its best attempt).
+    var latest = new Map();
+    (mock?.attempts || []).forEach(function (attempt) {
+      if (!latest.has(attempt.test) || latest.get(attempt.test).at <= attempt.at) latest.set(attempt.test, attempt);
+    });
+    var scores = Array.from(latest.values()).sort(function (a, b) { return a.test - b.test; }).map(function (attempt) {
+      var lc = mockScore(attempt.lc), rc = mockScore(attempt.rc);
+      return {test:attempt.test, at:attempt.at, lc:lc, rc:rc, total:lc + rc};
+    });
+    return {books:books, wrong:Object.keys(state.wrong).length, parts:parts, scores:scores};
+  }
+
+  function dictationAnswer(word) {
+    return spokenText(word[0]).trim();
+  }
+
   // Mock test section score (5-495) from correct answers out of 100: midpoints of the approximate table in
   // docs/research/toeic-p1-p6-p7.md 4-4 (count bucket middle -> score range middle), linear between them, 5-point steps.
   var MOCK_SCALE = [[0, 5], [9.5, 35], [24.5, 87.5], [34.5, 132.5], [44.5, 180], [54.5, 230], [64.5, 282.5], [72, 327.5],
@@ -611,6 +678,10 @@
   }
 
   return {
+    normalizeSearch: normalizeSearch,
+    searchWords: searchWords,
+    learningStats: learningStats,
+    dictationAnswer: dictationAnswer,
     mockScore: mockScore,
     validMockState: validMockState,
     spokenText: spokenText,
