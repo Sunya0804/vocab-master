@@ -9,17 +9,20 @@
     const due = dueEntries().length, goal = state.daily.goal;
     const {count, week} = Core.streak(state.activity, today);
     const days = Core.chunkDays(pkg.words);
-    const next = days.findIndex((_, index) => !state.progress[`${pkg.id}:${index}`]?.studied);
+    const levels = Core.dayLevels(pkg), chosen = selectedLevels[pkg.id];
+    const allowed = days.map((_, index) => index).filter(index => !levels.includes(chosen) || levels[index] === chosen);
+    const next = allowed.find(index => !state.progress[`${pkg.id}:${index}`]?.studied) ?? -1;
+    const resume = next < 0 ? allowed[0] ?? 0 : next;
+    const stars = Object.keys(state.stars).length;
     const target = goal + done.reviewed + due, reached = Math.min(done.learned, goal) + done.reviewed;
     const weekday = ['일', '월', '화', '수', '목', '금', '토'];
-    const stars = Object.keys(state.stars).length;
     return `<section class="hero today-card" aria-label="오늘 할 것"><div class="hero-heading"><h2>오늘 할 것</h2><span>${count ? `연속 ${count}일 학습` : '오늘 첫 학습을 시작해요'}</span></div>
       <ol class="streak-week" aria-label="최근 7일 학습 기록">${week.map((active, i) => {
         const day = Core.addDays(today, i - 6), label = i === 6 ? '오늘' : weekday[new Date(`${day}T00:00`).getDay()];
         return `<li class="${active ? 'is-active' : ''}" aria-label="${escape(label)} ${active ? '학습함' : '학습 안 함'}">${escape(label)}</li>`;
       }).join('')}</ol>
       <div class="today-row"><p><strong>복습 ${due}개</strong><small>${due ? `오늘 다시 볼 단어예요${due > 50 ? ' · 한 번에 50개씩' : ''}` : '오늘 복습할 단어를 모두 마쳤어요'}</small></p>${due ? `<a class="button-link primary" href="#/review">복습 시작</a>` : ''}</div>
-      <div class="today-row"><p><strong>${next < 0 ? '모든 Day를 마쳤어요' : `Day ${String(next + 1).padStart(2, '0')} 이어서 학습`}</strong><small>${escape(pkg.name)} · ${days[next < 0 ? 0 : next]?.length || 0}단어</small></p><a class="button-link" href="${dayHash(pkg.id, next < 0 ? 0 : next)}">${next < 0 ? '다시 학습' : '학습'}</a></div>
+      <div class="today-row"><p><strong>${next < 0 ? '모든 Day를 마쳤어요' : `Day ${String(next + 1).padStart(2, '0')} 이어서 학습`}</strong><small>${escape(pkg.name)} · ${days[resume]?.length || 0}단어</small></p><a class="button-link" href="${dayHash(pkg.id, resume)}">${next < 0 ? '다시 학습' : '학습'}</a></div>
       <div class="today-goal"><div class="hero-meta"><span>하루 목표 · 새 단어 ${Math.min(done.learned, goal)}/${goal} · 복습 ${done.reviewed}/${done.reviewed + due}</span><span>${target ? Math.round(reached / target * 100) : 100}%</span></div>${meter(reached, target, '하루 목표 진행')}</div></section>
       <a class="day-card starred-link" href="#/starred"><span class="day-number star-mark" aria-hidden="true">${icon('star')}</span><div><div class="day-title"><strong>내 단어장</strong></div><div class="day-meta"><span>${stars ? `별표한 단어 ${stars}개` : '단어 옆 별표를 누르면 여기에 모여요'}</span></div></div><span class="chevron" aria-hidden="true">${icon('chevron-right')}</span></a>`;
   }

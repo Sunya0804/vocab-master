@@ -926,12 +926,15 @@ test('streak counts consecutive local days, keeps an open today and crosses mont
   assert.equal(Core.localDay(new Date(2026, 0, 2, 0, 0, 0)), '2026-01-02');
 });
 
-test('logActivity counts kinds per day and drops days older than 60 days', () => {
+test('logActivity keeps history so long streaks survive beyond 60 days', () => {
   const state = Core.defaultState();
   state.activity['2026-01-01'] = { learned: 1, reviewed: 0, exam: 0 };
   Core.logActivity(state, '2026-03-15', 'exam');
   Core.logActivity(state, '2026-03-15', 'reviewed');
-  assert.deepEqual(state.activity, { '2026-03-15': { learned: 0, reviewed: 1, exam: 1 } });
+  assert.deepEqual(state.activity['2026-03-15'], { learned: 0, reviewed: 1, exam: 1 });
+  assert.equal(state.activity['2026-01-01'].learned, 1);
+  for (let i = 0; i < 100; i++) Core.logActivity(state, Core.addDays('2026-01-01', i), 'exam');
+  assert.equal(Core.streak(state.activity, Core.addDays('2026-01-01', 99)).count, 100);
 });
 
 test('toggleStar adds and removes a word with its package', () => {
@@ -960,6 +963,50 @@ test('loadState keeps old states, drops bad schedule/star/activity entries and r
   assert.equal(store.getItem('vocab-master-v1-corrupt'), raw);
   const kept = Core.loadState(storage({ 'vocab-master-v1': JSON.stringify({ ...old, daily: { goal: 35 } }) }));
   assert.equal(kept.daily.goal, 35);
+});
+
+test('repeat study records the local day without inflating new words or due reviews', () => {
+  const state = Core.defaultState(), word = ['agenda', '안건'];
+  Core.recordAnswer(state, 'toeic', word, true, '2026-05-01');
+  Core.recordAnswer(state, 'toeic', word, false, '2026-05-02');
+  assert.equal(state.activity['2026-05-02'].reviewed, 1);
+  Core.recordAnswer(state, 'toeic', word, true, '2026-05-02');
+  assert.equal(state.activity['2026-05-02'].reviewed, 1);
+  assert.equal(state.activity['2026-05-02'].learned, 0);
+  assert.equal(Core.streak(state.activity, '2026-05-02').count, 2);
+  state.activity['2026-05-03'] = {learned:0,reviewed:0,exam:0};
+  assert.equal(Core.streak(state.activity, '2026-05-04').count, 0, 'empty entries are not activity');
+});
+
+test('new backup fields reject impossible dates, mismatched ids and invalid containers', () => {
+  const good = {pkg:'toeic',en:'agenda',due:'2024-02-29',step:2};
+  assert.equal(Core.validLearningFields({}), true, 'old backups remain valid');
+  assert.equal(Core.validLearningFields({review:{'toeic:agenda':good}}), true);
+  for (const value of [
+    {review:{'toeic:agenda':{...good,due:'2026-02-29'}}},
+    {review:{'toeic:other':good}}, {stars:{'toeic:agenda':{pkg:'other',en:'agenda'}}},
+    {review:[]}, {stars:null}, {daily:{goal:201}},
+    {activity:{'2026-13-01':{learned:1,reviewed:0,exam:0}}}
+  ]) assert.equal(Core.validLearningFields(value), false, JSON.stringify(value));
+  const store = storage({'vocab-master-v1':JSON.stringify({...Core.defaultState(),review:{'toeic:agenda':{...good,due:'2026-02-29'}}})});
+  assert.deepEqual(Core.loadState(store).review, {});
+});
+
+test('concurrent tab merge preserves unrelated records, deletions and daily activity increments', () => {
+  const base = Core.defaultState();
+  Core.toggleStar(base, 'a', 'removed');
+  const local = JSON.parse(JSON.stringify(base)), remote = JSON.parse(JSON.stringify(base));
+  Core.toggleStar(remote, 'a', 'removed');
+  Core.toggleStar(remote, 'a', 'remote');
+  Core.scheduleReview(remote, 'a', 'remote', true, '2026-05-01');
+  Core.toggleStar(local, 'a', 'local');
+  Core.scheduleReview(local, 'a', 'local', true, '2026-05-01');
+  const result = Core.mergeState(base, local, remote);
+  assert.deepEqual(Object.keys(result.stars).sort(), ['a:local','a:remote']);
+  assert.deepEqual(Object.keys(result.review).sort(), ['a:local','a:remote']);
+  assert.equal(result.activity['2026-05-01'].learned, 2);
+  assert.equal(result.activity['2026-05-01'].studied, 2);
+  assert.equal(Object.keys(base.stars).length, 1, 'inputs unchanged');
 });
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

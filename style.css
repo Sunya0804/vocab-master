@@ -20,7 +20,7 @@
 @media(prefers-color-scheme:dark){:root{--bg:#141415;--surface:#19191b;--raised:#232325;--ink:#ededed;--secondary:#a1a1a6;--muted:#939399;--line:rgb(237 237 237 / 8%);--primary:#5fcf9f;--primary-ink:#141415;--highlight:#6b5c2a;--danger:#d28d86;--danger-bg:#332426;--success:#99bba3;--success-bg:#223029;--shadow:none;--shadow-segment:none;--shadow-float:0 8px 24px rgb(0 0 0 / 40%)}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
 /* Word rows: speaker + known checkbox sit on the headword line; meaning and example use the full card width. */
-.word-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:start;column-gap:4px}
+.word-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;align-items:start;column-gap:4px}
 .word-row>.word-content{display:contents}
 .word-row>.word-content>*{grid-column:1/-1}
 .word-row>.word-content>.word-title{grid-column:1;grid-row:1;align-self:center}

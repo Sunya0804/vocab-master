@@ -232,6 +232,30 @@
   var REVIEW_INTERVALS = [1, 3, 7, 14, 30];
   var DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
 
+  function validDay(day) {
+    if (typeof day !== 'string' || !DAY_KEY.test(day)) return false;
+    var parts = day.split('-').map(Number), d = new Date(0);
+    d.setUTCFullYear(parts[0], parts[1] - 1, parts[2]);
+    return parts[0] > 0 && d.getUTCFullYear() === parts[0] && d.getUTCMonth() === parts[1] - 1 && d.getUTCDate() === parts[2];
+  }
+
+  function validSavedWord(id, e) {
+    return isRecord(e) && typeof e.pkg === 'string' && !!e.pkg.trim() && typeof e.en === 'string' && !!e.en.trim()
+      && id === wordId(e.pkg, e.en);
+  }
+
+  var learningChecks = {
+    review: function (id, e) { return validSavedWord(id, e) && Number.isInteger(e.step) && e.step >= 0 && e.step < REVIEW_INTERVALS.length && validDay(e.due); },
+    stars: validSavedWord,
+    activity: function (day, e) { return validDay(day) && isRecord(e) && ['learned', 'reviewed', 'exam'].every(function (k) { return Number.isSafeInteger(e[k]) && e[k] >= 0; }) && (e.studied === undefined || Number.isSafeInteger(e.studied) && e.studied >= 0); }
+  };
+
+  function validLearningFields(value) {
+    return Object.keys(learningChecks).every(function (key) {
+      return value[key] === undefined || isRecord(value[key]) && Object.keys(value[key]).every(function (id) { return learningChecks[key](id, value[key][id]); });
+    }) && (value.daily === undefined || isRecord(value.daily) && Number.isInteger(value.daily.goal) && value.daily.goal >= 1 && value.daily.goal <= 200);
+  }
+
   // Device-local calendar date, so a streak day ends at the learner's midnight.
   function localDay(date) {
     var d = date === undefined ? new Date() : new Date(date);
@@ -244,17 +268,16 @@
   }
 
   function logActivity(state, today, kind) {
+    if (!validDay(today) || !['learned', 'reviewed', 'exam', 'studied'].includes(kind)) throw new RangeError('Invalid activity');
     var entry = state.activity[today] || (state.activity[today] = { learned: 0, reviewed: 0, exam: 0 });
-    entry[kind] += 1;
-    // Only the recent weeks matter for streaks and goals.
-    var cutoff = addDays(today, -60);
-    Object.keys(state.activity).forEach(function (day) { if (day < cutoff) delete state.activity[day]; });
+    entry[kind] = (entry[kind] || 0) + 1;
     return state;
   }
 
   // Correct on a new or due word advances 1 → 3 → 7 → 14 → 30 days; a word not yet due keeps its date
   // (a Day's cards and quizzes answer it several times in one sitting). Wrong always returns to 1 day.
   function scheduleReview(state, pkgId, word, correct, today) {
+    logActivity(state, today, 'studied');
     var id = wordId(pkgId, word);
     var entry = state.review[id];
     if (!entry) {
@@ -262,6 +285,7 @@
       logActivity(state, today, 'learned');
       return state;
     }
+    var wasDue = entry.due <= today;
     if (!correct) {
       entry.step = 0;
       entry.due = addDays(today, REVIEW_INTERVALS[0]);
@@ -269,6 +293,7 @@
       entry.step = Math.min(entry.step + 1, REVIEW_INTERVALS.length - 1);
       entry.due = addDays(today, REVIEW_INTERVALS[entry.step]);
     }
+    if (wasDue) logActivity(state, today, 'reviewed');
     return state;
   }
 
@@ -284,7 +309,7 @@
     var count = 0;
     Object.keys(state.known).forEach(function (id) {
       var at = id.indexOf(':');
-      if (!state.known[id] || state.review[id] || at < 1) return;
+      if (!state.known[id] || state.review[id] || at < 1 || at === id.length - 1) return;
       state.review[id] = { pkg: id.slice(0, at), en: id.slice(at + 1), step: 0, due: addDays(today, 1 + Math.floor(count / 30)) };
       count += 1;
     });
@@ -300,7 +325,7 @@
 
   // A day counts once any study, review or exam happened; today still open does not break yesterday's streak.
   function streak(activity, today) {
-    var active = function (day) { return !!activity[day]; };
+    var active = function (day) { return !!activity[day] && ['learned', 'reviewed', 'exam', 'studied'].some(function (key) { return activity[day][key] > 0; }); };
     var day = active(today) ? today : addDays(today, -1);
     var count = 0;
     while (active(day)) { count += 1; day = addDays(day, -1); }
@@ -388,11 +413,7 @@
         else discarded = true;
       });
       // Entries of the scheduling fields are checked one by one; bad ones are dropped like bad wrong entries.
-      var entryChecks = {
-        review: function (id, e) { return isRecord(e) && typeof e.pkg === 'string' && typeof e.en === 'string' && Number.isInteger(e.step) && e.step >= 0 && e.step < REVIEW_INTERVALS.length && typeof e.due === 'string' && DAY_KEY.test(e.due); },
-        stars: function (id, e) { return isRecord(e) && typeof e.pkg === 'string' && typeof e.en === 'string'; },
-        activity: function (day, e) { return DAY_KEY.test(day) && isRecord(e) && ['learned', 'reviewed', 'exam'].every(function (k) { return Number.isInteger(e[k]) && e[k] >= 0; }); }
-      };
+      var entryChecks = learningChecks;
       Object.keys(entryChecks).forEach(function (key) {
         Object.keys(state[key]).forEach(function (id) {
           if (entryChecks[key](id, state[key][id])) return;
@@ -431,6 +452,37 @@
     } catch (error) {
       return false;
     }
+  }
+
+  // Rebase only this tab's changes onto the latest saved state. Deletions are
+  // changes too; an unchanged stale tab must not resurrect a removed star.
+  function mergeState(base, local, remote) {
+    var merged = JSON.parse(JSON.stringify(remote));
+    var equal = function (a, b) { return JSON.stringify(a) === JSON.stringify(b); };
+    ['known', 'wrong', 'progress', 'review', 'stars', 'activity'].forEach(function (field) {
+      Object.keys(Object.assign({}, base[field], local[field])).forEach(function (id) {
+        if (equal(base[field][id], local[field][id])) return;
+        if (local[field][id] === undefined) delete merged[field][id];
+        else if (field === 'activity') {
+          var before = base[field][id] || {}, after = local[field][id], latest = merged[field][id] || {};
+          merged[field][id] = Object.assign({}, after);
+          ['learned', 'reviewed', 'exam', 'studied'].forEach(function (kind) {
+            if (kind === 'studied' && after[kind] === undefined && latest[kind] === undefined) return;
+            merged[field][id][kind] = Math.max(0, (latest[kind] || 0) + (after[kind] || 0) - (before[kind] || 0));
+          });
+        } else merged[field][id] = JSON.parse(JSON.stringify(local[field][id]));
+      });
+    });
+    if (!equal(base.daily, local.daily)) merged.daily = Object.assign({}, local.daily);
+    var packages = new Map(remote.custom.map(function (pkg) { return [pkg.id, pkg]; }));
+    var old = new Map(base.custom.map(function (pkg) { return [pkg.id, pkg]; }));
+    var current = new Map(local.custom.map(function (pkg) { return [pkg.id, pkg]; }));
+    new Set(Array.from(old.keys()).concat(Array.from(current.keys()))).forEach(function (id) {
+      if (equal(old.get(id), current.get(id))) return;
+      if (!current.has(id)) packages.delete(id); else packages.set(id, current.get(id));
+    });
+    merged.custom = Array.from(packages.values());
+    return merged;
   }
 
   function selectExamQuestions(questions, count, difficulty = 0, rand = Math.random) {
@@ -734,6 +786,8 @@
     parseImport: parseImport,
     defaultState: defaultState,
     localDay: localDay,
+    validLearningFields: validLearningFields,
+    mergeState: mergeState,
     addDays: addDays,
     logActivity: logActivity,
     scheduleReview: scheduleReview,

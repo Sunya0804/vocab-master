@@ -22,7 +22,7 @@
       const needed = page === 'home' || !page ? [(findPackage(selectedPackage) || packages()[0])?.id]
         : ['day','cards','quiz','cloze','listen'].includes(page) ? [parts[1]]
         : page === 'wrong' ? [...new Set(Object.values(state.wrong).map(entry => entry.pkg))]
-        : page === 'review' ? [...new Set(dueEntries().slice(0, 50).map(entry => entry.pkg))]
+        : page === 'review' ? [...new Set(dueEntries().map(entry => entry.pkg))]
         : page === 'starred' ? [...new Set(Object.values(state.stars).map(entry => entry.pkg))] : [];
       const pending = builtins.filter(pkg => needed.includes(pkg.id) && !packageReady(pkg));
       if (pending.some(pkg => pkg.failed)) {
@@ -165,7 +165,6 @@
       const item = session.items[session.index];
       const known = button.dataset.known === 'true';
       Core.markKnown(state, item.pkgId, item.word, known);
-      if (session.review) Core.logActivity(state, Core.localDay(), 'reviewed');
       session[known ? 'known' : 'unknown'].push(item);
       session.index++;
       session.revealed = false;
@@ -184,7 +183,10 @@
     else if (action === 'star') {
       const starred = Core.toggleStar(state, pkgId, button.dataset.word);
       if (!persist()) return;
-      if (location.hash === '#/starred') render(); else button.setAttribute('aria-pressed', starred);
+      if (location.hash === '#/starred') render(); else {
+        button.setAttribute('aria-pressed', starred);
+        button.setAttribute('aria-label', `${button.dataset.word} ${starred ? '내 단어장에서 빼기' : '내 단어장에 담기'}`);
+      }
       toast(starred ? '내 단어장에 담았어요.' : '내 단어장에서 뺐어요.');
     }
     else if (action === 'starred-cards') startSession('cards', starredItems(), {returnHash:'#/starred', label:'내 단어장'});
@@ -195,7 +197,7 @@
     else if (action === 'reset' && confirm('아는 단어, 오답노트, Day별 기록, 복습 일정과 연속 학습 기록을 모두 초기화할까요? 가져온 단어장, 내 단어장과 하루 목표는 유지됩니다.')) {
       state = {...Core.defaultState(), custom:state.custom, stars:state.stars, daily:state.daily, settings:state.settings || {autoSpeak:false}};
       session = null;
-      persist(); render(); toast('학습 기록을 초기화했어요.');
+      persist({replaceState:true}); render(); toast('학습 기록을 초기화했어요.');
     } else if (action === 'reset-exam' && confirm('문제 풀이 횟수, 첫 시도 정답률과 틀린 문제 기록을 모두 초기화할까요? 단어 학습 기록은 유지됩니다.')) {
       try { storage.removeItem(EXAM_KEY); }
       catch (_) { toast('문제 기록을 지우지 못했어요. 저장 공간과 브라우저 설정을 확인해 주세요.'); return; }
@@ -226,7 +228,10 @@
       if (target.checked) {
         state.known[Core.wordId(pkg.id, word[0])] = true;
         Core.scheduleReview(state, pkg.id, word, true, Core.localDay());
-      } else delete state.known[Core.wordId(pkg.id, word[0])];
+      } else {
+        delete state.known[Core.wordId(pkg.id, word[0])];
+        if (state.review[Core.wordId(pkg.id, word[0])]) Core.scheduleReview(state, pkg.id, word, false, Core.localDay());
+      }
       persist(); updateNavigation('home');
     } else if (target.id === 'daily-goal' && Number.isInteger(Number(target.value)) && Number(target.value) >= 1 && Number(target.value) <= 200) {
       state.daily = {goal:Number(target.value)};
@@ -372,7 +377,7 @@
 
   async function init() {
     Core = window.Core;
-    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats','examSetStats','mockScore','validMockState','wordSenses'];
+    const required = ['chunkDays','dayLevels','wordId','shuffle','buildQuiz','parseImport','defaultState','recordAnswer','markKnown','loadState','saveState','selectExamQuestions','validExamState','recordExamAnswer','examStats','examSetStats','mockScore','validMockState','wordSenses','localDay','addDays','logActivity','scheduleReview','seedReviews','dueReviews','toggleStar','streak','validLearningFields','mergeState'];
     if (!Core || required.some(name => typeof Core[name] !== 'function')) {
       main.innerHTML = empty('학습 기능을 준비하고 있어요', 'Core 모듈이 준비되면 새로고침해 주세요.');
       main.setAttribute('aria-busy', 'false');

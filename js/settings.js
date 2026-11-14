@@ -85,6 +85,7 @@
       }
       if (!Object.values(value.progress).every(item => isObject(item) && (item.studied === undefined || typeof item.studied === 'boolean') && (item.best === undefined || Number.isFinite(item.best) && item.best >= 0 && item.best <= 100))) throw new BackupError('학습 진행 기록의 형식이 올바르지 않아요.');
       if (value.settings !== undefined && (!isObject(value.settings) || typeof value.settings.autoSpeak !== 'boolean')) throw new BackupError('자동 발음 설정이 올바르지 않아요.');
+      if (!Core.validLearningFields(value)) throw new BackupError('복습 일정, 내 단어장, 학습일 또는 하루 목표의 형식이 올바르지 않아요.');
       const restoredExam = json.exam === undefined ? examState : json.exam;
       if (!Core.validExamState(restoredExam)) throw new BackupError('문제 학습 기록의 형식이 올바르지 않아요.');
       // Backups made before mock tests existed keep the current mock records.
@@ -102,7 +103,7 @@
       try {
         storage.setItem(EXAM_KEY, JSON.stringify(restoredExam));
         storage.setItem(MOCK_KEY, JSON.stringify(restoredMock));
-        if (!persist()) throw new Error('Restore unavailable');
+        if (!persist({replaceState:true})) throw new Error('Restore unavailable');
       } catch (_) {
         state = previous;
         examState = previousExam;

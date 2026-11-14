@@ -6,6 +6,7 @@
   const path = value => encodeURIComponent(value);
   const supportsSpeech = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   let Core, state, storage, preferenceStorage, builtins = [], selectedPackage = '', session = null;
+  let savedState = null;
   let selectedLevels = Object.create(null);
   // Last wordbook per language name, so the language switch returns to it.
   let selectedByLanguage = Object.create(null);
@@ -21,10 +22,15 @@
     toastTimer = setTimeout(() => { element.hidden = true; }, 3600);
   }
 
-  function persist({saveSelection = false} = {}) {
+  function persist({saveSelection = false, replaceState = false} = {}) {
     let previous;
     try {
       previous = ['vocab-master-v1', 'vocab-master-preferences-v1'].map(key => [key, storage.getItem(key)]);
+      if (!replaceState && savedState) {
+        const settings = state.settings;
+        state = Core.mergeState(savedState, state, Core.loadState(storage));
+        state.settings = settings;
+      }
       if (Core.saveState(storage, state) === false) throw new Error('Storage unavailable');
       // Core normalizes the four SPEC state fields. Use the same Core storage
       // wrapper with a separate namespace for this UI-only preference.
@@ -42,6 +48,7 @@
         preferences.progress['preferences:selection'] = {package:selectedPackage, levels, languages};
       }
       if (Core.saveState(preferenceStorage, preferences) === false) throw new Error('Preferences unavailable');
+      savedState = JSON.parse(JSON.stringify(state));
       return true;
     } catch (_) {
       // Compensate a partial two-key write, preserving the exact pre-write bytes.
@@ -77,6 +84,7 @@
         for (const [name, pkgId] of Object.entries(selection.languages)) if (typeof pkgId === 'string') selectedByLanguage[name] = pkgId;
       }
     }
+    savedState = JSON.parse(JSON.stringify(loaded));
     return loaded;
   }
 
@@ -107,7 +115,10 @@
   // Review, starred and other cross-wordbook lists keep {pkg, en}; the word itself comes from its loaded package.
   const savedWord = entry => findPackage(entry.pkg)?.words?.find(word => Core.wordId(entry.pkg, word[0]) === Core.wordId(entry.pkg, entry.en));
   // Due words whose wordbook still exists; packages of built-ins may not be loaded yet.
-  const dueEntries = () => Core.dueReviews(state, Core.localDay()).filter(entry => findPackage(entry.pkg));
+  const dueEntries = () => Core.dueReviews(state, Core.localDay()).filter(entry => {
+    const pkg = findPackage(entry.pkg);
+    return pkg && (!packageReady(pkg) || savedWord(entry));
+  });
   function noteActivity(kind) { Core.logActivity(state, Core.localDay(), kind); persist(); }
   const dayHash = (pkg, day) => `#/day/${path(pkg)}/${day}`;
   const iconPaths = {
@@ -135,7 +146,7 @@
   const speaker = (text, pkgId) => supportsSpeech ? `<button class="icon-button" data-action="speak" data-text="${escape(text)}" data-lang="${escape(packageLang(pkgId))}" aria-label="${escape(text)} 발음 듣기">${icon('volume-2')}</button>` : '';
   const empty = (title, description, href = '#/home', label = '단어장 보기') => `<div class="empty-state"><div class="empty-symbol" aria-hidden="true">${icon('book-open')}</div><h1>${escape(title)}</h1><p>${escape(description)}</p><a class="button-link" href="${escape(href)}">${escape(label)}</a></div>`;
 
-  const starButton = (word, pkgId) => `<button class="icon-button star-button" data-action="star" data-pkg="${escape(pkgId)}" data-word="${escape(word[0])}" aria-pressed="${isStarred(pkgId, word)}" aria-label="${escape(word[0])} 내 단어장에 담기">${icon('star')}</button>`;
+  const starButton = (word, pkgId) => `<button class="icon-button star-button" data-action="star" data-pkg="${escape(pkgId)}" data-word="${escape(word[0])}" aria-pressed="${isStarred(pkgId, word)}" aria-label="${escape(word[0])} ${isStarred(pkgId, word) ? '내 단어장에서 빼기' : '내 단어장에 담기'}">${icon('star')}</button>`;
   const posBadge = word => word[2] ? `<span class="pos-badge" aria-label="품사 ${escape(word[2])}">${escape(word[2])}</span>` : '';
 
   function highlightedExample(word, pkgId) {
