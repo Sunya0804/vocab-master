@@ -20,6 +20,16 @@ test('search folds case, umlauts, sharp s and German articles without changing E
   assert.deepEqual(Core.searchWords(books, '  '), []);
 });
 
+test('search preserves Hangul syllables and follows replacement or extended word lists', () => {
+  const book = {id:'custom-1', name:'뜻 검색', words:[['each','각자'], ['go','가다']]};
+  assert.deepEqual(Core.searchWords([book], '가').map(r => r.word[0]), ['go']);
+  book.words.push(['price', '가격']);
+  assert.deepEqual(Core.searchWords([book], '가').map(r => r.word[0]), ['go', 'price']);
+  book.words = [['contract', '계약']];
+  assert.equal(Core.searchWords([book], '계약')[0].word[0], 'contract');
+  assert.deepEqual(Core.searchWords([book], '가'), []);
+});
+
 test('statistics count valid Days and existing known words, unique practice questions and latest test attempts', () => {
   const state = Core.defaultState();
   state.progress = {'book:0':{studied:true}, 'book:1':{best:100}, 'book:t0':{studied:true}, 'book:99':{studied:true}};
@@ -83,14 +93,31 @@ test('speak selects a German voice and missing-German warning is shown only once
 });
 
 function screenHarness() {
-  const handlers = {};
+  const handlers = {}, windowHandlers = {}, documentHandlers = {};
+  let selected = '', focused = '', cancellations = 0;
+  const spoken = [];
   const element = {innerHTML:'', textContent:'', addEventListener(type, fn){ (handlers[type] ||= []).push(fn); }, setAttribute(){},
-    querySelector(){return element;}, querySelectorAll(){return [];}, focus(){}};
+    querySelector(selector){
+      for (const candidate of selector.split(',').map(s => s.trim())) {
+        const id = /^#([\w-]+)$/.exec(candidate), action = /^\[data-action="([\w-]+)"\]$/.exec(candidate);
+        if (id && !element.innerHTML.includes(`id="${id[1]}"`)) continue;
+        if (action && !element.innerHTML.includes(`data-action="${action[1]}"`)) continue;
+        selected = candidate; return element;
+      }
+      return null;
+    },
+    querySelectorAll(selector){return selector === '.search-result'
+      ? Array.from(element.innerHTML.matchAll(/class="search-result"/g), (_, i) => ({focus(){focused = `search-result:${i}`;}})) : [];},
+    focus(){focused = selected;}};
   const saved = new Map();
   const memory = {getItem:k => saved.get(k) ?? null, setItem:(k,v) => saved.set(k, v), removeItem:k => saved.delete(k)};
-  const context = {window:{Core, addEventListener(){}, speechSynthesis:{cancel(){}, getVoices:() => [{lang:'de-DE'}], speak(){}}, SpeechSynthesisUtterance:function(){}},
-    document:{querySelector:() => element, querySelectorAll:() => [], documentElement:{dataset:{}}, addEventListener(){}}, location:{hash:'#/home'},
-    navigator:{onLine:true}, history:{}, setTimeout(){}, clearTimeout(){}, URL};
+  const Utterance = function(text){this.text = text;};
+  const context = {window:{Core, addEventListener(type, fn){(windowHandlers[type] ||= []).push(fn);},
+      speechSynthesis:{cancel(){cancellations++;}, getVoices:() => [{lang:'de-DE'}], speak(u){spoken.push(u);}}, SpeechSynthesisUtterance:Utterance},
+    SpeechSynthesisUtterance:Utterance,
+    document:{querySelector:() => element, querySelectorAll:() => [], documentElement:{dataset:{}},
+      addEventListener(type, fn){(documentHandlers[type] ||= []).push(fn);}}, location:{hash:'#/home'},
+    navigator:{onLine:true}, history:{}, setTimeout(){}, clearTimeout(){}, confirm:() => true, URL};
   vm.createContext(context);
   const scripts = fs.readFileSync(require.resolve('../index.html'), 'utf8').matchAll(/<script src="\.\/([^\"]+)"/g);
   for (const [, file] of scripts) {
@@ -101,7 +128,9 @@ function screenHarness() {
         builtins=[{id:'de', name:'독일어', lang:'de-DE', words:[['Größe','크기']]}]; ready=true; discoveryFinished=true;},
       route(hash) {location.hash=hash; render(); return main.innerHTML;},
       input(text) {session.input=text;}, getState() {return state;},
-      mock() {mockState={attempts:[{test:1,at:1,lc:80,rc:70}],progress:{}};},
+      books(value) {builtins=value;},
+      mock() {mockState={attempts:[{test:1,at:1,answers:{},lc:80,rc:70}],progress:{}};},
+      restore(value) {return restoreBackup({text:async () => JSON.stringify(value)});},
       search(text) {searchQuery=text; return searchResultsHTML();}
     };`);
     vm.runInContext(source, context, {filename:file});
@@ -109,7 +138,12 @@ function screenHarness() {
   context.memory = memory;
   context.screens.setup();
   return {ui:context.screens, element, saved, submit(){for(const fn of handlers.submit) fn({target:{id:'dictation-form'}, preventDefault(){}});},
-    click(action){for(const fn of handlers.click) fn({target:{closest:() => ({dataset:{action}, disabled:false})}});}};
+    click(action){const button = {dataset:{action}, disabled:false}; for(const fn of handlers.click) fn({target:{closest(selector){
+      const specific = /data-action="([\w-]+)"/.exec(selector); return !specific || specific[1] === action ? button : null;
+    }}});},
+    hide(){context.document.hidden=true; for(const fn of documentHandlers.visibilitychange || []) fn();},
+    pagehide(){for(const fn of windowHandlers.pagehide || []) fn();},
+    focus:() => focused, cancellations:() => cancellations, spoken};
 }
 
 test('real routes render search, empty statistics and a populated SVG trend', () => {
@@ -140,4 +174,48 @@ test('dictation hides answers until graded, persists one miss, supports retry an
   h.ui.input('GROESSE'); h.submit();
   assert.equal(h.ui.getState().wrong['de:Größe'].streak, 1);
   assert.match(h.element.innerHTML, /정답이에요/);
+});
+
+test('dictation stops its speech when the document is hidden or the page is left', () => {
+  const h = screenHarness();
+  h.ui.route('#/dictation/de/0'); h.click('dictation-play');
+  assert.equal(h.spoken[0].text, 'Größe');
+  const beforeHide = h.cancellations();
+  h.hide();
+  assert.ok(h.cancellations() > beforeHide);
+  const beforeLeave = h.cancellations();
+  h.pagehide();
+  assert.ok(h.cancellations() > beforeLeave);
+});
+
+test('a perfect dictation session puts keyboard focus on its result', () => {
+  const h = screenHarness();
+  h.ui.route('#/dictation/de/0'); h.ui.input('GROESSE'); h.submit(); h.click('dictation-next');
+  assert.match(h.element.innerHTML, /id="dictation-result"[^>]*tabindex="-1"/);
+  assert.equal(h.focus(), '#dictation-result');
+});
+
+test('showing more search results focuses the first newly revealed word', () => {
+  const h = screenHarness();
+  h.ui.books([{id:'de', name:'독일어', lang:'de-DE', words:Array.from({length:201}, (_, i) => ['Haus'+i, '집'])}]);
+  h.ui.search('haus'); h.ui.route('#/search'); h.click('search-more');
+  assert.equal(h.focus(), 'search-result:100');
+});
+
+test('dictation records reload with the existing schema and legacy backups still feed statistics', async () => {
+  const h = screenHarness();
+  h.ui.route('#/dictation/de/0'); h.ui.input('wrong'); h.submit();
+  const reloaded = Core.loadState({getItem:k => h.saved.get(k) ?? null, setItem(){}});
+  assert.equal(reloaded.wrong['de:Größe'].miss, 1);
+  assert.equal(Core.learningStats(reloaded, [], {}, {}).wrong, 1);
+  h.ui.mock();
+  const legacy = Core.defaultState();
+  legacy.custom = [{id:'custom-1', name:'이전 단어장', words:Array.from({length:21}, (_, i) => ['old'+i, '이전 뜻'])}];
+  legacy.known['custom-1:old0'] = true;
+  legacy.progress['custom-1:0'] = {studied:true};
+  await h.ui.restore(legacy);
+  assert.equal(h.ui.getState().custom[0].name, '이전 단어장');
+  const html = h.ui.route('#/stats');
+  assert.match(html, /학습한 Day 1 \/ 2 · 아는 단어 1개/);
+  assert.match(html, /<svg class="stats-chart"/); // Backups without mock records keep current attempts.
 });

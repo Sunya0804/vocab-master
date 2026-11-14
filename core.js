@@ -577,9 +577,26 @@
   }
 
   function normalizeSearch(value, german = false) {
-    var text = String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss');
+    var text = String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC').replace(/ß/g, 'ss');
     if (german) text = text.replace(/\b(?:der|die|das)\s+/g, '');
     return text.trim().replace(/\s+/g, ' ');
+  }
+
+  // Loaded word rows are immutable; imports/restores replace the word array.
+  // Cache derived text only, so repeated keystrokes do not renormalize every example.
+  var searchIndexes = new WeakMap();
+  function searchFields(words, german) {
+    var cached = searchIndexes.get(words), mode = german ? 'german' : 'default';
+    if (!cached || cached.length !== words.length) {
+      cached = {length:words.length};
+      searchIndexes.set(words, cached);
+    }
+    if (!cached[mode]) cached[mode] = words.map(function (word) {
+      return word.slice(0, 5).concat(wordSenses(word).flat()).map(function (field) {
+        return normalizeSearch(field, german);
+      }).join(' ');
+    });
+    return cached[mode];
   }
 
   function searchWords(packages, query) {
@@ -592,9 +609,9 @@
       var german = /^de/i.test(pkg.lang || '') || (!pkg.lang && /^(?:der|die|das)\s/i.test(String(query).trim()));
       var terms = normalizeSearch(query, german).split(' ').filter(Boolean);
       if (!terms.length) return;
+      var fields = searchFields(pkg.words, german);
       pkg.words.forEach(function (word, index) {
-        var fields = word.slice(0, 5).concat(wordSenses(word).flat()).map(function (field) { return normalizeSearch(field, german); }).join(' ');
-        if (terms.every(function (term) { return fields.includes(term); })) {
+        if (terms.every(function (term) { return fields[index].includes(term); })) {
           results.push({pkgId:pkg.id, pkgName:pkg.name, day:Math.floor(index / 20), word:word});
         }
       });

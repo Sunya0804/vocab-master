@@ -58,7 +58,12 @@ main.addEventListener('input', event => {
   updateSearchResults();
 });
 main.addEventListener('click', event => {
-  if (event.target.closest('[data-action="search-more"]')) { searchLimit += 100; updateSearchResults(); }
+  if (event.target.closest('[data-action="search-more"]')) {
+    const firstNew = searchLimit;
+    searchLimit += 100;
+    updateSearchResults();
+    main.querySelectorAll('.search-result')[firstNew]?.focus();
+  }
   if (event.target.closest('[data-action="discover-retry"]')) { void discoverWordbooks(true); render(); }
 });
 window.addEventListener('online', () => {

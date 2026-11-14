@@ -6,7 +6,7 @@ function renderDictation(pkg, day, unit) {
     session = {type:'dictation', route:location.hash, items:Core.shuffle(unit.words.map(word => ({pkgId:pkg.id, word}))), index:0, input:'', answered:false, correct:0, missed:[], returnHash:dayHash(pkg.id, day), label:unit.label};
   }
   const s = session;
-  if (s.index >= s.items.length) return `${back(s.returnHash)}${intro('', '받아쓰기 결과')}<section class="result-hero"><div class="result-score">${Math.round(s.correct / s.items.length * 100)}<small> 점</small></div><p>${s.items.length}문제 중 ${s.correct}개 정답</p></section>${s.missed.length ? '<button class="secondary" data-action="dictation-retry">틀린 단어 다시 듣기</button><p class="session-note">틀린 단어는 오답노트에도 모았어요.</p>' : '<p class="session-note">모든 단어를 맞혔어요.</p>'}<a class="button-link full" href="${s.returnHash}">Day로 돌아가기</a>`;
+  if (s.index >= s.items.length) return `${back(s.returnHash)}${intro('', '받아쓰기 결과')}<section id="dictation-result" class="result-hero" tabindex="-1" aria-label="받아쓰기 결과"><div class="result-score">${Math.round(s.correct / s.items.length * 100)}<small> 점</small></div><p>${s.items.length}문제 중 ${s.correct}개 정답</p></section>${s.missed.length ? '<button class="secondary" data-action="dictation-retry">틀린 단어 다시 듣기</button><p class="session-note">틀린 단어는 오답노트에도 모았어요.</p>' : '<p class="session-note">모든 단어를 맞혔어요.</p>'}<a class="button-link full" href="${s.returnHash}">Day로 돌아가기</a>`;
   const item = s.items[s.index];
   return `${back(s.returnHash, '학습 나가기')}<div class="session-top"><span class="pill">${escape(s.label)} · 받아쓰기</span><p>${s.index + 1} / ${s.items.length}</p></div>${meter(s.index, s.items.length, '받아쓰기 진행')}
     <section class="dictation-card"><h1>듣고 철자를 입력해 주세요</h1><button class="secondary" data-action="dictation-play">${icon('volume-2')} 발음 듣기</button><p class="session-note">${packageLang(pkg.id).startsWith('de') ? '대소문자는 구분하지 않아요. ä·ö·ü·ß는 ae·oe·ue·ss로 입력해도 돼요.' : '대소문자는 구분하지 않아요.'}</p></section>
@@ -40,9 +40,15 @@ main.addEventListener('click', event => {
   if (s?.type !== 'dictation') return;
   if (button.dataset.action === 'dictation-play' && s.items[s.index]) speak(Core.dictationAnswer(s.items[s.index].word), packageLang(s.items[s.index].pkgId));
   if (button.dataset.action === 'dictation-next' && s.answered) {
-    cancelSpeech(); Object.assign(s, {index:s.index + 1, input:'', answered:false, notice:''}); render(); main.querySelector('#dictation-input, [data-action="dictation-retry"]')?.focus();
+    cancelSpeech(); Object.assign(s, {index:s.index + 1, input:'', answered:false, notice:''}); render(); main.querySelector('#dictation-input, #dictation-result')?.focus();
   }
   if (button.dataset.action === 'dictation-retry') {
     Object.assign(s, {items:Core.shuffle(s.missed), index:0, input:'', answered:false, correct:0, missed:[], notice:''}); render(); main.querySelector('[data-action="dictation-play"]')?.focus();
   }
 });
+
+function stopDictationSpeech() {
+  if (session?.type === 'dictation') cancelSpeech();
+}
+document.addEventListener('visibilitychange', () => { if (document.hidden) stopDictationSpeech(); });
+window.addEventListener('pagehide', stopDictationSpeech);
