@@ -740,6 +740,70 @@
     }
   }
 
+  // Keep types scoped to their part: e.g. LC detail and reading detail are different practice pools.
+  function examBreakdown(items, answers) {
+    var parts = new Map(), types = new Map();
+    (items || []).filter(Boolean).forEach(function (item) {
+      var q = item.q || item, part = item.part;
+      var type = q.type || item.unit?.entry?.photoType || q.photoType;
+      if (!Number.isInteger(part) || !type) return;
+      var correct = answers[item.no] === q.answer;
+      var add = function (map, key, fields) {
+        if (!map.has(key)) map.set(key, Object.assign({total:0, right:0}, fields));
+        var row = map.get(key); row.total++; if (correct) row.right++;
+      };
+      add(parts, part, {part:part}); add(types, part + ':' + type, {part:part, type:type});
+    });
+    var rows = function (map) { return Array.from(map.values()).map(function (row) {
+      return Object.assign(row, {accuracy:Math.round(row.right / row.total * 100)});
+    }).sort(function (a, b) { return a.right / a.total - b.right / b.total || b.total - a.total || a.part - b.part || (a.type || '').localeCompare(b.type || ''); }); };
+    return {parts:rows(parts), types:rows(types)};
+  }
+
+  function mockWeakness(attempts, banks) {
+    var groups = new Map(), included = 0;
+    attempts.forEach(function (attempt) {
+      var items = banks[attempt.test];
+      if (!items?.length) return;
+      included++;
+      examBreakdown(items, attempt.answers).types.forEach(function (row) {
+        var key = row.part + ':' + row.type, sum = groups.get(key) || {part:row.part, type:row.type, total:0, right:0};
+        sum.total += row.total; sum.right += row.right; groups.set(key, sum);
+      });
+    });
+    return {included:included, types:Array.from(groups.values()).map(function (row) {
+      return Object.assign(row, {accuracy:Math.round(row.right / row.total * 100)});
+    }).sort(function (a, b) { return a.right / a.total - b.right / b.total || b.total - a.total || a.part - b.part || a.type.localeCompare(b.type); })};
+  }
+
+  function examVoiceCast(voices, speakers) {
+    var gender = function (voice) {
+      var name = voice?.name || '';
+      return /\b(female|zira|aria|jenny|hazel|susan|samantha|karen|libby|sonia)\b/i.test(name) ? 'W'
+        : /\b(male|david|mark|guy|daniel|george|ryan)\b/i.test(name) ? 'M' : '';
+    };
+    var english = voices.filter(function (v) { return /^en(?:[-_]|$)/i.test(v.lang || ''); });
+    var used = new Set(), cast = {}, pitches = {M:.72, W:1.35, M2:.58, W2:1.6};
+    Array.from(new Set(speakers)).forEach(function (speaker) {
+      var matches = english.filter(function (v) { return gender(v) === speaker[0]; });
+      // Prefer distinct voices even if the device labels none of them with a gender.
+      var voice = matches.find(function (v) { return !used.has(v); })
+        || english.find(function (v) { return !used.has(v) && !gender(v); })
+        || english.find(function (v) { return !used.has(v); }) || matches[0] || english[0];
+      var natural = voice && gender(voice) === speaker[0] && !used.has(voice);
+      used.add(voice);
+      cast[speaker] = {voice:voice, pitch:natural ? 1 : pitches[speaker] || pitches[speaker[0]] || 1};
+    });
+    return cast;
+  }
+
+  function lcSentences(text) {
+    if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+      return Array.from(new Intl.Segmenter('en', {granularity:'sentence'}).segment(text), function (s) { return s.segment.trim(); }).filter(Boolean);
+    }
+    return text.split(/(?<=[.!?])\s+(?=[A-Z"“])/).filter(Boolean);
+  }
+
   // Mock answers map question number 1-200 to a choice index.
   function validMockAnswers(answers) {
     return isRecord(answers) && Object.keys(answers).every(function (no) {
@@ -763,6 +827,10 @@
   }
 
   return {
+    examBreakdown: examBreakdown,
+    mockWeakness: mockWeakness,
+    examVoiceCast: examVoiceCast,
+    lcSentences: lcSentences,
     mockScore: mockScore,
     validMockState: validMockState,
     spokenText: spokenText,

@@ -11,12 +11,6 @@
   const EXAM_SET_TYPES = {topic:'주제·목적', speaker:'화자·장소', detail:'세부 정보', reason:'이유·문제', suggest:'제안·요청', next:'다음 할 일', inference:'추론', intention:'화자 의도', graphic:'시각 자료'};
   const EXAM_TALKS = {conversation:'conversation', telephone:'telephone message', announcement:'announcement', meeting:'excerpt from a meeting', advertisement:'advertisement', broadcast:'broadcast', tour:'tour', speech:'speech'};
   const EXAM_SPEAKERS = {M:'남자', W:'여자', M2:'남자 2', W2:'여자 2'};
-  // One English voice per speaker when possible; pitch separates speakers who must share a voice.
-  const EXAM_PITCH = {M:.9, W:1.1, M2:.8, W2:1.25};
-  // Voice gender guessed from voice.name; unknown names stay neutral.
-  const EXAM_VOICE_GENDER = {W:/\b(female|zira|aria|jenny|hazel|susan|samantha|karen|libby|sonia)\b/i, M:/\b(male|david|mark|guy|daniel|george|ryan)\b/i};
-  const examVoiceGender = voice => EXAM_VOICE_GENDER.W.test(voice.name) ? 'W' : EXAM_VOICE_GENDER.M.test(voice.name) ? 'M' : '';
-  const EXAM_ACCENTS =['en-us', 'en-gb', 'en-au', 'en-ca', 'en-ie', 'en-nz', 'en-in', 'en-za'];
   const EXAM_TYPES = {pos:'품사', verb:'동사', 'prep-conj':'전치사·접속사', pronoun:'대명사', relative:'관계사·명사절', comparison:'비교·기타 문법', vocab:'어휘', wh:'의문사 질문', yesno:'일반 의문문', 'negative-tag':'부정·부가 의문문', choice:'선택 의문문', request:'요청·제안', statement:'평서문', ...EXAM_SET_TYPES, purpose:'목적', 'not-true':'사실 불일치', synonym:'동의어', insertion:'문장 위치', tense:'시제', connector:'연결어', sentence:'문장 고르기', single:'1인 사진', group:'2인 이상 사진', object:'사물·풍경 사진'};
   const EXAM_TRAPS = {'repeat-word':'질문 단어 반복', 'similar-sound':'유사 발음', 'wh-mismatch':'다른 의문사 응답', 'yes-no-to-wh':'의문사 질문에 예·아니요 응답', 'related-word':'연상 단어', 'wrong-subject':'주체·시제 불일치'};
   const EXAM_LEVELS = ['전체', '쉬움', '보통', '어려움'];
@@ -105,7 +99,14 @@
           && typeof set.passages[q.ref.passage]?.body?.[q.ref.paragraph] === 'string'));
   }
 
-  async function loadExamBank(part) {
+  const examBankRequests = {};
+  function loadExamBank(part) {
+    if (!examBanks[part]) return Promise.resolve();
+    if (!examBankRequests[part]) examBankRequests[part] = fetchExamBank(part).finally(() => { delete examBankRequests[part]; });
+    return examBankRequests[part];
+  }
+
+  async function fetchExamBank(part) {
     const bank = examBanks[part];
     if (!bank || bank.status === 'loading') return;
     bank.status = 'loading';
@@ -131,9 +132,18 @@
     checkMockBanks();
   }
 
+  let examTypeFilter = {};
+  const examQuestionType = q => q.type || q.photoType;
+  const examMatchesType = (part, q, type = examTypeFilter[part]) => !type || examQuestionType(q) === type;
+  const examTargets = (set, part = examSession.part, type = examSession.type) => set.questions.map((q, i) => i).filter(i => examMatchesType(part, set.questions[i], type));
+  const examPending = s => examTargets(s.questions[s.index]).some(i => s.picks[i] === null);
+
   function examPool(part, wrong = false) {
-    const pool = examBanks[part].questions.filter(q => !examDifficulty || q.difficulty === examDifficulty);
-    return wrong ? examStatsFor(part, pool).wrong : pool;
+    const pool = examBanks[part].questions.filter(e => (!examDifficulty || e.difficulty === examDifficulty)
+      && (e.questions || [e]).some(q => examMatchesType(part, q)));
+    return wrong ? pool.filter(e => e.questions
+      ? e.questions.some((q, i) => examMatchesType(part, q) && examState.answers[e.id + '-' + (i + 1)]?.correct === false)
+      : examState.answers[e.id]?.correct === false) : pool;
   }
 
   const examStatsFor = (part, items, answers = examState.answers) => EXAM_PARTS[part].sets ? Core.examSetStats(items, answers) : Core.examStats(items, answers);
@@ -149,13 +159,25 @@
       ? [...Core.selectExamQuestions(pool.filter(set => set.setType === 'single'), 10, examDifficulty), ...Core.selectExamQuestions(pool.filter(set => set.setType !== 'single'), 5, examDifficulty)]
       : Core.selectExamQuestions(pool, mode === 'wrong' ? pool.length : EXAM_PARTS[part].size, examDifficulty);
     if (EXAM_ORDER[part]) questions = questions.sort((a, b) => EXAM_ORDER[part](a) - EXAM_ORDER[part](b));
-    examSession = {route:`#/exam/${part}/${mode}`, part, mode, questions, index:0, selected:null, answered:false, finished:false, results:[], picks:examPicks(questions[0]), active:0, audioPlaying:false, audioStatus:examAudioIdle(part), heard:false, audioFallback:false};
+    examSession = {type:examTypeFilter[part] || '', route:`#/exam/${part}/${mode}`, part, mode, questions, index:0, selected:null, answered:false, finished:false, results:[], picks:examPicks(questions[0]), active:0, audioPlaying:false, audioStatus:examAudioIdle(part), heard:false, audioFallback:false};
+    if (questions[0]?.questions) examSession.active = examTargets(questions[0])[0] ?? 0;
   }
 
-  function startExam(part, mode) {
+  function startExam(part, mode, type) {
     if (!EXAM_PARTS[part] || !['set', 'wrong'].includes(mode) || examBanks[part].status !== 'ready') return;
+    if (type !== undefined) examTypeFilter[part] = type;
     makeExamSession(part, mode);
     if (location.hash === examSession.route) render(); else location.hash = examSession.route;
+  }
+
+  async function startExamType(part, type) {
+    if (!EXAM_PARTS[part] || !Object.hasOwn(EXAM_TYPES, type)) return;
+    examDifficulty = 0;
+    const route = location.hash;
+    if (examBanks[part].status !== 'ready') await loadExamBank(part);
+    if (location.hash !== route) return;
+    if (examBanks[part].status !== 'ready') { toast('연습 문제를 불러오지 못했어요. 문제 홈에서 다시 시도해 주세요.'); return; }
+    startExam(part, 'set', type);
   }
 
   function renderExamHome() {
@@ -168,23 +190,84 @@
           ${bank.status === 'empty' ? '<p class="exam-note">준비 중 · 문제를 만들고 있어요</p>' : bank.status === 'error' ? `<p class="exam-note">문제를 불러오지 못했어요. 연결을 확인한 뒤 다시 시도해 주세요.</p><button class="full" data-action="exam-reload" data-part="${part}">다시 불러오기</button>`
             : bank.status !== 'ready' ? '<p class="exam-note">문제를 불러오는 중</p>'
             : `<div class="exam-mini-stats"><span>푼 문제 <strong>${stats.solved} / ${Math.max(info.total, stats.total)}</strong></span><span>첫 시도 정답률 <strong>${stats.solved ? `${stats.firstAccuracy}%` : '–'}</strong></span></div>
-              <div class="button-row"><button class="primary" data-action="exam-start" data-part="${part}" data-mode="set" aria-label="Part ${part} ${EXAM_LEVELS[examDifficulty]} 실전 세트 시작" ${!pool.length ? 'disabled' : ''}>실전 세트 <span class="exam-button-count">${info.sets ? `${size}세트${info.per ? ` · ${size * info.per}문항` : ''}` : `${size}문항`}</span></button><button data-action="exam-start" data-part="${part}" data-mode="wrong" ${!wrong.length ? 'disabled' : ''}>틀린 ${info.sets ? '세트' : '문제'} ${wrong.length}</button></div>
+              <label class="exam-type-filter">문항 유형<select data-exam-type="${part}" aria-label="Part ${part} 문항 유형"><option value="">전체 유형</option>${[...new Set(bank.questions.flatMap(e => (e.questions || [e]).map(q => q.type || q.photoType)))].map(type => `<option value="${escape(type)}" ${examTypeFilter[part] === type ? 'selected' : ''}>${escape(EXAM_TYPES[type] || type)}</option>`).join('')}</select></label><div class="button-row"><button class="primary" data-action="exam-start" data-part="${part}" data-mode="set" aria-label="Part ${part} ${EXAM_LEVELS[examDifficulty]} 실전 세트 시작" ${!pool.length ? 'disabled' : ''}>실전 세트 <span class="exam-button-count">${info.sets ? `${size}세트${info.per && !examTypeFilter[part] ? ` · ${size * info.per}문항` : ''}` : `${size}문항`}</span></button><button data-action="exam-start" data-part="${part}" data-mode="wrong" ${!wrong.length ? 'disabled' : ''}>틀린 ${info.sets ? '세트' : '문제'} ${wrong.length}</button></div>
               <p class="exam-note">${stats.total < info.total ? `현재 ${info.sets ? `${bank.questions.length}세트 ` : ''}${stats.total}문항 제공 · 세트는 제공된 문항으로 구성해요` : `${pool.length}${unit} 중 무작위 추출 · 실전 ${info.size}${unit}`}</p>`}</section>`;
       }).join('')}</div>`;
   }
 
-  function renderExamScript(q, revealAnswer) {
+  let lcReviewRate = 1, lcReviewToken = 0, lcReviewCleanup, lcReviewTimer, lcReviewPlaying = false;
+
+  function renderLcReviewControls() {
+    return `<div class="lc-review-controls" role="group" aria-label="대본 다시 듣기"><span>문장을 눌러 다시 들어 보세요</span><div>${[.8, 1, 1.2].map(rate => `<button data-action="lc-review-rate" data-rate="${rate}" aria-pressed="${lcReviewRate === rate}">${rate}배</button>`).join('')}<button data-action="lc-review-stop">정지</button></div></div>`;
+  }
+
+  function renderLcLine(text, review, line) {
+    return Core.lcSentences(text).map((sentence, index) => `<button class="lc-sentence" data-action="lc-review-line" data-part="${review.part}" data-entry="${escape(review.entry)}" data-test="${review.test || ''}" data-line="${line}" data-sentence="${index}" aria-label="문장 듣기: ${escape(sentence)}" ${supportsSpeech ? '' : 'disabled'}>${escape(sentence)}</button>`).join(' ');
+  }
+
+  function stopLcReview() {
+    lcReviewToken++;
+    clearTimeout(lcReviewTimer);
+    lcReviewCleanup?.(); lcReviewCleanup = null;
+    if (lcReviewPlaying) cancelSpeech();
+    lcReviewPlaying = false;
+    document.querySelectorAll('.lc-sentence[aria-pressed]').forEach(b => b.removeAttribute('aria-pressed'));
+  }
+
+  function setLcReviewRate(rate) {
+    if (![.8, 1, 1.2].includes(rate)) return;
+    stopLcReview(); lcReviewRate = rate;
+    document.querySelectorAll('[data-action="lc-review-rate"]').forEach(b => b.setAttribute('aria-pressed', Number(b.dataset.rate) === rate));
+  }
+
+  function playLcReview(button) {
+    const {part:partText, entry:id, test:testText, line:lineText, sentence:sentenceText} = button.dataset;
+    const part = Number(partText), test = Number(testText), line = Number(lineText), sentence = Number(sentenceText);
+    if (![1, 2, 3, 4].includes(part) || !supportsSpeech || document.hidden) return;
+    let entry, first;
+    if (test) {
+      if (location.hash !== `#/exam/mock/${test}/result` || !attemptsFor(test).length) return;
+      const unit = mockBanks[test]?.units.find(u => u.part === part && u.entry.id === id);
+      entry = unit?.entry; first = unit?.first;
+    } else {
+      if (!examSession?.answered || examSession.finished || examSession.route !== location.hash || examSession.part !== part) return;
+      entry = examSession.questions[examSession.index]; first = examSession.index + 1;
+      if (entry?.id !== id) return;
+    }
+    if (!entry || !Number.isInteger(line) || !Number.isInteger(sentence)) return;
+    stopExamAudio(); stopMockAudio(); haltListening();
+    const route = location.hash, token = lcReviewToken;
+    lcReviewPlaying = true;
+    button.setAttribute('aria-pressed', 'true');
+    lcReviewCleanup = whenVoices(voices => {
+      const active = () => token === lcReviewToken && location.hash === route && !document.hidden;
+      if (!active()) return;
+      const queue = examAudioQueue(part, entry, voices.filter(v => /^en/i.test(v.lang)), first);
+      const item = queue[line];
+      // Set review covers spoken dialogue only; a question cannot be selected as a script line.
+      if (!item || part >= 3 && line >= entry.script.length) { stopLcReview(); return; }
+      const text = Core.lcSentences(part <= 2 && (part === 1 || line > 0) ? entry.choices[line - (part === 2 ? 1 : 0)] : item.text)[sentence];
+      if (!text) { stopLcReview(); return; }
+      speakQueue([{...item, text, rate:lcReviewRate}], {
+        active, timer:(fn, ms) => (lcReviewTimer = setTimeout(fn, ms)), onItem:() => {},
+        done:() => { lcReviewPlaying = false; button.removeAttribute('aria-pressed'); },
+        fail:() => { stopLcReview(); toast('문장을 재생하지 못했어요. 다시 시도해 주세요.'); }
+      });
+    });
+  }
+
+  function renderExamScript(q, revealAnswer, review) {
     // Part 1 has no question line: only the four spoken statements.
-    return `<section class="exam-script" aria-label="${q.q ? '질문과 응답' : '보기'} 스크립트"><h2>스크립트</h2>${q.q ? `<p lang="en">${escape(q.q)}</p><p class="muted" lang="ko">${escape(q.ko.q)}</p>` : ''}<ol>${q.choices.map((text, index) => `<li class="${revealAnswer && index === q.answer ? 'script-correct' : ''}"><span>(${String.fromCharCode(65 + index)})</span><div><p lang="en">${escape(text)}</p><p class="muted" lang="ko">${escape(q.ko.choices[index])}</p></div></li>`).join('')}</ol></section>`;
+    return `<section class="exam-script" aria-label="${q.q ? '질문과 응답' : '보기'} 스크립트"><h2>스크립트</h2>${review ? renderLcReviewControls() : ''}${q.q ? `<p lang="en">${review ? renderLcLine(q.q, review, 0) : escape(q.q)}</p><p class="muted" lang="ko">${escape(q.ko.q)}</p>` : ''}<ol>${q.choices.map((text, index) => `<li class="${revealAnswer && index === q.answer ? 'script-correct' : ''}"><span>(${String.fromCharCode(65 + index)})</span><div><p lang="en">${review ? renderLcLine(text, review, index + (q.q ? 1 : 0)) : escape(text)}</p><p class="muted" lang="ko">${escape(q.ko.choices[index])}</p></div></li>`).join('')}</ol></section>`;
   }
 
   function renderExamResult() {
     const s = examSession, right = s.results.filter(r => r.correct).length;
-    const items = EXAM_PARTS[s.part].sets ? Core.examSetStats(s.questions, {}).items : s.questions;
-    const types = [...new Set(items.map(q => q.type))];
+    const items = (EXAM_PARTS[s.part].sets ? Core.examSetStats(s.questions, {}).items : s.questions).filter(q => examMatchesType(s.part, q, s.type));
+    const types = [...new Set(items.map(examQuestionType))];
     return `${back('#/exam', '문제 홈')}${intro('', `Part ${s.part} 결과`, s.mode === 'wrong' ? '틀린 문제 다시 풀기' : '실전 세트')}
       <section class="result-hero"><div class="result-score">${Math.round(right / items.length * 100)}<small>%</small></div><p>${items.length}문항 중 ${right}문항 정답</p></section>
-      <section class="exam-card"><h2>유형별 정답</h2><dl class="exam-type-results">${types.map(type => `<div><dt>${escape(EXAM_TYPES[type])}</dt><dd>${s.results.filter(r => r.type === type && r.correct).length} / ${items.filter(q => q.type === type).length}</dd></div>`).join('')}</dl></section>
+      <section class="exam-card"><h2>유형별 정답</h2><dl class="exam-type-results">${types.map(type => `<div><dt>${escape(EXAM_TYPES[type])}</dt><dd>${s.results.filter(r => r.type === type && r.correct).length} / ${items.filter(q => examQuestionType(q) === type).length}</dd></div>`).join('')}</dl></section>
       <div class="stack exam-result-actions"><button class="secondary full" data-action="exam-start" data-part="${s.part}" data-mode="wrong" ${!examPool(s.part, true).length ? 'disabled' : ''}>틀린 ${EXAM_PARTS[s.part].sets ? '세트' : '문제'} 다시 풀기</button><a class="button-link full" href="#/exam">문제 홈으로</a></div>`;
   }
 
@@ -193,7 +276,7 @@
     if (examBanks[part].status !== 'ready') return renderExamHome();
     if (!examSession || examSession.route !== location.hash) makeExamSession(part, mode);
     const s = examSession;
-    if (!s.questions.length) return empty(mode === 'wrong' ? '다시 풀 틀린 문제가 없어요' : '선택한 난이도의 문제가 없어요', '문제 홈에서 다른 난이도를 선택해 주세요.', '#/exam', '문제 홈');
+    if (!s.questions.length) return empty(mode === 'wrong' ? '다시 풀 틀린 문제가 없어요' : '선택한 조건의 문제가 없어요', '문제 홈에서 다른 난이도나 유형을 선택해 주세요.', '#/exam', '문제 홈');
     if (s.finished) return renderExamResult();
     if (EXAM_PARTS[part].reading) return renderReadingSet();
     if (EXAM_PARTS[part].sets) return renderExamSet();
@@ -202,19 +285,19 @@
     const listening = part === 1
       ? `<div class="exam-listening-heading">${icon('headphones')}<h1>사진 묘사</h1></div><p class="exam-instruction">네 문장을 듣고 사진을 가장 잘 묘사한 것을 고르세요</p><img class="exam-photo" src="${escape(q.image)}" alt="${escape(q.alt)}" width="1024" height="768">`
       : `<div class="exam-listening-heading">${icon('headphones')}<h1>질문과 응답 듣기</h1></div><p class="exam-instruction">질문과 세 응답을 듣고 알맞은 답을 고르세요</p>`;
-    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${mode === 'wrong' ? '틀린 문제' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length}</p></div>${meter(s.index, s.questions.length, '문제 풀이 진행')}
+    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.type ? escape(EXAM_TYPES[s.type]) + ' 연습' : mode === 'wrong' ? '틀린 문제' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length}</p></div>${meter(s.index, s.questions.length, '문제 풀이 진행')}${s.type ? `<p class="exam-note">${escape(EXAM_TYPES[s.type])} 유형만 답하고 채점해요.</p>` : ''}
       <section class="exam-question" data-question-id="${escape(q.id)}">${part === 5 ? `<p class="exam-instruction">빈칸에 들어갈 말을 고르세요</p><h1 class="exam-stem" lang="en">${q.q.split('-------').map(escape).join('<span class="exam-blank"><span aria-hidden="true">-------</span><span class="sr-only">빈칸</span></span>')}</h1>`
         : `${listening}<div class="button-row exam-audio-controls"><button id="exam-replay" class="secondary" data-action="exam-audio" aria-label="Part ${part} ${part === 1 ? '보기' : '질문과 응답'} ${s.heard ? '다시 듣기' : '듣기'}" ${!supportsSpeech ? 'disabled' : ''}>${icon('volume-2')} ${s.heard ? '다시 듣기' : part === 1 ? '보기 듣기' : '문제 듣기'}</button>${s.audioPlaying ? '<button data-action="exam-audio-stop" aria-label="문제 음성 정지">정지</button>' : ''}</div><p class="exam-note exam-audio-status">${fallback ? `음성을 재생할 수 없어 ${part === 1 ? '보기 문장을' : '스크립트를'} 표시해요` : escape(s.audioStatus)}</p>${fallback && !s.answered ? renderExamScript(q, false) : ''}`}
       <div class="choices ${part <= 2 ? `exam-letter-choices${part === 1 ? ' is-four' : ''}` : ''}">${q.choices.map((text, index) => {
         const letter = String.fromCharCode(65 + index), isRight = s.answered && index === q.answer, isWrong = s.answered && index === s.selected && !correct;
         return `<button id="exam-choice-${index}" class="choice exam-choice ${isRight ? 'correct' : ''} ${isWrong ? 'incorrect' : ''}" data-action="exam-answer" data-index="${index}" aria-label="${letter} ${part === 5 ? escape(text) : part === 1 ? '보기' : '응답'} 선택${isRight ? ', 정답' : isWrong ? ', 오답' : ''}" aria-disabled="${s.answered}"><span class="choice-number">${letter}</span>${part === 5 ? `<span class="choice-text" lang="en">${escape(text)}</span>` : ''}<span class="choice-result">${isRight ? `${icon('check')} 정답` : isWrong ? `${icon('x')} 오답` : ''}</span></button>`;
       }).join('')}</div></section>
-      ${s.answered ? `<section id="exam-feedback" class="exam-feedback ${correct ? 'is-correct' : 'is-incorrect'}" tabindex="-1"><h2>${icon(correct ? 'check' : 'x')} ${correct ? '정답입니다' : '오답입니다'} <span>정답 (${String.fromCharCode(65 + q.answer)})</span></h2>${part === 5 ? `<p class="exam-translation" lang="ko">${escape(q.ko)}</p>` : renderExamScript(q, true)}<h3>해설 · ${escape(EXAM_TYPES[q.type])}</h3><p>${escape(q.explain)}</p>${part <= 2 ? `<h3>오답 함정</h3><ul class="exam-traps">${[...new Set(q.trap)].map(tag => `<li>${escape(traps[tag])}</li>`).join('')}</ul>` : ''}</section><button id="exam-next" class="secondary full" data-action="exam-next">${s.index === s.questions.length - 1 ? '결과 보기' : '다음 문제'} ${icon('arrow-right')}</button>`
+      ${s.answered ? `<section id="exam-feedback" class="exam-feedback ${correct ? 'is-correct' : 'is-incorrect'}" tabindex="-1"><h2>${icon(correct ? 'check' : 'x')} ${correct ? '정답입니다' : '오답입니다'} <span>정답 (${String.fromCharCode(65 + q.answer)})</span></h2>${part === 5 ? `<p class="exam-translation" lang="ko">${escape(q.ko)}</p>` : renderExamScript(q, true, {part, entry:q.id})}<h3>해설 · ${escape(EXAM_TYPES[examQuestionType(q)])}</h3><p>${escape(q.explain)}</p>${part <= 2 ? `<h3>오답 함정</h3><ul class="exam-traps">${[...new Set(q.trap)].map(tag => `<li>${escape(traps[tag])}</li>`).join('')}</ul>` : ''}</section><button id="exam-next" class="secondary full" data-action="exam-next">${s.index === s.questions.length - 1 ? '결과 보기' : '다음 문제'} ${icon('arrow-right')}</button>`
         : `<p class="exam-note">숫자 ${part === 2 ? '1~3 또는 A~C' : '1~4 또는 A~D'}로 답 선택 · 답한 뒤 Enter로 다음</p>`}`;
   }
 
-  function renderSetScript(set, translated) {
-    return `<section class="exam-script exam-set-script" aria-label="대본"><h2>대본</h2><ol>${set.script.map((line, index) => `<li><abbr title="${EXAM_SPEAKERS[line.s]}">${line.s}</abbr><div><p lang="en">${escape(line.t)}</p>${translated ? `<p lang="ko">${escape(set.scriptKo[index])}</p>` : ''}</div></li>`).join('')}</ol></section>`;
+  function renderSetScript(set, translated, review) {
+    return `<section class="exam-script exam-set-script" aria-label="대본"><h2>대본</h2>${review ? renderLcReviewControls() : ''}<ol>${set.script.map((line, index) => `<li><abbr title="${EXAM_SPEAKERS[line.s]}">${line.s}</abbr><div><p lang="en">${review ? renderLcLine(line.t, review, index) : escape(line.t)}</p>${translated ? `<p lang="ko">${escape(set.scriptKo[index])}</p>` : ''}</div></li>`).join('')}</ol></section>`;
   }
 
   function renderExamGraphic(graphic, answered) {
@@ -224,12 +307,13 @@
 
   function renderExamSet() {
     const s = examSession, set = s.questions[s.index], part = s.part, fallback = !supportsSpeech || s.audioFallback, talk = part === 3 ? '대화' : '담화';
-    const last = s.index === s.questions.length - 1, right = set.questions.filter((q, i) => s.picks[i] === q.answer).length;
-    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}
+    const last = s.index === s.questions.length - 1, right = examTargets(set).filter(i => s.picks[i] === set.questions[i].answer).length;
+    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.type ? escape(EXAM_TYPES[s.type]) + ' 연습' : s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}${s.type ? `<p class="exam-note">${escape(EXAM_TYPES[s.type])} 유형만 답하고 채점해요.</p>` : ''}
       <section class="exam-question exam-set" data-question-id="${escape(set.id)}"><div class="exam-listening-heading">${icon('headphones')}<h1>세트 ${s.index + 1}</h1></div><p class="exam-set-direction" lang="en">Questions 1–3 refer to the following ${EXAM_TALKS[set.talkType]}.</p>
       <div class="button-row exam-audio-controls"><button id="exam-replay" class="secondary" data-action="exam-audio" aria-label="Part ${part} ${talk}와 질문 ${s.heard ? '다시 듣기' : '듣기'}" ${!supportsSpeech ? 'disabled' : ''}>${icon('volume-2')} ${s.heard ? '다시 듣기' : '듣기'}</button>${s.audioPlaying ? '<button data-action="exam-audio-stop" aria-label="문제 음성 정지">정지</button>' : ''}</div><p class="exam-note exam-audio-status">${fallback ? '음성을 재생할 수 없어 대본을 표시해요' : escape(s.audioStatus)}</p>${fallback && !s.answered ? renderSetScript(set, false) : ''}
       ${set.graphic ? renderExamGraphic(set.graphic, s.answered) : ''}
       <ol class="exam-set-questions">${set.questions.map((q, qi) => {
+        if (!examMatchesType(part, q, s.type)) return '';
         const ok = s.picks[qi] === q.answer;
         return `<li class="exam-set-question"><h2><span class="exam-set-number">${qi + 1}.</span> <span lang="en">${escape(q.q)}</span></h2>${s.answered ? `<p class="exam-set-ko" lang="ko">${escape(q.ko.q)}</p>` : ''}<div class="choices exam-set-choices">${q.choices.map((text, index) => {
           const letter = `(${String.fromCharCode(65 + index)})`, picked = s.picks[qi] === index;
@@ -237,8 +321,8 @@
           return `<button id="exam-choice-${qi}-${index}" class="choice exam-choice ${!s.answered && picked ? 'is-picked' : ''} ${isRight ? 'correct' : ''} ${isWrong ? 'incorrect' : ''}" data-action="exam-pick" data-q="${qi}" data-index="${index}" aria-label="${qi + 1}번 문항 ${letter} ${escape(text)}${isRight ? ', 정답' : isWrong ? ', 내 답, 오답' : ''}" ${s.answered ? 'aria-disabled="true"' : `aria-pressed="${picked}"`}><span class="choice-number">${letter}</span><span class="choice-text"><span lang="en">${escape(text)}</span>${s.answered ? `<small lang="ko">${escape(q.ko.choices[index])}</small>` : ''}</span><span class="choice-result">${isRight ? `${icon('check')} 정답` : isWrong ? `${icon('x')} 내 답` : ''}</span></button>`;
         }).join('')}</div>${s.answered ? `<div class="exam-set-feedback ${ok ? 'is-correct' : 'is-incorrect'}"><p class="exam-set-verdict">${icon(ok ? 'check' : 'x')} ${ok ? '정답' : '오답'} · 정답 (${String.fromCharCode(65 + q.answer)}) · ${escape(EXAM_TYPES[q.type])}</p><p>${escape(q.explain)}</p></div>` : ''}</li>`;
       }).join('')}</ol></section>
-      ${s.answered ? `<p id="exam-feedback" class="exam-set-score" tabindex="-1">3문항 중 ${right}문항 정답</p>${renderSetScript(set, true)}<button id="exam-next" class="secondary full" data-action="exam-next">${last ? '결과 보기' : '다음 세트'} ${icon('arrow-right')}</button>`
-        : `<button id="exam-grade" class="primary full" data-action="exam-grade" ${s.picks.includes(null) ? 'disabled' : ''}>채점</button><p class="exam-note">세 문항의 답을 모두 고르면 채점할 수 있어요</p>`}`;
+      ${s.answered ? `<p id="exam-feedback" class="exam-set-score" tabindex="-1">${examTargets(set).length}문항 중 ${right}문항 정답</p>${renderSetScript(set, true, {part, entry:set.id})}<button id="exam-next" class="secondary full" data-action="exam-next">${last ? '결과 보기' : '다음 세트'} ${icon('arrow-right')}</button>`
+        : `<button id="exam-grade" class="primary full" data-action="exam-grade" ${examPending(s) ? 'disabled' : ''}>채점</button><p class="exam-note">연습 중인 문항의 답을 모두 고르면 채점할 수 있어요</p>`}`;
   }
 
   // Part 7 directions name the documents: "the following e-mail and order form".
@@ -272,13 +356,13 @@
 
   // Part 6/7 passage, its translation and the direction line; first = number of the set's first question
   // (1 in practice sets, the test number such as 131 in a mock test).
-  function readingPassage(set, part, answered, active, first = 1) {
+  function readingPassage(set, part, answered, active, first = 1, type = '') {
     let passage, translation;
     if (part === 6) {
-      // Blank {n}: numbered gap, highlighted while it is the one being solved, filled with the answer after grading.
+      // Only target blanks stay open in type practice; other answers supply the full passage context.
       const gap = number => {
         const q = set.questions[number - 1], label = first + number - 1;
-        return answered ? `<mark class="reading-blank is-filled">(${label}) ${escape(q.choices[q.answer])}</mark>`
+        return answered || type && !examMatchesType(part, q, type) ? `<mark class="reading-blank is-filled">(${label}) ${escape(q.choices[q.answer])}</mark>`
           : `<span class="reading-blank${number - 1 === active ? ' is-active' : ''}">(${label})<span aria-hidden="true"> -------</span><span class="sr-only"> 빈칸</span></span>`;
       };
       passage = `<article class="reading-doc">${set.heading.length ? `<div class="reading-heading">${set.heading.map(line => `<p>${escape(line)}</p>`).join('')}</div>` : ''}<div class="reading-body" lang="en">${set.paragraphs.map(text => `<p>${escape(text).replace(/\{(\d)\}/g, (_, d) => gap(Number(d)))}</p>`).join('')}</div></article>`;
@@ -293,13 +377,14 @@
   }
 
   function renderReadingSet() {
-    const s = examSession, set = s.questions[s.index], part = s.part, n = set.questions.length, last = s.index === s.questions.length - 1;
-    const right = set.questions.filter((q, i) => s.picks[i] === q.answer).length;
-    const {passage, translation, direction} = readingPassage(set, part, s.answered, s.active);
-    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}
+    const s = examSession, set = s.questions[s.index], part = s.part, n = examTargets(set).length, last = s.index === s.questions.length - 1;
+    const right = examTargets(set).filter(i => s.picks[i] === set.questions[i].answer).length;
+    const {passage, translation, direction} = readingPassage(set, part, s.answered, s.active, 1, s.type);
+    return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.type ? escape(EXAM_TYPES[s.type]) + ' 연습' : s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}${s.type ? `<p class="exam-note">${escape(EXAM_TYPES[s.type])} 유형만 답하고 채점해요.</p>` : ''}
       <section class="exam-question exam-set" data-question-id="${escape(set.id)}"><div class="exam-listening-heading">${icon('book-open')}<h1>세트 ${s.index + 1}</h1></div><p class="exam-set-direction" lang="en">${escape(direction)}</p>
       <div class="exam-reading"><section class="reading-passage" aria-label="지문" tabindex="0">${passage}${s.answered ? `<details class="reading-ko" ${part === 6 ? 'open' : ''}><summary>번역 보기</summary>${translation}</details>` : ''}</section>
       <section class="reading-questions" aria-label="문항"><ol class="exam-set-questions">${set.questions.map((q, qi) => {
+        if (!examMatchesType(part, q, s.type)) return '';
         const ok = s.picks[qi] === q.answer;
         return `<li class="exam-set-question"><h2><span class="exam-set-number">${qi + 1}.</span> ${part === 6 ? `빈칸 (${q.blank})` : `<span lang="en">${escape(q.q)}</span>`}</h2>${s.answered && part === 7 ? `<p class="exam-set-ko" lang="ko">${escape(q.ko.q)}</p>` : ''}<div class="choices exam-set-choices">${q.choices.map((text, index) => {
           const letter = `(${String.fromCharCode(65 + index)})`, picked = s.picks[qi] === index;
@@ -308,7 +393,7 @@
         }).join('')}</div>${s.answered ? `<div class="exam-set-feedback ${ok ? 'is-correct' : 'is-incorrect'}"><p class="exam-set-verdict">${icon(ok ? 'check' : 'x')} ${ok ? '정답' : '오답'} · 정답 (${String.fromCharCode(65 + q.answer)}) · ${escape(EXAM_TYPES[q.type])}${q.crossRef ? ' · 연계 문항' : ''}</p><p>${escape(q.explain)}</p></div>` : ''}</li>`;
       }).join('')}</ol>
       ${s.answered ? `<p id="exam-feedback" class="exam-set-score" tabindex="-1">${n}문항 중 ${right}문항 정답</p><button id="exam-next" class="secondary full" data-action="exam-next">${last ? '결과 보기' : '다음 세트'} ${icon('arrow-right')}</button>`
-        : `<button id="exam-grade" class="primary full" data-action="exam-grade" ${s.picks.includes(null) ? 'disabled' : ''}>채점</button><p class="exam-note">${n}문항의 답을 모두 고르면 채점할 수 있어요</p>`}</section></div></section>`;
+        : `<button id="exam-grade" class="primary full" data-action="exam-grade" ${examPending(s) ? 'disabled' : ''}>채점</button><p class="exam-note">${n}문항의 답을 모두 고르면 채점할 수 있어요</p>`}</section></div></section>`;
   }
 
   function saveExamState() {
@@ -322,19 +407,20 @@
       || !Number.isInteger(question) || question < 0 || question >= s.picks.length || !Number.isInteger(index) || index < 0 || index > 3) return;
     s.picks[question] = index;
     // Part 6 highlights the next unanswered blank.
-    const next = s.picks.indexOf(null);
+    const next = examTargets(s.questions[s.index]).find(i => s.picks[i] === null) ?? -1;
     s.active = next === -1 ? question : next;
     refreshExam();
   }
 
   function gradeExamSet() {
     const s = examSession;
-    if (!s || s.route !== location.hash || s.finished || s.answered || !EXAM_PARTS[s.part].sets || s.picks.includes(null)) return;
+    if (!s || s.route !== location.hash || s.finished || s.answered || !EXAM_PARTS[s.part].sets || examPending(s)) return;
     stopExamAudio('채점 완료 · 다시 듣기로 음성을 확인할 수 있어요');
     s.answered = true;
     const set = s.questions[s.index];
     let exam = loadExamState();
     set.questions.forEach((q, index) => {
+      if (!examMatchesType(s.part, q, s.type)) return;
       const id = `${set.id}-${index + 1}`, correct = s.picks[index] === q.answer;
       s.results.push({id, type:q.type, correct});
       exam = Core.recordExamAnswer(exam, id, correct);
@@ -343,7 +429,7 @@
     saveExamState();
     noteActivity('exam');
     render();
-    quizAnnouncement.textContent = `채점 완료. ${set.questions.length}문항 중 ${set.questions.filter((q, i) => s.picks[i] === q.answer).length}문항 정답`;
+    quizAnnouncement.textContent = `채점 완료. ${examTargets(set).length}문항 중 ${examTargets(set).filter(i => s.picks[i] === set.questions[i].answer).length}문항 정답`;
     document.querySelector('#exam-feedback')?.focus({preventScroll:true});
   }
 
@@ -356,7 +442,7 @@
     s.selected = index;
     s.answered = true;
     const correct = index === q.answer;
-    s.results.push({id:q.id, type:q.type, correct});
+    s.results.push({id:q.id, type:examQuestionType(q), correct});
     examState = Core.recordExamAnswer(loadExamState(), q.id, correct);
     saveExamState();
     noteActivity('exam');
@@ -370,7 +456,7 @@
     if (!s || s.route !== location.hash || !s.answered || s.finished) return;
     stopExamAudio();
     if (s.index === s.questions.length - 1) s.finished = true;
-    else { s.index++; s.selected = null; s.answered = false; s.heard = false; s.picks = examPicks(s.questions[s.index]); s.active = 0; s.audioFallback = false; s.audioStatus = examAudioIdle(s.part); }
+    else { s.index++; s.selected = null; s.answered = false; s.heard = false; s.picks = examPicks(s.questions[s.index]); s.active = s.questions[s.index]?.questions ? examTargets(s.questions[s.index])[0] ?? 0 : 0; s.audioFallback = false; s.audioStatus = examAudioIdle(s.part); }
     render();
     quizAnnouncement.textContent = s.finished ? '문제 세트 완료' : `${s.index + 1}/${s.questions.length} ${EXAM_PARTS[s.part].sets ? '세트' : '문제'}`;
     main.focus({preventScroll:true});
@@ -378,6 +464,7 @@
   }
 
   function stopExamAudio(status) {
+    stopLcReview();
     examAudioGeneration++;
     clearTimeout(examAudioTimer);
     examVoiceCleanup?.();
@@ -409,25 +496,14 @@
   // ("Question 32." in a mock test). Part 3/4 question items carry question:true so a caller can add pauses.
   function examAudioQueue(part, item, english, first = 1) {
     if (part <= 2) {
-      // Part 1: one narrator reads the four statements; Part 2: a second voice answers the question.
-      const questionVoice = speechVoice(english, 'en-US');
-      const responseVoice = part === 1 ? questionVoice : english.find(voice => voice !== questionVoice) || questionVoice;
-      return (part === 2 ? [{text:item.q, voice:questionVoice, label:'질문'}] : []).concat(item.choices.map((text, index) => ({text:`(${String.fromCharCode(65 + index)}) ${text}`, voice:responseVoice, label:`${part === 1 ? '보기' : '응답'} (${String.fromCharCode(65 + index)})`})));
+      const questionSpeaker = first % 2 ? 'W' : 'M', responseSpeaker = questionSpeaker === 'W' ? 'M' : 'W';
+      const cast = Core.examVoiceCast(english, [questionSpeaker, responseSpeaker]);
+      return (part === 2 ? [{text:item.q, ...cast[questionSpeaker], label:'질문'}] : []).concat(item.choices.map((text, index) => ({
+        text:`(${String.fromCharCode(65 + index)}) ${text}`, ...cast[part === 1 ? questionSpeaker : responseSpeaker],
+        label:`${part === 1 ? '보기' : '응답'} (${String.fromCharCode(65 + index)})`
+      })));
     }
-    const lang = voice => voice.lang.toLowerCase().replace('_', '-');
-    // Different accents first, then any remaining English voices.
-    const pool = [...new Set([...EXAM_ACCENTS.map(accent => english.find(voice => lang(voice) === accent)).filter(Boolean), ...english])];
-    // Speaker code's first letter (M/W) picks a voice of that gender: an unused one first, then a reused one or a
-    // neutral voice with pitch (women higher, men lower) so speakers stay distinguishable.
-    const cast = {}, used = new Set();
-    for (const speaker of new Set(item.script.map(line => line.s))) {
-      const gender = speaker[0], same = pool.filter(voice => examVoiceGender(voice) === gender);
-      const fresh = same.find(voice => !used.has(voice));
-      const voice = fresh || same[0] || pool.find(voice => !examVoiceGender(voice) && !used.has(voice)) || pool.find(voice => !examVoiceGender(voice)) || pool[0];
-      const alone = voice && !used.has(voice) && examVoiceGender(voice) === gender;
-      used.add(voice);
-      cast[speaker] = {voice, pitch:alone ? 1 : EXAM_PITCH[speaker] ?? EXAM_PITCH[gender] ?? 1};
-    }
+    const cast = Core.examVoiceCast(english, item.script.map(line => line.s)), pool = english;
     return item.script.map((line, index) => ({text:line.t, ...cast[line.s], label:`${part === 3 ? '대화' : '담화'} ${index + 1}/${item.script.length}`}))
       .concat(item.questions.map((q, index) => ({text:`Question ${first + index}. ${q.q}`, voice:pool[0], label:`${first + index}번 질문`, question:true})));
   }
@@ -440,7 +516,7 @@
       if (index >= queue.length) { done(); return; }
       const item = queue[index], utterance = new SpeechSynthesisUtterance(item.text);
       utterance.lang = item.voice?.lang || 'en-US';
-      utterance.rate = 1;
+      utterance.rate = item.rate ?? 1;
       utterance.pitch = item.pitch ?? 1;
       if (item.voice) utterance.voice = item.voice;
       onItem(item, utterance);
@@ -495,13 +571,16 @@
     examVoiceCleanup = whenVoices(voices => {
       if (!activeExamAudio(token)) return;
       const english = voices.filter(voice => voice.lang.toLowerCase().startsWith('en'));
-      speakQueue(examAudioQueue(s.part, s.questions[s.index], english), {
+      const entry = s.questions[s.index];
+      const queue = examAudioQueue(s.part, entry, english, s.part === 2 ? s.index + 1 : 1)
+        .filter((item, i) => !s.type || s.part <= 2 || i < entry.script.length || examMatchesType(s.part, entry.questions[i - entry.script.length], s.type));
+      speakQueue(queue, {
         active:() => activeExamAudio(token),
         timer:(fn, ms) => (examAudioTimer = setTimeout(fn, ms)),
         onItem:(item, utterance) => { s.audioUtterance = utterance; s.audioStatus = `${item.label} 재생 중`; refreshExam(); },
         done:() => {
           s.audioPlaying = false;
-          s.audioStatus = s.part === 1 ? '재생 완료 · 사진에 맞는 보기를 고르세요' : s.part === 2 ? '재생 완료 · 알맞은 응답을 고르세요' : '재생 완료 · 세 문항의 답을 고르세요';
+          s.audioStatus = s.part === 1 ? '재생 완료 · 사진에 맞는 보기를 고르세요' : s.part === 2 ? '재생 완료 · 알맞은 응답을 고르세요' : s.type ? '재생 완료 · 연습 중인 문항의 답을 고르세요' : '재생 완료 · 세 문항의 답을 고르세요';
           refreshExam();
         },
         fail:() => { s.audioUtterance = null; stopExamAudio('음성을 재생하지 못했어요'); s.audioFallback = true; refreshExam(); }

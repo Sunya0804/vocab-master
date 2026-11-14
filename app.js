@@ -106,6 +106,11 @@
     else if (action === 'reload-packages') render();
     else if (action === 'exam-level') { const level = Number(button.dataset.level); if ([0, 1, 2, 3].includes(level)) { examDifficulty = level; render(); } }
     else if (action === 'exam-start') startExam(Number(button.dataset.part), button.dataset.mode);
+    else if (action === 'exam-type-start') void startExamType(Number(button.dataset.part), button.dataset.type);
+    else if (action === 'lc-review-line') playLcReview(button);
+    else if (action === 'lc-review-rate') setLcReviewRate(Number(button.dataset.rate));
+    else if (action === 'lc-review-stop') stopLcReview();
+    else if (action === 'mock-weak-retry') { for (const n of new Set(mockState.attempts.map(a => a.test))) if (mockBanks[n].status !== 'ready') void loadMockTest(n); }
     else if (action === 'exam-reload') { void loadExamBank(Number(button.dataset.part)); render(); }
     else if (action === 'exam-answer') answerExam(Number(button.dataset.index));
     else if (action === 'exam-pick') pickExam(Number(button.dataset.q), Number(button.dataset.index));
@@ -208,7 +213,15 @@
 
   main.addEventListener('change', async event => {
     const target = event.target;
-    if (['listen-rate', 'listen-repeats', 'listen-examples'].includes(target.id)) {
+    if (target.matches('[data-exam-type]')) {
+      const part = Number(target.dataset.examType);
+      if (EXAM_PARTS[part] && (!target.value || Object.hasOwn(EXAM_TYPES, target.value))) {
+        examTypeFilter[part] = target.value;
+        render();
+        main.querySelector(`[data-exam-type="${part}"]`)?.focus({preventScroll:true});
+      }
+    }
+    else if (['listen-rate', 'listen-repeats', 'listen-examples'].includes(target.id)) {
       if (!listening) return;
       const wasPlaying = listening.playing;
       haltListening();
@@ -314,6 +327,7 @@
     } else window.scrollTo(0, 0);
   });
   document.addEventListener('visibilitychange', () => {
+    if (document.hidden) stopLcReview();
     if (document.hidden && examSession?.audioPlaying) { stopExamAudio('화면을 벗어나 재생을 멈췄어요'); refreshExam(); }
     if (document.hidden && mockRun?.playing) pauseMock();
     if (document.hidden && listening?.playing) {
@@ -322,6 +336,7 @@
     }
   });
   window.addEventListener('pagehide', () => {
+    stopLcReview();
     if (examSession?.audioPlaying) { stopExamAudio('화면을 벗어나 재생을 멈췄어요'); refreshExam(); }
     if (mockRun?.playing) pauseMock();
     if (listening) {

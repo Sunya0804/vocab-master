@@ -80,7 +80,7 @@
       if (items.length !== 201) throw new Error('A mock test has 200 questions');
       Object.assign(bank, {status:'ready', units, items, lc:units.filter(u => u.section === 'lc'), rc:units.filter(u => u.section === 'rc')});
     } catch (_) { bank.status = 'error'; }
-    finally { if (location.hash.startsWith(`#/exam/mock/${n}`)) render(); }
+    finally { if (location.hash === '#/exam' || location.hash.startsWith(`#/exam/mock/${n}`)) render(); }
   }
 
   const choiceCount = part => part === 2 ? 3 : 4;
@@ -91,6 +91,9 @@
   const scoreOf = attempt => ({lc:Core.mockScore(attempt.lc), rc:Core.mockScore(attempt.rc)});
 
   function renderMockHome() {
+    for (const n of new Set(mockState.attempts.map(a => a.test))) {
+      if (['idle', 'checking', 'available'].includes(mockBanks[n].status)) void loadMockTest(n);
+    }
     return `<section class="mock-home" aria-labelledby="mock-title"><h2 id="mock-title">실전 모의고사</h2><p class="exam-note">200문항 · LC 약 45분 음성이 이어서 나오고 RC는 75분이에요. 모두 새로 쓴 문제예요.</p>
       <div class="mock-cards">${MOCK_TESTS.map(n => {
         const bank = mockBanks[n], latest = attemptsFor(n).at(-1), progress = mockState.progress[n];
@@ -99,7 +102,22 @@
         const score = latest && scoreOf(latest);
         return `<div class="mock-card${empty ? ' is-empty' : ''}" data-mock-test="${n}">${empty || checking ? `<span class="mock-card-title">${n}회</span>` : `<a class="mock-card-title" href="#/exam/mock/${n}">${n}회</a>`}
           <span class="mock-card-status">${status}</span>${score ? `<a class="mock-card-score" href="#/exam/mock/${n}/result">최근 ${score.lc + score.rc}점 · ${day(latest.at)}</a>` : ''}</div>`;
-      }).join('')}</div></section>`;
+      }).join('')}</div>${renderMockWeakness()}</section>`;
+  }
+
+  function renderWeakTypes(rows) {
+    return `<ul class="mock-weak-types">${rows.map(r => `<li><div><strong>Part ${r.part} · ${escape(EXAM_TYPES[r.type] || r.type)}</strong><p>${r.right} / ${r.total}문항 정답 · ${r.accuracy}%</p></div><button data-action="exam-type-start" data-part="${r.part}" data-type="${escape(r.type)}" aria-label="Part ${r.part} ${escape(EXAM_TYPES[r.type] || r.type)} 유형 연습">이 유형 연습</button></li>`).join('')}</ul>`;
+  }
+
+  function renderMockWeakness() {
+    if (!mockState.attempts.length) return '';
+    const stats = Core.mockWeakness(mockState.attempts, Object.fromEntries(MOCK_TESTS.filter(n => mockBanks[n].status === 'ready').map(n => [n, mockBanks[n].items])));
+    const pending = [...new Set(mockState.attempts.map(a => a.test))].some(n => mockBanks[n].status === 'loading');
+    const missing = stats.included < mockState.attempts.length;
+    const weak = stats.types.filter(r => r.right < r.total).slice(0, 6);
+    return `<section class="exam-card mock-weakness"><h3>약한 유형</h3><p class="exam-note">전체 응시 기록 ${stats.included}건 합산 · 정답률이 낮은 순서예요.${pending ? ' 나머지 기록을 불러오는 중이에요.' : ''}</p>
+      ${weak.length ? renderWeakTypes(weak) : `<p>${pending ? '유형별 기록을 분석하고 있어요.' : stats.included ? '분석한 기록에서 모든 유형을 맞혔어요.' : '분석할 문제를 불러오지 못했어요.'}</p>`}
+      ${missing && !pending ? '<p class="exam-note">일부 회차를 불러오지 못해 합산에서 제외했어요.</p><button data-action="mock-weak-retry">분석 다시 불러오기</button>' : ''}</section>`;
   }
 
   // ---- runner ----
@@ -378,17 +396,15 @@
     const attempts = attemptsFor(n), attempt = attempts.at(-1), bank = mockBanks[n];
     if (!attempt) return empty('아직 응시 기록이 없어요', '모의고사를 풀고 제출하면 결과가 여기에 나와요.', `#/exam/mock/${n}`, `${n}회 시작`);
     const score = scoreOf(attempt), answers = attempt.answers;
-    const parts = [1, 2, 3, 4, 5, 6, 7].map(part => {
-      const items = bank.items.filter(item => item?.part === part);
-      return {part, total:items.length, right:items.filter(item => answers[item.no] === item.q.answer).length};
-    });
-    const wrongUnits = bank.units.filter(unit => bank.items.slice(unit.first, unit.last + 1).some(item => answers[item.no] !== item.q.answer));
+    const {parts, types} = Core.examBreakdown(bank.items, answers);
+    const wrongUnits = bank.units.filter(unit => unit.part <= 4 || bank.items.slice(unit.first, unit.last + 1).some(item => answers[item.no] !== item.q.answer));
     return `${back('#/exam', '문제 홈')}${intro('', `실전 모의고사 ${n}회 결과`, `${day(attempt.at)} 응시`)}
       <section class="result-hero mock-score"><p class="mock-score-label">예상 점수</p><div class="result-score">${score.lc + score.rc}<small>점</small></div>
         <p>LC ${attempt.lc}/100 → ${score.lc}점 · RC ${attempt.rc}/100 → ${score.rc}점</p>
         <p class="exam-note">근사치예요(섹션별 ±50점). 공식 환산표는 공개되지 않아, 알려진 근사표의 구간 중간값을 이어서 계산했어요.</p></section>
       <section class="exam-card"><h2>파트별 정답률</h2><dl class="exam-type-results">${parts.map(r => `<div><dt>Part ${r.part} ${escape(EXAM_PARTS[r.part].name)}</dt><dd>${r.right} / ${r.total} · ${Math.round(r.right / r.total * 100)}%</dd></div>`).join('')}</dl></section>
-      <section class="mock-review"><h2>틀린 문항 ${200 - attempt.lc - attempt.rc}개</h2><p class="exam-note">안 푼 문항도 틀린 문항에 들어가요. 누르면 해설·번역·대본이 열려요.</p>
+      <section class="exam-card"><h2>유형별 정답률</h2><p class="exam-note">정답률이 낮은 유형부터 보여 드려요. 안 푼 문항도 포함돼요.</p>${renderWeakTypes(types)}</section>
+      <section class="mock-review"><h2>문항별 복습</h2><p class="exam-note">틀린 문항 ${200 - attempt.lc - attempt.rc}개 · 안 푼 문항도 포함돼요. LC는 맞힌 문항도 대본에서 다시 들을 수 있어요.</p>
         ${[1, 2, 3, 4, 5, 6, 7].map(part => {
           // One fold per part: with many misses, 200 unit rows made the page several screens long.
           const units = wrongUnits.filter(unit => unit.part === part);
@@ -411,10 +427,11 @@
     const choices = item => [3, 4, 6, 7].includes(item.part) ? `${item.q.q ? `<p lang="en">${item.no}. ${escape(item.q.q)}</p>${item.q.ko?.q ? `<p class="exam-set-ko" lang="ko">${escape(item.q.ko.q)}</p>` : ''}` : `<p>${item.no}. 빈칸</p>`}
       <ol class="mock-review-choices">${item.q.choices.map((text, i) => `<li class="${i === item.q.answer ? 'script-correct' : ''}">(${letter(i)}) <span lang="en">${escape(text)}</span> <small lang="ko">${escape(item.q.ko.choices[i])}</small></li>`).join('')}</ol>` : '';
     let body;
-    if (unit.part === 1) body = `<img class="exam-photo" src="${escape(entry.image)}" alt="${escape(entry.alt)}" width="1024" height="768" loading="lazy">${renderExamScript(entry, true)}`;
-    else if (unit.part === 2) body = renderExamScript(entry, true);
+    const review = {part:unit.part, entry:entry.id, test:n};
+    if (unit.part === 1) body = `<img class="exam-photo" src="${escape(entry.image)}" alt="${escape(entry.alt)}" width="1024" height="768" loading="lazy">${renderExamScript(entry, true, review)}`;
+    else if (unit.part === 2) body = renderExamScript(entry, true, review);
     else if (unit.part === 5) body = `<p class="exam-stem" lang="en">${escape(entry.q.replace('-------', `(${entry.choices[entry.answer]})`))}</p><p class="exam-translation" lang="ko">${escape(entry.ko)}</p>`;
-    else if (unit.part <= 4) body = `${entry.graphic ? renderExamGraphic(entry.graphic, true) : ''}${renderSetScript(entry, true)}`;
+    else if (unit.part <= 4) body = `${entry.graphic ? renderExamGraphic(entry.graphic, true) : ''}${renderSetScript(entry, true, review)}`;
     else { const {passage, translation} = readingPassage(entry, unit.part, true, -1, unit.first); body = `<div class="reading-passage">${passage}<details class="reading-ko"><summary>번역 보기</summary>${translation}</details></div>`; }
     return `<details class="mock-review-unit"><summary>Part ${unit.part} · ${unit.first === unit.last ? `${unit.first}번` : `${unit.first}–${unit.last}번 중 ${wrong.length}개`}</summary>
       ${body}${wrong.map(item => choices(item) + verdict(item)).join('')}</details>`;
