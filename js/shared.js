@@ -118,7 +118,7 @@
   };
   const icon = name => `<svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${iconPaths[name]}</svg>`;
   const back = (href, text = '단어장으로') => `<a class="back-link" href="${escape(href)}">${icon('arrow-left')} ${escape(text)}</a>`;
-  const intro = (eyebrow, title, description = '') => `<div class="page-intro">${eyebrow ? `<span class="eyebrow">${escape(eyebrow)}</span>` : ''}<h1>${escape(title)}</h1>${description ? `<p>${escape(description)}</p>` : ''}</div>`;
+  const intro = (eyebrow, title, description = '') => `<div class="page-intro"><h1>${escape(title)}</h1>${eyebrow || description ? `<p>${escape([eyebrow, description].filter(Boolean).join(' · '))}</p>` : ''}</div>`;
   const meter = (current, total, label, decorative = false, known = false) => `<div class="progress-track${known ? ' known-progress' : ''}" ${decorative ? 'aria-hidden="true"' : `role="progressbar" aria-label="${escape(label)}" aria-valuemin="0" aria-valuemax="${total || 1}" aria-valuenow="${current}"`}><span style="width:${total ? Math.round(current / total * 100) : 0}%"></span></div>`;
   const packageLang = pkgId => findPackage(pkgId || selectedPackage)?.lang || 'en-US';
   const languageName = pkgId => findPackage(pkgId || selectedPackage)?.languageName || '영어';

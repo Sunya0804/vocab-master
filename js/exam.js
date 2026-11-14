@@ -164,7 +164,7 @@
       <div class="exam-parts">${Object.keys(EXAM_PARTS).map(Number).map(part => {
         const bank = examBanks[part], info = EXAM_PARTS[part], unit = info.sets ? '세트' : '문항';
         const stats = examStatsFor(part, bank.questions), pool = examPool(part), wrong = examPool(part, true), size = Math.min(info.size, pool.length);
-        return `<section class="exam-card" data-exam-part="${part}"><div class="exam-card-heading"><div><span class="eyebrow">Part ${part}</span><h2>${info.name}</h2></div>${icon(part >= 5 ? 'book-open' : 'headphones')}</div>
+        return `<section class="exam-card" data-exam-part="${part}"><div class="exam-card-heading"><h2>Part ${part} · ${info.name}</h2>${icon(part >= 5 ? 'book-open' : 'headphones')}</div>
           ${bank.status === 'empty' ? '<p class="exam-note">준비 중 · 문제를 만들고 있어요</p>' : bank.status === 'error' ? `<p class="exam-note">문제를 불러오지 못했어요. 연결을 확인한 뒤 다시 시도해 주세요.</p><button class="full" data-action="exam-reload" data-part="${part}">다시 불러오기</button>`
             : bank.status !== 'ready' ? '<p class="exam-note">문제를 불러오는 중</p>'
             : `<div class="exam-mini-stats"><span>푼 문제 <strong>${stats.solved} / ${Math.max(info.total, stats.total)}</strong></span><span>첫 시도 정답률 <strong>${stats.solved ? `${stats.firstAccuracy}%` : '–'}</strong></span></div>

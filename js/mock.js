@@ -146,7 +146,7 @@
 
   function renderMockIntro(n) {
     const latest = attemptsFor(n).at(-1);
-    return `${back('#/exam', '문제 홈')}${intro('실전 모의고사', `${n}회`, '200문항 · 약 2시간')}<section class="mock-intro">
+    return `${back('#/exam', '문제 홈')}${intro('', `실전 모의고사 ${n}회`, '200문항 · 약 2시간')}<section class="mock-intro">
       <ul><li><strong>LC 100문항 · 약 45분</strong> 시험처럼 음성이 끊김 없이 이어져요. 문항마다 다시 듣기는 없고 전체 일시정지만 있어요.</li>
       <li><strong>RC 100문항 · 75분</strong> 문항 사이를 자유롭게 오가요. 시간이 0이 되면 자동으로 제출돼요.</li>
       <li><strong>답안지</strong>에서 언제든 답을 확인하고, 안 푼 문항을 찾을 수 있어요.</li><li>중간에 나가도 이어서 풀 수 있어요.</li></ul>
@@ -382,7 +382,7 @@
       return {part, total:items.length, right:items.filter(item => answers[item.no] === item.q.answer).length};
     });
     const wrongUnits = bank.units.filter(unit => bank.items.slice(unit.first, unit.last + 1).some(item => answers[item.no] !== item.q.answer));
-    return `${back('#/exam', '문제 홈')}${intro('실전 모의고사', `${n}회 결과`, `${day(attempt.at)} 응시`)}
+    return `${back('#/exam', '문제 홈')}${intro('', `실전 모의고사 ${n}회 결과`, `${day(attempt.at)} 응시`)}
       <section class="result-hero mock-score"><p class="mock-score-label">예상 점수</p><div class="result-score">${score.lc + score.rc}<small>점</small></div>
         <p>LC ${attempt.lc}/100 → ${score.lc}점 · RC ${attempt.rc}/100 → ${score.rc}점</p>
         <p class="exam-note">근사치예요(섹션별 ±50점). 공식 환산표는 공개되지 않아, 알려진 근사표의 구간 중간값을 이어서 계산했어요.</p></section>
