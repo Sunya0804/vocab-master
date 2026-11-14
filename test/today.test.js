@@ -18,7 +18,7 @@ function harness(hash = '#/home') {
   const window = {addEventListener(){}};
   const context = {window, document:{hidden:false,querySelector:() => element,querySelectorAll:() => [],addEventListener(){},getElementById:() => element,documentElement:{dataset:{}}},
     location, history:{}, navigator:{onLine:true}, setTimeout(){return 0;}, clearTimeout(){}, console, CSS:{escape:value => value}};
-  const source = ['js/shared.js','js/study.js','js/listen.js','js/exam.js','js/settings.js','app.js'].map(file => fs.readFileSync(path.join(root, file), 'utf8')).join('\n');
+  const source = ['js/shared.js','js/study.js','js/listen.js','js/exam.js','js/settings.js','js/search.js','js/stats.js','js/dictation.js','app.js'].map(file => fs.readFileSync(path.join(root, file), 'utf8')).join('\n');
   vm.runInNewContext(source.replace('  init();', `globalThis.ui = {
     setup(pkgs, core, st) {builtins=pkgs;Core=core;state=st;selectedPackage=pkgs[0].id;ready=true;storage={getItem(){return null;},setItem(){},removeItem(){}};preferenceStorage=storage;},
     renderHome, renderStarred, renderSettings, render, main, get session() {return session;}

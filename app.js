@@ -20,7 +20,7 @@
       document.documentElement.dataset.page = !page ? 'home' : page === 'exam' && parts[1] ? 'exam-sub' : page;
       // Fetch only the built-in packages this screen reads; show the loading state meanwhile.
       const needed = page === 'home' || !page ? [(findPackage(selectedPackage) || packages()[0])?.id]
-        : ['day','cards','quiz','cloze','listen'].includes(page) ? [parts[1]]
+        : ['day','cards','quiz','cloze','listen','dictation'].includes(page) ? [parts[1]]
         : page === 'wrong' ? [...new Set(Object.values(state.wrong).map(entry => entry.pkg))]
         : page === 'review' ? [...new Set(dueEntries().map(entry => entry.pkg))]
         : page === 'starred' ? [...new Set(Object.values(state.stars).map(entry => entry.pkg))] : [];
@@ -39,6 +39,8 @@
       }
       let html;
       if (page === 'home' || !page) html = renderHome();
+      else if (page === 'search') html = renderSearch();
+      else if (page === 'stats') html = renderStats();
       else if (page === 'wrong') html = renderWrong();
       else if (page === 'settings') html = renderSettings();
       else if (page === 'starred') html = renderStarred();
@@ -50,7 +52,7 @@
         } else html = renderSession();
       }
       else if (page === 'exam') html = parts[1] === 'mock' ? renderMock(Number(parts[2]), parts[3]) : parts[1] ? renderExamPage(Number(parts[1]), parts[2] || 'set') : renderExamHome();
-      else if (['day','cards','quiz','cloze','listen'].includes(page)) {
+      else if (['day','cards','quiz','cloze','listen','dictation'].includes(page)) {
         const pkg = findPackage(parts[1]);
         // Unit key: a Day number or "t<n>" for a topic (Core.studyUnit).
         const day = parts[2], unit = pkg && Core.studyUnit(pkg, day);
@@ -58,6 +60,7 @@
           if (listening) { haltListening(); listening = null; }
           html = empty('학습할 Day를 찾을 수 없어요', '단어장에서 Day를 다시 선택해 주세요.');
         }
+        else if (page === 'dictation') html = renderDictation(pkg, day, unit);
         else if (page === 'listen') {
           selectedPackage = pkg.id;
           if (!listening || listening.route !== location.hash) {
@@ -91,7 +94,7 @@
       }
       main.setAttribute('aria-busy', 'false');
       updateNavigation(page === 'exam' ? 'exam' : page === 'settings' ? 'settings' : page === 'wrong' || (page === 'practice' && session?.returnHash === '#/wrong') ? 'wrong' : 'home');
-      document.title = `${page === 'exam' ? '문제' : page === 'settings' ? '설정' : page === 'wrong' ? '오답노트' : page === 'listen' ? '듣기' : page === 'review' ? '오늘의 복습' : page === 'starred' ? '내 단어장' : page === 'cards' || (page === 'practice' && session?.type === 'cards') ? '카드 학습' : page === 'cloze' || (page === 'practice' && session?.type === 'cloze') ? '예문 빈칸' : page === 'quiz' || page === 'practice' ? '퀴즈' : page === 'day' ? 'Day 학습' : '단어장'} · Vocab Master`;
+      document.title = `${page === 'search' ? '전체 검색' : page === 'stats' ? '학습 통계' : page === 'dictation' ? '받아쓰기' : page === 'exam' ? '문제' : page === 'settings' ? '설정' : page === 'wrong' ? '오답노트' : page === 'listen' ? '듣기' : page === 'review' ? '오늘의 복습' : page === 'starred' ? '내 단어장' : page === 'cards' || (page === 'practice' && session?.type === 'cards') ? '카드 학습' : page === 'cloze' || (page === 'practice' && session?.type === 'cloze') ? '예문 빈칸' : page === 'quiz' || page === 'practice' ? '퀴즈' : page === 'day' ? 'Day 학습' : '단어장'} · Vocab Master`;
     } catch (_) {
       main.innerHTML = empty('화면을 불러오지 못했어요', '단어장으로 돌아가 다시 시도해 주세요.');
       main.setAttribute('aria-busy', 'false');
