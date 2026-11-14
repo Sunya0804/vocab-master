@@ -148,7 +148,8 @@ function screenHarness() {
 
 test('real routes render search, empty statistics and a populated SVG trend', () => {
   const {ui} = screenHarness();
-  assert.match(ui.route('#/home'), /전체 검색[\s\S]*학습 통계/);
+  // Search lives in the header; the home row only adds the statistics link.
+  assert.match(ui.route('#/home'), /href="#\/stats"[^>]*>학습 통계/);
   assert.match(ui.route('#/search'), /id="word-search"/);
   assert.match(ui.search('grosse'), /#\/day\/de\/0/);
   assert.match(ui.route('#/stats'), /아직 모의고사 기록이 없어요/);
@@ -218,4 +219,12 @@ test('dictation records reload with the existing schema and legacy backups still
   const html = h.ui.route('#/stats');
   assert.match(html, /학습한 Day 1 \/ 2 · 아는 단어 1개/);
   assert.match(html, /<svg class="stats-chart"/); // Backups without mock records keep current attempts.
+});
+
+test('search lists a word shared by cumulative German books once, but keeps English books separate', () => {
+
+  const german = id => ({id, name:id, lang:'de-DE', cefr:'A1', words:[['das Mädchen', '소녀', '명', '', '']]});
+  const english = id => ({id, name:id, lang:'en-US', words:[['girl', '소녀', '명', '', '']]});
+  const hits = Core.searchWords([german('a1'), german('a2'), english('e1'), english('e2')], '소녀');
+  assert.deepEqual(hits.map(hit => hit.pkgId), ['a1', 'e1', 'e2']);
 });

@@ -753,7 +753,8 @@
 
   function searchWords(packages, query) {
     if (!String(query || '').trim()) return [];
-    var results = [];
+    // German books are cumulative (B1 contains A1 and A2), so one German word is listed once, in the first book that has it.
+    var results = [], germanSeen = new Set();
     packages.forEach(function (pkg) {
       if (!Array.isArray(pkg.words)) return;
       // Imported wordbooks have no language tag; a German article in the query
@@ -764,6 +765,7 @@
       var fields = searchFields(pkg.words, german);
       pkg.words.forEach(function (word, index) {
         if (terms.every(function (term) { return fields[index].includes(term); })) {
+          if (pkg.cefr) { var key = word[0] + " " + word[1]; if (germanSeen.has(key)) return; germanSeen.add(key); }
           results.push({pkgId:pkg.id, pkgName:pkg.name, day:Math.floor(index / 20), word:word});
         }
       });

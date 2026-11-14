@@ -26,11 +26,11 @@ async function discoverWordbooks(retry = false) {
   return discoveryJob;
 }
 
-function discoveryNotice() {
+function discoveryNotice(readyText = '기본 단어장과 가져온 단어장 전체를 검색해요.') {
   const missing = packages().filter(pkg => !packageReady(pkg)).length;
   return !discoveryFinished ? '단어장을 불러오고 있어요. 준비된 단어장부터 보여 드려요.'
     : !navigator.onLine ? `오프라인에서는 저장된 단어장만 이용할 수 있어요.${missing ? ` ${missing}개 단어장은 연결 후 이용할 수 있어요.` : ''}`
-    : missing ? `${missing}개 단어장을 불러오지 못했어요. 연결을 확인하고 다시 시도해 주세요.` : '기본 단어장과 가져온 단어장 전체를 검색해요.';
+    : missing ? `${missing}개 단어장을 불러오지 못했어요. 연결을 확인하고 다시 시도해 주세요.` : readyText;
 }
 
 function searchResultsHTML() {
@@ -70,5 +70,5 @@ window.addEventListener('online', () => {
   if (['#/search', '#/stats'].includes(location.hash)) { void discoverWordbooks(true); render(); }
 });
 
-function featureLinks() { return '<nav class="feature-links" aria-label="학습 도구"><a href="#/search">전체 검색</a><a href="#/stats">학습 통계</a></nav>'; }
+function featureLinks() { return '<nav class="feature-links" aria-label="학습 도구"><a href="#/stats">학습 통계</a></nav>'; }
 window.addEventListener('offline', () => { if (['#/search', '#/stats'].includes(location.hash)) render(); });

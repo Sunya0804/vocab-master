@@ -15,7 +15,7 @@ function renderStats() {
   const stats = Core.learningStats(state, packages(), examState, mockState);
   return `${back('#/home')}${intro('', '학습 통계', '이 기기에 저장된 학습 기록이에요')}
     <section class="stats-summary"><h2>오답노트</h2><a href="#/wrong"><strong>${stats.wrong}개</strong> ${icon('chevron-right')}</a></section>
-    <div class="section-heading"><h2>단어장별 진행률</h2></div><p class="session-note">${escape(discoveryNotice())}</p>
+    <div class="section-heading"><h2>단어장별 진행률</h2></div><p class="session-note">${escape(discoveryNotice('단어장마다 학습한 Day와 아는 단어 수예요.'))}</p>
     ${discoveryFinished && packages().some(pkg => !packageReady(pkg)) ? '<button data-action="discover-retry">다시 불러오기</button>' : ''}<div class="stats-books">${stats.books.map(book => `<section class="stats-book"><h3>${escape(book.name)}</h3>${book.totalDays === null ? '<p>저장되지 않은 단어장이에요. 연결 후 진행률을 확인해 주세요.</p>' : `${meter(book.studiedDays, book.totalDays, `${book.name} 학습 진행률`)}<p>학습한 Day ${book.studiedDays} / ${book.totalDays} · 아는 단어 ${book.known}개</p>${!book.studiedDays && !book.known ? '<small>아직 학습 기록이 없어요.</small>' : ''}`}</section>`).join('') || '<p>단어장을 가져오면 진행률을 확인할 수 있어요.</p>'}</div>
     <div class="section-heading"><h2>연습문제 정답률</h2></div><p class="session-note">문항별 가장 최근 답을 기준으로 계산해요.</p>
     <dl class="exam-type-results">${stats.parts.map(part => `<div><dt>Part ${part.part}</dt><dd>${part.solved ? `${part.accuracy}% · ${part.correct}/${part.solved}문항` : '아직 푼 문제가 없어요'}</dd></div>`).join('')}</dl>
