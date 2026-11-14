@@ -58,6 +58,8 @@
 
   function loadSavedState({restoreSelection = false} = {}) {
     const loaded = Core.loadState(storage);
+    // First run after review scheduling: spread the existing "known" words over the coming days.
+    if (Core.seedReviews(loaded, Core.localDay())) Core.saveState(storage, loaded);
     const preferences = Core.loadState(preferenceStorage);
     loaded.settings = {autoSpeak:!!preferences.known['preferences:autoSpeak']};
     // Restore shared defaults only on startup; live UI choices belong to this tab.
@@ -101,6 +103,12 @@
   const findPackage = id => packages().find(pkg => pkg.id === id);
   const wrongEntries = () => Object.entries(state.wrong).sort((a, b) => b[1].miss - a[1].miss || a[1].en.localeCompare(b[1].en));
   const isKnown = (pkg, word) => !!state.known[Core.wordId(pkg, word[0])];
+  const isStarred = (pkg, word) => !!state.stars[Core.wordId(pkg, word[0])];
+  // Review, starred and other cross-wordbook lists keep {pkg, en}; the word itself comes from its loaded package.
+  const savedWord = entry => findPackage(entry.pkg)?.words?.find(word => Core.wordId(entry.pkg, word[0]) === Core.wordId(entry.pkg, entry.en));
+  // Due words whose wordbook still exists; packages of built-ins may not be loaded yet.
+  const dueEntries = () => Core.dueReviews(state, Core.localDay()).filter(entry => findPackage(entry.pkg));
+  function noteActivity(kind) { Core.logActivity(state, Core.localDay(), kind); persist(); }
   const dayHash = (pkg, day) => `#/day/${path(pkg)}/${day}`;
   const iconPaths = {
     'arrow-left':'<path d="m12 19-7-7 7-7M5 12h14"/>',
@@ -114,7 +122,8 @@
     'x':'<path d="m18 6-12 12M6 6l12 12"/>',
     'play':'<path d="m6 3 14 9-14 9V3Z"/>',
     'pause':'<path d="M8 4v16M16 4v16"/>',
-    'download':'<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>'
+    'download':'<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>',
+    'star':'<path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.2-6.2 3.2L7 14.2 2 9.3l6.9-1L12 2Z"/>'
   };
   const icon = name => `<svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${iconPaths[name]}</svg>`;
   const back = (href, text = '단어장으로') => `<a class="back-link" href="${escape(href)}">${icon('arrow-left')} ${escape(text)}</a>`;
@@ -126,6 +135,7 @@
   const speaker = (text, pkgId) => supportsSpeech ? `<button class="icon-button" data-action="speak" data-text="${escape(text)}" data-lang="${escape(packageLang(pkgId))}" aria-label="${escape(text)} 발음 듣기">${icon('volume-2')}</button>` : '';
   const empty = (title, description, href = '#/home', label = '단어장 보기') => `<div class="empty-state"><div class="empty-symbol" aria-hidden="true">${icon('book-open')}</div><h1>${escape(title)}</h1><p>${escape(description)}</p><a class="button-link" href="${escape(href)}">${escape(label)}</a></div>`;
 
+  const starButton = (word, pkgId) => `<button class="icon-button star-button" data-action="star" data-pkg="${escape(pkgId)}" data-word="${escape(word[0])}" aria-pressed="${isStarred(pkgId, word)}" aria-label="${escape(word[0])} 내 단어장에 담기">${icon('star')}</button>`;
   const posBadge = word => word[2] ? `<span class="pos-badge" aria-label="품사 ${escape(word[2])}">${escape(word[2])}</span>` : '';
 
   function highlightedExample(word, pkgId) {

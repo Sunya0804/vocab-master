@@ -21,7 +21,9 @@
       // Fetch only the built-in packages this screen reads; show the loading state meanwhile.
       const needed = page === 'home' || !page ? [(findPackage(selectedPackage) || packages()[0])?.id]
         : ['day','cards','quiz','cloze','listen'].includes(page) ? [parts[1]]
-        : page === 'wrong' ? [...new Set(Object.values(state.wrong).map(entry => entry.pkg))] : [];
+        : page === 'wrong' ? [...new Set(Object.values(state.wrong).map(entry => entry.pkg))]
+        : page === 'review' ? [...new Set(dueEntries().slice(0, 50).map(entry => entry.pkg))]
+        : page === 'starred' ? [...new Set(Object.values(state.stars).map(entry => entry.pkg))] : [];
       const pending = builtins.filter(pkg => needed.includes(pkg.id) && !packageReady(pkg));
       if (pending.some(pkg => pkg.failed)) {
         pending.forEach(pkg => { delete pkg.failed; });
@@ -39,6 +41,14 @@
       if (page === 'home' || !page) html = renderHome();
       else if (page === 'wrong') html = renderWrong();
       else if (page === 'settings') html = renderSettings();
+      else if (page === 'starred') html = renderStarred();
+      else if (page === 'review') {
+        if (!session || session.route !== location.hash) {
+          const items = dueEntries().map(entry => ({pkgId:entry.pkg, word:savedWord(entry)})).filter(item => item.word).slice(0, 50);
+          if (items.length) { startSession('cards', items, {route:location.hash, returnHash:'#/home', label:'오늘의 복습', review:true}); return; }
+          html = empty('오늘 복습할 단어가 없어요', '학습한 단어는 1·3·7·14·30일 뒤에 다시 보여 드려요.');
+        } else html = renderSession();
+      }
       else if (page === 'exam') html = parts[1] === 'mock' ? renderMock(Number(parts[2]), parts[3]) : parts[1] ? renderExamPage(Number(parts[1]), parts[2] || 'set') : renderExamHome();
       else if (['day','cards','quiz','cloze','listen'].includes(page)) {
         const pkg = findPackage(parts[1]);
@@ -81,7 +91,7 @@
       }
       main.setAttribute('aria-busy', 'false');
       updateNavigation(page === 'exam' ? 'exam' : page === 'settings' ? 'settings' : page === 'wrong' || (page === 'practice' && session?.returnHash === '#/wrong') ? 'wrong' : 'home');
-      document.title = `${page === 'exam' ? '문제' : page === 'settings' ? '설정' : page === 'wrong' ? '오답노트' : page === 'listen' ? '듣기' : page === 'cards' || (page === 'practice' && session?.type === 'cards') ? '카드 학습' : page === 'cloze' || (page === 'practice' && session?.type === 'cloze') ? '예문 빈칸' : page === 'quiz' || page === 'practice' ? '퀴즈' : page === 'day' ? 'Day 학습' : '단어장'} · Vocab Master`;
+      document.title = `${page === 'exam' ? '문제' : page === 'settings' ? '설정' : page === 'wrong' ? '오답노트' : page === 'listen' ? '듣기' : page === 'review' ? '오늘의 복습' : page === 'starred' ? '내 단어장' : page === 'cards' || (page === 'practice' && session?.type === 'cards') ? '카드 학습' : page === 'cloze' || (page === 'practice' && session?.type === 'cloze') ? '예문 빈칸' : page === 'quiz' || page === 'practice' ? '퀴즈' : page === 'day' ? 'Day 학습' : '단어장'} · Vocab Master`;
     } catch (_) {
       main.innerHTML = empty('화면을 불러오지 못했어요', '단어장으로 돌아가 다시 시도해 주세요.');
       main.setAttribute('aria-busy', 'false');
@@ -155,6 +165,7 @@
       const item = session.items[session.index];
       const known = button.dataset.known === 'true';
       Core.markKnown(state, item.pkgId, item.word, known);
+      if (session.review) Core.logActivity(state, Core.localDay(), 'reviewed');
       session[known ? 'known' : 'unknown'].push(item);
       session.index++;
       session.revealed = false;
@@ -170,11 +181,19 @@
     else if (action === 'wrong-cards') startSession('cards', reviewItems());
     else if (action === 'wrong-quiz') startSession('quiz', reviewItems());
     else if (action === 'wrong-cloze') startSession('cloze', reviewItems(), {label:'오답 예문 빈칸'});
+    else if (action === 'star') {
+      const starred = Core.toggleStar(state, pkgId, button.dataset.word);
+      if (!persist()) return;
+      if (location.hash === '#/starred') render(); else button.setAttribute('aria-pressed', starred);
+      toast(starred ? '내 단어장에 담았어요.' : '내 단어장에서 뺐어요.');
+    }
+    else if (action === 'starred-cards') startSession('cards', starredItems(), {returnHash:'#/starred', label:'내 단어장'});
+    else if (action === 'starred-quiz') startSession('quiz', starredItems(), {returnHash:'#/starred', mode:button.dataset.mode, label:'내 단어장'});
     else if (action === 'delete-wrong') { delete state.wrong[button.dataset.id]; persist(); render(); toast('오답노트에서 지웠어요.'); }
     else if (action === 'clear-wrong' && confirm('오답노트를 모두 비울까요?')) { state.wrong = {}; persist(); render(); toast('오답노트를 비웠어요.'); }
     else if (action === 'delete-package') deletePackage(pkgId);
-    else if (action === 'reset' && confirm('아는 단어, 오답노트, Day별 기록을 모두 초기화할까요? 가져온 단어장은 유지됩니다.')) {
-      state = {...Core.defaultState(), custom:state.custom, settings:state.settings || {autoSpeak:false}};
+    else if (action === 'reset' && confirm('아는 단어, 오답노트, Day별 기록, 복습 일정과 연속 학습 기록을 모두 초기화할까요? 가져온 단어장, 내 단어장과 하루 목표는 유지됩니다.')) {
+      state = {...Core.defaultState(), custom:state.custom, stars:state.stars, daily:state.daily, settings:state.settings || {autoSpeak:false}};
       session = null;
       persist(); render(); toast('학습 기록을 초기화했어요.');
     } else if (action === 'reset-exam' && confirm('문제 풀이 횟수, 첫 시도 정답률과 틀린 문제 기록을 모두 초기화할까요? 단어 학습 기록은 유지됩니다.')) {
@@ -204,9 +223,14 @@
     } else if (target.dataset.action === 'known') {
       const pkg = findPackage(target.dataset.pkg);
       const word = Core.studyUnit(pkg, target.dataset.day).words[Number(target.dataset.index)];
-      if (target.checked) state.known[Core.wordId(pkg.id, word[0])] = true;
-      else delete state.known[Core.wordId(pkg.id, word[0])];
+      if (target.checked) {
+        state.known[Core.wordId(pkg.id, word[0])] = true;
+        Core.scheduleReview(state, pkg.id, word, true, Core.localDay());
+      } else delete state.known[Core.wordId(pkg.id, word[0])];
       persist(); updateNavigation('home');
+    } else if (target.id === 'daily-goal' && Number.isInteger(Number(target.value)) && Number(target.value) >= 1 && Number(target.value) <= 200) {
+      state.daily = {goal:Number(target.value)};
+      if (persist()) toast(`하루 목표를 새 단어 ${state.daily.goal}개로 바꿨어요.`);
     } else if (target.id === 'auto-speak') {
       state.settings = {...state.settings, autoSpeak:target.checked};
       persist();

@@ -341,6 +341,7 @@
     });
     examState = exam;
     saveExamState();
+    noteActivity('exam');
     render();
     quizAnnouncement.textContent = `채점 완료. ${set.questions.length}문항 중 ${set.questions.filter((q, i) => s.picks[i] === q.answer).length}문항 정답`;
     document.querySelector('#exam-feedback')?.focus({preventScroll:true});
@@ -358,6 +359,7 @@
     s.results.push({id:q.id, type:q.type, correct});
     examState = Core.recordExamAnswer(loadExamState(), q.id, correct);
     saveExamState();
+    noteActivity('exam');
     render();
     quizAnnouncement.textContent = `${correct ? '정답' : '오답'}. 정답 ${String.fromCharCode(65 + q.answer)}`;
     document.querySelector('#exam-next')?.focus({preventScroll:true});

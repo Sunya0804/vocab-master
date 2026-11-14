@@ -223,12 +223,95 @@
     return words;
   }
 
+  // review: {id: {pkg, en, step, due}} · stars: {id: {pkg, en}} · activity: {"YYYY-MM-DD": {learned, reviewed, exam}} · daily: {goal}
   function defaultState() {
-    return { known: {}, wrong: {}, custom: [], progress: {} };
+    return { known: {}, wrong: {}, custom: [], progress: {}, review: {}, stars: {}, activity: {}, daily: { goal: DEFAULT_GOAL } };
+  }
+
+  var DEFAULT_GOAL = 20;
+  var REVIEW_INTERVALS = [1, 3, 7, 14, 30];
+  var DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
+
+  // Device-local calendar date, so a streak day ends at the learner's midnight.
+  function localDay(date) {
+    var d = date === undefined ? new Date() : new Date(date);
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  function addDays(day, n) {
+    var parts = day.split('-').map(Number);
+    return localDay(new Date(parts[0], parts[1] - 1, parts[2] + n));
+  }
+
+  function logActivity(state, today, kind) {
+    var entry = state.activity[today] || (state.activity[today] = { learned: 0, reviewed: 0, exam: 0 });
+    entry[kind] += 1;
+    // Only the recent weeks matter for streaks and goals.
+    var cutoff = addDays(today, -60);
+    Object.keys(state.activity).forEach(function (day) { if (day < cutoff) delete state.activity[day]; });
+    return state;
+  }
+
+  // Correct on a new or due word advances 1 → 3 → 7 → 14 → 30 days; a word not yet due keeps its date
+  // (a Day's cards and quizzes answer it several times in one sitting). Wrong always returns to 1 day.
+  function scheduleReview(state, pkgId, word, correct, today) {
+    var id = wordId(pkgId, word);
+    var entry = state.review[id];
+    if (!entry) {
+      state.review[id] = { pkg: pkgId, en: canonicalWord(pkgId, Array.isArray(word) ? word[0] : word), step: 0, due: addDays(today, REVIEW_INTERVALS[0]) };
+      logActivity(state, today, 'learned');
+      return state;
+    }
+    if (!correct) {
+      entry.step = 0;
+      entry.due = addDays(today, REVIEW_INTERVALS[0]);
+    } else if (entry.due <= today) {
+      entry.step = Math.min(entry.step + 1, REVIEW_INTERVALS.length - 1);
+      entry.due = addDays(today, REVIEW_INTERVALS[entry.step]);
+    }
+    return state;
+  }
+
+  function dueReviews(state, today, limit) {
+    return Object.keys(state.review).filter(function (id) { return state.review[id].due <= today; })
+      .sort(function (a, b) { return state.review[a].due.localeCompare(state.review[b].due) || state.review[a].step - state.review[b].step; })
+      .slice(0, limit === undefined ? Infinity : limit)
+      .map(function (id) { return Object.assign({ id: id }, state.review[id]); });
+  }
+
+  // Known words from before scheduling existed are spread 30 a day from tomorrow, so they never arrive all at once.
+  function seedReviews(state, today) {
+    var count = 0;
+    Object.keys(state.known).forEach(function (id) {
+      var at = id.indexOf(':');
+      if (!state.known[id] || state.review[id] || at < 1) return;
+      state.review[id] = { pkg: id.slice(0, at), en: id.slice(at + 1), step: 0, due: addDays(today, 1 + Math.floor(count / 30)) };
+      count += 1;
+    });
+    return count;
+  }
+
+  function toggleStar(state, pkgId, word) {
+    var id = wordId(pkgId, word);
+    if (state.stars[id]) delete state.stars[id];
+    else state.stars[id] = { pkg: pkgId, en: canonicalWord(pkgId, Array.isArray(word) ? word[0] : word) };
+    return !!state.stars[id];
+  }
+
+  // A day counts once any study, review or exam happened; today still open does not break yesterday's streak.
+  function streak(activity, today) {
+    var active = function (day) { return !!activity[day]; };
+    var day = active(today) ? today : addDays(today, -1);
+    var count = 0;
+    while (active(day)) { count += 1; day = addDays(day, -1); }
+    var week = [];
+    for (var i = 6; i >= 0; i -= 1) week.push(active(addDays(today, -i)));
+    return { count: count, week: week };
   }
 
   // Answer/card actions update the supplied state so UI callers can save that same object.
-  function recordAnswer(state, pkgId, word, correct) {
+  function recordAnswer(state, pkgId, word, correct, today) {
+    scheduleReview(state, pkgId, word, correct, today || localDay());
     var id = wordId(pkgId, word);
     var entry = state.wrong[id];
     if (!correct) {
@@ -254,11 +337,11 @@
     return state;
   }
 
-  function markKnown(state, pkgId, word, known) {
+  function markKnown(state, pkgId, word, known, today) {
     if (known) {
       state.known[wordId(pkgId, word)] = true;
-      recordAnswer(state, pkgId, word, true);
-    } else recordAnswer(state, pkgId, word, false);
+      recordAnswer(state, pkgId, word, true, today);
+    } else recordAnswer(state, pkgId, word, false, today);
     return state;
   }
 
@@ -304,6 +387,23 @@
         if (valid) state[key] = parsed[key];
         else discarded = true;
       });
+      // Entries of the scheduling fields are checked one by one; bad ones are dropped like bad wrong entries.
+      var entryChecks = {
+        review: function (id, e) { return isRecord(e) && typeof e.pkg === 'string' && typeof e.en === 'string' && Number.isInteger(e.step) && e.step >= 0 && e.step < REVIEW_INTERVALS.length && typeof e.due === 'string' && DAY_KEY.test(e.due); },
+        stars: function (id, e) { return isRecord(e) && typeof e.pkg === 'string' && typeof e.en === 'string'; },
+        activity: function (day, e) { return DAY_KEY.test(day) && isRecord(e) && ['learned', 'reviewed', 'exam'].every(function (k) { return Number.isInteger(e[k]) && e[k] >= 0; }); }
+      };
+      Object.keys(entryChecks).forEach(function (key) {
+        Object.keys(state[key]).forEach(function (id) {
+          if (entryChecks[key](id, state[key][id])) return;
+          delete state[key][id];
+          discarded = true;
+        });
+      });
+      if (!(Number.isInteger(state.daily.goal) && state.daily.goal >= 1 && state.daily.goal <= 200)) {
+        if (state.daily.goal !== undefined) discarded = true;
+        state.daily = { goal: DEFAULT_GOAL };
+      }
       Object.keys(state.wrong).forEach(function (id) {
         var entry = state.wrong[id];
         if (!isWrongEntry(entry)) {
@@ -633,6 +733,14 @@
     buildQuiz: buildQuiz,
     parseImport: parseImport,
     defaultState: defaultState,
+    localDay: localDay,
+    addDays: addDays,
+    logActivity: logActivity,
+    scheduleReview: scheduleReview,
+    dueReviews: dueReviews,
+    seedReviews: seedReviews,
+    toggleStar: toggleStar,
+    streak: streak,
     recordAnswer: recordAnswer,
     markKnown: markKnown,
     loadState: loadState,

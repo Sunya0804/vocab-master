@@ -387,12 +387,15 @@ for (const mode of ['en2ko', 'ko2en']) {
 test('defaultState returns independent empty containers', () => {
   const first = Core.defaultState();
   const second = Core.defaultState();
-  assert.deepEqual(first, { known: {}, wrong: {}, custom: [], progress: {} });
+  const empty = { known: {}, wrong: {}, custom: [], progress: {}, review: {}, stars: {}, activity: {}, daily: { goal: 20 } };
+  assert.deepEqual(first, empty);
   first.known.word = true;
   first.wrong.word = {};
   first.custom.push({});
   first.progress.day = {};
-  assert.deepEqual(second, { known: {}, wrong: {}, custom: [], progress: {} });
+  first.review.word = {};
+  first.daily.goal = 5;
+  assert.deepEqual(second, empty);
 });
 
 test('recordAnswer adds misses, clears known, resets streak and removes after two consecutive correct', () => {
@@ -852,6 +855,111 @@ test('mock state keeps attempts and per-test progress, rejects malformed records
     {attempts:[], progress:{'1':{...ok.progress['2'], rcEndsAt:undefined}}},
     {attempts:{}, progress:{}}, null
   ]) assert.equal(Core.validMockState(bad), false, JSON.stringify(bad));
+});
+
+test('scheduleReview walks 1/3/7/14/30 days, waits until due and resets on a miss', () => {
+  const state = Core.defaultState();
+  const word = ['agenda', '안건'];
+  const id = 'toeic:agenda';
+  Core.scheduleReview(state, 'toeic', word, true, '2026-01-30');
+  assert.deepEqual(state.review[id], { pkg: 'toeic', en: 'agenda', step: 0, due: '2026-01-31' });
+  assert.equal(state.activity['2026-01-30'].learned, 1);
+  Core.scheduleReview(state, 'toeic', word, true, '2026-01-30');
+  assert.equal(state.review[id].due, '2026-01-31', 'not due yet: unchanged');
+  const expected = [['2026-01-31', 1, '2026-02-03'], ['2026-02-03', 2, '2026-02-10'], ['2026-02-10', 3, '2026-02-24'], ['2026-02-24', 4, '2026-03-26'], ['2026-03-26', 4, '2026-04-25']];
+  for (const [today, step, due] of expected) {
+    Core.scheduleReview(state, 'toeic', word, true, today);
+    assert.deepEqual([state.review[id].step, state.review[id].due], [step, due], today);
+  }
+  Core.scheduleReview(state, 'toeic', word, false, '2026-04-01');
+  assert.deepEqual([state.review[id].step, state.review[id].due], [0, '2026-04-02']);
+  assert.equal(state.activity['2026-01-30'].learned, 1, 'only a new entry counts as learned');
+});
+
+test('recordAnswer and markKnown schedule reviews and keep wrong-note behaviour', () => {
+  const state = Core.defaultState();
+  Core.markKnown(state, 'toeic', ['agenda', '안건'], true, '2026-05-01');
+  Core.recordAnswer(state, 'toeic', ['acquire', '얻다'], false, '2026-05-01');
+  assert.equal(state.review['toeic:agenda'].due, '2026-05-02');
+  assert.equal(state.review['toeic:acquire'].due, '2026-05-02');
+  assert.equal(state.wrong['toeic:acquire'].miss, 1);
+  Core.recordAnswer(state, 'toeic', ['set down to work', '일에 착수하다'], true, '2026-05-01');
+  assert.equal(state.review['toeic:get down to work'].en, 'get down to work');
+});
+
+test('dueReviews returns due words oldest first, limited', () => {
+  const state = Core.defaultState();
+  state.review = {
+    'a:x': { pkg: 'a', en: 'x', step: 2, due: '2026-05-01' },
+    'a:y': { pkg: 'a', en: 'y', step: 0, due: '2026-04-28' },
+    'a:z': { pkg: 'a', en: 'z', step: 0, due: '2026-05-02' },
+    'a:w': { pkg: 'a', en: 'w', step: 0, due: '2026-05-01' }
+  };
+  assert.deepEqual(Core.dueReviews(state, '2026-05-01').map(e => e.id), ['a:y', 'a:w', 'a:x']);
+  assert.deepEqual(Core.dueReviews(state, '2026-05-01', 2).map(e => e.id), ['a:y', 'a:w']);
+});
+
+test('seedReviews spreads old known words 30 a day from tomorrow and skips scheduled ones', () => {
+  const state = Core.defaultState();
+  for (let i = 0; i < 65; i++) state.known['toeic:w' + i] = true;
+  state.review['toeic:w0'] = { pkg: 'toeic', en: 'w0', step: 3, due: '2026-06-01' };
+  assert.equal(Core.seedReviews(state, '2026-05-31'), 64);
+  const perDay = {};
+  Object.values(state.review).forEach(e => { perDay[e.due] = (perDay[e.due] || 0) + 1; });
+  assert.deepEqual(perDay, { '2026-06-01': 31, '2026-06-02': 30, '2026-06-03': 4 });
+  assert.equal(state.review['toeic:w0'].step, 3);
+  assert.deepEqual(state.review['toeic:w5'], { pkg: 'toeic', en: 'w5', step: 0, due: '2026-06-01' });
+  assert.equal(Core.seedReviews(state, '2026-05-31'), 0);
+  assert.deepEqual(state.activity, {}, 'seeding is not study activity');
+});
+
+test('streak counts consecutive local days, keeps an open today and crosses month and year ends', () => {
+  const a = () => ({ learned: 1, reviewed: 0, exam: 0 });
+  const activity = { '2025-12-30': a(), '2025-12-31': a(), '2026-01-01': a() };
+  assert.deepEqual(Core.streak(activity, '2026-01-01'), { count: 3, week: [false, false, false, false, true, true, true] });
+  assert.equal(Core.streak(activity, '2026-01-02').count, 3, 'today not studied yet');
+  assert.equal(Core.streak(activity, '2026-01-03').count, 0);
+  assert.equal(Core.addDays('2024-02-28', 1), '2024-02-29');
+  assert.equal(Core.addDays('2026-03-01', -1), '2026-02-28');
+  // Local midnight: 23:59:59 and 00:00 the next day are different days.
+  assert.equal(Core.localDay(new Date(2026, 0, 1, 23, 59, 59)), '2026-01-01');
+  assert.equal(Core.localDay(new Date(2026, 0, 2, 0, 0, 0)), '2026-01-02');
+});
+
+test('logActivity counts kinds per day and drops days older than 60 days', () => {
+  const state = Core.defaultState();
+  state.activity['2026-01-01'] = { learned: 1, reviewed: 0, exam: 0 };
+  Core.logActivity(state, '2026-03-15', 'exam');
+  Core.logActivity(state, '2026-03-15', 'reviewed');
+  assert.deepEqual(state.activity, { '2026-03-15': { learned: 0, reviewed: 1, exam: 1 } });
+});
+
+test('toggleStar adds and removes a word with its package', () => {
+  const state = Core.defaultState();
+  assert.equal(Core.toggleStar(state, 'custom-1', ['agenda', '안건']), true);
+  assert.deepEqual(state.stars, { 'custom-1:agenda': { pkg: 'custom-1', en: 'agenda' } });
+  assert.equal(Core.toggleStar(state, 'custom-1', ['agenda', '안건']), false);
+  assert.deepEqual(state.stars, {});
+});
+
+test('loadState keeps old states, drops bad schedule/star/activity entries and resets a bad goal', () => {
+  const old = { known: { 'toeic:a': true }, wrong: {}, custom: [], progress: {} };
+  assert.deepEqual(Core.loadState(storage({ 'vocab-master-v1': JSON.stringify(old) })), { ...Core.defaultState(), known: old.known });
+  const good = { pkg: 'toeic', en: 'a', step: 1, due: '2026-05-01' };
+  const raw = JSON.stringify({ ...old,
+    review: { 'toeic:a': good, 'toeic:b': { ...good, step: 5 }, 'toeic:c': { ...good, due: '5/1' } },
+    stars: { 'toeic:a': { pkg: 'toeic', en: 'a' }, 'toeic:b': true },
+    activity: { '2026-05-01': { learned: 2, reviewed: 1, exam: 0 }, 'yesterday': { learned: 1, reviewed: 0, exam: 0 }, '2026-05-02': { learned: -1, reviewed: 0, exam: 0 } },
+    daily: { goal: 0 } });
+  const store = storage({ 'vocab-master-v1': raw });
+  const state = Core.loadState(store);
+  assert.deepEqual(Object.keys(state.review), ['toeic:a']);
+  assert.deepEqual(Object.keys(state.stars), ['toeic:a']);
+  assert.deepEqual(Object.keys(state.activity), ['2026-05-01']);
+  assert.deepEqual(state.daily, { goal: 20 });
+  assert.equal(store.getItem('vocab-master-v1-corrupt'), raw);
+  const kept = Core.loadState(storage({ 'vocab-master-v1': JSON.stringify({ ...old, daily: { goal: 35 } }) }));
+  assert.equal(kept.daily.goal, 35);
 });
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

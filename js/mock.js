@@ -218,6 +218,7 @@
     if (!item || !Number.isInteger(index) || index < 0 || index >= choiceCount(item.part) || mockLocked(no, p)) return;
     p.answers[no] = index;
     saveMockState();
+    noteActivity('exam');
     refreshMock();
   }
 

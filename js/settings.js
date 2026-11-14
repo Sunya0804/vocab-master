@@ -11,9 +11,9 @@
   function renderSettings() {
     return `${intro('', '설정', '단어장 가져오기 · 학습 환경 · 백업')}<section class="settings-section"><h2>단어장 가져오기</h2><p>한 줄에 한 단어씩, 단어와 뜻을 쉼표나 띄어쓰기로 나눠 주세요. PDF에서 복사한 텍스트도 붙여넣을 수 있어요.</p><p class="import-guide">품사·예문·해석까지 넣으려면 엑셀이나 구글 시트에 <strong>단어 · 뜻 · 품사 · 예문 · 해석</strong> 순서로 칸을 채운 뒤, 그 줄들을 복사해 붙여넣으세요. 뒤 세 칸은 비워도 돼요.</p><form id="import-form"><label class="field">단어장 이름<input id="import-name" maxlength="80" required placeholder="예: 출근길에 외우는 단어" value="${escape(draft.name)}"></label><label class="field">단어 붙여넣기<textarea id="import-text" placeholder="accommodate, 수용하다&#10;confirm, 확인하다&#10;available 이용 가능한" spellcheck="false">${escape(draft.text)}</textarea></label><label class="field">또는 텍스트 파일 선택<input type="file" id="import-file" accept=".txt,.csv,text/plain,text/csv"></label><div id="import-preview" class="preview" role="status" aria-live="polite">${previewHTML()}</div><button id="import-submit" class="secondary full" type="submit" ${!draft.words.length ? 'disabled' : ''}>${draft.words.length ? `${draft.words.length}개 단어 가져오기` : '단어 가져오기'}</button></form></section>
       <section class="settings-section"><h2>가져온 단어장</h2><p>삭제하면 이 단어장의 학습·오답 기록도 함께 지워져요.</p>${state.custom.length ? `<ul>${state.custom.map(pkg => `<li class="custom-row"><div><strong>${escape(pkg.name)}</strong><small>${pkg.words.length}개 단어 · ${Core.chunkDays(pkg.words).length} Days</small></div><button class="danger" data-action="delete-package" data-pkg="${escape(pkg.id)}" aria-label="${escape(pkg.name)} 삭제">삭제</button></li>`).join('')}</ul>` : '<small>아직 가져온 단어장이 없어요.</small>'}</section>
-      <section class="settings-section"><h2>학습 환경</h2><label class="toggle-row"><span><strong>카드 자동 발음</strong><span class="toggle-description">${supportsSpeech ? '다음 카드를 열면 단어장 언어로 발음을 들려줘요.' : '이 브라우저에서는 발음을 지원하지 않아요.'}</span></span><input type="checkbox" id="auto-speak" aria-label="카드 자동 발음" ${state.settings?.autoSpeak ? 'checked' : ''} ${!supportsSpeech ? 'disabled' : ''}></label></section>
+      <section class="settings-section"><h2>학습 환경</h2><label class="toggle-row"><span><strong>하루 목표</strong><span class="toggle-description">하루에 새로 학습할 단어 수예요. 복습은 그날 나온 단어를 모두 해요.</span></span><select id="daily-goal" aria-label="하루 목표 단어 수">${[...new Set([10, 20, 30, 50, 100, state.daily.goal])].sort((a, b) => a - b).map(n => `<option value="${n}" ${n === state.daily.goal ? 'selected' : ''}>${n}단어</option>`).join('')}</select></label><label class="toggle-row"><span><strong>카드 자동 발음</strong><span class="toggle-description">${supportsSpeech ? '다음 카드를 열면 단어장 언어로 발음을 들려줘요.' : '이 브라우저에서는 발음을 지원하지 않아요.'}</span></span><input type="checkbox" id="auto-speak" aria-label="카드 자동 발음" ${state.settings?.autoSpeak ? 'checked' : ''} ${!supportsSpeech ? 'disabled' : ''}></label></section>
       <section class="settings-section"><h2>백업과 복원</h2><p>단어·문제 학습 기록과 가져온 단어장을 JSON 파일로 보관하세요. 복원하면 백업에 포함된 기록이 교체돼요.</p><button class="secondary full" data-action="export">백업 내보내기 ${icon('download')}</button><label class="field" style="margin-top:16px">백업 JSON 복원<input id="restore-file" type="file" accept=".json,application/json"></label></section>
-      <section class="settings-section"><h2>학습 기록 초기화</h2><p>아는 단어, 오답노트와 Day별 기록을 지워요. 가져온 단어장, 자동 발음 설정과 문제 기록은 유지해요.</p><button class="danger full" data-action="reset">학습 기록 초기화</button></section><section class="settings-section"><h2>문제 기록 초기화</h2><p>문제 풀이 횟수, 첫 시도 정답률과 틀린 문제 기록을 지워요. 단어 학습 기록은 유지해요.</p><button class="danger full" data-action="reset-exam">문제 기록 초기화</button></section><p class="app-footer">Vocab Master<br>기록은 이 브라우저에 저장됩니다.</p>`;
+      <section class="settings-section"><h2>학습 기록 초기화</h2><p>아는 단어, 오답노트, Day별 기록, 복습 일정과 연속 학습 기록을 지워요. 가져온 단어장, 내 단어장, 하루 목표, 자동 발음 설정과 문제 기록은 유지해요.</p><button class="danger full" data-action="reset">학습 기록 초기화</button></section><section class="settings-section"><h2>문제 기록 초기화</h2><p>문제 풀이 횟수, 첫 시도 정답률과 틀린 문제 기록을 지워요. 단어 학습 기록은 유지해요.</p><button class="danger full" data-action="reset-exam">문제 기록 초기화</button></section><p class="app-footer">Vocab Master<br>기록은 이 브라우저에 저장됩니다.</p>`;
   }
 
   function updatePreview() {
@@ -31,6 +31,7 @@
     pkg.words.forEach(word => { delete state.known[Core.wordId(id, word[0])]; });
     Object.keys(state.wrong).forEach(key => { if (state.wrong[key].pkg === id) delete state.wrong[key]; });
     Object.keys(state.progress).forEach(key => { if (key.startsWith(`${id}:`)) delete state.progress[key]; });
+    for (const field of ['review', 'stars']) Object.keys(state[field]).forEach(key => { if (state[field][key].pkg === id) delete state[field][key]; });
     delete selectedLevels[id];
     if (selectedPackage === id) selectedPackage = packages()[0]?.id || '';
     persist({saveSelection:true}); render(); toast('단어장을 삭제했어요.');
@@ -92,6 +93,8 @@
       if (!confirm('백업으로 복원할까요? 현재 학습 기록과 가져온 단어장이 백업 내용으로 교체됩니다.')) return;
       // Feed the validated payload through Core's storage boundary as well.
       const restored = Core.loadState({getItem:key => key === 'vocab-master-v1' ? JSON.stringify(value) : null, setItem:() => {}});
+      // Backups from before review scheduling carry only "known" words.
+      Core.seedReviews(restored, Core.localDay());
       const previous = state, previousExam = examState, previousMock = mockState;
       const before = ['vocab-master-v1', 'vocab-master-preferences-v1', EXAM_KEY, MOCK_KEY].map(key => [key, storage.getItem(key)]);
       state = restored;
