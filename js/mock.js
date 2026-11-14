@@ -2,8 +2,8 @@
    an answer sheet, approximate scores and resumable progress. Screens reuse the part renderers in exam.js. */
   'use strict';
   const MOCK_KEY = 'vocab-master-mock';
-  // Tests 1-15; a missing questions/mock/mock-N.json shows as "준비 중" on the home card.
-  const MOCK_TESTS = Array.from({length:15}, (_, i) => i + 1);
+  // Tests 1-20; a missing questions/mock/mock-N.json shows as "준비 중" on the home card.
+  const MOCK_TESTS = Array.from({length:20}, (_, i) => i + 1);
   const MOCK_COUNTS = {1:6, 2:25, 3:13, 4:10, 5:30, 6:4, 7:15};
   const MOCK_RC_MS = 75 * 60 * 1000;
   // Silence after each Part 1/2 item and after each Part 3/4 question, as on the test.

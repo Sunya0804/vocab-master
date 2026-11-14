@@ -1,0 +1,3252 @@
+[
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "When does the forklift safety course begin?",
+  "choices": [
+   "Next Monday at eight.",
+   "In the loading area.",
+   "He passed it last year."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "지게차 안전 교육은 언제 시작하나요?",
+   "choices": [
+    "다음 주 월요일 8시요.",
+    "하역장에서요.",
+    "그는 작년에 그걸 통과했어요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "wrong-subject"
+  ],
+  "explain": "When 질문에 날짜와 시각으로 바로 답했어요. 하역장은 Where 응답이고, 작년 통과는 시작 시점과 무관해요.",
+  "test": 16,
+  "id": "m-p2-16-01"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 2,
+  "q": "Did the courier pick up the signed lease this morning?",
+  "choices": [
+   "A short-term lease.",
+   "Yes, around nine thirty.",
+   "He picks the best ones."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "택배 기사가 오늘 아침 서명된 임대 계약서를 가져갔나요?",
+   "choices": [
+    "단기 임대요.",
+    "네, 9시 30분쯤에요.",
+    "그는 제일 좋은 것들을 골라요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "가져갔는지 묻자 Yes와 시각으로 확인했어요. lease를 반복한 응답과 pick을 비튼 picks 응답은 수거 여부와 무관해요.",
+  "test": 16,
+  "id": "m-p2-16-02"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Who's approving the overtime hours for the inventory count?",
+  "choices": [
+   "About forty hours in total.",
+   "That's still being decided at headquarters.",
+   "The count went smoothly last year."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "재고 조사 초과 근무 시간은 누가 승인하나요?",
+   "choices": [
+    "총 40시간 정도요.",
+    "그건 아직 본사에서 정하는 중이에요.",
+    "작년 재고 조사는 순조로웠어요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "repeat-word"
+  ],
+  "explain": "승인자를 바로 말하지 않고 아직 본사에서 정하는 중이라고 돌려 답했어요. 시간 합계와 작년 조사는 승인 주체가 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-03"
+ },
+ {
+  "type": "request",
+  "difficulty": 2,
+  "q": "Could you print the seating chart for the board dinner?",
+  "choices": [
+   "The dinner was delicious.",
+   "A chart of quarterly sales.",
+   "Sure, how many copies do you need?"
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "이사회 만찬 좌석 배치도를 출력해 줄 수 있어요?",
+   "choices": [
+    "만찬이 맛있었어요.",
+    "분기 매출 도표요.",
+    "물론이죠, 몇 부 필요해요?"
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "출력 요청을 수락하고 부수를 되물었어요. dinner와 chart를 반복한 응답은 요청에 대한 반응이 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-04"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Where should I put these returned headsets?",
+  "choices": [
+   "On the shelf by the repair desk.",
+   "They returned on Friday.",
+   "Yes, I heard about that."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "반품된 이 헤드셋들은 어디에 둘까요?",
+   "choices": [
+    "수리 데스크 옆 선반에요.",
+    "그들은 금요일에 돌아왔어요.",
+    "네, 그 얘기 들었어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "yes-no-to-wh"
+  ],
+  "explain": "Where 질문에 선반 위치로 답했어요. returned를 사람의 귀환으로 바꾼 응답과 Yes 응답은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-05"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "I'm sorry, I sent you last month's price list by mistake.",
+  "choices": [
+   "Prices rose by five percent.",
+   "No problem, I hadn't forwarded it yet.",
+   "It's on the mailing list."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "죄송해요, 실수로 지난달 가격표를 보내 드렸어요.",
+   "choices": [
+    "가격이 5퍼센트 올랐어요.",
+    "괜찮아요, 아직 그걸 전달하지 않았어요.",
+    "그건 우편 발송 목록에 있어요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "repeat-word"
+  ],
+  "explain": "사과에 아직 전달하지 않아 문제없다고 답했어요. 가격 인상과 발송 목록은 사과에 대한 반응이 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-06"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Why was the delivery van parked behind the building?",
+  "choices": [
+   "A parking pass for visitors.",
+   "About twenty deliveries a day.",
+   "The front entrance is being repaved."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "배송 밴이 왜 건물 뒤에 주차되어 있었나요?",
+   "choices": [
+    "방문객용 주차권이요.",
+    "하루 배송 20건 정도요.",
+    "정문 앞을 다시 포장하는 중이에요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "repeat-word"
+  ],
+  "explain": "정문 쪽 포장 공사라는 이유를 댔어요. 주차권과 배송 건수는 parked, delivery에서 연상한 함정이에요.",
+  "test": 16,
+  "id": "m-p2-16-07"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 2,
+  "q": "You've reviewed the contractor's revised quote, haven't you?",
+  "choices": [
+   "Quite a few contractors.",
+   "Yes, it's lower than the first one.",
+   "I'll quote you on that."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "시공업체의 수정 견적서를 검토하셨죠?",
+   "choices": [
+    "꽤 많은 시공업체요.",
+    "네, 처음 것보다 낮아요.",
+    "그 말 인용할게요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "검토했다고 확인하며 금액 비교까지 말했어요. contractors 반복과 quote의 다른 뜻을 쓴 응답은 함정이에요.",
+  "test": 16,
+  "id": "m-p2-16-08"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "How long will the conference room projector take to fix?",
+  "choices": [
+   "In the main conference room.",
+   "He took the early train.",
+   "The technician hasn't looked at it yet."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "회의실 프로젝터를 고치는 데 얼마나 걸릴까요?",
+   "choices": [
+    "본 회의실에서요.",
+    "그는 이른 기차를 탔어요.",
+    "기술자가 아직 살펴보지 않았어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "기간을 말하지 않고 아직 점검 전이라 알 수 없다고 돌려 답했어요. 장소 응답과 take/took 발음 함정은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-09"
+ },
+ {
+  "type": "choice",
+  "difficulty": 3,
+  "q": "Should we ship the samples by air or by ground?",
+  "choices": [
+   "A ground-floor office.",
+   "I'd like a window seat.",
+   "The client needs them by Thursday."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "견본을 항공으로 보낼까요, 육로로 보낼까요?",
+   "choices": [
+    "1층 사무실이요.",
+    "창가 자리로 주세요.",
+    "고객이 목요일까지 필요로 해요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "운송 방법을 바로 고르지 않고 고객의 필요 기한을 알려 주어 선택에 필요한 조건을 제시한다. 목요일이라는 말만으로 항공 운송이 반드시 필요하다고 단정할 수는 없으며, A는 사무실 층수이고 B는 여객 좌석 요청이다.",
+  "test": 16,
+  "id": "m-p2-16-10"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Is the cafeteria open on Saturday?",
+  "choices": [
+   "Only until two in the afternoon.",
+   "I opened the window.",
+   "A cup of coffee, please."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "구내식당이 토요일에 문을 여나요?",
+   "choices": [
+    "오후 2시까지만요.",
+    "제가 창문을 열었어요.",
+    "커피 한 잔 주세요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "related-word"
+  ],
+  "explain": "토요일에 오후 2시까지만 연다고 답했어요. open/opened 함정과 식당에서 연상한 주문은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-11"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What time does the shuttle to the trade fair leave?",
+  "choices": [
+   "Leave it on my desk.",
+   "That's a fair price.",
+   "The schedule's posted by the entrance."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "무역 박람회행 셔틀은 몇 시에 출발하나요?",
+   "choices": [
+    "제 책상에 두세요.",
+    "적정한 가격이네요.",
+    "시간표가 입구 옆에 붙어 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "시각을 말하지 않고 시간표가 붙은 곳을 알려 주는 간접 응답이에요. leave와 fair를 다른 뜻으로 반복한 응답은 함정이에요.",
+  "test": 16,
+  "id": "m-p2-16-12"
+ },
+ {
+  "type": "request",
+  "difficulty": 3,
+  "q": "Would you mind covering my shift at the help desk on Friday?",
+  "choices": [
+   "I'm presenting at the client meeting that afternoon.",
+   "The desks are on the third floor.",
+   "A new phone cover."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "금요일 안내 데스크 근무를 대신 맡아 줄 수 있어요?",
+   "choices": [
+    "그날 오후에 고객 회의에서 발표해요.",
+    "책상들은 3층에 있어요.",
+    "새 휴대폰 케이스요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "그날 오후 발표가 있다고 말해 간접적으로 거절했어요. desk 반복과 covering/cover 함정은 요청에 대한 답이 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-13"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Who's leading the new employee orientation?",
+  "choices": [
+   "In the training room.",
+   "It was very informative.",
+   "Ms. Okafor from human resources."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "신입 직원 오리엔테이션은 누가 진행하나요?",
+   "choices": [
+    "교육실에서요.",
+    "아주 유익했어요.",
+    "인사부의 오카포 씨요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "wrong-subject"
+  ],
+  "explain": "Who 질문에 진행자 이름과 부서로 답했어요. 장소 응답과 이미 끝난 행사 소감은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-14"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "The parking garage will be closed for cleaning on Wednesday.",
+  "choices": [
+   "A cleaning crew of six.",
+   "Then I'll take the bus that day.",
+   "It's close to the station."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "수요일에는 청소 때문에 주차장이 문을 닫아요.",
+   "choices": [
+    "6명으로 된 청소팀이요.",
+    "그럼 그날은 버스를 탈게요.",
+    "역에서 가까워요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "주차장 폐쇄 소식에 버스를 타겠다는 계획 변경으로 반응했어요. cleaning 반복과 closed/close 함정은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-15"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Where can I find the updated travel reimbursement form?",
+  "choices": [
+   "Finance is revising it again this week.",
+   "Within thirty days of your trip.",
+   "I found my passport."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "새로 바뀐 출장비 환급 양식은 어디서 찾을 수 있어요?",
+   "choices": [
+    "재무팀이 이번 주에 그걸 또 고치고 있어요.",
+    "출장 후 30일 이내에요.",
+    "제 여권을 찾았어요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "similar-sound"
+  ],
+  "explain": "위치를 직접 말하지 않고 재무팀이 다시 수정 중이라는 상황을 알려 주는 간접 응답이다. 최신본을 안내하기 어렵다는 뜻으로 읽을 수 있지만 기존 양식까지 전혀 없다는 뜻은 아니며, B는 기한이고 C는 자기 여권을 찾았다는 말이다.",
+  "test": 16,
+  "id": "m-p2-16-16"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Has the marketing team chosen a slogan for the campaign?",
+  "choices": [
+   "They're voting on three options today.",
+   "A campaign in the spring.",
+   "No, I chose the blue one."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "마케팅팀이 캠페인 문구를 정했나요?",
+   "choices": [
+    "오늘 세 가지 안을 두고 투표해요.",
+    "봄에 하는 캠페인이요.",
+    "아니요, 저는 파란 걸 골랐어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "오늘 투표한다는 말로 아직 정하지 않았음을 돌려 말했어요. campaign 반복과 주어를 바꾼 chose 응답은 함정이에요.",
+  "test": 16,
+  "id": "m-p2-16-17"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 2,
+  "q": "The supplier hasn't raised its prices again, has it?",
+  "choices": [
+   "Raise your hand if you agree.",
+   "No, they're the same as last quarter.",
+   "The supply room is locked."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "공급업체가 또 가격을 올린 건 아니죠?",
+   "choices": [
+    "동의하면 손을 드세요.",
+    "아니요, 지난 분기와 같아요.",
+    "비품실이 잠겨 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "가격이 지난 분기와 같다고 분명히 답했어요. raise의 다른 뜻과 supplier/supply 함정은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-18"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Why hasn't the new hire received a security badge?",
+  "choices": [
+   "Her background check finished only this morning.",
+   "Security is on the first floor.",
+   "She was hired in May."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "신입 직원이 왜 아직 보안 출입증을 받지 못했나요?",
+   "choices": [
+    "신원 조회가 오늘 아침에야 끝났어요.",
+    "보안팀은 1층에 있어요.",
+    "그녀는 5월에 채용됐어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "신원 조회가 늦게 끝났다는 이유를 댔어요. 보안팀 위치와 채용 시기는 출입증 지연의 이유가 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-19"
+ },
+ {
+  "type": "choice",
+  "difficulty": 1,
+  "q": "Would you like the report in print or as a PDF?",
+  "choices": [
+   "I reported it yesterday.",
+   "A PDF is fine, thanks.",
+   "Yes, it's a long report."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "보고서를 인쇄본으로 드릴까요, PDF로 드릴까요?",
+   "choices": [
+    "어제 그걸 신고했어요.",
+    "PDF면 돼요, 고마워요.",
+    "네, 긴 보고서예요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "둘 중 PDF를 직접 골랐어요. report를 동사로 바꾼 응답과 선택 의문문에 Yes로 시작한 응답은 함정이에요.",
+  "test": 16,
+  "id": "m-p2-16-20"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "How did the client react to the new logo design?",
+  "choices": [
+   "By Tuesday at the latest.",
+   "She asked for a brighter color.",
+   "Design software is expensive."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "고객은 새 로고 디자인에 어떤 반응을 보였나요?",
+   "choices": [
+    "늦어도 화요일까지요.",
+    "더 밝은 색을 요청했어요.",
+    "디자인 소프트웨어는 비싸요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "repeat-word"
+  ],
+  "explain": "반응을 묻자 더 밝은 색을 요청했다고 답했어요. 기한 응답과 design 반복은 반응이 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-21"
+ },
+ {
+  "type": "request",
+  "difficulty": 1,
+  "q": "Can you help me move these boxes to storage?",
+  "choices": [
+   "A box of envelopes.",
+   "We stored the files online.",
+   "Sure, give me a minute."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "이 상자들을 창고로 옮기는 것 좀 도와줄래요?",
+   "choices": [
+    "봉투 한 상자요.",
+    "파일은 온라인에 저장했어요.",
+    "물론이죠, 잠깐만요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "도움 요청을 바로 수락했어요. box 반복과 storage/stored 함정은 요청과 무관해요.",
+  "test": 16,
+  "id": "m-p2-16-22"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Will the quarterly figures be ready for tomorrow's meeting?",
+  "choices": [
+   "It's a monthly meeting.",
+   "Let me figure out the route.",
+   "Accounting is still waiting on two branch reports."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "분기 수치가 내일 회의 전까지 준비될까요?",
+   "choices": [
+    "월례 회의예요.",
+    "길을 알아볼게요.",
+    "회계팀이 아직 지점 보고서 두 건을 기다리고 있어요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "similar-sound"
+  ],
+  "explain": "아직 지점 보고서를 기다린다는 상황으로 준비가 불확실함을 돌려 말했어요. monthly 연상과 figures/figure 함정은 답이 아니에요.",
+  "test": 16,
+  "id": "m-p2-16-23"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "Our website traffic dropped sharply after the update.",
+  "choices": [
+   "Maybe some of the search links are broken.",
+   "Traffic downtown is heavy today.",
+   "I'll update my contact details."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "업데이트 후 웹사이트 방문자 수가 크게 떨어졌어요.",
+   "choices": [
+    "검색 링크 일부가 깨졌나 봐요.",
+    "오늘 시내 교통이 혼잡해요.",
+    "제 연락처를 갱신할게요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "방문자 감소라는 문제에 원인을 추측하며 반응했어요. traffic을 교통으로, update를 개인 정보 갱신으로 바꾼 응답은 함정이에요.",
+  "test": 16,
+  "id": "m-p2-16-24"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "When are we moving into the renovated office?",
+  "choices": [
+   "It's on the fourth floor.",
+   "The inspector hasn't signed off yet.",
+   "The movie starts at seven."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "개조한 사무실로 언제 이사하나요?",
+   "choices": [
+    "4층에 있어요.",
+    "검사관이 아직 승인하지 않았어요.",
+    "영화는 7시에 시작해요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "similar-sound"
+  ],
+  "explain": "날짜 대신 검사 승인이 아직이라 정해지지 않았음을 알렸어요. 위치 응답과 moving/movie 함정은 맞지 않아요.",
+  "test": 16,
+  "id": "m-p2-16-25"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Did you book a hotel room for the Denver workshop?",
+  "choices": [
+   "It's a two-day workshop.",
+   "Yes, at the one near the venue.",
+   "I've read that book."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "덴버 워크숍 때 묵을 호텔 방을 예약했어요?",
+   "choices": [
+    "이틀짜리 워크숍이에요.",
+    "네, 행사장 근처 호텔로요.",
+    "그 책 읽었어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "예약했는지 묻자 Yes와 호텔 위치로 답했어요. workshop 반복과 book의 다른 뜻을 쓴 응답은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-01"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What's causing the delay on the packaging line?",
+  "choices": [
+   "Pack an umbrella, just in case.",
+   "A sensor on the sealing machine failed.",
+   "About fifteen minutes late."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "포장 라인이 왜 지연되고 있나요?",
+   "choices": [
+    "혹시 모르니 우산을 챙기세요.",
+    "밀봉기의 센서가 고장 났어요.",
+    "15분쯤 늦었어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "related-word"
+  ],
+  "explain": "지연 원인을 묻자 센서 고장이라고 답했어요. packaging/pack 함정과 delay에서 연상한 지각 시간은 원인이 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-02"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Who's going to interview the candidates for the analyst position?",
+  "choices": [
+   "Five candidates applied.",
+   "That desk is in a good position.",
+   "The hiring panel hasn't been announced."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "분석가 자리 지원자들은 누가 면접하나요?",
+   "choices": [
+    "지원자 다섯 명이 지원했어요.",
+    "그 책상은 자리가 좋아요.",
+    "채용 위원단이 아직 발표되지 않았어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "면접관을 말하지 않고 위원단이 아직 발표되지 않았다고 돌려 답했어요. candidates와 position을 반복한 응답은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-03"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "The caterer just called to say the vegetarian meals will arrive late.",
+  "choices": [
+   "I'm a vegetarian too.",
+   "Let's serve the salads first, then.",
+   "She called me yesterday."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "출장 요리 업체가 방금 채식 식사가 늦게 도착한다고 전화했어요.",
+   "choices": [
+    "저도 채식주의자예요.",
+    "그럼 샐러드를 먼저 내죠.",
+    "그녀는 어제 저에게 전화했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "식사 지연 소식에 샐러드를 먼저 내자고 대응책을 제안했어요. vegetarian 반복과 시점·주어가 다른 called 응답은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-04"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Where's the nearest place to buy printer ink?",
+  "choices": [
+   "It prints in color.",
+   "There's an office supply store across the street.",
+   "Pink and purple."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "프린터 잉크를 살 수 있는 가장 가까운 곳이 어디예요?",
+   "choices": [
+    "컬러로 인쇄돼요.",
+    "길 건너편에 사무용품점이 있어요.",
+    "분홍색과 보라색이요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "similar-sound"
+  ],
+  "explain": "Where 질문에 길 건너 사무용품점이라고 답했어요. printer에서 연상한 인쇄 기능과 ink/pink 함정은 맞지 않아요.",
+  "test": 17,
+  "id": "m-p2-17-05"
+ },
+ {
+  "type": "request",
+  "difficulty": 2,
+  "q": "Could you send me the minutes from Tuesday's meeting?",
+  "choices": [
+   "It lasted about forty minutes.",
+   "We met at the café.",
+   "I'll e-mail them to you right away."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "화요일 회의록을 보내 줄 수 있어요?",
+   "choices": [
+    "40분 정도 걸렸어요.",
+    "우리는 카페에서 만났어요.",
+    "바로 이메일로 보낼게요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "회의록 요청을 바로 수락했어요. minutes를 시간 단위로 바꾼 응답과 meeting에서 연상한 만남 장소는 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-06"
+ },
+ {
+  "type": "choice",
+  "difficulty": 3,
+  "q": "Are you taking the morning flight or the evening one?",
+  "choices": [
+   "I haven't received my travel approval yet.",
+   "The flight attendant was helpful.",
+   "Good evening, everyone."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "아침 비행기를 타요, 저녁 비행기를 타요?",
+   "choices": [
+    "아직 출장 승인을 받지 못했어요.",
+    "승무원이 친절했어요.",
+    "여러분, 안녕하세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "둘 중 하나를 고르지 않고 출장 승인이 아직이라 정하지 못했다고 돌려 답했어요. flight와 evening을 반복한 응답은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-07"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "When will the new parking permits be issued?",
+  "choices": [
+   "The permit costs thirty dollars.",
+   "Building management hasn't said.",
+   "The printer comes with a one-year warranty."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "새 주차 허가증은 언제 발급되나요?",
+   "choices": [
+    "허가증은 30달러예요.",
+    "건물 관리실에서 아직 말이 없어요.",
+    "프린터 보증 기간은 1년이에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "발급 날짜를 아직 관리실이 알리지 않았다는 B가 간접 응답이다. A는 허가증 가격, C는 프린터 보증 기간이라 발급 시점을 알려 주지 않는다.",
+  "test": 17,
+  "id": "m-p2-17-08"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 2,
+  "q": "Isn't the budget meeting in Room 4B today?",
+  "choices": [
+   "Budget airlines are cheaper.",
+   "I'll meet you at four.",
+   "No, it was moved to the auditorium."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "오늘 예산 회의는 4B호실에서 하지 않나요?",
+   "choices": [
+    "저가 항공사가 더 싸요.",
+    "4시에 만나요.",
+    "아니요, 강당으로 옮겨졌어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "장소가 강당으로 바뀌었다고 바로잡았어요. budget 반복과 meeting/meet, 4B/four 함정은 맞지 않아요.",
+  "test": 17,
+  "id": "m-p2-17-09"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "How many brochures should we bring to the career fair?",
+  "choices": [
+   "At the convention center.",
+   "I'll bring my own lunch.",
+   "Last year we ran out by noon."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "취업 박람회에 안내 책자를 몇 부 가져가야 할까요?",
+   "choices": [
+    "컨벤션 센터에서요.",
+    "제 점심은 제가 챙겨 갈게요.",
+    "작년엔 정오쯤 다 떨어졌어요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "repeat-word"
+  ],
+  "explain": "수량 대신 작년에 일찍 떨어졌다는 경험으로 넉넉히 가져가야 함을 돌려 말했어요. 장소 응답과 bring 반복은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-10"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Are the new safety goggles in stock?",
+  "choices": [
+   "Only the small size, I'm afraid.",
+   "Stock prices went up.",
+   "Safety comes first."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "새 보안경 재고가 있나요?",
+   "choices": [
+    "죄송하지만 작은 사이즈만 있어요.",
+    "주가가 올랐어요.",
+    "안전이 최우선이에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "재고 질문에 작은 사이즈만 있다고 답했어요. stock을 주식으로 바꾼 응답과 safety 반복은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-11"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Why did Mr. Patel leave the meeting early?",
+  "choices": [
+   "I didn't even notice he'd gone.",
+   "It was the early session.",
+   "Leave the door open, please."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "파텔 씨는 왜 회의에서 일찍 나갔나요?",
+   "choices": [
+    "그가 나간 줄도 몰랐어요.",
+    "그건 오전 세션이었어요.",
+    "문을 열어 두세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "이유를 모른다는 것을 나간 줄도 몰랐다는 말로 돌려 답했어요. early와 leave를 반복한 응답은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-12"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "I just noticed a typo on the front page of the brochure.",
+  "choices": [
+   "Good catch—I'll fix it before printing.",
+   "The front desk is closed.",
+   "Type your password here."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "방금 안내 책자 첫 페이지에서 오타를 발견했어요.",
+   "choices": [
+    "잘 봤어요, 인쇄 전에 고칠게요.",
+    "안내 데스크는 문을 닫았어요.",
+    "여기에 비밀번호를 입력하세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "오타 지적에 인쇄 전에 고치겠다고 확인했어요. front 반복과 typo/type 함정은 맞지 않아요.",
+  "test": 17,
+  "id": "m-p2-17-13"
+ },
+ {
+  "type": "request",
+  "difficulty": 3,
+  "q": "Can you train the new interns on the billing software?",
+  "choices": [
+   "The train was crowded.",
+   "The bill came to fifty dollars.",
+   "I'm out on vacation all next week."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "새 인턴들에게 청구 소프트웨어 교육을 해 줄 수 있어요?",
+   "choices": [
+    "기차가 붐볐어요.",
+    "계산서가 50달러 나왔어요.",
+    "다음 주 내내 휴가예요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "다음 주 휴가라고 말해 간접적으로 거절했어요. train을 기차로 바꾼 응답과 billing/bill 함정은 요청에 대한 답이 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-14"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Who ordered these flowers for the reception desk?",
+  "choices": [
+   "Mr. Lee did, for the anniversary.",
+   "On the reception desk.",
+   "They're tulips."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "안내 데스크에 놓을 이 꽃은 누가 주문했어요?",
+   "choices": [
+    "이 씨가요, 창립 기념일 때문에요.",
+    "안내 데스크 위에요.",
+    "튤립이에요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "related-word"
+  ],
+  "explain": "Who 질문에 주문한 사람과 이유로 답했어요. 위치 응답과 꽃 종류는 주문자가 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-15"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What's the password for the guest Wi-Fi?",
+  "choices": [
+   "Guests arrive at noon.",
+   "It changes every Monday, so I'm not sure.",
+   "Pass me the stapler, please."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "손님용 와이파이 비밀번호가 뭐예요?",
+   "choices": [
+    "손님들은 정오에 도착해요.",
+    "매주 월요일에 바뀌어서 잘 모르겠어요.",
+    "스테이플러 좀 건네주세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "매주 바뀌어 모른다고 돌려 답했어요. guest 반복과 password/pass 함정은 비밀번호가 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-16"
+ },
+ {
+  "type": "choice",
+  "difficulty": 2,
+  "q": "Do you want the meeting on Wednesday or Thursday?",
+  "choices": [
+   "Wednesday was rainy.",
+   "Thursday works better for me.",
+   "Every other week."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "회의를 수요일에 할까요, 목요일에 할까요?",
+   "choices": [
+    "수요일엔 비가 왔어요.",
+    "저는 목요일이 더 좋아요.",
+    "격주로요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "둘 중 목요일을 골랐어요. 지난 수요일 날씨와 회의 주기는 선택에 대한 답이 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-17"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Is the shipment from Rotterdam still on schedule?",
+  "choices": [
+   "I shipped it myself.",
+   "A schedule of the weekly classes.",
+   "The port strike might change that."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "로테르담에서 오는 화물은 아직 일정대로인가요?",
+   "choices": [
+    "제가 직접 부쳤어요.",
+    "주간 수업 일정표요.",
+    "항만 파업 때문에 바뀔 수도 있어요."
+   ]
+  },
+  "trap": [
+   "wrong-subject",
+   "repeat-word"
+  ],
+  "explain": "예·아니요 대신 항만 파업으로 일정이 바뀔 수 있다고 돌려 답했어요. 주어를 바꾼 shipped 응답과 schedule 반복은 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-18"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Where are the name badges for the seminar?",
+  "choices": [
+   "Yes, I'll wear mine.",
+   "The seminar starts at two.",
+   "In a box at the registration table."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "세미나 명찰은 어디 있어요?",
+   "choices": [
+    "네, 제 것을 달게요.",
+    "세미나는 2시에 시작해요.",
+    "등록 테이블에 있는 상자 안에요."
+   ]
+  },
+  "trap": [
+   "yes-no-to-wh",
+   "repeat-word"
+  ],
+  "explain": "Where 질문에 등록 테이블의 상자라고 답했어요. Yes 응답과 seminar 반복은 위치가 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-19"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 3,
+  "q": "You'll be attending the product launch, won't you?",
+  "choices": [
+   "It was launched in March.",
+   "Lunch is provided.",
+   "That depends on when my flight lands."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "제품 출시 행사에 참석하실 거죠?",
+   "choices": [
+    "그건 3월에 출시됐어요.",
+    "점심이 제공돼요.",
+    "제 비행기가 언제 도착하느냐에 달렸어요."
+   ]
+  },
+  "trap": [
+   "wrong-subject",
+   "similar-sound"
+  ],
+  "explain": "참석 여부를 비행기 도착 시각에 달렸다고 돌려 답했어요. 과거 출시 사실과 launch/lunch 함정은 참석 여부가 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-20"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "When is the deadline for the grant application?",
+  "choices": [
+   "The fifteenth of this month.",
+   "Apply in person.",
+   "To the city council."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "보조금 신청 마감일이 언제예요?",
+   "choices": [
+    "이번 달 15일이요.",
+    "직접 방문해서 신청하세요.",
+    "시의회에요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "wh-mismatch"
+  ],
+  "explain": "When 질문에 날짜로 답했어요. application/apply 함정과 제출처 응답은 마감일이 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-21"
+ },
+ {
+  "type": "request",
+  "difficulty": 1,
+  "q": "Would you please close the blinds?",
+  "choices": [
+   "It's close to here.",
+   "Of course, the sun is really strong.",
+   "The clothes are on sale."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "블라인드 좀 내려 주시겠어요?",
+   "choices": [
+    "여기서 가까워요.",
+    "물론이죠, 햇빛이 정말 강하네요.",
+    "옷이 할인 중이에요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "similar-sound"
+  ],
+  "explain": "요청을 바로 수락했어요. close의 다른 뜻과 close/clothes 발음 함정은 맞지 않아요.",
+  "test": 17,
+  "id": "m-p2-17-22"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "How was the turnout at yesterday's open house?",
+  "choices": [
+   "Turn left at the corner.",
+   "The house has three bedrooms.",
+   "Better than we expected."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "어제 공개 행사 참석률은 어땠어요?",
+   "choices": [
+    "모퉁이에서 왼쪽으로 도세요.",
+    "그 집은 침실이 세 개예요.",
+    "예상보다 좋았어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "참석률을 예상보다 좋았다고 평가했어요. turnout/turn 함정과 house 반복은 답이 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-23"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Has the legal team finished reviewing the merger agreement?",
+  "choices": [
+   "They asked for two more days.",
+   "A team of lawyers.",
+   "We agreed on the price."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "법무팀이 합병 계약서 검토를 끝냈나요?",
+   "choices": [
+    "이틀 더 달라고 했어요.",
+    "변호사 팀이요.",
+    "가격에 합의했어요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "similar-sound"
+  ],
+  "explain": "이틀 더 달라고 했다는 말로 아직 끝나지 않았음을 돌려 말했어요. legal에서 연상한 변호사 팀과 agreement/agreed 함정은 답이 아니에요.",
+  "test": 17,
+  "id": "m-p2-17-24"
+ },
+ {
+  "type": "statement",
+  "difficulty": 3,
+  "q": "The client wants to move the launch event to an outdoor venue.",
+  "choices": [
+   "We'd better rent a tent in case it rains.",
+   "He moved to the sales department.",
+   "The event was a success."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "고객이 출시 행사를 야외 장소로 옮기고 싶어 해요.",
+   "choices": [
+    "비가 올 경우를 대비해 천막을 빌리는 게 좋겠어요.",
+    "그는 영업부로 옮겼어요.",
+    "그 행사는 성공적이었어요."
+   ]
+  },
+  "trap": [
+   "wrong-subject",
+   "repeat-word"
+  ],
+  "explain": "야외로 바뀐다는 계획에 천막 대여라는 후속 조치를 제안했어요. 다른 사람의 부서 이동과 이미 끝난 행사 평가는 함정이에요.",
+  "test": 17,
+  "id": "m-p2-17-25"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Who left this umbrella in the break room?",
+  "choices": [
+   "It might rain later.",
+   "It belongs to Mr. Diaz.",
+   "On the coat rack."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "휴게실에 이 우산 누가 두고 갔어요?",
+   "choices": [
+    "이따 비가 올지도 몰라요.",
+    "디아스 씨 거예요.",
+    "옷걸이에요."
+   ]
+  },
+  "trap": [
+   "related-word",
+   "wh-mismatch"
+  ],
+  "explain": "Who 질문에 주인 이름으로 답했어요. umbrella에서 연상한 날씨와 위치 응답은 사람이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-01"
+ },
+ {
+  "type": "request",
+  "difficulty": 2,
+  "q": "Could you look over my expense report before I submit it?",
+  "choices": [
+   "Sure, leave it in my inbox.",
+   "The report was very long.",
+   "Over by the window."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "제출하기 전에 제 경비 보고서를 검토해 줄 수 있어요?",
+   "choices": [
+    "물론이죠, 제 서류함에 두세요.",
+    "그 보고서는 아주 길었어요.",
+    "저쪽 창가에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "검토 요청을 수락하고 둘 곳을 알려 줬어요. report와 over를 반복한 응답은 요청에 대한 답이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-02"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Where will the regional sales conference be held this year?",
+  "choices": [
+   "Sales are up this year.",
+   "It was held last May.",
+   "They're still comparing two hotels."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "올해 지역 영업 회의는 어디서 열리나요?",
+   "choices": [
+    "올해 매출이 올랐어요.",
+    "작년 5월에 열렸어요.",
+    "아직 호텔 두 곳을 비교하고 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "장소를 말하지 않고 아직 두 호텔을 비교 중이라고 돌려 답했어요. sales와 held를 반복한 응답은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-03"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Is this the line for checking in?",
+  "choices": [
+   "A chicken sandwich, please.",
+   "Yes, but it moves quickly.",
+   "Check the spelling first."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "여기가 체크인하는 줄인가요?",
+   "choices": [
+    "치킨 샌드위치 주세요.",
+    "네, 그래도 빨리 줄어요.",
+    "철자부터 확인하세요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "체크인 줄이 맞다고 답했어요. checking/chicken 발음 함정과 check 반복은 맞지 않아요.",
+  "test": 18,
+  "id": "m-p2-18-04"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "How often do you back up the customer database?",
+  "choices": [
+   "I'll be back in the office soon.",
+   "Every night at midnight.",
+   "Customers seem happy with it."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "고객 데이터베이스는 얼마나 자주 백업하나요?",
+   "choices": [
+    "곧 사무실로 돌아갈게요.",
+    "매일 밤 자정에요.",
+    "고객들이 만족하는 것 같아요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "빈도를 묻자 매일 밤이라고 답했어요. back과 customer를 반복한 응답은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-05"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 3,
+  "q": "Haven't the new laptops been delivered yet?",
+  "choices": [
+   "Laptops are much lighter now.",
+   "I delivered the speech yesterday.",
+   "The order was only placed on Friday."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "새 노트북이 아직 배송되지 않았나요?",
+   "choices": [
+    "요즘 노트북은 훨씬 가벼워요.",
+    "어제 제가 연설을 했어요.",
+    "주문을 금요일에야 넣었어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "금요일에야 주문했다는 말로 아직 오지 않은 게 당연함을 돌려 말했어요. laptops 반복과 delivered를 다른 뜻으로 쓴 응답은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-06"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "The printer on the third floor keeps jamming.",
+  "choices": [
+   "Strawberry jam, please.",
+   "The third floor has a kitchen.",
+   "I know—a technician is coming at two."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "3층 프린터가 자꾸 용지가 걸려요.",
+   "choices": [
+    "딸기잼 주세요.",
+    "3층에 부엌이 있어요.",
+    "알아요, 기술자가 2시에 와요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "고장 소식에 이미 알고 있고 기술자가 온다고 확인했어요. jamming/jam 함정과 third floor 반복은 맞지 않아요.",
+  "test": 18,
+  "id": "m-p2-18-07"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "When does the accounting office open?",
+  "choices": [
+   "At eight thirty on weekdays.",
+   "You can open an account online.",
+   "In Building C."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "회계 사무실은 언제 문을 여나요?",
+   "choices": [
+    "평일 8시 30분에요.",
+    "계좌는 온라인으로 열 수 있어요.",
+    "C동에요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "wh-mismatch"
+  ],
+  "explain": "When 질문에 시각으로 답했어요. accounting/account 함정과 위치 응답은 맞지 않아요.",
+  "test": 18,
+  "id": "m-p2-18-08"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What did the board decide about the new branch?",
+  "choices": [
+   "A wooden board.",
+   "It's on Main Street.",
+   "The vote was postponed until June."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "이사회가 새 지점에 관해 무엇을 결정했나요?",
+   "choices": [
+    "나무판이요.",
+    "메인 가에 있어요.",
+    "투표가 6월로 미뤄졌어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "결정 내용 대신 투표가 연기돼 아직 결정이 없음을 돌려 말했어요. board를 나무판으로 바꾼 응답과 지점 위치는 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-09"
+ },
+ {
+  "type": "choice",
+  "difficulty": 2,
+  "q": "Should I file these invoices by date or by client name?",
+  "choices": [
+   "By client name, please.",
+   "It's a metal file cabinet.",
+   "The date is at the top."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "이 송장들을 날짜순으로 정리할까요, 고객 이름순으로 할까요?",
+   "choices": [
+    "고객 이름순으로 해 주세요.",
+    "금속 서류함이에요.",
+    "날짜는 맨 위에 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "둘 중 고객 이름순을 골랐어요. file과 date를 반복한 응답은 선택이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-10"
+ },
+ {
+  "type": "request",
+  "difficulty": 3,
+  "q": "Can you move the shelving units to the storeroom tomorrow?",
+  "choices": [
+   "Move to the front row, please.",
+   "Units of measurement.",
+   "I hurt my shoulder over the weekend."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "내일 선반들을 창고로 옮겨 줄 수 있어요?",
+   "choices": [
+    "앞줄로 옮겨 앉으세요.",
+    "측정 단위요.",
+    "주말에 어깨를 다쳤어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "어깨를 다쳤다는 말로 옮기기 어렵다고 간접적으로 거절했어요. move와 units를 다른 뜻으로 반복한 응답은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-11"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Why are the lights off in the lobby?",
+  "choices": [
+   "It's a lighter color.",
+   "Electricians are replacing the wiring.",
+   "Turn off at the next exit."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "로비 조명이 왜 꺼져 있어요?",
+   "choices": [
+    "더 밝은 색이에요.",
+    "전기 기사들이 배선을 교체하고 있어요.",
+    "다음 출구에서 빠지세요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "조명이 꺼진 이유로 배선 교체 공사를 댔어요. lights/lighter 함정과 off 반복은 이유가 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-12"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 2,
+  "q": "Do you know if the train to Boston is running on time?",
+  "choices": [
+   "It's about ten minutes behind.",
+   "I ran a marathon last year.",
+   "It's time for a break."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "보스턴행 기차가 제시간에 운행하는지 알아요?",
+   "choices": [
+    "10분 정도 늦어지고 있어요.",
+    "작년에 마라톤을 뛰었어요.",
+    "쉴 시간이에요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "운행 상황을 10분 지연이라고 직접 알려 줬어요. running/ran 함정과 time 반복은 맞지 않아요.",
+  "test": 18,
+  "id": "m-p2-18-13"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "I'm afraid I can't make it to the training session on Thursday.",
+  "choices": [
+   "It's a long train ride.",
+   "I made it myself.",
+   "That's fine, there's another one next week."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "죄송하지만 목요일 교육에 못 갈 것 같아요.",
+   "choices": [
+    "기차로 오래 가야 해요.",
+    "제가 직접 만들었어요.",
+    "괜찮아요, 다음 주에 한 번 더 있어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "불참 통보에 다음 주 교육이 또 있다고 안심시켰어요. training/train 함정과 make/made 반복은 맞지 않아요.",
+  "test": 18,
+  "id": "m-p2-18-14"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Who's taking over Ms. Chen's accounts while she's on leave?",
+  "choices": [
+   "She's leaving at five.",
+   "Her manager is meeting with us about that today.",
+   "We opened several new accounts."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "첸 씨가 휴가인 동안 그녀의 거래처는 누가 맡나요?",
+   "choices": [
+    "그녀는 5시에 퇴근해요.",
+    "그녀의 매니저가 오늘 그 일로 우리와 회의해요.",
+    "신규 계좌를 여러 개 열었어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "담당자를 직접 말하지 않고 인계 문제에 관한 회의가 오늘 예정되어 있다고 알려 주는 간접 응답이다. 그 회의에서 반드시 담당자를 확정한다고 단정할 수는 없으며, A는 퇴근 시각이고 C는 신규 계좌 개설이다.",
+  "test": 18,
+  "id": "m-p2-18-15"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 2,
+  "q": "This conference room has a projector, doesn't it?",
+  "choices": [
+   "Yes, it's mounted on the ceiling.",
+   "The conference was in Lisbon.",
+   "A room for two, please."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "이 회의실에 프로젝터가 있죠?",
+   "choices": [
+    "네, 천장에 달려 있어요.",
+    "그 회의는 리스본에서 했어요.",
+    "2인실로 주세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "프로젝터가 천장에 있다고 확인했어요. conference와 room을 반복한 응답은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-16"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "How much is the registration fee for the trade show?",
+  "choices": [
+   "It's eighty dollars for early sign-ups.",
+   "Show me the receipt.",
+   "I registered last week."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "무역 박람회 등록비는 얼마예요?",
+   "choices": [
+    "조기 등록은 80달러예요.",
+    "영수증을 보여 주세요.",
+    "저는 지난주에 등록했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "금액을 묻자 조기 등록비로 답했어요. show 반복과 자기 등록 시점을 말한 응답은 금액이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-17"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Will Mr. Kim be joining the call with the investors?",
+  "choices": [
+   "Call me after lunch.",
+   "He invested in real estate.",
+   "He's flying back from Singapore then."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "김 씨가 투자자들과의 통화에 참여하나요?",
+   "choices": [
+    "점심 후에 전화 주세요.",
+    "그는 부동산에 투자했어요.",
+    "그때 그는 싱가포르에서 돌아오는 비행기 안이에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "그 시각에 비행 중이라는 말로 참여하지 못함을 돌려 말했어요. call 반복과 investors/invested 함정은 답이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-18"
+ },
+ {
+  "type": "choice",
+  "difficulty": 3,
+  "q": "Would you prefer a window office or one near the elevators?",
+  "choices": [
+   "Open the window, please.",
+   "Whichever is quieter.",
+   "Office hours are nine to five."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "창가 사무실이 좋아요, 엘리베이터 근처가 좋아요?",
+   "choices": [
+    "창문 좀 열어 주세요.",
+    "어느 쪽이든 더 조용한 곳이요.",
+    "근무 시간은 9시부터 5시까지예요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "둘 중 하나를 고르지 않고 더 조용한 쪽이라는 기준을 제시했어요. window와 office를 반복한 응답은 선택이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-19"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Where did you park the company car?",
+  "choices": [
+   "On level two of the garage.",
+   "The park closes at dusk.",
+   "It's a hybrid model."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "회사 차를 어디에 주차했어요?",
+   "choices": [
+    "주차장 2층에요.",
+    "공원은 해 질 무렵에 닫아요.",
+    "하이브리드 모델이에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "Where 질문에 주차장 2층이라는 위치로 답한 A가 맞다. B는 공원 운영 시간이고 C는 차종이라 주차한 위치가 아니다.",
+  "test": 18,
+  "id": "m-p2-18-20"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "The new hires will start a week earlier than planned.",
+  "choices": [
+   "Then their desks need to be ready by Monday.",
+   "Hire a moving company.",
+   "I started this job in 2019."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "신입 직원들이 계획보다 일주일 일찍 출근해요.",
+   "choices": [
+    "그럼 월요일까지 책상을 준비해야겠네요.",
+    "이삿짐 업체를 고용하세요.",
+    "저는 2019년에 이 일을 시작했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "일정이 앞당겨진 소식에 책상 준비를 앞당겨야 한다고 반응했어요. hire 반복과 자기 입사 시점은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-21"
+ },
+ {
+  "type": "request",
+  "difficulty": 1,
+  "q": "Could you pass me that calculator?",
+  "choices": [
+   "I passed the exam.",
+   "Here you go.",
+   "Calculate the total first."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "저 계산기 좀 건네줄래요?",
+   "choices": [
+    "시험에 합격했어요.",
+    "여기 있어요.",
+    "합계부터 계산하세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "요청에 바로 건네주며 응했어요. pass를 합격으로 바꾼 응답과 calculator/calculate 함정은 맞지 않아요.",
+  "test": 18,
+  "id": "m-p2-18-22"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What's on the agenda for Friday's staff meeting?",
+  "choices": [
+   "We have a staff of forty.",
+   "Mainly the new vacation policy.",
+   "Friday at ten."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "금요일 직원 회의 안건이 뭐예요?",
+   "choices": [
+    "직원이 40명이에요.",
+    "주로 새 휴가 정책이요.",
+    "금요일 10시요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wh-mismatch"
+  ],
+  "explain": "안건을 묻자 휴가 정책이라고 답했어요. staff 반복과 시각 응답은 안건이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-23"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Did the landlord agree to repaint the lobby?",
+  "choices": [
+   "He wants to see three quotes first.",
+   "The lobby is on the ground floor.",
+   "I painted it blue."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "건물주가 로비를 다시 칠하는 데 동의했나요?",
+   "choices": [
+    "먼저 견적서 세 개를 보고 싶어 해요.",
+    "로비는 1층에 있어요.",
+    "제가 그걸 파란색으로 칠했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "견적부터 보겠다고 했다는 말로 아직 동의하지 않았음을 돌려 말했어요. lobby 반복과 주어를 바꾼 painted 응답은 함정이에요.",
+  "test": 18,
+  "id": "m-p2-18-24"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "When can we expect the revised floor plans?",
+  "choices": [
+   "On the fifth floor.",
+   "Plan to arrive early.",
+   "The architect's been out sick all week."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "수정된 평면도는 언제쯤 받을 수 있을까요?",
+   "choices": [
+    "5층에요.",
+    "일찍 도착하도록 하세요.",
+    "건축가가 이번 주 내내 병가예요."
+   ]
+  },
+  "trap": [
+   "wh-mismatch",
+   "repeat-word"
+  ],
+  "explain": "시점 대신 건축가가 병가라 늦어질 것임을 돌려 말했어요. 층 응답과 plan 반복은 시점이 아니에요.",
+  "test": 18,
+  "id": "m-p2-18-25"
+ },
+ {
+  "type": "request",
+  "difficulty": 1,
+  "q": "Could you sign for this package while I'm at lunch?",
+  "choices": [
+   "Sure, I'll be at my desk.",
+   "There's a sign by the entrance.",
+   "The lunch menu changed."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "제가 점심 먹는 동안 이 소포 대신 받아 줄 수 있어요?",
+   "choices": [
+    "물론이죠, 제 자리에 있을게요.",
+    "입구 옆에 표지판이 있어요.",
+    "점심 메뉴가 바뀌었어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "대신 받아 달라는 요청을 수락했어요. sign을 표지판으로 바꾼 응답과 lunch 반복은 함정이에요.",
+  "test": 19,
+  "id": "m-p2-19-01"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What's the dress code for the awards banquet?",
+  "choices": [
+   "She won an award last year.",
+   "The address is on the invitation.",
+   "Business formal, I believe."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "시상식 만찬 복장 규정이 뭐예요?",
+   "choices": [
+    "그녀는 작년에 상을 받았어요.",
+    "주소는 초대장에 있어요.",
+    "비즈니스 정장일 거예요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "복장 규정을 비즈니스 정장이라고 답했어요. award 반복과 dress/address 함정은 복장이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-02"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Have you finished the safety inspection checklist?",
+  "choices": [
+   "Check the list twice.",
+   "I'm waiting for the electrician's sign-off.",
+   "It's a safe neighborhood."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "안전 점검표 작성을 끝냈어요?",
+   "choices": [
+    "목록을 두 번 확인하세요.",
+    "전기 기사의 승인을 기다리고 있어요.",
+    "안전한 동네예요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "끝냈다고 하지 않고 전기 기사 승인을 기다린다는 상황으로 아직임을 돌려 말했어요. check 반복과 safety/safe 함정은 답이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-03"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Who designed the cover for the annual report?",
+  "choices": [
+   "It covers all twelve months.",
+   "A freelancer we hired in March.",
+   "Annually, in January."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "연례 보고서 표지는 누가 디자인했어요?",
+   "choices": [
+    "열두 달 전부를 다뤄요.",
+    "3월에 고용한 프리랜서요.",
+    "매년 1월에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "디자인한 사람을 프리랜서라고 답했어요. cover를 동사로 바꾼 응답과 annual/annually 함정은 사람이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-04"
+ },
+ {
+  "type": "choice",
+  "difficulty": 2,
+  "q": "Shall we eat in the cafeteria or order delivery?",
+  "choices": [
+   "The cafeteria seats two hundred.",
+   "In order of arrival.",
+   "Let's order—it's raining hard."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "구내식당에서 먹을까요, 배달을 시킬까요?",
+   "choices": [
+    "구내식당은 200석이에요.",
+    "도착 순서대로요.",
+    "시켜요, 비가 많이 와요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "비가 와서 배달을 시키자고 골랐어요. cafeteria 반복과 order를 순서로 바꾼 응답은 선택이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-05"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Where should the new hires park on their first day?",
+  "choices": [
+   "A park with a fountain.",
+   "Their first day is Monday.",
+   "I'll send them a map with the details."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "신입 직원들은 첫날 어디에 주차해야 해요?",
+   "choices": [
+    "분수가 있는 공원이요.",
+    "그들의 첫 출근은 월요일이에요.",
+    "자세한 내용이 담긴 지도를 보내 줄게요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "장소를 바로 말하지 않고 지도를 보내 알려 주겠다고 돌려 답했어요. park를 공원으로 바꾼 응답과 first day 반복은 함정이에요.",
+  "test": 19,
+  "id": "m-p2-19-06"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "How do I get to the main warehouse from here?",
+  "choices": [
+   "It's a very large warehouse.",
+   "Take Route 9 north for two miles.",
+   "I got it yesterday."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "여기서 본 창고까지 어떻게 가요?",
+   "choices": [
+    "아주 큰 창고예요.",
+    "9번 도로를 타고 북쪽으로 2마일 가세요.",
+    "어제 그걸 받았어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "How 질문에 가는 길을 알려 줬어요. warehouse 반복과 get/got 함정은 길 안내가 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-07"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "We've received more applications than we can review this week.",
+  "choices": [
+   "I can take half of them tomorrow.",
+   "Apply the second coat tomorrow.",
+   "The view from here is great."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "이번 주에 검토할 수 있는 것보다 지원서가 더 많이 들어왔어요.",
+   "choices": [
+    "내일 제가 절반을 맡을 수 있어요.",
+    "두 번째 칠은 내일 하세요.",
+    "여기서 보는 경치가 멋져요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "similar-sound"
+  ],
+  "explain": "검토 부담을 말하자 절반을 맡겠다고 도움을 제안했어요. applications/apply, review/view 발음 함정은 맞지 않아요.",
+  "test": 19,
+  "id": "m-p2-19-08"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 2,
+  "q": "Mr. Alvarez is presenting first, isn't he?",
+  "choices": [
+   "No, Ms. Grant goes before him.",
+   "I bought him a birthday present.",
+   "First-class tickets, please."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "알바레스 씨가 첫 번째로 발표하죠?",
+   "choices": [
+    "아니요, 그랜트 씨가 그보다 먼저 해요.",
+    "그에게 생일 선물을 샀어요.",
+    "1등석 표로 주세요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "발표 순서를 그랜트 씨가 먼저라고 바로잡았어요. presenting/present 함정과 first 반복은 맞지 않아요.",
+  "test": 19,
+  "id": "m-p2-19-09"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "When is the IT team updating our e-mail software?",
+  "choices": [
+   "Update your password regularly.",
+   "Did you see the notice they posted this morning?",
+   "Mail it by Friday."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "IT팀이 이메일 소프트웨어를 언제 업데이트해요?",
+   "choices": [
+    "비밀번호를 정기적으로 바꾸세요.",
+    "오늘 아침에 그들이 올린 공지 못 봤어요?",
+    "금요일까지 우편으로 보내세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "시점을 직접 말하지 않고 이미 공지가 올라왔다고 되물어 알려 줬어요. update 반복과 e-mail/mail 함정은 시점이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-10"
+ },
+ {
+  "type": "request",
+  "difficulty": 3,
+  "q": "Would you be able to translate this contract into Spanish?",
+  "choices": [
+   "My contact lenses are new.",
+   "I visited Spain last year.",
+   "Our legal team prefers a certified translator."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "이 계약서를 스페인어로 번역해 줄 수 있어요?",
+   "choices": [
+    "제 콘택트렌즈는 새것이에요.",
+    "작년에 스페인에 갔어요.",
+    "법무팀은 공인 번역가를 선호해요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "related-word"
+  ],
+  "explain": "법무팀이 공인 번역가를 원한다는 말로 자신이 하기 어렵다고 돌려 답했어요. contract/contact 발음 함정과 Spanish에서 연상한 여행은 답이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-11"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Is there a pharmacy near the hotel?",
+  "choices": [
+   "I made a hotel booking.",
+   "Farmers sell vegetables there.",
+   "Yes, right next to the main entrance."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "호텔 근처에 약국이 있어요?",
+   "choices": [
+    "호텔 예약을 했어요.",
+    "농부들이 거기서 채소를 팔아요.",
+    "네, 정문 바로 옆에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "약국이 정문 옆에 있다고 답했어요. hotel 반복과 pharmacy/farmers 발음 함정은 맞지 않아요.",
+  "test": 19,
+  "id": "m-p2-19-12"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Why was the shipment to Chicago returned?",
+  "choices": [
+   "Return it within thirty days.",
+   "It's colder in Chicago.",
+   "I've only just heard about that myself."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "시카고로 보낸 화물이 왜 반송됐어요?",
+   "choices": [
+    "30일 이내에 반품하세요.",
+    "시카고가 더 추워요.",
+    "저도 방금에야 그 얘기를 들었어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "이유를 말하지 않고 자신도 방금 알았다며 모른다는 뜻을 전했어요. return과 Chicago를 반복한 응답은 이유가 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-13"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "What floor is the dental clinic on?",
+  "choices": [
+   "I need a dental cleaning.",
+   "The sixth floor.",
+   "It's a wooden floor."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "치과는 몇 층에 있어요?",
+   "choices": [
+    "스케일링을 받아야 해요.",
+    "6층이요.",
+    "나무 바닥이에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "층을 묻자 6층이라고 답했어요. dental 반복과 floor를 바닥재로 바꾼 응답은 함정이에요.",
+  "test": 19,
+  "id": "m-p2-19-14"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "Sorry, the meeting room I reserved is double-booked.",
+  "choices": [
+   "I'll double-check the spelling.",
+   "We can use my office instead.",
+   "She reserved a table for four."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "죄송해요, 제가 예약한 회의실이 중복 예약됐어요.",
+   "choices": [
+    "철자를 다시 확인할게요.",
+    "대신 제 사무실을 쓰면 돼요.",
+    "그녀가 4인용 테이블을 예약했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "사과와 문제 제기에 자기 사무실을 쓰자는 대안으로 반응했어요. double 반복과 다른 사람의 식당 예약은 함정이에요.",
+  "test": 19,
+  "id": "m-p2-19-15"
+ },
+ {
+  "type": "choice",
+  "difficulty": 3,
+  "q": "Is the workshop for managers only or open to all staff?",
+  "choices": [
+   "Several interns attended last time.",
+   "The shop opens at nine.",
+   "The managers met on Tuesday."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "그 워크숍은 관리자만 대상인가요, 전 직원에게 열려 있나요?",
+   "choices": [
+    "지난번엔 인턴 몇 명도 참석했어요.",
+    "가게는 9시에 열어요.",
+    "관리자들은 화요일에 만났어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "지난번 인턴도 참석했다는 사례로 관리자만 대상인 행사는 아니었음을 시사하는 간접 응답이다. 이것만으로 모든 직원의 참가 자격까지 확정되지는 않으며, B는 가게 영업 시간이고 C는 관리자의 회의 시점이다.",
+  "test": 19,
+  "id": "m-p2-19-16"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "How long has Ms. Ito worked in purchasing?",
+  "choices": [
+   "It's a long walk from here.",
+   "Since the company opened.",
+   "She purchased a new car."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "이토 씨는 구매부에서 얼마나 일했어요?",
+   "choices": [
+    "여기서 걸어가면 멀어요.",
+    "회사가 문을 연 이후로요.",
+    "그녀는 새 차를 샀어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "기간을 묻자 회사 설립 이후라고 답했어요. long 반복과 purchasing/purchased 함정은 기간이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-17"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 3,
+  "q": "You haven't heard back from the bank yet, have you?",
+  "choices": [
+   "My back still hurts.",
+   "The river bank flooded.",
+   "They said to expect a reply Thursday."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "은행에서 아직 회신이 없죠?",
+   "choices": [
+    "허리가 아직 아파요.",
+    "강둑이 범람했어요.",
+    "목요일에 답을 준다고 했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "목요일에 답을 준다고 했다는 말로 아직 회신이 없음을 돌려 말했어요. back과 bank를 다른 뜻으로 반복한 응답은 함정이에요.",
+  "test": 19,
+  "id": "m-p2-19-18"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Does this rental fee include insurance?",
+  "choices": [
+   "No, that's charged separately.",
+   "Ensure the door is locked.",
+   "The rental car is red."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "이 대여료에 보험이 포함돼요?",
+   "choices": [
+    "아니요, 그건 따로 청구돼요.",
+    "문이 잠겼는지 확인하세요.",
+    "렌터카는 빨간색이에요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "포함 여부에 No와 별도 청구라고 답했어요. insurance/ensure 함정과 rental 반복은 맞지 않아요.",
+  "test": 19,
+  "id": "m-p2-19-19"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Who's responsible for updating the client contact list?",
+  "choices": [
+   "The list is in alphabetical order.",
+   "Contact me by e-mail.",
+   "Nobody's been assigned since Amy left."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "고객 연락처 목록 갱신은 누가 책임지나요?",
+   "choices": [
+    "목록은 알파벳순이에요.",
+    "이메일로 연락 주세요.",
+    "에이미가 떠난 뒤로 아무도 맡지 않았어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "담당자 이름 대신 현재 맡은 사람이 없다는 상황을 알렸어요. list와 contact를 반복한 응답은 담당자가 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-20"
+ },
+ {
+  "type": "request",
+  "difficulty": 1,
+  "q": "Can you turn the heat up a little?",
+  "choices": [
+   "Reception controls the thermostat remotely.",
+   "Turn in your report by noon.",
+   "The heat wave lasted a week."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "난방 온도를 조금 올려 줄 수 있어요?",
+   "choices": [
+    "안내 데스크에서 온도 조절기를 원격으로 제어해요.",
+    "정오까지 보고서를 내세요.",
+    "폭염이 일주일 갔어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "온도를 직접 올려 주겠다고 수락하는 대신 안내 데스크가 제어한다는 제약을 알려 주어 그쪽에 요청해야 함을 시사하는 간접 응답이다. B는 보고서 제출, C는 지난 폭염 이야기라 난방 조절 요청에 대한 반응이 아니다.",
+  "test": 19,
+  "id": "m-p2-19-21"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Where are the spare keys to the supply cabinet?",
+  "choices": [
+   "In the top drawer of my desk.",
+   "Learn the keyboard shortcuts.",
+   "We spared no expense."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "비품 캐비닛 여분 열쇠는 어디 있어요?",
+   "choices": [
+    "제 책상 맨 위 서랍에요.",
+    "키보드 단축키를 익히세요.",
+    "비용을 아끼지 않았어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "similar-sound"
+  ],
+  "explain": "Where 질문에 책상 서랍이라고 답했어요. keys/keyboard, spare/spared 함정은 위치가 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-22"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "Our main competitor just lowered its prices by ten percent.",
+  "choices": [
+   "We'll need to review our own prices.",
+   "Lower the volume, please.",
+   "Ten people competed."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "주요 경쟁사가 방금 가격을 10퍼센트 내렸어요.",
+   "choices": [
+    "우리 가격도 검토해야겠네요.",
+    "소리를 좀 줄여 주세요.",
+    "열 명이 겨뤘어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "경쟁사의 가격 인하 소식에 자사 가격도 검토하자는 후속 조치로 반응한다. B는 소리 크기, C는 경쟁한 사람 수라 가격 경쟁 소식에 맞지 않는다.",
+  "test": 19,
+  "id": "m-p2-19-23"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "What's the budget for the holiday party this year?",
+  "choices": [
+   "A party of six.",
+   "Finance hasn't approved it yet.",
+   "The holidays start next week."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "올해 연말 파티 예산은 얼마예요?",
+   "choices": [
+    "6명 일행이요.",
+    "재무팀이 아직 승인하지 않았어요.",
+    "연휴가 다음 주에 시작돼요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "금액 대신 아직 승인 전이라 정해지지 않았다고 돌려 답했어요. party와 holiday를 반복한 응답은 예산이 아니에요.",
+  "test": 19,
+  "id": "m-p2-19-24"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 2,
+  "q": "Did the plumber come to fix the leak?",
+  "choices": [
+   "Plums are in season now.",
+   "Yes, he left about an hour ago.",
+   "Leek soup is on the menu."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "배관공이 와서 누수를 고쳤나요?",
+   "choices": [
+    "지금 자두가 제철이에요.",
+    "네, 한 시간 전쯤 갔어요.",
+    "메뉴에 대파 수프가 있어요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "similar-sound"
+  ],
+  "explain": "Yes와 이미 다녀갔다는 말로 답했어요. plumber/plums, leak/leek 발음 함정은 맞지 않아요.",
+  "test": 19,
+  "id": "m-p2-19-25"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "When did the new copier arrive?",
+  "choices": [
+   "It makes double-sided copies.",
+   "Yesterday afternoon.",
+   "Please arrive by nine."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "새 복사기는 언제 도착했어요?",
+   "choices": [
+    "양면 복사가 돼요.",
+    "어제 오후에요.",
+    "9시까지 도착하세요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "When 질문에 어제 오후라고 답했어요. copier에서 나온 copies와 arrive를 반복한 응답은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-01"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "Who's giving the keynote speech at the conference?",
+  "choices": [
+   "The speech lasted an hour.",
+   "The organizers will announce that tomorrow.",
+   "I gave it to Mr. Ross."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "회의 기조연설은 누가 하나요?",
+   "choices": [
+    "연설은 한 시간 동안 했어요.",
+    "주최 측이 내일 발표할 거예요.",
+    "그걸 로스 씨에게 줬어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "연설자를 말하지 않고 내일 발표된다며 아직 모른다는 뜻을 전했어요. speech 반복과 giving/gave 함정은 사람이 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-02"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 2,
+  "q": "The warehouse closes at six on Fridays, doesn't it?",
+  "choices": [
+   "Six boxes, please.",
+   "Actually, it's five during the summer.",
+   "Fries come with that."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "창고는 금요일에 6시에 닫죠?",
+   "choices": [
+    "상자 여섯 개 주세요.",
+    "사실 여름에는 5시예요.",
+    "감자튀김이 같이 나와요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "여름에는 5시라고 바로잡았어요. six 반복과 Fridays/fries 함정은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-03"
+ },
+ {
+  "type": "request",
+  "difficulty": 3,
+  "q": "Could you give the sales presentation for me on Monday?",
+  "choices": [
+   "He gave a great presentation.",
+   "The sale ends on Monday.",
+   "I haven't even seen the latest figures."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "월요일에 저 대신 영업 발표를 해 줄 수 있어요?",
+   "choices": [
+    "그는 훌륭한 발표를 했어요.",
+    "할인은 월요일에 끝나요.",
+    "저는 최신 수치도 아직 못 봤어요."
+   ]
+  },
+  "trap": [
+   "wrong-subject",
+   "repeat-word"
+  ],
+  "explain": "최신 수치도 못 봤다는 말로 대신 발표하기 어렵다고 돌려 답했어요. 다른 사람의 지난 발표와 sale을 할인으로 바꾼 응답은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-04"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "What's the name of the new receptionist?",
+  "choices": [
+   "Her name is Mira Novak.",
+   "At the reception.",
+   "I need a new name tag."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "새 안내 직원 이름이 뭐예요?",
+   "choices": [
+    "미라 노박이에요.",
+    "환영회에서요.",
+    "새 이름표가 필요해요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "이름을 묻자 바로 답했어요. receptionist/reception 함정과 name 반복은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-05"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 2,
+  "q": "Are you going to the networking event tonight?",
+  "choices": [
+   "The network is down again.",
+   "It was a great event.",
+   "No, I have to finish a proposal."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "오늘 밤 인맥 행사에 가요?",
+   "choices": [
+    "네트워크가 또 끊겼어요.",
+    "멋진 행사였어요.",
+    "아니요, 제안서를 끝내야 해요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "wrong-subject"
+  ],
+  "explain": "No와 이유로 답했어요. networking/network 함정과 이미 끝난 행사 소감은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-06"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "I forgot to bring the USB drive with my slides.",
+  "choices": [
+   "You can download them from the shared folder.",
+   "He drives to work.",
+   "Slide the door to the left."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "슬라이드가 든 USB를 깜빡하고 안 가져왔어요.",
+   "choices": [
+    "공유 폴더에서 내려받으면 돼요.",
+    "그는 차로 출근해요.",
+    "문을 왼쪽으로 미세요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "USB를 잊었다는 문제에 공유 폴더라는 해결책을 알려 줬어요. drive/drives 함정과 slide 반복은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-07"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Why did the conference fee go up this year?",
+  "choices": [
+   "Up on the third floor.",
+   "I didn't know it had.",
+   "The conference was in Tokyo."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "올해 회의 참가비가 왜 올랐어요?",
+   "choices": [
+    "위층 3층에요.",
+    "오른 줄 몰랐어요.",
+    "그 회의는 도쿄에서 했어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "이유를 말하지 않고 오른 줄 몰랐다는 말로 모른다는 뜻을 전했어요. up과 conference를 반복한 응답은 이유가 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-08"
+ },
+ {
+  "type": "choice",
+  "difficulty": 2,
+  "q": "Do you prefer the blue logo or the green one?",
+  "choices": [
+   "The green one looks more modern.",
+   "Use the log-in screen.",
+   "I prefer tea, thanks."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "파란 로고가 좋아요, 초록 로고가 좋아요?",
+   "choices": [
+    "초록색이 더 현대적으로 보여요.",
+    "로그인 화면을 쓰세요.",
+    "저는 차가 좋아요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "둘 중 초록 로고를 골랐어요. logo/log-in 함정과 prefer 반복은 선택이 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-09"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Where did we store last year's tax records?",
+  "choices": [
+   "It was a record number of sales.",
+   "They were all scanned and shredded.",
+   "Taxes are due in April."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "작년 세무 기록은 어디에 보관했어요?",
+   "choices": [
+    "기록적인 매출이었어요.",
+    "전부 스캔한 뒤 파쇄했어요.",
+    "세금은 4월이 마감이에요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "보관 장소 대신 종이 기록이 이미 스캔 후 파쇄됐다고 돌려 답했어요. record와 tax를 반복한 응답은 위치가 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-10"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 1,
+  "q": "Is Mr. Sato in his office today?",
+  "choices": [
+   "The office supplies arrived.",
+   "Today is Tuesday.",
+   "Yes, he's there until three."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "사토 씨가 오늘 사무실에 있어요?",
+   "choices": [
+    "사무용품이 도착했어요.",
+    "오늘은 화요일이에요.",
+    "네, 3시까지 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "Yes와 있는 시간으로 답했어요. office와 today를 반복한 응답은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-11"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "How will the new employees get their ID cards?",
+  "choices": [
+   "HR will hand them out at orientation.",
+   "The cards are blue.",
+   "She was employee of the month."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "신입 직원들은 사원증을 어떻게 받나요?",
+   "choices": [
+    "인사부가 오리엔테이션 때 나눠 줘요.",
+    "카드는 파란색이에요.",
+    "그녀가 이달의 직원이었어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "받는 방법을 묻자 오리엔테이션 때 배부한다고 답했어요. cards와 employee를 반복한 응답은 방법이 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-12"
+ },
+ {
+  "type": "request",
+  "difficulty": 1,
+  "q": "Would you mind opening the door for me?",
+  "choices": [
+   "The store opens at ten.",
+   "It's a brass door handle.",
+   "Not at all."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "문 좀 열어 주시겠어요?",
+   "choices": [
+    "가게는 10시에 열어요.",
+    "황동 문손잡이예요.",
+    "그럼요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "Would you mind 요청에 Not at all로 수락했어요. open과 door를 반복한 응답은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-13"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "The hotel lost our group reservation.",
+  "choices": [
+   "Lost and found is downstairs.",
+   "I'll call them right away to sort it out.",
+   "A group of tourists."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "호텔이 우리 단체 예약을 분실했어요.",
+   "choices": [
+    "분실물 보관소는 아래층이에요.",
+    "바로 전화해서 해결할게요.",
+    "관광객 무리요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "예약 분실 문제에 바로 전화해 해결하겠다고 했어요. lost와 group을 반복한 응답은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-14"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "When will the parking lot repairs be finished?",
+  "choices": [
+   "It depends on the weather this week.",
+   "Our lot number is 22.",
+   "I repaired it myself."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "주차장 보수는 언제 끝나요?",
+   "choices": [
+    "이번 주 날씨에 달렸어요.",
+    "우리 구역 번호는 22예요.",
+    "제가 직접 고쳤어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "날짜 대신 날씨에 달렸다며 아직 정해지지 않았음을 돌려 말했어요. lot 반복과 주어를 바꾼 repaired 응답은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-15"
+ },
+ {
+  "type": "negative-tag",
+  "difficulty": 3,
+  "q": "Didn't you send the invoice to the client last week?",
+  "choices": [
+   "Invoices are due monthly.",
+   "Last week's newsletter had three pages.",
+   "Let me check my sent folder."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "지난주에 고객에게 송장을 보내지 않았어요?",
+   "choices": [
+    "송장은 매달 마감이에요.",
+    "지난주 소식지는 세 쪽이었어요.",
+    "보낸 편지함을 확인해 볼게요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "발송 여부를 바로 단정하지 않고 보낸 편지함을 확인하겠다는 C가 맞다. A는 일반적인 청구 주기이고 B는 지난주 소식지 분량이라 해당 송장의 발송 여부를 알려 주지 않는다.",
+  "test": 20,
+  "id": "m-p2-20-16"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 2,
+  "q": "Has the new menu been printed yet?",
+  "choices": [
+   "She wore a printed dress.",
+   "Yes, the copies are in the kitchen.",
+   "There are many options on it."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "새 메뉴판이 인쇄됐나요?",
+   "choices": [
+    "그녀는 무늬 원피스를 입었어요.",
+    "네, 인쇄본이 주방에 있어요.",
+    "선택지가 많아요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "related-word"
+  ],
+  "explain": "Yes와 인쇄본 위치로 답했어요. printed를 무늬로 바꾼 응답과 메뉴에서 연상한 선택지는 인쇄 여부가 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-17"
+ },
+ {
+  "type": "wh",
+  "difficulty": 2,
+  "q": "What's the fastest way to the convention center?",
+  "choices": [
+   "It's a convenient location.",
+   "He's a fast learner.",
+   "The subway, since traffic's heavy now."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "컨벤션 센터까지 가장 빠른 길이 뭐예요?",
+   "choices": [
+    "편리한 위치예요.",
+    "그는 빨리 배워요.",
+    "지금은 차가 막혀서 지하철이요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "가장 빠른 방법으로 지하철을 꼽았어요. convention/convenient 함정과 fast 반복은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-18"
+ },
+ {
+  "type": "wh",
+  "difficulty": 3,
+  "q": "Who's ordering lunch for the training session?",
+  "choices": [
+   "Isn't the hotel catering it?",
+   "Order the parts online.",
+   "Training starts at nine."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "교육 시간 점심은 누가 주문하나요?",
+   "choices": [
+    "호텔이 출장 요리로 준비하는 거 아니에요?",
+    "부품은 온라인으로 주문하세요.",
+    "교육은 9시에 시작해요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "주문자를 말하지 않고 호텔이 준비하는 것 아니냐고 되물어 주문이 필요 없을 수 있음을 알렸어요. order와 training을 반복한 응답은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-19"
+ },
+ {
+  "type": "choice",
+  "difficulty": 3,
+  "q": "Should we hire one full-time worker or two part-timers?",
+  "choices": [
+   "Our budget only covers one salary.",
+   "It's higher than last year.",
+   "That's part of the plan."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "정규직 한 명을 뽑을까요, 시간제 두 명을 뽑을까요?",
+   "choices": [
+    "예산이 한 명 급여만 감당돼요.",
+    "작년보다 높아요.",
+    "그것도 계획의 일부예요."
+   ]
+  },
+  "trap": [
+   "similar-sound",
+   "repeat-word"
+  ],
+  "explain": "한 사람분 급여만 감당할 수 있다는 예산 제약으로 채용 인원 선택에 간접적으로 반응한다. 시간제 급여 수준이 없어 정규직이 반드시 유일한 방안이라고 단정할 수는 없으며, B의 higher와 C의 part는 질문 단어를 비튼 오답이다.",
+  "test": 20,
+  "id": "m-p2-20-20"
+ },
+ {
+  "type": "request",
+  "difficulty": 2,
+  "q": "Can you show the client around the factory?",
+  "choices": [
+   "The show starts at eight.",
+   "Sure, what time is she arriving?",
+   "Factory workers wear helmets."
+  ],
+  "answer": 1,
+  "ko": {
+   "q": "고객에게 공장을 구경시켜 줄 수 있어요?",
+   "choices": [
+    "공연은 8시에 시작해요.",
+    "그럼요, 그분 몇 시에 와요?",
+    "공장 직원들은 안전모를 써요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "요청을 수락하고 도착 시각을 되물었어요. show를 공연으로 바꾼 응답과 factory 반복은 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-21"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "How many people signed up for the seminar?",
+  "choices": [
+   "About forty so far.",
+   "Sign here, please.",
+   "In seminar room B."
+  ],
+  "answer": 0,
+  "ko": {
+   "q": "세미나에 몇 명이 신청했어요?",
+   "choices": [
+    "지금까지 40명쯤이요.",
+    "여기 서명해 주세요.",
+    "B 세미나실에서요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wh-mismatch"
+  ],
+  "explain": "인원을 묻자 40명쯤이라고 답했어요. sign 반복과 장소 응답은 인원이 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-22"
+ },
+ {
+  "type": "statement",
+  "difficulty": 2,
+  "q": "The quarterly report shows a big rise in online orders.",
+  "choices": [
+   "Order the supplies today.",
+   "The sun rises at six.",
+   "So the new website is working."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "분기 보고서를 보면 온라인 주문이 크게 늘었어요.",
+   "choices": [
+    "오늘 비품을 주문하세요.",
+    "해는 6시에 떠요.",
+    "새 웹사이트가 효과가 있네요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "similar-sound"
+  ],
+  "explain": "주문 증가 소식을 새 웹사이트의 효과로 해석했어요. order 반복과 rise/rises 함정은 맞지 않아요.",
+  "test": 20,
+  "id": "m-p2-20-23"
+ },
+ {
+  "type": "yesno",
+  "difficulty": 3,
+  "q": "Did you get approval for the new software purchase?",
+  "choices": [
+   "Software engineers are in demand.",
+   "She purchased it online.",
+   "The director is reviewing it now."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "새 소프트웨어 구매 승인을 받았어요?",
+   "choices": [
+    "소프트웨어 엔지니어 수요가 많아요.",
+    "그녀가 온라인으로 샀어요.",
+    "이사님이 지금 검토하고 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "wrong-subject"
+  ],
+  "explain": "아직 이사가 검토 중이라는 말로 승인 전임을 돌려 말했어요. software 반복과 다른 사람의 구매는 함정이에요.",
+  "test": 20,
+  "id": "m-p2-20-24"
+ },
+ {
+  "type": "wh",
+  "difficulty": 1,
+  "q": "Where is the nearest bus stop?",
+  "choices": [
+   "The bus is running late.",
+   "Stop at the red light.",
+   "Just around the corner."
+  ],
+  "answer": 2,
+  "ko": {
+   "q": "가장 가까운 버스 정류장이 어디예요?",
+   "choices": [
+    "버스가 늦어지고 있어요.",
+    "빨간불에 멈추세요.",
+    "바로 모퉁이 돌면 있어요."
+   ]
+  },
+  "trap": [
+   "repeat-word",
+   "repeat-word"
+  ],
+  "explain": "Where 질문에 모퉁이 근처라고 답했어요. bus와 stop을 반복한 응답은 위치가 아니에요.",
+  "test": 20,
+  "id": "m-p2-20-25"
+ }
+]

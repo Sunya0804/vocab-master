@@ -1,0 +1,5575 @@
+[
+ {
+  "id": "m-p7s-16-01",
+  "test": 16,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "letter",
+    "title": "Separate water meters",
+    "heading": [
+     "Halvorne Property Management",
+     "22 Ostrel Road, Suite 4",
+     "May 6"
+    ],
+    "body": [
+     "Dear Tenant,",
+     "During the week of May 19, a contractor will install an individual water meter in each unit of the Cardell Business Park. Until now, the building's total water charge has been divided according to the floor area each tenant leases. Beginning with the July billing period, each business will instead pay for the water its own meter records.",
+     "Installation requires about forty minutes inside each unit, and the water supply to that unit will be shut off during the work. Our office will telephone you to agree on a time. If no one can be present, a member of our maintenance staff may accompany the contractor with your written permission.",
+     "Sincerely,",
+     "Petra Lusk, Building Manager"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "개별 수도 계량기",
+    "heading": [
+     "할보른 부동산 관리",
+     "오스트렐 로 22, 4호",
+     "5월 6일"
+    ],
+    "body": [
+     "입주자께,",
+     "5월 19일이 있는 주에 시공업체가 카델 비즈니스 파크의 각 호실에 개별 수도 계량기를 설치합니다. 지금까지는 건물 전체 수도 요금을 각 입주자의 임차 면적에 따라 나누어 왔습니다. 7월 청구 기간부터는 각 업체가 자기 계량기에 기록된 사용량만큼 요금을 냅니다.",
+     "설치에는 호실마다 약 40분이 걸리며, 작업하는 동안 해당 호실의 급수가 중단됩니다. 저희 사무실에서 전화로 시간을 협의하겠습니다. 아무도 있을 수 없는 경우 서면 허가를 주시면 저희 관리 직원이 시공업체와 동행할 수 있습니다.",
+     "감사합니다.",
+     "페트라 러스크, 건물 관리자 드림"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "How has the water charge been shared until now?",
+    "choices": [
+     "By the number of employees in each business",
+     "By the size of the space each tenant rents",
+     "By the amount recorded on each tenant's meter",
+     "By the length of each tenant's lease"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "지금까지 수도 요금은 어떻게 나누어 왔는가?",
+     "choices": [
+      "각 업체의 직원 수에 따라",
+      "각 입주자가 빌린 공간의 크기에 따라",
+      "각 입주자의 계량기 기록량에 따라",
+      "각 입주자의 임대 기간에 따라"
+     ]
+    },
+    "explain": "둘째 문단에서 건물 전체 요금을 임차 면적(floor area each tenant leases)에 따라 나누었다고 한다. 계량기 기록량 기준은 7월부터 적용되는 새 방식이다."
+   },
+   {
+    "type": "detail",
+    "q": "What will happen if no one from a business can attend the installation?",
+    "choices": [
+     "The installation will be moved to July.",
+     "A building employee may go along with the contractor.",
+     "The tenant will be charged an extra fee.",
+     "The water supply will stay on during the work."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "업체에서 아무도 설치에 입회할 수 없으면 어떻게 되는가?",
+     "choices": [
+      "설치가 7월로 미뤄진다.",
+      "건물 직원이 시공업체와 동행할 수 있다.",
+      "입주자에게 추가 요금이 청구된다.",
+      "작업 중에도 급수가 유지된다."
+     ]
+    },
+    "explain": "셋째 문단에서 서면 허가가 있으면 관리 직원이 시공업체와 함께 갈 수 있다고 한다. 7월은 새 요금 방식이 시작되는 시기일 뿐이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-02",
+  "test": 16,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Height limit at the loading entrance",
+    "heading": [],
+    "body": [
+     "Following the resurfacing of the rear loading lane at Brisco Trade Center, the new pavement is thicker than the old surface. As a result, the clearance under the steel beam at the loading entrance has been reduced from 3.4 meters to 3.2 meters. A new sign showing the lower figure has been mounted on the beam.",
+     "Tenants who receive deliveries in tall box trucks should inform their carriers. Vehicles that exceed the new limit may unload at the street-side bay on Merrow Avenue, where a cart is available from the security desk. The bay may be used for up to thirty minutes per vehicle."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "하역 입구의 높이 제한",
+    "heading": [],
+    "body": [
+     "브리스코 무역 센터 뒤편 하역 차로를 재포장한 결과, 새 포장면이 이전 노면보다 두꺼워졌습니다. 이에 따라 하역 입구 철제 보 아래의 통과 높이가 3.4미터에서 3.2미터로 낮아졌습니다. 낮아진 수치를 표시한 새 표지판을 보에 설치했습니다.",
+     "높은 화물칸 트럭으로 배송을 받는 입주자는 운송업체에 알려 주십시오. 새 제한을 넘는 차량은 메로 애비뉴 쪽 도로변 하역 구역에서 짐을 내릴 수 있으며, 보안 데스크에서 손수레를 빌릴 수 있습니다. 이 구역은 차량당 최대 30분까지 이용할 수 있습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why has the clearance at the loading entrance changed?",
+    "choices": [
+     "A taller beam was installed.",
+     "A delivery truck damaged the entrance.",
+     "The security desk was moved.",
+     "The road surface was made thicker."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "하역 입구의 통과 높이가 바뀐 이유는 무엇인가?",
+     "choices": [
+      "더 높은 보가 설치되었다.",
+      "배송 트럭이 입구를 손상시켰다.",
+      "보안 데스크가 옮겨졌다.",
+      "노면이 더 두꺼워졌다."
+     ]
+    },
+    "explain": "첫 문단에서 재포장한 새 포장면이 더 두꺼워져 통과 높이가 낮아졌다고 한다. 보에는 새 표지판만 달았을 뿐 보를 교체하지 않았다."
+   },
+   {
+    "type": "detail",
+    "q": "What is offered to drivers of vehicles that are too tall?",
+    "choices": [
+     "Equipment for moving goods",
+     "A free parking permit",
+     "Help from a security guard",
+     "A larger loading door"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "높이가 너무 높은 차량의 운전자에게 무엇이 제공되는가?",
+     "choices": [
+      "물건을 옮기는 장비",
+      "무료 주차 허가증",
+      "보안 요원의 도움",
+      "더 큰 하역 문"
+     ]
+    },
+    "explain": "둘째 문단에서 도로변 하역 구역을 쓰는 차량은 보안 데스크에서 손수레(cart)를 빌릴 수 있다고 한다. 보안 데스크는 손수레를 빌려주는 곳일 뿐 요원이 직접 돕는다는 말은 없다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-03",
+  "test": 16,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "text",
+    "title": "At the rental counter",
+    "lines": [
+     {
+      "time": "7:42 A.M.",
+      "name": "Aditi Corvan",
+      "t": "I just landed. The line at the car rental desk goes all the way back to the baggage area."
+     },
+     {
+      "time": "7:43 A.M.",
+      "name": "Liam Strand",
+      "t": "Is the reservation under the company account? I set it up on Monday."
+     },
+     {
+      "time": "7:44 A.M.",
+      "name": "Aditi Corvan",
+      "t": "Yes, I have the confirmation number. The desk clerks seem to be checking every driver's license by hand."
+     },
+     {
+      "time": "7:45 A.M.",
+      "name": "Liam Strand",
+      "t": "I wouldn't wait in that line. When I booked, I uploaded your license details to the company profile, so the kiosks by the exit should recognize you."
+     },
+     {
+      "time": "7:47 A.M.",
+      "name": "Aditi Corvan",
+      "t": "Found them. It printed a slip with a parking space number."
+     },
+     {
+      "time": "7:48 A.M.",
+      "name": "Liam Strand",
+      "t": "Great. The key should be in the car. Remember to keep the fuel receipt for your expense report."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "렌터카 창구에서",
+    "lines": [
+     "방금 도착했어요. 렌터카 창구 줄이 수하물 구역까지 이어져 있어요.",
+     "예약이 회사 계정으로 되어 있나요? 월요일에 제가 잡아 놨어요.",
+     "네, 확인 번호가 있어요. 창구 직원들이 운전면허증을 하나하나 직접 확인하는 것 같아요.",
+     "저라면 그 줄에서 기다리지 않을 거예요. 예약할 때 회사 프로필에 당신 면허 정보를 올려 놨으니 출구 옆 키오스크에서 인식될 거예요.",
+     "찾았어요. 주차 칸 번호가 적힌 종이가 출력됐어요.",
+     "잘됐네요. 열쇠는 차 안에 있을 거예요. 경비 보고서용으로 주유 영수증을 꼭 챙기세요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "intention",
+    "q": "At 7:45 A.M., what does Mr. Strand most likely mean when he writes, \"I wouldn't wait in that line\"?",
+    "choices": [
+     "The rental office will close soon.",
+     "Ms. Corvan should take a taxi instead.",
+     "Ms. Corvan can collect the car without going to the desk.",
+     "The reservation needs to be changed first."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "오전 7시 45분에 스트랜드가 “I wouldn't wait in that line”이라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "렌터카 사무소가 곧 문을 닫는다.",
+      "코반은 대신 택시를 타야 한다.",
+      "코반은 창구에 가지 않고 차를 받을 수 있다.",
+      "예약을 먼저 변경해야 한다."
+     ]
+    },
+    "explain": "바로 뒤에서 면허 정보를 미리 올려 두어 출구 옆 키오스크에서 처리할 수 있다고 설명하므로 창구를 거치지 않아도 된다는 뜻이다. 택시나 예약 변경에 관한 언급은 없다."
+   },
+   {
+    "type": "detail",
+    "q": "What does Mr. Strand ask Ms. Corvan to do?",
+    "choices": [
+     "Hold on to a payment record",
+     "Return the key to the kiosk",
+     "Send him the confirmation number",
+     "Park in a different space"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "스트랜드는 코반에게 무엇을 하라고 요청하는가?",
+     "choices": [
+      "결제 기록을 보관한다",
+      "열쇠를 키오스크에 반납한다",
+      "확인 번호를 그에게 보낸다",
+      "다른 칸에 주차한다"
+     ]
+    },
+    "explain": "마지막 메시지에서 경비 보고서를 위해 주유 영수증(fuel receipt)을 보관하라고 한다. 열쇠는 차 안에 있다고 했을 뿐 반납 요청은 없다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-04",
+  "test": 16,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Broken pallets become working pallets",
+    "heading": [],
+    "body": [
+     "Every warehouse has a corner where damaged pallets pile up. Fendrow Pallet Service turns that corner back into usable floor space. Book a collection online, and our truck will pick up any wooden pallets with cracked boards or loose blocks, whatever their brand or size.",
+     "At our yard, each pallet is inspected. Those that can be repaired are fitted with new boards and returned to you within eight business days, at a fixed price per pallet. Those beyond repair are taken apart, and you receive a credit for the reusable wood toward your next repair order. Customers who book a monthly collection receive priority scheduling during the busy autumn season."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "부서진 팔레트를 다시 쓸 수 있는 팔레트로",
+    "heading": [],
+    "body": [
+     "어느 창고에나 손상된 팔레트가 쌓이는 구석이 있습니다. 펜드로 팔레트 서비스는 그 구석을 다시 쓸 수 있는 바닥 공간으로 바꿔 드립니다. 온라인으로 수거를 예약하시면 상표나 크기에 관계없이 판자가 갈라지거나 블록이 헐거워진 목재 팔레트를 트럭이 수거해 갑니다.",
+     "저희 작업장에서는 팔레트를 하나씩 검사합니다. 수리할 수 있는 팔레트는 새 판자를 대어 영업일 8일 안에 팔레트당 고정 가격으로 돌려드립니다. 수리할 수 없는 팔레트는 분해하고, 재사용 가능한 목재만큼 다음 수리 주문에 쓸 수 있는 적립금을 드립니다. 월간 수거를 예약한 고객은 바쁜 가을철에 일정 우선권을 받습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What happens to pallets that cannot be fixed?",
+    "choices": [
+     "They are returned to the customer unchanged.",
+     "They are sold back to the original manufacturer.",
+     "They are kept at the yard for eight days.",
+     "Their usable material reduces a future bill."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "고칠 수 없는 팔레트는 어떻게 되는가?",
+     "choices": [
+      "그대로 고객에게 돌려보낸다.",
+      "원래 제조업체에 되판다.",
+      "작업장에 8일 동안 보관한다.",
+      "쓸 수 있는 재료가 이후 청구액을 줄여 준다."
+     ]
+    },
+    "explain": "둘째 문단에서 수리 불가 팔레트는 분해하고 재사용 목재만큼 다음 수리 주문에 쓸 적립금을 준다고 한다. 8일은 수리품 반환 기간이다."
+   },
+   {
+    "type": "not-true",
+    "q": "What is NOT mentioned about Fendrow Pallet Service?",
+    "choices": [
+     "It accepts pallets made by other companies.",
+     "It charges the same amount for each repaired pallet.",
+     "It offers faster scheduling to some regular customers.",
+     "It delivers new pallets on the day of collection."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "펜드로 팔레트 서비스에 관해 언급되지 않은 것은 무엇인가?",
+     "choices": [
+      "다른 회사가 만든 팔레트도 받는다.",
+      "수리한 팔레트마다 같은 금액을 받는다.",
+      "일부 정기 고객에게 일정 우선권을 준다.",
+      "수거 당일 새 팔레트를 배달한다."
+     ]
+    },
+    "explain": "상표에 관계없이 수거하고, 팔레트당 고정 가격을 받으며, 월간 고객에게 가을철 우선 일정을 준다고 했다. 새 팔레트 당일 배달은 언급되지 않았다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-05",
+  "test": 16,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "form",
+    "title": "Mileage claim",
+    "heading": [
+     "Torvane Instruments — Employee mileage claim",
+     "Employee: Rhea Galt (Field Service)",
+     "Period: April 1–15"
+    ],
+    "table": [
+     [
+      "Date",
+      "Trip",
+      "Distance (km)",
+      "Purpose"
+     ],
+     [
+      "April 2",
+      "Office – Lynd Clinic – Office",
+      "64",
+      "Scheduled calibration"
+     ],
+     [
+      "April 7",
+      "Home – Pell Laboratory – Home",
+      "118",
+      "Emergency repair"
+     ],
+     [
+      "April 9",
+      "Office – Corra Foods – Office",
+      "42",
+      "Scheduled calibration"
+     ],
+     [
+      "April 14",
+      "Office – Pell Laboratory – Office",
+      "96",
+      "Follow-up inspection"
+     ]
+    ],
+    "body": [
+     "Claims are paid at 0.40 per kilometer. Trips that begin or end at an employee's home are paid only for the distance beyond the employee's normal commute, which for Ms. Galt is 22 kilometers each way. Distances should be taken from the vehicle's trip meter, not from an online map. Each trip should appear on a separate line.",
+     "Please attach parking receipts separately; they are not included in the per-kilometer rate. Road tolls may be added on the same form if a receipt is available. Claims must reach the finance office within thirty days of the last trip listed. Late claims require written approval from the employee's department head before payment can be made."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "주행 거리 청구서",
+    "heading": [
+     "토르베인 인스트루먼츠 — 직원 주행 거리 청구서",
+     "직원: 레아 골트(현장 서비스)",
+     "기간: 4월 1~15일"
+    ],
+    "table": [
+     [
+      "날짜",
+      "이동 구간",
+      "거리(km)",
+      "목적"
+     ],
+     [
+      "4월 2일",
+      "사무실 – 린드 클리닉 – 사무실",
+      "64",
+      "정기 교정"
+     ],
+     [
+      "4월 7일",
+      "자택 – 펠 연구소 – 자택",
+      "118",
+      "긴급 수리"
+     ],
+     [
+      "4월 9일",
+      "사무실 – 코라 식품 – 사무실",
+      "42",
+      "정기 교정"
+     ],
+     [
+      "4월 14일",
+      "사무실 – 펠 연구소 – 사무실",
+      "96",
+      "후속 점검"
+     ]
+    ],
+    "body": [
+     "청구액은 킬로미터당 0.40으로 지급한다. 직원의 자택에서 출발하거나 자택에서 끝나는 이동은 평소 출퇴근 거리를 넘는 부분만 지급하며, 골트의 출퇴근 거리는 편도 22킬로미터다. 거리는 온라인 지도가 아니라 차량의 구간 거리계에서 가져와야 한다. 이동마다 별도의 줄에 기재해야 한다.",
+     "주차 영수증은 따로 첨부할 것. 주차비는 킬로미터당 지급액에 포함되지 않는다. 통행료는 영수증이 있으면 같은 양식에 추가할 수 있다. 청구서는 기재된 마지막 이동일로부터 30일 안에 재무팀에 도착해야 한다. 기한을 넘긴 청구서는 지급 전에 소속 부서장의 서면 승인을 받아야 한다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What was the purpose of Ms. Galt's longest listed trip?",
+    "choices": [
+     "To respond to an urgent equipment problem",
+     "To check work completed earlier",
+     "To carry out a routine adjustment",
+     "To deliver parking receipts"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "골트의 기재된 이동 중 가장 긴 이동의 목적은 무엇이었는가?",
+     "choices": [
+      "급한 장비 문제에 대응하기 위해",
+      "앞서 한 작업을 확인하기 위해",
+      "정기 조정을 하기 위해",
+      "주차 영수증을 전달하기 위해"
+     ]
+    },
+    "explain": "가장 긴 거리 118km는 4월 7일 긴급 수리(Emergency repair)다. 앞서 한 작업 확인은 96km 후속 점검이다."
+   },
+   {
+    "type": "detail",
+    "q": "For how many kilometers will Ms. Galt be paid for the April 7 trip?",
+    "choices": [
+     "22",
+     "96",
+     "74",
+     "118"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "골트는 4월 7일 이동에 대해 몇 킬로미터분을 지급받는가?",
+     "choices": [
+      "22",
+      "96",
+      "74",
+      "118"
+     ]
+    },
+    "explain": "자택 출발·도착 이동은 출퇴근 거리를 넘는 부분만 지급한다. 118km에서 편도 22km씩 왕복 44km를 빼면 74km다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about the claim?",
+    "choices": [
+     "It must be submitted by mid-May.",
+     "It already includes parking costs.",
+     "It was prepared by the finance office.",
+     "It covers trips made by several employees."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "이 청구서에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "5월 중순까지 제출해야 한다.",
+      "주차비가 이미 포함되어 있다.",
+      "재무팀이 작성했다.",
+      "여러 직원의 이동을 다룬다."
+     ]
+    },
+    "explain": "마지막 이동이 4월 14일이고 30일 안에 도착해야 하므로 5월 중순이 기한이다. 주차비는 따로 첨부해야 하며 포함되지 않는다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-06",
+  "test": 16,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "email",
+    "title": "E-mail",
+    "heading": [
+     "To: Jonas Mirel, Purchasing, Kestrel Kitchens",
+     "From: Uma Belcrest, Orvanta Hinges",
+     "Date: October 3",
+     "Subject: Lead time for soft-close hinges"
+    ],
+    "body": [
+     "Dear Mr. Mirel,",
+     "I am writing about your standing monthly order of soft-close cabinet hinges. Our plating line is moving from our Delford plant to our new site in Arnow this month. While the equipment is being reinstalled, orders for the brushed-nickel finish will take five weeks to ship instead of the usual two. We expect the new line in Arnow to reach full output by the middle of next month, after which normal lead times will return.",
+     "The polished-chrome version uses a separate line that is not affected, and it fits the same mounting plates. If your cabinet designs can accept that finish, we can continue shipping on your normal schedule. Alternatively, we could send a larger quantity of brushed-nickel hinges from our remaining stock now, which would cover your needs until the new line is running. Either way, the price per hinge in your current agreement will not change.",
+     "Please let me know which option you prefer by Friday, as remaining stock is limited.",
+     "Best regards,",
+     "Uma Belcrest"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "이메일",
+    "heading": [
+     "수신: 요나스 미렐, 케스트럴 키친스 구매팀",
+     "발신: 우마 벨크레스트, 오르반타 힌지스",
+     "날짜: 10월 3일",
+     "제목: 소프트 클로즈 경첩 납기"
+    ],
+    "body": [
+     "미렐 님께,",
+     "매달 정기적으로 주문하시는 소프트 클로즈 수납장 경첩에 관해 연락드립니다. 저희 도금 라인이 이번 달 델퍼드 공장에서 아르노의 새 부지로 이전합니다. 설비를 다시 설치하는 동안 브러시드 니켈 마감 주문은 평소 2주가 아니라 5주 뒤에 출고됩니다. 아르노의 새 라인은 다음 달 중순까지 정상 생산량에 도달할 것으로 예상하며, 그 후에는 평소 납기로 돌아갑니다.",
+     "폴리시드 크롬 제품은 영향을 받지 않는 별도 라인에서 생산되며 같은 장착판에 맞습니다. 귀사의 수납장 디자인에 그 마감을 쓸 수 있다면 평소 일정대로 계속 출고할 수 있습니다. 아니면 지금 남은 재고에서 브러시드 니켈 경첩을 더 많이 보내 드려 새 라인이 가동될 때까지 필요한 양을 충당할 수도 있습니다. 어느 쪽이든 현재 계약의 경첩 단가는 바뀌지 않습니다.",
+     "남은 재고가 한정되어 있으니 금요일까지 원하시는 방안을 알려 주십시오.",
+     "감사합니다.",
+     "우마 벨크레스트"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What is causing the delay?",
+    "choices": [
+     "A shortage of mounting plates",
+     "The relocation of production equipment",
+     "An increase in Kestrel Kitchens' order",
+     "A change in the hinge design"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "지연의 원인은 무엇인가?",
+     "choices": [
+      "장착판 부족",
+      "생산 설비 이전",
+      "케스트럴 키친스의 주문 증가",
+      "경첩 디자인 변경"
+     ]
+    },
+    "explain": "둘째 문단에서 도금 라인을 새 부지로 옮겨 재설치하는 동안 출고가 늦어진다고 한다. 장착판은 두 마감에 공통으로 맞는다는 설명에만 나온다."
+   },
+   {
+    "type": "detail",
+    "q": "What is true about the polished-chrome hinges?",
+    "choices": [
+     "They are made on equipment that is not being moved.",
+     "They take five weeks to ship.",
+     "They require different mounting plates.",
+     "They are no longer in stock."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "폴리시드 크롬 경첩에 관해 사실인 것은 무엇인가?",
+     "choices": [
+      "옮기지 않는 설비에서 만든다.",
+      "출고까지 5주가 걸린다.",
+      "다른 장착판이 필요하다.",
+      "더 이상 재고가 없다."
+     ]
+    },
+    "explain": "셋째 문단에서 크롬 제품은 영향을 받지 않는 별도 라인에서 생산된다고 한다. 5주는 니켈 마감의 출고 기간이고, 장착판은 같다."
+   },
+   {
+    "type": "inference",
+    "q": "Why does Ms. Belcrest ask for a reply by Friday?",
+    "choices": [
+     "The Arnow site opens on that day.",
+     "Another customer may take the remaining hinges.",
+     "Mr. Mirel's monthly order is due then.",
+     "The price of chrome hinges will rise."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "벨크레스트가 금요일까지 답을 달라고 하는 이유는 무엇인가?",
+     "choices": [
+      "그날 아르노 부지가 문을 연다.",
+      "다른 고객이 남은 경첩을 가져갈 수 있다.",
+      "미렐의 월간 주문 기한이 그때다.",
+      "크롬 경첩 가격이 오를 것이다."
+     ]
+    },
+    "explain": "남은 재고가 한정되어 있다(remaining stock is limited)는 이유를 들었으므로 늦으면 재고가 소진될 수 있다는 뜻이다. 아르노 개장일이나 가격 인상은 언급되지 않았다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-07",
+  "test": 16,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "memo",
+    "title": "Scheduled sending for internal messages",
+    "heading": [
+     "To: All staff",
+     "From: Desmond Hale, Operations Director",
+     "Date: February 11",
+     "Re: Evening e-mail"
+    ],
+    "body": [
+     "Starting March 1, internal e-mails written after 7:00 P.M. should be scheduled to arrive at 8:00 A.M. the next working day. Our staff survey found that many employees felt obliged to read and answer messages late in the evening, even when the matter could easily wait. Several also said that late messages made it harder to rest before early shifts.",
+     "This applies only to messages between colleagues. Replies to clients and suppliers may be sent at any time, and genuine emergencies, such as a system failure or a safety issue, should still be reported immediately by telephone. Employees who prefer to work in the evening may continue to do so; they are simply asked to defer delivery.",
+     "The scheduling button has been added to every company e-mail account. A two-minute video on the intranet shows how to use it. Managers will review the arrangement with their teams at the end of April. Suggestions for improving it can be sent to the operations office before then."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "사내 메시지 예약 발송",
+    "heading": [
+     "수신: 전 직원",
+     "발신: 데즈먼드 헤일, 운영 이사",
+     "날짜: 2월 11일",
+     "제목: 저녁 시간 이메일"
+    ],
+    "body": [
+     "3월 1일부터 오후 7시 이후에 작성한 사내 이메일은 다음 근무일 오전 8시에 도착하도록 예약해야 합니다. 직원 설문 결과, 쉽게 미룰 수 있는 일인데도 늦은 저녁에 메시지를 읽고 답해야 한다는 부담을 느끼는 직원이 많았습니다. 늦은 메시지 때문에 이른 근무 전에 쉬기가 더 어렵다고 답한 직원도 여럿이었습니다.",
+     "이 방침은 동료 사이의 메시지에만 적용됩니다. 고객과 공급업체에 대한 답장은 언제든 보낼 수 있으며, 시스템 장애나 안전 문제 같은 실제 긴급 상황은 지금처럼 즉시 전화로 알려야 합니다. 저녁에 일하기를 선호하는 직원은 계속 그렇게 해도 됩니다. 다만 발송만 미뤄 달라는 것입니다.",
+     "모든 회사 이메일 계정에 예약 버튼이 추가되었습니다. 인트라넷의 2분짜리 영상에서 사용법을 볼 수 있습니다. 관리자들은 4월 말에 팀과 함께 이 방식을 검토할 예정입니다. 그 전에 개선 의견이 있으면 운영 사무실로 보내 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What led to the new arrangement?",
+    "choices": [
+     "Complaints from clients about late replies",
+     "A failure in the company e-mail system",
+     "The results of a survey of employees",
+     "A change in the hours of the office"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "새 방식을 도입하게 된 계기는 무엇인가?",
+     "choices": [
+      "답장이 늦다는 고객 불만",
+      "회사 이메일 시스템 장애",
+      "직원 설문 결과",
+      "사무실 운영 시간 변경"
+     ]
+    },
+    "explain": "첫 문단에서 직원 설문(staff survey) 결과 저녁 메시지에 부담을 느끼는 직원이 많았다고 한다. 시스템 장애는 긴급 상황의 예로만 나온다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the memo, the word \"defer\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "postpone",
+     "refuse",
+     "shorten",
+     "report"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "메모의 둘째 문단에 있는 “defer”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "미루다",
+      "거절하다",
+      "줄이다",
+      "보고하다"
+     ]
+    },
+    "explain": "저녁에 일하되 발송은 다음 날 아침으로 늦춰 달라는 문맥이므로 postpone(미루다)과 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 1
+    }
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about messages to suppliers?",
+    "choices": [
+     "They must be approved by a manager.",
+     "They should be sent before 7:00 P.M.",
+     "They will be reviewed at the end of April.",
+     "They are not covered by the new arrangement."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "공급업체에 보내는 메시지에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "관리자 승인을 받아야 한다.",
+      "오후 7시 전에 보내야 한다.",
+      "4월 말에 검토될 것이다.",
+      "새 방식의 적용 대상이 아니다."
+     ]
+    },
+    "explain": "둘째 문단에서 고객·공급업체에 대한 답장은 언제든 보낼 수 있다고 하므로 예약 발송 대상이 아니다. 4월 말 검토 대상은 방식 자체다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-08",
+  "test": 16,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Client visit schedule",
+    "lines": [
+     {
+      "time": "10:05 A.M.",
+      "name": "Noor Vantis",
+      "t": "The Selbrook group's flight has been delayed by three hours. They now land at 1:15 instead of 10:15. The airline says the aircraft needed a part replaced before departure."
+     },
+     {
+      "time": "10:06 A.M.",
+      "name": "Garrett Pomm",
+      "t": "That means they'll miss the plant tour at noon. The second shift starts at 2:00, and the molding line is only running until then."
+     },
+     {
+      "time": "10:08 A.M.",
+      "name": "Noor Vantis",
+      "t": "Could we show them the line tomorrow morning instead? Their return flight isn't until 4:00 P.M."
+     },
+     {
+      "time": "10:09 A.M.",
+      "name": "Garrett Pomm",
+      "t": "The first shift runs the same line from 7:00. A tour at 9:00 would work. I can ask the shift supervisor to have the operators walk them through the mold change."
+     },
+     {
+      "time": "10:11 A.M.",
+      "name": "Helena Ruiz",
+      "t": "Then tomorrow's 9:00 slot becomes a problem. That's when we planned to present the pricing proposal."
+     },
+     {
+      "time": "10:12 A.M.",
+      "name": "Noor Vantis",
+      "t": "We could move the pricing presentation to this afternoon. With the airport transfer and hotel check-in, they won't reach the plant before 2:30. We could start the presentation at 3:00."
+     },
+     {
+      "time": "10:14 A.M.",
+      "name": "Helena Ruiz",
+      "t": "My slides are ready. I'd rather they see the tour first, though."
+     },
+     {
+      "time": "10:15 A.M.",
+      "name": "Garrett Pomm",
+      "t": "I'd present anyway. Their engineers asked for the cost figures well in advance so they could review them before visiting the floor."
+     },
+     {
+      "time": "10:17 A.M.",
+      "name": "Helena Ruiz",
+      "t": "Fair enough. I'll book the large meeting room for 3:00."
+     },
+     {
+      "time": "10:18 A.M.",
+      "name": "Noor Vantis",
+      "t": "I'll update the airport driver and send everyone the revised agenda. The lunch reservation for today can be canceled."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "고객 방문 일정",
+    "lines": [
+     "셀브룩 일행의 항공편이 세 시간 지연됐어요. 10시 15분이 아니라 1시 15분에 도착해요. 항공사 말로는 출발 전에 기체 부품을 교체해야 했대요.",
+     "그러면 정오 공장 견학을 놓치겠네요. 2교대가 2시에 시작하는데 성형 라인은 그때까지만 돌아가요.",
+     "대신 내일 아침에 라인을 보여 줄 수 있을까요? 돌아가는 비행기는 오후 4시예요.",
+     "1교대가 7시부터 같은 라인을 돌려요. 9시 견학이면 괜찮아요. 교대 감독자에게 작업자들이 금형 교체 과정을 설명해 주도록 부탁할 수 있어요.",
+     "그러면 내일 9시 일정이 문제예요. 그때 가격 제안서를 발표하기로 했거든요.",
+     "가격 발표를 오늘 오후로 옮기면 돼요. 공항 이동과 호텔 체크인을 마치면 2시 30분 전에는 공장에 도착하지 못해요. 발표는 3시에 시작하면 되겠네요.",
+     "슬라이드는 준비됐어요. 다만 견학을 먼저 보는 게 좋을 것 같은데요.",
+     "저라면 그냥 발표하겠어요. 그쪽 엔지니어들이 현장을 보기 전에 검토할 수 있도록 비용 수치를 미리 달라고 했거든요.",
+     "일리 있네요. 3시에 큰 회의실을 예약할게요.",
+     "공항 기사에게 알리고 모두에게 수정된 일정표를 보낼게요. 오늘 점심 예약은 취소해도 되겠네요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why can the visitors not see the molding line today?",
+    "choices": [
+     "The meeting room has already been booked.",
+     "Their engineers have not arrived yet.",
+     "The line is being repaired this afternoon.",
+     "The line will stop operating before they arrive."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "방문객이 오늘 성형 라인을 볼 수 없는 이유는 무엇인가?",
+     "choices": [
+      "회의실이 이미 예약되었다.",
+      "그쪽 엔지니어들이 아직 도착하지 않았다.",
+      "오늘 오후 라인을 수리한다.",
+      "그들이 도착하기 전에 라인 가동이 멈춘다."
+     ]
+    },
+    "explain": "10시 6분 메시지에서 성형 라인은 2시에 가동을 멈추며, 10시 12분에는 공항 이동과 호텔 체크인 때문에 일행이 2시 30분 전에는 공장에 도착하지 못한다고 한다. 따라서 도착 전에 라인 가동이 끝난다."
+   },
+   {
+    "type": "detail",
+    "q": "When will the visitors most likely tour the plant?",
+    "choices": [
+     "Today at noon",
+     "Tomorrow at 9:00 A.M.",
+     "Today at 3:00 P.M.",
+     "Tomorrow at 4:00 P.M."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "방문객은 언제 공장을 견학할 것 같은가?",
+     "choices": [
+      "오늘 정오",
+      "내일 오전 9시",
+      "오늘 오후 3시",
+      "내일 오후 4시"
+     ]
+    },
+    "explain": "10시 9분에 1교대가 같은 라인을 돌리므로 내일 9시 견학이 가능하다고 했고, 9시에 잡혀 있던 발표를 오늘로 옮긴다. 오후 3시는 가격 발표 시간이다."
+   },
+   {
+    "type": "intention",
+    "q": "At 10:15 A.M., what does Mr. Pomm most likely mean when he writes, \"I'd present anyway\"?",
+    "choices": [
+     "He would like to give the presentation himself.",
+     "The slides should be shortened for the visitors.",
+     "Ms. Ruiz should not wait until after the tour to share the prices.",
+     "The visitors' return flight may be delayed as well."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "오전 10시 15분에 폼이 “I'd present anyway”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "자신이 직접 발표하고 싶다.",
+      "방문객을 위해 슬라이드를 줄여야 한다.",
+      "루이즈는 견학이 끝날 때까지 기다리지 말고 가격을 알려야 한다.",
+      "방문객의 귀국 항공편도 지연될 수 있다."
+     ]
+    },
+    "explain": "루이즈가 견학을 먼저 하는 편이 낫다고 하자, 상대 엔지니어들이 현장을 보기 전에 비용 수치를 원했다며 순서가 바뀌어도 발표하라는 뜻이다. 폼 자신이 발표하겠다는 말이 아니다."
+   },
+   {
+    "type": "detail",
+    "q": "What will Ms. Vantis do next?",
+    "choices": [
+     "Reserve a meeting room",
+     "Revise the cost figures",
+     "Inform a driver of the new arrival time",
+     "Call the visitors' engineers"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "반티스는 다음에 무엇을 할 것인가?",
+     "choices": [
+      "회의실을 예약한다",
+      "비용 수치를 수정한다",
+      "기사에게 바뀐 도착 시간을 알린다",
+      "방문객의 엔지니어에게 전화한다"
+     ]
+    },
+    "explain": "마지막 메시지에서 공항 기사에게 알리고 수정된 일정표를 보내겠다고 한다. 회의실 예약은 루이즈가 맡았다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-09",
+  "test": 16,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "article",
+    "title": "Bus maker separates the battery from the sale",
+    "heading": [
+     "By Corin Wade, Business Desk"
+    ],
+    "body": [
+     "Velmar Coachworks, which builds electric buses at its plant in Ostrava Ridge, will begin offering transit operators a new purchase arrangement next quarter. Under the plan, operators will buy the bus body and drive system but lease the battery pack from a Velmar subsidiary. [1]",
+     "The battery accounts for roughly a third of an electric bus's price, and operators have been reluctant to pay for a component whose useful life they cannot predict. \"Many of our customers manage public budgets,\" said sales director Ilse Brann. \"A monthly charge is easier for them to plan around than a large figure whose value may fall quickly.\" [2]",
+     "The subsidiary will monitor each pack remotely and replace it when its capacity drops below an agreed level. Used packs will not be scrapped. Velmar intends to refit them as storage units for its own factory, where they will hold electricity generated by rooftop solar panels during the day. [3]",
+     "Industry analysts were cautiously positive. Petra Holm of Corridor Research noted that the arrangement shifts risk to the manufacturer. \"If battery prices keep falling, Velmar could find itself collecting lease payments on packs worth less than expected,\" she said. Velmar, however, says the lease terms will be reviewed every two years so that charges can follow market prices. [4]"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "버스 제조사, 판매에서 배터리를 분리하다",
+    "heading": [
+     "코린 웨이드, 경제부"
+    ],
+    "body": [
+     "오스트라바 리지 공장에서 전기 버스를 만드는 벨마르 코치웍스가 다음 분기부터 운송 사업자들에게 새로운 구매 방식을 제공한다. 이 계획에 따르면 사업자들은 차체와 구동 장치는 구매하되 배터리 팩은 벨마르 자회사에서 임대한다. [1]",
+     "배터리는 전기 버스 가격의 약 3분의 1을 차지하며, 사업자들은 사용 수명을 예측할 수 없는 부품에 돈을 내기를 꺼려 왔다. 영업 이사 일세 브란은 \"저희 고객 중 상당수는 공공 예산을 관리합니다. 가치가 빨리 떨어질 수 있는 큰 금액보다 매달 내는 요금이 계획을 세우기 쉽습니다\"라고 말했다. [2]",
+     "자회사는 각 팩을 원격으로 감시하고 용량이 합의된 수준 아래로 떨어지면 교체한다. 사용한 팩은 폐기하지 않는다. 벨마르는 이를 자사 공장의 저장 장치로 개조해 낮 동안 옥상 태양광 패널이 생산한 전기를 저장할 계획이다. [3]",
+     "업계 분석가들은 조심스럽게 긍정적인 반응을 보였다. 코리더 리서치의 페트라 홀름은 이 방식이 위험을 제조사로 옮긴다고 지적했다. 그는 \"배터리 가격이 계속 떨어지면 벨마르는 예상보다 가치가 낮은 팩에 대해 임대료를 받는 처지가 될 수 있다\"고 말했다. 그러나 벨마르는 요금이 시장 가격을 따라갈 수 있도록 임대 조건을 2년마다 검토할 것이라고 밝혔다. [4]"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "What is the article mainly about?",
+    "choices": [
+     "A bus manufacturer's decision to open a new plant",
+     "A change in how a vehicle component is paid for",
+     "A study comparing battery prices in several countries",
+     "A transit operator's plan to reduce its budget"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "기사는 주로 무엇에 관한 것인가?",
+     "choices": [
+      "버스 제조사의 새 공장 개설 결정",
+      "차량 부품의 비용 지불 방식 변화",
+      "여러 나라의 배터리 가격 비교 연구",
+      "운송 사업자의 예산 절감 계획"
+     ]
+    },
+    "explain": "첫 문단은 버스는 사고 배터리는 임대하는 새 구매 방식을 소개한다. 공장은 기존 공장이며 새로 여는 것이 아니다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the article, the word \"reluctant\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "eager",
+     "able",
+     "expected",
+     "unwilling"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "기사의 둘째 문단에 있는 “reluctant”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "열망하는",
+      "할 수 있는",
+      "예상되는",
+      "꺼리는"
+     ]
+    },
+    "explain": "수명을 예측할 수 없는 부품에 돈을 내기를 꺼려 왔다는 문맥이므로 unwilling과 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 1
+    }
+   },
+   {
+    "type": "detail",
+    "q": "According to the article, what will happen to batteries that are replaced?",
+    "choices": [
+     "They will be sold to transit operators at a discount.",
+     "They will be recycled by an outside firm.",
+     "They will be used at a Velmar production site.",
+     "They will be returned to the subsidiary for repair."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "기사에 따르면 교체된 배터리는 어떻게 되는가?",
+     "choices": [
+      "운송 사업자에게 할인가로 판매된다.",
+      "외부 업체가 재활용한다.",
+      "벨마르 생산 시설에서 사용된다.",
+      "수리를 위해 자회사로 반환된다."
+     ]
+    },
+    "explain": "셋째 문단에서 사용한 팩을 자사 공장의 태양광 전기 저장 장치로 개조한다고 한다. 폐기하거나 판매한다는 말은 없다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"This second use is expected to add several years to each pack's working life.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “이 두 번째 용도는 팩마다 사용 기간을 몇 년 더 늘려 줄 것으로 예상된다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "This second use는 버스에서 뺀 팩을 공장 저장 장치로 다시 쓰는 것을 가리키므로 [3]이 알맞다. [1]·[2]는 임대 방식과 이유, [4]는 임대 조건 검토 뒤라 두 번째 용도가 앞에 없다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-16-10",
+  "test": 16,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "webpage",
+    "title": "Exhibitor badges",
+    "heading": [
+     "Corvale Packaging Expo — Exhibitor Services"
+    ],
+    "body": [
+     "Each exhibiting company receives a set number of free badges based on the size of its booth: four badges for a standard booth, eight for a double booth, and twelve for an island stand. Badges are printed with the holder's name and company and must be worn at all times in the exhibition hall. [1]",
+     "Additional badges may be purchased through the exhibitor portal until ten days before opening. After that date, extra badges are available only at the on-site registration counter, at a higher price. [2] Badges for staff who will only help set up or dismantle the booth are free and unlimited, but they are valid only on the two days before and the day after the show.",
+     "A badge may be transferred to a colleague if the original holder can no longer attend. Simply log in to the portal and replace the name; a new badge will be printed on arrival. [3] Transfers cannot be made at the hall entrance, as security staff do not have access to the registration system.",
+     "Exhibitors who wish to invite customers should use the guest codes in their portal rather than requesting extra exhibitor badges. [4] Each code gives free entry for one visitor and can be shared by e-mail."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "출품업체 출입증",
+    "heading": [
+     "코르베일 포장 박람회 — 출품업체 서비스"
+    ],
+    "body": [
+     "출품 회사는 부스 크기에 따라 정해진 수의 무료 출입증을 받습니다. 일반 부스는 4개, 2배 부스는 8개, 독립형 부스는 12개입니다. 출입증에는 소지자의 이름과 회사명이 인쇄되며 전시장 안에서는 항상 착용해야 합니다. [1]",
+     "추가 출입증은 개막 열흘 전까지 출품업체 포털에서 구매할 수 있습니다. 그 이후에는 현장 등록 창구에서만 더 높은 가격으로 살 수 있습니다. [2] 부스 설치나 철거만 돕는 직원의 출입증은 무료이고 수량 제한이 없지만, 개막 전 이틀과 폐막 다음 날에만 유효합니다.",
+     "원래 소지자가 참석할 수 없게 되면 출입증을 동료에게 양도할 수 있습니다. 포털에 로그인해 이름만 바꾸시면 도착 시 새 출입증이 인쇄됩니다. [3] 보안 직원은 등록 시스템에 접근할 수 없으므로 전시장 입구에서는 양도할 수 없습니다.",
+     "고객을 초대하려는 출품업체는 추가 출품업체 출입증을 요청하지 말고 포털의 초대 코드를 사용하십시오. [4] 코드 하나로 방문객 한 명이 무료 입장할 수 있으며 이메일로 공유할 수 있습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "How many free badges does a company with a double booth receive?",
+    "choices": [
+     "Four",
+     "Twelve",
+     "Eight",
+     "Ten"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "2배 부스를 쓰는 회사는 무료 출입증을 몇 개 받는가?",
+     "choices": [
+      "4개",
+      "12개",
+      "8개",
+      "10개"
+     ]
+    },
+    "explain": "첫 문단에서 2배 부스는 8개라고 한다. 4개는 일반 부스, 12개는 독립형 부스다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about badges bought at the registration counter?",
+    "choices": [
+     "They are valid only for setting up the booth.",
+     "They cannot be transferred to a colleague.",
+     "They are printed without a company name.",
+     "They cost more than those ordered in advance."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "등록 창구에서 산 출입증에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "부스 설치에만 유효하다.",
+      "동료에게 양도할 수 없다.",
+      "회사명 없이 인쇄된다.",
+      "미리 주문한 것보다 비싸다."
+     ]
+    },
+    "explain": "둘째 문단에서 열흘 전 이후에는 현장 창구에서 더 높은 가격(at a higher price)으로만 살 수 있다고 한다. 설치 전용 출입증은 별도의 무료 출입증이다."
+   },
+   {
+    "type": "detail",
+    "q": "How can an exhibitor give a badge to a different employee?",
+    "choices": [
+     "By asking a security officer at the entrance",
+     "By changing the name online before the show",
+     "By returning the original badge by mail",
+     "By buying a guest code for the employee"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "출품업체는 어떻게 다른 직원에게 출입증을 넘길 수 있는가?",
+     "choices": [
+      "입구의 보안 요원에게 요청해서",
+      "박람회 전에 온라인으로 이름을 바꿔서",
+      "원래 출입증을 우편으로 반납해서",
+      "그 직원을 위해 초대 코드를 사서"
+     ]
+    },
+    "explain": "셋째 문단에서 포털에 로그인해 이름을 바꾸면 된다고 하며, 입구에서는 보안 직원이 시스템에 접근할 수 없어 양도가 불가능하다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"This later price also applies to companies that exhibit every year.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “이 늦은 시점의 가격은 매년 출품하는 회사에도 적용됩니다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "This later price는 바로 앞 문장의 기한 이후 현장 창구 가격(at a higher price)을 가리키므로 [2]가 알맞다. 다른 위치 앞에는 가격 이야기가 없고 [4] 앞의 초대 코드는 무료다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-01",
+  "test": 17,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "text",
+    "title": "Courier pickup",
+    "lines": [
+     {
+      "time": "3:12 P.M.",
+      "name": "Rosa Lindqvist",
+      "t": "The courier from Pell & Arden just arrived for the supply contract. He says the law firm needs it today, but the last page still has no signature."
+     },
+     {
+      "time": "3:13 P.M.",
+      "name": "Owen Dale",
+      "t": "I'm on my way back from the warehouse meeting. Is Ms. Marsh in the office? She can sign it too."
+     },
+     {
+      "time": "3:14 P.M.",
+      "name": "Rosa Lindqvist",
+      "t": "She left for the airport an hour ago. The courier has two more pickups in this building, so he could come back to us afterward."
+     },
+     {
+      "time": "3:15 P.M.",
+      "name": "Owen Dale",
+      "t": "I'm in the elevator now."
+     },
+     {
+      "time": "3:15 P.M.",
+      "name": "Rosa Lindqvist",
+      "t": "Perfect. I'll put the contract on the reception desk with a pen and ask him to take a seat in the lobby."
+     },
+     {
+      "time": "3:17 P.M.",
+      "name": "Owen Dale",
+      "t": "Thanks. Please also scan a copy for our files once I've signed, before it goes."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "택배 수거",
+    "lines": [
+     "펠 앤 아든에서 공급 계약서를 가지러 택배 기사가 방금 왔어요. 법률 사무소가 오늘 필요하다는데 마지막 장에 아직 서명이 없어요.",
+     "창고 회의에서 돌아가는 중이에요. 마시 씨가 사무실에 있나요? 그분도 서명할 수 있어요.",
+     "한 시간 전에 공항으로 떠났어요. 기사님이 이 건물에서 두 군데 더 수거해야 하니 끝나고 다시 올 수도 있어요.",
+     "지금 엘리베이터 안이에요.",
+     "잘됐네요. 계약서를 펜과 함께 안내 데스크에 두고 기사님께 로비에 앉아 계시라고 할게요.",
+     "고마워요. 제가 서명하면 보내기 전에 보관용으로 한 부 스캔해 주세요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "intention",
+    "q": "At 3:15 P.M., what does Mr. Dale most likely mean when he writes, \"I'm in the elevator now\"?",
+    "choices": [
+     "The courier will not need to wait long.",
+     "He cannot use his phone for long.",
+     "He forgot to bring the contract.",
+     "He will meet Ms. Marsh downstairs."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "오후 3시 15분에 데일이 “I'm in the elevator now”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "택배 기사가 오래 기다릴 필요가 없다.",
+      "휴대 전화를 오래 쓸 수 없다.",
+      "계약서를 가져오는 것을 잊었다.",
+      "아래층에서 마시를 만날 것이다."
+     ]
+    },
+    "explain": "서명할 사람이 없어 기사가 나중에 다시 올 수 있다는 말에 곧 도착한다는 뜻으로 답했고, 린드크비스트는 기사에게 로비에서 잠시 기다려 달라고 한다. 마시는 이미 공항으로 떠났다."
+   },
+   {
+    "type": "detail",
+    "q": "What does Mr. Dale ask Ms. Lindqvist to do?",
+    "choices": [
+     "Call the law firm",
+     "Sign the last page",
+     "Book a later pickup",
+     "Keep a copy of the document"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "데일은 린드크비스트에게 무엇을 해 달라고 하는가?",
+     "choices": [
+      "법률 사무소에 전화한다",
+      "마지막 장에 서명한다",
+      "나중 수거를 예약한다",
+      "문서 사본을 보관한다"
+     ]
+    },
+    "explain": "마지막 메시지에서 서명한 뒤 보관용으로 한 부 스캔해 달라고 한다. 서명은 데일 자신이 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-02",
+  "test": 17,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "form",
+    "title": "Return authorization",
+    "heading": [
+     "Quorra Office Furniture — Return Authorization RA-2286",
+     "Customer: Delby Accounting Partners",
+     "Issued: August 4"
+    ],
+    "table": [
+     [
+      "Item",
+      "Quantity",
+      "Reason"
+     ],
+     [
+      "Monitor arm, double",
+      "3",
+      "Damaged in delivery"
+     ],
+     [
+      "Desk drawer unit, gray",
+      "2",
+      "Wrong color sent"
+     ],
+     [
+      "Footrest, adjustable",
+      "4",
+      "No longer needed"
+     ]
+    ],
+    "body": [
+     "Please pack the items in their original boxes if possible and write the authorization number on the outside of each box. Our driver will collect them on August 11. Items damaged in delivery or sent in error will be replaced or refunded in full. Items returned because they are no longer needed will be refunded minus a 15 percent restocking charge, provided they are unused."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "반품 승인서",
+    "heading": [
+     "쿼라 사무용 가구 — 반품 승인 RA-2286",
+     "고객: 델비 회계법인",
+     "발행일: 8월 4일"
+    ],
+    "table": [
+     [
+      "품목",
+      "수량",
+      "사유"
+     ],
+     [
+      "모니터 거치대, 2단",
+      "3",
+      "배송 중 파손"
+     ],
+     [
+      "책상 서랍장, 회색",
+      "2",
+      "다른 색상 배송"
+     ],
+     [
+      "발 받침대, 높이 조절형",
+      "4",
+      "필요 없어짐"
+     ]
+    ],
+    "body": [
+     "가능하면 원래 상자에 넣어 포장하고 각 상자 바깥에 승인 번호를 적어 주십시오. 저희 기사가 8월 11일에 수거합니다. 배송 중 파손되었거나 잘못 보낸 물품은 교환하거나 전액 환불합니다. 필요 없어져 반품하는 물품은 사용하지 않은 경우에 한해 재입고 비용 15퍼센트를 뺀 금액을 환불합니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why are the drawer units being returned?",
+    "choices": [
+     "They were damaged during shipping.",
+     "They are not the color that was ordered.",
+     "The customer no longer needs them.",
+     "They were missing some parts."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "서랍장은 왜 반품되는가?",
+     "choices": [
+      "배송 중에 파손되었다.",
+      "주문한 색상이 아니다.",
+      "고객에게 더 이상 필요 없다.",
+      "일부 부품이 빠져 있었다."
+     ]
+    },
+    "explain": "표에서 서랍장의 사유는 다른 색상 배송(Wrong color sent)이다. 배송 중 파손은 모니터 거치대의 사유다."
+   },
+   {
+    "type": "detail",
+    "q": "Which items will be refunded at less than the full price?",
+    "choices": [
+     "The monitor arms",
+     "The footrests",
+     "The drawer units",
+     "All of the items"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "어느 물품이 전액보다 적게 환불되는가?",
+     "choices": [
+      "모니터 거치대",
+      "발 받침대",
+      "서랍장",
+      "모든 물품"
+     ]
+    },
+    "explain": "필요 없어져 반품하는 물품은 재입고 비용 15퍼센트를 빼고 환불하며, 표에서 그 사유는 발 받침대다. 나머지는 전액 환불 또는 교환 대상이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-03",
+  "test": 17,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Printer cartridge collection",
+    "heading": [
+     "Notice to all staff — Fourth floor"
+    ],
+    "body": [
+     "The collection box for used printer and copier cartridges has been moved from the copy room to the mailroom next to the freight elevator. Our supplier, Kelvin Imaging, now picks up full boxes from the mailroom on the first Monday of each month and refills or recycles the cartridges.",
+     "Please place each cartridge in a plastic bag before putting it in the box, as loose toner can stain the other items. Only cartridges used by company equipment can be accepted. Cartridges from home printers are made by different manufacturers, and Kelvin Imaging cannot process them. Replacement cartridges can still be requested from the supply cabinet in the copy room."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "프린터 카트리지 수거",
+    "heading": [
+     "전 직원 공지 — 4층"
+    ],
+    "body": [
+     "다 쓴 프린터·복사기 카트리지 수거함을 복사실에서 화물용 엘리베이터 옆 우편실로 옮겼습니다. 공급업체인 켈빈 이미징이 이제 매달 첫째 월요일에 우편실에서 가득 찬 상자를 가져가 카트리지를 다시 채우거나 재활용합니다.",
+     "흘러나온 토너가 다른 물품을 더럽힐 수 있으니 카트리지를 하나씩 비닐봉지에 넣은 뒤 상자에 넣어 주십시오. 회사 장비에서 사용한 카트리지만 받을 수 있습니다. 가정용 프린터 카트리지는 제조사가 달라 켈빈 이미징에서 처리할 수 없습니다. 교체용 카트리지는 지금처럼 복사실 비품함에서 요청하면 됩니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What has changed?",
+    "choices": [
+     "The day the supplier visits",
+     "The brand of cartridges the company buys",
+     "The location of a container",
+     "The way replacement cartridges are requested"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "무엇이 바뀌었는가?",
+     "choices": [
+      "공급업체가 방문하는 날",
+      "회사가 사는 카트리지 상표",
+      "수거함의 위치",
+      "교체용 카트리지를 요청하는 방법"
+     ]
+    },
+    "explain": "첫 문단에서 수거함을 복사실에서 우편실로 옮겼다고 한다. 교체용 카트리지는 지금처럼 복사실 비품함에서 요청한다."
+   },
+   {
+    "type": "detail",
+    "q": "Why are cartridges from home printers not accepted?",
+    "choices": [
+     "The supplier cannot handle them.",
+     "They often leak toner.",
+     "They are too large for the box.",
+     "They must be returned to a store."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "가정용 프린터 카트리지를 받지 않는 이유는 무엇인가?",
+     "choices": [
+      "공급업체가 처리할 수 없다.",
+      "토너가 자주 샌다.",
+      "상자에 넣기에 너무 크다.",
+      "매장에 반납해야 한다."
+     ]
+    },
+    "explain": "둘째 문단에서 가정용 카트리지는 제조사가 달라 켈빈 이미징이 처리할 수 없다고 한다. 토너 얼룩은 모든 카트리지를 봉지에 넣으라는 이유다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-04",
+  "test": 17,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "A shop for a week",
+    "heading": [],
+    "body": [
+     "Test a new product, clear seasonal stock, or introduce your brand to thousands of commuters without signing a long lease. Grandvale Station's concourse now has four fully fitted retail units available by the week.",
+     "Each unit includes shelving, lighting, a lockable storage cupboard, and a card payment terminal connected to the station's network. Units facing the main ticket hall cost $1,400 per week; those near the platform entrances cost $950 per week and receive fewer passers-by in the middle of the day. All units may be occupied from 6:00 A.M. to 10:00 P.M.",
+     "Businesses that book three or more consecutive weeks receive a free listing in the station's digital directory. Food and drink sellers must hold a current hygiene certificate. To see the units, contact our leasing office."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "일주일짜리 매장",
+    "heading": [],
+    "body": [
+     "장기 임대 계약 없이 신제품을 시험하거나, 계절 재고를 정리하거나, 수많은 통근객에게 브랜드를 알려 보십시오. 그랜드베일역 중앙 홀에 설비를 모두 갖춘 소매 공간 네 곳을 주 단위로 빌려 드립니다.",
+     "각 공간에는 진열대, 조명, 잠금 보관함, 역 네트워크에 연결된 카드 결제 단말기가 갖춰져 있습니다. 중앙 매표소 쪽 공간은 주당 1,400달러이고, 승강장 입구 근처 공간은 주당 950달러이며 낮 시간대에는 지나가는 사람이 더 적습니다. 모든 공간은 오전 6시부터 오후 10시까지 쓸 수 있습니다.",
+     "3주 이상 연속으로 예약한 업체는 역의 디지털 안내판에 무료로 소개됩니다. 식음료 판매자는 유효한 위생 인증서가 있어야 합니다. 공간을 보시려면 임대 사무소로 연락하십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why are some units less expensive?",
+    "choices": [
+     "They are smaller than the others.",
+     "They do not have a payment terminal.",
+     "They have shorter opening hours.",
+     "They are passed by fewer people at certain times."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "일부 공간이 더 저렴한 이유는 무엇인가?",
+     "choices": [
+      "다른 공간보다 작다.",
+      "결제 단말기가 없다.",
+      "운영 시간이 더 짧다.",
+      "특정 시간대에 지나가는 사람이 더 적다."
+     ]
+    },
+    "explain": "둘째 문단에서 승강장 입구 근처 공간은 낮 시간대 통행이 적어 주당 950달러라고 한다. 결제 단말기는 모든 공간에 있고 운영 시간도 같다."
+   },
+   {
+    "type": "detail",
+    "q": "What is offered to businesses that book for three weeks in a row?",
+    "choices": [
+     "A lower weekly price",
+     "Extra storage space",
+     "Promotion on a station display",
+     "A free hygiene inspection"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "3주 연속 예약한 업체에 무엇을 주는가?",
+     "choices": [
+      "더 낮은 주간 요금",
+      "추가 보관 공간",
+      "역 안내판 홍보",
+      "무료 위생 검사"
+     ]
+    },
+    "explain": "셋째 문단에서 3주 이상 연속 예약하면 디지털 안내판에 무료로 소개된다고 한다. 위생 인증서는 식음료 판매자의 요건이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-05",
+  "test": 17,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "email",
+    "title": "E-mail",
+    "heading": [
+     "To: Celia Harmon, Northpoint Engineering",
+     "From: Darius Feld, Sales Manager, Hotel Arbena",
+     "Date: April 2",
+     "Subject: Your room block for the May conference"
+    ],
+    "body": [
+     "Dear Ms. Harmon,",
+     "Thank you for reserving a block of 60 rooms for the Northpoint technical conference from May 14 to 16. As agreed, your attendees can book these rooms at the group rate of $139 per night by using the code NPE24 on our website or by calling our reservations desk.",
+     "So far, 22 rooms have been booked. Any rooms in the block that are still unreserved on April 30 will be released for sale to the public. After that date, attendees can still book with us, but only at our standard rate and only if rooms remain. The city is hosting a large trade fair that same week, so we expect to be nearly full.",
+     "You may wish to send your attendees a reminder before the end of the month. If you expect fewer participants than planned, I would be glad to reduce the block now so that you are not charged for rooms you do not need."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "이메일",
+    "heading": [
+     "수신: 실리아 하먼, 노스포인트 엔지니어링",
+     "발신: 다리우스 펠드, 아르베나 호텔 영업 관리자",
+     "날짜: 4월 2일",
+     "제목: 5월 회의 단체 객실"
+    ],
+    "body": [
+     "하먼 님께,",
+     "5월 14일부터 16일까지 열리는 노스포인트 기술 회의를 위해 객실 60개를 단체로 예약해 주셔서 감사합니다. 합의한 대로 참석자들은 저희 웹사이트에서 코드 NPE24를 쓰거나 예약 데스크에 전화해 1박 139달러의 단체 요금으로 이 객실을 예약할 수 있습니다.",
+     "지금까지 22실이 예약되었습니다. 4월 30일까지 예약되지 않은 단체 객실은 일반 판매로 풀립니다. 그 이후에도 참석자들은 예약할 수 있지만 표준 요금으로만, 그리고 객실이 남아 있을 때만 가능합니다. 같은 주에 시에서 대규모 무역 박람회가 열려 거의 만실이 될 것으로 예상합니다.",
+     "월말 전에 참석자들에게 다시 안내하시는 것이 좋겠습니다. 계획보다 참가자가 적을 것으로 예상되면 필요 없는 객실 요금이 청구되지 않도록 지금 단체 객실 수를 줄여 드리겠습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "How can attendees receive the group rate?",
+    "choices": [
+     "By paying in advance",
+     "By entering a code when booking",
+     "By booking before April 2",
+     "By staying for three nights"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "참석자는 어떻게 단체 요금을 받을 수 있는가?",
+     "choices": [
+      "미리 지불해서",
+      "예약할 때 코드를 입력해서",
+      "4월 2일 전에 예약해서",
+      "3박을 머물러서"
+     ]
+    },
+    "explain": "둘째 문단에서 웹사이트에서 코드 NPE24를 쓰거나 전화로 예약하면 단체 요금이 적용된다고 한다. 4월 2일은 이메일 날짜다."
+   },
+   {
+    "type": "inference",
+    "q": "Why does Mr. Feld mention the trade fair?",
+    "choices": [
+     "To suggest a second event for Ms. Harmon's company",
+     "To explain why the conference dates must change",
+     "To offer a discount on meeting rooms",
+     "To indicate that late bookings may not be possible"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "펠드가 무역 박람회를 언급한 이유는 무엇인가?",
+     "choices": [
+      "하먼의 회사에 두 번째 행사를 제안하려고",
+      "회의 날짜를 바꿔야 하는 이유를 설명하려고",
+      "회의실 할인을 제안하려고",
+      "늦은 예약이 불가능할 수 있음을 알리려고"
+     ]
+    },
+    "explain": "4월 30일 이후에는 객실이 남아 있을 때만 예약할 수 있는데, 같은 주 박람회로 거의 만실이 예상된다고 하므로 늦게 예약하면 방이 없을 수 있다는 뜻이다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the e-mail, the word \"released\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "announced",
+     "excused",
+     "printed",
+     "freed"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "이메일의 둘째 문단에 있는 “released”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "발표된",
+      "면제된",
+      "인쇄된",
+      "풀린"
+     ]
+    },
+    "explain": "미예약 단체 객실을 일반 판매용으로 내놓는다는 뜻이므로 freed(풀린, 묶임에서 벗어난)와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 2
+    }
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-06",
+  "test": 17,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "letter",
+    "title": "Premium review",
+    "heading": [
+     "Sorrel Mutual Insurance",
+     "Commercial Policies Department",
+     "June 18"
+    ],
+    "body": [
+     "Dear Mr. Okonjo,",
+     "Thank you for informing us that an automatic fire suppression system has been installed above the ovens at Okonjo Family Bakery. Kitchens with such systems have far fewer serious fires, and we are able to reduce the property portion of your annual premium by 12 percent.",
+     "To apply the reduction, we need two documents: the installation certificate issued by the contractor and a copy of the first inspection report. Systems of this kind must be inspected every six months, and the reduction will remain in place only while those inspections are kept up to date. You may upload both documents through our customer portal or send them by post. If you have any questions about the documents we need, please call me directly at the number below.",
+     "The reduction will take effect from the date we receive the documents rather than from the date of installation. Your liability coverage is not affected by this change.",
+     "Yours sincerely,",
+     "Hannah Brisk, Policy Adviser"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "보험료 재검토",
+    "heading": [
+     "소렐 상호 보험",
+     "기업 보험부",
+     "6월 18일"
+    ],
+    "body": [
+     "오콘조 님께,",
+     "오콘조 패밀리 베이커리의 오븐 위에 자동 소화 장치를 설치했다고 알려 주셔서 감사합니다. 이런 장치가 있는 주방은 큰 화재가 훨씬 적으므로 연간 보험료 중 재산 부분을 12퍼센트 낮춰 드릴 수 있습니다.",
+     "인하를 적용하려면 두 가지 서류가 필요합니다. 시공업체가 발급한 설치 증명서와 첫 점검 보고서 사본입니다. 이런 장치는 6개월마다 점검해야 하며, 점검을 계속 제때 받는 동안에만 인하가 유지됩니다. 두 서류는 고객 포털에 올리거나 우편으로 보내시면 됩니다. 필요한 서류에 관해 궁금한 점이 있으면 아래 번호로 저에게 직접 전화해 주십시오.",
+     "인하는 설치일이 아니라 저희가 서류를 받은 날부터 적용됩니다. 배상 책임 보장은 이번 변경의 영향을 받지 않습니다.",
+     "감사합니다.",
+     "한나 브리스크, 보험 상담역"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "Why did Ms. Brisk write to Mr. Okonjo?",
+    "choices": [
+     "To explain how he can lower his insurance cost",
+     "To ask him to install safety equipment",
+     "To report the results of an inspection",
+     "To renew his liability coverage"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "브리스크는 왜 오콘조에게 편지를 썼는가?",
+     "choices": [
+      "보험 비용을 낮추는 방법을 설명하려고",
+      "안전 장비를 설치하라고 요청하려고",
+      "점검 결과를 알리려고",
+      "배상 책임 보장을 갱신하려고"
+     ]
+    },
+    "explain": "첫 문단에서 소화 장치 설치로 보험료를 12퍼센트 낮출 수 있다고 하고 이후 필요한 서류를 안내한다. 장치는 이미 설치되어 있다."
+   },
+   {
+    "type": "detail",
+    "q": "What is required for the reduction to continue?",
+    "choices": [
+     "Annual payment of the premium",
+     "A second installation certificate",
+     "Regular checks of the system",
+     "A visit from a policy adviser"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "인하가 계속되려면 무엇이 필요한가?",
+     "choices": [
+      "보험료 연납",
+      "두 번째 설치 증명서",
+      "장치의 정기 점검",
+      "보험 상담역의 방문"
+     ]
+    },
+    "explain": "둘째 문단에서 6개월마다 점검을 제때 받는 동안에만 인하가 유지된다고 한다. 설치 증명서는 한 번 제출하는 서류다."
+   },
+   {
+    "type": "detail",
+    "q": "When will the lower premium begin?",
+    "choices": [
+     "When the documents reach the insurer",
+     "On June 18",
+     "When the next policy year starts",
+     "On the date the system was installed"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "낮아진 보험료는 언제부터 적용되는가?",
+     "choices": [
+      "서류가 보험사에 도착했을 때",
+      "6월 18일",
+      "다음 보험 연도가 시작될 때",
+      "장치를 설치한 날"
+     ]
+    },
+    "explain": "셋째 문단에서 설치일이 아니라 서류를 받은 날부터 적용된다고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-07",
+  "test": 17,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "memo",
+    "title": "Virtual cards for subscriptions",
+    "heading": [
+     "To: Department heads",
+     "From: Leona Prys, Finance",
+     "Date: November 3",
+     "Re: Online subscriptions"
+    ],
+    "body": [
+     "At present, many software and research subscriptions are charged to the corporate cards of individual managers. When a manager changes roles or leaves, renewals sometimes fail, and services that teams depend on are interrupted without warning. Finance also spends several hours each month matching these charges to the correct budgets.",
+     "From December 1, each online subscription will be paid with its own virtual card number issued by the finance office. The number is linked to the subscription rather than to a person, so it will continue to work when staff change. Each virtual card will also have a monthly limit equal to the expected charge, which will stop unexpected price increases from going through unnoticed.",
+     "Please send finance a list of the subscriptions your department uses, together with the name of the person who manages each one, by November 20. Physical corporate cards will remain in use for travel and other purchases. Each list will be checked before the new card numbers are issued."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "구독용 가상 카드",
+    "heading": [
+     "수신: 부서장",
+     "발신: 리오나 프리스, 재무팀",
+     "날짜: 11월 3일",
+     "제목: 온라인 구독"
+    ],
+    "body": [
+     "현재 많은 소프트웨어·자료 구독료가 개별 관리자의 법인 카드로 결제되고 있습니다. 관리자가 직무를 바꾸거나 퇴사하면 갱신이 실패하기도 하고, 팀이 의존하는 서비스가 예고 없이 중단됩니다. 재무팀도 매달 이 요금을 맞는 예산에 대조하느라 몇 시간을 씁니다.",
+     "12월 1일부터 각 온라인 구독은 재무팀이 발급하는 별도의 가상 카드 번호로 결제합니다. 이 번호는 사람이 아니라 구독에 연결되므로 담당 직원이 바뀌어도 계속 작동합니다. 또 가상 카드마다 예상 요금과 같은 월 한도를 두어 예상치 못한 가격 인상이 모르는 사이에 결제되는 것을 막습니다.",
+     "11월 20일까지 부서에서 쓰는 구독 목록과 각 구독을 관리하는 사람의 이름을 재무팀에 보내 주십시오. 실물 법인 카드는 출장과 기타 구매에 계속 사용합니다. 새 카드 번호를 발급하기 전에 각 목록을 확인합니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What problem does the memo describe?",
+    "choices": [
+     "Subscription prices have risen sharply.",
+     "Managers have lost their corporate cards.",
+     "Services stop when the person paying for them leaves.",
+     "Some departments use too many subscriptions."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "메모가 설명하는 문제는 무엇인가?",
+     "choices": [
+      "구독료가 크게 올랐다.",
+      "관리자들이 법인 카드를 잃어버렸다.",
+      "결제하던 사람이 떠나면 서비스가 끊긴다.",
+      "일부 부서가 구독을 너무 많이 쓴다."
+     ]
+    },
+    "explain": "첫 문단에서 관리자가 직무를 바꾸거나 퇴사하면 갱신이 실패해 서비스가 중단된다고 한다. 가격 인상은 새 방식의 월 한도로 대비하는 위험일 뿐 현재 문제로 제시되지 않았다."
+   },
+   {
+    "type": "detail",
+    "q": "What is a feature of the virtual cards?",
+    "choices": [
+     "They can be used for travel expenses.",
+     "They will block charges above an expected amount.",
+     "They are issued to each department head.",
+     "They replace all physical corporate cards."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "가상 카드의 특징은 무엇인가?",
+     "choices": [
+      "출장비에 쓸 수 있다.",
+      "예상 금액을 넘는 결제를 막는다.",
+      "부서장마다 발급된다.",
+      "모든 실물 법인 카드를 대체한다."
+     ]
+    },
+    "explain": "둘째 문단에서 예상 요금과 같은 월 한도가 있어 예상치 못한 인상분이 결제되지 않는다고 한다. 출장에는 실물 카드를 계속 쓴다."
+   },
+   {
+    "type": "detail",
+    "q": "What are department heads asked to provide?",
+    "choices": [
+     "Their corporate card numbers",
+     "Receipts for recent renewals",
+     "Details of the subscriptions they use",
+     "A budget for the coming year"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "부서장들은 무엇을 제출해 달라고 요청받는가?",
+     "choices": [
+      "법인 카드 번호",
+      "최근 갱신 영수증",
+      "사용하는 구독의 세부 정보",
+      "내년 예산"
+     ]
+    },
+    "explain": "셋째 문단에서 11월 20일까지 구독 목록과 각 구독 관리자의 이름을 보내 달라고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-08",
+  "test": 17,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "article",
+    "title": "A mill opens its looms after dark",
+    "heading": [
+     "Regional Business Review"
+    ],
+    "body": [
+     "For most of its ninety-year history, Hollin Weaving has run its looms only during the day. The mill's main customers, two large clothing manufacturers, order in quantities that keep the machines busy from 7:00 A.M. to 5:00 P.M. Overnight, the looms simply stood still. [1]",
+     "Last spring, operations manager Teodor Balas proposed renting that idle time to small fashion and interior designers who need short runs of fabric but cannot meet the large minimum orders most mills require. \"A designer might want forty meters of a test pattern,\" Balas said. \"No one else in the region will set up a loom for that.\" [2]",
+     "Designers submit their patterns digitally, and a night technician prepares the loom and checks the first meter of cloth before the run continues unattended. Customers pay a setup fee plus a charge per meter. [3] The mill supplies yarn from its own stock, which keeps costs down but limits the choice of colors to about sixty shades.",
+     "The program now accounts for roughly 8 percent of Hollin's revenue. More important, Balas says, several designers who started with test runs have since placed full production orders during daytime hours. [4] The mill plans to add a second night technician in the autumn."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "어두워진 뒤 직기를 여는 직조 공장",
+    "heading": [
+     "지역 비즈니스 리뷰"
+    ],
+    "body": [
+     "90년 역사의 대부분 동안 홀린 직조는 낮에만 직기를 돌렸다. 공장의 주요 고객인 대형 의류 제조사 두 곳의 주문량은 오전 7시부터 오후 5시까지 기계를 바쁘게 할 정도였다. 밤에는 직기가 그냥 서 있었다. [1]",
+     "지난봄 운영 관리자 테오도르 발라스는 그 빈 시간을 소규모 패션·인테리어 디자이너에게 빌려주자고 제안했다. 이들은 적은 양의 원단이 필요하지만 대부분의 공장이 요구하는 많은 최소 주문량을 맞출 수 없다. 발라스는 \"디자이너는 시험 무늬를 40미터 정도 원할 수 있습니다. 그 정도로는 이 지역에서 아무도 직기를 설정해 주지 않습니다\"라고 말했다. [2]",
+     "디자이너가 무늬를 디지털로 제출하면 야간 기술자가 직기를 준비하고 첫 1미터를 확인한 뒤 나머지는 사람 없이 직조한다. 고객은 설정비와 미터당 요금을 낸다. [3] 공장은 자체 재고의 실을 공급하는데, 이 덕분에 비용이 낮지만 색상은 약 60가지로 제한된다.",
+     "이 사업은 현재 홀린 매출의 약 8퍼센트를 차지한다. 발라스는 더 중요한 것은 시험 직조로 시작한 디자이너 여럿이 이후 낮 시간대에 본 생산 주문을 넣었다는 점이라고 말한다. [4] 공장은 가을에 두 번째 야간 기술자를 추가할 계획이다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Who is the night program designed for?",
+    "choices": [
+     "Clothing companies that need extra capacity",
+     "Yarn suppliers testing new colors",
+     "Technicians training to operate looms",
+     "Designers who want small amounts of fabric"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "야간 사업은 누구를 위한 것인가?",
+     "choices": [
+      "추가 생산 능력이 필요한 의류 회사",
+      "새 색상을 시험하는 실 공급업체",
+      "직기 조작을 배우는 기술자",
+      "적은 양의 원단을 원하는 디자이너"
+     ]
+    },
+    "explain": "둘째 문단에서 적은 양이 필요하지만 최소 주문량을 맞출 수 없는 소규모 디자이너에게 빈 시간을 빌려준다고 한다. 대형 의류 회사는 낮 시간의 기존 고객이다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the article, the word \"idle\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "unused",
+     "lazy",
+     "free of charge",
+     "unimportant"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "기사의 둘째 문단에 있는 “idle”과 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "사용되지 않는",
+      "게으른",
+      "무료인",
+      "중요하지 않은"
+     ]
+    },
+    "explain": "밤에 직기가 서 있던 시간, 즉 사용되지 않는 시간을 가리키므로 unused와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 1
+    }
+   },
+   {
+    "type": "not-true",
+    "q": "What is NOT mentioned about the night program?",
+    "choices": [
+     "Customers pay according to the length of fabric.",
+     "Designers may supply their own yarn.",
+     "A staff member inspects the start of each run.",
+     "Patterns are sent to the mill electronically."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "야간 사업에 관해 언급되지 않은 것은 무엇인가?",
+     "choices": [
+      "고객은 원단 길이에 따라 요금을 낸다.",
+      "디자이너가 자기 실을 가져올 수 있다.",
+      "직원이 직조마다 처음 부분을 검사한다.",
+      "무늬를 전자 방식으로 공장에 보낸다."
+     ]
+    },
+    "explain": "미터당 요금, 첫 1미터 확인, 디지털 제출은 셋째 문단에 나온다. 실은 공장 재고에서 공급하므로 디자이너가 실을 가져온다는 내용은 없다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Those orders are now worth more to the mill than the night fees themselves.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “이제 그 주문들이 공장에 야간 요금 자체보다 더 큰 가치가 있다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "Those orders는 바로 앞 문장의 디자이너들이 낮에 넣은 본 생산 주문을 가리키고, night fees와 대비되므로 [4]가 알맞다. [1] 앞의 대형 고객 주문은 야간 요금이 생기기 전 이야기다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-09",
+  "test": 17,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "announcement",
+    "title": "Retiring Ledgerline Classic",
+    "heading": [
+     "Ledgerline Software — Customer announcement"
+    ],
+    "body": [
+     "On March 31 next year, we will stop supporting Ledgerline Classic, the desktop version of our invoicing program first released twelve years ago. After that date, Classic will continue to open, but it will no longer receive security updates, and its connection to our online tax tables will end. [1]",
+     "Customers can move to Ledgerline Online, which offers the same invoicing features through a web browser and works on tablets and phones. Your current Classic license can be exchanged for one year of Ledgerline Online at no cost. [2] After the first year, Online is billed monthly per user. Prices for additional users are listed on our website.",
+     "Moving your records is straightforward. Use the Export tool in Classic to create a single archive file, then upload it in Online under Settings. Customer lists, product lists, and invoices from the past seven years are transferred automatically. [3] Custom invoice templates are not transferred, but our support team will recreate up to three templates free of charge for any customer who requests it before March 31.",
+     "We recommend running both programs side by side for one billing cycle to confirm that totals match. [4] Webinars explaining each step will be held every Thursday from January. Recordings of each session will be posted on our help page."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "레저라인 클래식 지원 종료",
+    "heading": [
+     "레저라인 소프트웨어 — 고객 공지"
+    ],
+    "body": [
+     "내년 3월 31일, 12년 전 처음 출시한 송장 프로그램의 데스크톱판인 레저라인 클래식의 지원을 종료합니다. 그 이후에도 클래식은 실행되지만 보안 업데이트는 더 이상 받지 못하며, 온라인 세율표와의 연결도 끊깁니다. [1]",
+     "고객은 레저라인 온라인으로 옮길 수 있습니다. 온라인판은 웹 브라우저로 같은 송장 기능을 제공하며 태블릿과 휴대 전화에서도 작동합니다. 현재 클래식 사용권은 레저라인 온라인 1년 이용권으로 무료 교환할 수 있습니다. [2] 첫해 이후 온라인판은 사용자당 매월 요금이 청구됩니다. 추가 사용자 요금은 저희 웹사이트에 나와 있습니다.",
+     "기록 이전은 간단합니다. 클래식의 내보내기 도구로 하나의 보관 파일을 만든 뒤 온라인판의 설정 메뉴에서 올리면 됩니다. 고객 목록, 제품 목록, 지난 7년간의 송장이 자동으로 이전됩니다. [3] 사용자 지정 송장 서식은 이전되지 않지만, 3월 31일 전에 요청하는 고객에게는 지원팀이 서식을 최대 세 개까지 무료로 다시 만들어 드립니다.",
+     "총액이 일치하는지 확인하기 위해 한 번의 청구 주기 동안 두 프로그램을 함께 쓰시기를 권합니다. [4] 1월부터 매주 목요일 각 단계를 설명하는 웨비나를 엽니다. 각 세션의 녹화본은 도움말 페이지에 올립니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What will happen to Ledgerline Classic after March 31?",
+    "choices": [
+     "It will stop opening on users' computers.",
+     "It will be unable to use current tax information.",
+     "It will be offered at a lower price.",
+     "It will be replaced automatically by a new version."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "3월 31일 이후 레저라인 클래식은 어떻게 되는가?",
+     "choices": [
+      "사용자 컴퓨터에서 실행되지 않는다.",
+      "최신 세금 정보를 쓸 수 없게 된다.",
+      "더 낮은 가격에 제공된다.",
+      "새 버전으로 자동 교체된다."
+     ]
+    },
+    "explain": "첫 문단에서 클래식은 계속 실행되지만 온라인 세율표 연결이 끊긴다고 한다. 실행이 안 된다는 보기는 지문과 반대다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about customers who switch to Ledgerline Online?",
+    "choices": [
+     "They must buy new tablets.",
+     "They must keep using Classic for seven years.",
+     "They will pay nothing during the first year.",
+     "They will lose their customer lists."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "레저라인 온라인으로 바꾸는 고객에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "새 태블릿을 사야 한다.",
+      "7년 동안 클래식을 계속 써야 한다.",
+      "첫해에는 비용을 내지 않는다.",
+      "고객 목록을 잃게 된다."
+     ]
+    },
+    "explain": "둘째 문단에서 클래식 사용권을 온라인 1년 이용권으로 무료 교환하고 첫해 이후 매월 청구한다고 하므로 첫해는 무료다. 고객 목록은 자동 이전된다."
+   },
+   {
+    "type": "detail",
+    "q": "What will the support team do on request?",
+    "choices": [
+     "Rebuild a limited number of invoice designs",
+     "Hold a private webinar",
+     "Compare billing totals",
+     "Export records from Classic"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "지원팀은 요청하면 무엇을 해 주는가?",
+     "choices": [
+      "정해진 수의 송장 서식을 다시 만든다",
+      "개별 웨비나를 연다",
+      "청구 총액을 비교한다",
+      "클래식에서 기록을 내보낸다"
+     ]
+    },
+    "explain": "셋째 문단에서 이전되지 않는 사용자 지정 서식을 최대 세 개까지 무료로 다시 만들어 준다고 한다. 내보내기는 고객이 직접 한다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Older invoices remain available in Classic, which you may keep installed for reference.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “그보다 오래된 송장은 클래식에 남아 있으므로 참고용으로 설치해 둘 수 있습니다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "Older invoices는 바로 앞의 '지난 7년간의 송장'보다 오래된 송장을 뜻하므로 [3]이 알맞다. 다른 위치 앞에는 이전되는 송장의 기간이 나오지 않는다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-17-10",
+  "test": 17,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Labels for the Varsen order",
+    "lines": [
+     {
+      "time": "11:02 A.M.",
+      "name": "Petra Kolar",
+      "t": "Varsen Foods has approved our sample jars for their stores. Their only change is the date on the lid."
+     },
+     {
+      "time": "11:03 A.M.",
+      "name": "Samuel Ude",
+      "t": "What's wrong with it? We print the best-before date the way we always have: day, month, year. Our other export customers have never mentioned it."
+     },
+     {
+      "time": "11:05 A.M.",
+      "name": "Petra Kolar",
+      "t": "Their market writes the month first. Shoppers there could read 04/07 as April 7 instead of July 4."
+     },
+     {
+      "time": "11:06 A.M.",
+      "name": "Ines Rauh",
+      "t": "We could print the month as letters, like 04 JUL, on every customer's lids for future orders as well. That would save us a shelf."
+     },
+     {
+      "time": "11:08 A.M.",
+      "name": "Samuel Ude",
+      "t": "The lid printer handles letters, but it would need new settings. I'd want to test it on a few hundred lids first so we can check the ink doesn't smudge."
+     },
+     {
+      "time": "11:09 A.M.",
+      "name": "Petra Kolar",
+      "t": "Varsen's first order ships on the 22nd. Is that enough time?"
+     },
+     {
+      "time": "11:11 A.M.",
+      "name": "Samuel Ude",
+      "t": "Two days for the test, then a day to adjust the line. We'd be ready by the 15th."
+     },
+     {
+      "time": "11:12 A.M.",
+      "name": "Ines Rauh",
+      "t": "Our domestic customers will get the new format too. I'll let our account managers know before anyone calls with questions."
+     },
+     {
+      "time": "11:14 A.M.",
+      "name": "Petra Kolar",
+      "t": "Good idea. I'll write back to Varsen and ask them to approve the format with a photo of a test lid."
+     },
+     {
+      "time": "11:15 A.M.",
+      "name": "Samuel Ude",
+      "t": "Then I'll start changing the printer settings after lunch and run the first test lids tomorrow morning."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "바르센 주문용 표시",
+    "lines": [
+     "바르센 식품이 매장에 들일 저희 견본 병을 승인했어요. 바꿔 달라는 건 뚜껑의 날짜뿐이에요.",
+     "뭐가 문제죠? 품질유지기한은 늘 하던 대로 일, 월, 연 순서로 찍는데요. 다른 수출 고객들은 한 번도 그 얘기를 한 적이 없어요.",
+     "그쪽 시장은 월을 먼저 써요. 그곳 쇼핑객은 04/07을 7월 4일이 아니라 4월 7일로 읽을 수 있어요.",
+     "앞으로 들어올 주문도 모든 고객의 뚜껑에 월을 04 JUL처럼 글자로 찍으면 돼요. 그러면 선반 하나를 비울 수 있겠네요.",
+     "뚜껑 인쇄기는 글자를 찍을 수 있지만 설정을 새로 해야 해요. 잉크가 번지지 않는지 확인하려면 먼저 몇백 개로 시험해 보고 싶어요.",
+     "바르센 첫 주문은 22일에 출고돼요. 시간이 충분할까요?",
+     "시험에 이틀, 라인 조정에 하루요. 15일까지는 준비될 거예요.",
+     "국내 고객도 새 형식을 받게 돼요. 누가 문의 전화를 하기 전에 거래처 담당자들에게 알릴게요.",
+     "좋은 생각이에요. 바르센에 답장해서 시험 뚜껑 사진으로 형식을 승인해 달라고 할게요.",
+     "그러면 점심 후에 인쇄기 설정을 바꾸기 시작해서 내일 아침에 첫 시험 뚜껑을 찍을게요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What concern does Ms. Kolar raise?",
+    "choices": [
+     "Shoppers could misunderstand a date.",
+     "The jars are too large for Varsen's shelves.",
+     "The lid printer cannot print letters.",
+     "Varsen has rejected the sample jars."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "콜라르가 제기한 우려는 무엇인가?",
+     "choices": [
+      "쇼핑객이 날짜를 잘못 이해할 수 있다.",
+      "병이 바르센 진열대에 비해 너무 크다.",
+      "뚜껑 인쇄기가 글자를 찍을 수 없다.",
+      "바르센이 견본 병을 거절했다."
+     ]
+    },
+    "explain": "11시 5분 메시지에서 월을 먼저 쓰는 시장에서는 04/07을 다른 날짜로 읽을 수 있다고 한다. 바르센은 견본을 승인했다."
+   },
+   {
+    "type": "intention",
+    "q": "At 11:06 A.M., what does Ms. Rauh most likely mean when she writes, \"That would save us a shelf\"?",
+    "choices": [
+     "The current labels have been translated correctly.",
+     "Shoppers prefer dates printed in numbers.",
+     "Varsen's stores use the same language.",
+     "A single lid design could serve all customers."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "오전 11시 6분에 라우가 “That would save us a shelf”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "현재 표시는 제대로 번역되었다.",
+      "쇼핑객은 숫자로 찍힌 날짜를 선호한다.",
+      "바르센 매장들은 같은 언어를 쓴다.",
+      "하나의 뚜껑 디자인으로 모든 고객에게 쓸 수 있다."
+     ]
+    },
+    "explain": "월을 글자로 표시한 뚜껑을 모든 고객에게 쓰자는 제안에 이어 나온 말이므로, 거래처별 뚜껑을 따로 보관하지 않아도 된다는 뜻이다. 선반 자체를 바꾸거나 현재 번역을 평가하는 발언이 아니다."
+   },
+   {
+    "type": "detail",
+    "q": "Why does Mr. Ude want to run a test?",
+    "choices": [
+     "To show the new lids to domestic customers",
+     "To measure how fast the line can run",
+     "To confirm the printing stays clear",
+     "To calculate the cost of new ink"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "우데는 왜 시험을 하고 싶어 하는가?",
+     "choices": [
+      "국내 고객에게 새 뚜껑을 보여 주려고",
+      "라인 속도를 재려고",
+      "인쇄가 깨끗하게 유지되는지 확인하려고",
+      "새 잉크 비용을 계산하려고"
+     ]
+    },
+    "explain": "11시 8분 메시지에서 잉크가 번지지 않는지 확인하려고 몇백 개로 먼저 시험하겠다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What will Ms. Rauh do?",
+    "choices": [
+     "Adjust the printer settings",
+     "Inform colleagues who deal with customers",
+     "Send a photo to Varsen Foods",
+     "Change the shipping date"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "라우는 무엇을 할 것인가?",
+     "choices": [
+      "인쇄기 설정을 조정한다",
+      "고객을 담당하는 동료에게 알린다",
+      "바르센 식품에 사진을 보낸다",
+      "출고일을 바꾼다"
+     ]
+    },
+    "explain": "11시 12분 메시지에서 라우는 문의가 오기 전에 거래처 담당자들에게 알리겠다고 한다. 콜라르는 시험 뚜껑 사진을 보내 바르센에 형식 승인을 요청한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-01",
+  "test": 18,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Shredding at your door",
+    "heading": [],
+    "body": [
+     "Old contracts, payroll records, and customer files cannot simply go into the recycling bin. Varn Secure Shredding brings a shredding truck to your building and destroys your documents on the spot, so the paper never leaves your sight in readable form.",
+     "Our staff collect locked bins from your office, empty them into the truck's shredder, and return the bins within the hour. You can watch the process on a screen mounted on the side of the truck. After each visit, we e-mail a certificate listing the date and the weight of material destroyed. The shredded paper is then pressed into bales and sold to a paper mill.",
+     "Choose a single visit or a monthly schedule. Monthly customers receive two locked bins free of charge."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "문 앞에서 하는 문서 파쇄",
+    "heading": [],
+    "body": [
+     "오래된 계약서, 급여 기록, 고객 파일은 그냥 재활용함에 넣을 수 없습니다. 바른 보안 파쇄는 파쇄 트럭을 귀사 건물로 보내 그 자리에서 문서를 파쇄하므로, 종이가 읽을 수 있는 상태로 귀사의 눈을 벗어나는 일이 없습니다.",
+     "직원이 사무실에서 잠금 수거함을 가져와 트럭 파쇄기에 비우고 한 시간 안에 수거함을 돌려드립니다. 트럭 옆면에 달린 화면으로 과정을 지켜볼 수 있습니다. 방문할 때마다 날짜와 파쇄한 양의 무게가 적힌 증명서를 이메일로 보내 드립니다. 파쇄한 종이는 묶음으로 압축해 제지 공장에 판매합니다.",
+     "1회 방문이나 월간 일정 중에서 고르십시오. 월간 고객은 잠금 수거함 두 개를 무료로 받습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What is a feature of Varn Secure Shredding's service?",
+    "choices": [
+     "Documents are scanned before they are destroyed.",
+     "Bins are taken to a factory for emptying.",
+     "The shredding takes place at the customer's location.",
+     "Customers must bring their documents to the truck."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "바른 보안 파쇄 서비스의 특징은 무엇인가?",
+     "choices": [
+      "파쇄 전에 문서를 스캔한다.",
+      "수거함을 공장으로 가져가 비운다.",
+      "고객이 있는 곳에서 파쇄한다.",
+      "고객이 문서를 트럭까지 가져와야 한다."
+     ]
+    },
+    "explain": "첫 문단에서 트럭을 고객 건물로 보내 그 자리에서 파쇄한다고 한다. 수거함은 직원이 사무실에서 가져온다."
+   },
+   {
+    "type": "detail",
+    "q": "What do customers receive after each visit?",
+    "choices": [
+     "A set of new locked bins",
+     "A discount on the next visit",
+     "A record of what was destroyed",
+     "Bales of recycled paper"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "고객은 방문 후마다 무엇을 받는가?",
+     "choices": [
+      "새 잠금 수거함 한 세트",
+      "다음 방문 할인",
+      "파쇄 내역 기록",
+      "재활용 종이 묶음"
+     ]
+    },
+    "explain": "둘째 문단에서 날짜와 파쇄량 무게가 적힌 증명서를 이메일로 보낸다고 한다. 종이 묶음은 제지 공장에 판매한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-02",
+  "test": 18,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "letter",
+    "title": "Business license renewal",
+    "heading": [
+     "City of Ardley — Business Licensing Office",
+     "400 Market Square",
+     "January 9"
+    ],
+    "body": [
+     "Dear Business Owner,",
+     "Your annual business license for Tamsin Picture Framing expires on March 31. This year, for the first time, renewals can be completed through the city's online services portal. You will need the license number printed at the top of this letter and the business's tax identification number.",
+     "Paper renewal forms will still be accepted at our counter until February 28, but online renewals are processed within two working days, compared with about three weeks for paper forms. The renewal fee of $85 has not changed. If your business has moved or changed its name in the past year, please update those details before paying, as the license cannot be edited afterward.",
+     "Sincerely,",
+     "Ruth Okeke, Licensing Officer"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "영업 허가 갱신",
+    "heading": [
+     "아들리시 — 영업 허가과",
+     "마켓 스퀘어 400",
+     "1월 9일"
+    ],
+    "body": [
+     "사업주께,",
+     "탐신 액자 공방의 연간 영업 허가가 3월 31일에 만료됩니다. 올해는 처음으로 시 온라인 서비스 포털에서 갱신할 수 있습니다. 이 편지 상단에 인쇄된 허가 번호와 사업체의 납세자 번호가 필요합니다.",
+     "종이 갱신 신청서도 2월 28일까지는 창구에서 받지만, 온라인 갱신은 영업일 이틀 안에 처리되는 반면 종이 신청서는 약 3주가 걸립니다. 갱신 수수료 85달러는 변동이 없습니다. 지난 1년 동안 사업장을 옮겼거나 상호를 바꿨다면 결제 전에 그 정보를 수정해 주십시오. 결제 후에는 허가 내용을 고칠 수 없습니다.",
+     "감사합니다.",
+     "루스 오케케, 허가 담당관"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "Why was the letter sent?",
+    "choices": [
+     "To remind a business to renew a license",
+     "To announce an increase in a fee",
+     "To confirm a change of business address",
+     "To request a missing tax document"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "편지를 보낸 이유는 무엇인가?",
+     "choices": [
+      "사업체에 허가 갱신을 상기시키려고",
+      "수수료 인상을 알리려고",
+      "사업장 주소 변경을 확인하려고",
+      "누락된 세금 서류를 요청하려고"
+     ]
+    },
+    "explain": "첫 문단에서 허가 만료일과 올해의 온라인 갱신 방법을 안내한다. 수수료는 바뀌지 않았다."
+   },
+   {
+    "type": "detail",
+    "q": "What advantage of renewing online is mentioned?",
+    "choices": [
+     "A lower renewal fee",
+     "Faster processing",
+     "A longer license period",
+     "Help from a licensing officer"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "온라인 갱신의 어떤 장점이 언급되는가?",
+     "choices": [
+      "더 낮은 갱신 수수료",
+      "더 빠른 처리",
+      "더 긴 허가 기간",
+      "허가 담당관의 도움"
+     ]
+    },
+    "explain": "둘째 문단에서 온라인은 영업일 이틀, 종이는 약 3주가 걸린다고 한다. 수수료는 같다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-03",
+  "test": 18,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "email",
+    "title": "E-mail",
+    "heading": [
+     "To: All Brightwell Media staff",
+     "From: Iris Calder, IT Support",
+     "Date: March 3",
+     "Subject: New password manager"
+    ],
+    "body": [
+     "Hello everyone,",
+     "On Monday, March 10, we will begin using Keyvault, a password manager that stores the passwords for our shared accounts, such as social media pages and supplier portals. Each team will see only the accounts it needs, and passwords can be filled in automatically without being displayed on screen.",
+     "Until now, these passwords have been kept in a shared spreadsheet. Once all teams have moved their entries into Keyvault, the spreadsheet will be permanently deleted on March 24. A ten-minute training video is available on the intranet. Please watch it before Monday, and contact the IT desk if you cannot sign in on the first day."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "이메일",
+    "heading": [
+     "수신: 브라이트웰 미디어 전 직원",
+     "발신: 아이리스 콜더, IT 지원팀",
+     "날짜: 3월 3일",
+     "제목: 새 비밀번호 관리 프로그램"
+    ],
+    "body": [
+     "안녕하세요.",
+     "3월 10일 월요일부터 소셜 미디어 페이지나 공급업체 포털 같은 공용 계정의 비밀번호를 저장하는 비밀번호 관리 프로그램 키볼트를 쓰기 시작합니다. 각 팀은 필요한 계정만 보게 되며, 비밀번호는 화면에 표시되지 않고 자동으로 입력됩니다.",
+     "지금까지 이 비밀번호들은 공유 스프레드시트에 보관해 왔습니다. 모든 팀이 항목을 키볼트로 옮기면 그 스프레드시트는 3월 24일 영구 삭제됩니다. 인트라넷에 10분짜리 교육 영상이 있습니다. 월요일 전에 시청하시고, 첫날 로그인할 수 없으면 IT 데스크로 연락해 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What will happen on March 24?",
+    "choices": [
+     "Staff will receive new passwords.",
+     "A training session will be held.",
+     "Keyvault will be installed.",
+     "A file will be removed for good."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "3월 24일에 무슨 일이 있는가?",
+     "choices": [
+      "직원들이 새 비밀번호를 받는다.",
+      "교육이 열린다.",
+      "키볼트가 설치된다.",
+      "파일이 영구히 삭제된다."
+     ]
+    },
+    "explain": "둘째 문단에서 공유 스프레드시트를 3월 24일 영구 삭제한다고 한다. 키볼트 사용은 3월 10일에 시작한다."
+   },
+   {
+    "type": "detail",
+    "q": "What are employees asked to do before March 10?",
+    "choices": [
+     "Change their personal passwords",
+     "Watch a short video",
+     "Delete the shared spreadsheet",
+     "Visit the IT desk"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "직원들은 3월 10일 전에 무엇을 하라는 요청을 받는가?",
+     "choices": [
+      "개인 비밀번호를 바꾼다",
+      "짧은 영상을 본다",
+      "공유 스프레드시트를 삭제한다",
+      "IT 데스크를 방문한다"
+     ]
+    },
+    "explain": "둘째 문단에서 월요일 전에 10분짜리 교육 영상을 보라고 한다. IT 데스크는 로그인이 안 될 때만 연락한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-04",
+  "test": 18,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "text",
+    "title": "Saturday delivery request",
+    "lines": [
+     {
+      "time": "4:20 P.M.",
+      "name": "Nora Elling",
+      "t": "Halden Café just called. Their grand opening was moved up, and they're asking if we can deliver their espresso machine this Saturday instead of next Tuesday."
+     },
+     {
+      "time": "4:22 P.M.",
+      "name": "Victor Pahl",
+      "t": "Saturday deliveries aren't on our regular schedule. Did they mention who would install it?"
+     },
+     {
+      "time": "4:23 P.M.",
+      "name": "Nora Elling",
+      "t": "They want our technician to connect it and run the first test, as in the original order. They offered to pay whatever extra it costs."
+     },
+     {
+      "time": "4:25 P.M.",
+      "name": "Victor Pahl",
+      "t": "We did it for Bexley Foods last month."
+     },
+     {
+      "time": "4:26 P.M.",
+      "name": "Nora Elling",
+      "t": "Then I'll call them back now. Should I charge the same weekend fee we used then?"
+     },
+     {
+      "time": "4:27 P.M.",
+      "name": "Victor Pahl",
+      "t": "Yes, $120. And check that Arjun is free on Saturday morning before you confirm a time."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "토요일 배송 요청",
+    "lines": [
+     "할든 카페에서 방금 전화가 왔어요. 개업식이 앞당겨져서 에스프레소 기계를 다음 주 화요일이 아니라 이번 토요일에 배송해 줄 수 있는지 묻네요.",
+     "토요일 배송은 정규 일정에 없어요. 설치는 누가 한다고 했나요?",
+     "원래 주문대로 우리 기술자가 연결하고 첫 시험 가동까지 해 주길 원해요. 추가 비용은 얼마든 내겠다고 했어요.",
+     "지난달 벡슬리 푸즈에 그렇게 해 줬어요.",
+     "그럼 지금 다시 전화할게요. 그때 받은 주말 요금을 그대로 받으면 될까요?",
+     "네, 120달러요. 그리고 시간을 확정하기 전에 아르준이 토요일 오전에 시간이 되는지 확인하세요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "intention",
+    "q": "At 4:25 P.M., what does Mr. Pahl most likely mean when he writes, \"We did it for Bexley Foods last month\"?",
+    "choices": [
+     "Halden Café should contact Bexley Foods.",
+     "The request can be accepted.",
+     "The delivery will take longer than usual.",
+     "The espresso machine has been sold out."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "오후 4시 25분에 팔이 “We did it for Bexley Foods last month”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "할든 카페가 벡슬리 푸즈에 연락해야 한다.",
+      "요청을 받아들일 수 있다.",
+      "배송이 평소보다 오래 걸릴 것이다.",
+      "에스프레소 기계가 품절되었다."
+     ]
+    },
+    "explain": "정규 일정에 없는 토요일 배송이지만 전에 다른 고객에게 해 준 적이 있다는 말이며, 엘링이 곧바로 고객에게 다시 전화하겠다고 하므로 요청을 수락해도 된다는 뜻이다."
+   },
+   {
+    "type": "detail",
+    "q": "What does Mr. Pahl ask Ms. Elling to do?",
+    "choices": [
+     "Confirm a technician's availability",
+     "Send an invoice to Bexley Foods",
+     "Deliver the machine herself",
+     "Reduce the weekend fee"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "팔은 엘링에게 무엇을 하라고 하는가?",
+     "choices": [
+      "기술자가 시간이 되는지 확인한다",
+      "벡슬리 푸즈에 청구서를 보낸다",
+      "직접 기계를 배송한다",
+      "주말 요금을 낮춘다"
+     ]
+    },
+    "explain": "마지막 메시지에서 시간을 확정하기 전에 아르준이 토요일 오전에 가능한지 확인하라고 한다. 요금은 그대로 120달러다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-05",
+  "test": 18,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Water dispensers",
+    "heading": [
+     "Notice to tenants — Lowell House"
+    ],
+    "body": [
+     "From June 2, the bottled water coolers on each floor of Lowell House will be replaced with dispensers connected directly to the building's water supply. The new units filter the water and provide both chilled and room-temperature water. Because no bottles need to be delivered or stored, the space in each kitchen previously used for spare bottles will be freed for tenants' own use.",
+     "The dispensers do not supply paper cups. Tenants are encouraged to keep reusable bottles or mugs at their desks. Glass bottles may be refilled, but please do not hold them directly against the spout, as this can damage the sensor.",
+     "Filters will be changed every three months by Clearbrook Water Services. If a unit stops working or the water tastes unusual, please report it to the building office rather than contacting Clearbrook directly. Remaining bottles may be left beside the old coolers for collection on May 30."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "정수기",
+    "heading": [
+     "입주자 공지 — 로웰 하우스"
+    ],
+    "body": [
+     "6월 2일부터 로웰 하우스 각 층의 생수통 냉수기를 건물 수도에 직접 연결된 정수기로 교체합니다. 새 장치는 물을 거르고 냉수와 실온수를 모두 제공합니다. 생수통을 배달하거나 보관할 필요가 없으므로, 각 탕비실에서 예비 생수통을 두던 공간을 입주자가 쓸 수 있게 됩니다.",
+     "정수기에는 종이컵이 제공되지 않습니다. 입주자는 재사용 물병이나 머그잔을 책상에 두시기를 권합니다. 유리병도 채울 수 있지만 감지기가 손상될 수 있으니 병을 출수구에 직접 대지 마십시오.",
+     "필터는 클리어브룩 워터 서비스가 3개월마다 교체합니다. 장치가 작동하지 않거나 물맛이 이상하면 클리어브룩에 직접 연락하지 말고 건물 관리 사무실에 알려 주십시오. 남은 생수통은 5월 30일 수거를 위해 기존 냉수기 옆에 두시면 됩니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What benefit of the new dispensers is mentioned?",
+    "choices": [
+     "They are cheaper to rent.",
+     "They come with free paper cups.",
+     "They provide hot water for tea.",
+     "They make storage space available."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "새 정수기의 어떤 이점이 언급되는가?",
+     "choices": [
+      "임대료가 더 싸다.",
+      "무료 종이컵이 함께 나온다.",
+      "차를 위한 뜨거운 물을 제공한다.",
+      "보관 공간이 생긴다."
+     ]
+    },
+    "explain": "첫 문단에서 생수통을 보관할 필요가 없어 탕비실 공간을 입주자가 쓸 수 있다고 한다. 냉수와 실온수만 제공하고 종이컵은 없다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the notice, the word \"freed\" in paragraph 1 is closest in meaning to",
+    "choices": [
+     "made available",
+     "released from prison",
+     "given away",
+     "paid for"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "공지의 첫 문단에 있는 “freed”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "쓸 수 있게 된",
+      "석방된",
+      "무료로 나눠 준",
+      "값을 치른"
+     ]
+    },
+    "explain": "예비 생수통을 두던 공간을 입주자가 쓸 수 있게 된다는 뜻이므로 made available과 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 0
+    }
+   },
+   {
+    "type": "detail",
+    "q": "What should tenants do if a dispenser is not working?",
+    "choices": [
+     "Call Clearbrook Water Services",
+     "Change the filter themselves",
+     "Use the old water cooler",
+     "Inform the building office"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "정수기가 작동하지 않으면 입주자는 어떻게 해야 하는가?",
+     "choices": [
+      "클리어브룩 워터 서비스에 전화한다",
+      "직접 필터를 교체한다",
+      "기존 냉수기를 쓴다",
+      "건물 관리 사무실에 알린다"
+     ]
+    },
+    "explain": "셋째 문단에서 클리어브룩에 직접 연락하지 말고 건물 관리 사무실에 알리라고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-06",
+  "test": 18,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "review",
+    "title": "Customer review",
+    "heading": [
+     "Rating: 4 out of 5 — Posted by Hana Iversen, event planner, Corvo Events"
+    ],
+    "body": [
+     "I used Brisk Banner Print's same-day service for a client's product launch last Thursday. I uploaded the artwork for two large vinyl banners at 9:00 A.M., and they were ready for collection at 3:30 P.M., well before the 5:00 P.M. time I had been promised. The colors matched the client's brand guidelines closely, and the metal rings along the edges were firmly attached.",
+     "My only complaint concerns the file check. The website says every order is reviewed by a designer, but no one noticed that one banner had a phone number with a missing digit. I spotted it myself while unrolling it at the venue. To be fair, the shop reprinted it at no charge and delivered the new banner to the venue within two hours, so the launch was not affected.",
+     "I would use them again, but I will check my own files more carefully next time. I have already recommended the shop to two colleagues."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "고객 후기",
+    "heading": [
+     "평점: 5점 만점에 4점 — 작성자: 하나 이베르센, 코르보 이벤트 행사 기획자"
+    ],
+    "body": [
+     "지난 목요일 고객사의 제품 출시 행사를 위해 브리스크 배너 프린트의 당일 서비스를 이용했습니다. 오전 9시에 대형 비닐 현수막 두 개의 디자인 파일을 올렸는데, 약속받은 오후 5시보다 훨씬 이른 오후 3시 30분에 찾아갈 수 있게 준비되었습니다. 색상은 고객사의 브랜드 지침과 거의 일치했고, 가장자리의 금속 고리도 단단히 달려 있었습니다.",
+     "유일한 불만은 파일 검토입니다. 웹사이트에는 모든 주문을 디자이너가 검토한다고 되어 있지만, 현수막 하나에 전화번호 한 자리가 빠진 것을 아무도 알아차리지 못했습니다. 행사장에서 펼치다가 제가 발견했습니다. 공정하게 말하면, 업체가 무료로 다시 인쇄해 두 시간 안에 행사장으로 새 현수막을 배달해 주어서 출시 행사에는 지장이 없었습니다.",
+     "다시 이용하겠지만 다음에는 제 파일을 더 꼼꼼히 확인하겠습니다. 이미 동료 두 명에게 이 가게를 추천했습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What does Ms. Iversen say about the banners' production?",
+    "choices": [
+     "It required her to visit the shop twice.",
+     "It cost more than the website stated.",
+     "It was finished earlier than expected.",
+     "It used colors different from the brand's."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "이베르센은 현수막 제작에 관해 무엇이라고 말하는가?",
+     "choices": [
+      "가게를 두 번 방문해야 했다.",
+      "웹사이트에 적힌 것보다 비쌌다.",
+      "예상보다 일찍 끝났다.",
+      "브랜드와 다른 색을 썼다."
+     ]
+    },
+    "explain": "첫 문단에서 약속받은 5시보다 훨씬 이른 3시 30분에 준비되었다고 한다. 색상은 브랜드 지침과 거의 일치했다."
+   },
+   {
+    "type": "detail",
+    "q": "What problem did Ms. Iversen find?",
+    "choices": [
+     "A metal ring had come loose.",
+     "A contact number was incomplete.",
+     "One banner was the wrong size.",
+     "The banners arrived at the wrong venue."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "이베르센이 발견한 문제는 무엇인가?",
+     "choices": [
+      "금속 고리 하나가 헐거워졌다.",
+      "연락처 번호가 불완전했다.",
+      "현수막 하나의 크기가 틀렸다.",
+      "현수막이 다른 행사장으로 배달되었다."
+     ]
+    },
+    "explain": "둘째 문단에서 현수막 하나의 전화번호에 한 자리가 빠져 있었다고 한다. 고리는 단단히 달려 있었다."
+   },
+   {
+    "type": "inference",
+    "q": "Why does Ms. Iversen give the shop four stars rather than five?",
+    "choices": [
+     "She had to pay for a second banner.",
+     "The replacement banner was delivered late.",
+     "A promised review did not catch an error.",
+     "The launch event had to be postponed."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "이베르센이 가게에 별 다섯 개가 아니라 네 개를 준 이유는 무엇인가?",
+     "choices": [
+      "두 번째 현수막 값을 내야 했다.",
+      "교체 현수막이 늦게 배달되었다.",
+      "약속한 검토가 오류를 잡아내지 못했다.",
+      "출시 행사를 연기해야 했다."
+     ]
+    },
+    "explain": "디자이너가 모든 주문을 검토한다고 했지만 번호 오류를 놓쳤다는 것이 유일한 불만이다. 재인쇄는 무료였고 출시 행사에도 지장이 없었다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-07",
+  "test": 18,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "form",
+    "title": "Travel itinerary",
+    "heading": [
+     "Halbrook Instruments — Travel itinerary",
+     "Traveler: Simon Achebe, Regional Sales",
+     "Prepared by: Travel Desk, October 2"
+    ],
+    "table": [
+     [
+      "Date",
+      "Details",
+      "Reference"
+     ],
+     [
+      "Oct. 14",
+      "Flight HA 316, Corran 7:05 A.M. → Velsen 9:40 A.M.",
+      "Ticket 8841"
+     ],
+     [
+      "Oct. 14–16",
+      "Hotel Meridiana, Velsen (breakfast included)",
+      "Booking 2207"
+     ],
+     [
+      "Oct. 15",
+      "Meeting, Dorsay Laboratories, 10:00 A.M.",
+      "—"
+     ],
+     [
+      "Oct. 16",
+      "Flight HA 329, Velsen 6:15 P.M. → Corran 8:50 P.M.",
+      "Ticket 8842"
+     ]
+    ],
+    "body": [
+     "Both flights are economy class with one checked bag. The hotel is ten minutes by taxi from Dorsay Laboratories; keep all taxi receipts for reimbursement. A company car has not been booked in Velsen because public transportation from the airport is frequent. Breakfast is included at the hotel, but other meals should be claimed on the expense form with receipts, up to the daily limit for Velsen. Dorsay Laboratories asks visitors to bring photo identification to collect a security pass at its reception desk.",
+     "Changes to flights after October 9 incur a fee that must be approved by your department head. Please contact the travel desk, not the airline, if your plans change."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "출장 일정표",
+    "heading": [
+     "할브룩 인스트루먼츠 — 출장 일정표",
+     "출장자: 사이먼 아체베, 지역 영업팀",
+     "작성: 출장 지원 데스크, 10월 2일"
+    ],
+    "table": [
+     [
+      "날짜",
+      "내용",
+      "번호"
+     ],
+     [
+      "10월 14일",
+      "HA 316편, 코란 오전 7:05 → 벨센 오전 9:40",
+      "항공권 8841"
+     ],
+     [
+      "10월 14~16일",
+      "메리디아나 호텔, 벨센(조식 포함)",
+      "예약 2207"
+     ],
+     [
+      "10월 15일",
+      "도르세이 연구소 회의, 오전 10:00",
+      "—"
+     ],
+     [
+      "10월 16일",
+      "HA 329편, 벨센 오후 6:15 → 코란 오후 8:50",
+      "항공권 8842"
+     ]
+    ],
+    "body": [
+     "두 항공편 모두 이코노미석이며 위탁 수하물 한 개가 포함된다. 호텔은 도르세이 연구소에서 택시로 10분 거리다. 환급을 위해 택시 영수증을 모두 보관할 것. 공항에서 대중교통이 자주 다니므로 벨센에서는 회사 차량을 예약하지 않았다. 호텔 조식은 포함되어 있지만 다른 식사는 영수증과 함께 벨센 일일 한도 안에서 경비 양식으로 청구할 것. 도르세이 연구소는 방문객이 안내 데스크에서 보안 출입증을 받을 수 있도록 사진이 있는 신분증을 지참해 달라고 요청한다.",
+     "10월 9일 이후 항공편을 변경하면 수수료가 붙으며 부서장의 승인을 받아야 한다. 계획이 바뀌면 항공사가 아니라 출장 지원 데스크에 연락할 것."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "How many nights will Mr. Achebe stay at the hotel?",
+    "choices": [
+     "Two",
+     "Three",
+     "One",
+     "Four"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "아체베는 호텔에 며칠 밤 묵는가?",
+     "choices": [
+      "이틀",
+      "사흘",
+      "하루",
+      "나흘"
+     ]
+    },
+    "explain": "10월 14일에 도착해 16일 저녁 비행기로 돌아가므로 14일과 15일 이틀 밤을 묵는다."
+   },
+   {
+    "type": "detail",
+    "q": "Why was no company car arranged in Velsen?",
+    "choices": [
+     "The hotel provides a shuttle.",
+     "Public transportation from the airport runs frequently.",
+     "Mr. Achebe prefers to take taxis.",
+     "The meeting is held at the hotel."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "벨센에서 회사 차량을 준비하지 않은 이유는 무엇인가?",
+     "choices": [
+      "호텔이 셔틀을 운영한다.",
+      "공항에서 대중교통이 자주 다닌다.",
+      "아체베가 택시를 선호한다.",
+      "회의가 호텔에서 열린다."
+     ]
+    },
+    "explain": "본문에서 공항 대중교통이 자주 다녀 회사 차량을 예약하지 않았다고 한다. 택시는 호텔과 연구소 사이 이동 수단으로 언급된다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about a change to the return flight requested on October 12?",
+    "choices": [
+     "It will require a manager's approval.",
+     "Mr. Achebe should call the airline directly.",
+     "It can be done without paying a fee.",
+     "It must be requested in writing."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "10월 12일에 요청하는 귀국편 변경에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "관리자의 승인이 필요하다.",
+      "아체베가 항공사에 직접 전화해야 한다.",
+      "수수료 없이 할 수 있다.",
+      "서면으로 요청해야 한다."
+     ]
+    },
+    "explain": "10월 9일 이후의 변경에는 수수료가 붙고 부서장 승인이 필요하므로 12일 변경도 승인이 필요하다. 연락은 항공사가 아니라 출장 지원 데스크에 해야 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-08",
+  "test": 18,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "article",
+    "title": "Night cargo flights come to Pelling Airport",
+    "heading": [
+     "Business in Brief"
+    ],
+    "body": [
+     "Pelling Regional Airport, which has served only passenger flights since it opened, will begin handling cargo-only aircraft at night from September. The change follows an agreement with Strand Air Freight, which will operate two flights each night carrying parcels for online retailers in the region. [1]",
+     "Until now, parcels bound for the northern part of the country have been trucked to Delmont International, a three-hour drive away. Retailers say this adds a full day to delivery times. \"Customers who order in the evening now expect their package the next morning,\" said Kofi Danso, logistics director at the clothing retailer Verdan. \"From Pelling, that becomes possible.\" [2]",
+     "The airport will build a sorting shed beside its existing runway, and Strand plans to hire about forty people to work there. Residents near the airport had raised concerns about noise, but the aircraft Strand intends to use are among the quietest in their class. [3] The airport has also agreed that no cargo flights will depart between 1:00 and 5:00 A.M.",
+     "Airport chief executive Lena Holt said cargo fees will help the airport maintain passenger routes that are not profitable on their own. [4] Two of those routes, she noted, had been at risk of being dropped this year."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "펠링 공항에 야간 화물편 취항",
+    "heading": [
+     "비즈니스 단신"
+    ],
+    "body": [
+     "개항 이후 여객편만 운항해 온 펠링 지역 공항이 9월부터 야간에 화물 전용기를 받기 시작한다. 이번 변화는 스트랜드 항공화물과의 합의에 따른 것으로, 이 회사는 지역 온라인 소매업체의 소포를 싣고 매일 밤 두 편을 운항할 예정이다. [1]",
+     "지금까지 북부 지역행 소포는 차로 세 시간 거리인 델몬트 국제공항까지 트럭으로 운송되었다. 소매업체들은 이 때문에 배송 기간이 꼬박 하루 늘어난다고 말한다. 의류 소매업체 베르단의 물류 이사 코피 단소는 \"저녁에 주문한 고객은 이제 다음 날 아침에 소포를 받기를 기대한다. 펠링에서라면 그것이 가능해진다\"고 말했다. [2]",
+     "공항은 기존 활주로 옆에 분류 창고를 짓고, 스트랜드는 그곳에서 일할 약 40명을 채용할 계획이다. 공항 인근 주민들은 소음을 우려했지만, 스트랜드가 쓰려는 항공기는 같은 급에서 가장 조용한 기종에 속한다. [3] 공항은 또 오전 1시부터 5시 사이에는 화물편을 출발시키지 않기로 합의했다.",
+     "공항 최고경영자 레나 홀트는 화물 수수료가 그 자체로는 수익이 나지 않는 여객 노선을 유지하는 데 도움이 될 것이라고 말했다. [4] 그는 그중 두 노선이 올해 폐지될 위기에 있었다고 덧붙였다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "What is the article mainly about?",
+    "choices": [
+     "The opening of a new passenger route",
+     "A new use for an existing airport",
+     "A delivery company's financial results",
+     "The construction of a second runway"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "기사는 주로 무엇에 관한 것인가?",
+     "choices": [
+      "새 여객 노선 개설",
+      "기존 공항의 새로운 용도",
+      "배송 회사의 재무 실적",
+      "두 번째 활주로 건설"
+     ]
+    },
+    "explain": "첫 문단은 여객편만 다루던 공항이 야간 화물편을 받기 시작한다고 소개한다. 분류 창고는 기존 활주로 옆에 짓는다."
+   },
+   {
+    "type": "detail",
+    "q": "According to Mr. Danso, what will the change make possible?",
+    "choices": [
+     "Lower prices for clothing",
+     "Fewer trucks on regional roads",
+     "More frequent passenger flights",
+     "Next-morning delivery of evening orders"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "단소에 따르면 이 변화로 무엇이 가능해지는가?",
+     "choices": [
+      "의류 가격 인하",
+      "지역 도로의 트럭 감소",
+      "여객편 증편",
+      "저녁 주문의 다음 날 아침 배송"
+     ]
+    },
+    "explain": "둘째 문단에서 저녁에 주문한 고객이 다음 날 아침 소포를 받는 것이 펠링에서는 가능해진다고 한다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the article, the word \"raised\" in paragraph 3 is closest in meaning to",
+    "choices": [
+     "lifted",
+     "grown",
+     "expressed",
+     "increased"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "기사의 셋째 문단에 있는 “raised”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "들어 올린",
+      "재배한",
+      "표명한",
+      "증가시킨"
+     ]
+    },
+    "explain": "주민들이 소음 우려를 제기했다는 뜻이므로 expressed와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 2
+    }
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Other retailers interviewed for this article made similar predictions.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “이 기사를 위해 인터뷰한 다른 소매업체들도 비슷한 예측을 내놓았다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "Other retailers와 similar predictions는 바로 앞 소매업체 베르단의 단소가 다음 날 아침 배송이 가능해진다고 예측한 말을 받으므로 [2]가 알맞다. 다른 위치 앞에는 소매업체의 예측이 없다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-09",
+  "test": 18,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Month-end close",
+    "lines": [
+     {
+      "time": "2:30 P.M.",
+      "name": "Farah Lund",
+      "t": "I'm reconciling the supplier invoices for October. The one from Kessel Tooling is in euros, and our system converted it using today's exchange rate. It covers the replacement cutting heads we ordered in September."
+     },
+     {
+      "time": "2:32 P.M.",
+      "name": "Peter Osei",
+      "t": "That's not right for our books. Invoices should be recorded at the rate on the invoice date, which for Kessel was October 28."
+     },
+     {
+      "time": "2:33 P.M.",
+      "name": "Farah Lund",
+      "t": "The difference is only about $40, though."
+     },
+     {
+      "time": "2:35 P.M.",
+      "name": "Peter Osei",
+      "t": "The auditors pick a sample of foreign invoices every quarter. Last year they listed every small difference in their report."
+     },
+     {
+      "time": "2:36 P.M.",
+      "name": "Joanna Wren",
+      "t": "I can override the rate manually. I just need the official figure for October 28 from the bank's website. It takes about a minute per invoice."
+     },
+     {
+      "time": "2:38 P.M.",
+      "name": "Farah Lund",
+      "t": "I'll send it to you. Should we check the other euro invoices from this month as well?"
+     },
+     {
+      "time": "2:40 P.M.",
+      "name": "Joanna Wren",
+      "t": "There are only three euro invoices in total. I'll correct them all before the close tomorrow and add a note explaining the change."
+     },
+     {
+      "time": "2:41 P.M.",
+      "name": "Peter Osei",
+      "t": "Thanks. I'll ask IT why the system stopped using the invoice date. It handled this correctly until the update in September."
+     },
+     {
+      "time": "2:43 P.M.",
+      "name": "Farah Lund",
+      "t": "Good. I'll finish the rest of the reconciliation in the meantime. The supplier statements should be ready for review by four."
+     },
+     {
+      "time": "2:46 P.M.",
+      "name": "Joanna Wren",
+      "t": "I have the October 28 rate now. I'll start with the Kessel invoice and then move on to the other two."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "월말 결산",
+    "lines": [
+     "10월 공급업체 청구서를 대조하고 있어요. 케셀 툴링 청구서가 유로화인데, 시스템이 오늘 환율로 환산했어요. 9월에 주문한 교체용 절삭 헤드 대금이에요.",
+     "우리 장부에는 맞지 않아요. 청구서는 청구일 환율로 기록해야 하는데, 케셀은 10월 28일이었어요.",
+     "그래도 차이는 40달러 정도밖에 안 돼요.",
+     "감사인들은 분기마다 외화 청구서를 표본으로 골라요. 작년에는 작은 차이까지 전부 보고서에 적었어요.",
+     "제가 환율을 직접 수정할 수 있어요. 은행 웹사이트에서 10월 28일 공식 수치만 있으면 돼요. 청구서 한 건에 1분 정도 걸려요.",
+     "보내 드릴게요. 이번 달 다른 유로화 청구서도 확인해야 할까요?",
+     "유로화 청구서는 모두 합쳐 세 건뿐이에요. 내일 결산 전에 모두 고치고 변경 이유를 적은 메모를 붙일게요.",
+     "고마워요. 시스템이 왜 청구일을 쓰지 않게 됐는지 IT에 물어볼게요. 9월 업데이트 전까지는 제대로 처리했거든요.",
+     "좋아요. 그동안 나머지 대조를 마칠게요. 공급업체 거래 명세서는 4시까지 검토할 수 있게 준비할게요.",
+     "이제 10월 28일 환율을 받았어요. 케셀 청구서부터 하고 나머지 두 건으로 넘어갈게요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What problem does Ms. Lund mention?",
+    "choices": [
+     "An invoice was paid twice.",
+     "A supplier sent an invoice in the wrong currency.",
+     "An amount was converted with the wrong date's rate.",
+     "The bank's website was unavailable."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "룬드가 언급한 문제는 무엇인가?",
+     "choices": [
+      "청구서가 두 번 지급되었다.",
+      "공급업체가 다른 통화로 청구서를 보냈다.",
+      "금액이 잘못된 날짜의 환율로 환산되었다.",
+      "은행 웹사이트에 접속할 수 없었다."
+     ]
+    },
+    "explain": "2시 30분 메시지에서 시스템이 오늘 환율로 환산했다고 하고, 오세이가 청구일 환율을 써야 한다고 설명한다. 유로화 청구 자체는 문제가 아니다."
+   },
+   {
+    "type": "intention",
+    "q": "At 2:35 P.M., what does Mr. Osei most likely mean when he writes, \"Last year they listed every small difference in their report\"?",
+    "choices": [
+     "The auditors' report was too long.",
+     "The difference should be paid by the supplier.",
+     "The company should change its auditors.",
+     "Even a small error should be corrected."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "오후 2시 35분에 오세이가 “Last year they listed every small difference in their report”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "감사 보고서가 너무 길었다.",
+      "차이는 공급업체가 부담해야 한다.",
+      "회사가 감사인을 바꿔야 한다.",
+      "작은 오류라도 바로잡아야 한다."
+     ]
+    },
+    "explain": "룬드가 차이가 40달러뿐이라고 하자, 감사인이 작은 차이도 지적한다며 금액이 작아도 고쳐야 한다는 뜻으로 답했다. 이후 렌이 환율을 수정하겠다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What will Ms. Wren do before the close?",
+    "choices": [
+     "Correct several invoices",
+     "Contact Kessel Tooling",
+     "Ask IT about a system update",
+     "Send a sample to the auditors"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "렌은 결산 전에 무엇을 할 것인가?",
+     "choices": [
+      "여러 청구서를 고친다",
+      "케셀 툴링에 연락한다",
+      "시스템 업데이트에 관해 IT에 묻는다",
+      "감사인에게 표본을 보낸다"
+     ]
+    },
+    "explain": "2시 40분 메시지에서 세 건의 유로화 청구서를 모두 고치고 메모를 붙이겠다고 한다. IT에 묻는 것은 오세이다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about the accounting system?",
+    "choices": [
+     "It was installed in October.",
+     "It cannot handle euro invoices.",
+     "Its behavior changed after a recent update.",
+     "It is used only by the auditors."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "회계 시스템에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "10월에 설치되었다.",
+      "유로화 청구서를 처리할 수 없다.",
+      "최근 업데이트 후 작동 방식이 바뀌었다.",
+      "감사인만 사용한다."
+     ]
+    },
+    "explain": "2시 41분 메시지에서 9월 업데이트 전까지는 청구일 환율을 제대로 썼다고 하므로 업데이트 후 방식이 바뀌었다. 유로화 청구서 자체는 환산할 수 있다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-18-10",
+  "test": 18,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "memo",
+    "title": "Shared desks in the sales department",
+    "heading": [
+     "To: Sales staff",
+     "From: Grant Ihejirika, Sales Director",
+     "Date: August 12",
+     "Re: Desk arrangements from September"
+    ],
+    "body": [
+     "Our office lease renewal reduces the sales department's floor space by about a quarter. Since most of you spend at least two days a week visiting customers, we have counted desk use over the past three months and found that no more than 70 percent of desks were ever occupied at the same time. [1]",
+     "From September 8, sales staff will no longer have assigned desks. Instead, you will reserve a desk through the Deskline app, up to two weeks in advance. Each desk has the same monitor, docking station, and chair settings that can be adjusted in a few seconds. [2]",
+     "Personal items should be kept in the lockers that will be installed along the east wall; each employee will receive one. Desks must be cleared at the end of every day so that the next person can use them. [3] The two team leaders will keep fixed desks because they are in the office every day. Office Services will label each locker with the employee's name before September 8.",
+     "I understand that this is a significant change, and we will review it with you at the end of October. [4] Please send any questions to me or to Office Services before the move."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "영업부 공용 책상",
+    "heading": [
+     "수신: 영업부 직원",
+     "발신: 그랜트 이헤지리카, 영업 이사",
+     "날짜: 8월 12일",
+     "제목: 9월부터의 책상 배치"
+    ],
+    "body": [
+     "사무실 임대 갱신으로 영업부 면적이 약 4분의 1 줄어듭니다. 여러분 대부분이 일주일에 최소 이틀은 고객을 방문하므로 지난 3개월 동안 책상 사용을 세어 보았더니, 동시에 사용된 책상은 70퍼센트를 넘은 적이 없었습니다. [1]",
+     "9월 8일부터 영업부 직원에게는 지정 책상이 없습니다. 대신 데스크라인 앱으로 최대 2주 전까지 책상을 예약합니다. 모든 책상에는 같은 모니터와 도킹 스테이션이 있고, 의자 설정은 몇 초 만에 조정할 수 있습니다. [2]",
+     "개인 물품은 동쪽 벽을 따라 설치될 사물함에 보관하십시오. 직원마다 하나씩 받습니다. 다음 사람이 쓸 수 있도록 매일 업무가 끝나면 책상을 비워야 합니다. [3] 팀장 두 명은 매일 사무실에 있으므로 고정 책상을 유지합니다. 사무 지원팀이 9월 8일 전에 사물함마다 직원 이름표를 붙입니다.",
+     "큰 변화라는 것을 알고 있으며 10월 말에 여러분과 함께 검토하겠습니다. [4] 이사 전에 질문이 있으면 저나 사무 지원팀으로 보내 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why is the sales department changing its desk arrangements?",
+    "choices": [
+     "Its staff asked to work from home.",
+     "It is hiring more employees.",
+     "Its furniture is being replaced.",
+     "It will have less office space."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "영업부가 책상 배치를 바꾸는 이유는 무엇인가?",
+     "choices": [
+      "직원들이 재택근무를 요청했다.",
+      "직원을 더 채용한다.",
+      "가구를 교체한다.",
+      "사무실 공간이 줄어든다."
+     ]
+    },
+    "explain": "첫 문단에서 임대 갱신으로 영업부 면적이 약 4분의 1 줄어든다고 한다. 가구 교체나 채용 이야기는 없다."
+   },
+   {
+    "type": "detail",
+    "q": "What will each employee receive?",
+    "choices": [
+     "A new monitor",
+     "A storage locker",
+     "A fixed desk",
+     "A docking station"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "직원마다 무엇을 받는가?",
+     "choices": [
+      "새 모니터",
+      "보관 사물함",
+      "고정 책상",
+      "도킹 스테이션"
+     ]
+    },
+    "explain": "셋째 문단에서 동쪽 벽 사물함을 직원마다 하나씩 받는다고 한다. 고정 책상은 팀장 두 명만 유지한다."
+   },
+   {
+    "type": "not-true",
+    "q": "What is NOT mentioned about the new arrangement?",
+    "choices": [
+     "Employees must use the same desk each week.",
+     "Desks must be cleared daily.",
+     "Team leaders will keep their own desks.",
+     "Desks can be reserved two weeks ahead."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "새 방식에 관해 언급되지 않은 것은 무엇인가?",
+     "choices": [
+      "직원은 매주 같은 책상을 써야 한다.",
+      "책상을 매일 비워야 한다.",
+      "팀장은 자기 책상을 유지한다.",
+      "책상을 2주 전에 예약할 수 있다."
+     ]
+    },
+    "explain": "2주 전 예약, 매일 책상 비우기, 팀장 고정 책상은 언급된다. 매주 같은 책상을 써야 한다는 내용은 없으며 지정 책상이 없어진다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"At that point, we will also look at the booking figures to see whether there are enough desks on busy days.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “그때 바쁜 날에 책상이 충분한지 보기 위해 예약 수치도 살펴볼 것입니다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "At that point는 바로 앞의 10월 말 검토 시점을 가리키므로 [4]가 알맞다. [1] 앞의 지난 3개월 집계는 이미 끝난 조사이고 예약 수치는 앱 도입 후에 생긴다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-01",
+  "test": 19,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "memo",
+    "title": "Payroll date in May",
+    "heading": [
+     "To: All employees",
+     "From: Gemma Toller, Payroll",
+     "Date: April 22",
+     "Re: May salary payment"
+    ],
+    "body": [
+     "Salaries are normally paid on the last working day of each month. This May, however, the last working day falls on the national bank holiday of May 30, when banks will not process transfers. May salaries will therefore be paid one day early, on Thursday, May 29.",
+     "Pay statements will be available on the employee portal from May 27, two days before payment. Expense claims approved by May 20 will be included in the May payment as usual; claims approved after that date will be paid in June. Please contact the payroll office if your bank details have changed recently."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "5월 급여일",
+    "heading": [
+     "수신: 전 직원",
+     "발신: 젬마 톨러, 급여팀",
+     "날짜: 4월 22일",
+     "제목: 5월 급여 지급"
+    ],
+    "body": [
+     "급여는 보통 매달 마지막 근무일에 지급됩니다. 그런데 올해 5월에는 마지막 근무일이 은행이 이체를 처리하지 않는 5월 30일 은행 휴무일입니다. 따라서 5월 급여는 하루 앞당겨 5월 29일 목요일에 지급합니다.",
+     "급여 명세서는 지급 이틀 전인 5월 27일부터 직원 포털에서 볼 수 있습니다. 5월 20일까지 승인된 경비 청구는 평소처럼 5월 급여에 포함되며, 그 이후 승인된 청구는 6월에 지급됩니다. 최근 은행 정보가 바뀌었다면 급여팀에 연락해 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why will May salaries be paid early?",
+    "choices": [
+     "The payroll office will be closed for training.",
+     "A new payroll system is being introduced.",
+     "Employees asked to be paid before a holiday.",
+     "Banks will not be operating on the usual date."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "5월 급여가 일찍 지급되는 이유는 무엇인가?",
+     "choices": [
+      "급여팀이 교육으로 문을 닫는다.",
+      "새 급여 시스템을 도입한다.",
+      "직원들이 휴일 전에 지급해 달라고 요청했다.",
+      "평소 날짜에 은행이 업무를 하지 않는다."
+     ]
+    },
+    "explain": "첫 문단에서 평소 지급일인 5월 30일이 은행이 이체를 처리하지 않는 은행 휴무일이라 하루 앞당긴다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What will happen to an expense claim approved on May 23?",
+    "choices": [
+     "It will be paid on May 27.",
+     "It will be rejected.",
+     "It will be returned to the employee.",
+     "It will be paid in June."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "5월 23일에 승인된 경비 청구는 어떻게 되는가?",
+     "choices": [
+      "5월 27일에 지급된다.",
+      "거절된다.",
+      "직원에게 반려된다.",
+      "6월에 지급된다."
+     ]
+    },
+    "explain": "둘째 문단에서 5월 20일 이후 승인된 청구는 6월에 지급된다고 한다. 5월 27일은 명세서를 볼 수 있는 날이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-02",
+  "test": 19,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "text",
+    "title": "Brochure printing",
+    "lines": [
+     {
+      "time": "1:10 P.M.",
+      "name": "Ana Rocha",
+      "t": "I'm at Pressline now. They can print 500 brochures by Friday afternoon, or 1,000 by Monday morning at a lower price per copy."
+     },
+     {
+      "time": "1:12 P.M.",
+      "name": "Ben Calloway",
+      "t": "The trade fair opens Saturday."
+     },
+     {
+      "time": "1:13 P.M.",
+      "name": "Ana Rocha",
+      "t": "That's what I thought. I'll order the 500, then. Do you want the glossy or the matte paper?"
+     },
+     {
+      "time": "1:15 P.M.",
+      "name": "Ben Calloway",
+      "t": "Matte. Our photos looked too dark on the glossy samples last year."
+     },
+     {
+      "time": "1:16 P.M.",
+      "name": "Ana Rocha",
+      "t": "Done. They'll call me when the order is ready, and I'll pick it up on my way home."
+     },
+     {
+      "time": "1:17 P.M.",
+      "name": "Ben Calloway",
+      "t": "Thanks. Bring a box to the booth on Saturday and leave the rest in the van."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "안내 책자 인쇄",
+    "lines": [
+     "지금 프레스라인에 있어요. 금요일 오후까지 500부를 인쇄하거나, 월요일 아침까지 1,000부를 부당 더 낮은 가격에 인쇄할 수 있대요.",
+     "무역 박람회는 토요일에 시작해요.",
+     "저도 그렇게 생각했어요. 그럼 500부로 주문할게요. 광택지로 할까요, 무광지로 할까요?",
+     "무광지로요. 작년 광택지 견본에서는 우리 사진이 너무 어둡게 보였어요.",
+     "주문했어요. 준비되면 전화 준다고 했으니 퇴근길에 찾아갈게요.",
+     "고마워요. 토요일에 한 상자는 부스로 가져오고 나머지는 승합차에 두세요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "intention",
+    "q": "At 1:12 P.M., what does Mr. Calloway most likely mean when he writes, \"The trade fair opens Saturday\"?",
+    "choices": [
+     "The larger order would be cheaper.",
+     "The brochures are needed before the weekend.",
+     "He cannot attend the trade fair.",
+     "The printing company is closed on Saturday."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "오후 1시 12분에 캘러웨이가 “The trade fair opens Saturday”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "더 많이 주문하는 것이 더 싸다.",
+      "주말 전에 안내 책자가 필요하다.",
+      "그는 무역 박람회에 참석할 수 없다.",
+      "인쇄소가 토요일에 쉰다."
+     ]
+    },
+    "explain": "월요일에 받는 1,000부로는 토요일 박람회에 늦으므로 금요일까지 되는 500부를 택해야 한다는 뜻이다. 로샤도 곧바로 500부를 주문하겠다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "Why does Mr. Calloway prefer matte paper?",
+    "choices": [
+     "It is less expensive.",
+     "It is easier to write on.",
+     "Images appeared too dark on the other paper.",
+     "It can be printed more quickly."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "캘러웨이는 왜 무광지를 선호하는가?",
+     "choices": [
+      "더 저렴하다.",
+      "글씨를 쓰기 더 쉽다.",
+      "다른 종이에서 이미지가 너무 어둡게 보였다.",
+      "더 빨리 인쇄할 수 있다."
+     ]
+    },
+    "explain": "1시 15분 메시지에서 작년 광택지 견본에서 사진이 너무 어둡게 보였다고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-03",
+  "test": 19,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Eye tests at your workplace",
+    "heading": [],
+    "body": [
+     "Employees who spend long hours at screens often put off eye examinations because they cannot find time for an appointment. ClearView Mobile Optics brings a fully equipped examination room to your office building in a specially fitted van.",
+     "Each examination takes about twenty minutes and is carried out by a qualified optometrist. Employees who need glasses for screen work can choose frames on the spot, and finished glasses are delivered to your office within ten days. Employers receive a single monthly invoice, and no personal medical information is shared with them.",
+     "We visit businesses with at least fifteen participating employees. Call 555-0193 to arrange a visit."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "직장에서 받는 시력 검사",
+    "heading": [],
+    "body": [
+     "화면 앞에서 오래 일하는 직원들은 예약할 시간을 내지 못해 시력 검사를 미루곤 합니다. 클리어뷰 모바일 옵틱스는 특수 개조한 승합차에 장비를 모두 갖춘 검사실을 싣고 귀사 사무실 건물로 찾아갑니다.",
+     "검사는 약 20분이 걸리며 자격을 갖춘 검안사가 진행합니다. 화면 작업용 안경이 필요한 직원은 그 자리에서 안경테를 고를 수 있고, 완성된 안경은 열흘 안에 사무실로 배달됩니다. 고용주는 한 달에 한 번 통합 청구서를 받으며, 개인 의료 정보는 고용주와 공유하지 않습니다.",
+     "참여 직원이 최소 15명인 기업을 방문합니다. 방문 예약은 555-0193으로 전화하십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Where do the eye examinations take place?",
+    "choices": [
+     "In a vehicle parked at the customer's building",
+     "In a clinic near the customer's office",
+     "In the employer's meeting room",
+     "In an optician's shop"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "시력 검사는 어디에서 이루어지는가?",
+     "choices": [
+      "고객 건물에 세운 차량 안에서",
+      "고객 사무실 근처 병원에서",
+      "고용주의 회의실에서",
+      "안경점에서"
+     ]
+    },
+    "explain": "첫 문단에서 특수 개조한 승합차에 검사실을 갖추고 사무실 건물로 찾아간다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What is stated about the service?",
+    "choices": [
+     "Companies must have a minimum number of participants.",
+     "Glasses are ready on the same day.",
+     "Each test lasts about an hour.",
+     "Employers receive copies of test results."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "서비스에 관해 명시된 것은 무엇인가?",
+     "choices": [
+      "회사에 최소 참여 인원이 있어야 한다.",
+      "안경이 당일에 준비된다.",
+      "검사마다 약 한 시간이 걸린다.",
+      "고용주가 검사 결과 사본을 받는다."
+     ]
+    },
+    "explain": "셋째 문단에서 참여 직원이 최소 15명인 기업을 방문한다고 한다. 의료 정보는 고용주와 공유하지 않고 안경은 열흘 안에 배달된다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-04",
+  "test": 19,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "form",
+    "title": "Supplier scorecard",
+    "heading": [
+     "Merrow Appliances — Quarterly supplier scorecard (July–September)"
+    ],
+    "table": [
+     [
+      "Supplier",
+      "Part supplied",
+      "On-time deliveries",
+      "Defect rate"
+     ],
+     [
+      "Arlo Plastics",
+      "Control panel covers",
+      "96%",
+      "0.4%"
+     ],
+     [
+      "Benton Wire",
+      "Power cables",
+      "88%",
+      "0.2%"
+     ],
+     [
+      "Coldstream Metals",
+      "Door hinges",
+      "93%",
+      "1.6%"
+     ],
+     [
+      "Dunmore Glass",
+      "Oven door panels",
+      "91%",
+      "0.3%"
+     ]
+    ],
+    "body": [
+     "Suppliers with fewer than 90 percent of deliveries on time, or with a defect rate above 1.5 percent, will be invited to a review meeting with the purchasing team in October. Scores are calculated from receiving records at our Fenwick assembly plant. Each supplier will receive a copy of its own results by e-mail along with comments from the quality team."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "공급업체 평가표",
+    "heading": [
+     "메로 가전 — 분기별 공급업체 평가표(7~9월)"
+    ],
+    "table": [
+     [
+      "공급업체",
+      "공급 부품",
+      "정시 배송",
+      "불량률"
+     ],
+     [
+      "알로 플라스틱",
+      "제어판 덮개",
+      "96%",
+      "0.4%"
+     ],
+     [
+      "벤턴 와이어",
+      "전원 케이블",
+      "88%",
+      "0.2%"
+     ],
+     [
+      "콜드스트림 메탈",
+      "문 경첩",
+      "93%",
+      "1.6%"
+     ],
+     [
+      "던모어 글라스",
+      "오븐 문 유리판",
+      "91%",
+      "0.3%"
+     ]
+    ],
+    "body": [
+     "정시 배송이 90퍼센트 미만이거나 불량률이 1.5퍼센트를 넘는 공급업체는 10월에 구매팀과의 검토 회의에 초대된다. 점수는 펜윅 조립 공장의 입고 기록으로 계산한다. 각 공급업체는 품질팀 의견과 함께 자사 결과 사본을 이메일로 받는다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Which supplier had the highest rate of on-time deliveries?",
+    "choices": [
+     "Benton Wire",
+     "Coldstream Metals",
+     "Arlo Plastics",
+     "Dunmore Glass"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "정시 배송률이 가장 높은 공급업체는 어디인가?",
+     "choices": [
+      "벤턴 와이어",
+      "콜드스트림 메탈",
+      "알로 플라스틱",
+      "던모어 글라스"
+     ]
+    },
+    "explain": "표에서 알로 플라스틱이 96%로 가장 높다."
+   },
+   {
+    "type": "inference",
+    "q": "Which suppliers will most likely attend a review meeting?",
+    "choices": [
+     "Arlo Plastics and Dunmore Glass",
+     "Benton Wire and Coldstream Metals",
+     "Benton Wire only",
+     "Coldstream Metals and Dunmore Glass"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "검토 회의에 참석할 것 같은 공급업체는 어디인가?",
+     "choices": [
+      "알로 플라스틱과 던모어 글라스",
+      "벤턴 와이어와 콜드스트림 메탈",
+      "벤턴 와이어만",
+      "콜드스트림 메탈과 던모어 글라스"
+     ]
+    },
+    "explain": "정시 배송 90% 미만인 벤턴 와이어(88%)와 불량률 1.5% 초과인 콜드스트림 메탈(1.6%)이 기준에 해당한다. 벤턴은 불량률이 가장 낮지만 배송 기준에 걸린다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-05",
+  "test": 19,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "letter",
+    "title": "Career fair invitation",
+    "heading": [
+     "Halvern University — Career Services Office",
+     "12 College Road",
+     "February 3"
+    ],
+    "body": [
+     "Dear Ms. Navarro,",
+     "On behalf of Halvern University, I would like to invite Lumetra Engineering to take part in our spring career fair on March 26. Last year, more than 900 students and recent graduates attended, and several of your current employees first met your recruiters at our fair.",
+     "Exhibitors receive a table, two chairs, and a power outlet in the main hall. The participation fee is $250, which includes lunch for two representatives. Companies that wish to give a short presentation about their graduate programs may also reserve a lecture room for thirty minutes at no additional cost, but rooms are allocated in the order requests are received.",
+     "To register, please complete the enclosed form and return it by March 5. A list of the degree programs our graduating students are completing this year is also enclosed. Parking for exhibitors is available free of charge behind the main hall.",
+     "Sincerely,",
+     "Marcus Bell, Employer Relations Coordinator"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "취업 박람회 초대",
+    "heading": [
+     "할번 대학교 — 취업 지원 센터",
+     "칼리지 로 12",
+     "2월 3일"
+    ],
+    "body": [
+     "나바로 님께,",
+     "할번 대학교를 대표해 루메트라 엔지니어링을 3월 26일 봄 취업 박람회에 초대합니다. 작년에는 학생과 최근 졸업생 900명 이상이 참석했으며, 귀사의 현 직원 중 여러 명이 저희 박람회에서 귀사 채용 담당자를 처음 만났습니다.",
+     "참가 기업은 본관 홀에서 테이블 하나, 의자 두 개, 전원 콘센트를 받습니다. 참가비는 250달러이며 대표자 두 명의 점심이 포함됩니다. 졸업생 프로그램에 관해 짧은 설명회를 하려는 기업은 추가 비용 없이 강의실을 30분 동안 예약할 수 있지만, 강의실은 요청 순서대로 배정됩니다.",
+     "등록하시려면 동봉한 양식을 작성해 3월 5일까지 보내 주십시오. 올해 졸업 예정 학생들의 전공 목록도 함께 동봉합니다. 참가 기업 주차는 본관 홀 뒤에서 무료로 할 수 있습니다.",
+     "감사합니다.",
+     "마커스 벨, 기업 협력 담당"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "Why did Mr. Bell write to Ms. Navarro?",
+    "choices": [
+     "To ask her to speak to a class",
+     "To request a donation for a building",
+     "To recommend a recent graduate",
+     "To invite her company to a recruiting event"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "벨은 왜 나바로에게 편지를 썼는가?",
+     "choices": [
+      "수업에서 강연해 달라고 요청하려고",
+      "건물 기부를 요청하려고",
+      "최근 졸업생을 추천하려고",
+      "그의 회사를 채용 행사에 초대하려고"
+     ]
+    },
+    "explain": "첫 문단에서 루메트라 엔지니어링을 봄 취업 박람회에 초대한다고 한다. 설명회는 선택 사항이다."
+   },
+   {
+    "type": "detail",
+    "q": "What is included in the participation fee?",
+    "choices": [
+     "Travel expenses",
+     "A thirty-minute advertisement",
+     "Meals for two people",
+     "A list of student addresses"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "참가비에 무엇이 포함되는가?",
+     "choices": [
+      "교통비",
+      "30분 광고",
+      "두 사람의 식사",
+      "학생 주소 목록"
+     ]
+    },
+    "explain": "둘째 문단에서 참가비 250달러에 대표자 두 명의 점심이 포함된다고 한다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about the lecture rooms?",
+    "choices": [
+     "They must be paid for separately.",
+     "They can be used for a full day.",
+     "They are located outside the main hall.",
+     "Companies that ask early are more likely to get one."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "강의실에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "따로 비용을 내야 한다.",
+      "하루 종일 쓸 수 있다.",
+      "본관 홀 밖에 있다.",
+      "일찍 요청한 기업이 배정받을 가능성이 더 높다."
+     ]
+    },
+    "explain": "강의실은 요청 순서대로 배정한다고 하므로 일찍 요청할수록 유리하다. 추가 비용은 없고 30분만 쓸 수 있다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-06",
+  "test": 19,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "email",
+    "title": "E-mail",
+    "heading": [
+     "To: All staff, Riverside Tower",
+     "From: Facilities Management",
+     "Date: July 8",
+     "Subject: Parking garage repainting"
+    ],
+    "body": [
+     "Dear staff,",
+     "The lines and markings in the Riverside Tower parking garage will be repainted between July 21 and August 1. The work will be carried out one level at a time, starting with Level 1, so that most of the garage remains open throughout the project.",
+     "While a level is closed, the drivers who usually park there will be given temporary spaces on the roof level, which has been reserved for this purpose. You will receive an e-mail the Friday before your level closes, telling you which roof space to use. Spaces for drivers with disabilities and for electric-vehicle charging on Level 1 will be moved to Level 2 during that week only.",
+     "The paint used for the markings dries within six hours, but vehicles may not return to a level until the next morning. We apologize for the inconvenience and thank you for your patience. Questions about the project can be sent to the facilities desk at extension 4410."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "이메일",
+    "heading": [
+     "수신: 리버사이드 타워 전 직원",
+     "발신: 시설 관리팀",
+     "날짜: 7월 8일",
+     "제목: 주차장 재도색"
+    ],
+    "body": [
+     "직원 여러분께,",
+     "7월 21일부터 8월 1일까지 리버사이드 타워 주차장의 주차선과 표시를 다시 칠합니다. 주차장 대부분을 계속 열어 둘 수 있도록 1층부터 시작해 한 층씩 작업합니다.",
+     "어떤 층이 닫혀 있는 동안 평소 그 층에 주차하던 운전자는 이를 위해 확보해 둔 옥상층의 임시 자리를 받습니다. 해당 층이 닫히기 전 금요일에 어느 옥상 자리를 쓸지 알려 주는 이메일을 받게 됩니다. 1층의 장애인 운전자 전용 자리와 전기차 충전 자리는 그 주에만 2층으로 옮겨집니다.",
+     "표시용 페인트는 여섯 시간 안에 마르지만, 차량은 다음 날 아침까지 해당 층에 다시 들어갈 수 없습니다. 불편을 드려 죄송하며 양해해 주셔서 감사합니다. 작업에 관한 문의는 내선 4410번 시설 데스크로 해 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "How will the repainting work be carried out?",
+    "choices": [
+     "On weekends only",
+     "On each level separately",
+     "At night when the garage is empty",
+     "On all levels at the same time"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "재도색 작업은 어떻게 진행되는가?",
+     "choices": [
+      "주말에만",
+      "층마다 따로",
+      "주차장이 빈 밤에",
+      "모든 층을 동시에"
+     ]
+    },
+    "explain": "둘째 문단에서 주차장 대부분을 열어 두도록 한 층씩 작업한다고 한다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the e-mail, the word \"reserved\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "set aside",
+     "booked by guests",
+     "shy",
+     "kept secret"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "이메일의 둘째 문단에 있는 “reserved”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "따로 확보된",
+      "손님이 예약한",
+      "내성적인",
+      "비밀로 한"
+     ]
+    },
+    "explain": "옥상층을 임시 주차용으로 따로 확보해 두었다는 뜻이므로 set aside와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 2
+    }
+   },
+   {
+    "type": "detail",
+    "q": "What will drivers receive before their level closes?",
+    "choices": [
+     "A parking discount",
+     "Instructions about where to park",
+     "A new parking permit",
+     "A map of the roof level"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "운전자는 자기 층이 닫히기 전에 무엇을 받는가?",
+     "choices": [
+      "주차 할인",
+      "주차할 곳에 관한 안내",
+      "새 주차 허가증",
+      "옥상층 지도"
+     ]
+    },
+    "explain": "셋째 문단에서 층이 닫히기 전 금요일에 쓸 옥상 자리를 알려 주는 이메일을 받는다고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-07",
+  "test": 19,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Mail room hours",
+    "heading": [
+     "Notice to all departments — Kessler Building"
+    ],
+    "body": [
+     "Beginning Monday, October 6, the mail room on the ground floor will be open from 8:30 A.M. to 4:30 P.M., closing one hour earlier than before. The change allows mail room staff to prepare outgoing parcels before couriers arrive at the end of the day.",
+     "Parcels for next-day courier delivery must now be dropped off by 3:00 P.M. Parcels received after that time will be sent the following business day. International shipments require a customs form, which must be completed online before the parcel is brought to the mail room; forms are no longer available in paper.",
+     "Incoming mail will continue to be delivered to each department twice a day, at 10:00 A.M. and 2:00 P.M. Departments expecting large deliveries should notify the mail room a day in advance so that a cart can be reserved. A list of courier services used by the mail room, with their delivery areas and charges, is available on the intranet."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "우편실 운영 시간",
+    "heading": [
+     "전 부서 공지 — 케슬러 빌딩"
+    ],
+    "body": [
+     "10월 6일 월요일부터 1층 우편실은 오전 8시 30분부터 오후 4시 30분까지 운영하며, 전보다 한 시간 일찍 닫습니다. 이 변경으로 우편실 직원이 하루 끝에 택배 기사가 오기 전에 발송 소포를 준비할 수 있습니다.",
+     "다음 날 택배 배송 소포는 이제 오후 3시까지 맡겨야 합니다. 그 이후 받은 소포는 다음 영업일에 발송합니다. 국제 화물에는 세관 양식이 필요하며, 소포를 우편실로 가져오기 전에 온라인으로 작성해야 합니다. 종이 양식은 더 이상 제공하지 않습니다.",
+     "들어오는 우편물은 지금처럼 하루 두 번, 오전 10시와 오후 2시에 각 부서로 배달합니다. 대량 배송이 예정된 부서는 손수레를 예약할 수 있도록 하루 전에 우편실에 알려 주십시오. 우편실이 이용하는 택배 업체 목록과 배송 지역, 요금은 인트라넷에서 볼 수 있습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why is the mail room changing its hours?",
+    "choices": [
+     "To reduce staff costs",
+     "To allow couriers to arrive earlier",
+     "To give staff time to prepare outgoing parcels",
+     "To match the hours of the building"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "우편실은 왜 운영 시간을 바꾸는가?",
+     "choices": [
+      "인건비를 줄이려고",
+      "택배 기사가 더 일찍 오게 하려고",
+      "직원이 발송 소포를 준비할 시간을 주려고",
+      "건물 운영 시간에 맞추려고"
+     ]
+    },
+    "explain": "첫 문단에서 택배 기사가 오기 전에 직원이 발송 소포를 준비할 수 있도록 바꾼다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What must be done before an international parcel is brought to the mail room?",
+    "choices": [
+     "A paper form must be signed.",
+     "A cart must be reserved.",
+     "The parcel must be weighed.",
+     "A form must be filled out online."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "국제 소포를 우편실로 가져오기 전에 무엇을 해야 하는가?",
+     "choices": [
+      "종이 양식에 서명해야 한다.",
+      "손수레를 예약해야 한다.",
+      "소포 무게를 재야 한다.",
+      "온라인으로 양식을 작성해야 한다."
+     ]
+    },
+    "explain": "둘째 문단에서 세관 양식을 소포를 가져오기 전에 온라인으로 작성해야 하며 종이 양식은 없다고 한다."
+   },
+   {
+    "type": "inference",
+    "q": "What will most likely happen to a parcel dropped off at 3:30 P.M. on a Tuesday?",
+    "choices": [
+     "It will be returned to the sender.",
+     "It will be delivered on Wednesday.",
+     "It will be sent on Wednesday.",
+     "It will be held until the following Monday."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "화요일 오후 3시 30분에 맡긴 소포는 어떻게 될 것 같은가?",
+     "choices": [
+      "보낸 사람에게 반송된다.",
+      "수요일에 배달된다.",
+      "수요일에 발송된다.",
+      "다음 월요일까지 보관된다."
+     ]
+    },
+    "explain": "오후 3시 이후 받은 소포는 다음 영업일에 발송하므로 화요일 3시 30분 소포는 수요일에 발송된다. 수요일에 배달되려면 화요일 3시 전에 맡겨야 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-08",
+  "test": 19,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Webinar with a guest speaker",
+    "lines": [
+     {
+      "time": "9:02 A.M.",
+      "name": "Leah Mortimer",
+      "t": "Dr. Ogawa has agreed to speak at our customer webinar on cold-storage energy savings. She's based in Osaka, though, so our usual 4:00 P.M. slot would be midnight for her. She led the cooling study that several of our customers have been asking about."
+     },
+     {
+      "time": "9:04 A.M.",
+      "name": "Rui Santos",
+      "t": "Could we move the webinar to the morning? 8:00 A.M. here is 4:00 P.M. in Osaka."
+     },
+     {
+      "time": "9:05 A.M.",
+      "name": "Leah Mortimer",
+      "t": "Most of our customers are warehouse managers. Mornings are when their trucks are loading."
+     },
+     {
+      "time": "9:07 A.M.",
+      "name": "Joel Kirsch",
+      "t": "What if Dr. Ogawa records her talk in advance? We'd play it at 4:00 and she could join live for the questions."
+     },
+     {
+      "time": "9:08 A.M.",
+      "name": "Leah Mortimer",
+      "t": "She'd still be up at midnight for the questions."
+     },
+     {
+      "time": "9:10 A.M.",
+      "name": "Rui Santos",
+      "t": "We could collect questions during the recording and send them to her afterward. She'd reply in writing, and we'd e-mail the answers to everyone who registered."
+     },
+     {
+      "time": "9:12 A.M.",
+      "name": "Joel Kirsch",
+      "t": "That works. Customers often ask for a written summary anyway. It also gives people who couldn't attend a useful record."
+     },
+     {
+      "time": "9:13 A.M.",
+      "name": "Leah Mortimer",
+      "t": "I'll propose it to her today. If she agrees, she'll need to send the recording by the 14th so we can add captions. I'll also ask whether she'd like to review the captions before the webinar."
+     },
+     {
+      "time": "9:15 A.M.",
+      "name": "Rui Santos",
+      "t": "I'll update the registration page once she confirms. I'll also add a note explaining how questions will be answered."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "초청 연사 웨비나",
+    "lines": [
+     "오가와 박사가 냉장 창고 에너지 절감에 관한 고객 웨비나에서 강연하기로 했어요. 그런데 오사카에 계셔서 우리가 늘 하는 오후 4시는 그분에게 자정이에요. 우리 고객 여럿이 문의해 온 냉각 연구를 이끈 분이에요.",
+     "웨비나를 오전으로 옮기면 어때요? 여기 오전 8시가 오사카에서는 오후 4시예요.",
+     "우리 고객 대부분은 창고 관리자예요. 오전에는 트럭에 짐을 싣는 시간이에요.",
+     "오가와 박사가 강연을 미리 녹화하면 어떨까요? 4시에 그걸 틀고 질의응답만 생방송으로 참여하시면 되잖아요.",
+     "그래도 질의응답 때문에 자정까지 깨어 있어야 하잖아요.",
+     "녹화를 트는 동안 질문을 모아서 끝난 뒤 보내 드리면 돼요. 서면으로 답을 주시면 등록한 모든 사람에게 이메일로 보내고요.",
+     "그게 좋겠네요. 고객들이 어차피 서면 요약을 자주 달라고 하니까요. 참석하지 못한 사람들에게도 유용한 기록이 되고요.",
+     "오늘 박사님께 제안할게요. 동의하시면 자막을 넣을 수 있게 14일까지 녹화본을 보내 주셔야 해요. 웨비나 전에 자막을 검토하고 싶으신지도 여쭤볼게요.",
+     "박사님이 확정하시면 등록 페이지를 수정할게요. 질문에 어떻게 답하는지 설명하는 안내도 덧붙일게요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What problem does Ms. Mortimer mention?",
+    "choices": [
+     "The usual webinar time is very late for the speaker.",
+     "The speaker's schedule conflicts with another event.",
+     "The registration page contains an error.",
+     "Customers have not responded to the invitation."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "모티머가 언급한 문제는 무엇인가?",
+     "choices": [
+      "평소 웨비나 시간이 연사에게 너무 늦다.",
+      "연사의 일정이 다른 행사와 겹친다.",
+      "등록 페이지에 오류가 있다.",
+      "고객들이 초대에 답하지 않았다."
+     ]
+    },
+    "explain": "9시 2분 메시지에서 오사카에 있는 연사에게 오후 4시는 자정이라고 한다."
+   },
+   {
+    "type": "intention",
+    "q": "At 9:05 A.M., what does Ms. Mortimer most likely mean when she writes, \"Mornings are when their trucks are loading\"?",
+    "choices": [
+     "The webinar should include information about trucks.",
+     "Customers would be too busy to attend a morning webinar.",
+     "The company's trucks are not available in the morning.",
+     "Dr. Ogawa should visit a warehouse."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "오전 9시 5분에 모티머가 “Mornings are when their trucks are loading”이라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "웨비나에 트럭에 관한 정보를 넣어야 한다.",
+      "고객들이 오전 웨비나에 참석하기에는 너무 바쁠 것이다.",
+      "회사 트럭을 오전에 쓸 수 없다.",
+      "오가와 박사가 창고를 방문해야 한다."
+     ]
+    },
+    "explain": "웨비나를 오전으로 옮기자는 제안에 대해, 고객인 창고 관리자들이 오전에는 상차 업무로 바쁘다고 답한 것이므로 오전 시간은 맞지 않는다는 뜻이다."
+   },
+   {
+    "type": "detail",
+    "q": "What does Mr. Santos suggest?",
+    "choices": [
+     "Holding two separate webinars",
+     "Asking customers to record their questions",
+     "Moving the webinar to a different month",
+     "Having the speaker answer questions in writing"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "산투스는 무엇을 제안하는가?",
+     "choices": [
+      "웨비나를 두 번 따로 연다",
+      "고객에게 질문을 녹음해 달라고 한다",
+      "웨비나를 다른 달로 옮긴다",
+      "연사가 서면으로 질문에 답하게 한다"
+     ]
+    },
+    "explain": "9시 10분 메시지에서 질문을 모아 보내면 연사가 서면으로 답하고, 그 답을 등록자 전원에게 이메일로 보내자고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "Why must the recording be received by the 14th?",
+    "choices": [
+     "So that captions can be added",
+     "So that customers can register",
+     "So that it can be translated",
+     "So that the summary can be printed"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "녹화본을 왜 14일까지 받아야 하는가?",
+     "choices": [
+      "자막을 넣을 수 있도록",
+      "고객이 등록할 수 있도록",
+      "번역할 수 있도록",
+      "요약본을 인쇄할 수 있도록"
+     ]
+    },
+    "explain": "9시 13분 메시지에서 자막을 넣을 수 있게 14일까지 녹화본을 보내야 한다고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-09",
+  "test": 19,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "article",
+    "title": "A furniture retailer buys back its own desks",
+    "heading": [
+     "Office Trade Monthly"
+    ],
+    "body": [
+     "Halden Works, which sells office furniture to businesses across the region, has started buying back desks, chairs, and storage cabinets from its corporate customers when they move or redesign their offices. The company inspects each piece, replaces worn parts, and resells it with a three-year guarantee at about 60 percent of the price of a new item. [1]",
+     "Customers receive a credit toward new furniture rather than cash. The value depends on the age and condition of each item, and only Halden's own products are accepted. \"We know exactly how our furniture is built, so we can refurbish it efficiently,\" said managing director Petra Lindqvist. [2]",
+     "The program began as a trial with three customers last year and now accounts for about one in seven sales. Small firms and start-ups have been the main buyers of refurbished items. [3] Halden has leased a second warehouse to store furniture between collection and resale.",
+     "Not everyone has welcomed the idea. Some dealers worry that cheaper refurbished furniture will reduce demand for new products. Ms. Lindqvist disagrees. She points out that customers who receive credits almost always spend them on new furniture, and many spend more than the value of the credit. [4]"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "자사 책상을 되사는 가구 소매업체",
+    "heading": [
+     "오피스 트레이드 먼슬리"
+    ],
+    "body": [
+     "지역 기업에 사무용 가구를 판매하는 할든 웍스가 기업 고객이 이전하거나 사무실을 새로 꾸밀 때 책상, 의자, 수납장을 되사기 시작했다. 회사는 가구를 하나씩 검사하고 닳은 부품을 교체한 뒤 새 제품 가격의 약 60퍼센트에 3년 보증을 붙여 다시 판다. [1]",
+     "고객은 현금이 아니라 새 가구 구입에 쓸 수 있는 적립금을 받는다. 금액은 각 물품의 사용 기간과 상태에 따라 달라지며, 할든 자사 제품만 받는다. 대표 이사 페트라 린드크비스트는 \"저희 가구가 어떻게 만들어졌는지 정확히 알기 때문에 효율적으로 재정비할 수 있다\"고 말했다. [2]",
+     "이 사업은 작년 고객 세 곳과의 시범으로 시작해 지금은 판매의 약 7분의 1을 차지한다. 재정비 제품의 주요 구매자는 소규모 회사와 신생 기업이다. [3] 할든은 수거부터 재판매까지 가구를 보관할 두 번째 창고를 임차했다.",
+     "모두가 이 아이디어를 반긴 것은 아니다. 일부 판매상은 더 싼 재정비 가구가 신제품 수요를 줄일까 걱정한다. 린드크비스트는 동의하지 않는다. 그는 적립금을 받은 고객이 거의 언제나 그것을 새 가구에 쓰며, 많은 고객이 적립금보다 더 많이 쓴다고 지적한다. [4]"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What does Halden Works do with the furniture it buys back?",
+    "choices": [
+     "It donates it to small firms.",
+     "It breaks it down for materials.",
+     "It repairs it and sells it again.",
+     "It returns it to the manufacturer."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "할든 웍스는 되산 가구를 어떻게 하는가?",
+     "choices": [
+      "소규모 회사에 기부한다.",
+      "분해해 재료로 쓴다.",
+      "수리해서 다시 판다.",
+      "제조사에 돌려보낸다."
+     ]
+    },
+    "explain": "첫 문단에서 검사하고 닳은 부품을 교체한 뒤 3년 보증을 붙여 다시 판다고 한다. 소규모 회사는 구매자일 뿐 기부 대상이 아니다."
+   },
+   {
+    "type": "not-true",
+    "q": "What is NOT true about the credits customers receive?",
+    "choices": [
+     "They can be used toward new furniture.",
+     "They can be exchanged for cash.",
+     "Their value depends on the item's condition.",
+     "They are given only for Halden products."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "고객이 받는 적립금에 관해 사실이 아닌 것은 무엇인가?",
+     "choices": [
+      "새 가구 구입에 쓸 수 있다.",
+      "현금으로 바꿀 수 있다.",
+      "금액이 물품 상태에 따라 달라진다.",
+      "할든 제품에 대해서만 준다."
+     ]
+    },
+    "explain": "둘째 문단에서 고객은 현금이 아니라 적립금을 받는다고 하므로 현금 교환은 사실이 아니다."
+   },
+   {
+    "type": "detail",
+    "q": "Who has been buying most of the refurbished furniture?",
+    "choices": [
+     "Halden's own employees",
+     "Furniture dealers",
+     "Large corporate customers",
+     "Smaller and newer companies"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "재정비 가구를 주로 사는 것은 누구인가?",
+     "choices": [
+      "할든 직원",
+      "가구 판매상",
+      "대기업 고객",
+      "작고 새로운 회사들"
+     ]
+    },
+    "explain": "셋째 문단에서 소규모 회사와 신생 기업이 주요 구매자라고 한다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"For many of them, a guaranteed desk at a lower price is an easy decision.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “그들 중 상당수에게 보증이 붙은 더 싼 책상은 쉬운 선택이다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "them이 바로 앞의 재정비 제품 구매자인 소규모 회사와 신생 기업을 가리키므로 [3]이 가장 알맞다. [1]은 가구를 되파는 기존 고객과 재정비 절차를 소개하는 문맥이어서, 주요 구매자의 선택 이유를 덧붙이는 [3]보다 연결이 약하다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-19-10",
+  "test": 19,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "webpage",
+    "title": "How our quotes work",
+    "heading": [
+     "Brennan & Shaw Commercial Painting — Quotes"
+    ],
+    "body": [
+     "Every quote we provide is based on a visit to your premises by one of our estimators, who measures each area and notes the condition of the existing surfaces. We do not provide quotes from photographs or floor plans alone, because hidden problems such as damp walls can change the work required. [1]",
+     "Our quotes are fixed-price and remain valid for thirty days. The price covers surface preparation, two coats of paint in the colors you choose, and the removal of all materials and waste when the job is complete. [2] If you decide to add rooms or change the type of paint after accepting a quote, we will prepare a separate written price for the change before any additional work begins.",
+     "A deposit of 20 percent is required to confirm a start date, with the balance payable on completion. For offices and shops, we can schedule work in the evenings or on weekends so that your business can operate normally. [3] Evening and weekend work is charged at the same rate as weekday work for projects of more than five days.",
+     "Once the work is finished, your project manager will walk through the site with you and note anything that needs attention. [4] Any touch-ups identified during this inspection are carried out free of charge within one week."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "견적 방식",
+    "heading": [
+     "브레넌 앤 쇼 상업 도장 — 견적"
+    ],
+    "body": [
+     "저희의 모든 견적은 견적 담당자가 귀사 건물을 방문해 각 구역을 측정하고 기존 표면 상태를 기록한 내용을 바탕으로 합니다. 습기 찬 벽처럼 숨은 문제가 필요한 작업을 바꿀 수 있으므로 사진이나 평면도만으로는 견적을 드리지 않습니다. [1]",
+     "저희 견적은 고정 가격이며 30일 동안 유효합니다. 가격에는 표면 준비, 고객이 고른 색상의 페인트 2회 도장, 작업 완료 후 모든 자재와 폐기물 처리가 포함됩니다. [2] 견적을 수락한 뒤 방을 추가하거나 페인트 종류를 바꾸기로 하시면, 추가 작업을 시작하기 전에 그 변경에 대한 별도의 서면 가격을 준비해 드립니다.",
+     "착공일을 확정하려면 20퍼센트의 계약금이 필요하며 잔금은 완료 시 지급합니다. 사무실과 상점의 경우 영업에 지장이 없도록 저녁이나 주말에 작업 일정을 잡을 수 있습니다. [3] 5일을 넘는 공사에서는 저녁·주말 작업에도 평일과 같은 요금을 적용합니다.",
+     "작업이 끝나면 프로젝트 관리자가 고객과 함께 현장을 돌며 손볼 곳을 기록합니다. [4] 이 점검에서 확인된 보수 작업은 일주일 안에 무료로 해 드립니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "Why does the company not provide quotes from photographs?",
+    "choices": [
+     "Photographs do not show the colors accurately.",
+     "Some problems can only be found in person.",
+     "Estimators prefer to meet customers.",
+     "Photographs take too long to review."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "회사는 왜 사진만으로 견적을 내지 않는가?",
+     "choices": [
+      "사진은 색을 정확히 보여 주지 못한다.",
+      "일부 문제는 직접 봐야만 찾을 수 있다.",
+      "견적 담당자가 고객을 만나기를 선호한다.",
+      "사진을 검토하는 데 너무 오래 걸린다."
+     ]
+    },
+    "explain": "첫 문단에서 습기 찬 벽 같은 숨은 문제가 작업을 바꿀 수 있어 사진이나 평면도만으로는 견적을 내지 않는다고 한다."
+   },
+   {
+    "type": "synonym",
+    "q": "On the webpage, the word \"covers\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "hides",
+     "protects",
+     "includes",
+     "reports"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "웹페이지의 둘째 문단에 있는 “covers”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "숨기다",
+      "보호하다",
+      "포함하다",
+      "보도하다"
+     ]
+    },
+    "explain": "가격에 표면 준비, 2회 도장, 폐기물 처리가 들어 있다는 뜻이므로 includes와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 1
+    }
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about a three-day weekend project?",
+    "choices": [
+     "It may cost more than the same work on weekdays.",
+     "It requires a larger deposit.",
+     "It cannot be scheduled for a shop.",
+     "It will be inspected by the customer alone."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "주말에 하는 사흘짜리 공사에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "같은 작업을 평일에 하는 것보다 비쌀 수 있다.",
+      "더 많은 계약금이 필요하다.",
+      "상점에는 일정을 잡을 수 없다.",
+      "고객 혼자 점검한다."
+     ]
+    },
+    "explain": "5일을 넘는 공사만 저녁·주말 작업에 평일 요금을 적용한다고 하므로 사흘짜리 주말 공사는 더 비쌀 수 있다. 계약금은 모두 20퍼센트다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Please be present for this final review, as it is the best time to raise any concerns.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “우려 사항을 말씀하시기에 가장 좋은 때이므로 이 마지막 점검에 참석해 주십시오.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "this final review는 바로 앞의 작업 후 프로젝트 관리자와 함께 현장을 도는 점검을 가리키므로 [4]가 알맞다. [1] 앞의 견적 방문은 마지막 점검이 아니다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-01",
+  "test": 20,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "notice",
+    "title": "Items left at reception",
+    "heading": [
+     "Notice — Calvert House reception"
+    ],
+    "body": [
+     "Items found in the shared areas of Calvert House, such as meeting rooms, the lobby, and the staff kitchen, are now kept at the main reception desk rather than by individual tenant offices. Each item is recorded in a logbook with the date and place it was found.",
+     "Unclaimed items are kept for thirty days. After that, umbrellas, clothing, and water bottles are donated to a local charity, and other items are disposed of. Wallets, phones, and keys are stored in a locked cabinet and handed to the building manager after thirty days. To collect an item, please describe it to the receptionist and sign the logbook. Photo identification is required for valuable items."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "안내 데스크에 맡겨진 물건",
+    "heading": [
+     "공지 — 캘버트 하우스 안내 데스크"
+    ],
+    "body": [
+     "회의실, 로비, 직원 탕비실 등 캘버트 하우스 공용 공간에서 발견된 물건은 이제 각 입주사 사무실이 아니라 중앙 안내 데스크에서 보관합니다. 물건마다 발견 날짜와 장소를 대장에 기록합니다.",
+     "찾아가지 않은 물건은 30일 동안 보관합니다. 그 후 우산, 옷, 물병은 지역 자선 단체에 기부하고 그 밖의 물건은 폐기합니다. 지갑, 휴대 전화, 열쇠는 잠금 보관함에 두었다가 30일이 지나면 건물 관리자에게 넘깁니다. 물건을 찾으려면 접수 직원에게 물건을 설명하고 대장에 서명해 주십시오. 귀중품은 사진이 있는 신분증이 필요합니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What has changed about found items?",
+    "choices": [
+     "They are now donated immediately.",
+     "They are now kept in a single location.",
+     "They are now recorded online.",
+     "They are now held for sixty days."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "분실물에 관해 무엇이 바뀌었는가?",
+     "choices": [
+      "이제 즉시 기부된다.",
+      "이제 한 곳에 보관된다.",
+      "이제 온라인으로 기록된다.",
+      "이제 60일 동안 보관된다."
+     ]
+    },
+    "explain": "첫 문단에서 이제 각 입주사 사무실이 아니라 안내 데스크에서 보관한다고 한다. 보관 기간은 30일이고 기록은 대장에 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What happens to an unclaimed phone after thirty days?",
+    "choices": [
+     "It is given to the building manager.",
+     "It is donated to a charity.",
+     "It is returned to its manufacturer.",
+     "It is thrown away."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "찾아가지 않은 휴대 전화는 30일 후 어떻게 되는가?",
+     "choices": [
+      "건물 관리자에게 넘겨진다.",
+      "자선 단체에 기부된다.",
+      "제조사에 반환된다.",
+      "버려진다."
+     ]
+    },
+    "explain": "둘째 문단에서 지갑, 휴대 전화, 열쇠는 30일 후 건물 관리자에게 넘긴다고 한다. 기부 대상은 우산, 옷, 물병이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-02",
+  "test": 20,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "advertisement",
+    "title": "Less glare, same view",
+    "heading": [],
+    "body": [
+     "Does afternoon sun make it hard for your staff to see their screens? Do blinds stay closed all day, leaving the office dim? Solvane Window Film can help. Our clear film is applied to the inside of existing windows and reduces glare and heat while keeping the view outside.",
+     "Installation is quick: a team of two can cover an average office floor in a single day, and work can be scheduled for evenings or weekends. The film is guaranteed for ten years against peeling and fading. Before you decide, we will apply a free sample panel to one of your windows so you can compare it with the others for a week."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "눈부심은 줄이고 경치는 그대로",
+    "heading": [],
+    "body": [
+     "오후 햇빛 때문에 직원들이 화면을 보기 힘든가요? 블라인드를 하루 종일 닫아 두어 사무실이 어둡나요? 솔베인 창문 필름이 도와드립니다. 투명한 필름을 기존 창문 안쪽에 붙여 바깥 경치는 그대로 두면서 눈부심과 열을 줄여 줍니다.",
+     "시공은 빠릅니다. 두 명이 한 팀이 되어 일반적인 사무실 한 층을 하루에 마칠 수 있으며, 저녁이나 주말에도 작업할 수 있습니다. 필름은 벗겨짐과 변색에 대해 10년 동안 보증합니다. 결정하시기 전에 창문 하나에 무료 견본 필름을 붙여 일주일 동안 다른 창문과 비교해 보실 수 있게 해 드립니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What problem does the advertisement mention?",
+    "choices": [
+     "Windows that are difficult to open",
+     "Offices that are too noisy",
+     "Blinds that break easily",
+     "Sunlight that makes screens hard to read"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "광고가 언급하는 문제는 무엇인가?",
+     "choices": [
+      "열기 어려운 창문",
+      "너무 시끄러운 사무실",
+      "쉽게 망가지는 블라인드",
+      "화면을 읽기 어렵게 만드는 햇빛"
+     ]
+    },
+    "explain": "첫 문단에서 오후 햇빛 때문에 직원들이 화면을 보기 힘든지 묻는다. 블라인드는 망가지는 것이 아니라 닫혀 있어 어둡다는 것이다."
+   },
+   {
+    "type": "detail",
+    "q": "What does Solvane offer before a customer decides?",
+    "choices": [
+     "A discount for weekend work",
+     "A ten-year payment plan",
+     "A visit from a designer",
+     "A trial on one window"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "솔베인은 고객이 결정하기 전에 무엇을 제공하는가?",
+     "choices": [
+      "주말 작업 할인",
+      "10년 분할 결제",
+      "디자이너 방문",
+      "창문 하나에 시험 시공"
+     ]
+    },
+    "explain": "둘째 문단에서 창문 하나에 무료 견본 필름을 붙여 일주일 동안 비교하게 해 준다고 한다. 10년은 보증 기간이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-03",
+  "test": 20,
+  "difficulty": 1,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "text",
+    "title": "Presentation time",
+    "lines": [
+     {
+      "time": "8:40 A.M.",
+      "name": "Mia Halvorsen",
+      "t": "Dunmore Retail just called. They want to move tomorrow's presentation from 2:00 to 11:00 because their director has to leave early."
+     },
+     {
+      "time": "8:41 A.M.",
+      "name": "Raj Patel",
+      "t": "My flight back from Fenton lands at 10:30."
+     },
+     {
+      "time": "8:43 A.M.",
+      "name": "Mia Halvorsen",
+      "t": "Then I'll ask whether 1:00 would work instead. The airport is only twenty minutes from their office."
+     },
+     {
+      "time": "8:44 A.M.",
+      "name": "Raj Patel",
+      "t": "Good. If they can't change it, you could present the first part, and I'll join for the pricing section."
+     },
+     {
+      "time": "8:46 A.M.",
+      "name": "Mia Halvorsen",
+      "t": "I'd rather not present the pricing without you. I'll call them now and let you know."
+     },
+     {
+      "time": "8:52 A.M.",
+      "name": "Mia Halvorsen",
+      "t": "They've agreed to 1:00. The director will stay until 2:30."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "발표 시간",
+    "lines": [
+     "던모어 리테일에서 방금 전화가 왔어요. 이사가 일찍 떠나야 해서 내일 발표를 2시에서 11시로 옮기고 싶대요.",
+     "펜턴에서 돌아오는 제 비행기가 10시 30분에 도착해요.",
+     "그럼 대신 1시가 괜찮은지 물어볼게요. 공항에서 그쪽 사무실까지 20분밖에 안 걸려요.",
+     "좋아요. 시간을 바꿀 수 없다면 앞부분은 당신이 발표하고 가격 부분부터 제가 합류할게요.",
+     "가격 부분은 당신 없이 발표하고 싶지 않아요. 지금 전화해 보고 알려 줄게요.",
+     "1시로 하기로 했어요. 이사는 2시 30분까지 있을 거래요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "intention",
+    "q": "At 8:41 A.M., what does Mr. Patel most likely mean when he writes, \"My flight back from Fenton lands at 10:30\"?",
+    "choices": [
+     "He would like Ms. Halvorsen to meet him at the airport.",
+     "His trip to Fenton was canceled.",
+     "He may not reach the client's office by the new time.",
+     "He will have time to prepare the slides on the plane."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "오전 8시 41분에 파텔이 “My flight back from Fenton lands at 10:30”이라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "할보르센이 공항에 마중 나오기를 원한다.",
+      "펜턴 출장이 취소되었다.",
+      "새 시간까지 고객 사무실에 도착하지 못할 수 있다.",
+      "비행기 안에서 슬라이드를 준비할 시간이 있다."
+     ]
+    },
+    "explain": "발표가 11시로 당겨진다는 말에 10시 30분 도착을 알린 것이므로 제시간에 가기 어렵다는 뜻이다. 할보르센도 곧바로 1시로 바꿀 수 있는지 묻겠다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "When will the presentation most likely take place?",
+    "choices": [
+     "At 11:00 A.M.",
+     "At 1:00 P.M.",
+     "At 2:00 P.M.",
+     "At 2:30 P.M."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "발표는 언제 열릴 것 같은가?",
+     "choices": [
+      "오전 11시",
+      "오후 1시",
+      "오후 2시",
+      "오후 2시 30분"
+     ]
+    },
+    "explain": "마지막 메시지에서 고객이 1시로 하기로 했다고 한다. 2시 30분은 이사가 머무는 시간이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-04",
+  "test": 20,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "email",
+    "title": "E-mail",
+    "heading": [
+     "To: Ordering contacts, Brask Food Supply customers",
+     "From: Owen Pike, Customer Accounts, Brask Food Supply",
+     "Date: August 18",
+     "Subject: Our new ordering portal"
+    ],
+    "body": [
+     "Dear Customer,",
+     "On September 15, Brask Food Supply will launch an online ordering portal for business accounts. Through the portal, you will be able to place orders at any time, see your full order history, and download copies of past invoices. You will also be able to set up a standing order that is repeated automatically each week.",
+     "Each business account will have one main user who can add colleagues and decide what they are allowed to do. An invitation to activate your account will be sent to the main user listed in our records during the first week of September. If that person has left your company, please let us know before September 1.",
+     "Telephone and e-mail orders will still be accepted until the end of the year. From January, all orders should be placed through the portal."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "이메일",
+    "heading": [
+     "수신: 브라스크 식자재 고객 주문 담당자",
+     "발신: 오언 파이크, 브라스크 식자재 고객 계정팀",
+     "날짜: 8월 18일",
+     "제목: 새 주문 포털"
+    ],
+    "body": [
+     "고객님께,",
+     "9월 15일 브라스크 식자재는 기업 계정용 온라인 주문 포털을 엽니다. 포털에서는 언제든 주문하고, 전체 주문 내역을 보고, 지난 청구서 사본을 내려받을 수 있습니다. 매주 자동으로 반복되는 정기 주문도 설정할 수 있습니다.",
+     "기업 계정마다 동료를 추가하고 각자 할 수 있는 일을 정할 수 있는 주 사용자가 한 명 있습니다. 계정 활성화 초대장은 9월 첫째 주에 저희 기록에 있는 주 사용자에게 보내 드립니다. 그 사람이 퇴사했다면 9월 1일 전에 알려 주십시오.",
+     "전화와 이메일 주문은 연말까지 계속 받습니다. 1월부터는 모든 주문을 포털로 해 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "not-true",
+    "q": "What is NOT mentioned as a feature of the portal?",
+    "choices": [
+     "Lower prices for online orders",
+     "Access to past invoices",
+     "Orders that repeat each week",
+     "A record of previous orders"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "포털의 기능으로 언급되지 않은 것은 무엇인가?",
+     "choices": [
+      "온라인 주문 가격 인하",
+      "지난 청구서 열람",
+      "매주 반복되는 주문",
+      "이전 주문 기록"
+     ]
+    },
+    "explain": "둘째 문단에서 주문 내역, 청구서 사본, 매주 반복되는 정기 주문을 언급하지만 가격 인하는 언급하지 않는다."
+   },
+   {
+    "type": "detail",
+    "q": "What should customers do if their main user no longer works for them?",
+    "choices": [
+     "Order by telephone until January",
+     "Create a new account on September 15",
+     "Inform Brask Food Supply before September",
+     "Ask a colleague to accept the invitation"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "주 사용자가 더 이상 근무하지 않으면 고객은 어떻게 해야 하는가?",
+     "choices": [
+      "1월까지 전화로 주문한다",
+      "9월 15일에 새 계정을 만든다",
+      "9월 전에 브라스크 식자재에 알린다",
+      "동료에게 초대장을 수락하라고 한다"
+     ]
+    },
+    "explain": "셋째 문단에서 주 사용자가 퇴사했다면 9월 1일 전에 알려 달라고 한다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-05",
+  "test": 20,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "memo",
+    "title": "Visitor registration",
+    "heading": [
+     "To: All Hartwell Labs staff",
+     "From: Celia Moon, Security Office",
+     "Date: May 6",
+     "Re: Registering visitors in advance"
+    ],
+    "body": [
+     "From May 19, all visitors to the Hartwell Labs building must be registered in the visitor system by 5:00 P.M. on the working day before their visit. This includes customers, suppliers, job candidates, and contractors. Reception will no longer issue visitor passes to people who arrive without a registration. Registrations can be made by any employee, not only managers.",
+     "When you register a visitor, the system will send them an e-mail with a code and directions to the building. On arrival, visitors scan the code at the reception kiosk, which prints a pass with their name and the name of their host. Visitors must be accompanied by their host at all times in laboratory areas.",
+     "For unplanned visits, such as a supplier who must deliver an urgent part, please call the security office, which can approve exceptions on the day. We appreciate your cooperation as we introduce this change. A short guide to the system is available on the intranet."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "방문객 등록",
+    "heading": [
+     "수신: 하트웰 랩스 전 직원",
+     "발신: 셀리아 문, 보안실",
+     "날짜: 5월 6일",
+     "제목: 방문객 사전 등록"
+    ],
+    "body": [
+     "5월 19일부터 하트웰 랩스 건물의 모든 방문객은 방문 전 근무일 오후 5시까지 방문객 시스템에 등록되어야 합니다. 고객, 공급업체, 면접 지원자, 협력업체 모두 해당합니다. 안내 데스크는 등록 없이 도착한 사람에게 더 이상 방문증을 발급하지 않습니다. 등록은 관리자뿐 아니라 모든 직원이 할 수 있습니다.",
+     "방문객을 등록하면 시스템이 방문객에게 코드와 건물 오는 길이 담긴 이메일을 보냅니다. 방문객은 도착하면 안내 데스크 키오스크에서 코드를 스캔하고, 키오스크는 방문객 이름과 담당 직원 이름이 적힌 방문증을 출력합니다. 실험실 구역에서는 방문객이 항상 담당 직원과 함께 있어야 합니다.",
+     "급한 부품을 배달해야 하는 공급업체처럼 예정에 없던 방문은 보안실에 전화하면 당일 예외를 승인받을 수 있습니다. 이번 변화에 협조해 주셔서 감사합니다. 시스템 사용 안내서는 인트라넷에 있습니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "By when must a visitor arriving on a Wednesday be registered?",
+    "choices": [
+     "5:00 P.M. on Monday",
+     "5:00 P.M. on Tuesday",
+     "9:00 A.M. on Wednesday",
+     "Noon on Tuesday"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "수요일에 오는 방문객은 언제까지 등록되어야 하는가?",
+     "choices": [
+      "월요일 오후 5시",
+      "화요일 오후 5시",
+      "수요일 오전 9시",
+      "화요일 정오"
+     ]
+    },
+    "explain": "첫 문단에서 방문 전 근무일 오후 5시까지 등록해야 한다고 하므로 화요일 오후 5시다."
+   },
+   {
+    "type": "detail",
+    "q": "What does the kiosk at reception do?",
+    "choices": [
+     "It records the time visitors leave.",
+     "It sends directions to visitors.",
+     "It calls the security office.",
+     "It prints a visitor's pass."
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "안내 데스크 키오스크는 무엇을 하는가?",
+     "choices": [
+      "방문객이 떠나는 시간을 기록한다.",
+      "방문객에게 오는 길을 보낸다.",
+      "보안실에 전화한다.",
+      "방문증을 출력한다."
+     ]
+    },
+    "explain": "둘째 문단에서 방문객이 코드를 스캔하면 키오스크가 이름이 적힌 방문증을 출력한다고 한다. 오는 길은 시스템이 이메일로 보낸다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the memo, the word \"accompanied\" in paragraph 2 is closest in meaning to",
+    "choices": [
+     "joined in a song",
+     "escorted",
+     "supported financially",
+     "added to"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "메모의 둘째 문단에 있는 “accompanied”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "노래에 반주를 받은",
+      "동행을 받은",
+      "재정 지원을 받은",
+      "덧붙여진"
+     ]
+    },
+    "explain": "실험실 구역에서 방문객이 담당 직원과 항상 함께 다녀야 한다는 뜻이므로 escorted와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 1
+    }
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-06",
+  "test": 20,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "form",
+    "title": "Catering confirmation",
+    "heading": [
+     "Greenleaf Office Catering — Order confirmation 7731",
+     "Client: Pemberly Asset Management",
+     "Event: Board meeting, Thursday, November 6, 8th floor boardroom"
+    ],
+    "table": [
+     [
+      "Item",
+      "Quantity",
+      "Notes"
+     ],
+     [
+      "Breakfast pastry platter",
+      "2",
+      "Delivered 8:15 A.M."
+     ],
+     [
+      "Fruit platter",
+      "2",
+      "Delivered 8:15 A.M."
+     ],
+     [
+      "Sandwich lunch box",
+      "14",
+      "3 vegetarian, 1 gluten-free; delivered 12:00 P.M."
+     ],
+     [
+      "Coffee and tea service",
+      "1",
+      "Refilled at 10:30 A.M. and 2:00 P.M."
+     ]
+    ],
+    "body": [
+     "Our staff will set up the food on the side table and collect all dishes and equipment at 4:00 P.M. Changes to the number of lunch boxes can be made until 3:00 P.M. on the day before the event. A setup fee of $40 applies to orders delivered above the third floor in buildings without a service elevator. Payment is due within fourteen days of the event. Please tell us about any changes to dietary requirements as soon as possible, as special meals are prepared separately. Plates, cutlery, and napkins are included in the price. If the boardroom will not be ready for setup by 8:00 A.M., please let us know which room to use instead."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "케이터링 확인서",
+    "heading": [
+     "그린리프 오피스 케이터링 — 주문 확인서 7731",
+     "고객: 펨벌리 자산운용",
+     "행사: 이사회, 11월 6일 목요일, 8층 회의실"
+    ],
+    "table": [
+     [
+      "품목",
+      "수량",
+      "비고"
+     ],
+     [
+      "아침 페이스트리 모둠",
+      "2",
+      "오전 8:15 배달"
+     ],
+     [
+      "과일 모둠",
+      "2",
+      "오전 8:15 배달"
+     ],
+     [
+      "샌드위치 도시락",
+      "14",
+      "채식 3, 글루텐 프리 1, 낮 12:00 배달"
+     ],
+     [
+      "커피·차 서비스",
+      "1",
+      "오전 10:30, 오후 2:00 보충"
+     ]
+    ],
+    "body": [
+     "저희 직원이 보조 탁자에 음식을 차리고 오후 4시에 모든 그릇과 장비를 회수합니다. 도시락 수량은 행사 전날 오후 3시까지 변경할 수 있습니다. 화물용 엘리베이터가 없는 건물의 4층 이상으로 배달하는 주문에는 설치비 40달러가 붙습니다. 대금은 행사 후 14일 안에 지급해야 합니다. 특별식은 따로 준비하므로 식단 요구 사항이 바뀌면 되도록 빨리 알려 주십시오. 접시, 수저, 냅킨은 가격에 포함됩니다. 회의실을 오전 8시까지 준비할 수 없으면 대신 쓸 방을 알려 주십시오."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "When will the sandwich lunch boxes be delivered?",
+    "choices": [
+     "8:15 A.M.",
+     "10:30 A.M.",
+     "12:00 P.M.",
+     "2:00 P.M."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "샌드위치 도시락은 언제 배달되는가?",
+     "choices": [
+      "오전 8시 15분",
+      "오전 10시 30분",
+      "낮 12시",
+      "오후 2시"
+     ]
+    },
+    "explain": "표에서 샌드위치 도시락은 낮 12시에 배달된다. 오전 8시 15분은 페이스트리와 과일, 10시 30분과 2시는 커피 보충 시간이다."
+   },
+   {
+    "type": "detail",
+    "q": "When will the catering staff collect the equipment?",
+    "choices": [
+     "At 4:00 P.M.",
+     "At 12:00 P.M.",
+     "At 2:00 P.M.",
+     "At 10:30 A.M."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "케이터링 직원은 언제 장비를 회수하는가?",
+     "choices": [
+      "오후 4시",
+      "낮 12시",
+      "오후 2시",
+      "오전 10시 30분"
+     ]
+    },
+    "explain": "본문에서 오후 4시에 모든 그릇과 장비를 회수한다고 한다. 2시는 커피·차 보충 시간이다."
+   },
+   {
+    "type": "inference",
+    "q": "What is suggested about Pemberly Asset Management?",
+    "choices": [
+     "It requested a coffee refill every hour.",
+     "It has already paid for the order.",
+     "It can still change the number of lunch boxes on November 5 at noon.",
+     "It will hold the meeting on the third floor."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "펨벌리 자산운용에 관해 암시된 것은 무엇인가?",
+     "choices": [
+      "커피를 매시간 보충해 달라고 했다.",
+      "이미 주문 대금을 냈다.",
+      "11월 5일 정오에도 도시락 수량을 바꿀 수 있다.",
+      "3층에서 회의를 연다."
+     ]
+    },
+    "explain": "도시락 수량은 행사 전날(11월 5일) 오후 3시까지 바꿀 수 있으므로 5일 정오에는 아직 가능하다. 대금은 행사 후 14일 안에 낸다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-07",
+  "test": 20,
+  "difficulty": 2,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "letter",
+    "title": "Lease renewal",
+    "heading": [
+     "Morrow & Finch Property Agents",
+     "40 Exchange Street",
+     "September 1"
+    ],
+    "body": [
+     "Dear Mr. Adeyemi,",
+     "The lease for your company's offices on the fourth floor of Linden Court ends on December 31. On behalf of the owner, I am pleased to offer you two options for renewal.",
+     "Under the first option, you would sign a three-year lease. The rent would increase by 4 percent from January 1 and could be reviewed again at the start of each following year. Under the second option, you would sign a five-year lease at a rent 6 percent higher than your current rent, which would remain fixed for the full five years. Both options include the two parking spaces you now use.",
+     "The owner also plans to replace the heating system in the building next summer. If you choose the five-year lease, the owner will repaint your offices and replace the carpet at no cost to you during the same period.",
+     "Please let me know which option you prefer by October 15, so that the new agreement can be prepared in time.",
+     "Yours sincerely,",
+     "Anita Lowe, Leasing Manager"
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "임대 갱신",
+    "heading": [
+     "모로 앤 핀치 부동산",
+     "익스체인지 스트리트 40",
+     "9월 1일"
+    ],
+    "body": [
+     "아데예미 님께,",
+     "린든 코트 4층 귀사 사무실의 임대 계약이 12월 31일에 끝납니다. 소유주를 대신해 두 가지 갱신 방안을 제안드립니다.",
+     "첫째 방안은 3년 임대 계약입니다. 임대료는 1월 1일부터 4퍼센트 오르며, 이후 매년 초에 다시 조정될 수 있습니다. 둘째 방안은 5년 임대 계약으로, 임대료는 현재보다 6퍼센트 높지만 5년 내내 고정됩니다. 두 방안 모두 현재 쓰시는 주차 공간 두 자리가 포함됩니다.",
+     "소유주는 또 내년 여름에 건물 난방 설비를 교체할 계획입니다. 5년 계약을 선택하시면 같은 기간에 소유주 부담으로 사무실을 다시 칠하고 카펫을 교체해 드립니다.",
+     "새 계약서를 제때 준비할 수 있도록 10월 15일까지 원하시는 방안을 알려 주십시오.",
+     "감사합니다.",
+     "애니타 로, 임대 관리자"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "Why did Ms. Lowe write to Mr. Adeyemi?",
+    "choices": [
+     "To offer him a different office",
+     "To request overdue rent",
+     "To announce the sale of a building",
+     "To present choices for continuing a lease"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "로는 왜 아데예미에게 편지를 썼는가?",
+     "choices": [
+      "다른 사무실을 제안하려고",
+      "밀린 임대료를 요청하려고",
+      "건물 매각을 알리려고",
+      "임대를 이어 가는 방안을 제시하려고"
+     ]
+    },
+    "explain": "첫 문단에서 계약 만료를 알리고 두 가지 갱신 방안을 제안한다."
+   },
+   {
+    "type": "detail",
+    "q": "What is an advantage of the five-year lease?",
+    "choices": [
+     "It includes additional parking spaces.",
+     "The rent will not change during the lease.",
+     "The rent increase is smaller.",
+     "It can be ended after three years."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "5년 계약의 장점은 무엇인가?",
+     "choices": [
+      "주차 공간이 추가된다.",
+      "계약 기간 동안 임대료가 바뀌지 않는다.",
+      "임대료 인상 폭이 더 작다.",
+      "3년 뒤에 끝낼 수 있다."
+     ]
+    },
+    "explain": "둘째 방안의 임대료는 5년 내내 고정된다. 인상 폭은 6퍼센트로 3년 계약(4퍼센트)보다 크고, 주차 공간은 두 방안 모두 같다."
+   },
+   {
+    "type": "detail",
+    "q": "What will the owner do for tenants who choose the five-year lease?",
+    "choices": [
+     "Replace the heating system before the lease begins",
+     "Reduce the rent next summer",
+     "Add a third parking space",
+     "Provide new floor covering and paint"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "소유주는 5년 계약을 선택한 임차인에게 무엇을 해 주는가?",
+     "choices": [
+      "임대 기간이 시작되기 전에 난방 설비를 교체한다",
+      "내년 여름 임대료를 낮춘다",
+      "주차 공간을 하나 더 준다",
+      "새 바닥재를 깔고 페인트칠을 한다"
+     ]
+    },
+    "explain": "셋째 문단에서 5년 계약을 선택하면 소유주 부담으로 사무실을 칠하고 카펫을 교체해 준다고 한다. 난방 설비 교체는 1월 계약 시작 전이 아니라 그다음 여름의 건물 전체 계획이다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-08",
+  "test": 20,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "article",
+    "title": "Shelf prices go digital at Holloway Markets",
+    "heading": [
+     "Retail Review — Regional edition"
+    ],
+    "body": [
+     "Holloway Markets, a chain of twenty-two supermarkets in the eastern region, has finished installing electronic shelf labels in all its stores. [1] The small screens, which replace printed paper tags, are updated wirelessly from the company's head office.",
+     "Under the old system, staff in each store spent about fifteen hours a week removing and replacing paper labels whenever prices changed. Mistakes were common, and customers sometimes found that the price at the checkout did not match the shelf. [2] \"Those disagreements were small, but they damaged trust,\" said operations director Femi Adebayo.",
+     "The screens also allow Holloway to reduce prices on fresh food late in the day, when items close to their sell-by date might otherwise be thrown away. Store managers can now apply such reductions from a tablet in seconds. [3] The company says food waste in its bakery and produce sections has fallen by nearly a fifth since the trial began.",
+     "Some shoppers have asked whether prices will now change more often during the day. Mr. Adebayo said that, apart from the late-day reductions on fresh food, prices will continue to change only once a week, on Monday mornings. [4] Shoppers can still ask staff to check a price at any time."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "홀러웨이 마켓, 선반 가격표를 디지털로",
+    "heading": [
+     "리테일 리뷰 — 지역판"
+    ],
+    "body": [
+     "동부 지역에 슈퍼마켓 22곳을 운영하는 홀러웨이 마켓이 모든 매장에 전자 선반 가격표 설치를 마쳤다. [1] 인쇄된 종이 가격표를 대신하는 작은 화면은 본사에서 무선으로 갱신된다.",
+     "예전 방식에서는 가격이 바뀔 때마다 매장마다 직원들이 일주일에 약 15시간을 들여 종이 가격표를 떼고 새로 붙였다. 실수가 잦았고, 고객이 계산대 가격과 선반 가격이 다르다는 것을 발견하기도 했다. [2] 운영 이사 페미 아데바요는 \"그런 불일치는 작은 것이었지만 신뢰를 떨어뜨렸다\"고 말했다.",
+     "화면 덕분에 홀러웨이는 판매 기한이 임박해 버려질 수 있는 신선 식품의 가격을 늦은 시간에 내릴 수도 있게 되었다. 매장 관리자는 이제 태블릿으로 몇 초 만에 할인을 적용할 수 있다. [3] 회사는 시범 운영을 시작한 이후 제과·농산물 코너의 음식물 쓰레기가 5분의 1 가까이 줄었다고 밝혔다.",
+     "일부 쇼핑객은 이제 하루 중에도 가격이 더 자주 바뀌는지 물었다. 아데바요는 신선 식품의 늦은 시간 할인을 제외하면 가격은 지금처럼 일주일에 한 번, 월요일 아침에만 바뀐다고 말했다. [4] 쇼핑객은 여전히 언제든 직원에게 가격 확인을 요청할 수 있다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "purpose",
+    "q": "What is the article mainly about?",
+    "choices": [
+     "A change in how prices are shown in stores",
+     "The opening of new supermarkets",
+     "A survey of shoppers' opinions",
+     "A new delivery service for groceries"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "기사는 주로 무엇에 관한 것인가?",
+     "choices": [
+      "매장에서 가격을 표시하는 방식의 변화",
+      "새 슈퍼마켓 개점",
+      "쇼핑객 의견 조사",
+      "새 식료품 배달 서비스"
+     ]
+    },
+    "explain": "첫 문단은 종이 가격표를 전자 선반 가격표로 바꾼 일을 소개한다."
+   },
+   {
+    "type": "synonym",
+    "q": "In the article, the word \"apply\" in paragraph 3 is closest in meaning to",
+    "choices": [
+     "request",
+     "spread on",
+     "put into effect",
+     "be relevant"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "기사의 셋째 문단에 있는 “apply”와 뜻이 가장 가까운 것은 무엇인가?",
+     "choices": [
+      "신청하다",
+      "바르다",
+      "시행하다",
+      "관련되다"
+     ]
+    },
+    "explain": "관리자가 태블릿으로 할인을 적용한다는 뜻이므로 put into effect와 같다.",
+    "ref": {
+     "passage": 0,
+     "paragraph": 2
+    }
+   },
+   {
+    "type": "detail",
+    "q": "According to Mr. Adebayo, when will regular price changes take place?",
+    "choices": [
+     "Every evening",
+     "Once a week on Mondays",
+     "At the end of each month",
+     "Whenever a manager decides"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "아데바요에 따르면 정기 가격 변경은 언제 이루어지는가?",
+     "choices": [
+      "매일 저녁",
+      "매주 월요일 한 번",
+      "매달 말",
+      "관리자가 정할 때마다"
+     ]
+    },
+    "explain": "넷째 문단에서 신선 식품 할인을 제외하면 가격은 일주일에 한 번 월요일 아침에만 바뀐다고 한다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The project took eight months and was completed without closing any store for a full day.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “이 사업은 8개월이 걸렸으며 하루 종일 문을 닫은 매장 없이 완료되었다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "The project는 바로 앞 문장의 모든 매장에 전자 가격표를 설치한 일을 가리키므로 [1]이 알맞다. [3] 앞은 할인 적용 방식이고 설치 공사가 아니다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-09",
+  "test": 20,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "chat",
+    "title": "Shipping box sizes",
+    "lines": [
+     {
+      "time": "3:00 P.M.",
+      "name": "Dalia Ferro",
+      "t": "Customer feedback this quarter keeps mentioning the same thing: our lamps arrive in boxes that are much bigger than they need to be."
+     },
+     {
+      "time": "3:02 P.M.",
+      "name": "Tomas Klein",
+      "t": "We use one box size for all three desk lamps. It's simpler for the packing team."
+     },
+     {
+      "time": "3:03 P.M.",
+      "name": "Dalia Ferro",
+      "t": "The carrier charges by box size, not just weight. I checked last month's invoices, and we're paying for a lot of empty space. Some boxes are almost half empty when they leave the warehouse."
+     },
+     {
+      "time": "3:05 P.M.",
+      "name": "Neha Rao",
+      "t": "Two of the lamps are almost the same height. Only the Arc model really needs the tall box."
+     },
+     {
+      "time": "3:06 P.M.",
+      "name": "Tomas Klein",
+      "t": "So we'd need two sizes instead of one. The packing tables only have room for one stack of flat boxes."
+     },
+     {
+      "time": "3:08 P.M.",
+      "name": "Neha Rao",
+      "t": "The Arc is less than a tenth of our orders. We could keep its boxes on the shelf behind the tables."
+     },
+     {
+      "time": "3:09 P.M.",
+      "name": "Dalia Ferro",
+      "t": "That would work. Could we try it for a month and compare the shipping costs?"
+     },
+     {
+      "time": "3:11 P.M.",
+      "name": "Tomas Klein",
+      "t": "I'll ask our box supplier for a quote on the smaller size. They usually need two weeks to deliver a new size."
+     },
+     {
+      "time": "3:12 P.M.",
+      "name": "Neha Rao",
+      "t": "I'll update the packing instructions so the team knows which box goes with which lamp."
+     },
+     {
+      "time": "3:14 P.M.",
+      "name": "Dalia Ferro",
+      "t": "Great. I'll pull the shipping figures for the last three months so we have something to compare against."
+     }
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "배송 상자 크기",
+    "lines": [
+     "이번 분기 고객 의견에 같은 얘기가 계속 나와요. 우리 램프가 필요한 것보다 훨씬 큰 상자에 담겨 온다고요.",
+     "책상 램프 세 종류에 상자 한 가지 크기를 써요. 포장팀에는 그게 더 간단하거든요.",
+     "운송업체는 무게만이 아니라 상자 크기로도 요금을 받아요. 지난달 청구서를 확인해 보니 빈 공간에 꽤 많은 돈을 내고 있어요. 어떤 상자는 창고를 나갈 때 거의 절반이 비어 있어요.",
+     "램프 두 종류는 높이가 거의 같아요. 큰 상자가 정말 필요한 건 아크 모델뿐이에요.",
+     "그러면 한 가지가 아니라 두 가지 크기가 필요하네요. 포장대에는 접어 납작하게 해 둔 상자 한 더미를 둘 자리밖에 없어요.",
+     "아크는 주문의 10분의 1도 안 돼요. 그 상자는 포장대 뒤 선반에 두면 돼요.",
+     "그거 괜찮네요. 한 달 동안 해 보고 배송비를 비교해 볼까요?",
+     "상자 공급업체에 작은 크기 견적을 요청할게요. 새 크기는 보통 납품까지 2주가 걸려요.",
+     "팀이 어떤 램프에 어떤 상자를 쓰는지 알 수 있게 포장 지침을 고칠게요.",
+     "좋아요. 비교할 기준이 있도록 지난 3개월 배송 수치를 뽑아 올게요."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What have customers complained about?",
+    "choices": [
+     "Lamps arriving damaged",
+     "Missing instructions",
+     "Slow delivery times",
+     "Packaging that is too large"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "고객들은 무엇에 대해 불만을 제기했는가?",
+     "choices": [
+      "파손된 채 도착하는 램프",
+      "빠진 설명서",
+      "느린 배송",
+      "너무 큰 포장"
+     ]
+    },
+    "explain": "3시 메시지에서 램프가 필요 이상으로 큰 상자에 담겨 온다는 의견이 계속 나온다고 한다."
+   },
+   {
+    "type": "intention",
+    "q": "At 3:08 P.M., what does Ms. Rao most likely mean when she writes, \"The Arc is less than a tenth of our orders\"?",
+    "choices": [
+     "The Arc model should be discontinued.",
+     "The tall boxes would not need to be kept close at hand.",
+     "The Arc model is too expensive to ship.",
+     "The packing team should focus on other lamps."
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "오후 3시 8분에 라오가 “The Arc is less than a tenth of our orders”라고 쓴 의도는 무엇인가?",
+     "choices": [
+      "아크 모델은 단종해야 한다.",
+      "큰 상자를 바로 옆에 둘 필요가 없을 것이다.",
+      "아크 모델은 배송비가 너무 비싸다.",
+      "포장팀은 다른 램프에 집중해야 한다."
+     ]
+    },
+    "explain": "포장대에 상자 한 더미만 둘 수 있다는 걱정에, 아크 주문이 적으니 그 상자는 뒤쪽 선반에 두면 된다고 바로 이어 말하므로 큰 상자를 손 닿는 곳에 둘 필요가 없다는 뜻이다."
+   },
+   {
+    "type": "detail",
+    "q": "What does Mr. Klein say about the box supplier?",
+    "choices": [
+     "It has already sent a quote.",
+     "It charges by weight.",
+     "It needs time to supply a new size.",
+     "It also makes lamp shades."
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "클라인은 상자 공급업체에 관해 무엇이라고 말하는가?",
+     "choices": [
+      "이미 견적을 보냈다.",
+      "무게로 요금을 받는다.",
+      "새 크기를 공급하는 데 시간이 걸린다.",
+      "램프 갓도 만든다."
+     ]
+    },
+    "explain": "3시 11분 메시지에서 새 크기는 보통 납품까지 2주가 걸린다고 한다. 견적은 이제 요청할 예정이다."
+   },
+   {
+    "type": "detail",
+    "q": "What will Ms. Ferro do?",
+    "choices": [
+     "Contact the carrier",
+     "Revise the packing instructions",
+     "Move boxes to a shelf",
+     "Gather earlier shipping data"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "페로는 무엇을 할 것인가?",
+     "choices": [
+      "운송업체에 연락한다",
+      "포장 지침을 고친다",
+      "상자를 선반으로 옮긴다",
+      "이전 배송 자료를 모은다"
+     ]
+    },
+    "explain": "마지막 메시지에서 비교 기준으로 지난 3개월 배송 수치를 뽑아 오겠다고 한다. 지침 수정은 라오가 맡았다."
+   }
+  ]
+ },
+ {
+  "id": "m-p7s-20-10",
+  "test": 20,
+  "difficulty": 3,
+  "setType": "single",
+  "passages": [
+   {
+    "type": "announcement",
+    "title": "New member app",
+    "heading": [
+     "Northgate Workspaces — Member announcement"
+    ],
+    "body": [
+     "From March 3, the Northgate Workspaces app will replace plastic key cards at all three of our locations. Members will open the main entrance, meeting rooms, and lockers by holding their phone near the reader, and the app will also be used to book desks and rooms. [1]",
+     "The app works even when your phone has no internet connection, as long as you have opened it at least once in the past seven days. [2] Members who do not have a smartphone may request a key fob from the front desk; fobs open the same doors but cannot be used for bookings.",
+     "Key cards will continue to work until March 14, giving everyone time to install the app and check that it works. Please return your card to the front desk by March 31. [3] Members who return their card on time will receive two free hours of meeting room use in April.",
+     "Guests can now be registered in the app. Each guest receives a link by text message that opens the main entrance once on the day of their visit. [4] If you have questions, our staff will be available at a help table in each lobby during the first week of March."
+    ]
+   }
+  ],
+  "passagesKo": [
+   {
+    "title": "새 회원 앱",
+    "heading": [
+     "노스게이트 워크스페이스 — 회원 공지"
+    ],
+    "body": [
+     "3월 3일부터 세 지점 모두에서 노스게이트 워크스페이스 앱이 플라스틱 출입 카드를 대신합니다. 회원은 휴대 전화를 리더기에 가까이 대어 정문, 회의실, 사물함을 열며, 책상과 회의실 예약도 앱으로 합니다. [1]",
+     "지난 7일 안에 앱을 한 번 이상 열었다면 휴대 전화가 인터넷에 연결되지 않아도 앱이 작동합니다. [2] 스마트폰이 없는 회원은 안내 데스크에 열쇠고리형 출입 장치를 요청할 수 있습니다. 이 장치로 같은 문을 열 수 있지만 예약에는 쓸 수 없습니다.",
+     "모두가 앱을 설치하고 작동을 확인할 시간을 갖도록 출입 카드는 3월 14일까지 계속 작동합니다. 카드는 3월 31일까지 안내 데스크에 반납해 주십시오. [3] 기한 안에 카드를 반납한 회원은 4월에 회의실 2시간 무료 이용권을 받습니다.",
+     "이제 앱에서 손님을 등록할 수 있습니다. 손님마다 방문 당일 정문을 한 번 열 수 있는 링크를 문자로 받습니다. [4] 궁금한 점이 있으면 3월 첫 주 동안 각 로비의 안내 테이블에서 직원이 도와드립니다."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "type": "detail",
+    "q": "What will the app replace?",
+    "choices": [
+     "The front desk",
+     "The booking website",
+     "Plastic entry cards",
+     "Locker keys made of metal"
+    ],
+    "answer": 2,
+    "ko": {
+     "q": "앱은 무엇을 대신하는가?",
+     "choices": [
+      "안내 데스크",
+      "예약 웹사이트",
+      "플라스틱 출입 카드",
+      "금속 사물함 열쇠"
+     ]
+    },
+    "explain": "첫 문단에서 앱이 플라스틱 출입 카드를 대신한다고 한다."
+   },
+   {
+    "type": "detail",
+    "q": "What is true about key fobs?",
+    "choices": [
+     "They cannot be used to reserve rooms.",
+     "They work only at the main entrance.",
+     "They must be returned by March 14.",
+     "They require an internet connection."
+    ],
+    "answer": 0,
+    "ko": {
+     "q": "열쇠고리형 출입 장치에 관해 사실인 것은 무엇인가?",
+     "choices": [
+      "회의실 예약에는 쓸 수 없다.",
+      "정문에서만 작동한다.",
+      "3월 14일까지 반납해야 한다.",
+      "인터넷 연결이 필요하다."
+     ]
+    },
+    "explain": "둘째 문단에서 출입 장치는 같은 문을 열지만 예약에는 쓸 수 없다고 한다."
+   },
+   {
+    "type": "inference",
+    "q": "Which benefit would a member forfeit by returning a key card on April 2 rather than by March 31?",
+    "choices": [
+     "Access with the app",
+     "A key fob",
+     "Help at the lobby table",
+     "Free use of a meeting room"
+    ],
+    "answer": 3,
+    "ko": {
+     "q": "회원이 출입 카드를 3월 31일 대신 4월 2일에 반납하면 어떤 혜택을 놓치게 되는가?",
+     "choices": [
+      "앱 출입",
+      "열쇠고리형 출입 장치",
+      "로비 안내 테이블의 도움",
+      "회의실 무료 이용"
+     ]
+    },
+    "explain": "3월 31일까지 카드를 반납하면 4월 회의실 2시간 무료 이용권을 받으므로, 4월 2일 반납으로 놓치는 혜택은 회의실 무료 이용이다. 로비 안내 테이블의 운영 기간은 3월 첫 주로, 카드 반납 기한 준수 여부와 관계없다."
+   },
+   {
+    "type": "insertion",
+    "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"This means you can still get into the building if the network in the lobby is slow.\"",
+    "choices": [
+     "[1]",
+     "[2]",
+     "[3]",
+     "[4]"
+    ],
+    "answer": 1,
+    "ko": {
+     "q": "다음 문장이 들어갈 가장 적절한 위치는 어디인가? “따라서 로비의 네트워크가 느려도 건물에 들어갈 수 있습니다.”",
+     "choices": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ]
+    },
+    "explain": "This means는 바로 앞의 인터넷 연결 없이도 앱이 작동한다는 설명을 받으므로 [2]가 알맞다. [4] 앞의 손님 링크는 회원이 아니라 손님의 입장 방법이다."
+   }
+  ]
+ }
+]
