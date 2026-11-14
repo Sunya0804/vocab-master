@@ -194,7 +194,11 @@
     const target = event.target;
     if (target.matches('[data-exam-type]')) {
       const part = Number(target.dataset.examType);
-      if (EXAM_PARTS[part] && (!target.value || Object.hasOwn(EXAM_TYPES, target.value))) { examTypeFilter[part] = target.value; render(); }
+      if (EXAM_PARTS[part] && (!target.value || Object.hasOwn(EXAM_TYPES, target.value))) {
+        examTypeFilter[part] = target.value;
+        render();
+        main.querySelector(`[data-exam-type="${part}"]`)?.focus({preventScroll:true});
+      }
     }
     else if (['listen-rate', 'listen-repeats', 'listen-examples'].includes(target.id)) {
       if (!listening) return;
