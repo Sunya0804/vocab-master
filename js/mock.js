@@ -105,8 +105,11 @@
       }).join('')}</div>${renderMockWeakness()}</section>`;
   }
 
+  // The five weakest types stay visible; the rest fold away so a phone screen is not one long list.
   function renderWeakTypes(rows) {
-    return `<ul class="mock-weak-types">${rows.map(r => `<li><div><strong>Part ${r.part} · ${escape(EXAM_TYPES[r.type] || r.type)}</strong><p>${r.right} / ${r.total}문항 정답 · ${r.accuracy}%</p></div><button data-action="exam-type-start" data-part="${r.part}" data-type="${escape(r.type)}" aria-label="Part ${r.part} ${escape(EXAM_TYPES[r.type] || r.type)} 유형 연습">이 유형 연습</button></li>`).join('')}</ul>`;
+    const list = items => `<ul class="mock-weak-types">${items.map(r => `<li><div><strong>Part ${r.part} · ${escape(EXAM_TYPES[r.type] || r.type)}</strong><p>${r.right} / ${r.total}문항 정답 · ${r.accuracy}%</p></div><button data-action="exam-type-start" data-part="${r.part}" data-type="${escape(r.type)}" aria-label="Part ${r.part} ${escape(EXAM_TYPES[r.type] || r.type)} 유형 연습">이 유형 연습</button></li>`).join('')}</ul>`;
+    const rest = rows.slice(5);
+    return list(rows.slice(0, 5)) + (rest.length ? `<details class="mock-weak-more"><summary>나머지 ${rest.length}개 유형 보기</summary>${list(rest)}</details>` : '');
   }
 
   function renderMockWeakness() {
