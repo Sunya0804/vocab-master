@@ -153,6 +153,63 @@ test('targeted LC plays only its questions and its completion prompt matches the
   assert.equal(a.timers.size, 0);
 });
 
+test('type-filtered part cards count only target questions and preserve unfiltered statistics', () => {
+  for (const part of [1, 2, 3, 4, 5, 6, 7]) {
+    const a = application(), sets = [3, 4, 6, 7].includes(part);
+    const type = part === 1 ? 'single' : part === 2 ? 'wh' : part === 5 || part === 6 ? 'vocab' : 'detail';
+    const other = part === 1 ? 'group' : part === 2 ? 'statement' : part === 5 || part === 6 ? 'tense' : 'topic';
+    const make = t => part === 1 ? {photoType:t} : {type:t};
+    const entries = sets ? [
+      {id:`p${part}-001`, questions:[make(type), make(other), make(type), ...(part === 6 ? [make(other)] : [])]},
+      {id:`p${part}-002`, questions:[make(other), make(type), make(other), ...(part === 6 ? [make(other)] : [])]}
+    ] : [type, other, type, other, type, other].map((t, i) => ({id:`p${part}-${String(i + 1).padStart(3, '0')}`, ...make(t)}));
+    const flat = sets ? Core.examSetStats(entries, {}).items : entries;
+    const targets = flat.filter(q => (q.type || q.photoType) === type);
+    const answers = Object.fromEntries(flat.filter(q => (q.type || q.photoType) !== type).map(q => [q.id, {correct:true}]));
+    answers[targets[0].id] = {first:true, correct:false};
+    answers[targets[1].id] = {first:false, correct:true};
+    a.context.part = part; a.context.entries = entries; a.context.answers = answers; a.context.type = type;
+    a.run("examBanks[part].questions = entries; examBanks[part].status = 'ready'; examState.answers = answers;");
+    const unfilteredHtml = a.run('renderExamHome()');
+    const unfiltered = JSON.parse(a.run('JSON.stringify(examStatsFor(part, entries))'));
+    assert.deepEqual(unfiltered, sets ? Core.examSetStats(entries, answers) : Core.examStats(entries, answers));
+    a.run('examTypeFilter[part] = type');
+    const stats = JSON.parse(a.run('JSON.stringify(examStatsFor(part, entries))'));
+    assert.deepEqual([stats.total, stats.solved, stats.correct, stats.firstAccuracy], [3, 2, 1, 50], `Part ${part}`);
+    const card = a.run('renderExamHome()').split(`data-exam-part="${part}"`)[1].split('</section>')[0];
+    assert.ok(card.includes('푼 문제 <strong>2 / 3</strong>'), `Part ${part} denominator`);
+    assert.ok(card.includes('첫 시도 정답률 <strong>50%</strong>'), `Part ${part} accuracy`);
+    a.run("examTypeFilter[part] = ''");
+    assert.equal(a.run('renderExamHome()'), unfilteredHtml, `Part ${part} clearing the filter`);
+  }
+});
+
+test('LC directions match displayed question numbers and use singular for one target', () => {
+  for (const part of [3, 4]) {
+    const a = application();
+    const q = type => ({type, q:'Which option is correct?', choices:['One','Two','Three','Four'], answer:0,
+      ko:{q:'무엇이 맞는가?', choices:['하나','둘','셋','넷']}, explain:'근거'});
+    a.context.part = part;
+    a.context.entry = {id:`p${part}-001`, difficulty:2, talkType:part === 3 ? 'conversation' : 'announcement',
+      script:[{s:'M',t:'Please check the options.'}], scriptKo:['보기를 확인해 주세요.'], graphic:null,
+      questions:[q('topic'), q('detail'), q('topic')]};
+    a.run("location.hash = `#/exam/${part}/set`; examBanks[part].questions = [entry];");
+    for (const [type, expected, numbers] of [
+      ['detail','Question 2 refers to the following ', [2]],
+      ['topic','Questions 1 and 3 refer to the following ', [1,3]],
+      ['', 'Questions 1–3 refer to the following ', [1,2,3]]
+    ]) {
+      a.context.type = type;
+      a.run("examTypeFilter[part] = type; makeExamSession(part, 'set')");
+      const html = a.run('renderExamSet()');
+      assert.ok(html.includes(expected), `Part ${part} ${type || 'all'}`);
+      assert.deepEqual(Array.from(html.matchAll(/class="exam-set-number">(\d+)\./g), match => Number(match[1])), numbers);
+    }
+    a.run("entry.questions[0].type = 'detail'; examTypeFilter[part] = 'detail'; makeExamSession(part, 'set')");
+    assert.ok(a.run('renderExamSet()').includes('Questions 1–2 refer to the following '));
+  }
+});
+
 (async () => {
   let failed = 0;
   for (const {name, run} of tests) try { await run(); console.log('ok', name); }

@@ -146,7 +146,13 @@
       : examState.answers[e.id]?.correct === false) : pool;
   }
 
-  const examStatsFor = (part, items, answers = examState.answers) => EXAM_PARTS[part].sets ? Core.examSetStats(items, answers) : Core.examStats(items, answers);
+  function examStatsFor(part, items, answers = examState.answers) {
+    const sets = EXAM_PARTS[part].sets;
+    const stats = sets ? Core.examSetStats(items, answers) : Core.examStats(items, answers);
+    if (!examTypeFilter[part]) return stats;
+    // Flatten before filtering so set question IDs retain their original positions.
+    return Core.examStats((sets ? stats.items : items).filter(q => examMatchesType(part, q)), answers);
+  }
   const examAudioIdle = part => part === 1 ? '보기 듣기를 누르면 네 보기를 차례로 읽어요' : part === 2 ? '문제 듣기를 누르면 질문과 세 응답을 차례로 읽어요' : `듣기를 누르면 ${part === 3 ? '대화' : '담화'}와 질문 세 개를 차례로 읽어요`;
   const examPicks = item => item?.questions ? item.questions.map(() => null) : [];
   // Test order: Part 1 people photos before object photos; Part 7 2→3→4-question single sets, then double, then triple.
@@ -189,9 +195,9 @@
         return `<section class="exam-card" data-exam-part="${part}"><div class="exam-card-heading"><h2>Part ${part} · ${info.name}</h2>${icon(part >= 5 ? 'book-open' : 'headphones')}</div>
           ${bank.status === 'empty' ? '<p class="exam-note">준비 중 · 문제를 만들고 있어요</p>' : bank.status === 'error' ? `<p class="exam-note">문제를 불러오지 못했어요. 연결을 확인한 뒤 다시 시도해 주세요.</p><button class="full" data-action="exam-reload" data-part="${part}">다시 불러오기</button>`
             : bank.status !== 'ready' ? '<p class="exam-note">문제를 불러오는 중</p>'
-            : `<div class="exam-mini-stats"><span>푼 문제 <strong>${stats.solved} / ${Math.max(info.total, stats.total)}</strong></span><span>첫 시도 정답률 <strong>${stats.solved ? `${stats.firstAccuracy}%` : '–'}</strong></span></div>
+            : `<div class="exam-mini-stats"><span>푼 문제 <strong>${stats.solved} / ${examTypeFilter[part] ? stats.total : Math.max(info.total, stats.total)}</strong></span><span>첫 시도 정답률 <strong>${stats.solved ? `${stats.firstAccuracy}%` : '–'}</strong></span></div>
               <label class="exam-type-filter">문항 유형<select data-exam-type="${part}" aria-label="Part ${part} 문항 유형"><option value="">전체 유형</option>${[...new Set(bank.questions.flatMap(e => (e.questions || [e]).map(q => q.type || q.photoType)))].map(type => `<option value="${escape(type)}" ${examTypeFilter[part] === type ? 'selected' : ''}>${escape(EXAM_TYPES[type] || type)}</option>`).join('')}</select></label><div class="button-row"><button class="primary" data-action="exam-start" data-part="${part}" data-mode="set" aria-label="Part ${part} ${EXAM_LEVELS[examDifficulty]} 실전 세트 시작" ${!pool.length ? 'disabled' : ''}>실전 세트 <span class="exam-button-count">${info.sets ? `${size}세트${info.per && !examTypeFilter[part] ? ` · ${size * info.per}문항` : ''}` : `${size}문항`}</span></button><button data-action="exam-start" data-part="${part}" data-mode="wrong" ${!wrong.length ? 'disabled' : ''}>틀린 ${info.sets ? '세트' : '문제'} ${wrong.length}</button></div>
-              <p class="exam-note">${stats.total < info.total ? `현재 ${info.sets ? `${bank.questions.length}세트 ` : ''}${stats.total}문항 제공 · 세트는 제공된 문항으로 구성해요` : `${pool.length}${unit} 중 무작위 추출 · 실전 ${info.size}${unit}`}</p>`}</section>`;
+              <p class="exam-note">${examTypeFilter[part] ? `선택한 유형 ${stats.total}문항 제공 · 선택한 유형만 연습하고 채점해요` : stats.total < info.total ? `현재 ${info.sets ? `${bank.questions.length}세트 ` : ''}${stats.total}문항 제공 · 세트는 제공된 문항으로 구성해요` : `${pool.length}${unit} 중 무작위 추출 · 실전 ${info.size}${unit}`}</p>`}</section>`;
       }).join('')}</div>`;
   }
 
@@ -308,8 +314,11 @@
   function renderExamSet() {
     const s = examSession, set = s.questions[s.index], part = s.part, fallback = !supportsSpeech || s.audioFallback, talk = part === 3 ? '대화' : '담화';
     const last = s.index === s.questions.length - 1, right = examTargets(set).filter(i => s.picks[i] === set.questions[i].answer).length;
+    const numbers = examTargets(set).map(i => i + 1);
+    const range = numbers.every((n, i) => n === numbers[0] + i) ? `${numbers[0]}–${numbers.at(-1)}` : numbers.join(' and ');
+    const direction = numbers.length === 1 ? `Question ${numbers[0]} refers` : `Questions ${range} refer`;
     return `${back('#/exam', '문제 홈')}<div class="session-top"><span class="pill">Part ${part} · ${s.type ? escape(EXAM_TYPES[s.type]) + ' 연습' : s.mode === 'wrong' ? '틀린 세트' : '실전 세트'}</span><p>${s.index + 1} / ${s.questions.length} 세트</p></div>${meter(s.index, s.questions.length, '세트 풀이 진행')}${s.type ? `<p class="exam-note">${escape(EXAM_TYPES[s.type])} 유형만 답하고 채점해요.</p>` : ''}
-      <section class="exam-question exam-set" data-question-id="${escape(set.id)}"><div class="exam-listening-heading">${icon('headphones')}<h1>세트 ${s.index + 1}</h1></div><p class="exam-set-direction" lang="en">Questions 1–3 refer to the following ${EXAM_TALKS[set.talkType]}.</p>
+      <section class="exam-question exam-set" data-question-id="${escape(set.id)}"><div class="exam-listening-heading">${icon('headphones')}<h1>세트 ${s.index + 1}</h1></div><p class="exam-set-direction" lang="en">${direction} to the following ${EXAM_TALKS[set.talkType]}.</p>
       <div class="button-row exam-audio-controls"><button id="exam-replay" class="secondary" data-action="exam-audio" aria-label="Part ${part} ${talk}와 질문 ${s.heard ? '다시 듣기' : '듣기'}" ${!supportsSpeech ? 'disabled' : ''}>${icon('volume-2')} ${s.heard ? '다시 듣기' : '듣기'}</button>${s.audioPlaying ? '<button data-action="exam-audio-stop" aria-label="문제 음성 정지">정지</button>' : ''}</div><p class="exam-note exam-audio-status">${fallback ? '음성을 재생할 수 없어 대본을 표시해요' : escape(s.audioStatus)}</p>${fallback && !s.answered ? renderSetScript(set, false) : ''}
       ${set.graphic ? renderExamGraphic(set.graphic, s.answered) : ''}
       <ol class="exam-set-questions">${set.questions.map((q, qi) => {
